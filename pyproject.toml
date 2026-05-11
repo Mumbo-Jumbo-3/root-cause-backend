@@ -34,6 +34,12 @@ health-agent = "health_agent.cli:app"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/health_agent"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/health_agent/content" = "health_agent/content"
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 

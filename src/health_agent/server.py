@@ -24,6 +24,12 @@ from sse_starlette.sse import EventSourceResponse
 
 from health_agent.auth import require_clerk_user, require_webhook_secret
 from health_agent.config import get_settings
+from health_agent.content import (
+    get_featured,
+    get_product,
+    list_featured,
+    list_products,
+)
 from health_agent.db.core import get_session_factory
 from health_agent.db.models import SharedConversation, Thread, User
 from health_agent.graph import build_graph
@@ -462,6 +468,32 @@ async def get_share_state(request: Request, share_id: str) -> JSONResponse:
     values = snapshot.values or {}
     messages = _serialize_messages(values.get("messages", []))
     return JSONResponse({"values": {"messages": messages}})
+
+
+@app.get("/featured")
+async def list_featured_endpoint() -> JSONResponse:
+    return JSONResponse(list_featured())
+
+
+@app.get("/featured/{slug}")
+async def get_featured_endpoint(slug: str) -> JSONResponse:
+    item = get_featured(slug)
+    if item is None:
+        raise HTTPException(status_code=404, detail="not found")
+    return JSONResponse(item)
+
+
+@app.get("/products")
+async def list_products_endpoint() -> JSONResponse:
+    return JSONResponse(list_products())
+
+
+@app.get("/products/{slug}")
+async def get_product_endpoint(slug: str) -> JSONResponse:
+    item = get_product(slug)
+    if item is None:
+        raise HTTPException(status_code=404, detail="not found")
+    return JSONResponse(item)
 
 
 def _primary_email(email_addresses: list) -> str | None:
