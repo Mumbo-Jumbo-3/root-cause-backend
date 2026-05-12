@@ -1,9 +1,9 @@
-"""Loaders for pre-defined featured queries and product pages.
+"""Loaders for pre-defined featured queries and ingestible pages.
 
 Content is stored as `meta.json` + `response.md` per slug under
-`src/health_agent/content/{featured,products}/{slug}/`. The frontend pulls these
-via the `/featured` and `/products` endpoints so editing a response no longer
-requires a frontend redeploy.
+`src/health_agent/content/{featured,ingestibles}/{slug}/`. The frontend pulls
+these via the `/featured` and `/ingestibles` endpoints so editing a response no
+longer requires a frontend redeploy.
 """
 
 from __future__ import annotations
@@ -14,7 +14,7 @@ from typing import Any
 
 CONTENT_ROOT = Path(__file__).parent / "content"
 _FEATURED_ROOT = CONTENT_ROOT / "featured"
-_PRODUCTS_ROOT = CONTENT_ROOT / "products"
+_INGESTIBLES_ROOT = CONTENT_ROOT / "ingestibles"
 
 
 def _load_meta(root: Path, slug: str) -> dict[str, Any] | None:
@@ -56,9 +56,9 @@ def get_featured(slug: str) -> dict[str, Any] | None:
     return _load_full(_FEATURED_ROOT, slug)
 
 
-def list_products() -> list[dict[str, Any]]:
-    return _list_metas(_PRODUCTS_ROOT)
+def list_ingestibles() -> list[dict[str, Any]]:
+    return _list_metas(_INGESTIBLES_ROOT)
 
 
-def get_product(slug: str) -> dict[str, Any] | None:
-    return _load_full(_PRODUCTS_ROOT, slug)
+def get_ingestible(slug: str) -> dict[str, Any] | None:
+    return _load_full(_INGESTIBLES_ROOT, slug)
