@@ -57,30 +57,13 @@ The most bioavailable vitamin C comes from whole foods, which provide beneficial
 
 ## Top 3 Highest Quality Vitamin C Products
 
-### 1. Thorne Vitamin C with Flavonoids (Best Overall Quality)
-**Why it's top-tier**: Consistently ranked #1 by nutrition professionals for its third-party testing, NSF certification, and clinical-grade manufacturing. The added bioflavonoids enhance absorption and provide additional antioxidant benefits.
+### 1. [HealthForce Truly Natural Vitamin C](https://healthforce.com/products/truly-natural-vitamin-c?variant=46312265384102)
+**Why**: 100% food-based vitamin C complex sourced from acerola cherry, organic camu camu berry, and organic amla berry — no synthetic ascorbic acid or chemical solvents. The whole-food matrix preserves natural cofactors (bioflavonoids, polyphenols) that support cellular absorption and utilization the way vitamin C occurs in nature. Manufactured at an NSF-certified, GMP-certified facility in Arizona with rigorous testing for GMOs, pesticides, heavy metals, microbiology, and botanical identity. Packaged in recyclable amber glass with oxygen absorbers to protect potency.
 
-- **Form**: Capsules (500-1,000mg with bioflavonoids)
-- **Best for**: Daily maintenance, immune support, and those prioritizing verified purity
-- **Key features**: Minimal fillers, practitioner-grade quality, extensive testing protocols
+### 2. [Terrasoul Camu Camu Powder](https://www.terrasoul.com/products/camu-camu-powder-12)
+**Why**: Raw, certified organic, wild-harvested camu camu from the Amazon basin in Peru — one of the most concentrated whole-food sources of vitamin C on earth (up to 60x the vitamin C of oranges). Guaranteed minimum 8.6% vitamin C by weight, gently dried at low temperatures with the fibrous seed removed to maximize concentration. Non-GMO Project verified, kosher, and free of additives, delivering vitamin C alongside naturally occurring antioxidants, phytochemicals, amino acids, and minerals. Ideal for adding to smoothies or water for a food-first daily dose.
 
-### 2. Pure Encapsulations Liposomal Vitamin C (Best Absorption & Purity)
-**Why it's top-tier**: NSF-certified with rigorous contaminant testing. The liposomal delivery system significantly improves absorption while being gentle on the digestive system. Hypoallergenic with minimal additives.
-
-- **Form**: Liquid (1,000mg per teaspoon) or capsules
-- **Best for**: High-dose needs, sensitive digestion, maximum bioavailability
-- **Key features**: Enhanced absorption, stomach-friendly, clean formulation
-
-### 3. Nutripure Vitamin C Pure Quali-C (Best Pharmaceutical-Grade Purity)
-**Why it's top-tier**: Uses Quali-C, a premium European-certified L-ascorbic acid meeting the highest pharmaceutical purity standards. Third-party tested with exceptional traceability and minimal processing.
-
-- **Form**: Pure powder or capsules
-- **Best for**: Maximum purity, custom dosing flexibility, therapeutic applications
-- **Key features**: Pharmaceutical-grade ascorbic acid, no artificial additives, exceptional purity metrics
-
-## Quick Selection Guide
-- **Daily wellness**: Thorne with Flavonoids
-- **High doses or sensitive stomach**: Pure Encapsulations Liposomal
-- **Maximum purity**: Nutripure Quali-C
+### 3. Thorne Vitamin C with Flavonoids
+**Why**: Consistently ranked #1 by nutrition professionals for its third-party testing, NSF certification, and clinical-grade manufacturing. The added bioflavonoids enhance absorption and provide additional antioxidant benefits — a solid practitioner-grade option when a standardized capsule dose is preferred over whole-food powders.
 
 Always verify current third-party testing results and look for NSF, USP, or ConsumerLab certifications. For most adults, 500-1,000mg daily covers both maintenance and mild therapeutic needs, though higher amounts may be beneficial during illness or stress periods.

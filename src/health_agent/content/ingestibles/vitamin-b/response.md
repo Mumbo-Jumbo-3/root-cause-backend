@@ -62,20 +62,14 @@ Since B vitamins are water-soluble and can't be stored long-term, you need them 
 
 After reviewing expert analyses and third-party testing standards, these three products stand out for purity, potency, and bioavailability:
 
-### 1. Thorne B-Complex #12
-**Best for**: Professional-grade quality and bioactive forms
+### 1. Objective Nutrients Thiactive B Complex
+**Why**: A standout formula built around highly bioavailable thiamine derivatives—**TTFD (thiamine tetrahydrofurfuryl disulfide)** and **benfotiamine**—that bypass standard intestinal transport for superior absorption. Pairs dual active folate forms (L-methylfolate plus folinic acid) with both methylcobalamin and adenosylcobalamin B12, alongside riboflavin-5-phosphate and pyridoxal-5-phosphate. Includes **D-ribose** for additional ATP production support. Independent lab test results are published per batch. Best taken in the morning (1–2 capsules max), and avoid coffee/tea within an hour before or two hours after dosing. Note: some users experience a brief "paradoxical reaction" (mild fatigue or brain fog) in the first week.
 
-Features all eight B vitamins in their most absorbable forms, including methylated folate and B12. Third-party tested for contaminants and potency, NSF Certified for Sport, and free from gluten, dairy, and soy. Thorne's reputation for research-backed formulations makes this ideal for those seeking premium quality.
+### 2. Triquetra BioActive Vitamin B Complex
+**Why**: Delivers all B vitamins in their coenzyme/methylated forms, featuring premium trademarked ingredients: **BenfoPure® benfotiamine** (B1) with up to 500% better absorption than standard thiamine, and **Pantesin® pantethine** (B5) with up to 200% greater bioavailability than pantothenic acid. Uniquely provides B12 in **three active forms**—methylcobalamin, adenosylcobalamin, and hydroxocobalamin—targeting energy, cellular storage, and detoxification pathways. Includes L-methylfolate (B9), P5P (B6), plus choline bitartrate and inositol (40:1 myo/D-chiro ratio) for enhanced B-vitamin synergy. 60-capsule bottle, FSA/HSA eligible.
 
-### 2. Pure Encapsulations B-Complex Plus
-**Best for**: Sensitive individuals and purity
-
-Delivers active forms of all B vitamins without unnecessary additives, artificial colors, or common allergens. Rigorous third-party testing ensures purity and potency. Hypoallergenic and vegan-friendly, making it perfect for those with sensitivities while remaining affordable among premium options.
-
-### 3. Nordic Naturals Vitamin B Complex
-**Best for**: Overall value and dietitian-approved quality
-
-Provides all eight essential B vitamins in bioactive forms with comprehensive third-party testing. Clean formulation free from gluten, soy, dairy, and artificial additives. Vegan-certified with transparent testing practices, offering reliable quality at a reasonable price point.
+### 3. Pure Encapsulations B-Complex Plus
+**Why**: Delivers active methylated forms of all B vitamins without unnecessary additives, artificial colors, or common allergens. Rigorous third-party testing ensures purity and potency. Hypoallergenic and vegan-friendly, making it perfect for those with sensitivities while remaining affordable among premium options.
 
 ## Buying Tips
 

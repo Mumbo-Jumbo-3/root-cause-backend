@@ -56,23 +56,14 @@ Vitamin K is remarkably safe even at high doses with minimal toxicity concerns. 
 
 Based on independent third-party testing for potency, purity, contaminants, and label accuracy:
 
-### 1. Healthy Origins Natural Vitamin K2 as MK-7
-- **Why it's #1**: Top pick from independent testing for the MK-7 form
-- **Key specs**: 100 mcg MK-7 per serving from high-purity sources
-- **Best for**: Daily use focused on K2 benefits (bone mineralization, arterial health)
-- **Quality markers**: Passed all tests for potency, purity, and contaminants; excellent value among approved products
+### 1. [Triquetra Total K2](https://triquetrahealth.com/products/total-k2-full-spectrum-vitamin-k2-liquid?_pos=6&_sid=96f122e2a&_ss=r)
+- **Why**: Full-spectrum liquid delivering all four bioactive K2 menaquinones (MK-4, MK-6, MK-7, MK-9) in an olive oil base for superior fat-soluble absorption. The comprehensive menaquinone profile mirrors what you'd get from a varied whole-food diet, and the liquid format allows flexible dosing without fillers, binders, or capsule excipients.
 
-### 2. InnovixLabs Full Spectrum Vitamin K2
-- **Why it ranks highly**: Combines both MK-4 + MK-7 for comprehensive coverage
-- **Key specs**: Typically 100 mcg MK-7 + 500 mcg MK-4 per serving
-- **Best for**: Those wanting both short-acting (MK-4) and long-acting (MK-7) forms
-- **Quality markers**: Passed rigorous independent testing; includes MCT oil for better absorption
+### 2. [Sports Research Vitamin D3 + K2](https://www.sportsresearch.com/products/vitamin-d3-k2)
+- **Why**: Pairs 5,000 IU of D3 with 100 mcg of MK-7 (as MenaQ7®) in a coconut oil softgel — the gold-standard branded MK-7 with >98% purity and clinically validated bioavailability. D3 and K2 work synergistically (D3 raises calcium absorption, K2 directs it to bone), and the product is third-party tested, non-GMO, and IGEN-certified.
 
-### 3. Thorne Vitamin D + K2 (or standalone K2)
-- **Why it ranks highly**: Consistently meets strict quality standards with NSF GMP facilities
-- **Key specs**: High-bioavailability MK-7, often combined with vitamin D3
-- **Best for**: Those who also need vitamin D (works synergistically with K2)
-- **Quality markers**: Third-party tested for potency/purity with minimal fillers
+### 3. [Pure Encapsulations Synergy K](https://www.pureencapsulationspro.com/synergy-k.html)
+- **Why**: Practitioner-grade formula combining vitamin D3 with both K1 and K2 (as MK-7) for full-spectrum vitamin K coverage. Pure Encapsulations is hypoallergenic, free from common allergens and unnecessary excipients, and manufactured in NSF-registered facilities — a strong fit for sensitive users or anyone prioritizing clean-label sourcing.
 
 ## Buying Tips for Maximum Quality
 

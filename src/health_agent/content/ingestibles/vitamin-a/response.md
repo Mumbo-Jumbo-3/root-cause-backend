@@ -60,14 +60,18 @@ The optimal sources are animal-based retinol forms, which are far superior to pl
 
 ## Top 3 High-Quality Vitamin A Products
 
-### 1. Pure Encapsulations Vitamin A (10,000 IU)
-**Why it's exceptional**: This standout product offers unmatched purity with hypoallergenic formulation free of common allergens and fillers (no soy, dairy, gluten, GMOs, or unnecessary binders). Rigorously third-party tested for potency, identity, heavy metals, microbes, and contaminants through independent labs like Eurofins. Meets or exceeds USP/NSF-GMP standards and is frequently recommended by dietitians for reliability and clean profile.
+### 1. MK Supplements Beef Liver
+**Why it's exceptional**: Sourced from 100% grass-fed and grass-finished cattle raised on regenerative pastures in New Zealand. The liver is freeze-dried rather than hexane-defatted (the more common industry process), which preserves the fat-soluble nutrients that matter most here — preformed retinol vitamin A, CoQ10, and omega-3s. Each batch is tested for heavy metals and microbial contaminants, and the product contains a single ingredient with no fillers, binders, or flow agents. Beyond vitamin A, it delivers a dense, nature-identical matrix of heme iron, B12, copper, choline, and folate, and ruminant liver has no documented history of causing vitamin A toxicity.
 
-### 2. Thorne Research Vitamin A
-**Why it's exceptional**: Thorne ranks among the top clinical-grade vitamin brands with NSF Certified for Sport options and TGA certification. Their products undergo rigorous multi-stage testing from raw materials through finished product for purity, potency, and contaminants. Features transparent sourcing, excellent bioavailability, and minimal additives, making it a premium choice for the highest standards.
+### 2. [Rosita Extra Virgin Cod Liver Oil](https://www.rositausa.com/products/extra-virgin-cod-liver-oil-softgels)
+**Why it's exceptional**: One of the only cod liver oils on the market produced by a raw, non-heat, non-chemical extraction process, preserving naturally occurring vitamins A and D alongside omega-3s in their native, unoxidized form. Sourced from wild-caught Norwegian cod and pressed within hours of harvest. Contains no synthetic vitamins, solvents, or refining steps — just the oil as it naturally exists in the liver. Third-party tested for freshness (low TOTOX), purity, and heavy metals.
 
-### 3. Nordic Naturals Arctic Cod Liver Oil
-**Why it's exceptional**: Provides natural preformed vitamin A alongside omega-3s and vitamin D from sustainably sourced, high-purity fish liver oil. Undergoes extensive third-party testing meeting International Fish Oil Standards for freshness, purity, and contaminant removal (heavy metals, PCBs). Offers a food-based source with simple ingredients and is consistently praised for quality control.
+### 3. Wildly Organic Red Palm Oil
+**Why it's exceptional**: Cold-pressed and unrefined, this oil retains the deep reddish-orange pigment that signals its rich beta-carotene and full-spectrum vitamin E (both tocopherols and tocotrienols) content — higher than virtually any other culinary oil. Sourced from Ecuador, it carries RSPO, Fair for Life, and Palm Done Right certifications along with non-GMO status. Because it delivers vitamin A as carotenoid precursors rather than preformed retinol, the toxicity ceiling is effectively non-existent.
+
+### How to Choose Between Them
+
+Choose beef/bison liver supplements if your goal is maximum nutrient density in capsule form (especially iron, B12, and overall vitality) alongside high vitamin A. Choose cod liver oil primarily when you want omega-3s + D + A together. Choose red palm oil for long-term daily and culinary use.
 
 ## Implementation Strategy
 

@@ -71,14 +71,14 @@ Research shows that adequate vitamin D levels are linked to reduced all-cause mo
 
 ## Top 3 High-Quality Vitamin D Supplements
 
-### 1. **Thorne Vitamin D + K2 (or Thorne Vitamin D Liquid)**
-Thorne stands out for its rigorous multi-stage testing, including four rounds of in-house plus third-party verification and NSF certification. This professional-grade brand is trusted by clinicians and athletes, offering full transparency on purity and potency. The D3 + K2 combo supports optimal bone health and calcium utilization, while the liquid form provides flexible dosing with minimal ingredients.
+### 1. **[Nordic Naturals Arctic-D Cod Liver Oil](https://www.nordic.com/products/arctic-d-cod-liver-oil/?variant=39472186196152)**
+**Why**: Delivers vitamin D3 alongside naturally occurring vitamin A and the omega-3s EPA and DHA from wild-caught Arctic cod — a whole-food synergy you can't replicate with isolated D3. Nordic Naturals is third-party tested for purity, freshness, and heavy metals, and consistently exceeds the strictest international standards for fish oil quality. The liquid form makes dosing flexible and absorption excellent when taken with a fatty meal.
 
-### 2. **Pure Encapsulations Vitamin D3 (or D3 + K2)**
-Pure Encapsulations is consistently praised for exceptionally clean, hypoallergenic formulas with no artificial additives, fillers, or common allergens. All products undergo rigorous third-party testing for label accuracy, purity, and contaminants. High-potency options (like 5,000 IU) make it ideal for correcting deficiencies while maintaining top-tier quality standards.
+### 2. **[Triquetra Plant-D3 + K2](https://triquetrahealth.com/products/plant-d3-k2-5000-iu-d3-strength)**
+**Why**: One of the few truly vegan D3 supplements, sourced from organic lichen rather than lanolin, paired with MK-7 vitamin K2 for synergistic bone and cardiovascular support. The 5,000 IU potency makes it well-suited for correcting deficiencies, and Triquetra uses third-party testing with clean, organic ingredients free of common allergens and additives.
 
-### 3. **Sports Research Vitamin D3 + K2**
-Sports Research earns high marks for consistent third-party testing and transparent practices. It uses clean ingredients like organic coconut MCT oil for enhanced absorption, with no unnecessary additives. The softgels are small and easy to take, and the D3 + K2 pairing offers excellent quality and value.
+### 3. **[Sports Research Vitamin D3 + K2](https://www.sportsresearch.com/products/vitamin-d3-k2)**
+**Why**: Excellent quality-to-value ratio with consistent third-party testing and transparent labeling. Uses organic coconut MCT oil as a carrier to enhance fat-soluble absorption, and the D3 + K2 pairing supports proper calcium utilization. The small softgels are easy to take daily, and the formula avoids unnecessary additives.
 
 ### Buying Tips
 - **Look for**: Third-party testing seals (NSF, USP, Informed-Sport)
