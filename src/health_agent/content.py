@@ -1,8 +1,8 @@
-"""Loaders for pre-defined featured queries and ingestible pages.
+"""Loaders for pre-defined featured queries and nutrient pages.
 
 Content is stored as `meta.json` + `response.md` per slug under
-`src/health_agent/content/{featured,ingestibles}/{slug}/`. The frontend pulls
-these via the `/featured` and `/ingestibles` endpoints so editing a response no
+`src/health_agent/content/{featured,nutrients}/{slug}/`. The frontend pulls
+these via the `/featured` and `/nutrients` endpoints so editing a response no
 longer requires a frontend redeploy.
 """
 
@@ -14,7 +14,7 @@ from typing import Any
 
 CONTENT_ROOT = Path(__file__).parent / "content"
 _FEATURED_ROOT = CONTENT_ROOT / "featured"
-_INGESTIBLES_ROOT = CONTENT_ROOT / "ingestibles"
+_NUTRIENTS_ROOT = CONTENT_ROOT / "nutrients"
 
 
 def _load_meta(root: Path, slug: str) -> dict[str, Any] | None:
@@ -56,9 +56,9 @@ def get_featured(slug: str) -> dict[str, Any] | None:
     return _load_full(_FEATURED_ROOT, slug)
 
 
-def list_ingestibles() -> list[dict[str, Any]]:
-    return _list_metas(_INGESTIBLES_ROOT)
+def list_nutrients() -> list[dict[str, Any]]:
+    return _list_metas(_NUTRIENTS_ROOT)
 
 
-def get_ingestible(slug: str) -> dict[str, Any] | None:
-    return _load_full(_INGESTIBLES_ROOT, slug)
+def get_nutrient(slug: str) -> dict[str, Any] | None:
+    return _load_full(_NUTRIENTS_ROOT, slug)

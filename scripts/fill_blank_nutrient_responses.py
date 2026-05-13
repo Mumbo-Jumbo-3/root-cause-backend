@@ -1,7 +1,7 @@
-"""Fill blank ingestible response.md files with generated ingestible guides.
+"""Fill blank nutrient response.md files with generated nutrient guides.
 
 Run from the backend directory:
-    uv run --group dev python scripts/fill_blank_ingestible_responses.py
+    uv run --group dev python scripts/fill_blank_nutrient_responses.py
 """
 
 from __future__ import annotations
@@ -26,21 +26,21 @@ DEFAULT_CONTENT_ROOT = (
     / "src"
     / "health_agent"
     / "content"
-    / "ingestibles"
+    / "nutrients"
 )
 PROMPT_TEMPLATE = (
-    "Research {ingestible} as a nutrient for humans, what is it for? "
+    "Research {nutrient} for humans, what is it for? "
     "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? "
-    "What are the top 3 highest quality/purity {ingestible} products i can buy?"
+    "What are the top 3 highest quality/purity {nutrient} products i can buy?"
 )
 RESEARCH_PROMPT_TEMPLATE = (
-    "Research {ingestible} as a nutrient for humans, what is it for? "
+    "Research {nutrient} for humans, what is it for? "
     "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)?"
 )
 PRODUCT_PROMPT_TEMPLATE = (
-    "What are the top 3 highest quality/purity {ingestible} products i can buy?"
+    "What are the top 3 highest quality/purity {nutrient} products i can buy?"
 )
-SYNTHESIS_SYSTEM_PROMPT = """You are writing consumer-facing ingestible guides.
+SYNTHESIS_SYSTEM_PROMPT = """You are writing consumer-facing nutrient guides.
 Use the research and ingestion response for nutrient purpose, food/forms, amounts,
 and risks. Use the product response for buyable product recommendations.
 Write one coherent Markdown guide that answers every part of the original prompt.
@@ -48,7 +48,7 @@ Do not mention internal pipelines, model names, LangGraph, Grok, Claude, or prom
 
 
 @dataclass(frozen=True)
-class IngestibleEntry:
+class NutrientEntry:
     slug: str
     name: str
     response_path: Path
@@ -76,7 +76,7 @@ def slug_to_name(slug: str) -> str:
     return words.title() if words else slug
 
 
-def load_ingestible_name(entry_dir: Path) -> str:
+def load_nutrient_name(entry_dir: Path) -> str:
     meta_path = entry_dir / "meta.json"
     if meta_path.is_file():
         try:
@@ -95,36 +95,36 @@ def is_blank_response(response_path: Path) -> bool:
     return not response_path.read_text(encoding="utf-8").strip()
 
 
-def find_blank_ingestibles(content_root: Path) -> list[IngestibleEntry]:
+def find_blank_nutrients(content_root: Path) -> list[NutrientEntry]:
     if not content_root.is_dir():
-        raise FileNotFoundError(f"ingestibles content root not found: {content_root}")
+        raise FileNotFoundError(f"nutrients content root not found: {content_root}")
 
-    blanks: list[IngestibleEntry] = []
+    blanks: list[NutrientEntry] = []
     for entry_dir in sorted(content_root.iterdir(), key=lambda path: path.name):
         if not entry_dir.is_dir():
             continue
         response_path = entry_dir / "response.md"
         if is_blank_response(response_path):
             blanks.append(
-                IngestibleEntry(
+                NutrientEntry(
                     slug=entry_dir.name,
-                    name=load_ingestible_name(entry_dir),
+                    name=load_nutrient_name(entry_dir),
                     response_path=response_path,
                 )
             )
     return blanks
 
 
-def build_prompt(ingestible_name: str) -> str:
-    return PROMPT_TEMPLATE.format(ingestible=ingestible_name)
+def build_prompt(nutrient_name: str) -> str:
+    return PROMPT_TEMPLATE.format(nutrient=nutrient_name)
 
 
-def build_research_prompt(ingestible_name: str) -> str:
-    return RESEARCH_PROMPT_TEMPLATE.format(ingestible=ingestible_name)
+def build_research_prompt(nutrient_name: str) -> str:
+    return RESEARCH_PROMPT_TEMPLATE.format(nutrient=nutrient_name)
 
 
-def build_product_prompt(ingestible_name: str) -> str:
-    return PRODUCT_PROMPT_TEMPLATE.format(ingestible=ingestible_name)
+def build_product_prompt(nutrient_name: str) -> str:
+    return PRODUCT_PROMPT_TEMPLATE.format(nutrient=nutrient_name)
 
 
 def extract_response_text(payload: dict[str, Any]) -> str:
@@ -201,18 +201,18 @@ def extract_graph_response_text(result: Any) -> str:
 
 
 def build_synthesis_user_prompt(
-    ingestible_name: str,
+    nutrient_name: str,
     full_prompt: str,
     research_response: str,
     product_response: str,
 ) -> str:
     return (
-        f"## Ingestible\n{ingestible_name}\n\n"
+        f"## Nutrient\n{nutrient_name}\n\n"
         f"## Original Prompt\n{full_prompt}\n\n"
         f"## Research and Ingestion Response\n{research_response}\n\n"
         f"## Product Response\n{product_response}\n\n"
         "Synthesize the two responses into a single practical guide. "
-        "The guide must answer what the ingestible is for, how it is best ingested, "
+        "The guide must answer what the nutrient is for, how it is best ingested, "
         "and the top 3 high-quality/purity products someone can buy."
     )
 
@@ -233,7 +233,7 @@ def missing_runtime_config(settings: Any, xai_api_key: str) -> list[str]:
     return [name for name, value in checks.items() if not str(value).strip()]
 
 
-class IngestibleResponsePipeline:
+class NutrientResponsePipeline:
     def __init__(
         self,
         *,
@@ -281,7 +281,7 @@ class IngestibleResponsePipeline:
 
     def _claude_synthesis(
         self,
-        ingestible_name: str,
+        nutrient_name: str,
         full_prompt: str,
         research_response: str,
         product_response: str,
@@ -297,7 +297,7 @@ class IngestibleResponsePipeline:
                 SystemMessage(content=SYNTHESIS_SYSTEM_PROMPT),
                 HumanMessage(
                     content=build_synthesis_user_prompt(
-                        ingestible_name,
+                        nutrient_name,
                         full_prompt,
                         research_response,
                         product_response,
@@ -307,10 +307,10 @@ class IngestibleResponsePipeline:
         )
         return extract_message_text(response)
 
-    def __call__(self, ingestible_name: str) -> str:
-        full_prompt = build_prompt(ingestible_name)
-        research_prompt = build_research_prompt(ingestible_name)
-        product_prompt = build_product_prompt(ingestible_name)
+    def __call__(self, nutrient_name: str) -> str:
+        full_prompt = build_prompt(nutrient_name)
+        research_prompt = build_research_prompt(nutrient_name)
+        product_prompt = build_product_prompt(nutrient_name)
         research_call = self._research_call or self._langgraph_research
         product_call = self._product_call or self._grok_product_search
         synthesis_call = self._synthesis_call or self._claude_synthesis
@@ -327,7 +327,7 @@ class IngestibleResponsePipeline:
             raise RuntimeError("product branch returned empty output")
 
         synthesized = synthesis_call(
-            ingestible_name,
+            nutrient_name,
             full_prompt,
             research_response,
             product_response,
@@ -337,7 +337,7 @@ class IngestibleResponsePipeline:
         return synthesized
 
 
-def fill_blank_ingestibles(
+def fill_blank_nutrients(
     content_root: Path,
     api_key: str,
     model: str = DEFAULT_MODEL,
@@ -347,7 +347,7 @@ def fill_blank_ingestibles(
     generate_response: ResponseGenerator | None = None,
     settings: Any | None = None,
 ) -> FillResult:
-    blanks = find_blank_ingestibles(content_root)
+    blanks = find_blank_nutrients(content_root)
     failures: list[str] = []
     written_count = 0
 
@@ -377,7 +377,7 @@ def fill_blank_ingestibles(
                 raise MissingRuntimeConfigError(
                     "Missing required environment variable(s): " + ", ".join(missing)
                 )
-            generate_response = IngestibleResponsePipeline(
+            generate_response = NutrientResponsePipeline(
                 xai_api_key=api_key,
                 product_model=model,
                 timeout_seconds=timeout_seconds,
@@ -411,13 +411,13 @@ def fill_blank_ingestibles(
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Fill blank ingestible response.md files using LangGraph, Grok, and Claude."
+        description="Fill blank nutrient response.md files using LangGraph, Grok, and Claude."
     )
     parser.add_argument(
         "--content-root",
         type=Path,
         default=DEFAULT_CONTENT_ROOT,
-        help=f"Ingestibles content root. Defaults to {DEFAULT_CONTENT_ROOT}.",
+        help=f"Nutrients content root. Defaults to {DEFAULT_CONTENT_ROOT}.",
     )
     parser.add_argument(
         "--model",
@@ -427,7 +427,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="List blank ingestibles without calling xAI or writing files.",
+        help="List blank nutrients without calling xAI or writing files.",
     )
     parser.add_argument(
         "--timeout",
@@ -443,7 +443,7 @@ def main() -> int:
     api_key = os.environ.get("XAI_API_KEY", "")
 
     try:
-        result = fill_blank_ingestibles(
+        result = fill_blank_nutrients(
             content_root=args.content_root,
             api_key=api_key,
             model=args.model,
@@ -458,13 +458,13 @@ def main() -> int:
         return 1
 
     if result.blank_count == 0:
-        print("No blank ingestible responses found.")
+        print("No blank nutrient responses found.")
     elif args.dry_run:
-        print(f"Found {result.blank_count} blank ingestible response(s).")
+        print(f"Found {result.blank_count} blank nutrient response(s).")
     else:
         print(
             f"Done: wrote {result.written_count}/{result.blank_count} blank "
-            "ingestible response(s)."
+            "nutrient response(s)."
         )
 
     return 1 if result.failures else 0

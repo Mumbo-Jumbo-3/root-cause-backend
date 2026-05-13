@@ -26,9 +26,9 @@ from health_agent.auth import require_clerk_user, require_webhook_secret
 from health_agent.config import get_settings
 from health_agent.content import (
     get_featured,
-    get_ingestible,
+    get_nutrient,
     list_featured,
-    list_ingestibles,
+    list_nutrients,
 )
 from health_agent.db.core import get_session_factory
 from health_agent.db.models import SharedConversation, Thread, User
@@ -483,14 +483,14 @@ async def get_featured_endpoint(slug: str) -> JSONResponse:
     return JSONResponse(item)
 
 
-@app.get("/ingestibles")
-async def list_ingestibles_endpoint() -> JSONResponse:
-    return JSONResponse(list_ingestibles())
+@app.get("/nutrients")
+async def list_nutrients_endpoint() -> JSONResponse:
+    return JSONResponse(list_nutrients())
 
 
-@app.get("/ingestibles/{slug}")
-async def get_ingestible_endpoint(slug: str) -> JSONResponse:
-    item = get_ingestible(slug)
+@app.get("/nutrients/{slug}")
+async def get_nutrient_endpoint(slug: str) -> JSONResponse:
+    item = get_nutrient(slug)
     if item is None:
         raise HTTPException(status_code=404, detail="not found")
     return JSONResponse(item)

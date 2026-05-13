@@ -4,18 +4,18 @@ from pathlib import Path
 
 import pytest
 
-from scripts.fill_blank_ingestible_responses import (
-    IngestibleResponsePipeline,
+from scripts.fill_blank_nutrient_responses import (
+    NutrientResponsePipeline,
     build_product_prompt,
     build_prompt,
     build_research_prompt,
     extract_response_text,
-    fill_blank_ingestibles,
-    find_blank_ingestibles,
+    fill_blank_nutrients,
+    find_blank_nutrients,
 )
 
 
-def write_ingestible(
+def write_nutrient(
     root: Path,
     slug: str,
     name: str | None = None,
@@ -32,25 +32,25 @@ def write_ingestible(
     return entry_dir
 
 
-def test_find_blank_ingestibles_detects_missing_and_whitespace(tmp_path: Path):
-    root = tmp_path / "ingestibles"
+def test_find_blank_nutrients_detects_missing_and_whitespace(tmp_path: Path):
+    root = tmp_path / "nutrients"
     root.mkdir()
-    write_ingestible(root, "alpha", "Alpha", "existing response")
-    write_ingestible(root, "beta", "Beta", "   \n\t")
-    write_ingestible(root, "gamma", "Gamma", None)
+    write_nutrient(root, "alpha", "Alpha", "existing response")
+    write_nutrient(root, "beta", "Beta", "   \n\t")
+    write_nutrient(root, "gamma", "Gamma", None)
 
-    blanks = find_blank_ingestibles(root)
+    blanks = find_blank_nutrients(root)
 
     assert [entry.slug for entry in blanks] == ["beta", "gamma"]
     assert [entry.name for entry in blanks] == ["Beta", "Gamma"]
 
 
-def test_find_blank_ingestibles_falls_back_to_slug_name(tmp_path: Path):
-    root = tmp_path / "ingestibles"
+def test_find_blank_nutrients_falls_back_to_slug_name(tmp_path: Path):
+    root = tmp_path / "nutrients"
     root.mkdir()
-    write_ingestible(root, "magnesium-glycinate", response="")
+    write_nutrient(root, "magnesium-glycinate", response="")
 
-    blanks = find_blank_ingestibles(root)
+    blanks = find_blank_nutrients(root)
 
     assert len(blanks) == 1
     assert blanks[0].name == "Magnesium Glycinate"
@@ -58,7 +58,7 @@ def test_find_blank_ingestibles_falls_back_to_slug_name(tmp_path: Path):
 
 def test_build_prompt_uses_exact_requested_template():
     assert build_prompt("Magnesium Glycinate") == (
-        "Research Magnesium Glycinate as a nutrient for humans, what is it for? "
+        "Research Magnesium Glycinate for humans, what is it for? "
         "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? "
         "What are the top 3 highest quality/purity Magnesium Glycinate products i can buy?"
     )
@@ -66,7 +66,7 @@ def test_build_prompt_uses_exact_requested_template():
 
 def test_build_research_and_product_prompts_split_original_prompt():
     assert build_research_prompt("Magnesium Glycinate") == (
-        "Research Magnesium Glycinate as a nutrient for humans, what is it for? "
+        "Research Magnesium Glycinate for humans, what is it for? "
         "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)?"
     )
     assert build_product_prompt("Magnesium Glycinate") == (
@@ -94,15 +94,15 @@ def test_extract_response_text_reads_response_output_blocks():
     assert extract_response_text(payload) == "First\nSecond"
 
 
-def test_fill_blank_ingestibles_dry_run_does_not_call_model_or_write(tmp_path: Path):
-    root = tmp_path / "ingestibles"
+def test_fill_blank_nutrients_dry_run_does_not_call_model_or_write(tmp_path: Path):
+    root = tmp_path / "nutrients"
     root.mkdir()
-    entry_dir = write_ingestible(root, "blank", "Blank", "")
+    entry_dir = write_nutrient(root, "blank", "Blank", "")
 
     def fail_generate_response(*args):
         raise AssertionError("generate_response should not be called during dry-run")
 
-    result = fill_blank_ingestibles(
+    result = fill_blank_nutrients(
         root,
         api_key="",
         dry_run=True,
@@ -114,18 +114,18 @@ def test_fill_blank_ingestibles_dry_run_does_not_call_model_or_write(tmp_path: P
     assert (entry_dir / "response.md").read_text(encoding="utf-8") == ""
 
 
-def test_fill_blank_ingestibles_writes_only_blank_responses(tmp_path: Path):
-    root = tmp_path / "ingestibles"
+def test_fill_blank_nutrients_writes_only_blank_responses(tmp_path: Path):
+    root = tmp_path / "nutrients"
     root.mkdir()
-    blank_dir = write_ingestible(root, "blank", "Blank", "")
-    filled_dir = write_ingestible(root, "filled", "Filled", "keep me")
+    blank_dir = write_nutrient(root, "blank", "Blank", "")
+    filled_dir = write_nutrient(root, "filled", "Filled", "keep me")
     names: list[str] = []
 
     def generate_response(name: str) -> str:
         names.append(name)
         return "generated response"
 
-    result = fill_blank_ingestibles(
+    result = fill_blank_nutrients(
         root,
         api_key="test-key",
         model="grok-4.3",
@@ -142,15 +142,15 @@ def test_fill_blank_ingestibles_writes_only_blank_responses(tmp_path: Path):
     assert names == ["Blank"]
 
 
-def test_fill_blank_ingestibles_reports_empty_model_output(tmp_path: Path):
-    root = tmp_path / "ingestibles"
+def test_fill_blank_nutrients_reports_empty_model_output(tmp_path: Path):
+    root = tmp_path / "nutrients"
     root.mkdir()
-    entry_dir = write_ingestible(root, "blank", "Blank", "")
+    entry_dir = write_nutrient(root, "blank", "Blank", "")
 
     def generate_response(name: str) -> str:
         return "   "
 
-    result = fill_blank_ingestibles(
+    result = fill_blank_nutrients(
         root,
         api_key="test-key",
         generate_response=generate_response,
@@ -162,15 +162,15 @@ def test_fill_blank_ingestibles_reports_empty_model_output(tmp_path: Path):
     assert (entry_dir / "response.md").read_text(encoding="utf-8") == ""
 
 
-def test_fill_blank_ingestibles_reports_pipeline_failure_without_writing(tmp_path: Path):
-    root = tmp_path / "ingestibles"
+def test_fill_blank_nutrients_reports_pipeline_failure_without_writing(tmp_path: Path):
+    root = tmp_path / "nutrients"
     root.mkdir()
-    entry_dir = write_ingestible(root, "blank", "Blank", "")
+    entry_dir = write_nutrient(root, "blank", "Blank", "")
 
     def generate_response(name: str) -> str:
         raise RuntimeError("branch failed")
 
-    result = fill_blank_ingestibles(
+    result = fill_blank_nutrients(
         root,
         api_key="test-key",
         generate_response=generate_response,
@@ -204,18 +204,18 @@ def test_response_pipeline_runs_research_and_product_in_parallel_and_synthesizes
         return "product response"
 
     def synthesis_call(
-        ingestible_name: str,
+        nutrient_name: str,
         full_prompt: str,
         research_response: str,
         product_response: str,
     ) -> str:
-        captured["ingestible_name"] = ingestible_name
+        captured["nutrient_name"] = nutrient_name
         captured["full_prompt"] = full_prompt
         captured["research_response"] = research_response
         captured["product_response"] = product_response
         return "final guide"
 
-    pipeline = IngestibleResponsePipeline(
+    pipeline = NutrientResponsePipeline(
         xai_api_key="test-key",
         research_call=research_call,
         product_call=product_call,
@@ -226,7 +226,7 @@ def test_response_pipeline_runs_research_and_product_in_parallel_and_synthesizes
     assert research_prompts == [build_research_prompt("Magnesium Glycinate")]
     assert product_prompts == [build_product_prompt("Magnesium Glycinate")]
     assert captured == {
-        "ingestible_name": "Magnesium Glycinate",
+        "nutrient_name": "Magnesium Glycinate",
         "full_prompt": build_prompt("Magnesium Glycinate"),
         "research_response": "research response",
         "product_response": "product response",
@@ -234,7 +234,7 @@ def test_response_pipeline_runs_research_and_product_in_parallel_and_synthesizes
 
 
 def test_response_pipeline_rejects_empty_research_branch():
-    pipeline = IngestibleResponsePipeline(
+    pipeline = NutrientResponsePipeline(
         xai_api_key="test-key",
         research_call=lambda prompt: " ",
         product_call=lambda prompt: "product response",
@@ -246,7 +246,7 @@ def test_response_pipeline_rejects_empty_research_branch():
 
 
 def test_response_pipeline_rejects_empty_product_branch():
-    pipeline = IngestibleResponsePipeline(
+    pipeline = NutrientResponsePipeline(
         xai_api_key="test-key",
         research_call=lambda prompt: "research response",
         product_call=lambda prompt: " ",
@@ -258,7 +258,7 @@ def test_response_pipeline_rejects_empty_product_branch():
 
 
 def test_response_pipeline_rejects_empty_synthesis():
-    pipeline = IngestibleResponsePipeline(
+    pipeline = NutrientResponsePipeline(
         xai_api_key="test-key",
         research_call=lambda prompt: "research response",
         product_call=lambda prompt: "product response",
