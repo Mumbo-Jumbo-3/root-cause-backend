@@ -116,15 +116,15 @@ def find_blank_nutrients(content_root: Path) -> list[NutrientEntry]:
 
 
 def build_prompt(nutrient_name: str) -> str:
-    return PROMPT_TEMPLATE.format(nutrient=nutrient_name)
+    return PROMPT_TEMPLATE.format(nutrient=nutrient_name.lower())
 
 
 def build_research_prompt(nutrient_name: str) -> str:
-    return RESEARCH_PROMPT_TEMPLATE.format(nutrient=nutrient_name)
+    return RESEARCH_PROMPT_TEMPLATE.format(nutrient=nutrient_name.lower())
 
 
 def build_product_prompt(nutrient_name: str) -> str:
-    return PRODUCT_PROMPT_TEMPLATE.format(nutrient=nutrient_name)
+    return PRODUCT_PROMPT_TEMPLATE.format(nutrient=nutrient_name.lower())
 
 
 def extract_response_text(payload: dict[str, Any]) -> str:

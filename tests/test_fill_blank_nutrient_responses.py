@@ -58,7 +58,7 @@ def test_find_blank_nutrients_falls_back_to_slug_name(tmp_path: Path):
 
 def test_build_prompt_uses_exact_requested_template():
     assert build_prompt("Magnesium Glycinate") == (
-        "Research Magnesium Glycinate for humans, what is it for? "
+        "Research magnesium glycinate for humans, what is it for? "
         "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? "
         "What are the top 3 highest quality/purity Magnesium Glycinate products i can buy?"
     )
@@ -66,11 +66,11 @@ def test_build_prompt_uses_exact_requested_template():
 
 def test_build_research_and_product_prompts_split_original_prompt():
     assert build_research_prompt("Magnesium Glycinate") == (
-        "Research Magnesium Glycinate for humans, what is it for? "
+        "Research magnesium glycinate for humans, what is it for? "
         "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)?"
     )
     assert build_product_prompt("Magnesium Glycinate") == (
-        "What are the top 3 highest quality/purity Magnesium Glycinate products i can buy?"
+        "What are the top 3 highest quality/purity magnesium glycinate products i can buy?"
     )
 
 

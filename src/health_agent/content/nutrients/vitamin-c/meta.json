@@ -1,5 +1,6 @@
 {
   "slug": "vitamin-c",
   "name": "Vitamin C",
-  "prompt": "Research Vitamin C as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity Vitamin C products i can buy?"
+  "aliases": ["ascorbic acid", "ascorbate", "L-ascorbic acid"],
+  "prompt": "Research vitamin C as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity vitamin C products i can buy?"
 }

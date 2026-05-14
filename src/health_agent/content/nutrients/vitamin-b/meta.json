@@ -1,5 +1,6 @@
 {
   "slug": "vitamin-b",
   "name": "Vitamin B",
-  "prompt": "Research Vitamin B as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity Vitamin B products i can buy?"
+  "aliases": ["B complex", "B-complex", "vitamin B complex", "B vitamins"],
+  "prompt": "Research vitamin B as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity vitamin B products i can buy?"
 }

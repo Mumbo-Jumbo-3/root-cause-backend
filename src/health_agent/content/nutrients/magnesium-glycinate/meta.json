@@ -1,5 +1,6 @@
 {
   "slug": "magnesium-glycinate",
   "name": "Magnesium Glycinate",
-  "prompt": "Research Magnesium Glycinate as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, supplements, etc)? What are the top 3 highest quality/purity Magnesium Glycinate products i can buy?"
+  "aliases": ["magnesium bisglycinate", "Mg glycinate"],
+  "prompt": "Research magnesium glycinate as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity magnesium glycinate products i can buy?"
 }

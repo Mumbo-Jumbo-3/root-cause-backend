@@ -1,5 +1,6 @@
 {
   "slug": "vitamin-d",
   "name": "Vitamin D",
-  "prompt": "Research Vitamin D as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity Vitamin D products i can buy?"
+  "aliases": ["Vitamin D3", "Vitamin D2", "cholecalciferol", "ergocalciferol", "calciferol"],
+  "prompt": "Research vitamin D as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity vitamin D products i can buy?"
 }

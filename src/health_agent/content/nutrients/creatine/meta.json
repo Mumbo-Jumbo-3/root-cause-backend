@@ -1,5 +1,6 @@
 {
   "slug": "creatine",
   "name": "Creatine",
-  "prompt": "Research Creatine as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity Creatine products i can buy?"
+  "aliases": ["creatine monohydrate", "creatine HCl"],
+  "prompt": "Research creatine as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity creatine products i can buy?"
 }
