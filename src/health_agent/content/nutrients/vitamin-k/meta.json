@@ -2,5 +2,5 @@
   "slug": "vitamin-k",
   "name": "Vitamin K",
   "aliases": ["Vitamin K1", "Vitamin K2", "K1", "K2", "phylloquinone", "menaquinone", "MK-4", "MK-7"],
-  "prompt": "Research vitamin K as a nutrient for humans, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? What are the top 3 highest quality/purity vitamin K products i can buy?"
+  "prompt": "Research vitamin K for human nutrition, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, dosing, risks, interactions, etc)? What are the top 3 highest quality/purity vitamin K products i can buy?"
 }

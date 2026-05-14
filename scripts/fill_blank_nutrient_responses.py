@@ -29,13 +29,13 @@ DEFAULT_CONTENT_ROOT = (
     / "nutrients"
 )
 PROMPT_TEMPLATE = (
-    "Research {nutrient} in human nutrition, what is it for? "
-    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, and interactions)? "
+    "Research {nutrient} for human nutrition, what is it for? "
+    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, dosing, risks, interactions, etc)? "
     "What are the top 3 highest quality/purity {nutrient} products i can buy?"
 )
 RESEARCH_PROMPT_TEMPLATE = (
-    "Research {nutrient} in human nutrition, what is it for? "
-    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, and interactions)?"
+    "Research {nutrient} for human nutrition, what is it for? "
+    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, dosing, risks, interactions, etc)?"
 )
 PRODUCT_PROMPT_TEMPLATE = (
     "What are the top 3 highest quality/purity {nutrient} products i can buy? "
@@ -179,16 +179,41 @@ def find_blank_nutrients(content_root: Path) -> list[NutrientEntry]:
     return blanks
 
 
+def _prompt_form(nutrient_name: str) -> str:
+    return " ".join(w.lower() if len(w) > 1 else w for w in nutrient_name.split())
+
+
 def build_prompt(nutrient_name: str) -> str:
-    return PROMPT_TEMPLATE.format(nutrient=nutrient_name)
+    return PROMPT_TEMPLATE.format(nutrient=_prompt_form(nutrient_name))
 
 
 def build_research_prompt(nutrient_name: str) -> str:
-    return RESEARCH_PROMPT_TEMPLATE.format(nutrient=nutrient_name)
+    return RESEARCH_PROMPT_TEMPLATE.format(nutrient=_prompt_form(nutrient_name))
 
 
 def build_product_prompt(nutrient_name: str) -> str:
-    return PRODUCT_PROMPT_TEMPLATE.format(nutrient=nutrient_name)
+    return PRODUCT_PROMPT_TEMPLATE.format(nutrient=_prompt_form(nutrient_name))
+
+
+def write_meta_prompt(entry_dir: Path, nutrient_name: str) -> bool:
+    meta_path = entry_dir / "meta.json"
+    if not meta_path.is_file():
+        return False
+    try:
+        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return False
+    if not isinstance(meta, dict):
+        return False
+    new_prompt = build_prompt(nutrient_name)
+    if meta.get("prompt") == new_prompt:
+        return False
+    meta["prompt"] = new_prompt
+    meta_path.write_text(
+        json.dumps(meta, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    return True
 
 
 def extract_response_text(payload: dict[str, Any]) -> str:
@@ -442,7 +467,7 @@ class NutrientResponsePipeline:
 
         research_call = self._research_call or self._langgraph_research
         prompts = {
-            section: SECTION_PROMPTS[section].format(nutrient=nutrient_name)
+            section: SECTION_PROMPTS[section].format(nutrient=_prompt_form(nutrient_name))
             for section in missing
         }
 
@@ -581,6 +606,8 @@ def fill_blank_nutrients(
         entry.response_path.write_text(generated + "\n", encoding="utf-8")
         written_count += 1
         print(f"wrote: {entry.response_path}")
+        if write_meta_prompt(entry.response_path.parent, entry.name):
+            print(f"synced prompt: {entry.slug}")
 
     return FillResult(
         blank_count=len(blanks),
@@ -621,11 +648,41 @@ def parse_args() -> argparse.Namespace:
         help="Process only the nutrient with this slug (e.g. 'zinc'). "
         "Errors if the slug is not in the blank set.",
     )
+    parser.add_argument(
+        "--sync-prompts",
+        action="store_true",
+        help="Rewrite the `prompt` field in every nutrient's meta.json to match "
+        "PROMPT_TEMPLATE, without generating responses.",
+    )
     return parser.parse_args()
+
+
+def sync_all_prompts(content_root: Path) -> int:
+    if not content_root.is_dir():
+        raise FileNotFoundError(f"nutrients content root not found: {content_root}")
+    updated = 0
+    for entry_dir in sorted(content_root.iterdir(), key=lambda p: p.name):
+        if not entry_dir.is_dir():
+            continue
+        name = load_nutrient_name(entry_dir)
+        if write_meta_prompt(entry_dir, name):
+            updated += 1
+            print(f"synced prompt: {entry_dir.name}")
+    return updated
 
 
 def main() -> int:
     args = parse_args()
+
+    if args.sync_prompts:
+        try:
+            updated = sync_all_prompts(args.content_root)
+        except Exception as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
+        print(f"Done: synced {updated} nutrient prompt(s).")
+        return 0
+
     api_key = os.environ.get("XAI_API_KEY", "")
 
     try:
