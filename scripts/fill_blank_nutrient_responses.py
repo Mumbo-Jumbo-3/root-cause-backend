@@ -46,14 +46,12 @@ SECTIONS: tuple[str, ...] = (
     "ingestion",
     "dosing",
     "risks",
-    "interactions",
 )
 SECTION_PROMPTS: dict[str, str] = {
     "purpose": "In human nutrition, what is {nutrient} for? What does it do in the body?",
     "ingestion": "In human nutrition, what are the best food, drink, and supplement sources of {nutrient}? What forms exist?",
     "dosing": "In human nutrition, what is the recommended daily intake of {nutrient}? Include amounts for typical adults.",
-    "risks": "In human nutrition, what are the risks, side effects, and upper limits of {nutrient}?",
-    "interactions": "In human nutrition, what drug and nutrient interactions does {nutrient} have?",
+    "risks": "In human nutrition, what are the risks, side effects, upper limits, and drug/nutrient interactions of {nutrient}?",
 }
 COVERAGE_SYSTEM_PROMPT = """You are checking whether a nutrient research response covers each required section.
 
@@ -61,15 +59,14 @@ Sections to evaluate:
 - purpose: what the nutrient is for / what it does in the body
 - ingestion: best food, drink, and supplement sources, and the forms available
 - dosing: recommended daily intake / amounts for typical adults
-- risks: risks, side effects, upper limits
-- interactions: drug and nutrient interactions
+- risks: risks, side effects, upper limits, and drug/nutrient interactions
 
 Return ONLY a JSON object mapping each section name to a boolean. A section is true only if the research text contains specific, on-topic content for it — not a generic mention or passing reference.
 
-Example: {"purpose": true, "ingestion": true, "dosing": true, "risks": true, "interactions": false}"""
+Example: {"purpose": true, "ingestion": true, "dosing": true, "risks": true}"""
 SYNTHESIS_SYSTEM_PROMPT = """You are writing consumer-facing nutrient guides.
-Use the research and ingestion response for nutrient purpose, food/forms, amounts,
-risks, and interactions. Use the product response for buyable product recommendations.
+Use the research and ingestion response for nutrient purpose, food/forms, dosing,
+and risks. Use the product response for buyable product recommendations.
 
 Write one coherent Markdown guide using exactly these section headings, in order:
 
@@ -77,11 +74,37 @@ Write one coherent Markdown guide using exactly these section headings, in order
 ## How to get it
 ## Dosing
 ## Risks
-## Interactions
 ## Products
 
-The Interactions section must cover drug and nutrient interactions.
-The Products section must list the top 3 highest quality/purity products. For each product, include a "**Why:**" line explaining why it's a top choice.
+Dosing rules:
+- Give ONE combined recommendation, not two unreconciled regimens.
+- If the RDI from food and a typical supplemental range differ, integrate them
+  into a single coherent answer that explains when each applies (e.g. baseline
+  daily intake from food vs. higher doses used for repletion or higher demand).
+- Do not present "Recommended Daily Intake" and "Supplementation guidelines"
+  as separate blocks with conflicting numbers.
+
+Risks rules:
+- Cover side effects and upper limits.
+- The Risks section MUST also cover drug and nutrient interactions. Do not add
+  a separate Interactions heading; fold interactions into Risks.
+
+Products rules:
+- List the top 3 highest quality/purity products.
+- Use this exact format for each, with a blank line between every block:
+
+### 1. Product Name
+
+**Why:** One short paragraph explaining why it's a top choice.
+
+### 2. Product Name
+
+**Why:** ...
+
+### 3. Product Name
+
+**Why:** ...
+
 Do not introduce facts not present in the inputs.
 If the inputs lack information for any required section, write under that heading: "Insufficient reliable evidence — consult a clinician." Do not invent content to fill the section.
 Do not mention internal pipelines, model names, LangGraph, Grok, Claude, or prompts."""
