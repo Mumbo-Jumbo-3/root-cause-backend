@@ -11,8 +11,10 @@ class Settings(BaseSettings):
     xai_api_key: str = ""
     database_url: str = ""
 
-    trusted_xai_model: str = "grok-4-1-fast-reasoning"
-    unrestricted_xai_model: str = "grok-4-1-fast-reasoning"
+    trusted_xai_model: str = "grok-4.3"
+    unrestricted_xai_model: str = "grok-4.3"
+    trusted_xai_reasoning_effort: str = "low"
+    unrestricted_xai_reasoning_effort: str = "low"
     anthropic_synthesis_model: str = "claude-sonnet-4-20250514"
     anthropic_judge_model: str = "claude-sonnet-4-20250514"
 

@@ -29,21 +29,61 @@ DEFAULT_CONTENT_ROOT = (
     / "nutrients"
 )
 PROMPT_TEMPLATE = (
-    "Research {nutrient} for humans, what is it for? "
-    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)? "
+    "Research {nutrient} in human nutrition, what is it for? "
+    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, and interactions)? "
     "What are the top 3 highest quality/purity {nutrient} products i can buy?"
 )
 RESEARCH_PROMPT_TEMPLATE = (
-    "Research {nutrient} for humans, what is it for? "
-    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, etc)?"
+    "Research {nutrient} in human nutrition, what is it for? "
+    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, recommended daily intake amount, risks, and interactions)?"
 )
 PRODUCT_PROMPT_TEMPLATE = (
-    "What are the top 3 highest quality/purity {nutrient} products i can buy?"
+    "What are the top 3 highest quality/purity {nutrient} products i can buy? "
+    "For each, explain why it stands out (e.g., purity, sourcing, form/bioavailability, manufacturer reputation)."
 )
+SECTIONS: tuple[str, ...] = (
+    "purpose",
+    "ingestion",
+    "dosing",
+    "risks",
+    "interactions",
+)
+SECTION_PROMPTS: dict[str, str] = {
+    "purpose": "In human nutrition, what is {nutrient} for? What does it do in the body?",
+    "ingestion": "In human nutrition, what are the best food, drink, and supplement sources of {nutrient}? What forms exist?",
+    "dosing": "In human nutrition, what is the recommended daily intake of {nutrient}? Include amounts for typical adults.",
+    "risks": "In human nutrition, what are the risks, side effects, and upper limits of {nutrient}?",
+    "interactions": "In human nutrition, what drug and nutrient interactions does {nutrient} have?",
+}
+COVERAGE_SYSTEM_PROMPT = """You are checking whether a nutrient research response covers each required section.
+
+Sections to evaluate:
+- purpose: what the nutrient is for / what it does in the body
+- ingestion: best food, drink, and supplement sources, and the forms available
+- dosing: recommended daily intake / amounts for typical adults
+- risks: risks, side effects, upper limits
+- interactions: drug and nutrient interactions
+
+Return ONLY a JSON object mapping each section name to a boolean. A section is true only if the research text contains specific, on-topic content for it — not a generic mention or passing reference.
+
+Example: {"purpose": true, "ingestion": true, "dosing": true, "risks": true, "interactions": false}"""
 SYNTHESIS_SYSTEM_PROMPT = """You are writing consumer-facing nutrient guides.
 Use the research and ingestion response for nutrient purpose, food/forms, amounts,
-and risks. Use the product response for buyable product recommendations.
-Write one coherent Markdown guide that answers every part of the original prompt.
+risks, and interactions. Use the product response for buyable product recommendations.
+
+Write one coherent Markdown guide using exactly these section headings, in order:
+
+## What it's for
+## How to get it
+## Dosing
+## Risks
+## Interactions
+## Products
+
+The Interactions section must cover drug and nutrient interactions.
+The Products section must list the top 3 highest quality/purity products. For each product, include a "**Why:**" line explaining why it's a top choice.
+Do not introduce facts not present in the inputs.
+If the inputs lack information for any required section, write under that heading: "Insufficient reliable evidence — consult a clinician." Do not invent content to fill the section.
 Do not mention internal pipelines, model names, LangGraph, Grok, Claude, or prompts."""
 
 
@@ -65,6 +105,7 @@ ModelCaller = Callable[[str, str, str, float], str]
 ResponseGenerator = Callable[[str], str]
 BranchCaller = Callable[[str], str]
 SynthesisCaller = Callable[[str, str, str, str], str]
+CoverageCaller = Callable[[str, str], dict[str, bool]]
 
 
 class MissingRuntimeConfigError(RuntimeError):
@@ -116,15 +157,15 @@ def find_blank_nutrients(content_root: Path) -> list[NutrientEntry]:
 
 
 def build_prompt(nutrient_name: str) -> str:
-    return PROMPT_TEMPLATE.format(nutrient=nutrient_name.lower())
+    return PROMPT_TEMPLATE.format(nutrient=nutrient_name)
 
 
 def build_research_prompt(nutrient_name: str) -> str:
-    return RESEARCH_PROMPT_TEMPLATE.format(nutrient=nutrient_name.lower())
+    return RESEARCH_PROMPT_TEMPLATE.format(nutrient=nutrient_name)
 
 
 def build_product_prompt(nutrient_name: str) -> str:
-    return PRODUCT_PROMPT_TEMPLATE.format(nutrient=nutrient_name.lower())
+    return PRODUCT_PROMPT_TEMPLATE.format(nutrient=nutrient_name)
 
 
 def extract_response_text(payload: dict[str, Any]) -> str:
@@ -200,6 +241,25 @@ def extract_graph_response_text(result: Any) -> str:
     return extract_message_text(messages[-1])
 
 
+def _strip_code_fences(text: str) -> str:
+    text = text.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```[a-zA-Z0-9_-]*\n?", "", text)
+        text = re.sub(r"\n?```$", "", text)
+    return text.strip()
+
+
+def _parse_json_content(content: str) -> dict[str, Any]:
+    cleaned = _strip_code_fences(content)
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        match = re.search(r"\{[\s\S]*\}", cleaned)
+        if match:
+            return json.loads(match.group())
+        raise
+
+
 def build_synthesis_user_prompt(
     nutrient_name: str,
     full_prompt: str,
@@ -214,6 +274,15 @@ def build_synthesis_user_prompt(
         "Synthesize the two responses into a single practical guide. "
         "The guide must answer what the nutrient is for, how it is best ingested, "
         "and the top 3 high-quality/purity products someone can buy."
+    )
+
+
+def build_coverage_user_prompt(nutrient_name: str, research_text: str) -> str:
+    return (
+        f"## Nutrient\n{nutrient_name}\n\n"
+        f"## Research Response\n{research_text}\n\n"
+        "Evaluate whether the research response above covers each section listed in the system prompt. "
+        "Return the JSON object only — no commentary, no markdown fences."
     )
 
 
@@ -244,6 +313,7 @@ class NutrientResponsePipeline:
         research_call: BranchCaller | None = None,
         product_call: BranchCaller | None = None,
         synthesis_call: SynthesisCaller | None = None,
+        coverage_call: CoverageCaller | None = None,
     ) -> None:
         self.xai_api_key = xai_api_key
         self.product_model = product_model
@@ -252,8 +322,10 @@ class NutrientResponsePipeline:
         self._research_call = research_call
         self._product_call = product_call
         self._synthesis_call = synthesis_call
+        self._coverage_call = coverage_call
         self._graph = None
         self._synthesis_model = None
+        self._judge_model = None
 
     @property
     def settings(self) -> Any:
@@ -307,6 +379,74 @@ class NutrientResponsePipeline:
         )
         return extract_message_text(response)
 
+    def _claude_coverage_check(
+        self, nutrient_name: str, research_text: str
+    ) -> dict[str, bool]:
+        from langchain_core.messages import HumanMessage, SystemMessage
+        from health_agent.models import get_claude_judge_model
+
+        if self._judge_model is None:
+            self._judge_model = get_claude_judge_model(self.settings)
+
+        response = self._judge_model.invoke(
+            [
+                SystemMessage(content=COVERAGE_SYSTEM_PROMPT),
+                HumanMessage(
+                    content=build_coverage_user_prompt(nutrient_name, research_text)
+                ),
+            ]
+        )
+        raw_text = extract_message_text(response)
+        try:
+            parsed = _parse_json_content(raw_text)
+        except (json.JSONDecodeError, ValueError) as exc:
+            print(
+                f"coverage check parse error for {nutrient_name}: {exc}",
+                file=sys.stderr,
+            )
+            return {section: True for section in SECTIONS}
+
+        return {section: bool(parsed.get(section, True)) for section in SECTIONS}
+
+    def _fill_section_gaps(
+        self,
+        nutrient_name: str,
+        research_text: str,
+        missing: list[str],
+    ) -> str:
+        if not missing:
+            return research_text
+
+        research_call = self._research_call or self._langgraph_research
+        prompts = {
+            section: SECTION_PROMPTS[section].format(nutrient=nutrient_name)
+            for section in missing
+        }
+
+        results: dict[str, str] = {}
+        with ThreadPoolExecutor(max_workers=len(missing)) as executor:
+            futures = {
+                section: executor.submit(research_call, prompts[section])
+                for section in missing
+            }
+            for section, future in futures.items():
+                try:
+                    results[section] = future.result().strip()
+                except Exception as exc:
+                    print(
+                        f"supplemental research failed for {section} "
+                        f"({nutrient_name}): {exc}",
+                        file=sys.stderr,
+                    )
+                    results[section] = ""
+
+        augmented = [research_text.strip()]
+        for section in missing:
+            text = results.get(section, "").strip()
+            if text:
+                augmented.append(f"## Supplemental research: {section}\n\n{text}")
+        return "\n\n".join(augmented)
+
     def __call__(self, nutrient_name: str) -> str:
         full_prompt = build_prompt(nutrient_name)
         research_prompt = build_research_prompt(nutrient_name)
@@ -314,6 +454,7 @@ class NutrientResponsePipeline:
         research_call = self._research_call or self._langgraph_research
         product_call = self._product_call or self._grok_product_search
         synthesis_call = self._synthesis_call or self._claude_synthesis
+        coverage_call = self._coverage_call or self._claude_coverage_check
 
         with ThreadPoolExecutor(max_workers=2) as executor:
             research_future = executor.submit(research_call, research_prompt)
@@ -325,6 +466,14 @@ class NutrientResponsePipeline:
             raise RuntimeError("research branch returned empty output")
         if not product_response:
             raise RuntimeError("product branch returned empty output")
+
+        coverage = coverage_call(nutrient_name, research_response)
+        missing = [section for section in SECTIONS if not coverage.get(section, True)]
+        if missing:
+            print(f"coverage gaps for {nutrient_name}: {missing}")
+            research_response = self._fill_section_gaps(
+                nutrient_name, research_response, missing
+            )
 
         synthesized = synthesis_call(
             nutrient_name,
@@ -346,8 +495,16 @@ def fill_blank_nutrients(
     call_model: ModelCaller | None = None,
     generate_response: ResponseGenerator | None = None,
     settings: Any | None = None,
+    only: str | None = None,
 ) -> FillResult:
     blanks = find_blank_nutrients(content_root)
+    if only:
+        target = only.strip().lower()
+        blanks = [entry for entry in blanks if entry.slug.lower() == target]
+        if not blanks:
+            raise FileNotFoundError(
+                f"no blank nutrient response found for slug {only!r}"
+            )
     failures: list[str] = []
     written_count = 0
 
@@ -435,6 +592,12 @@ def parse_args() -> argparse.Namespace:
         default=300.0,
         help="Per-request timeout in seconds. Defaults to 300.",
     )
+    parser.add_argument(
+        "--only",
+        default=None,
+        help="Process only the nutrient with this slug (e.g. 'zinc'). "
+        "Errors if the slug is not in the blank set.",
+    )
     return parser.parse_args()
 
 
@@ -449,6 +612,7 @@ def main() -> int:
             model=args.model,
             dry_run=args.dry_run,
             timeout_seconds=args.timeout,
+            only=args.only,
         )
     except MissingRuntimeConfigError as exc:
         print(str(exc), file=sys.stderr)
