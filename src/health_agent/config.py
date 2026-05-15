@@ -13,12 +13,12 @@ class Settings(BaseSettings):
 
     trusted_xai_model: str = "grok-4.3"
     unrestricted_xai_model: str = "grok-4.3"
-    trusted_xai_reasoning_effort: str = "low"
-    unrestricted_xai_reasoning_effort: str = "low"
-    anthropic_synthesis_model: str = "claude-sonnet-4-20250514"
-    anthropic_judge_model: str = "claude-sonnet-4-20250514"
+    trusted_xai_reasoning_effort: str = "medium"
+    unrestricted_xai_reasoning_effort: str = "medium"
+    anthropic_synthesis_model: str = "claude-sonnet-4-6"
+    anthropic_judge_model: str = "claude-sonnet-4-6"
 
-    embedding_model: str = "voyage-3.5"
+    embedding_model: str = "voyage-4-large"
     embedding_dimensions: int = 1024
 
     reranker_model: str = "rerank-2.5"

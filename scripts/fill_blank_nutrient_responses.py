@@ -39,7 +39,11 @@ RESEARCH_PROMPT_TEMPLATE = (
 )
 PRODUCT_PROMPT_TEMPLATE = (
     "What are the top 3 highest quality/purity {nutrient} products i can buy? "
-    "For each, explain why it stands out (e.g., purity, sourcing, form/bioavailability, manufacturer reputation)."
+    "For each, explain why it stands out (e.g., purity, sourcing, form/bioavailability, manufacturer reputation). "
+    "Exclude any supplements containing toxic additives, especially titanium dioxide, "
+    "silicon dioxide/silica, magnesium stearate, stearic acid, sodium benzoate, maltodextrin, "
+    "polysorbate 80, propylene glycol, BHA, BHT, artificial colors (Red 40, Yellow 5, Yellow 6, "
+    "Blue 1, etc), and carrageenan."
 )
 SECTIONS: tuple[str, ...] = (
     "purpose",
@@ -68,13 +72,15 @@ SYNTHESIS_SYSTEM_PROMPT = """You are writing consumer-facing nutrient guides.
 Use the research and ingestion response for nutrient purpose, food/forms, dosing,
 and risks. Use the product response for buyable product recommendations.
 
-Write one coherent Markdown guide using exactly these section headings, in order:
+Write one coherent Markdown guide using exactly these five section headings, in this order, and nothing else:
 
 ## What it's for
 ## How to get it
 ## Dosing
 ## Risks
 ## Products
+
+The response MUST begin with the literal line "## What it's for". Do not output any title, H1 (`#`) heading, nutrient name, preamble, introduction, or any text above the first `## What it's for` heading. Do not add any sections, headings, or trailing content beyond these five.
 
 Dosing rules:
 - Give ONE combined recommendation, not two unreconciled regimens.
@@ -252,6 +258,7 @@ def call_xai_response(
             "model": model,
             "input": [{"role": "user", "content": prompt}],
             "tools": [{"type": "web_search"}],
+            "reasoning": {"effort": "medium"},
         },
         timeout=timeout_seconds,
     )
