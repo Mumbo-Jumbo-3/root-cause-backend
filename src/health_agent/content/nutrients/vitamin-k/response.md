@@ -1,26 +1,62 @@
 ## What it's for
 
-Vitamin K is a group of fat-soluble vitamins essential for blood clotting and bone building. It enables the production of proteins like prothrombin (for clotting) and osteocalcin (for bone mineralization). The vitamin exists in two main forms: K1 (phylloquinone) found in green leafy vegetables, and K2 (menaquinones) found in animal products and fermented foods.
+Vitamin K is a group of fat-soluble vitamins that serve several critical roles in the body. It exists in two primary forms: **K1 (phylloquinone)**, found in green leafy vegetables and primarily involved in blood clotting, and **K2 (menaquinones)**, found in fermented foods and animal products and active across a broader range of tissues. Key K2 subtypes are **MK-4** (shorter half-life, found in animal foods) and **MK-7** (longer half-life, found in natto and supplements).
 
-Beyond these classic roles, vitamin K—especially K2 forms—supports cardiovascular health by preventing arterial calcification, enhances metabolic function including insulin sensitivity, and may boost testosterone levels. It also supports dental health by reducing periodontitis and gum bleeding, and acts as an electron carrier that enhances mitochondrial ATP production.
+**Blood clotting:** Vitamin K activates prothrombin and other clotting factors. This is its most historically recognized role, and it is why anticoagulant drugs like warfarin work by blocking vitamin K activity.
+
+**Bone health:** K2 activates osteocalcin, a protein essential for incorporating calcium into bone tissue. Without sufficient K2, osteocalcin remains inactive, calcium is not properly deposited into bones, and fracture risk increases.
+
+**Cardiovascular protection:** K2 activates Matrix Gla Protein (MGP), the body's most potent known inhibitor of arterial and soft-tissue calcification. When K2 is deficient, calcium deposits in arterial walls rather than bones, raising cardiovascular disease risk.
+
+**Metabolic health:** The pancreas contains particularly high concentrations of K2, and deficiency is linked to insulin resistance. K2 also functions as an electron carrier supporting mitochondrial ATP production.
+
+**Brain health:** Vitamin K is involved in sphingolipid synthesis, which is critical for nerve cell function and myelin integrity. Deficiency has been associated with cognitive decline.
+
+**Hormonal support:** K2 is required for optimal function of the Leydig cells responsible for testosterone production.
+
+**Anti-inflammatory and skin effects:** Vitamin K reduces inflammatory markers and may slow premature skin aging by preventing calcification of elastin fibers.
+
+---
 
 ## How to get it
 
-The best K2 sources include natto (fermented soybeans with the highest K2 content), raw dairy products like aged cheeses and grass-fed butter, egg yolks from pasture-raised chickens, and organ meats. For K1, dark leafy greens like kale and spinach work well, particularly when cooked in animal fats for better absorption.
+**Food sources — K1:** Kale, spinach, collard greens, and broccoli are among the richest sources. K1 absorption is dramatically improved when consumed with dietary fat — cooking greens in butter, tallow, or olive oil is meaningfully superior to eating them raw or with low-fat dressings.
 
-For supplementation, liquid forms with olive oil bases are preferred over standard capsules due to superior bioavailability. Take supplements with fatty meals for maximum absorption, as vitamin K is fat-soluble. The vitamin pairs synergistically with vitamins D and A for enhanced calcium metabolism.
+**Food sources — K2:** Natto is the highest known food source by far, containing hundreds of micrograms of MK-7 per serving. Other good sources include hard aged cheeses (Gouda, Brie, Edam), goose and chicken liver, beef liver, grass-fed butter and raw dairy, and free-range egg yolks. Aim to include at least one high-bioavailability K2 source daily.
+
+**Supplement forms:** MK-7 is the most recommended supplemental form due to its long half-life of approximately 72 hours, meaning smaller, less frequent doses remain effective. MK-4 has a much shorter half-life of 4–6 hours and requires higher doses to sustain blood levels. Broad-spectrum "Super K" combinations (K1 + MK-4 + MK-7) offer coverage across multiple functions. Liquid supplements in an olive oil or MCT oil base are well absorbed.
+
+**Absorption:** Because vitamin K is fat-soluble, it must be taken with a fatty meal. This is non-negotiable for efficacy, whether from food or supplements.
+
+**Synergistic nutrients:** Vitamin K2 and vitamin D3 work as a closely coordinated pair — D3 drives calcium absorption while K2 directs where that calcium goes. Supplementing high-dose vitamin D without adequate K2 can accelerate arterial calcification. Vitamin A (retinol) and magnesium further support this fat-soluble vitamin axis.
+
+---
 
 ## Dosing
 
-For daily maintenance, 100 mcg of MK-7 or 2 mg of MK-4 provides effective supplementation. Clinical studies have used much higher therapeutic doses (45 mg MK-4 three times daily for osteoporosis), though this requires medical supervision.
+For most people, the baseline goal is to consistently obtain K1 from fat-paired leafy greens and K2 from liver, eggs, cheese, butter, or natto daily. This covers foundational needs for clotting and routine tissue maintenance.
 
-Start with food sources by including one K2-rich food daily before considering supplements. If supplementing, begin gradually and consider cycling MK-7 due to its long half-life. The vitamin can be taken any time of day with fat-containing meals.
+When diet is insufficient or when specific health concerns apply — such as cardiovascular risk, osteoporosis, metabolic syndrome, or statin use — supplementation becomes relevant. The preferred supplemental form is **MK-7 at 100–200 mcg**, taken every 2–3 days with a fatty meal. Daily supplementation of MK-7 can lead to accumulation given its long half-life, so an every-other-day or every-third-day schedule is practical and sufficient. If using MK-4, doses typically range from 1,500 to 45,000 mcg daily due to its shorter half-life, though the lower end of this range is appropriate for general maintenance. If adding K1 supplementally, 100–1,000 mcg daily is the typical range. All vitamin K supplements should be taken alongside vitamin D3 for best effect, and always with dietary fat.
+
+---
 
 ## Risks
 
-Vitamin K has a relatively low risk profile for most people, with absorption issues being more common than dangerous interactions. The most important interaction is with blood thinners like warfarin, where vitamin K can reduce anticoagulant effectiveness and requires careful medical monitoring.
+Vitamin K has no established tolerable upper limit set by most health authorities and is not considered toxic at doses typically found in food or standard supplements. It is generally very safe.
 
-Other interactions include seizure medications, which may require medical supervision, and alcohol, which depletes vitamin K levels. Due to MK-7's long half-life, consider cycling rather than daily use. Always consult a healthcare provider if taking any medications, especially anticoagulants.
+**Warfarin and anticoagulants:** This is the most critical interaction. Warfarin and similar coumarin-based blood thinners work by antagonizing vitamin K. Any significant change in vitamin K intake — from food or supplements — can destabilize INR and alter anticoagulation. People on warfarin must keep vitamin K intake consistent and must consult their physician before making any dietary or supplemental changes involving vitamin K.
+
+**Anticonvulsant medications:** These can reduce vitamin K absorption or metabolism. Physician consultation is required before supplementing.
+
+**Antibiotics (long-term use):** Destroy the gut bacteria that produce some K2, potentially leading to functional deficiency.
+
+**Statins:** Deplete K2 levels via the mevalonate pathway, making K2 supplementation particularly relevant for statin users.
+
+**Bile acid sequestrants:** Reduce fat absorption generally and therefore reduce vitamin K absorption.
+
+**Fat malabsorption conditions:** People with Crohn's disease, celiac disease, cystic fibrosis, or those who have had bariatric surgery are at elevated risk of vitamin K deficiency due to impaired fat absorption. Low-fat diets carry a similar risk.
+
+---
 
 ## Products
 
