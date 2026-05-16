@@ -9,6 +9,8 @@ Iodine is an essential trace mineral the body cannot produce on its own, making 
 
 Both deficiency *and* excess cause real harm. The goal is sufficiency — not aggressive supplementation.
 
+---
+
 ## How to get it
 
 **Whole food sources are strongly preferred** over supplements. Marine foods offer the highest bioavailability:
@@ -26,6 +28,8 @@ Both deficiency *and* excess cause real harm. The goal is sufficiency — not ag
 
 **If supplementing**, liquid drops or simple capsule formats with minimal excipients are preferable. Potassium iodide and nascent (atomic) iodine are the most bioavailable supplemental forms. Lugol's solution (elemental iodine + potassium iodide) is a time-tested option providing both forms simultaneously. Kelp capsules, if used, should contain no more than 250 µg per serving.
 
+---
+
 ## Dosing
 
 The baseline daily requirement for most adults is **150 µg/day**, with a functional target range of **150–300 µg/day** for general health. Requirements increase during pregnancy (220–250 µg/day) and breastfeeding (250–290 µg/day); food-based sources and prenatal vitamins containing 150–200 µg are the safest approaches for these groups.
@@ -33,6 +37,8 @@ The baseline daily requirement for most adults is **150 µg/day**, with a functi
 For most people eating seafood 2–3 times per week, using iodized or sea salt daily, and consuming dairy and eggs regularly, the RDA is readily met through diet alone without any supplementation.
 
 **If supplementing** — for example, when food sources are consistently inadequate or during a defined repletion period — keep doses to **no more than 150–300 µg per serving**, taken in the morning. Supplementing 1–3 times per week rather than daily is often sufficient and reduces the risk of excess. Avoid exceeding the tolerable upper limit of **1,100 µg/day** from all sources combined. Iodine supplementation should be cycled (a few weeks at most) rather than taken indefinitely, and only after ensuring selenium and other co-factors are adequate. Always consult a clinician before supplementing if you have any thyroid condition or take any medications.
+
+---
 
 ## Risks
 
@@ -53,6 +59,8 @@ For most people eating seafood 2–3 times per week, using iodized or sea salt d
 - **Goitrogenic foods** — not a drug interaction, but high intake of raw goitrogens combined with borderline iodine intake can compound deficiency risk
 
 Always disclose iodine supplementation to your prescribing physician, especially if you are on any thyroid, cardiac, or psychiatric medication.
+
+---
 
 ## Products
 

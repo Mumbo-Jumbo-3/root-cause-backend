@@ -10,6 +10,8 @@ Potassium is an essential mineral and the third most abundant mineral in the hum
 - **Kidney health:** Adequate potassium supports normal kidney function and urinary health.
 - **Stress resilience:** Potassium is lost during illness, intense exercise, and heavy sweating; depletion during these periods can accelerate fatigue, cramping, and cardiovascular strain.
 
+---
+
 ## How to get it
 
 **Food is strongly preferred over supplements.** Potassium from whole foods arrives with synergistic fiber, vitamins, and co-factors that improve utilization and make toxicity essentially impossible at normal dietary intakes.
@@ -35,6 +37,8 @@ Potassium is an essential mineral and the third most abundant mineral in the hum
 
 **Critical rules for supplemental use:** Never take potassium chloride in tablet form — high local concentration in the gut can arrest intestinal motility and ulcerate the intestinal lining. Always use powder form, sprinkled on or mixed with food. Take small amounts spread across the day, always with meals.
 
+---
+
 ## Dosing
 
 For most healthy adults, the adequate intake (AI) for potassium is approximately **2,600 mg/day for women and 3,400 mg/day for men**, as set by major health authorities. A diet built around potassium-rich whole foods — potatoes, avocados, winter squash, bananas, coconut water, and fruits — will typically meet or exceed this target without supplementation.
@@ -42,6 +46,8 @@ For most healthy adults, the adequate intake (AI) for potassium is approximately
 When supplementing to address a gap or support higher-demand situations (intense exercise, low-carb dieting, illness, heavy sweating), **start with small doses — 100–200 mg elemental potassium per serving** — taken with food and spread across the day. Most over-the-counter supplements are capped at 99–200 mg per serving by convention precisely because higher concentrated doses carry cardiovascular risk. Individuals on ketogenic or very low-carbohydrate diets lose more potassium via the kidneys due to reduced insulin and increased urinary excretion, and should proactively monitor and replenish intake. For therapeutic repletion beyond everyday food and a modest supplement, work with a healthcare provider who can guide dosing based on bloodwork.
 
 A practical daily anchor: **100–200 ml of coconut water** in the morning or after activity provides a gentle, well-tolerated electrolyte foundation that can be combined with dietary sources rather than relying on concentrated supplements.
+
+---
 
 ## Risks
 
@@ -59,6 +65,8 @@ A practical daily anchor: **100–200 ml of coconut water** in the morning or af
 - **Magnesium:** Low magnesium impairs the body's ability to retain potassium intracellularly; if potassium repletion is slow or incomplete, check magnesium status as well.
 
 Anyone taking prescription medications that affect blood pressure, heart rhythm, or kidney function should consult their healthcare provider before using potassium supplements.
+
+---
 
 ## Products
 

@@ -8,6 +8,8 @@ Beyond these core roles, vitamin C supports cardiovascular health through endoth
 
 Groups with elevated needs include smokers, people with high oxidative stress, those recovering from illness or chemotherapy, individuals with cardiovascular risk, and heavy alcohol users — all of whom deplete vitamin C significantly faster than average.
 
+---
+
 ## How to get it
 
 **Food first.** Whole food sources are generally preferred because they deliver vitamin C alongside complementary compounds. Top sources by concentration include:
@@ -30,6 +32,8 @@ Groups with elevated needs include smokers, people with high oxidative stress, t
 
 **Beneficial pairings:** Copper (essential at high doses — see Risks), zinc (30–60 mg/day for immune protocols), vitamin E (synergistic antioxidant partnership), B6 (histamine clearance), and NAC (combined antioxidant and liver support).
 
+---
+
 ## Dosing
 
 Vitamin C absorption follows a saturation curve. Up to approximately 200 mg/day, blood and tissue levels rise efficiently and the kidneys actively reabsorb it. Beyond that point, retention efficiency decreases, though at 5 g/day total body retention is still roughly four times that of 100 mg/day.
@@ -41,6 +45,8 @@ Vitamin C absorption follows a saturation curve. Up to approximately 200 mg/day,
 **Split dosing is strongly preferred** over single large doses. Because vitamin C is water-soluble and cannot be stored in meaningful quantities, spreading doses across two to three times per day maintains more consistent plasma levels throughout the day.
 
 Continuous supplementation beyond **2–3 months** at higher doses warrants caution, primarily due to cumulative copper depletion (see Risks). Cycling — taking periodic breaks — is a sensible approach for long-term use.
+
+---
 
 ## Risks
 
@@ -61,6 +67,8 @@ Continuous supplementation beyond **2–3 months** at higher doses warrants caut
 - **Hormonal contraceptives (birth control pills)** — estrogen medications can affect vitamin C levels and vice versa
 - **Certain antibiotics** — separate timing is recommended
 - **Supplemental B vitamins** — avoid combining in the same meal at high doses due to competition or interaction effects
+
+---
 
 ## Products
 

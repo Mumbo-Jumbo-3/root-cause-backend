@@ -9,6 +9,8 @@ Calcium is the most abundant mineral in the human body, with approximately 99% s
 - **Reproductive and androgen health** — calcium stimulates luteinizing hormone (LH) production
 - **Blood pressure regulation** — low calcium intake is associated with hypertension; adequate bioavailable calcium helps suppress PTH and support normal vascular function
 
+---
+
 ## How to get it
 
 **Food first.** Whole-food sources are consistently preferred over isolated supplements because they provide calcium alongside natural co-factors that improve absorption and utilization.
@@ -35,6 +37,8 @@ Calcium is the most abundant mineral in the human body, with approximately 99% s
 - Among salts, **calcium citrate** absorbs well without food or high stomach acid; **calcium carbonate** requires stomach acid and should be taken with meals
 - Never supplement calcium without also ensuring adequate vitamin K2 and vitamin D — this is the primary scenario where arterial calcification risk becomes relevant
 
+---
+
 ## Dosing
 
 The general adult target is **1,000–1,200 mg of elemental calcium per day from all sources combined** (food plus supplements). Most adults consuming dairy, mineral water, and varied whole foods can meet a meaningful portion of this through diet.
@@ -42,6 +46,8 @@ The general adult target is **1,000–1,200 mg of elemental calcium per day from
 Use supplements to fill gaps, not as a primary strategy. If supplementing, **split doses** — for example, 500 mg twice daily rather than one large dose — because absorption efficiency drops with larger single amounts. Demand is higher during pregnancy, lactation, adolescence, post-menopause, and older age, and supplementation is more likely to be warranted in those contexts.
 
 Always pair supplemental calcium with vitamin D and K2. Without them, higher calcium intakes carry greater risk of soft-tissue deposition rather than bone incorporation.
+
+---
 
 ## Risks
 
@@ -66,6 +72,8 @@ Always pair supplemental calcium with vitamin D and K2. Without them, higher cal
 - **High caffeine intake** — may interfere with muscle calcium handling
 - **Phytic acid and oxalic acid** — reduce absorption from specific foods; minimize through proper food preparation
 - **Heavy metals (lead, cadmium)** — compete with calcium at absorption channels; broad mineral adequacy is protective
+
+---
 
 ## Products
 

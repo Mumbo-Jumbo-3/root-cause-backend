@@ -18,6 +18,8 @@ Taurine is a conditionally essential sulfonic acid — not a classical amino aci
 
 Those who benefit most include vegans and vegetarians (who have no significant dietary source), people with IBD, fatty liver, metabolic syndrome, cardiovascular concerns, or cognitive decline, as well as athletes seeking performance and recovery support.
 
+---
+
 ## How to get it
 
 **From food:** Taurine is found almost exclusively in animal-based foods. The richest sources are scallops and octopus (very high), beef heart and shellfish broadly (high), other seafood and red meats (moderate to high), and seaweed (moderate). Vegans and vegetarians obtain very little taurine from diet and are most likely to benefit from supplementation.
@@ -35,6 +37,8 @@ Pure powder is generally preferable to capsules for purity reasons, as capsule p
 
 **Timing:** Morning is generally preferred, as taurine can produce a mild energy-boosting effect that may interfere with sleep if taken late in the day.
 
+---
+
 ## Dosing
 
 Start with dietary sources as your foundation. For those who eat animal foods regularly, meaningful amounts of taurine are obtained from diet. Supplementation becomes most relevant for vegans, vegetarians, or those with elevated therapeutic needs.
@@ -48,6 +52,8 @@ As a supplement, a practical framework is:
 
 **If combining taurine with L-carnitine or CoQ10,** reduce your taurine dose below the standard 500–1,000 mg range, as the combination significantly affects absorption kinetics and can become excessive systemically.
 
+---
+
 ## Risks
 
 **Side effects and upper limits:** Taurine has a strong safety profile at reasonable doses. Long-term supplementation is considered safe when kidney and liver function are normal and other amino acids are reasonably balanced. At doses above 6–7 g per day, some practitioners raise concern about elevated prolactin, which may be particularly relevant for men focused on hormonal optimization. Taurine does not have a strong case for mandatory cycling.
@@ -59,6 +65,8 @@ As a supplement, a practical framework is:
 - **Antibiotics and other medications:** As with any supplement, disclose taurine use to your physician.
 - **Breastfeeding:** Caution is advised due to the hormonal and physiological demands of lactation.
 - **Kidney or liver disease:** Those with compromised kidney or liver function should consult a clinician before supplementing.
+
+---
 
 ## Products
 

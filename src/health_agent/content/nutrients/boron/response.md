@@ -12,6 +12,8 @@ Boron is a trace mineral that plays a broad range of roles in human physiology, 
 
 Those who tend to benefit most include men with low testosterone or elevated SHBG, people with bone density concerns, those with high fluoride exposure, vitamin D supplement users, and athletes seeking natural hormonal and performance optimization.
 
+---
+
 ## How to get it
 
 **From food:** Boron is found almost entirely in plant foods. Top sources include:
@@ -32,6 +34,8 @@ A varied diet rich in these foods can supply roughly 1–3 mg of boron per day.
 - **Best timing:** Take in the morning with a substantial meal containing carbohydrates. Boron appears to require an insulin response for optimal absorption; taking it fasted or without food blunts its effect.
 - **Cycling:** While food sources can be used freely and continuously, supplemental boron is best cycled — for example, 5 days on and 2 days off, or 8 weeks on followed by 2–4 weeks off — to avoid potential long-term mineral displacement.
 
+---
+
 ## Dosing
 
 There is no established RDA for boron. A practical, integrated approach based on available evidence:
@@ -45,6 +49,8 @@ There is no established RDA for boron. A practical, integrated approach based on
 
 Combine dietary and supplemental intake when calculating your total daily boron. If your diet already provides 2–3 mg/day, a supplemental dose of 3–6 mg brings you into the general optimization range without approaching the upper limit.
 
+---
+
 ## Risks
 
 **Side effects and upper limits:**
@@ -56,6 +62,8 @@ At normal dietary and supplemental doses (up to ~10 mg/day), boron is well toler
 - **Estrogen medications and hormonal contraceptives:** Boron lowers circulating estrogen, which is a clinically meaningful interaction for anyone on estrogen-based medications or hormone replacement therapy. Inform your physician before supplementing.
 - **Testosterone replacement therapy (TRT) and androgen therapies:** Boron further modifies the testosterone/estrogen balance and should be discussed with the prescribing clinician.
 - **Synergistic nutrients (beneficial):** Boron works well alongside vitamin D3 (extends its half-life), magnesium (improves retention), calcium (enhances retention for bone), zinc (supports mineral balance), and vitamin K2 (bone and cardiovascular mineral direction). These combinations are generally advantageous rather than problematic.
+
+---
 
 ## Products
 

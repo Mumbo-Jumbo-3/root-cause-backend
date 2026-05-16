@@ -13,6 +13,8 @@ Their core roles include:
 - **Skin, hair, nails, and vision:** B2, B7, and B5 are particularly important for tissue integrity and oxidative protection.
 - **Immune resilience:** B1 and B3 deficiency has been linked to worsened outcomes in viral infections; B6 and B12 support histamine metabolism, relevant for those with histamine intolerance.
 
+---
+
 ## How to get it
 
 **Food first.** Whole food sources provide B vitamins in naturally balanced ratios with superior bioavailability. The single most comprehensive source is **beef liver (organic, grass-fed)**, which supplies meaningful amounts of B2, B3, B5, B6, B9, and B12 simultaneously — eating it one to two times per week is one of the most efficient strategies available. Other key sources by vitamin:
@@ -47,6 +49,8 @@ Their core roles include:
 - **B2:** If supplementing, prefer spirulina or brewer's yeast-based sources rather than isolated synthetic riboflavin.
 - **B-complex:** Choose an activated B-complex containing methylated/active forms — particularly important for those with MTHFR variants, vegans, older adults, or anyone with compromised digestion.
 
+---
+
 ## Dosing
 
 The goal is to meet your baseline daily needs primarily through food, and to use supplements strategically when dietary intake is insufficient, when genetics warrant active forms, or during periods of higher demand (pregnancy, recovery, high stress).
@@ -66,6 +70,8 @@ The goal is to meet your baseline daily needs primarily through food, and to use
 
 **Activated B-complex products** that combine all active forms are the most practical supplement approach for broad B vitamin support, particularly for people with MTHFR variants, digestive issues, or confirmed deficiencies.
 
+---
+
 ## Risks
 
 **Upper limits and side effects:**
@@ -84,6 +90,8 @@ The goal is to meet your baseline daily needs primarily through food, and to use
 - **MTHFR gene variant:** Impairs conversion of folic acid to active folate and pyridoxine HCl to active PLP — people with this variant should use only methylated/active supplement forms, as synthetic forms may be ineffective or accumulate harmfully.
 - **Poor stomach acid / gastric conditions:** Significantly impairs B12 absorption from food, increasing deficiency risk regardless of dietary intake.
 - Pregnant women, vegans, older adults, and those with anxiety or depression should consult a clinician before supplementing, as individual needs and genetic factors meaningfully affect appropriate dosing and form selection.
+
+---
 
 ## Products
 

@@ -4,6 +4,8 @@ Phosphorus is the second most abundant mineral in the human body, with roughly 8
 
 The most important insight in phosphorus nutrition is not simply how much you consume, but the **ratio of calcium to phosphorus in your diet**. When phosphate intake is chronically high relative to calcium and magnesium, parathyroid hormone (PTH) rises. Elevated PTH pulls calcium and magnesium from bones and teeth, and is associated with inflammation, osteoporosis, vascular calcification, cognitive decline, insomnia, immune suppression, and cardiovascular disease. True deficiency is rare — most people eating any reasonable diet meet their needs easily. The far more common and clinically significant problem is **excess phosphorus relative to calcium**, driven largely by meat-heavy diets, processed foods with phosphate additives, and phosphoric-acid-containing sodas.
 
+---
+
 ## How to get it
 
 Because deficiency is uncommon, the dietary goal is balance and ratio management rather than maximizing intake. The practical strategy is:
@@ -18,6 +20,8 @@ Because deficiency is uncommon, the dietary goal is balance and ratio management
 
 **Supplementation is generally not recommended** for otherwise healthy people. Most individuals already exceed the RDA significantly, and adding supplemental phosphate risks worsening the calcium-to-phosphorus imbalance. Medical phosphate supplementation exists for specific clinical situations — refeeding syndrome, severe malabsorption — and should only be undertaken under clinical supervision.
 
+---
+
 ## Dosing
 
 The RDA for adults aged 19–50 is **700 mg of phosphorus per day** from all dietary sources. In practice, most adults already far exceed this — men average over 1,500 mg/day and women around 1,200 mg/day — meaning the practical priority is not hitting a minimum but avoiding chronic excess.
@@ -25,6 +29,8 @@ The RDA for adults aged 19–50 is **700 mg of phosphorus per day** from all die
 For dietary context, a balanced day of whole milk or cheese, leafy greens, and moderate animal protein will naturally supply the 700 mg RDA while also delivering the calcium and magnesium needed to keep the calcium-to-phosphorus ratio at or above 1:1, which is the key protective target.
 
 If a healthcare provider has directed phosphorus supplementation — for example, to address a diagnosed deficiency or during medical refeeding — liquid ionic supplements are the most bioavailable form and allow precise dose titration in small increments. In such cases, follow the clinician's specific guidance, as supplemental needs vary considerably by clinical context. Do not self-supplement without a confirmed clinical indication.
+
+---
 
 ## Risks
 
@@ -38,6 +44,8 @@ If a healthcare provider has directed phosphorus supplementation — for example
 - **Antacids containing aluminum or calcium**: Can bind dietary phosphate in the gut, reducing absorption and potentially causing deficiency with chronic use — relevant for people on long-term antacid therapy.
 - **Potassium-sparing diuretics and ACE inhibitors**: Supplemental potassium phosphate forms may interact with these medications and affect electrolyte balance; consult a clinician before combining.
 - **Klotho protein signaling**: High phosphate disrupts klotho, a protein associated with aging regulation — an emerging area of concern in longevity research.
+
+---
 
 ## Products
 

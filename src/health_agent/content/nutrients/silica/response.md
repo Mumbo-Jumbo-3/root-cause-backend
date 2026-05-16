@@ -9,6 +9,8 @@ Silica (silicon dioxide, SiO₂) is a trace mineral that the body uses in its bi
 
 Silicon is considered a conditionally essential trace element. No formal RDA has been established in most countries.
 
+---
+
 ## How to get it
 
 **Food and drink sources (preferred, highest bioavailability first):**
@@ -31,6 +33,8 @@ Silicon is considered a conditionally essential trace element. No formal RDA has
 
 **Critical form to avoid — particulate/fumed silicon dioxide (E551):** This industrial additive used as a flow agent or anti-caking agent in tablets, capsules, and processed foods is *not* the same as bioavailable dietary silicon. It can activate intestinal macrophages, disrupt gut barrier function, and has documented inflammatory and potentially genotoxic properties. When purchasing any supplement — not just silica — check ingredient labels and avoid products listing silicon dioxide (E551) as an excipient.
 
+---
+
 ## Dosing
 
 No official RDA exists for silicon, but research and population data provide useful reference points. Typical Western dietary intake is estimated at **20–50 mg/day** from food. The level associated with epidemiological benefit for aluminum reduction and cognitive health is approximately **10 mg/day from drinking water alone**, achievable by consuming ~1 liter of high-silica mineral water daily.
@@ -38,6 +42,8 @@ No official RDA exists for silicon, but research and population data provide use
 For supplemental orthosilicic acid (OSA), clinical studies have used **5–10 mg of elemental silicon per day** — a modest dose consistent with food-level intake, not a megadose. Horsetail-based protocols often reference 1–3 g of extract daily, but elemental silicon content varies significantly by product; use manufacturer-specified silicon content rather than extract weight as your guide.
 
 The practical approach: prioritize silica-rich mineral water and dietary sources as your baseline. If food sources are insufficient or you are targeting a specific goal (e.g., connective tissue support, aluminum clearance), add an OSA or colloidal silica supplement at 5–10 mg elemental silicon per day. Cycle horsetail-based products — use no more than 2–3 times per week, and take a break after 4 continuous weeks of use.
+
+---
 
 ## Risks
 
@@ -55,6 +61,8 @@ The practical approach: prioritize silica-rich mineral water and dietary sources
 - **Hormonal considerations:** Horsetail at higher or continuous doses has been noted to potentially reduce DHT; individuals sensitive to hormonal changes should use it conservatively.
 - **Heavy metals broadly:** Silicon and boron may support heavy metal excretion generally, which can be a consideration if you are on chelation protocols — consult a clinician.
 - **Shilajit:** Must be independently verified as heavy-metal-free before use, as contamination is a known issue with many commercial products.
+
+---
 
 ## Products
 

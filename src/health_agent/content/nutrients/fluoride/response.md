@@ -14,6 +14,8 @@ Documented concerns associated with fluoride exposure include:
 - **Pineal gland calcification:** The pineal gland accumulates fluoride at high concentrations, with potential effects on melatonin and circadian biology.
 - **Bioaccumulation:** Approximately 50% of absorbed fluoride is stored in bone and calcified tissues. The body has no significant enzymatic pathway to neutralize it; excretion is primarily renal and incomplete.
 
+---
+
 ## How to get it
 
 Given the evidence, the practical guidance from the research literature is to **minimize fluoride intake** rather than seek it out, and to support the body's limited capacity to excrete it. Most people are already exposed to significant fluoride from multiple overlapping sources:
@@ -46,6 +48,8 @@ Average food fluoride content alone is approximately ten times what water fluori
 
 Fluoride supplements are **not recommended**. The evidence does not support deliberate supplemental fluoride intake, and the research record argues against it.
 
+---
+
 ## Dosing
 
 Fluoride is not recommended as a dietary supplement. For context on exposure thresholds:
@@ -55,6 +59,8 @@ Fluoride is not recommended as a dietary supplement. For context on exposure thr
 - **>4 mg/L** — EPA maximum contaminant level; risk of skeletal fluorosis
 
 Because food already contributes fluoride at roughly ten times what water standards target, the average person's total daily fluoride burden is well above what water intake alone implies. Even at "safe" daily doses, fluoride accumulates in bone over decades, and long-term risk is not fully characterized. The goal is to reduce total exposure rather than reach a target intake. Where a clinician or dentist does prescribe fluoride supplementation (typically for children in non-fluoridated areas), dosing should follow professional guidance using USP-grade compounded preparations to avoid unnecessary additives.
+
+---
 
 ## Risks
 
@@ -83,6 +89,8 @@ Because food already contributes fluoride at roughly ten times what water standa
 - **Certain medications:** Some pharmaceuticals contain fluorinated compounds that add to total fluoride burden; review all medications with a healthcare provider if exposure reduction is a priority.
 
 Upper limit: The EPA maximum contaminant level in US drinking water is 4 mg/L. No safe supplemental upper limit for ingested fluoride is established, and deliberate supplementation is not advised based on the available evidence.
+
+---
 
 ## Products
 
