@@ -5,6 +5,7 @@ from pathlib import Path
 import pytest
 
 from scripts.fill_blank_nutrient_responses import (
+    SECTIONS,
     NutrientResponsePipeline,
     build_product_prompt,
     build_prompt,
@@ -12,7 +13,12 @@ from scripts.fill_blank_nutrient_responses import (
     extract_response_text,
     fill_blank_nutrients,
     find_blank_nutrients,
+    find_nutrients,
 )
+
+
+def _all_sections_covered(_nutrient: str, _research: str) -> dict[str, bool]:
+    return {section: True for section in SECTIONS}
 
 
 def write_nutrient(
@@ -56,29 +62,56 @@ def test_find_blank_nutrients_falls_back_to_slug_name(tmp_path: Path):
     assert blanks[0].name == "Magnesium Glycinate"
 
 
+def test_find_nutrients_returns_all_when_only_blanks_false(tmp_path: Path):
+    root = tmp_path / "nutrients"
+    root.mkdir()
+    write_nutrient(root, "alpha", "Alpha", "existing response")
+    write_nutrient(root, "beta", "Beta", "")
+    write_nutrient(root, "gamma", "Gamma", "another response")
+
+    all_entries = find_nutrients(root, only_blanks=False)
+
+    assert [entry.slug for entry in all_entries] == ["alpha", "beta", "gamma"]
+
+
+def test_find_nutrients_defaults_to_blanks_only(tmp_path: Path):
+    root = tmp_path / "nutrients"
+    root.mkdir()
+    write_nutrient(root, "alpha", "Alpha", "existing response")
+    write_nutrient(root, "beta", "Beta", "")
+
+    entries = find_nutrients(root)
+
+    assert [entry.slug for entry in entries] == ["beta"]
+
+
 def test_build_prompt_uses_exact_requested_template():
     assert build_prompt("Magnesium Glycinate") == (
-        "Research magnesium glycinate for human nutrition, what is it for? "
+        "Research magnesium glycinate. How does it affect human health/nutrition/performance? What is it for? "
         "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, dosing, risks, interactions, etc)? "
         "What are the top 3 highest quality/purity magnesium glycinate products i can buy?"
     )
 
 
 def test_build_prompt_preserves_single_letter_vitamin_designations():
-    assert build_prompt("Vitamin D").startswith(
-        "Research vitamin D for human nutrition,"
-    )
+    assert build_prompt("Vitamin D").startswith("Research vitamin D.")
 
 
-def test_build_research_and_product_prompts_split_original_prompt():
-    assert build_research_prompt("Magnesium Glycinate") == (
-        "Research magnesium glycinate for human nutrition, what is it for? "
-        "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, dosing, risks, interactions, etc)?"
+def test_build_research_prompt_covers_all_four_sections_with_lowercase_nutrient():
+    prompt = build_research_prompt("Magnesium Glycinate")
+    assert "magnesium glycinate" in prompt
+    assert "Magnesium Glycinate" not in prompt  # _prompt_form lowercases multi-char words
+    assert "1. PURPOSE" in prompt
+    assert "2. INGESTION" in prompt
+    assert "3. DOSING" in prompt
+    assert "4. RISKS" in prompt
+
+
+def test_build_product_prompt_excludes_listed_additives():
+    assert build_product_prompt("Magnesium Glycinate").startswith(
+        "What are the top 3 highest quality/purity magnesium glycinate products i can buy?"
     )
-    assert build_product_prompt("Magnesium Glycinate") == (
-        "What are the top 3 highest quality/purity magnesium glycinate products i can buy? "
-        "For each, explain why it stands out (e.g., purity, sourcing, form/bioavailability, manufacturer reputation)."
-    )
+    assert "titanium dioxide" in build_product_prompt("Magnesium Glycinate")
 
 
 def test_extract_response_text_prefers_output_text():
@@ -147,6 +180,54 @@ def test_fill_blank_nutrients_writes_only_blank_responses(tmp_path: Path):
     ).read_text(encoding="utf-8") == "generated response\n"
     assert (filled_dir / "response.md").read_text(encoding="utf-8") == "keep me"
     assert names == ["Blank"]
+
+
+def test_fill_blank_nutrients_refresh_all_overwrites_existing(tmp_path: Path):
+    root = tmp_path / "nutrients"
+    root.mkdir()
+    blank_dir = write_nutrient(root, "blank", "Blank", "")
+    filled_dir = write_nutrient(root, "filled", "Filled", "old content")
+    names: list[str] = []
+
+    def generate_response(name: str) -> str:
+        names.append(name)
+        return "regenerated"
+
+    result = fill_blank_nutrients(
+        root,
+        api_key="test-key",
+        generate_response=generate_response,
+        refresh_all=True,
+    )
+
+    assert result.blank_count == 2
+    assert result.written_count == 2
+    assert result.failures == ()
+    assert (blank_dir / "response.md").read_text(encoding="utf-8") == "regenerated\n"
+    assert (filled_dir / "response.md").read_text(encoding="utf-8") == "regenerated\n"
+    assert sorted(names) == ["Blank", "Filled"]
+
+
+def test_fill_blank_nutrients_refresh_all_with_only_targets_non_blank(tmp_path: Path):
+    root = tmp_path / "nutrients"
+    root.mkdir()
+    write_nutrient(root, "blank", "Blank", "")
+    filled_dir = write_nutrient(root, "filled", "Filled", "old content")
+
+    def generate_response(name: str) -> str:
+        return "regenerated"
+
+    result = fill_blank_nutrients(
+        root,
+        api_key="test-key",
+        generate_response=generate_response,
+        only="filled",
+        refresh_all=True,
+    )
+
+    assert result.blank_count == 1
+    assert result.written_count == 1
+    assert (filled_dir / "response.md").read_text(encoding="utf-8") == "regenerated\n"
 
 
 def test_fill_blank_nutrients_reports_empty_model_output(tmp_path: Path):
@@ -227,6 +308,7 @@ def test_response_pipeline_runs_research_and_product_in_parallel_and_synthesizes
         research_call=research_call,
         product_call=product_call,
         synthesis_call=synthesis_call,
+        coverage_call=_all_sections_covered,
     )
 
     assert pipeline("Magnesium Glycinate") == "final guide"
@@ -270,6 +352,7 @@ def test_response_pipeline_rejects_empty_synthesis():
         research_call=lambda prompt: "research response",
         product_call=lambda prompt: "product response",
         synthesis_call=lambda name, full, research, product: " ",
+        coverage_call=_all_sections_covered,
     )
 
     with pytest.raises(RuntimeError, match="synthesis returned empty output"):

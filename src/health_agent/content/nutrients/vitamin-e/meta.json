@@ -1,6 +1,11 @@
 {
   "slug": "vitamin-e",
   "name": "Vitamin E",
-  "aliases": ["tocopherol", "alpha-tocopherol", "tocopherols", "tocotrienol", "tocotrienols"],
-  "prompt": "Research vitamin E for human nutrition, what is it for? How is it best ingested in the optimal amounts (food, drinks, supplements, forms, dosing, risks, interactions, etc)? What are the top 3 highest quality/purity vitamin E products i can buy?"
+  "aliases": [
+    "tocopherol",
+    "alpha-tocopherol",
+    "tocopherols",
+    "tocotrienol",
+    "tocotrienols"
+  ]
 }

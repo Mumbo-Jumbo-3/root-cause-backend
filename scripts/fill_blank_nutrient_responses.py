@@ -18,6 +18,12 @@ from typing import Any, Callable
 
 import httpx
 
+from health_agent.nutrient_prompts import (
+    PROMPT_TEMPLATE,
+    _prompt_form,
+    build_prompt,
+)
+
 
 DEFAULT_MODEL = "grok-4.3"
 XAI_RESPONSES_URL = "https://api.x.ai/v1/responses"
@@ -28,14 +34,27 @@ DEFAULT_CONTENT_ROOT = (
     / "content"
     / "nutrients"
 )
-PROMPT_TEMPLATE = (
-    "Research {nutrient} for human nutrition, what is it for? "
-    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, dosing, risks, interactions, etc)? "
-    "What are the top 3 highest quality/purity {nutrient} products i can buy?"
-)
 RESEARCH_PROMPT_TEMPLATE = (
-    "Research {nutrient} for human nutrition, what is it for? "
-    "How is it best ingested in the optimal amounts (food, drinks, supplements, forms, dosing, risks, interactions, etc)?"
+    "Research {nutrient} for human health, nutrition, and performance. "
+    "Your response MUST cover all four of the following with clearly distinct, "
+    "substantive sections. Do not blend topics across sections; each fact "
+    "belongs in exactly one section, placed under the most specific heading.\n\n"
+    "1. PURPOSE — what {nutrient} is for: physiological roles, mechanisms of "
+    "action, and consequences of deficiency. Do not list food sources, dosing "
+    "numbers, or risks here.\n\n"
+    "2. INGESTION — best food, drink, and supplement sources of {nutrient}, "
+    "and the forms that exist (chelates, salts, esters, methylated vs. "
+    "non-methylated, etc.) with bioavailability differences. Do not include "
+    "specific daily-intake numbers or discuss safety here.\n\n"
+    "3. DOSING — recommended daily intake for typical adults (RDI/RDA, AI), "
+    "supplemental ranges, timing, and how baseline maintenance dosing differs "
+    "from repletion or higher-demand dosing. Include explicit numbers "
+    "(mg, mcg, IU, % DV). Do not restate purpose or list food sources here.\n\n"
+    "4. RISKS — side effects, tolerable upper intake level (UL), and drug "
+    "and nutrient interactions. Do not restate purpose, food sources, or "
+    "recommended dosing here.\n\n"
+    "Cite specifics (numbers, named compounds, named drugs/nutrients) wherever "
+    "possible. Prefer concrete claims over generalities."
 )
 PRODUCT_PROMPT_TEMPLATE = (
     "What are the top 3 highest quality/purity {nutrient} products i can buy? "
@@ -52,10 +71,32 @@ SECTIONS: tuple[str, ...] = (
     "risks",
 )
 SECTION_PROMPTS: dict[str, str] = {
-    "purpose": "In human nutrition, what is {nutrient} for? What does it do in the body?",
-    "ingestion": "In human nutrition, what are the best food, drink, and supplement sources of {nutrient}? What forms exist?",
-    "dosing": "In human nutrition, what is the recommended daily intake of {nutrient}? Include amounts for typical adults.",
-    "risks": "In human nutrition, what are the risks, side effects, upper limits, and drug/nutrient interactions of {nutrient}?",
+    "purpose": (
+        "In human health/nutrition/performance, what is {nutrient} for? "
+        "What does it do in the body — physiological roles, mechanisms, "
+        "deficiency consequences? Focus only on purpose and function; do "
+        "not list food sources, dosing numbers, or risks."
+    ),
+    "ingestion": (
+        "In human health/nutrition/performance, what are the best food, "
+        "drink, and supplement sources of {nutrient}, and what forms exist "
+        "(chelates, salts, esters, etc.) with bioavailability differences? "
+        "Focus only on sources and forms; do not include daily-intake "
+        "numbers or discuss risks."
+    ),
+    "dosing": (
+        "In human health/nutrition/performance, what is the recommended "
+        "daily intake of {nutrient} for typical adults? Include RDI/RDA, "
+        "supplemental ranges, and baseline vs. repletion dosing with "
+        "explicit numbers. Focus only on amounts; do not list food sources "
+        "or discuss risks."
+    ),
+    "risks": (
+        "In human health/nutrition/performance, what are the risks, side "
+        "effects, upper limits (UL), and drug/nutrient interactions of "
+        "{nutrient}? Focus only on safety; do not restate purpose, food "
+        "sources, or recommended dosing."
+    ),
 }
 COVERAGE_SYSTEM_PROMPT = """You are checking whether a nutrient research response covers each required section.
 
@@ -81,6 +122,36 @@ Write one coherent Markdown guide using exactly these five section headings, in 
 ## Products
 
 The response MUST begin with the literal line "## What it's for". Do not output any title, H1 (`#`) heading, nutrient name, preamble, introduction, or any text above the first `## What it's for` heading. Do not add any sections, headings, or trailing content beyond these five.
+
+Section mapping:
+The research response covers four topics: PURPOSE, INGESTION, DOSING, RISKS.
+Map them 1:1 to your output headings:
+- PURPOSE   → ## What it's for
+- INGESTION → ## How to get it
+- DOSING    → ## Dosing
+- RISKS     → ## Risks
+The product response maps to ## Products.
+
+Avoid redundancy (not strict deduplication):
+Do not restate the same point with the same purpose in multiple sections.
+A fact MAY appear in more than one section if each appearance adds NEW
+information specific to that section's lens. For example, red palm oil
+can appear in ## How to get it as a top food source AND in ## Dosing if
+dosing meaningfully differs by form (preformed vitamin A from palm oil
+vs. beta-carotene precursors from carrots). It should NOT appear in both
+if the second mention only repeats "palm oil is high in vitamin A"
+without adding lens-specific detail. The test for each repeat mention:
+does it earn its keep with information the prior mention didn't supply?
+
+Length budgets (soft targets, not hard caps; total guide ~700–1000 words):
+- ## What it's for: 100–180 words, 3–5 sentences.
+- ## How to get it: 130–220 words; bulleted lists allowed for source lists
+  and form comparisons.
+- ## Dosing: 100–180 words; include explicit numbers (mg, mcg, IU, % DV).
+- ## Risks: 130–220 words; cover side effects, upper limits, and drug/
+  nutrient interactions in one integrated section.
+- ## Products: as specified below (no word budget).
+Prefer concision over padding. Drop tangential detail rather than restating.
 
 Dosing rules:
 - Give ONE combined recommendation, not two unreconciled regimens.
@@ -165,32 +236,31 @@ def is_blank_response(response_path: Path) -> bool:
     return not response_path.read_text(encoding="utf-8").strip()
 
 
-def find_blank_nutrients(content_root: Path) -> list[NutrientEntry]:
+def find_nutrients(
+    content_root: Path, *, only_blanks: bool = True
+) -> list[NutrientEntry]:
     if not content_root.is_dir():
         raise FileNotFoundError(f"nutrients content root not found: {content_root}")
 
-    blanks: list[NutrientEntry] = []
+    entries: list[NutrientEntry] = []
     for entry_dir in sorted(content_root.iterdir(), key=lambda path: path.name):
         if not entry_dir.is_dir():
             continue
         response_path = entry_dir / "response.md"
-        if is_blank_response(response_path):
-            blanks.append(
-                NutrientEntry(
-                    slug=entry_dir.name,
-                    name=load_nutrient_name(entry_dir),
-                    response_path=response_path,
-                )
+        if only_blanks and not is_blank_response(response_path):
+            continue
+        entries.append(
+            NutrientEntry(
+                slug=entry_dir.name,
+                name=load_nutrient_name(entry_dir),
+                response_path=response_path,
             )
-    return blanks
+        )
+    return entries
 
 
-def _prompt_form(nutrient_name: str) -> str:
-    return " ".join(w.lower() if len(w) > 1 else w for w in nutrient_name.split())
-
-
-def build_prompt(nutrient_name: str) -> str:
-    return PROMPT_TEMPLATE.format(nutrient=_prompt_form(nutrient_name))
+def find_blank_nutrients(content_root: Path) -> list[NutrientEntry]:
+    return find_nutrients(content_root, only_blanks=True)
 
 
 def build_research_prompt(nutrient_name: str) -> str:
@@ -199,27 +269,6 @@ def build_research_prompt(nutrient_name: str) -> str:
 
 def build_product_prompt(nutrient_name: str) -> str:
     return PRODUCT_PROMPT_TEMPLATE.format(nutrient=_prompt_form(nutrient_name))
-
-
-def write_meta_prompt(entry_dir: Path, nutrient_name: str) -> bool:
-    meta_path = entry_dir / "meta.json"
-    if not meta_path.is_file():
-        return False
-    try:
-        meta = json.loads(meta_path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return False
-    if not isinstance(meta, dict):
-        return False
-    new_prompt = build_prompt(nutrient_name)
-    if meta.get("prompt") == new_prompt:
-        return False
-    meta["prompt"] = new_prompt
-    meta_path.write_text(
-        json.dumps(meta, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-    return True
 
 
 def extract_response_text(payload: dict[str, Any]) -> str:
@@ -551,24 +600,25 @@ def fill_blank_nutrients(
     generate_response: ResponseGenerator | None = None,
     settings: Any | None = None,
     only: str | None = None,
+    refresh_all: bool = False,
 ) -> FillResult:
-    blanks = find_blank_nutrients(content_root)
+    candidates = find_nutrients(content_root, only_blanks=not refresh_all)
     if only:
         target = only.strip().lower()
-        blanks = [entry for entry in blanks if entry.slug.lower() == target]
-        if not blanks:
-            raise FileNotFoundError(
-                f"no blank nutrient response found for slug {only!r}"
-            )
+        candidates = [entry for entry in candidates if entry.slug.lower() == target]
+        if not candidates:
+            scope = "any nutrient" if refresh_all else "blank nutrient response"
+            raise FileNotFoundError(f"no {scope} found for slug {only!r}")
     failures: list[str] = []
     written_count = 0
 
     if dry_run:
-        for entry in blanks:
-            print(f"blank: {entry.slug} ({entry.name})")
-        return FillResult(blank_count=len(blanks), written_count=0, failures=())
+        label = "candidate" if refresh_all else "blank"
+        for entry in candidates:
+            print(f"{label}: {entry.slug} ({entry.name})")
+        return FillResult(blank_count=len(candidates), written_count=0, failures=())
 
-    if not blanks:
+    if not candidates:
         return FillResult(blank_count=0, written_count=0, failures=())
 
     if call_model is not None and generate_response is not None:
@@ -596,7 +646,7 @@ def fill_blank_nutrients(
                 settings=pipeline_settings,
             )
 
-    for entry in blanks:
+    for entry in candidates:
         print(f"filling: {entry.slug} ({entry.name})")
         try:
             generated = generate_response(entry.name).strip()
@@ -613,11 +663,9 @@ def fill_blank_nutrients(
         entry.response_path.write_text(generated + "\n", encoding="utf-8")
         written_count += 1
         print(f"wrote: {entry.response_path}")
-        if write_meta_prompt(entry.response_path.parent, entry.name):
-            print(f"synced prompt: {entry.slug}")
 
     return FillResult(
-        blank_count=len(blanks),
+        blank_count=len(candidates),
         written_count=written_count,
         failures=tuple(failures),
     )
@@ -653,42 +701,20 @@ def parse_args() -> argparse.Namespace:
         "--only",
         default=None,
         help="Process only the nutrient with this slug (e.g. 'zinc'). "
-        "Errors if the slug is not in the blank set.",
+        "Errors if the slug is not in the candidate set "
+        "(blanks by default, all nutrients with --refresh-all).",
     )
     parser.add_argument(
-        "--sync-prompts",
+        "--refresh-all",
         action="store_true",
-        help="Rewrite the `prompt` field in every nutrient's meta.json to match "
-        "PROMPT_TEMPLATE, without generating responses.",
+        help="Regenerate every nutrient's response.md, not just blanks. "
+        "Combine with --only to refresh a single nutrient.",
     )
     return parser.parse_args()
 
 
-def sync_all_prompts(content_root: Path) -> int:
-    if not content_root.is_dir():
-        raise FileNotFoundError(f"nutrients content root not found: {content_root}")
-    updated = 0
-    for entry_dir in sorted(content_root.iterdir(), key=lambda p: p.name):
-        if not entry_dir.is_dir():
-            continue
-        name = load_nutrient_name(entry_dir)
-        if write_meta_prompt(entry_dir, name):
-            updated += 1
-            print(f"synced prompt: {entry_dir.name}")
-    return updated
-
-
 def main() -> int:
     args = parse_args()
-
-    if args.sync_prompts:
-        try:
-            updated = sync_all_prompts(args.content_root)
-        except Exception as exc:
-            print(f"error: {exc}", file=sys.stderr)
-            return 1
-        print(f"Done: synced {updated} nutrient prompt(s).")
-        return 0
 
     api_key = os.environ.get("XAI_API_KEY", "")
 
@@ -700,6 +726,7 @@ def main() -> int:
             dry_run=args.dry_run,
             timeout_seconds=args.timeout,
             only=args.only,
+            refresh_all=args.refresh_all,
         )
     except MissingRuntimeConfigError as exc:
         print(str(exc), file=sys.stderr)
@@ -708,14 +735,14 @@ def main() -> int:
         print(f"error: {exc}", file=sys.stderr)
         return 1
 
+    noun = "nutrient" if args.refresh_all else "blank nutrient response"
     if result.blank_count == 0:
-        print("No blank nutrient responses found.")
+        print(f"No {noun}s found.")
     elif args.dry_run:
-        print(f"Found {result.blank_count} blank nutrient response(s).")
+        print(f"Found {result.blank_count} {noun}(s).")
     else:
         print(
-            f"Done: wrote {result.written_count}/{result.blank_count} blank "
-            "nutrient response(s)."
+            f"Done: wrote {result.written_count}/{result.blank_count} {noun}(s)."
         )
 
     return 1 if result.failures else 0

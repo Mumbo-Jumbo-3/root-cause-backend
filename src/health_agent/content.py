@@ -12,9 +12,17 @@ import json
 from pathlib import Path
 from typing import Any
 
+from health_agent.nutrient_prompts import build_prompt
+
 CONTENT_ROOT = Path(__file__).parent / "content"
 _FEATURED_ROOT = CONTENT_ROOT / "featured"
 _NUTRIENTS_ROOT = CONTENT_ROOT / "nutrients"
+
+
+def _with_nutrient_prompt(meta: dict[str, Any]) -> dict[str, Any]:
+    name = meta.get("name") or meta.get("slug") or ""
+    meta["prompt"] = build_prompt(name)
+    return meta
 
 
 def _load_meta(root: Path, slug: str) -> dict[str, Any] | None:
@@ -57,8 +65,9 @@ def get_featured(slug: str) -> dict[str, Any] | None:
 
 
 def list_nutrients() -> list[dict[str, Any]]:
-    return _list_metas(_NUTRIENTS_ROOT)
+    return [_with_nutrient_prompt(meta) for meta in _list_metas(_NUTRIENTS_ROOT)]
 
 
 def get_nutrient(slug: str) -> dict[str, Any] | None:
-    return _load_full(_NUTRIENTS_ROOT, slug)
+    full = _load_full(_NUTRIENTS_ROOT, slug)
+    return _with_nutrient_prompt(full) if full is not None else None
