@@ -37,6 +37,10 @@ class Settings(BaseSettings):
         "hubermanlab",
         "foundmyfitness",
         "outdoctrination",
+        "AJA_Cortes",
+        "ChrisMasterjohn",
+        "BradStanfieldMD",
+        "theholisticnick",
     ]
 
     resources_dir: Path = Path("resources")
