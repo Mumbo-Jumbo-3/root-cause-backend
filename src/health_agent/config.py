@@ -41,6 +41,9 @@ class Settings(BaseSettings):
         "ChrisMasterjohn",
         "BradStanfieldMD",
         "theholisticnick",
+        "BioavailableNd",
+        "iam_preethi",
+        "LilyNicholsRDN",
     ]
 
     resources_dir: Path = Path("resources")
