@@ -17,6 +17,7 @@ class Settings(BaseSettings):
     unrestricted_xai_reasoning_effort: str = "medium"
     anthropic_synthesis_model: str = "claude-sonnet-4-6"
     anthropic_judge_model: str = "claude-sonnet-4-6"
+    anthropic_classifier_model: str = "claude-haiku-4-5-20251001"
 
     embedding_model: str = "voyage-4-large"
     embedding_dimensions: int = 1024
@@ -41,9 +42,13 @@ class Settings(BaseSettings):
         "ChrisMasterjohn",
         "BradStanfieldMD",
         "theholisticnick",
+    ]
+
+    womens_health_x_accounts: list[str] = [
         "BioavailableNd",
         "iam_preethi",
         "LilyNicholsRDN",
+        "celestialbe1ing",
     ]
 
     resources_dir: Path = Path("resources")

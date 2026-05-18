@@ -35,6 +35,13 @@ def get_claude_judge_model(settings: Settings) -> ChatAnthropic:
     )
 
 
+def get_claude_classifier_model(settings: Settings) -> ChatAnthropic:
+    return ChatAnthropic(
+        model=settings.anthropic_classifier_model,
+        api_key=settings.anthropic_api_key,
+    )
+
+
 def get_embeddings_model(settings: Settings) -> VoyageAIEmbeddings:
     return VoyageAIEmbeddings(
         model=settings.embedding_model,

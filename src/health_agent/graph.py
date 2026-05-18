@@ -11,6 +11,7 @@ from pydantic import BaseModel
 
 from health_agent.config import Settings
 from health_agent.models import (
+    get_claude_classifier_model,
     get_claude_judge_model,
     get_claude_synthesis_model,
     get_trusted_grok_model,
@@ -86,6 +87,14 @@ class TrustedSearchAnalysis(BaseModel):
 
 class UnrestrictedSearchAnalysis(BaseModel):
     initial_response: str
+
+
+class WomensHealthSearchAnalysis(BaseModel):
+    initial_response: str
+
+
+class WomensHealthClassification(BaseModel):
+    is_womens_health: bool
 
 
 def _strip_grok_render_tags(content: str) -> str:
@@ -180,7 +189,11 @@ def build_graph(settings: Settings, checkpointer=None):
     unrestricted_grok = get_unrestricted_grok_model(settings)
     claude = get_claude_synthesis_model(settings)
     judge = get_claude_judge_model(settings)
+    classifier = get_claude_classifier_model(settings)
     accounts = ", ".join(f"@{a}" for a in settings.trusted_x_accounts)
+    womens_health_accounts = ", ".join(
+        f"@{a}" for a in settings.womens_health_x_accounts
+    )
 
     trusted_search_system = f"""You are a knowledgeable health and wellness assistant.
 Use X Search results to answer the user's question while prioritizing these trusted
@@ -203,16 +216,38 @@ Return ONLY a JSON object with:
 
 Do not include any text outside the JSON object."""
 
+    womens_health_search_system = f"""You are a knowledgeable women's health assistant.
+Use X Search results to answer the user's question, prioritizing these trusted
+women's-health accounts: {womens_health_accounts}.
+
+Focus on aspects specific to female physiology, pregnancy, postpartum,
+breastfeeding, fertility, menstrual/hormonal cycles, or motherhood as
+relevant to the question.
+
+Return ONLY a JSON object with:
+- "initial_response": a practical analysis grounded in relevant posts from those accounts
+
+Do not include any text outside the JSON object."""
+
+    classifier_system = """Classify whether the user's question is specifically related to
+female physiology, pregnancy, postpartum, breastfeeding, fertility, menstrual or
+hormonal cycles, menopause, or motherhood. General health questions that apply to
+both sexes are NOT women's-health-specific.
+
+Return ONLY a JSON object: {"is_womens_health": true} or {"is_womens_health": false}.
+Do not include any text outside the JSON object."""
+
     synthesis_system = """You are a knowledgeable health and wellness assistant.
-You will receive evidence from up to three channels:
+You will receive evidence from up to four channels:
 1. A RAG system over a curated research archive
 2. Trusted X accounts
-3. Unrestricted X Search (may be absent)
+3. Trusted women's-health X accounts (only present for women's-health questions)
+4. Unrestricted X Search (may be absent)
 
 Write a comprehensive, practical response that prioritizes those sources in that order.
 If evidence conflicts, prefer the higher-priority source and briefly explain the conflict.
 If a channel is empty or failed, briefly note that its evidence was limited or unavailable.
-If unrestricted X search was not consulted, do not mention it at all.
+If a channel was not consulted (women's-health or unrestricted), do not mention it at all.
 Keep the response integrated rather than source-separated, but include a brief hierarchy note
 that the curated research archive and trusted accounts were weighted above broader X findings.
 
@@ -233,6 +268,87 @@ Return ONLY a JSON object with:
 - "reason": a short sentence (for logs only; not shown to users).
 
 Do not include any text outside the JSON object."""
+
+    def classify_womens_health(state: AgentState):
+        _emit_phase("classify_womens_health", "started")
+        last_message = state["messages"][-1]
+        try:
+            raw = classifier.invoke(
+                [
+                    SystemMessage(content=classifier_system),
+                    HumanMessage(content=str(last_message.content)),
+                ]
+            )
+            parsed = _parse_json_content(_extract_raw_content(raw))
+            result = WomensHealthClassification(**parsed)
+            _emit_phase(
+                "classify_womens_health",
+                "completed",
+                {"status": STATUS_SUCCESS, "is_womens_health": result.is_womens_health},
+            )
+            return {"is_womens_health": result.is_womens_health}
+        except Exception:
+            logger.exception("Women's-health classifier failed; defaulting to false")
+            _emit_phase(
+                "classify_womens_health",
+                "completed",
+                {"status": STATUS_ERROR, "is_womens_health": False},
+            )
+            return {"is_womens_health": False}
+
+    def womens_health_grok_search(state: AgentState):
+        if not state.get("is_womens_health"):
+            _emit_phase(
+                "womens_health_search", "completed", {"status": STATUS_SKIPPED}
+            )
+            return {
+                "womens_health_search_response": "",
+                "womens_health_search_status": STATUS_SKIPPED,
+            }
+
+        _emit_phase("womens_health_search", "started")
+        last_message = state["messages"][-1]
+        search_llm = trusted_grok.with_config({"tags": ["nostream"]}).bind(
+            tools=[
+                {
+                    "type": "x_search",
+                    "allowed_x_handles": settings.womens_health_x_accounts,
+                }
+            ]
+        )
+
+        try:
+            raw = search_llm.invoke(
+                [SystemMessage(content=womens_health_search_system), last_message]
+            )
+            content = _extract_raw_content(raw)
+            try:
+                parsed = _parse_json_content(content)
+            except json.JSONDecodeError:
+                logger.warning(
+                    "Women's-health Grok returned malformed JSON; using content fallback"
+                )
+                parsed = {"initial_response": content}
+
+            result = WomensHealthSearchAnalysis(**parsed)
+            cleaned_response = _strip_grok_render_tags(result.initial_response).strip()
+            status = _search_status(cleaned_response)
+            _emit_phase(
+                "womens_health_search", "completed", {"status": status}
+            )
+            return {
+                "womens_health_search_response": cleaned_response,
+                "womens_health_search_status": status,
+            }
+        except Exception:
+            logger.exception("Women's-health Grok search failed")
+            _emit_phase(
+                "womens_health_search", "completed", {"status": STATUS_ERROR}
+            )
+            return {
+                "womens_health_search_response": "Women's-health X search failed.",
+                "womens_health_search_status": STATUS_ERROR,
+            }
 
     def trusted_grok_search(state: AgentState):
         _emit_phase("trusted_search", "started")
@@ -423,11 +539,16 @@ Do not include any text outside the JSON object."""
             return {"sufficient": False}
 
         user_question = str(state["messages"][-1].content)
-        judge_user = (
-            f"## User Question\n{user_question}\n\n"
-            f"## Trusted X Analysis\n{state['trusted_search_response']}\n\n"
-            f"## Retrieved Documents\n{state['rag_context']}"
-        )
+        judge_sections = [
+            f"## User Question\n{user_question}",
+            f"## Trusted X Analysis\n{state['trusted_search_response']}",
+        ]
+        if state.get("womens_health_search_status") == STATUS_SUCCESS:
+            judge_sections.append(
+                f"## Women's-Health X Analysis\n{state['womens_health_search_response']}"
+            )
+        judge_sections.append(f"## Retrieved Documents\n{state['rag_context']}")
+        judge_user = "\n\n".join(judge_sections)
         try:
             raw = judge.invoke(
                 [SystemMessage(content=judge_system), HumanMessage(content=judge_user)]
@@ -460,14 +581,24 @@ Do not include any text outside the JSON object."""
         _emit_phase("synthesize", "started")
         original_question = str(state["messages"][-1].content)
         unrestricted_status = state["unrestricted_search_status"]
-        skipped = unrestricted_status == STATUS_SKIPPED
+        unrestricted_skipped = unrestricted_status == STATUS_SKIPPED
+        womens_health_status = state.get("womens_health_search_status", STATUS_SKIPPED)
+        womens_health_present = womens_health_status != STATUS_SKIPPED
+
+        priority_lines = [
+            "1. RAG system over a curated research archive",
+            "2. Trusted X accounts",
+        ]
+        next_idx = 3
+        if womens_health_present:
+            priority_lines.append(f"{next_idx}. Trusted women's-health X accounts")
+            next_idx += 1
+        if not unrestricted_skipped:
+            priority_lines.append(f"{next_idx}. Unrestricted X Search")
 
         sections = [
             f"## User Question\n{original_question}",
-            "## Evidence Priority\n"
-            "1. RAG system over a curated research archive\n"
-            "2. Trusted X accounts"
-            + ("" if skipped else "\n3. Unrestricted X Search"),
+            "## Evidence Priority\n" + "\n".join(priority_lines),
         ]
 
         status_lines = [
@@ -476,12 +607,20 @@ Do not include any text outside the JSON object."""
             f"- Enriched RAG: {state['enrich_rag_status']}",
             f"- RAG Aggregate: {state['rag_status']}",
         ]
-        if not skipped:
+        if womens_health_present:
+            status_lines.insert(
+                1, f"- Women's-Health X Search: {womens_health_status}"
+            )
+        if not unrestricted_skipped:
             status_lines.insert(1, f"- Unrestricted X Search: {unrestricted_status}")
         sections.append("## Branch Status\n" + "\n".join(status_lines))
 
         sections.append(f"## Trusted X Analysis\n{state['trusted_search_response']}")
-        if not skipped:
+        if womens_health_present:
+            sections.append(
+                f"## Women's-Health X Analysis\n{state['womens_health_search_response']}"
+            )
+        if not unrestricted_skipped:
             sections.append(
                 f"## Unrestricted X Analysis\n{state['unrestricted_search_response']}"
             )
@@ -496,8 +635,9 @@ Do not include any text outside the JSON object."""
         ]
 
         logger.info(
-            "claude_synthesize invoke: trusted=%s base_rag=%s enrich_rag=%s rag=%s unrestricted=%s user_chars=%d",
+            "claude_synthesize invoke: trusted=%s womens_health=%s base_rag=%s enrich_rag=%s rag=%s unrestricted=%s user_chars=%d",
             state["trusted_search_status"],
+            womens_health_status,
             state["base_rag_status"],
             state["enrich_rag_status"],
             state["rag_status"],
@@ -530,7 +670,9 @@ Do not include any text outside the JSON object."""
         return {"messages": [response]}
 
     graph = StateGraph(AgentState)
+    graph.add_node("classify_womens_health", classify_womens_health)
     graph.add_node("trusted_grok_search", trusted_grok_search)
+    graph.add_node("womens_health_grok_search", womens_health_grok_search)
     graph.add_node("unrestricted_grok_search", unrestricted_grok_search)
     graph.add_node("rag_retrieve_base", rag_retrieve_base)
     graph.add_node("rag_retrieve_enrich", rag_retrieve_enrich)
@@ -538,13 +680,18 @@ Do not include any text outside the JSON object."""
     graph.add_node("sufficiency_gate", sufficiency_gate)
     graph.add_node("claude_synthesize", claude_synthesize)
 
-    graph.add_edge(START, "trusted_grok_search")
-    graph.add_edge(START, "rag_retrieve_base")
+    graph.add_edge(START, "classify_womens_health")
+    graph.add_edge("classify_womens_health", "trusted_grok_search")
+    graph.add_edge("classify_womens_health", "womens_health_grok_search")
+    graph.add_edge("classify_womens_health", "rag_retrieve_base")
 
     graph.add_edge("trusted_grok_search", "rag_retrieve_enrich")
     graph.add_edge(["rag_retrieve_base", "rag_retrieve_enrich"], "rag_merge")
 
-    graph.add_edge(["trusted_grok_search", "rag_merge"], "sufficiency_gate")
+    graph.add_edge(
+        ["trusted_grok_search", "womens_health_grok_search", "rag_merge"],
+        "sufficiency_gate",
+    )
 
     graph.add_conditional_edges(
         "sufficiency_gate",

@@ -7,9 +7,12 @@ from typing_extensions import TypedDict
 
 class AgentState(TypedDict):
     messages: Annotated[list, add_messages]
+    is_womens_health: bool
     trusted_search_response: str
     trusted_refined_queries: list[str]
     trusted_search_status: str
+    womens_health_search_response: str
+    womens_health_search_status: str
     unrestricted_search_response: str
     unrestricted_search_status: str
     base_rag_docs: list[Document]
