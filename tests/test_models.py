@@ -13,6 +13,7 @@ def test_trusted_grok_model():
     from langchain_xai import ChatXAI
 
     assert isinstance(model, ChatXAI)
+    assert model.disable_streaming == "tool_calling"
 
 
 def test_unrestricted_grok_model():
@@ -21,6 +22,7 @@ def test_unrestricted_grok_model():
     from langchain_xai import ChatXAI
 
     assert isinstance(model, ChatXAI)
+    assert model.disable_streaming == "tool_calling"
 
 
 def test_claude_synthesis_model():

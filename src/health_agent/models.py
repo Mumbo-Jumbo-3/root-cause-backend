@@ -9,6 +9,7 @@ def get_trusted_grok_model(settings: Settings) -> ChatXAI:
     return ChatXAI(
         model=settings.trusted_xai_model,
         api_key=settings.xai_api_key,
+        disable_streaming="tool_calling",
         extra_body={"reasoning_effort": settings.trusted_xai_reasoning_effort},
     )
 
@@ -17,6 +18,7 @@ def get_unrestricted_grok_model(settings: Settings) -> ChatXAI:
     return ChatXAI(
         model=settings.unrestricted_xai_model,
         api_key=settings.xai_api_key,
+        disable_streaming="tool_calling",
         extra_body={"reasoning_effort": settings.unrestricted_xai_reasoning_effort},
     )
 
