@@ -14,8 +14,8 @@ from health_agent.models import (
     get_claude_classifier_model,
     get_claude_judge_model,
     get_claude_synthesis_model,
-    get_trusted_grok_model,
-    get_unrestricted_grok_model,
+    get_trusted_grok_x_search_model,
+    get_unrestricted_grok_x_search_model,
 )
 from health_agent.rag.retriever import query_keyword_chunks, query_vector_chunks, rerank_documents
 from health_agent.state import AgentState
@@ -185,8 +185,13 @@ def _format_rag_context(docs: list[Document]) -> str:
 
 
 def build_graph(settings: Settings, checkpointer=None):
-    trusted_grok = get_trusted_grok_model(settings)
-    unrestricted_grok = get_unrestricted_grok_model(settings)
+    trusted_grok_x_search = get_trusted_grok_x_search_model(
+        settings, settings.trusted_x_accounts
+    )
+    womens_health_grok_x_search = get_trusted_grok_x_search_model(
+        settings, settings.womens_health_x_accounts
+    )
+    unrestricted_grok_x_search = get_unrestricted_grok_x_search_model(settings)
     claude = get_claude_synthesis_model(settings)
     judge = get_claude_judge_model(settings)
     classifier = get_claude_classifier_model(settings)
@@ -308,14 +313,7 @@ Do not include any text outside the JSON object."""
 
         _emit_phase("womens_health_search", "started")
         last_message = state["messages"][-1]
-        search_llm = trusted_grok.with_config({"tags": ["nostream"]}).bind(
-            tools=[
-                {
-                    "type": "x_search",
-                    "allowed_x_handles": settings.womens_health_x_accounts,
-                }
-            ]
-        )
+        search_llm = womens_health_grok_x_search.with_config({"tags": ["nostream"]})
 
         try:
             raw = search_llm.invoke(
@@ -353,14 +351,7 @@ Do not include any text outside the JSON object."""
     def trusted_grok_search(state: AgentState):
         _emit_phase("trusted_search", "started")
         last_message = state["messages"][-1]
-        search_llm = trusted_grok.with_config({"tags": ["nostream"]}).bind(
-            tools=[
-                {
-                    "type": "x_search",
-                    "allowed_x_handles": settings.trusted_x_accounts,
-                }
-            ]
-        )
+        search_llm = trusted_grok_x_search.with_config({"tags": ["nostream"]})
 
         try:
             raw = search_llm.invoke(
@@ -402,9 +393,7 @@ Do not include any text outside the JSON object."""
     def unrestricted_grok_search(state: AgentState):
         _emit_phase("unrestricted_search", "started")
         last_message = state["messages"][-1]
-        search_llm = unrestricted_grok.with_config({"tags": ["nostream"]}).bind(
-            tools=[{"type": "x_search"}]
-        )
+        search_llm = unrestricted_grok_x_search.with_config({"tags": ["nostream"]})
 
         try:
             raw = search_llm.invoke(
