@@ -14,12 +14,18 @@ from health_agent.graph import (
 )
 
 
-def _make_search_model(content=None, *, error: Exception | None = None):
+def _make_search_model(content=None, *, error: Exception | None = None, capture_bind=None):
     model = MagicMock()
     configured = MagicMock()
+    bound = MagicMock()
 
     def fake_with_config(cfg):
         return configured
+
+    def fake_bind(**kwargs):
+        if capture_bind is not None:
+            capture_bind["kwargs"] = kwargs
+        return bound
 
     def fake_invoke(messages, **kwargs):
         if error is not None:
@@ -27,7 +33,8 @@ def _make_search_model(content=None, *, error: Exception | None = None):
         return AIMessage(content=content)
 
     model.with_config = fake_with_config
-    configured.invoke = fake_invoke
+    configured.bind = fake_bind
+    bound.invoke = fake_invoke
     return model
 
 
@@ -50,12 +57,9 @@ def _build_graph(*, trusted=None, unrestricted=None, claude=None):
         xai_api_key="test-xai-key",
     )
     with (
+        patch("health_agent.graph.get_trusted_grok_model", return_value=trusted or MagicMock()),
         patch(
-            "health_agent.graph.get_trusted_grok_x_search_model",
-            return_value=trusted or MagicMock(),
-        ),
-        patch(
-            "health_agent.graph.get_unrestricted_grok_x_search_model",
+            "health_agent.graph.get_unrestricted_grok_model",
             return_value=unrestricted or MagicMock(),
         ),
         patch("health_agent.graph.get_claude_synthesis_model", return_value=claude or MagicMock()),
@@ -90,14 +94,9 @@ def test_graph_has_expected_topology():
     graph_data = graph.get_graph()
 
     start_targets = {e.target for e in graph_data.edges if e.source == "__start__"}
-    assert start_targets == {"classify_womens_health"}
-
-    classifier_targets = {
-        e.target for e in graph_data.edges if e.source == "classify_womens_health"
-    }
-    assert "trusted_grok_search" in classifier_targets
-    assert "womens_health_grok_search" in classifier_targets
-    assert "rag_retrieve_base" in classifier_targets
+    assert "trusted_grok_search" in start_targets
+    assert "unrestricted_grok_search" in start_targets
+    assert "rag_retrieve_base" in start_targets
 
     assert (
         "rag_retrieve_enrich",
@@ -111,8 +110,9 @@ def test_graph_has_expected_topology():
     }
 
     synthesize_sources = {e.source for e in graph_data.edges if e.target == "claude_synthesize"}
-    assert "sufficiency_gate" in synthesize_sources
+    assert "trusted_grok_search" in synthesize_sources
     assert "unrestricted_grok_search" in synthesize_sources
+    assert "rag_merge" in synthesize_sources
 
     end_sources = {e.source for e in graph_data.edges if e.target == "__end__"}
     assert "claude_synthesize" in end_sources
@@ -185,51 +185,32 @@ def test_unrestricted_grok_search_error_sets_error_status():
     assert "failed" in result["unrestricted_search_response"].lower()
 
 
-def test_trusted_grok_search_is_built_with_trusted_handles():
-    settings = Settings(
-        voyage_api_key="test-voyage-key",
-        anthropic_api_key="test-anthropic-key",
-        xai_api_key="test-xai-key",
+def test_trusted_grok_search_binds_allowed_handles():
+    captured = {}
+    trusted_model = _make_search_model(
+        json.dumps({"initial_response": "ok", "refined_queries": ["q1"]}),
+        capture_bind=captured,
     )
-    with (
-        patch(
-            "health_agent.graph.get_trusted_grok_x_search_model",
-            return_value=MagicMock(),
-        ) as trusted_factory,
-        patch(
-            "health_agent.graph.get_unrestricted_grok_x_search_model",
-            return_value=MagicMock(),
-        ),
-        patch("health_agent.graph.get_claude_synthesis_model", return_value=MagicMock()),
-    ):
-        build_graph(settings)
+    fn = _get_node_func("trusted_grok_search", trusted=trusted_model)
 
-    handle_lists = [call.args[1] for call in trusted_factory.call_args_list]
-    assert settings.trusted_x_accounts in handle_lists
-    assert settings.womens_health_x_accounts in handle_lists
+    fn({"messages": [HumanMessage(content="test")]})
+
+    assert captured["kwargs"]["tools"][0]["type"] == "x_search"
+    assert "allowed_x_handles" in captured["kwargs"]["tools"][0]
 
 
-def test_unrestricted_grok_search_is_built_without_account_filter():
-    settings = Settings(
-        voyage_api_key="test-voyage-key",
-        anthropic_api_key="test-anthropic-key",
-        xai_api_key="test-xai-key",
+def test_unrestricted_grok_search_has_no_account_filter():
+    captured = {}
+    unrestricted_model = _make_search_model(
+        json.dumps({"initial_response": "ok"}),
+        capture_bind=captured,
     )
-    with (
-        patch(
-            "health_agent.graph.get_trusted_grok_x_search_model",
-            return_value=MagicMock(),
-        ),
-        patch(
-            "health_agent.graph.get_unrestricted_grok_x_search_model",
-            return_value=MagicMock(),
-        ) as unrestricted_factory,
-        patch("health_agent.graph.get_claude_synthesis_model", return_value=MagicMock()),
-    ):
-        build_graph(settings)
+    fn = _get_node_func("unrestricted_grok_search", unrestricted=unrestricted_model)
 
-    assert unrestricted_factory.call_count == 1
-    assert unrestricted_factory.call_args.args == (settings,)
+    fn({"messages": [HumanMessage(content="test")]})
+
+    assert captured["kwargs"]["tools"][0]["type"] == "x_search"
+    assert "allowed_x_handles" not in captured["kwargs"]["tools"][0]
 
 
 def test_rag_retrieve_base_uses_original_query_only():

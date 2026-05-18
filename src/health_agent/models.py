@@ -13,37 +13,11 @@ def get_trusted_grok_model(settings: Settings) -> ChatXAI:
     )
 
 
-def get_trusted_grok_x_search_model(
-    settings: Settings, x_handles: list[str]
-) -> ChatXAI:
-    return ChatXAI(
-        model=settings.trusted_xai_model,
-        api_key=settings.xai_api_key,
-        extra_body={"reasoning_effort": settings.trusted_xai_reasoning_effort},
-        search_parameters={
-            "mode": "on",
-            "sources": [{"type": "x", "x_handles": x_handles}],
-        },
-    )
-
-
 def get_unrestricted_grok_model(settings: Settings) -> ChatXAI:
     return ChatXAI(
         model=settings.unrestricted_xai_model,
         api_key=settings.xai_api_key,
         extra_body={"reasoning_effort": settings.unrestricted_xai_reasoning_effort},
-    )
-
-
-def get_unrestricted_grok_x_search_model(settings: Settings) -> ChatXAI:
-    return ChatXAI(
-        model=settings.unrestricted_xai_model,
-        api_key=settings.xai_api_key,
-        extra_body={"reasoning_effort": settings.unrestricted_xai_reasoning_effort},
-        search_parameters={
-            "mode": "on",
-            "sources": [{"type": "x"}],
-        },
     )
 
 
