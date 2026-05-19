@@ -50,7 +50,29 @@ def _make_claude_model(captured=None):
     return model
 
 
-def _build_graph(*, trusted=None, unrestricted=None, claude=None):
+def _make_json_model(payload):
+    model = MagicMock()
+    model.invoke = lambda messages, **kwargs: AIMessage(content=json.dumps(payload))
+    return model
+
+
+def _finding(
+    claim="Magnesium can support sleep quality.",
+    source_urls=None,
+    relevance="This directly addresses the user's question.",
+):
+    return {
+        "claim": claim,
+        "source_urls": (
+            ["https://x.com/example/status/123"]
+            if source_urls is None
+            else source_urls
+        ),
+        "relevance": relevance,
+    }
+
+
+def _build_graph(*, trusted=None, unrestricted=None, claude=None, judge=None, classifier=None):
     settings = Settings(
         voyage_api_key="test-voyage-key",
         anthropic_api_key="test-anthropic-key",
@@ -63,13 +85,25 @@ def _build_graph(*, trusted=None, unrestricted=None, claude=None):
             return_value=unrestricted or MagicMock(),
         ),
         patch("health_agent.graph.get_claude_synthesis_model", return_value=claude or MagicMock()),
+        patch(
+            "health_agent.graph.get_claude_judge_model",
+            return_value=judge or _make_json_model({"sufficient": False, "reason": "test"}),
+        ),
+        patch(
+            "health_agent.graph.get_claude_classifier_model",
+            return_value=classifier or _make_json_model({"is_womens_health": False}),
+        ),
     ):
         graph = build_graph(settings)
     return graph
 
 
 def _get_node_func(node_name, *, trusted=None, unrestricted=None, claude=None):
-    graph = _build_graph(trusted=trusted, unrestricted=unrestricted, claude=claude)
+    graph = _build_graph(
+        trusted=trusted,
+        unrestricted=unrestricted,
+        claude=claude,
+    )
     return graph.get_graph().nodes[node_name].data.func
 
 
@@ -81,11 +115,14 @@ def test_graph_compiles():
 def test_graph_has_expected_nodes():
     graph = _build_graph()
     node_names = set(graph.get_graph().nodes.keys())
+    assert "classify_womens_health" in node_names
     assert "trusted_grok_search" in node_names
+    assert "womens_health_grok_search" in node_names
     assert "unrestricted_grok_search" in node_names
     assert "rag_retrieve_base" in node_names
     assert "rag_retrieve_enrich" in node_names
     assert "rag_merge" in node_names
+    assert "sufficiency_gate" in node_names
     assert "claude_synthesize" in node_names
 
 
@@ -94,9 +131,14 @@ def test_graph_has_expected_topology():
     graph_data = graph.get_graph()
 
     start_targets = {e.target for e in graph_data.edges if e.source == "__start__"}
-    assert "trusted_grok_search" in start_targets
-    assert "unrestricted_grok_search" in start_targets
-    assert "rag_retrieve_base" in start_targets
+    assert start_targets == {"classify_womens_health"}
+
+    classify_targets = {
+        e.target for e in graph_data.edges if e.source == "classify_womens_health"
+    }
+    assert "trusted_grok_search" in classify_targets
+    assert "womens_health_grok_search" in classify_targets
+    assert "rag_retrieve_base" in classify_targets
 
     assert (
         "rag_retrieve_enrich",
@@ -109,10 +151,15 @@ def test_graph_has_expected_topology():
         (e.target, e.source) for e in graph_data.edges
     }
 
-    synthesize_sources = {e.source for e in graph_data.edges if e.target == "claude_synthesize"}
-    assert "trusted_grok_search" in synthesize_sources
+    gate_sources = {e.source for e in graph_data.edges if e.target == "sufficiency_gate"}
+    assert "trusted_grok_search" in gate_sources
+    assert "womens_health_grok_search" in gate_sources
+    assert "rag_merge" in gate_sources
+
+    synthesize_sources = {
+        e.source for e in graph_data.edges if e.target == "claude_synthesize"
+    }
     assert "unrestricted_grok_search" in synthesize_sources
-    assert "rag_merge" in synthesize_sources
 
     end_sources = {e.source for e in graph_data.edges if e.target == "__end__"}
     assert "claude_synthesize" in end_sources
@@ -121,7 +168,7 @@ def test_graph_has_expected_topology():
 def test_trusted_grok_search_parses_json_and_sets_status():
     content = json.dumps(
         {
-            "initial_response": "Magnesium helps sleep.",
+            "findings": [_finding()],
             "refined_queries": ["magnesium sleep", "magnesium recovery"],
         }
     )
@@ -130,7 +177,8 @@ def test_trusted_grok_search_parses_json_and_sets_status():
 
     result = fn({"messages": [HumanMessage(content="test")]})
 
-    assert result["trusted_search_response"] == "Magnesium helps sleep."
+    assert result["trusted_search_findings"] == [_finding()]
+    assert json.loads(result["trusted_search_response"]) == [_finding()]
     assert result["trusted_refined_queries"] == ["magnesium sleep", "magnesium recovery"]
     assert result["trusted_search_status"] == STATUS_SUCCESS
 
@@ -141,7 +189,9 @@ def test_trusted_grok_search_malformed_json_degrades_gracefully():
 
     result = fn({"messages": [HumanMessage(content="benefits of magnesium")]})
 
-    assert result["trusted_search_response"] == "Not valid JSON but still helpful."
+    findings = json.loads(result["trusted_search_response"])
+    assert findings[0]["claim"] == "Not valid JSON but still helpful."
+    assert findings[0]["source_urls"] == []
     assert result["trusted_refined_queries"] == ["benefits of magnesium"]
     assert result["trusted_search_status"] == STATUS_SUCCESS
 
@@ -149,9 +199,22 @@ def test_trusted_grok_search_malformed_json_degrades_gracefully():
 def test_trusted_grok_search_strips_render_tags():
     content = json.dumps(
         {
-            "initial_response": (
-                'Magnesium helps <grok:render type="cite">@hubermanlab</grok:render> sleep.'
-            ),
+            "findings": [
+                _finding(
+                    claim=(
+                        'Magnesium helps <grok:render type="cite">@hubermanlab'
+                        "</grok:render> sleep."
+                    ),
+                    source_urls=[
+                        "https://x.com/a/status/1",
+                        "notaurl",
+                        "https://x.com/a/status/1",
+                        "https://x.com/b/status/2",
+                        "https://x.com/c/status/3",
+                        "https://x.com/d/status/4",
+                    ],
+                )
+            ],
             "refined_queries": ["q1"],
         }
     )
@@ -161,18 +224,66 @@ def test_trusted_grok_search_strips_render_tags():
     result = fn({"messages": [HumanMessage(content="test")]})
 
     assert "<grok:render" not in result["trusted_search_response"]
+    assert result["trusted_search_findings"][0]["source_urls"] == [
+        "https://x.com/a/status/1",
+        "https://x.com/b/status/2",
+        "https://x.com/c/status/3",
+    ]
     assert result["trusted_search_status"] == STATUS_SUCCESS
 
 
 def test_unrestricted_grok_search_parses_json_and_sets_status():
-    content = json.dumps({"initial_response": "Broader X discussion mentions magnesium."})
+    content = json.dumps(
+        {
+            "findings": [
+                _finding(
+                    claim="Broader X discussion mentions magnesium.",
+                    source_urls=[],
+                )
+            ]
+        }
+    )
     unrestricted_model = _make_search_model(content)
     fn = _get_node_func("unrestricted_grok_search", unrestricted=unrestricted_model)
 
     result = fn({"messages": [HumanMessage(content="test")]})
 
-    assert result["unrestricted_search_response"] == "Broader X discussion mentions magnesium."
+    assert result["unrestricted_search_findings"] == [
+        _finding(claim="Broader X discussion mentions magnesium.", source_urls=[])
+    ]
     assert result["unrestricted_search_status"] == STATUS_SUCCESS
+
+
+def test_womens_health_grok_search_parses_json_and_sets_status():
+    content = json.dumps(
+        {
+            "findings": [
+                _finding(
+                    claim="Thyroid medication often needs closer monitoring in pregnancy.",
+                    source_urls=["https://x.com/iam_preethi/status/123"],
+                    relevance="The user asked about Hashimoto's while trying to conceive.",
+                )
+            ]
+        }
+    )
+    trusted_model = _make_search_model(content)
+    fn = _get_node_func("womens_health_grok_search", trusted=trusted_model)
+
+    result = fn(
+        {
+            "messages": [HumanMessage(content="Hashimoto's and pregnancy")],
+            "is_womens_health": True,
+        }
+    )
+
+    assert result["womens_health_search_findings"] == [
+        _finding(
+            claim="Thyroid medication often needs closer monitoring in pregnancy.",
+            source_urls=["https://x.com/iam_preethi/status/123"],
+            relevance="The user asked about Hashimoto's while trying to conceive.",
+        )
+    ]
+    assert result["womens_health_search_status"] == STATUS_SUCCESS
 
 
 def test_unrestricted_grok_search_error_sets_error_status():
@@ -181,14 +292,15 @@ def test_unrestricted_grok_search_error_sets_error_status():
 
     result = fn({"messages": [HumanMessage(content="test")]})
 
+    assert result["unrestricted_search_findings"] == []
+    assert result["unrestricted_search_response"] == "[]"
     assert result["unrestricted_search_status"] == STATUS_ERROR
-    assert "failed" in result["unrestricted_search_response"].lower()
 
 
 def test_trusted_grok_search_binds_allowed_handles():
     captured = {}
     trusted_model = _make_search_model(
-        json.dumps({"initial_response": "ok", "refined_queries": ["q1"]}),
+        json.dumps({"findings": [_finding(claim="ok")], "refined_queries": ["q1"]}),
         capture_bind=captured,
     )
     fn = _get_node_func("trusted_grok_search", trusted=trusted_model)
@@ -202,7 +314,7 @@ def test_trusted_grok_search_binds_allowed_handles():
 def test_unrestricted_grok_search_has_no_account_filter():
     captured = {}
     unrestricted_model = _make_search_model(
-        json.dumps({"initial_response": "ok"}),
+        json.dumps({"findings": [_finding(claim="ok")]}),
         capture_bind=captured,
     )
     fn = _get_node_func("unrestricted_grok_search", unrestricted=unrestricted_model)
@@ -297,7 +409,7 @@ def test_claude_synthesize_includes_question_and_statuses():
     assert "RAG system over a curated research archive" in content
     assert "Trusted X Search: success" in content
     assert "Unrestricted X Search: empty" in content
-    assert "## Trusted X Analysis" in content
+    assert "## Trusted X Findings" in content
     assert "## Retrieved Documents" in content
 
 

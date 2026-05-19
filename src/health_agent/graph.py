@@ -7,7 +7,7 @@ from langchain_core.documents import Document
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langgraph.config import get_stream_writer
 from langgraph.graph import END, START, StateGraph
-from pydantic import BaseModel
+from pydantic import BaseModel, Field, field_validator
 
 from health_agent.config import Settings
 from health_agent.models import (
@@ -80,17 +80,34 @@ def reciprocal_rank_fusion(
     return [doc for _, doc in sorted_docs]
 
 
+class SearchFinding(BaseModel):
+    claim: str = ""
+    source_urls: list[str] = Field(default_factory=list)
+    relevance: str = ""
+
+    @field_validator("source_urls", mode="before")
+    @classmethod
+    def _coerce_source_urls(cls, value):
+        if value is None:
+            return []
+        if isinstance(value, str):
+            return [value]
+        if isinstance(value, list):
+            return [url for url in value if isinstance(url, str)]
+        return value
+
+
 class TrustedSearchAnalysis(BaseModel):
-    initial_response: str
-    refined_queries: list[str]
+    findings: list[SearchFinding] = Field(default_factory=list)
+    refined_queries: list[str] = Field(default_factory=list)
 
 
 class UnrestrictedSearchAnalysis(BaseModel):
-    initial_response: str
+    findings: list[SearchFinding] = Field(default_factory=list)
 
 
 class WomensHealthSearchAnalysis(BaseModel):
-    initial_response: str
+    findings: list[SearchFinding] = Field(default_factory=list)
 
 
 class WomensHealthClassification(BaseModel):
@@ -145,8 +162,61 @@ def _normalize_queries(queries: list[str], original_query: str) -> list[str]:
     return normalized
 
 
-def _search_status(content: str) -> str:
-    return STATUS_SUCCESS if content.strip() else STATUS_EMPTY
+def _coerce_findings_payload(parsed: dict, fallback_relevance: str) -> dict:
+    if "findings" not in parsed and parsed.get("initial_response"):
+        parsed = {
+            **parsed,
+            "findings": [
+                {
+                    "claim": str(parsed["initial_response"]),
+                    "source_urls": [],
+                    "relevance": fallback_relevance,
+                }
+            ],
+        }
+    return parsed
+
+
+def _fallback_findings(content: str, relevance: str) -> list[SearchFinding]:
+    cleaned = _strip_grok_render_tags(content).strip()
+    if not cleaned:
+        return []
+    return [SearchFinding(claim=cleaned, source_urls=[], relevance=relevance)]
+
+
+def _normalize_findings(findings: list[SearchFinding]) -> list[dict[str, object]]:
+    normalized: list[dict[str, object]] = []
+    for finding in findings[:10]:
+        claim = _strip_grok_render_tags(finding.claim).strip()
+        relevance = _strip_grok_render_tags(finding.relevance).strip()
+        source_urls: list[str] = []
+        for url in finding.source_urls:
+            cleaned_url = url.strip()
+            if not cleaned_url.startswith(("http://", "https://")):
+                continue
+            if cleaned_url in source_urls:
+                continue
+            source_urls.append(cleaned_url)
+            if len(source_urls) == 3:
+                break
+
+        if claim and relevance:
+            normalized.append(
+                {
+                    "claim": claim,
+                    "source_urls": source_urls,
+                    "relevance": relevance,
+                }
+            )
+    return normalized
+
+
+def _findings_status(findings: list[dict[str, object]]) -> str:
+    return STATUS_SUCCESS if findings else STATUS_EMPTY
+
+
+def _format_findings(findings: list[dict[str, object]]) -> str:
+    return json.dumps(findings, indent=2)
 
 
 def _run_search_retrieval(
@@ -200,11 +270,19 @@ Use X Search results to answer the user's question while prioritizing these trus
 accounts: {accounts}.
 
 Return ONLY a JSON object with:
-- "initial_response": a practical analysis grounded in relevant posts from those accounts
+- "findings": 3-10 objects grounded in relevant posts from those accounts. Prefer
+  3-5 findings unless the question has multiple distinct clinical or practical facets.
+  Each finding must include:
+  - "claim": a specific, non-duplicative, evidence-grounded point
+  - "source_urls": an array of exact X post URLs supporting the claim
+  - "relevance": why this finding matters for the user's question
 - "refined_queries": 3-4 short natural-language queries (each <=10 words) for a
   wellness RAG library. Each query must focus on ONE distinct angle of the
   user's question (avoid stacking unrelated keywords in a single query) and the
   set should cover different facets rather than paraphrasing each other.
+
+Use [] for "source_urls" if exact post URLs are unavailable. Never infer,
+reconstruct, or fabricate URLs. Include at most 3 URLs per finding.
 
 Do not include any text outside the JSON object."""
 
@@ -212,7 +290,15 @@ Do not include any text outside the JSON object."""
 Use unrestricted X Search results to answer the user's question.
 
 Return ONLY a JSON object with:
-- "initial_response": a practical analysis grounded in relevant posts from X Search
+- "findings": 3-10 objects grounded in relevant posts from X Search. Prefer
+  3-5 findings unless the question has multiple distinct clinical or practical facets.
+  Each finding must include:
+  - "claim": a specific, non-duplicative, evidence-grounded point
+  - "source_urls": an array of exact X post URLs supporting the claim
+  - "relevance": why this finding matters for the user's question
+
+Use [] for "source_urls" if exact post URLs are unavailable. Never infer,
+reconstruct, or fabricate URLs. Include at most 3 URLs per finding.
 
 Do not include any text outside the JSON object."""
 
@@ -225,7 +311,15 @@ breastfeeding, fertility, menstrual/hormonal cycles, or motherhood as
 relevant to the question.
 
 Return ONLY a JSON object with:
-- "initial_response": a practical analysis grounded in relevant posts from those accounts
+- "findings": 3-10 objects grounded in relevant posts from those accounts. Prefer
+  3-5 findings unless the question has multiple distinct clinical or practical facets.
+  Each finding must include:
+  - "claim": a specific, non-duplicative, evidence-grounded point
+  - "source_urls": an array of exact X post URLs supporting the claim
+  - "relevance": why this finding matters for the user's question
+
+Use [] for "source_urls" if exact post URLs are unavailable. Never infer,
+reconstruct, or fabricate URLs. Include at most 3 URLs per finding.
 
 Do not include any text outside the JSON object."""
 
@@ -244,6 +338,8 @@ You will receive evidence from up to four channels:
 3. Trusted women's-health X accounts (only present for women's-health questions)
 4. Unrestricted X Search (may be absent)
 
+Search-channel evidence is formatted as JSON findings with claim, source_urls,
+and relevance. Use those findings as evidence, not as prose to repeat verbatim.
 Write a comprehensive, practical response that prioritizes those sources in that order.
 If evidence conflicts, prefer the higher-priority source and briefly explain the conflict.
 If a channel is empty or failed, briefly note that its evidence was limited or unavailable.
@@ -259,7 +355,7 @@ the user's health question.
 Given:
 - The user's question
 - Retrieved RAG documents from the curated research archive
-- Analysis from trusted X accounts
+- Structured findings from trusted X accounts
 
 Return ONLY a JSON object with:
 - "sufficient": boolean — true if the evidence is specific, on-topic, and comprehensive
@@ -302,6 +398,7 @@ Do not include any text outside the JSON object."""
                 "womens_health_search", "completed", {"status": STATUS_SKIPPED}
             )
             return {
+                "womens_health_search_findings": [],
                 "womens_health_search_response": "",
                 "womens_health_search_status": STATUS_SKIPPED,
             }
@@ -328,15 +425,28 @@ Do not include any text outside the JSON object."""
                 logger.warning(
                     "Women's-health Grok returned malformed JSON; using content fallback"
                 )
-                parsed = {"initial_response": content}
+                parsed = {
+                    "findings": _fallback_findings(
+                        content,
+                        "Malformed JSON fallback from women's-health X Search.",
+                    )
+                }
 
+            parsed = _coerce_findings_payload(
+                parsed,
+                "Legacy response fallback from women's-health X Search.",
+            )
             result = WomensHealthSearchAnalysis(**parsed)
-            cleaned_response = _strip_grok_render_tags(result.initial_response).strip()
-            status = _search_status(cleaned_response)
+            findings = _normalize_findings(result.findings)
+            cleaned_response = _format_findings(findings)
+            status = _findings_status(findings)
             _emit_phase(
-                "womens_health_search", "completed", {"status": status}
+                "womens_health_search",
+                "completed",
+                {"status": status, "findings": len(findings)},
             )
             return {
+                "womens_health_search_findings": findings,
                 "womens_health_search_response": cleaned_response,
                 "womens_health_search_status": status,
             }
@@ -346,7 +456,8 @@ Do not include any text outside the JSON object."""
                 "womens_health_search", "completed", {"status": STATUS_ERROR}
             )
             return {
-                "womens_health_search_response": "Women's-health X search failed.",
+                "womens_health_search_findings": [],
+                "womens_health_search_response": "[]",
                 "womens_health_search_status": STATUS_ERROR,
             }
 
@@ -372,20 +483,33 @@ Do not include any text outside the JSON object."""
             except json.JSONDecodeError:
                 logger.warning("Trusted Grok returned malformed JSON; using content fallback")
                 parsed = {
-                    "initial_response": content,
+                    "findings": _fallback_findings(
+                        content,
+                        "Malformed JSON fallback from trusted-account X Search.",
+                    ),
                     "refined_queries": [str(last_message.content)],
                 }
 
+            parsed = _coerce_findings_payload(
+                parsed,
+                "Legacy response fallback from trusted-account X Search.",
+            )
             result = TrustedSearchAnalysis(**parsed)
-            cleaned_response = _strip_grok_render_tags(result.initial_response).strip()
+            findings = _normalize_findings(result.findings)
+            cleaned_response = _format_findings(findings)
             refined_queries = _normalize_queries(result.refined_queries, str(last_message.content))
-            status = _search_status(cleaned_response)
+            status = _findings_status(findings)
             _emit_phase(
                 "trusted_search",
                 "completed",
-                {"status": status, "refined_queries": len(refined_queries)},
+                {
+                    "status": status,
+                    "findings": len(findings),
+                    "refined_queries": len(refined_queries),
+                },
             )
             return {
+                "trusted_search_findings": findings,
                 "trusted_search_response": cleaned_response,
                 "trusted_refined_queries": refined_queries,
                 "trusted_search_status": status,
@@ -394,7 +518,8 @@ Do not include any text outside the JSON object."""
             logger.exception("Trusted Grok search failed")
             _emit_phase("trusted_search", "completed", {"status": STATUS_ERROR})
             return {
-                "trusted_search_response": "Trusted-account X search failed.",
+                "trusted_search_findings": [],
+                "trusted_search_response": "[]",
                 "trusted_refined_queries": [str(last_message.content)],
                 "trusted_search_status": STATUS_ERROR,
             }
@@ -415,13 +540,28 @@ Do not include any text outside the JSON object."""
                 parsed = _parse_json_content(content)
             except json.JSONDecodeError:
                 logger.warning("Unrestricted Grok returned malformed JSON; using content fallback")
-                parsed = {"initial_response": content}
+                parsed = {
+                    "findings": _fallback_findings(
+                        content,
+                        "Malformed JSON fallback from unrestricted X Search.",
+                    )
+                }
 
+            parsed = _coerce_findings_payload(
+                parsed,
+                "Legacy response fallback from unrestricted X Search.",
+            )
             result = UnrestrictedSearchAnalysis(**parsed)
-            cleaned_response = _strip_grok_render_tags(result.initial_response).strip()
-            status = _search_status(cleaned_response)
-            _emit_phase("unrestricted_search", "completed", {"status": status})
+            findings = _normalize_findings(result.findings)
+            cleaned_response = _format_findings(findings)
+            status = _findings_status(findings)
+            _emit_phase(
+                "unrestricted_search",
+                "completed",
+                {"status": status, "findings": len(findings)},
+            )
             return {
+                "unrestricted_search_findings": findings,
                 "unrestricted_search_response": cleaned_response,
                 "unrestricted_search_status": status,
             }
@@ -429,7 +569,8 @@ Do not include any text outside the JSON object."""
             logger.exception("Unrestricted Grok search failed")
             _emit_phase("unrestricted_search", "completed", {"status": STATUS_ERROR})
             return {
-                "unrestricted_search_response": "Unrestricted X search failed.",
+                "unrestricted_search_findings": [],
+                "unrestricted_search_response": "[]",
                 "unrestricted_search_status": STATUS_ERROR,
             }
 
@@ -541,11 +682,11 @@ Do not include any text outside the JSON object."""
         user_question = str(state["messages"][-1].content)
         judge_sections = [
             f"## User Question\n{user_question}",
-            f"## Trusted X Analysis\n{state['trusted_search_response']}",
+            f"## Trusted X Findings\n{state['trusted_search_response']}",
         ]
         if state.get("womens_health_search_status") == STATUS_SUCCESS:
             judge_sections.append(
-                f"## Women's-Health X Analysis\n{state['womens_health_search_response']}"
+                f"## Women's-Health X Findings\n{state['womens_health_search_response']}"
             )
         judge_sections.append(f"## Retrieved Documents\n{state['rag_context']}")
         judge_user = "\n\n".join(judge_sections)
@@ -569,6 +710,7 @@ Do not include any text outside the JSON object."""
         if sufficient:
             return {
                 "sufficient": True,
+                "unrestricted_search_findings": [],
                 "unrestricted_search_response": "",
                 "unrestricted_search_status": STATUS_SKIPPED,
             }
@@ -615,14 +757,14 @@ Do not include any text outside the JSON object."""
             status_lines.insert(1, f"- Unrestricted X Search: {unrestricted_status}")
         sections.append("## Branch Status\n" + "\n".join(status_lines))
 
-        sections.append(f"## Trusted X Analysis\n{state['trusted_search_response']}")
+        sections.append(f"## Trusted X Findings\n{state['trusted_search_response']}")
         if womens_health_present:
             sections.append(
-                f"## Women's-Health X Analysis\n{state['womens_health_search_response']}"
+                f"## Women's-Health X Findings\n{state['womens_health_search_response']}"
             )
         if not unrestricted_skipped:
             sections.append(
-                f"## Unrestricted X Analysis\n{state['unrestricted_search_response']}"
+                f"## Unrestricted X Findings\n{state['unrestricted_search_response']}"
             )
         sections.append(f"## Retrieved Documents\n{state['rag_context']}")
 
