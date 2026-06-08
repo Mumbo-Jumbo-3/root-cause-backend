@@ -1,0 +1,125 @@
+{
+  "version": "rag-context-cases-v1",
+  "cases": [
+    {
+      "id": "magnesium_sleep_stress",
+      "question": "How does magnesium relate to sleep and stress?",
+      "refined_queries": [
+        "magnesium sleep stress",
+        "magnesium GABA stress response",
+        "magnesium recovery sleep quality"
+      ],
+      "tags": ["grimhood", "minerals", "sleep"]
+    },
+    {
+      "id": "progesterone_thyroid_function",
+      "question": "What does the archive say about progesterone and thyroid function?",
+      "refined_queries": [
+        "progesterone thyroid function",
+        "thyroid estrogen progesterone liver",
+        "thyroid therapy progesterone synthesis"
+      ],
+      "tags": ["peat", "hormones", "thyroid"]
+    },
+    {
+      "id": "coconut_oil_unsaturated_fats",
+      "question": "What are the arguments for coconut oil over unsaturated fats?",
+      "refined_queries": [
+        "coconut oil unsaturated fats",
+        "PUFA saturated fat coconut oil",
+        "unsaturated oils thyroid metabolism"
+      ],
+      "tags": ["peat", "fats", "nutrition"]
+    },
+    {
+      "id": "serotonin_stress_depression_endotoxin",
+      "question": "What links serotonin with stress, depression, and endotoxin?",
+      "refined_queries": [
+        "serotonin stress depression endotoxin",
+        "endotoxin serotonin inflammation",
+        "serotonin learned helplessness stress"
+      ],
+      "tags": ["peat", "serotonin", "endotoxin"]
+    },
+    {
+      "id": "pregnancy_iron_nutrition",
+      "question": "What nutrition considerations matter for pregnancy and iron?",
+      "refined_queries": [
+        "pregnancy iron nutrition",
+        "pregnancy vitamin E iron",
+        "nutrition for women pregnancy minerals"
+      ],
+      "tags": ["peat", "pregnancy", "iron"]
+    },
+    {
+      "id": "tsh_thyroid_misconceptions",
+      "question": "How are TSH and thyroid misconceptions discussed?",
+      "refined_queries": [
+        "TSH thyroid misconceptions",
+        "thyroid blood tests TSH",
+        "thyroid therapy confusion TSH"
+      ],
+      "tags": ["peat", "thyroid", "diagnostics"]
+    },
+    {
+      "id": "grimhood_glyphosate_detox",
+      "question": "What does Grimhood recommend for glyphosate detox?",
+      "refined_queries": [
+        "glyphosate detox Grimhood",
+        "glyphosate gut minerals detox",
+        "glyphosate exposure mitigation"
+      ],
+      "tags": ["grimhood", "detox", "gut"]
+    },
+    {
+      "id": "calcium_skin_osteoporosis",
+      "question": "What does the archive say about calcium, skin, and osteoporosis?",
+      "refined_queries": [
+        "calcium skin osteoporosis",
+        "osteoporosis skin calcium vitamin D",
+        "calcium phosphate osteoporosis"
+      ],
+      "tags": ["peat", "calcium", "skin"]
+    },
+    {
+      "id": "thyroid_cholesterol_steroid_hormones",
+      "question": "How does the archive connect thyroid function, cholesterol, and steroid hormones?",
+      "refined_queries": [
+        "thyroid cholesterol steroid hormones",
+        "thyroid conversion cholesterol pregnenolone progesterone",
+        "metabolism cholesterol steroid synthesis"
+      ],
+      "tags": ["peat", "thyroid", "hormones"]
+    },
+    {
+      "id": "aspirin_vitamin_k_bleeding",
+      "question": "What does the archive say about aspirin, vitamin K, and bleeding risk?",
+      "refined_queries": [
+        "aspirin vitamin K bleeding",
+        "aspirin clotting vitamin K",
+        "aspirin antiinflammatory bleeding risk"
+      ],
+      "tags": ["peat", "aspirin", "vitamin-k"]
+    },
+    {
+      "id": "endotoxin_liver_estrogen",
+      "question": "How are endotoxin, liver function, and estrogen connected?",
+      "refined_queries": [
+        "endotoxin liver estrogen",
+        "liver estrogen detoxification endotoxin",
+        "gut endotoxin estrogen burden"
+      ],
+      "tags": ["peat", "endotoxin", "liver"]
+    },
+    {
+      "id": "sunlight_vitamin_d_calcium",
+      "question": "What does the archive say about sunlight, vitamin D, and calcium metabolism?",
+      "refined_queries": [
+        "sunlight vitamin D calcium metabolism",
+        "vitamin D calcium parathyroid sunlight",
+        "sunlight calcium thyroid metabolism"
+      ],
+      "tags": ["peat", "sunlight", "calcium"]
+    }
+  ]
+}

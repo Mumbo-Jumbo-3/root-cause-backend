@@ -1,7 +1,6 @@
 import json
 import logging
 import re
-from hashlib import sha256
 
 from langchain_core.documents import Document
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
@@ -17,7 +16,11 @@ from health_agent.models import (
     get_trusted_grok_model,
     get_unrestricted_grok_model,
 )
-from health_agent.rag.retriever import query_keyword_chunks, query_vector_chunks, rerank_documents
+from health_agent.rag.retriever import (
+    reciprocal_rank_fusion,
+    rerank_documents,
+    retrieve_documents,
+)
 from health_agent.state import AgentState
 
 
@@ -53,31 +56,6 @@ def _emit_phase(phase: str, status: str, meta: dict | None = None) -> None:
         writer({"kind": "phase", "phase": phase, "status": status, "meta": meta or {}})
     except Exception:
         logger.debug("stream writer dropped phase event", exc_info=True)
-
-
-def _content_id(doc: Document) -> str:
-    """Stable fingerprint including source for correct provenance."""
-    source = doc.metadata.get("source", "")
-    return sha256(f"{source}:{doc.page_content}".encode()).hexdigest()
-
-
-def reciprocal_rank_fusion(
-    result_lists: list[list[Document]],
-    weights: list[float],
-    k: int = 60,
-) -> list[Document]:
-    """Fuse multiple ranked lists using weighted Reciprocal Rank Fusion."""
-    doc_scores: dict[str, tuple[float, Document]] = {}
-    for results, weight in zip(result_lists, weights):
-        for rank, doc in enumerate(results):
-            doc_id = _content_id(doc)
-            score = weight / (k + rank + 1)
-            if doc_id in doc_scores:
-                doc_scores[doc_id] = (doc_scores[doc_id][0] + score, doc_scores[doc_id][1])
-            else:
-                doc_scores[doc_id] = (score, doc)
-    sorted_docs = sorted(doc_scores.values(), key=lambda x: x[0], reverse=True)
-    return [doc for _, doc in sorted_docs]
 
 
 class SearchFinding(BaseModel):
@@ -223,25 +201,7 @@ def _run_search_retrieval(
     queries: list[str],
     settings: Settings,
 ) -> list[Document]:
-    if not queries:
-        return []
-
-    result_lists: list[list[Document]] = []
-    weights: list[float] = []
-    query_weight_divisor = max(len(queries), 1)
-
-    for query in queries:
-        vector_results = query_vector_chunks(query, settings)
-        keyword_results = query_keyword_chunks(query, settings)
-
-        result_lists.extend([vector_results, keyword_results])
-        weights.extend([
-            settings.vector_weight / query_weight_divisor,
-            settings.keyword_weight / query_weight_divisor,
-        ])
-
-    fused = reciprocal_rank_fusion(result_lists, weights)
-    return fused[: settings.retrieval_fetch_k]
+    return retrieve_documents(queries, settings)
 
 
 def _docs_status(docs: list[Document]) -> str:
@@ -638,6 +598,7 @@ Do not include any text outside the JSON object."""
             merged_docs = reciprocal_rank_fusion(
                 [state["base_rag_docs"], state["enrich_rag_docs"]],
                 [1.0, 1.0],
+                k=settings.rrf_k,
             )
             reranked_docs = rerank_documents(original_query, merged_docs, settings)
             rag_status = _docs_status(reranked_docs)

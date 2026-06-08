@@ -8,8 +8,13 @@ from health_agent.config import Settings
 from health_agent.graph import (
     STATUS_EMPTY,
     STATUS_ERROR,
+    STATUS_SKIPPED,
     STATUS_SUCCESS,
     SYNTHESIS_FALLBACK_TEXT,
+    SearchFinding,
+    _coerce_findings_payload,
+    _normalize_findings,
+    _normalize_queries,
     build_graph,
 )
 
@@ -56,6 +61,15 @@ def _make_json_model(payload):
     return model
 
 
+def _make_tracked_json_model(payload):
+    """Like `_make_json_model` but `model.invoke` is itself a MagicMock so tests
+    can assert on `.call_count` (e.g. to prove a gate short-circuit didn't call
+    the judge)."""
+    model = MagicMock()
+    model.invoke = MagicMock(return_value=AIMessage(content=json.dumps(payload)))
+    return model
+
+
 def _finding(
     claim="Magnesium can support sleep quality.",
     source_urls=None,
@@ -98,11 +112,21 @@ def _build_graph(*, trusted=None, unrestricted=None, claude=None, judge=None, cl
     return graph
 
 
-def _get_node_func(node_name, *, trusted=None, unrestricted=None, claude=None):
+def _get_node_func(
+    node_name,
+    *,
+    trusted=None,
+    unrestricted=None,
+    claude=None,
+    judge=None,
+    classifier=None,
+):
     graph = _build_graph(
         trusted=trusted,
         unrestricted=unrestricted,
         claude=claude,
+        judge=judge,
+        classifier=classifier,
     )
     return graph.get_graph().nodes[node_name].data.func
 
@@ -486,4 +510,368 @@ def test_graph_invokes_claude_even_if_trusted_search_fails():
     ):
         result = graph.invoke({"messages": [HumanMessage(content="benefits of magnesium")]})
 
+    assert result["messages"][-1].content == "final answer"
+
+
+# ---------------------------------------------------------------------------
+# Group B: pure helper unit tests (no graph build, no LLM)
+# ---------------------------------------------------------------------------
+
+
+def test_normalize_findings_drops_non_http_urls():
+    findings = [
+        SearchFinding(
+            claim="ok",
+            source_urls=[
+                "https://x.com/a/status/1",
+                "notaurl",
+                "ftp://x.com/a/status/2",
+                "example.com/no-scheme",
+            ],
+            relevance="why",
+        )
+    ]
+    normalized = _normalize_findings(findings)
+    assert normalized[0]["source_urls"] == ["https://x.com/a/status/1"]
+
+
+def test_normalize_findings_caps_urls_at_three_per_finding_and_dedupes():
+    findings = [
+        SearchFinding(
+            claim="ok",
+            source_urls=[
+                "https://x.com/a/1",
+                "https://x.com/a/1",  # duplicate
+                "https://x.com/b/2",
+                "https://x.com/c/3",
+                "https://x.com/d/4",  # over cap
+            ],
+            relevance="why",
+        )
+    ]
+    normalized = _normalize_findings(findings)
+    assert normalized[0]["source_urls"] == [
+        "https://x.com/a/1",
+        "https://x.com/b/2",
+        "https://x.com/c/3",
+    ]
+
+
+def test_normalize_findings_caps_total_findings_at_ten():
+    findings = [
+        SearchFinding(claim=f"claim {i}", source_urls=[], relevance="why")
+        for i in range(15)
+    ]
+    normalized = _normalize_findings(findings)
+    assert len(normalized) == 10
+    assert normalized[0]["claim"] == "claim 0"
+    assert normalized[-1]["claim"] == "claim 9"
+
+
+def test_normalize_findings_drops_empty_claim_or_relevance():
+    findings = [
+        SearchFinding(claim="", source_urls=[], relevance="why"),
+        SearchFinding(claim="ok", source_urls=[], relevance=""),
+        SearchFinding(claim="kept", source_urls=[], relevance="why"),
+    ]
+    normalized = _normalize_findings(findings)
+    assert [f["claim"] for f in normalized] == ["kept"]
+
+
+def test_normalize_findings_strips_grok_render_tags_from_text_fields():
+    findings = [
+        SearchFinding(
+            claim='Magnesium helps <grok:render type="cite">@hubermanlab</grok:render> sleep.',
+            source_urls=[],
+            relevance='See <grok:render type="cite">@foundmyfitness</grok:render> on minerals.',
+        )
+    ]
+    normalized = _normalize_findings(findings)
+    assert "<grok:render" not in normalized[0]["claim"]
+    assert "<grok:render" not in normalized[0]["relevance"]
+
+
+def test_normalize_queries_dedupes_case_insensitively_and_drops_blanks():
+    result = _normalize_queries(
+        ["Magnesium sleep", "magnesium sleep", "  ", "magnesium recovery"],
+        original_query="benefits of magnesium",
+    )
+    assert result == ["Magnesium sleep", "magnesium recovery"]
+
+
+def test_normalize_queries_falls_back_to_original_when_all_empty():
+    result = _normalize_queries(["", "   ", ""], original_query="benefits of magnesium")
+    assert result == ["benefits of magnesium"]
+
+
+def test_coerce_findings_payload_lifts_legacy_initial_response():
+    parsed = {"initial_response": "Magnesium supports sleep."}
+    coerced = _coerce_findings_payload(parsed, fallback_relevance="legacy")
+    assert coerced["findings"][0]["claim"] == "Magnesium supports sleep."
+    assert coerced["findings"][0]["source_urls"] == []
+    assert coerced["findings"][0]["relevance"] == "legacy"
+
+
+def test_coerce_findings_payload_passes_through_when_findings_present():
+    parsed = {"findings": [{"claim": "kept", "source_urls": [], "relevance": "why"}]}
+    coerced = _coerce_findings_payload(parsed, fallback_relevance="unused")
+    assert coerced == parsed
+
+
+# ---------------------------------------------------------------------------
+# Group A: control-flow / routing invariants (mocked LLMs, no network)
+# ---------------------------------------------------------------------------
+
+
+def test_womens_health_search_skips_when_flag_false():
+    # Model would raise if invoked — node should short-circuit before reaching it.
+    trusted_model = _make_search_model(error=AssertionError("WH model must not be invoked"))
+    fn = _get_node_func("womens_health_grok_search", trusted=trusted_model)
+
+    result = fn(
+        {
+            "messages": [HumanMessage(content="general magnesium question")],
+            "is_womens_health": False,
+        }
+    )
+
+    assert result["womens_health_search_status"] == STATUS_SKIPPED
+    assert result["womens_health_search_findings"] == []
+    assert result["womens_health_search_response"] == ""
+
+
+def _base_gate_state(*, trusted_status, base_status, enrich_status):
+    return {
+        "messages": [HumanMessage(content="benefits of magnesium")],
+        "trusted_search_response": "trusted findings",
+        "trusted_search_status": trusted_status,
+        "base_rag_status": base_status,
+        "enrich_rag_status": enrich_status,
+        "rag_context": "some retrieved context",
+    }
+
+
+def test_sufficiency_gate_short_circuits_when_trusted_search_errored():
+    tracked_judge = _make_tracked_json_model({"sufficient": True, "reason": "should be ignored"})
+    fn = _get_node_func("sufficiency_gate", judge=tracked_judge)
+
+    result = fn(
+        _base_gate_state(
+            trusted_status=STATUS_ERROR,
+            base_status=STATUS_SUCCESS,
+            enrich_status=STATUS_SUCCESS,
+        )
+    )
+
+    assert result == {"sufficient": False}
+    assert tracked_judge.invoke.call_count == 0
+
+
+def test_sufficiency_gate_short_circuits_when_both_rag_branches_errored():
+    tracked_judge = _make_tracked_json_model({"sufficient": True, "reason": "should be ignored"})
+    fn = _get_node_func("sufficiency_gate", judge=tracked_judge)
+
+    result = fn(
+        _base_gate_state(
+            trusted_status=STATUS_SUCCESS,
+            base_status=STATUS_ERROR,
+            enrich_status=STATUS_ERROR,
+        )
+    )
+
+    assert result == {"sufficient": False}
+    assert tracked_judge.invoke.call_count == 0
+
+
+def test_sufficiency_gate_does_not_short_circuit_when_only_one_rag_branch_errored():
+    # Single RAG branch erroring is not enough; the judge should still be consulted.
+    tracked_judge = _make_tracked_json_model({"sufficient": True, "reason": "ok"})
+    fn = _get_node_func("sufficiency_gate", judge=tracked_judge)
+
+    result = fn(
+        _base_gate_state(
+            trusted_status=STATUS_SUCCESS,
+            base_status=STATUS_ERROR,
+            enrich_status=STATUS_SUCCESS,
+        )
+    )
+
+    assert tracked_judge.invoke.call_count == 1
+    assert result["sufficient"] is True
+
+
+def test_sufficiency_gate_sufficient_pre_sets_unrestricted_skip_fields():
+    judge = _make_json_model({"sufficient": True, "reason": "evidence covers it"})
+    fn = _get_node_func("sufficiency_gate", judge=judge)
+
+    result = fn(
+        _base_gate_state(
+            trusted_status=STATUS_SUCCESS,
+            base_status=STATUS_SUCCESS,
+            enrich_status=STATUS_SUCCESS,
+        )
+    )
+
+    assert result["sufficient"] is True
+    assert result["unrestricted_search_findings"] == []
+    assert result["unrestricted_search_response"] == ""
+    assert result["unrestricted_search_status"] == STATUS_SKIPPED
+
+
+def test_sufficiency_gate_insufficient_does_not_pre_set_skip_fields():
+    judge = _make_json_model({"sufficient": False, "reason": "thin evidence"})
+    fn = _get_node_func("sufficiency_gate", judge=judge)
+
+    result = fn(
+        _base_gate_state(
+            trusted_status=STATUS_SUCCESS,
+            base_status=STATUS_SUCCESS,
+            enrich_status=STATUS_SUCCESS,
+        )
+    )
+
+    assert result == {"sufficient": False}
+
+
+def test_rag_retrieve_enrich_skips_when_only_original_query():
+    fn = _get_node_func("rag_retrieve_enrich")
+
+    with patch("health_agent.graph._run_search_retrieval", return_value=[]) as mock_retrieve:
+        result = fn(
+            {
+                "messages": [HumanMessage(content="benefits of magnesium")],
+                "trusted_refined_queries": ["benefits of magnesium"],
+            }
+        )
+
+    mock_retrieve.assert_not_called()
+    assert result["enrich_rag_docs"] == []
+    assert result["enrich_rag_status"] == STATUS_EMPTY
+
+
+def test_rag_merge_status_is_error_when_empty_and_both_branches_errored():
+    fn = _get_node_func("rag_merge")
+
+    with patch(
+        "health_agent.graph.rerank_documents",
+        side_effect=lambda query, docs, settings: [],
+    ):
+        result = fn(
+            {
+                "messages": [HumanMessage(content="benefits of magnesium")],
+                "base_rag_docs": [],
+                "enrich_rag_docs": [],
+                "base_rag_status": STATUS_ERROR,
+                "enrich_rag_status": STATUS_ERROR,
+            }
+        )
+
+    assert result["merged_rag_docs"] == []
+    assert result["rag_status"] == STATUS_ERROR
+
+
+# ---------------------------------------------------------------------------
+# Group C: end-to-end trajectory (graph.invoke with mocked models + RAG)
+# ---------------------------------------------------------------------------
+
+
+_VALID_FINDINGS_PAYLOAD = json.dumps(
+    {"findings": [_finding()], "refined_queries": ["magnesium sleep"]}
+)
+
+
+def _patched_rag():
+    """Patch the RAG boundary so end-to-end graph invocations stay offline."""
+    return (
+        patch("health_agent.graph._run_search_retrieval", return_value=[]),
+        patch(
+            "health_agent.graph.rerank_documents",
+            side_effect=lambda query, docs, settings: docs,
+        ),
+    )
+
+
+def test_graph_runs_womens_health_branch_when_classifier_says_true():
+    classifier = _make_json_model({"is_womens_health": True})
+    trusted_model = _make_search_model(_VALID_FINDINGS_PAYLOAD)
+    # Unrestricted should be skipped because the judge says sufficient — pass a
+    # model that would raise if invoked as a strong negative assertion.
+    unrestricted_model = _make_search_model(
+        error=AssertionError("unrestricted must be skipped when judge=sufficient")
+    )
+    judge = _make_json_model({"sufficient": True, "reason": "evidence covers it"})
+    claude_model = _make_claude_model()
+    graph = _build_graph(
+        trusted=trusted_model,
+        unrestricted=unrestricted_model,
+        claude=claude_model,
+        judge=judge,
+        classifier=classifier,
+    )
+
+    patches = _patched_rag()
+    with patches[0], patches[1]:
+        result = graph.invoke(
+            {"messages": [HumanMessage(content="Hashimoto's and pregnancy")]}
+        )
+
+    assert result["is_womens_health"] is True
+    assert result["womens_health_search_status"] == STATUS_SUCCESS
+    assert result["unrestricted_search_status"] == STATUS_SKIPPED
+    assert result["messages"][-1].content == "final answer"
+
+
+def test_graph_routes_to_unrestricted_when_judge_says_insufficient():
+    classifier = _make_json_model({"is_womens_health": False})
+    trusted_model = _make_search_model(_VALID_FINDINGS_PAYLOAD)
+    unrestricted_model = _make_search_model(
+        json.dumps({"findings": [_finding(claim="broader X view", source_urls=[])]})
+    )
+    judge = _make_json_model({"sufficient": False, "reason": "thin"})
+    claude_model = _make_claude_model()
+    graph = _build_graph(
+        trusted=trusted_model,
+        unrestricted=unrestricted_model,
+        claude=claude_model,
+        judge=judge,
+        classifier=classifier,
+    )
+
+    patches = _patched_rag()
+    with patches[0], patches[1]:
+        result = graph.invoke(
+            {"messages": [HumanMessage(content="benefits of magnesium")]}
+        )
+
+    assert result["is_womens_health"] is False
+    assert result["womens_health_search_status"] == STATUS_SKIPPED
+    assert result["unrestricted_search_status"] == STATUS_SUCCESS
+    assert result["messages"][-1].content == "final answer"
+
+
+def test_graph_skips_unrestricted_when_judge_says_sufficient():
+    classifier = _make_json_model({"is_womens_health": False})
+    trusted_model = _make_search_model(_VALID_FINDINGS_PAYLOAD)
+    # If sufficient, this must never be reached.
+    unrestricted_model = _make_search_model(
+        error=AssertionError("unrestricted must be skipped when judge=sufficient")
+    )
+    judge = _make_json_model({"sufficient": True, "reason": "evidence covers it"})
+    claude_model = _make_claude_model()
+    graph = _build_graph(
+        trusted=trusted_model,
+        unrestricted=unrestricted_model,
+        claude=claude_model,
+        judge=judge,
+        classifier=classifier,
+    )
+
+    patches = _patched_rag()
+    with patches[0], patches[1]:
+        result = graph.invoke(
+            {"messages": [HumanMessage(content="benefits of magnesium")]}
+        )
+
+    assert result["unrestricted_search_status"] == STATUS_SKIPPED
+    assert result["unrestricted_search_findings"] == []
     assert result["messages"][-1].content == "final answer"

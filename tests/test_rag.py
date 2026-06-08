@@ -1,6 +1,8 @@
+from pathlib import Path
 from unittest.mock import patch
 
 from health_agent.config import Settings
+from health_agent.db.models import AgentResourceChunk
 from health_agent.rag.ingest import chunk_document
 from health_agent.rag.resources import filesystem_resource_manifest
 from health_agent.rag.retriever import needs_reindex
@@ -104,3 +106,17 @@ def test_needs_reindex_when_database_manifest_has_extra_resource(
 
     with patch("health_agent.rag.retriever._database_resource_manifest", return_value=manifest):
         assert needs_reindex(test_settings) is True
+
+
+def test_resource_chunk_model_includes_generated_search_vector():
+    search_vector = AgentResourceChunk.__table__.c["search_vector"]
+
+    assert search_vector.computed is not None
+    assert "to_tsvector" in str(search_vector.computed.sqltext)
+
+
+def test_search_vector_migration_adds_gin_index():
+    migration = Path("alembic/versions/20260524_01_resource_search_vector.py").read_text()
+
+    assert "search_vector" in migration
+    assert 'postgresql_using="gin"' in migration

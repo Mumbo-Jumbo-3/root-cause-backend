@@ -2,7 +2,8 @@ import uuid
 from datetime import datetime, timezone
 
 from pgvector.sqlalchemy import Vector
-from sqlalchemy import DateTime, ForeignKey, Index, Integer, Text, UniqueConstraint
+from sqlalchemy import Computed, DateTime, ForeignKey, Index, Integer, Text, UniqueConstraint
+from sqlalchemy.dialects.postgresql import TSVECTOR
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
 
@@ -61,6 +62,16 @@ class AgentResourceChunk(Base):
     header_path: Mapped[str | None] = mapped_column(Text, nullable=True)
     content: Mapped[str] = mapped_column(Text, nullable=False)
     content_hash: Mapped[str] = mapped_column(Text, nullable=False)
+    search_vector: Mapped[str] = mapped_column(
+        TSVECTOR,
+        Computed(
+            "setweight(to_tsvector('english', coalesce(title, '')), 'A') || "
+            "setweight(to_tsvector('english', coalesce(header_path, '')), 'B') || "
+            "setweight(to_tsvector('english', coalesce(content, '')), 'C')",
+            persisted=True,
+        ),
+        nullable=False,
+    )
     embedding: Mapped[list[float]] = mapped_column(Vector(EMBEDDING_DIMENSIONS), nullable=False)
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, default=utc_now

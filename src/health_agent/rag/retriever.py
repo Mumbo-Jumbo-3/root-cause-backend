@@ -1,8 +1,9 @@
+import copy
 import math
 
 import voyageai
 from langchain_core.documents import Document
-from sqlalchemy import func, literal_column, select
+from sqlalchemy import func, select
 from sqlalchemy.exc import SQLAlchemyError
 
 from health_agent.config import Settings
@@ -25,6 +26,8 @@ def _chunk_to_document(chunk: AgentResourceChunk) -> Document:
     metadata = {
         "source": chunk.source,
         "source_path": chunk.source_path,
+        "chunk_index": chunk.chunk_index,
+        "content_hash": chunk.content_hash,
         "title": chunk.title,
         "author": chunk.author,
         "header_path": chunk.header_path,
@@ -34,6 +37,119 @@ def _chunk_to_document(chunk: AgentResourceChunk) -> Document:
         if value:
             metadata[key] = value
     return Document(page_content=chunk.content, metadata=metadata)
+
+
+def chunk_to_document(chunk: AgentResourceChunk) -> Document:
+    return _chunk_to_document(chunk)
+
+
+def _content_id(doc: Document) -> str:
+    source = doc.metadata.get("source_path") or doc.metadata.get("source") or ""
+    return f"{source}:{doc.page_content}"
+
+
+def _copy_document(doc: Document) -> Document:
+    return Document(page_content=doc.page_content, metadata=copy.deepcopy(doc.metadata))
+
+
+def _ensure_retrieval_metadata(doc: Document) -> dict:
+    retrieval = doc.metadata.get("retrieval")
+    if not isinstance(retrieval, dict):
+        retrieval = {}
+    queries = retrieval.get("queries")
+    if not isinstance(queries, list):
+        retrieval["queries"] = []
+    doc.metadata["retrieval"] = retrieval
+    return retrieval
+
+
+def _add_retrieval_signal(
+    doc: Document,
+    *,
+    query: str,
+    channel: str,
+    rank: int,
+    score: float | None = None,
+    distance: float | None = None,
+) -> None:
+    retrieval = _ensure_retrieval_metadata(doc)
+    if query not in retrieval["queries"]:
+        retrieval["queries"].append(query)
+
+    if channel == "vector":
+        existing_rank = retrieval.get("vector_rank")
+        if existing_rank is None or rank < existing_rank:
+            retrieval["vector_rank"] = rank
+        if distance is not None:
+            existing_distance = retrieval.get("vector_distance")
+            if existing_distance is None or distance < existing_distance:
+                retrieval["vector_distance"] = distance
+        return
+
+    if channel == "keyword":
+        existing_rank = retrieval.get("keyword_rank")
+        if existing_rank is None or rank < existing_rank:
+            retrieval["keyword_rank"] = rank
+        if score is not None:
+            existing_score = retrieval.get("keyword_score")
+            if existing_score is None or score > existing_score:
+                retrieval["keyword_score"] = score
+
+
+def _merge_retrieval_metadata(target: Document, incoming: Document) -> None:
+    target_retrieval = _ensure_retrieval_metadata(target)
+    incoming_retrieval = incoming.metadata.get("retrieval")
+    if not isinstance(incoming_retrieval, dict):
+        return
+
+    for query in incoming_retrieval.get("queries", []):
+        if query not in target_retrieval["queries"]:
+            target_retrieval["queries"].append(query)
+
+    for key in ("vector_rank", "keyword_rank"):
+        incoming_value = incoming_retrieval.get(key)
+        if incoming_value is None:
+            continue
+        existing_value = target_retrieval.get(key)
+        if existing_value is None or incoming_value < existing_value:
+            target_retrieval[key] = incoming_value
+
+    incoming_distance = incoming_retrieval.get("vector_distance")
+    if incoming_distance is not None:
+        existing_distance = target_retrieval.get("vector_distance")
+        if existing_distance is None or incoming_distance < existing_distance:
+            target_retrieval["vector_distance"] = incoming_distance
+
+    incoming_score = incoming_retrieval.get("keyword_score")
+    if incoming_score is not None:
+        existing_score = target_retrieval.get("keyword_score")
+        if existing_score is None or incoming_score > existing_score:
+            target_retrieval["keyword_score"] = incoming_score
+
+
+def reciprocal_rank_fusion(
+    result_lists: list[list[Document]],
+    weights: list[float],
+    k: int = 60,
+) -> list[Document]:
+    """Fuse ranked lists and carry retrieval provenance into metadata."""
+    doc_scores: dict[str, tuple[float, Document]] = {}
+    for results, weight in zip(result_lists, weights):
+        for rank, doc in enumerate(results, start=1):
+            doc_id = _content_id(doc)
+            score = weight / (k + rank)
+            if doc_id in doc_scores:
+                existing_score, existing_doc = doc_scores[doc_id]
+                _merge_retrieval_metadata(existing_doc, doc)
+                doc_scores[doc_id] = (existing_score + score, existing_doc)
+            else:
+                doc_scores[doc_id] = (score, _copy_document(doc))
+
+    sorted_docs = sorted(doc_scores.values(), key=lambda x: x[0], reverse=True)
+    fused_docs = [doc for _, doc in sorted_docs]
+    for score, doc in sorted_docs:
+        _ensure_retrieval_metadata(doc)["rrf_score"] = score
+    return fused_docs
 
 
 def _cosine_similarity(left: list[float], right: list[float]) -> float:
@@ -89,7 +205,7 @@ def _maximal_marginal_relevance(
     return selected
 
 
-def query_vector_chunks(query: str, settings: Settings) -> list[Document]:
+def _query_vector_rows(query: str, settings: Settings, limit: int):
     if not settings.database_url.strip():
         raise RuntimeError("DATABASE_URL must be set for vector retrieval.")
     if settings.embedding_dimensions != EMBEDDING_DIMENSIONS:
@@ -105,9 +221,44 @@ def query_vector_chunks(query: str, settings: Settings) -> list[Document]:
         rows = session.execute(
             select(AgentResourceChunk, distance)
             .order_by(distance.asc(), AgentResourceChunk.chunk_index.asc())
-            .limit(settings.retrieval_fetch_k)
+            .limit(limit)
         ).all()
 
+    return query_embedding, rows
+
+
+def _query_vector_candidate_chunks(
+    query: str,
+    settings: Settings,
+    *,
+    limit: int,
+) -> list[Document]:
+    _, rows = _query_vector_rows(query, settings, limit)
+    docs: list[Document] = []
+    for rank, (chunk, distance) in enumerate(rows, start=1):
+        doc = _chunk_to_document(chunk)
+        _add_retrieval_signal(
+            doc,
+            query=query,
+            channel="vector",
+            rank=rank,
+            distance=float(distance),
+        )
+        docs.append(doc)
+    return docs
+
+
+def query_vector_candidate_chunks(
+    query: str,
+    settings: Settings,
+    *,
+    limit: int,
+) -> list[Document]:
+    return _query_vector_candidate_chunks(query, settings, limit=limit)
+
+
+def query_vector_chunks(query: str, settings: Settings) -> list[Document]:
+    query_embedding, rows = _query_vector_rows(query, settings, settings.retrieval_fetch_k)
     if not rows:
         return []
 
@@ -119,43 +270,127 @@ def query_vector_chunks(query: str, settings: Settings) -> list[Document]:
         lambda_mult=0.7,
         k=settings.retrieval_k,
     )
-    return [_chunk_to_document(candidate_chunks[index]) for index in selected_indices]
+    docs: list[Document] = []
+    for index in selected_indices:
+        chunk = candidate_chunks[index]
+        doc = _chunk_to_document(chunk)
+        _add_retrieval_signal(
+            doc,
+            query=query,
+            channel="vector",
+            rank=index + 1,
+            distance=float(rows[index][1]),
+        )
+        docs.append(doc)
+    return docs
 
 
-def _weighted_tsvector():
-    title_vector = func.setweight(
-        func.to_tsvector("english", func.coalesce(AgentResourceChunk.title, "")),
-        literal_column("'A'::\"char\""),
-    )
-    header_vector = func.setweight(
-        func.to_tsvector("english", func.coalesce(AgentResourceChunk.header_path, "")),
-        literal_column("'B'::\"char\""),
-    )
-    content_vector = func.setweight(
-        func.to_tsvector("english", func.coalesce(AgentResourceChunk.content, "")),
-        literal_column("'C'::\"char\""),
-    )
-    return title_vector.op("||")(header_vector).op("||")(content_vector)
-
-
-def query_keyword_chunks(query: str, settings: Settings) -> list[Document]:
+def query_keyword_chunks(
+    query: str,
+    settings: Settings,
+    *,
+    limit: int | None = None,
+) -> list[Document]:
     if not settings.database_url.strip():
         raise RuntimeError("DATABASE_URL must be set for keyword retrieval.")
 
-    weighted_tsvector = _weighted_tsvector()
     tsquery = func.websearch_to_tsquery("english", query)
-    rank = func.ts_rank_cd(weighted_tsvector, tsquery).label("rank")
+    rank = func.ts_rank_cd(AgentResourceChunk.search_vector, tsquery).label("rank")
 
     session_factory = get_session_factory(settings)
     with session_factory() as session:
         rows = session.execute(
             select(AgentResourceChunk, rank)
-            .where(weighted_tsvector.op("@@")(tsquery))
+            .where(AgentResourceChunk.search_vector.op("@@")(tsquery))
             .order_by(rank.desc(), AgentResourceChunk.chunk_index.asc())
-            .limit(settings.keyword_k)
+            .limit(limit or settings.keyword_k)
         ).all()
 
-    return [_chunk_to_document(row[0]) for row in rows]
+    docs: list[Document] = []
+    for rank_index, (chunk, keyword_score) in enumerate(rows, start=1):
+        doc = _chunk_to_document(chunk)
+        _add_retrieval_signal(
+            doc,
+            query=query,
+            channel="keyword",
+            rank=rank_index,
+            score=float(keyword_score),
+        )
+        docs.append(doc)
+    return docs
+
+
+def _normalize_retrieval_queries(queries: list[str]) -> list[str]:
+    normalized: list[str] = []
+    seen: set[str] = set()
+    for query in queries:
+        cleaned = query.strip()
+        if not cleaned:
+            continue
+        key = cleaned.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        normalized.append(cleaned)
+    return normalized
+
+
+def _retrieve_legacy(queries: list[str], settings: Settings) -> list[Document]:
+    result_lists: list[list[Document]] = []
+    weights: list[float] = []
+    query_weight_divisor = max(len(queries), 1)
+
+    for query in queries:
+        result_lists.extend([
+            query_vector_chunks(query, settings),
+            query_keyword_chunks(query, settings),
+        ])
+        weights.extend([
+            settings.vector_weight / query_weight_divisor,
+            settings.keyword_weight / query_weight_divisor,
+        ])
+
+    fused = reciprocal_rank_fusion(result_lists, weights, k=settings.rrf_k)
+    return fused[: settings.retrieval_fetch_k]
+
+
+def _retrieve_hybrid_v2(queries: list[str], settings: Settings) -> list[Document]:
+    result_lists: list[list[Document]] = []
+    weights: list[float] = []
+    query_weight_divisor = max(len(queries), 1)
+
+    for query in queries:
+        result_lists.extend([
+            _query_vector_candidate_chunks(
+                query,
+                settings,
+                limit=settings.retrieval_fetch_k,
+            ),
+            query_keyword_chunks(
+                query,
+                settings,
+                limit=settings.keyword_fetch_k,
+            ),
+        ])
+        weights.extend([
+            settings.vector_weight / query_weight_divisor,
+            settings.keyword_weight / query_weight_divisor,
+        ])
+
+    fused = reciprocal_rank_fusion(result_lists, weights, k=settings.rrf_k)
+    return fused[: settings.retrieval_fetch_k]
+
+
+def retrieve_documents(queries: list[str], settings: Settings) -> list[Document]:
+    normalized_queries = _normalize_retrieval_queries(queries)
+    if not normalized_queries:
+        return []
+
+    if settings.retrieval_strategy == "legacy":
+        return _retrieve_legacy(normalized_queries, settings)
+    if settings.retrieval_strategy == "hybrid_v2":
+        return _retrieve_hybrid_v2(normalized_queries, settings)
+    raise RuntimeError(f"Unsupported retrieval strategy: {settings.retrieval_strategy}")
 
 
 def rerank_documents(
