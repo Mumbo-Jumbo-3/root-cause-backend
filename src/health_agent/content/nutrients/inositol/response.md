@@ -59,14 +59,14 @@ Inositol has an excellent safety profile. The most common side effect is mild ga
 
 ## Products
 
-### 1. Wholesome Story Myo-Inositol & D-Chiro Inositol (40:1 Blend)
+### 1. [IP6 Gold Devicare Powder with Myo-Inositol](https://www.amazon.com/dp/B08V5NRQ21)
+
+**Why:** Combines inositol hexaphosphate (IP6) with myo-inositol in a single unflavored powder, covering both the antioxidant/mineral-binding role of IP6 and the insulin-signaling and neurological roles of myo-inositol. Non-GMO, vegan, and gluten-free, with flexible powder dosing that makes it easy to scale intake to your protocol.
+
+### 2. Wholesome Story Myo-Inositol & D-Chiro Inositol (40:1 Blend)
 
 **Why:** Delivers the clinically studied 40:1 ratio of myo-inositol to D-chiro-inositol in a clean capsule format. This brand is frequently recommended for PCOS and hormonal balance, uses high-purity ingredients, and avoids unnecessary fillers. The 40:1 ratio is the specific proportion shown in research to support ovulation, insulin sensitivity, and ovarian function most effectively.
 
-### 2. Pure Encapsulations Inositol (powder or capsules)
+### 3. Pure Encapsulations Inositol (powder or capsules)
 
 **Why:** Professional-grade, hypoallergenic myo-inositol with minimal excipients. Pure Encapsulations maintains rigorous third-party testing and is a trusted choice among practitioners for patients needing clean, high-bioavailability inositol without additives. The powder form allows precise dosing.
-
-### 3. NOW Foods Inositol Powder
-
-**Why:** A simple, cost-effective, single-ingredient myo-inositol powder with no fillers. NOW Foods is known for third-party testing and transparency. This bulk powder format is ideal for those who prefer flexible dosing or higher daily amounts without swallowing multiple capsules.
