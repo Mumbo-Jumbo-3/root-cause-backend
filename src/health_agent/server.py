@@ -91,6 +91,7 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
         conninfo=dsn,
         max_size=20,
         kwargs={"autocommit": True, "prepare_threshold": 0},
+        check=AsyncConnectionPool.check_connection,
         open=False,
     )
     await pool.open()
