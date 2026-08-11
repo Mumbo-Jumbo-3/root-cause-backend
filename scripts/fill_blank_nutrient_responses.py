@@ -307,7 +307,7 @@ def call_xai_response(
             "model": model,
             "input": [{"role": "user", "content": prompt}],
             "tools": [{"type": "web_search"}],
-            "reasoning": {"effort": "medium"},
+            "reasoning": {"effort": "high"},
         },
         timeout=timeout_seconds,
     )

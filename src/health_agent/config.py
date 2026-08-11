@@ -14,8 +14,8 @@ class Settings(BaseSettings):
 
     trusted_xai_model: str = "grok-4.3"
     unrestricted_xai_model: str = "grok-4.3"
-    trusted_xai_reasoning_effort: str = "medium"
-    unrestricted_xai_reasoning_effort: str = "medium"
+    trusted_xai_reasoning_effort: str = "high"
+    unrestricted_xai_reasoning_effort: str = "high"
     anthropic_synthesis_model: str = "claude-sonnet-4-6"
     anthropic_judge_model: str = "claude-sonnet-4-6"
     anthropic_classifier_model: str = "claude-haiku-4-5-20251001"

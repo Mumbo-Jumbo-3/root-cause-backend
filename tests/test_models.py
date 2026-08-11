@@ -14,6 +14,7 @@ def test_trusted_grok_model():
 
     assert isinstance(model, ChatXAI)
     assert model.disable_streaming == "tool_calling"
+    assert model.extra_body == {"reasoning_effort": "high"}
 
 
 def test_unrestricted_grok_model():
@@ -23,6 +24,7 @@ def test_unrestricted_grok_model():
 
     assert isinstance(model, ChatXAI)
     assert model.disable_streaming == "tool_calling"
+    assert model.extra_body == {"reasoning_effort": "high"}
 
 
 def test_claude_synthesis_model():
