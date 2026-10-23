@@ -11,6 +11,8 @@ class Settings(BaseSettings):
     anthropic_api_key: str = ""
     xai_api_key: str = ""
     database_url: str = ""
+    # Direct (non-pooled) connection for migrations; falls back to database_url.
+    database_url_unpooled: str = ""
 
     trusted_xai_model: str = "grok-4.3"
     unrestricted_xai_model: str = "grok-4.3"

@@ -16,9 +16,10 @@ target_metadata = Base.metadata
 
 def _database_url() -> str:
     settings = get_settings()
-    if not settings.database_url.strip():
+    database_url = settings.database_url_unpooled.strip() or settings.database_url.strip()
+    if not database_url:
         raise RuntimeError("DATABASE_URL must be set before running Alembic migrations.")
-    return normalize_database_url(settings.database_url)
+    return normalize_database_url(database_url)
 
 
 def run_migrations_offline() -> None:

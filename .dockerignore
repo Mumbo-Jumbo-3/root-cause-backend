@@ -1,0 +1,14 @@
+.git
+.venv
+.env
+.railway-recovery
+.langgraph_api
+.pytest_cache
+.wrangler
+**/__pycache__
+node_modules
+worker
+evals
+resources
+scripts
+tests

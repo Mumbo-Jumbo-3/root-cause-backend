@@ -115,6 +115,35 @@ uv run uvicorn health_agent.server:app --port 2024
 uv run pytest
 ```
 
+## Deploying
+
+Production runs on Cloudflare with Postgres on [Neon](https://neon.com). A Worker ([`worker/index.ts`](worker/index.ts)) forwards every request to a single [Cloudflare Container](https://developers.cloudflare.com/containers/) running the FastAPI server from the [`Dockerfile`](Dockerfile). The container sleeps after 30 idle minutes and cold-starts on the next request. Every Worker var and secret is passed to the container as an environment variable.
+
+Hyperdrive is not used. It can only be reached from Worker code, and the agent can't run as a Python Worker: LangGraph needs `ormsgpack` and Voyage needs `tokenizers`, which have no WebAssembly builds, and the graph runs its nodes on threads. The container holds its own warm connection pool, and Neon's pooler handles the rest.
+
+Neon supplies two connection strings. `DATABASE_URL` is the pooled one (host contains `-pooler`) and is what the app uses. `DATABASE_URL_UNPOOLED` is the direct one, which Alembic and `pg_dump` need.
+
+```bash
+npm install
+npx wrangler secret put DATABASE_URL   # repeat for each secret listed in wrangler.jsonc
+set -a; source .env; set +a            # local .env points at Neon
+npm run deploy                         # alembic upgrade + ingest, then wrangler deploy
+```
+
+The release step runs from your machine, not at container start. Cold starts stay fast, and a migration never runs twice at once.
+
+### Moving off Railway
+
+1. Create a Neon project on Postgres 18 in AWS us-east, matching `constraints.regions` in [`wrangler.jsonc`](wrangler.jsonc). Leave the database empty and don't create the `vector` extension yourself; the restore creates it.
+2. Set the secrets above and run `npx wrangler deploy` to check the Worker builds and boots. It isn't serving users yet.
+3. Stop writes on Railway, then copy the database. The script dumps with Postgres 18 tools in Docker, restores in one transaction, and compares row counts per table:
+   ```bash
+   SOURCE_DATABASE_URL=<Railway DATABASE_PUBLIC_URL> TARGET_DATABASE_URL=<Neon direct URL> scripts/copy_database.sh
+   ```
+   Then run `npm run deploy`. Its migration step drops the retired Catamine tables (`20261023_01`). Don't carry over Railway's `CATAMINE_*`, `CORS_ORIGINS` or `OPENAI_API_KEY`; nothing reads them.
+4. Set the frontend's `LANGGRAPH_API_URL` to the Worker URL and redeploy it.
+5. Check sign-in, a new streamed answer, and an old shared conversation. Then disconnect Railway's GitHub auto-deploy, delete `railpack.json`, and retire the Railway services.
+
 ## Layout
 
 | Path | What's there |
@@ -123,5 +152,6 @@ uv run pytest
 | [`src/health_agent/rag/`](src/health_agent/rag) | Ingest, hybrid retrieval, RRF, rerank, evals |
 | [`src/health_agent/server.py`](src/health_agent/server.py) | FastAPI server: streaming runs, threads, sharing, Clerk auth |
 | [`resources/`](resources) | The curated archive the RAG indexes |
+| [`worker/`](worker) | Cloudflare Worker that fronts the container |
 | [`alembic/`](alembic) | Database migrations |
 | [`evals/`](evals) | Eval fixtures |
