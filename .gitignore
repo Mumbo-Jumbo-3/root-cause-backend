@@ -6,3 +6,6 @@ __pycache__/
 *.egg-info/
 dist/
 .pytest_cache/
+node_modules/
+.wrangler/
+.dev.vars

@@ -115,6 +115,29 @@ uv run uvicorn health_agent.server:app --port 2024
 uv run pytest
 ```
 
+## Deploying
+
+Production runs on Cloudflare with Postgres on [Neon](https://neon.com). A Worker ([`worker/index.ts`](worker/index.ts)) forwards every request to a single [Cloudflare Container](https://developers.cloudflare.com/containers/) running the FastAPI server from the [`Dockerfile`](Dockerfile). The container sleeps after 30 idle minutes and cold-starts on the next request. Every Worker var and secret is passed to the container as an environment variable.
+
+Hyperdrive is not used. It can only be reached from Worker code, and the agent can't run as a Python Worker: LangGraph needs `ormsgpack` and Voyage needs `tokenizers`, which have no WebAssembly builds, and the graph runs its nodes on threads. The container holds its own warm connection pool, and Neon's pooler handles the rest.
+
+Neon supplies two connection strings. `DATABASE_URL` is the pooled one (host contains `-pooler`) and is what the app uses. `DATABASE_URL_UNPOOLED` is the direct one, which Alembic and `pg_dump` need.
+
+```bash
+npm install
+npx wrangler secret put DATABASE_URL   # repeat for each secret listed in wrangler.jsonc
+set -a; source .env; set +a            # local .env points at Neon
+npm run deploy                         # alembic upgrade + ingest, then wrangler deploy
+```
+
+The release step runs from your machine, not at container start. Cold starts stay fast, and a migration never runs twice at once. Ingest makes the index match the checkout's `resources/` exactly: files that aren't on disk are removed from the index. So deploy from a checkout whose `resources/` is what production should search.
+
+### Migration from Railway
+
+Moved on October 23, 2026. The Railway database was copied into the Neon project `root-cause` with [`scripts/copy_database.sh`](scripts/copy_database.sh), and every table's row count matched. It was then migrated to `20261023_01`, which drops the retired Catamine tables. Finally, the frontend's `LANGGRAPH_API_URL` was switched to the Worker. Railway's `CATAMINE_*`, `CORS_ORIGINS` and `OPENAI_API_KEY` were not carried over, because nothing reads them.
+
+To reuse the copy script, restore into an empty database before the container first boots. On startup the app creates the LangGraph checkpoint tables, and the restore would then fail on them.
+
 ## Layout
 
 | Path | What's there |
@@ -123,5 +146,6 @@ uv run pytest
 | [`src/health_agent/rag/`](src/health_agent/rag) | Ingest, hybrid retrieval, RRF, rerank, evals |
 | [`src/health_agent/server.py`](src/health_agent/server.py) | FastAPI server: streaming runs, threads, sharing, Clerk auth |
 | [`resources/`](resources) | The curated archive the RAG indexes |
+| [`worker/`](worker) | Cloudflare Worker that fronts the container |
 | [`alembic/`](alembic) | Database migrations |
 | [`evals/`](evals) | Eval fixtures |
