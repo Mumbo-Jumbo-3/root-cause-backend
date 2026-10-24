@@ -130,19 +130,13 @@ set -a; source .env; set +a            # local .env points at Neon
 npm run deploy                         # alembic upgrade + ingest, then wrangler deploy
 ```
 
-The release step runs from your machine, not at container start. Cold starts stay fast, and a migration never runs twice at once.
+The release step runs from your machine, not at container start. Cold starts stay fast, and a migration never runs twice at once. Ingest makes the index match the checkout's `resources/` exactly: files that aren't on disk are removed from the index. So deploy from a checkout whose `resources/` is what production should search.
 
-### Moving off Railway
+### Migration from Railway
 
-1. Create a Neon project on Postgres 18 in AWS us-east, matching `constraints.regions` in [`wrangler.jsonc`](wrangler.jsonc). Leave the database empty and don't create the `vector` extension yourself; the restore creates it.
-2. Set the secrets above and run `npx wrangler deploy` to check the Worker builds and boots. It isn't serving users yet.
-3. Stop writes on Railway, then copy the database. The script dumps with Postgres 18 tools in Docker, restores in one transaction, and compares row counts per table:
-   ```bash
-   SOURCE_DATABASE_URL=<Railway DATABASE_PUBLIC_URL> TARGET_DATABASE_URL=<Neon direct URL> scripts/copy_database.sh
-   ```
-   Then run `npm run deploy`. Its migration step drops the retired Catamine tables (`20261023_01`). Don't carry over Railway's `CATAMINE_*`, `CORS_ORIGINS` or `OPENAI_API_KEY`; nothing reads them.
-4. Set the frontend's `LANGGRAPH_API_URL` to the Worker URL and redeploy it.
-5. Check sign-in, a new streamed answer, and an old shared conversation. Then disconnect Railway's GitHub auto-deploy, delete `railpack.json`, and retire the Railway services.
+Moved on October 23, 2026. The Railway database was copied into the Neon project `root-cause` with [`scripts/copy_database.sh`](scripts/copy_database.sh), and every table's row count matched. It was then migrated to `20261023_01`, which drops the retired Catamine tables. Finally, the frontend's `LANGGRAPH_API_URL` was switched to the Worker. Railway's `CATAMINE_*`, `CORS_ORIGINS` and `OPENAI_API_KEY` were not carried over, because nothing reads them.
+
+To reuse the copy script, restore into an empty database before the container first boots. On startup the app creates the LangGraph checkpoint tables, and the restore would then fail on them.
 
 ## Layout
 
