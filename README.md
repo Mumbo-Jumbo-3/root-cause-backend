@@ -117,24 +117,24 @@ uv run pytest
 
 ## Deploying
 
-Production runs on Cloudflare with Postgres on [Neon](https://neon.com). A Worker ([`worker/index.ts`](worker/index.ts)) forwards every request to a single [Cloudflare Container](https://developers.cloudflare.com/containers/) running the FastAPI server from the [`Dockerfile`](Dockerfile). The container sleeps after 30 idle minutes and cold-starts on the next request. Every Worker var and secret is passed to the container as an environment variable.
+Production runs on [Render](https://render.com) with Postgres on [Neon](https://neon.com). [`render.yaml`](render.yaml) is a Blueprint for one Docker web service built from the [`Dockerfile`](Dockerfile), in Render's Ohio region next to Neon's `us-east-2`. Every push to `main` deploys. Before the new instance takes traffic, Render runs `alembic upgrade head` as the pre-deploy step, so a migration lands before the code that needs it and never runs twice at once. Render health-checks `/ok`.
 
-Hyperdrive is not used. It can only be reached from Worker code, and the agent can't run as a Python Worker: LangGraph needs `ormsgpack` and Voyage needs `tokenizers`, which have no WebAssembly builds, and the graph runs its nodes on threads. The container holds its own warm connection pool, and Neon's pooler handles the rest.
+Neon supplies two connection strings. `DATABASE_URL` is the pooled one (host contains `-pooler`) and is what the app uses. `DATABASE_URL_UNPOOLED` is the direct one, which Alembic and `pg_dump` need. Both are set on the Render service.
 
-Neon supplies two connection strings. `DATABASE_URL` is the pooled one (host contains `-pooler`) and is what the app uses. `DATABASE_URL_UNPOOLED` is the direct one, which Alembic and `pg_dump` need.
+Secrets are marked `sync: false` in the Blueprint, so Render asks for them when the Blueprint is first applied and never reads them from the repo. Change them later in the service's Environment tab.
+
+Ingest is not part of the deploy. Run it from your machine when `resources/` changes:
 
 ```bash
-npm install
-npx wrangler secret put DATABASE_URL   # repeat for each secret listed in wrangler.jsonc
-set -a; source .env; set +a            # local .env points at Neon
-npm run deploy                         # alembic upgrade + ingest, then wrangler deploy
+set -a; source .env; set +a   # local .env points at Neon
+uv run health-agent ingest
 ```
 
-The release step runs from your machine, not at container start. Cold starts stay fast, and a migration never runs twice at once. Ingest makes the index match the checkout's `resources/` exactly: files that aren't on disk are removed from the index. So deploy from a checkout whose `resources/` is what production should search.
+Ingest makes the index match the checkout's `resources/` exactly: files that aren't on disk are removed from the index. So run it from a checkout whose `resources/` is what production should search.
 
 ### Migration from Railway
 
-Moved on October 23, 2026. The Railway database was copied into the Neon project `root-cause` with [`scripts/copy_database.sh`](scripts/copy_database.sh), and every table's row count matched. It was then migrated to `20261023_01`, which drops the retired Catamine tables. Finally, the frontend's `LANGGRAPH_API_URL` was switched to the Worker. Railway's `CATAMINE_*`, `CORS_ORIGINS` and `OPENAI_API_KEY` were not carried over, because nothing reads them.
+Moved on October 23, 2026. The Railway database was copied into the Neon project `root-cause` with [`scripts/copy_database.sh`](scripts/copy_database.sh), and every table's row count matched. It was then migrated to `20261023_01`, which drops the retired Catamine tables. Finally, the frontend's `LANGGRAPH_API_URL` was switched to the Cloudflare Worker that served production until the move to Render. Railway's `CATAMINE_*`, `CORS_ORIGINS` and `OPENAI_API_KEY` were not carried over, because nothing reads them.
 
 To reuse the copy script, restore into an empty database before the container first boots. On startup the app creates the LangGraph checkpoint tables, and the restore would then fail on them.
 
@@ -146,6 +146,6 @@ To reuse the copy script, restore into an empty database before the container fi
 | [`src/health_agent/rag/`](src/health_agent/rag) | Ingest, hybrid retrieval, RRF, rerank, evals |
 | [`src/health_agent/server.py`](src/health_agent/server.py) | FastAPI server: streaming runs, threads, sharing, Clerk auth |
 | [`resources/`](resources) | The curated archive the RAG indexes |
-| [`worker/`](worker) | Cloudflare Worker that fronts the container |
+| [`render.yaml`](render.yaml) | Render Blueprint for the production service |
 | [`alembic/`](alembic) | Database migrations |
 | [`evals/`](evals) | Eval fixtures |
