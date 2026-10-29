@@ -1,5 +1,2851 @@
 {
   "version": "rag-context-oracle-v1",
-  "corpus_hash": "",
-  "cases": []
+  "corpus_hash": "5e866cb38be5d558ad86e129b3438168976c31a49085e07f929f6142cc94a6ad",
+  "cases": [
+    {
+      "case_id": "magnesium_sleep_stress",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Magnesium enhances GABA (the calming neurotransmitter), which is critical for deep, restorative sleep and stress reduction.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "nutrients/magnesium.md",
+              "chunk_index": 1,
+              "content_hash": "3b5c753e8ec915dcdbf87d28f8756e7004e5f2c927473ea566a95ea36ee5fc10",
+              "support": "direct",
+              "rationale": "Explicitly states magnesium enhances GABA (the calming neurotransmitter) and is crucial for managing stress, anxiety, and sleep quality."
+            },
+            {
+              "source_path": "grimhood_sleep.md",
+              "chunk_index": 5,
+              "content_hash": "49e2c753235e3fa33b25163511fafabf6fa14bb32da84189e615d61128efbf19",
+              "support": "direct",
+              "rationale": "Explains that GABA induction is the primary factor for deep, restorative sleep and that magnesium (especially glycinate) paired with L-theanine is 'rocket fuel' for GABA production."
+            },
+            {
+              "source_path": "ferman_system_8.md",
+              "chunk_index": 9,
+              "content_hash": "ce8d4a292381ae37bbbc262ae4873be40623455a42133278ac723c5308a37b0e",
+              "support": "direct",
+              "rationale": "States that getting enough magnesium is the number one action to maintain healthy GABA levels, and that without healthy GABA levels insomnia and anxiety result."
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "Stress rapidly depletes magnesium, and when stressed, magnesium shifts from the intracellular to extracellular space, leading to urinary excretion and creating a vicious cycle of elevated stress hormones.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "ferman_system_4.md",
+              "chunk_index": 55,
+              "content_hash": "6ceb183388a96402f340684d0019b719ca1551d83d49d2366b050d48e4d473b2",
+              "support": "direct",
+              "rationale": "Explicitly states that stress hormones shift magnesium from the intracellular to extracellular space, leading to excretion through urine, raising brain noradrenaline and creating a vicious cycle."
+            },
+            {
+              "source_path": "nutrients/magnesium.md",
+              "chunk_index": 3,
+              "content_hash": "2fa0db69d40e1e063761a279d543f19c64b55f8342fc1c2b9bbdf9c354a383fd",
+              "support": "direct",
+              "rationale": "States that high stress rapidly depletes magnesium and lists poor sleep and anxiety among common signs of deficiency."
+            },
+            {
+              "source_path": "ferman_system_4.md",
+              "chunk_index": 54,
+              "content_hash": "1482a1367e6e2e263eac7c0595e308c881b33ae216c9479f77d1a5dd7c454de1",
+              "support": "direct",
+              "rationale": "States that magnesium is the most important mineral for the nervous system, which can take a hit under intense stress."
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "Magnesium acts as the body's primary defense against excess calcium activation (NMDA/calcium-glutamate hyperactivation), which disrupts sleep, causes tension, anxiety, and negative thoughts.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "grimhood_magnesium.md",
+              "chunk_index": 1,
+              "content_hash": "c108835f3fa22cd49a61de282670b9d4face7ee7f944cca16b0f6f4792e2e0ff",
+              "support": "direct",
+              "rationale": "States that magnesium is the body's primary defense against hyper calcium activation, which is implicated in nearly every inflammatory cytokine and response."
+            },
+            {
+              "source_path": "grimhood_sleep.md",
+              "chunk_index": 5,
+              "content_hash": "49e2c753235e3fa33b25163511fafabf6fa14bb32da84189e615d61128efbf19",
+              "support": "direct",
+              "rationale": "Explains that calcium-glutamate and cortisol counter GABA biochemistry, are tension-inducing, and create negative ruminating thoughts, while magnesium glycinate + L-theanine addresses excessive activity at each calcium-glutamate receptor system."
+            },
+            {
+              "source_path": "ferman_system_4.md",
+              "chunk_index": 55,
+              "content_hash": "6ceb183388a96402f340684d0019b719ca1551d83d49d2366b050d48e4d473b2",
+              "support": "direct",
+              "rationale": "States magnesium decreases ACTH release, suppresses HPA-axis activity, and has antagonistic effects on NMDA receptors."
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "Magnesium glycinate paired with L-theanine is particularly effective for sleep and stress because both compounds fuel GABA production and help clear brain waste during sleep.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "nutrients/magnesium.md",
+              "chunk_index": 5,
+              "content_hash": "a5aa8844158a774e2a4977b93d448850d07d9b4ccf074fa2206d3bf139ef8107",
+              "support": "direct",
+              "rationale": "Describes magnesium glycinate as excellent for sleep and stress, and notes it pairs powerfully with L-theanine for GABA support and brain waste clearance during sleep."
+            },
+            {
+              "source_path": "grimhood_magnesium.md",
+              "chunk_index": 15,
+              "content_hash": "d50897e8e58060aa7a9301186ce80f5bc4687caedc2ba878d8f093302c4c00c3",
+              "support": "direct",
+              "rationale": "States magnesium glycinate can be like rocket fuel for GABA production when paired with L-theanine, and the combination facilitates brain waste clearance during sleep."
+            },
+            {
+              "source_path": "grimhood_sleep.md",
+              "chunk_index": 6,
+              "content_hash": "24b79678f99d76b54bb14da5155cc6e2be3e92bf9e12586e6c9ede8744f0e436",
+              "support": "direct",
+              "rationale": "Confirms magnesium and glycine go into GABA production and L-theanine increases GABA production, describing the combination as 'rocket fuel' and noting it is best taken 30\u201360 minutes before sleep."
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "Magnesium deficiency is widespread and contributes to poor sleep, anxiety, and elevated stress, with common signs including muscle cramps, brain fog, fatigue, and insomnia.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "nutrients/magnesium.md",
+              "chunk_index": 3,
+              "content_hash": "2fa0db69d40e1e063761a279d543f19c64b55f8342fc1c2b9bbdf9c354a383fd",
+              "support": "direct",
+              "rationale": "States deficiency is widespread due to soil depletion, high stress, and medications, and lists poor sleep, anxiety, fatigue, and brain fog as common signs."
+            },
+            {
+              "source_path": "grimhood_magnesium.md",
+              "chunk_index": 6,
+              "content_hash": "9476aa60d236a515e283c529ac4622ec6c782e6c7769708423d4a6860d544d1e",
+              "support": "direct",
+              "rationale": "States magnesium is crucial for helping people with stress, anxiety, and general mental/emotional wellbeing, implying deficiency impairs these."
+            },
+            {
+              "source_path": "peat_biological_balance_and_addictions.md",
+              "chunk_index": 13,
+              "content_hash": "a16b55e26efb22366bf2331b66b112571b8c1bb86ecaba6052ed39e77e5185e7",
+              "support": "direct",
+              "rationale": "Notes that in hypothyroidism the nerve-muscle relaxant magnesium is low and that normal deep sleep is rare; the correct dose of magnesium is a reliable treatment for insomnia, cramps, and anxiety."
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "Magnesium supplementation (especially magnesium glycinate or chloride) can be used as a practical intervention to support sleep and reduce stress, with the highest dose recommended before sleep.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "grimhood_magnesium.md",
+              "chunk_index": 13,
+              "content_hash": "525803c419a6ecc5f9aea2ceb9aeb70832c208e6be6421c0b7637b1cce7555d1",
+              "support": "direct",
+              "rationale": "Recommends spreading magnesium dosages throughout the day and reserving the main high dose before sleep, as this is when cleansing, detox, and repair processes occur."
+            },
+            {
+              "source_path": "nutrients/magnesium.md",
+              "chunk_index": 8,
+              "content_hash": "6acfd5514ed8acd6f716861804c33ce5a369a1a47f66f639c10a7383d9763882",
+              "support": "direct",
+              "rationale": "Recommends beginners start with 400 mg magnesium glycinate at night before bed for sleep, stress, and general repletion."
+            },
+            {
+              "source_path": "ferman_system_4.md",
+              "chunk_index": 54,
+              "content_hash": "1482a1367e6e2e263eac7c0595e308c881b33ae216c9479f77d1a5dd7c454de1",
+              "support": "direct",
+              "rationale": "Suggests supplementing 200 mg magnesium glycinate 2\u20133 times a day and applying magnesium chloride solution to the back of the neck as a practical stress management tool."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 244,
+              "content_hash": "ab0e5d8444ccb2df0e3e64107c6eabc573e892456f57c158f6cd09616cb19c90",
+              "support": "direct",
+              "rationale": "Notes that a few hundred milligrams of magnesium can immediately make it possible to sleep normally, citing magnesium carbonate or Epsom salts as examples."
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "claim": "Magnesium supports neurogenesis, increases BDNF, and has antidepressant mechanisms, contributing to overall mental and emotional resilience against stress.",
+          "required": false,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "grimhood_magnesium.md",
+              "chunk_index": 6,
+              "content_hash": "9476aa60d236a515e283c529ac4622ec6c782e6c7769708423d4a6860d544d1e",
+              "support": "direct",
+              "rationale": "States magnesium literally regenerates the brain via neurogenesis, increases BDNF, and has similar antidepressant pharmacology to ketamine."
+            },
+            {
+              "source_path": "nutrients/magnesium.md",
+              "chunk_index": 1,
+              "content_hash": "3b5c753e8ec915dcdbf87d28f8756e7004e5f2c927473ea566a95ea36ee5fc10",
+              "support": "direct",
+              "rationale": "Lists increasing BDNF, supporting neurogenesis, and having antidepressant mechanisms among magnesium's brain and nervous system roles, along with being crucial for managing stress and anxiety."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "magnesium cortisol regulation anxiety",
+        "magnesium deficiency insomnia symptoms",
+        "magnesium nervous system relaxation calming",
+        "magnesium melatonin production sleep hormone",
+        "magnesium HPA axis stress reduction",
+        "dietary magnesium intake sleep disorders"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T15:54:13.670011+00:00"
+    },
+    {
+      "case_id": "progesterone_thyroid_function",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Estrogen inhibits thyroid secretion while progesterone promotes it; by opposing estrogen, progesterone breaks the estrogen-hypothyroid vicious circle and supports thyroid's thermogenic effect.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_progesterone_in_orthomolecular_medicine_ray_peat.md",
+              "chunk_index": 59,
+              "content_hash": "a0014d4c727577500364a981299a25cc161785b7e05c8e33fb78f6141b94eb6c",
+              "support": "direct",
+              "rationale": "Explicitly states estrogen inhibits thyroid secretion by inhibiting the proteolytic enzyme, and progesterone has the opposite effect, promoting hormone release from the gland."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 303,
+              "content_hash": "0c8c21479fdf48f41b81317f41043db62424071e7f34ad8e1d68d3b156e69cc3",
+              "support": "direct",
+              "rationale": "Same content: estrogen inhibits thyroid secretion, progesterone promotes release of hormones from the gland."
+            },
+            {
+              "source_path": "peat_steroids_thyroid_by_ray_peat.md",
+              "chunk_index": 15,
+              "content_hash": "4025e054c634ec71934791d9a77c74cb546dbe76baab1deec073d4ffbec1dacc",
+              "support": "direct",
+              "rationale": "Identical statement about estrogen inhibiting thyroid secretion and progesterone promoting release of hormones."
+            },
+            {
+              "source_path": "peat_generative_energy_restoring_the_wholeness_of_life_by_ray_peat.md",
+              "chunk_index": 188,
+              "content_hash": "d4f313913b699d58dd0097483837f8f9786d0dd3429fcef7322ba873508befb7",
+              "support": "direct",
+              "rationale": "Same claim repeated from Generative Energy source."
+            },
+            {
+              "source_path": "peat_thyroid3.md",
+              "chunk_index": 7,
+              "content_hash": "2c9ae5d90b31ba28ae50b61152e729fb5f5f2c514dcb0c22df463d9b10444a4e",
+              "support": "direct",
+              "rationale": "Same claim from Thyroid source."
+            },
+            {
+              "source_path": "peat_mary_shomon_interview.md",
+              "chunk_index": 4,
+              "content_hash": "c260f46801babfd33c882ccab0fa2a3d797fadb481ecf1fb5b75242d5f63cc8c",
+              "support": "direct",
+              "rationale": "States 'estrogen blocks the release of hormone from the thyroid gland, and progesterone facilitates the release.'"
+            },
+            {
+              "source_path": "peat_progesterone_in_orthomolecular_medicine_ray_peat.md",
+              "chunk_index": 60,
+              "content_hash": "14bf6d8fc0cff24e28bb101f5d8df9cc7ac48b0673e11f8f51836eb6b81f92de",
+              "support": "direct",
+              "rationale": "Describes the vicious circle of estrogen dominance blocking thyroid, liver accumulating more estrogen, and how progesterone can break the cycle."
+            },
+            {
+              "source_path": "peat_steroids_thyroid_by_ray_peat.md",
+              "chunk_index": 16,
+              "content_hash": "0f0c8a4dc26aa38cb85f5f280e348a854d1dda74e1c494a58a32037da5fddc25",
+              "support": "direct",
+              "rationale": "Identical description of the vicious circle and progesterone breaking it."
+            },
+            {
+              "source_path": "peat_generative_energy_restoring_the_wholeness_of_life_by_ray_peat.md",
+              "chunk_index": 189,
+              "content_hash": "afaa661e72ebe66160ed105eab95aa4e875ec168096965b1185560aefdf56032",
+              "support": "direct",
+              "rationale": "Same vicious circle description from Generative Energy source."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 304,
+              "content_hash": "e9b93b08752e14a3d24f530fead2e63dd4134a30f195a5e9299daa42336f6a30",
+              "support": "direct",
+              "rationale": "Same vicious circle and progesterone breaking the cycle, from PMS to Menopause source."
+            },
+            {
+              "source_path": "peat_thyroid3.md",
+              "chunk_index": 8,
+              "content_hash": "3729919fd49e19f0fa45089b945b69890c6a0b85d6137360cf0475ac8cafd106",
+              "support": "direct",
+              "rationale": "Same claim from Thyroid source."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 128,
+              "content_hash": "8e590e875c4efeca52d22286074ae98264ff5add186c1bd48bf01a4dee3448f6",
+              "support": "direct",
+              "rationale": "Explains that progesterone raises temperature by blocking estrogen's blockage of thyroid hormone, promoting the effect of thyroxin."
+            },
+            {
+              "source_path": "peat_progesterone_in_orthomolecular_medicine_ray_peat.md",
+              "chunk_index": 53,
+              "content_hash": "f8b1c722830e4d5cca12c589b397deaa375a5facb17d70cceb302aaba7e5bd2f",
+              "support": "direct",
+              "rationale": "States thyroid is essential for producing progesterone, and progesterone is thermogenic in setting the temperature control system higher."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 297,
+              "content_hash": "a73d682380b5ec74fb2d7f7862757cbf1955ab34f886f95b029c6b20bbe72552",
+              "support": "direct",
+              "rationale": "Same statement about thyroid being essential for progesterone and progesterone being thermogenic."
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "Thyroid hormone (with vitamin A and cholesterol) is needed to make progesterone, so hypothyroidism tends toward progesterone deficiency and estrogen dominance; supplementing either thyroid or progesterone tends to normalize both.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_progesterone_in_orthomolecular_medicine_ray_peat.md",
+              "chunk_index": 42,
+              "content_hash": "97c9ec80684a7eb29197e7070209938bcea2d17d41b83977a378bfdd8e2dc147",
+              "support": "direct",
+              "rationale": "States progesterone allows the thyroid gland to secrete its hormones, and since thyroid hormone is needed to produce progesterone, a supplement of either tends to normalize both."
+            },
+            {
+              "source_path": "peat_steroids_thyroid_by_ray_peat.md",
+              "chunk_index": 2,
+              "content_hash": "a701c78b176dbb9e7ad076f5ca8f4be2fc2030a45a51a3acb5115f4a91b130f5",
+              "support": "direct",
+              "rationale": "Same statement: thyroid hormone needed to produce progesterone; supplement of either normalizes both."
+            },
+            {
+              "source_path": "peat_generative_energy_restoring_the_wholeness_of_life_by_ray_peat.md",
+              "chunk_index": 175,
+              "content_hash": "22f5c0e31dc2876683251e264dd8a3a5d6c873bb68968ca23e66290fa24ca3f2",
+              "support": "direct",
+              "rationale": "Same claim from Generative Energy source."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 265,
+              "content_hash": "f6736c44f091d1cc9995070278d097483e3357b6a17f73cd30f4f8e2994cd792",
+              "support": "direct",
+              "rationale": "Same claim from PMS to Menopause source."
+            },
+            {
+              "source_path": "peat_progesterone_in_orthomolecular_medicine_ray_peat.md",
+              "chunk_index": 15,
+              "content_hash": "fdcb2c38f40076b807d65a7af49133f939446e38ac42850656737fe1ddc8d8c7",
+              "support": "direct",
+              "rationale": "States thyroid hormone is one of the essential factors for conversion of cholesterol to progesterone."
+            },
+            {
+              "source_path": "peat_progesterone_thyroid_cancer.md",
+              "chunk_index": 36,
+              "content_hash": "dd4c77acc2aae360b2738fb7d601e6d172c9b12574b73b406a71cc8c874b60fa",
+              "support": "direct",
+              "rationale": "States thyroid is essential for the synthesis of progesterone, and for restraining estrogen synthesis and accelerating its elimination."
+            },
+            {
+              "source_path": "peat_progesterone_in_orthomolecular_medicine_ray_peat.md",
+              "chunk_index": 62,
+              "content_hash": "3232d27eb913bc7d943a8924c5f92c03517426a64be37e6b3562cf94f7934970",
+              "support": "direct",
+              "rationale": "States that a progesterone deficiency can be corrected by normalizing thyroid function, and that hypothyroidism leads to estrogen dominance and tendency to develop cystic ovaries."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 306,
+              "content_hash": "0d812709dff585b820b0acc81fad53ab4d7f61425ba3ab8066a9fc44bb53e7a7",
+              "support": "direct",
+              "rationale": "Same claim from PMS to Menopause source."
+            },
+            {
+              "source_path": "peat_thyroid3.md",
+              "chunk_index": 10,
+              "content_hash": "e0e623087722c9e01bc9e3c4b4e65ce80a54618cef07d13ef14487aa2ceeb6aa",
+              "support": "direct",
+              "rationale": "Same claim from Thyroid source."
+            },
+            {
+              "source_path": "peat_thyroid_misconceptions.md",
+              "chunk_index": 13,
+              "content_hash": "4392e9358b29f21e15e64e215df022660d13c4b66d4435634823570b27c40fa5",
+              "support": "direct",
+              "rationale": "States when thyroid is normal, vitamin A and cholesterol are used to form progesterone; carotene accumulates in hypothyroidism and can block progesterone synthesis."
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "Both progesterone and thyroid can be considered primary regulatory hormones: both regulate metabolism at energetic and synthetic levels, have a normalizing anti-stress action on the pituitary, and each has a promoting action on the other.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 95,
+              "content_hash": "6d7d5b5be21b39de64a2e17fc00a4bd8d62085cd928954cc4c4c8d90e3817bce",
+              "support": "direct",
+              "rationale": "Explicitly states both progesterone and thyroid are primary regulatory hormones with the described shared properties and mutual promoting action."
+            },
+            {
+              "source_path": "peat_progesterone6.md",
+              "chunk_index": 5,
+              "content_hash": "01236700e9874b07a412d15edcdf0373d198738471e40efd875b5e2e691900de",
+              "support": "direct",
+              "rationale": "States both progesterone and thyroid hormone are primary regulatory hormones regulating metabolism, with anti-stress action on pituitary and promoting action on each other."
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "Progesterone supports secretion of thyroxine and apparently inhibits the formation of reverse T3 (which blocks thyroid hormone action), in contrast to lithium which has an anti-thyroid action.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 105,
+              "content_hash": "69ba9acbdea78d7c49aa152e9f7a8f53d4ec61087da94e7ba6513f3f142dc8ab",
+              "support": "direct",
+              "rationale": "States progesterone supports secretion of thyroxine and apparently inhibits the formation of reverse T3, contrasting with lithium's anti-thyroid action."
+            }
+          ]
+        },
+        {
+          "id": "c8",
+          "claim": "Low thyroid function modifies fat cell enzymes to increase conversion of androgen to estrogen, whereas adding progesterone has the opposite effect, protecting androgen from conversion to estrogen.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_blocking.md",
+              "chunk_index": 3,
+              "content_hash": "377fe04a50eddb3cfd3137c2a06fa0c2367181e5981964b86f724a93d5b6759a",
+              "support": "direct",
+              "rationale": "States low thyroid modifies fat cell enzymes to increase androgen-to-estrogen conversion, and progesterone has the opposite effect, protecting androgen from this conversion."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "progesterone thyroid hormone conversion T4 T3",
+        "progesterone estrogen dominance thyroid suppression",
+        "natural progesterone hypothyroidism treatment",
+        "progesterone liver detoxification thyroid binding globulin",
+        "Ray Peat progesterone thyroid",
+        "progesterone metabolism basal temperature thyroid"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T15:55:34.633635+00:00"
+    },
+    {
+      "case_id": "coconut_oil_unsaturated_fats",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Coconut oil supports and stimulates thyroid function and metabolic rate, whereas unsaturated fats suppress thyroid hormone and slow metabolism, leading to hypothyroidism",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 11,
+              "content_hash": "0e87c4b5d2e20f621df1977751389cbb314d24bfa6b063db2d86799d7e03eee5",
+              "support": "direct",
+              "rationale": "States that by 1950 unsaturated fats were established to suppress metabolic rate and create hypothyroidism, damaging mitochondria and suppressing thyroid hormone transport"
+            },
+            {
+              "source_path": "peat_unsaturated2.md",
+              "chunk_index": 17,
+              "content_hash": "c826cdf2f485278792e1fb099cb21da4e5df80f62dd6e5993a809927d4ab3c64",
+              "support": "direct",
+              "rationale": "States coconut oil slightly lowers cholesterol by raising thyroid function, and people who eat coconut oil regularly are lean and free of heart disease and cancer"
+            },
+            {
+              "source_path": "peat_mary_shomon_interview.md",
+              "chunk_index": 23,
+              "content_hash": "1d5496b40d543927c13f6122ab2b813be21873fd4c35a3dd1580db35af62abc2",
+              "support": "direct",
+              "rationale": "Explains coconut oil supports mitochondrial respiration and promotes thyroid function by reducing the toxic effects of polyunsaturated fatty acids"
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 6,
+              "content_hash": "d949af99af7fd5a47e50fb6361391e6e14e8b81d3558b6816142ccde1153a2a5",
+              "support": "direct",
+              "rationale": "States the high metabolic rate of animals fed coconut oil reflects the fact that coconut oil doesn't contain anti-thyroid, anti-respiratory unsaturated fatty acids"
+            },
+            {
+              "source_path": "peat_diabetes.md",
+              "chunk_index": 25,
+              "content_hash": "473786c7d1db76c3a99b7648b5e63d2faf7fb725dc2eb03ab1d1838d27903814",
+              "support": "direct",
+              "rationale": "States unsaturated oils suppress the thyroid and coconut oil increases metabolic rate by normalizing thyroid function"
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "Coconut oil is anti-obesity and promotes leanness, while unsaturated fats promote fat storage and weight gain regardless of total fat quantity consumed",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 8,
+              "content_hash": "21dcface776b5c80222c306ca46e4f744938c8a7c92edfd51e9dec49ccad921f",
+              "support": "direct",
+              "rationale": "Animal experiment showed obesity increased directly in proportion to the ratio of unsaturated oil to coconut oil; animals eating a lot of coconut oil were lean"
+            },
+            {
+              "source_path": "peat_unsaturated2.md",
+              "chunk_index": 18,
+              "content_hash": "68a26cf70f96e600b7af7f03374a4ccd1922d9e97857171a4e668020e01062ab",
+              "support": "direct",
+              "rationale": "States coconut oil is the least fattening of all oils; pig farmers found coconut oil made pigs lean rather than fat"
+            },
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 7,
+              "content_hash": "bfeaa1c11945014a1b51c06bbf81eaa7227e1eb98dd0fe44990a7b9a4251b33f",
+              "support": "direct",
+              "rationale": "In the 1940s farmers found coconut oil made livestock lean, active and hungry rather than fattening them"
+            },
+            {
+              "source_path": "peat_oils.md",
+              "chunk_index": 42,
+              "content_hash": "835d2b7ec6f8d6c7de638cd1ce014efe2d0ca6d6ea93b95b35e9fdd10d5b9328",
+              "support": "direct",
+              "rationale": "Dietary coconut oil causes decreased fat synthesis and storage compared to diets containing unsaturated fats; discussed as possible treatment for obesity"
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 7,
+              "content_hash": "85dc1e3ec36325efe1a1fe0d7f75ede166a760b0dde27d46d5785ef74cfcdfe8",
+              "support": "direct",
+              "rationale": "Personal account of losing 15 pounds while eating more calories after adding coconut oil; biochemical basis is that easily oxidized fatty acids protect against anti-thyroid effects of unsaturated fats"
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "Coconut oil acts as an antioxidant and is chemically stable against rancidity, while unsaturated fats are highly prone to oxidation, lipid peroxidation, and rancidity",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_fats.md",
+              "chunk_index": 25,
+              "content_hash": "47ba9f247051c4f0d94734c26ec8bff5789565e76835832acad8441b5d74c23c",
+              "support": "direct",
+              "rationale": "States coconut oil can be left at room temperature for a year with no rancidity, and saturated fat acts as an antioxidant for unsaturated molecules both outside and inside the body"
+            },
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 1,
+              "content_hash": "e7df7e56045713fedfac5ce09c520476706a7c5aa13482fe608a5fccc1ac6f41",
+              "support": "direct",
+              "rationale": "Coconut oil tested after a year at room temperature showed no rancidity; the saturated oils have an antioxidative effect by spatially separating unsaturated fat molecules from destructive chain reactions"
+            },
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 2,
+              "content_hash": "fba7b0c1efe96579b05c2284f2cd76471a5669c5c848e56c5edfa91c1aab90c7",
+              "support": "direct",
+              "rationale": "Dietary coconut oil reduces the need for vitamin E and has both direct and indirect antioxidant activities"
+            },
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 24,
+              "content_hash": "7889e781ed9aa842ef8cf4e50a2d30c892fa4603b76aa73fe341407b8ca9a94b",
+              "support": "direct",
+              "rationale": "Unsaturated seed oils become like sticky varnish from oxidation, forming age pigment; this is highly relevant to their toxicity vs. coconut oil"
+            },
+            {
+              "source_path": "peat_oils.md",
+              "chunk_index": 16,
+              "content_hash": "46f04a1eed9d51cce2f5303a7ecd3f9e20ebfa3e2bd1f02fc092e98dc6bdac78",
+              "support": "direct",
+              "rationale": "Coconut oil stored at room temperature for a year showed no measurable rancidity; fish oil or safflower oil oxidize very fast at 98\u00b0F"
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "Coconut oil protects against cancer, while unsaturated fats are closely associated with increased cancer incidence",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 4,
+              "content_hash": "155a3d26aa7503ac457f3991bb5385184e9bd777ecd0ccb23d9ae942ce606539",
+              "support": "direct",
+              "rationale": "German researchers showed mice on fat-free diet were practically free of cancer; many studies demonstrate close association between consumption of unsaturated oils and cancer incidence"
+            },
+            {
+              "source_path": "peat_alzheimers2.md",
+              "chunk_index": 47,
+              "content_hash": "5284012f54616f4518c9de81bbea8dbb034b37587de913b1474a90dced82dc98",
+              "support": "direct",
+              "rationale": "Lists absence of cancer on diet lacking unsaturated fats and lack of obesity/age pigment on coconut oil diet as evidence coconut oil reduces major degenerative diseases"
+            },
+            {
+              "source_path": "peat_newsletter_2018_september.md",
+              "chunk_index": 20,
+              "content_hash": "0e01d0206d9bb0cca574f4974f008da39e0056422a8b7bdb314180fc3b5c9279",
+              "support": "direct",
+              "rationale": "Veterans study showed seven cancer deaths in the corn oil (PUFA) group vs. only two in the control group, suggesting carcinogenic nature of PUFA"
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 8,
+              "content_hash": "35d4d795a63eb68821d04334cab9e332a1b654173f5d3a41f2c1b582ca5a18c5",
+              "support": "direct",
+              "rationale": "Animal studies over 60 years suggest easily oxidized fatty acids in coconut oil provide protection against cancer, heart disease, and premature aging"
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "Coconut oil's short and medium chain fatty acids are efficiently metabolized for energy without requiring carnitine transport, providing metabolic advantages over unsaturated fats which damage mitochondria and uncouple respiration from energy production",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 3,
+              "content_hash": "899f5a3f73aa64b92c1adfa9bf3e995b205fc3230d624433fcd6653fce6848a0",
+              "support": "direct",
+              "rationale": "Coconut oil's short and medium chain fatty acids can be metabolized without the carnitine transport system, and their priority for oxidation tends to inhibit oxidation of unstable unsaturated fats"
+            },
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 25,
+              "content_hash": "bb2b89088a9f36c5bfb779fefd0c8951015e3d9d3aba48733d8bcc63e7881455",
+              "support": "direct",
+              "rationale": "Unsaturated oil damages mitochondria causing respiration uncoupled from energy production, suppresses respiratory enzyme, and directs carbohydrate into fat production; coconut oil counters these effects"
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 8,
+              "content_hash": "35d4d795a63eb68821d04334cab9e332a1b654173f5d3a41f2c1b582ca5a18c5",
+              "support": "direct",
+              "rationale": "Easily oxidized short and medium-chain saturated fatty acids of coconut oil protect tissues against toxic inhibitory effects of unsaturated fatty acids and reduce their anti-thyroid effects"
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "Unsaturated fats promote skin aging, wrinkling, and ultraviolet-induced damage, while coconut oil provides protection against these effects",
+          "required": false,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 6,
+              "content_hash": "c9f5beef82aeb5582480de416760ae53bd6324e46b145ec080c77a9ee2aef601",
+              "support": "direct",
+              "rationale": "Hartroft and Porta showed age pigment produced in proportion to ratio of unsaturated to saturated oils; UV light induces peroxidation in unsaturated but not saturated fats; unsaturated oil in diet strongly affects rate of aged, wrinkled skin development"
+            },
+            {
+              "source_path": "peat_sunlight.md",
+              "chunk_index": 3,
+              "content_hash": "0190acf5703a32b303197d3ac3e3bf023e1aa788b0ec0648ca44dafc5640d423",
+              "support": "direct",
+              "rationale": "Rabbits fed corn oil developed prematurely wrinkled skin from sun exposure while coconut oil-fed rabbits showed no harm; human study showed unsaturated fat consumers judged consistently older"
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "claim": "Unsaturated fats promote blood clotting, inflammation, and cardiovascular disease, while coconut oil and saturated fats protect against these conditions and lower cardiovascular risk markers",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 23,
+              "content_hash": "a3bde2940a39c03014ca980e07e1e3fab76a36677208ec451e4f522915170d36",
+              "support": "direct",
+              "rationale": "Lesions in blood vessels are caused mostly by lipid peroxidation of unsaturated fats; the image of hard white coconut oil is misleading as it is biologically different from sticky oxidized unsaturated oils"
+            },
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 12,
+              "content_hash": "96eda7dee35d3866265e909ebdcbc4f3736b18023484c2ffab62f3bb354cadf1",
+              "support": "direct",
+              "rationale": "Unsaturated oils inhibit proteolytic enzymes involved in clot removal and phagocytosis; coconut oil use probably tends to restore these inhibited processes"
+            },
+            {
+              "source_path": "peat_implications_of_inflammation.md",
+              "chunk_index": 37,
+              "content_hash": "b9903b7163cef255406fc478825c7d4fde4c5c233e85338719ed9a10d23e8de2",
+              "support": "direct",
+              "rationale": "Rats fed coconut oil for two weeks had improved levels of IL-6 and C-reactive protein; adding PUFA increased the inflammatory reaction to endotoxin"
+            },
+            {
+              "source_path": "ferman_gut_3.md",
+              "chunk_index": 27,
+              "content_hash": "057e0152a4b46afedfc17f324dd7aa1dbe17afa879255f7fac6d4fdad87a5c41",
+              "support": "direct",
+              "rationale": "Saturated fats from coconut oil lower Lp(a), a marker for proneness to heart disease; our high-heat, high-oxygen bodies make highly unsaturated fats incompatible with physiology"
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "coconut oil lauric acid health benefits",
+        "saturated fat stable oxidation cooking safety",
+        "polyunsaturated fat oxidation inflammation risk",
+        "coconut oil HDL cholesterol cardiovascular",
+        "vegetable oil linoleic acid harmful effects",
+        "medium chain triglycerides MCT metabolic advantages"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T15:57:04.333779+00:00"
+    },
+    {
+      "case_id": "serotonin_stress_depression_endotoxin",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Endotoxin increases serotonin release from the intestine, stimulates its synthesis in the brain and liver, stimulates its release from platelets, and reduces the lungs' ability to destroy it.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_endotoxin_stress_depression.md",
+              "chunk_index": 6,
+              "content_hash": "03d58d8695c8a086169ba81c63133d10e5e77163ed8f8109794f382dec9544b5",
+              "support": "direct",
+              "rationale": "States endotoxin increases serotonin release from intestine, increases synthesis in brain and liver, stimulates release from platelets, and reduces lungs' ability to destroy it."
+            },
+            {
+              "source_path": "peat_thyroid.md",
+              "chunk_index": 0,
+              "content_hash": "d4ead57aba03bd63bd414b9696b59cfad02d8b2d5a922f4988480781d307acd0",
+              "support": "direct",
+              "rationale": "States stress and shock increase absorption of bacterial endotoxin from the intestine, and endotoxin causes the release of serotonin from platelets."
+            },
+            {
+              "source_path": "peat_newsletter_2021_november.md",
+              "chunk_index": 10,
+              "content_hash": "7beb2687dec0f9a5e5fac7eaecbf907cee7c4d1f7c76768000f233e5fd1a744b",
+              "support": "direct",
+              "rationale": "States endotoxin produces inflammation increasing nitric oxide, serotonin, histamine, and pro-inflammatory cytokines."
+            },
+            {
+              "source_path": "peat_newsletter_2016_march.md",
+              "chunk_index": 7,
+              "content_hash": "f77fc11e8209587b212a01f40de9eb76fdd4f32ba00c0e0e6f00fbbe0e56403b",
+              "support": "direct",
+              "rationale": "States bacterial endotoxin is absorbed into circulation and stimulates formation of large amounts of serotonin, histamine, and nitric oxide in the intestine."
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "Serotonin is a mediator of both depression and inflammation; increased serotonin is associated with depression, and endotoxin-induced inflammation can produce depression-like states.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_postpartum_prementstrual_and_seasonal_seotonin_soaks.md",
+              "chunk_index": 20,
+              "content_hash": "e0783c465669fbda8a210059fe7f7b7e1f808d4cb1ddfadd4e277e1b463d1649",
+              "support": "direct",
+              "rationale": "Explicitly states serotonin is a mediator of both depression and inflammation, and that there is no question about serotonin being a mediator of depression."
+            },
+            {
+              "source_path": "peat_endotoxin_stress_depression.md",
+              "chunk_index": 34,
+              "content_hash": "2f1baefe61826e1f6985b62c9c9439466ba876c6ddbd9b72f9dca95b4588b7f9",
+              "support": "direct",
+              "rationale": "References studies showing endotoxin- or pro-inflammatory cytokine-induced sickness behavior as an animal model of depression, and endotoxin reducing ventral striatum responses to reward (anhedonia)."
+            },
+            {
+              "source_path": "peat_newsletter_2019_july.md",
+              "chunk_index": 14,
+              "content_hash": "ea78dbb91e9ee0cab3a4ee1a9ac333b1fc319979930cf52074801ec9f7d2da02",
+              "support": "direct",
+              "rationale": "States that the depression caused by endotoxin inflammation can be associated with decreased serotonin production in the brain via IDO induction."
+            },
+            {
+              "source_path": "peat_serotonin.md",
+              "chunk_index": 22,
+              "content_hash": "e2bddf36acf2a7c781c3ca7ddba7c2b99192e35552853889d1567763d26043f6",
+              "support": "direct",
+              "rationale": "States that the increase of inhibitory serotonin with stress and depression is biologically related, linking serotonin to depression."
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "Stress increases serotonin, and serotonin in turn mediates many stress responses including cortisol release, vascular changes, and behavioral withdrawal.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_thyroid.md",
+              "chunk_index": 0,
+              "content_hash": "d4ead57aba03bd63bd414b9696b59cfad02d8b2d5a922f4988480781d307acd0",
+              "support": "direct",
+              "rationale": "States serotonin is an important mediator of stress, shock, and inflammation, is a vasoconstrictor, and stress and shock increase endotoxin absorption which causes serotonin release."
+            },
+            {
+              "source_path": "peat_endotoxin_stress_depression.md",
+              "chunk_index": 17,
+              "content_hash": "d91d2b304454217709cf55530e5e7375e8b1c94eef8026f8529371919579a1dd",
+              "support": "direct",
+              "rationale": "States that the ability to act defensively prevents excessive production of serotonin and consequences such as increased cortisol and other stress hormones."
+            },
+            {
+              "source_path": "peat_endotoxin_stress_depression.md",
+              "chunk_index": 19,
+              "content_hash": "1d5f4d4c00df8a1add062c5a0c4996ded179e16f32a3bc5962a14795af5c54ec",
+              "support": "direct",
+              "rationale": "States CRR, serotonin, and endotoxin cause cell swelling; serotonin is promoted by inflammation and endotoxin; in the parasympathetic withdrawal state the serotonergic system demobilizes active systems."
+            },
+            {
+              "source_path": "peat_serotonin2.md",
+              "chunk_index": 54,
+              "content_hash": "f95f3f1b06ab0033d0d7e599a42c33112b4e71719792e34bede22ed4d3151d4e",
+              "support": "direct",
+              "rationale": "Presynaptic serotonin mechanisms are implicated in behavioral deficit caused by uncontrollable shock (stress), and serotonin release after stress is significantly increased with helpless behavior."
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "Serotonin increases intestinal permeability and is likely a major cause of endotoxin absorption during intestinal irritation or stress, creating a feedback loop.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_endotoxin_stress_depression.md",
+              "chunk_index": 5,
+              "content_hash": "ba53a352e20dc2e2edf417a50b466830ef637b28b74b793e03f61a43d04f8ac1",
+              "support": "direct",
+              "rationale": "States serotonin increases permeability of intestine and blood vessels, and is likely a major cause of absorption of endotoxin during intestinal irritation or stress."
+            },
+            {
+              "source_path": "peat_serotonin.md",
+              "chunk_index": 27,
+              "content_hash": "6533b32ed525319a5452b34be590c1f58cdacb319bc720a8d0c503000f12649b",
+              "support": "direct",
+              "rationale": "States intestinal irritation causes absorption of endotoxin and serotonin, and fermentable fibers support formation of bacterial toxins."
+            },
+            {
+              "source_path": "peat_lactate.md",
+              "chunk_index": 26,
+              "content_hash": "98c73e2949f82c0384c011375214496b92c2c3fc2af2932a37b4bd3acdc7a2fa",
+              "support": "direct",
+              "rationale": "States stresses increase absorption of bacterial endotoxin from the intestine, and endotoxin is a ubiquitous chronic stressor that increases lactate and nitric oxide."
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "Endotoxin induces IDO in the brain, which degrades tryptophan into pro-inflammatory and immunosuppressive substances, potentially reducing serotonin synthesis in the brain during inflammation-related depression.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_newsletter_2019_july.md",
+              "chunk_index": 14,
+              "content_hash": "ea78dbb91e9ee0cab3a4ee1a9ac333b1fc319979930cf52074801ec9f7d2da02",
+              "support": "direct",
+              "rationale": "Directly states endotoxin induces IDO in the brain producing pro-inflammatory and immunosuppressive substances, reducing tryptophan available for serotonin synthesis, so depression from endotoxin inflammation can be associated with decreased brain serotonin."
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "The inflammation-producing effects of endotoxin, serotonin, and related bacterial fermentation products (lactate, propionate, butyrate) are overlapping, additive, and sometimes synergistic.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_endotoxin_stress_depression.md",
+              "chunk_index": 6,
+              "content_hash": "03d58d8695c8a086169ba81c63133d10e5e77163ed8f8109794f382dec9544b5",
+              "support": "direct",
+              "rationale": "States the inflammation-producing effects of lactate, serotonin, and endotoxin are overlapping, additive, and sometimes synergistic, along with histamine, nitric oxide, bradykinin, and cytokines."
+            },
+            {
+              "source_path": "peat_newsletter_2017_march.md",
+              "chunk_index": 14,
+              "content_hash": "b4a69b3f74bb5790a3f9d27e76e5c16ad857a031917322c3622dfe9e649e2ed4",
+              "support": "direct",
+              "rationale": "States endotoxin has a general excitatory inflammatory effect mediated by nitric oxide, serotonin, histamine, prostaglandins, and cytokines."
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "claim": "Serotonin impairs mitochondrial energy production (reduces ATP, increases lactate, promotes anaerobic glycolysis) and is a vasoconstrictor that impairs circulation, contributing to tissue damage seen in stress and depression.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_thyroid.md",
+              "chunk_index": 0,
+              "content_hash": "d4ead57aba03bd63bd414b9696b59cfad02d8b2d5a922f4988480781d307acd0",
+              "support": "direct",
+              "rationale": "States stress impairs metabolism and serotonin suppresses mitochondrial energy production; serotonin is a vasoconstrictor that impairs circulation."
+            },
+            {
+              "source_path": "peat_endotoxin_stress_depression.md",
+              "chunk_index": 43,
+              "content_hash": "c08e0a07a0231dfeb0f7c20c908ecf5f420c89f64f29e2a54d4fd5bb52ce0754",
+              "support": "direct",
+              "rationale": "Details injection of serotonin causes dramatic fall in brain ATP, increase in lactate, and stimulation of anaerobic glycolysis, changes characteristic of cerebral ischemia."
+            },
+            {
+              "source_path": "peat_endotoxin_stress_depression.md",
+              "chunk_index": 24,
+              "content_hash": "b29a70dcd4cacf24554364f032c557e9195b95d0b0fbb6ad2f319496247cbb52",
+              "support": "direct",
+              "rationale": "States serotonin increases lactate, decreases ATP, increases pH, and stimulates contraction or mitosis; hyperventilation causing less CO2 releases serotonin from platelets."
+            }
+          ]
+        },
+        {
+          "id": "c8",
+          "claim": "Learned helplessness (behavioral depression caused by inescapable stress) is associated with increased serotonin release, supporting a causal link between cortical serotonergic excess and depression.",
+          "required": false,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_intelligence.md",
+              "chunk_index": 40,
+              "content_hash": "bd9b262ec4b19e1099d7c7ffe9ae6216c63ba2e44155884a9a0912c1317b6eb0",
+              "support": "direct",
+              "rationale": "States learned helplessness (animal model of depression from inescapable stress) is associated with increased serotonin release in medial frontal cortex after stress."
+            },
+            {
+              "source_path": "peat_serotonin2.md",
+              "chunk_index": 58,
+              "content_hash": "df638410d5a4d8d085140b927566cabe85523d8c6aeecae4008f29364227d951",
+              "support": "direct",
+              "rationale": "Explicitly states that data support the hypothesis that a cortical serotonergic excess is causally related to the development of learned helplessness."
+            },
+            {
+              "source_path": "peat_serotonin2.md",
+              "chunk_index": 55,
+              "content_hash": "465fab182325e42c8e93d51724afc0efc8c69c37c183744fbab496b8684e4858",
+              "support": "direct",
+              "rationale": "Reports significant increase in serotonin release in hippocampal slices of learned helpless rats, implicating presynaptic serotonin in the behavioral depression caused by inescapable stress."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "IDO tryptophan kynurenine serotonin inflammation",
+        "lipopolysaccharide serotonin depletion brain",
+        "endotoxin HPA axis serotonin cortisol",
+        "tryptophan metabolism sepsis depression",
+        "gut serotonin microbiome endotoxemia",
+        "cytokines serotonin transporter depression"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T15:58:29.834178+00:00"
+    },
+    {
+      "case_id": "pregnancy_iron_nutrition",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Iron salts (e.g., in iron supplement pills) can destroy vitamin E, both in food and in the intestine, whereas natural food sources of iron (red meat, wheat bran, wheat germ, molasses) do not have this destructive effect on vitamin E.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 291,
+              "content_hash": "07eaf523ef691e82224ab471551a97807e334eaf2801a7193925aaf825cbec2c",
+              "support": "direct",
+              "rationale": "Directly explains that iron salts added to food destroyed vitamin E and the same process can happen in the intestine when iron pills are taken; natural sources like red meat, wheat bran, wheat germ, molasses do not have this effect."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 292,
+              "content_hash": "191c0c0c8c91c8edac5a520f5b6ee6e4153dd0eb0fc7a92975f4d46dafa92edd",
+              "support": "direct",
+              "rationale": "Continues the same passage confirming natural iron sources lower the risk of vitamin E deficiency during pregnancy."
+            },
+            {
+              "source_path": "nutrients/iron.md",
+              "chunk_index": 6,
+              "content_hash": "28574d01c54af33cb3a3122bdc2fc8dd327774990ebbb1d6b28a7446fd06a2a2",
+              "support": "direct",
+              "rationale": "States that iron destroys vitamin E in the stomach and advises taking them separately."
+            },
+            {
+              "source_path": "nutrients/iron.md",
+              "chunk_index": 9,
+              "content_hash": "82029a6481efdd8e5baca9a35eaf295a0aaf78aad83badf1080d1f0e1712831e",
+              "support": "direct",
+              "rationale": "Lists vitamin E as destroyed by iron in the stomach, recommending taking them at separate times."
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "All mammals need vitamin E to get pregnant and maintain pregnancy; vitamin E deficiency can lead to miscarriage, jaundice in the newborn, and hemolytic anemia.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 291,
+              "content_hash": "07eaf523ef691e82224ab471551a97807e334eaf2801a7193925aaf825cbec2c",
+              "support": "direct",
+              "rationale": "States all studied mammals need vitamin E to get pregnant and maintain pregnancy, and laboratory animals showed vitamin E deficiency signs when iron salts destroyed their vitamin E."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 283,
+              "content_hash": "a88051417b85bf11bcc99b6eb505af6c5f8218ad034f4b0b6076b13f876474cd",
+              "support": "direct",
+              "rationale": "States too much iron can destroy vitamin E, and vitamin E deficiency can lead to jaundice, which can affect the baby's brain."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 416,
+              "content_hash": "0264e4e8a287249adc9e0fcf3f09e71c1829316b3ac900bf4d99d44b49e7bde8",
+              "support": "direct",
+              "rationale": "Notes concern that inorganic iron supplements may increase the risk of miscarriage through destruction of vitamin E, based on animal studies showing vitamin E is essential for implanting the embryo and maintaining pregnancy."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 293,
+              "content_hash": "ade829b7675a92a09d8cc5d4b71f4191d1728ec945fcaa43c7151722d02550fa",
+              "support": "direct",
+              "rationale": "Explains that vitamin E deficiency causes fragile red blood cells leading to hemolytic anemia, relevant to iron supplementation during pregnancy."
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "Routine iron supplementation during pregnancy without confirmed deficiency is not justified; pregnancy increases iron needs but also dramatically increases iron absorption efficiency (about 9 times that of men).",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "nutrients/iron.md",
+              "chunk_index": 6,
+              "content_hash": "28574d01c54af33cb3a3122bdc2fc8dd327774990ebbb1d6b28a7446fd06a2a2",
+              "support": "direct",
+              "rationale": "Explicitly states pregnancy increases iron needs but routine supplementation without confirmed deficiency is not justified."
+            },
+            {
+              "source_path": "peat_newsletter_2021_july.md",
+              "chunk_index": 22,
+              "content_hash": "d9c795435b42201796dad79c30e7a43065c986a0923355cb02afc79241067931",
+              "support": "direct",
+              "rationale": "States even during pregnancy, slightly low hemoglobin is not enough to justify an iron supplement, and slightly low hemoglobin is protective against infections and stress."
+            },
+            {
+              "source_path": "peat_iron.md",
+              "chunk_index": 10,
+              "content_hash": "d25599c5d9b629ad63cdd7ab0782e749bd0dfa24bf6be2964444093356819567",
+              "support": "direct",
+              "rationale": "Explains pregnant women absorb about nine times as much iron as men due to higher estrogen levels."
+            },
+            {
+              "source_path": "peat_mortality_again.md",
+              "chunk_index": 5,
+              "content_hash": "f67440edf5c9a441d8e2fd7a7b863098f06f605ff0f9bb38655d8ab17ad6733a",
+              "support": "direct",
+              "rationale": "States women's iron absorption during pregnancy is about nine times as efficient as men's."
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "Excess iron from supplements during pregnancy has been associated with increased incidence of jaundice in the newborn, risk of premature birth, hemolytic anemia, retinal damage, and potentially childhood cancer.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_iron.md",
+              "chunk_index": 11,
+              "content_hash": "4ef17063b1d650d2b9e2c482d86df8496dc3672dc56e14f0d4c8a736dcf71881",
+              "support": "direct",
+              "rationale": "States that since iron supplements became routine in pregnancy, there has been an increase in jaundice of the newborn; women who didn't take iron supplements had babies without jaundice; supplements could be a factor in increased childhood cancer."
+            },
+            {
+              "source_path": "peat_newsletter_2021_july.md",
+              "chunk_index": 8,
+              "content_hash": "d1797c13387620fa5cbb1ce3892f0af74dbf854161c6ba30ac2d6954722999a7",
+              "support": "direct",
+              "rationale": "States iron supplementation without adequate vitamin E can increase premature birth, risk of hemolytic anemia in the newborn, and risk of retinal damage."
+            },
+            {
+              "source_path": "peat_aging2.md",
+              "chunk_index": 19,
+              "content_hash": "b37bb5a13ac4cdf60c5cc71cf48b6de10f0f0c166e0f99974eed976f019e9ef3",
+              "support": "direct",
+              "rationale": "States when the mother has been given iron supplements during pregnancy with unsaturated oils, the baby is likely to be born with vitamin E deficiency and suppressed thyroid function, increasing probability of jaundice."
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "Pregnancy increases nutritional requirements for zinc, folic acid, B12, B6, and vitamin E more than nursing does, while copper and iron requirements may not be increased and can even be toxic in excess during pregnancy.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 289,
+              "content_hash": "3a813c4b95044d39a8bd17b27728cd35984d6a781fc353d3d1b5023c1e3ceeb1",
+              "support": "direct",
+              "rationale": "Directly states copper and iron can be toxic, pregnancy and nursing increase all nutritional requirements with the possible exception of vitamin D, copper and iron, and that zinc, folic acid, B12, B6, and vitamin E requirements are increased more by pregnancy than nursing."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 283,
+              "content_hash": "a88051417b85bf11bcc99b6eb505af6c5f8218ad034f4b0b6076b13f876474cd",
+              "support": "direct",
+              "rationale": "States folic acid, vitamin B6, and zinc are depleted by elevated estrogen and are especially important for healthy pregnancy; also notes too much iron can destroy vitamin E."
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "Excess iron impairs the immune system and increases susceptibility to infections (e.g., malaria); iron accumulates in the liver since there is no mechanism for excreting it, and iron supplementation in someone with adequate stores causes direct harm.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 290,
+              "content_hash": "6b3f2f9c9e07dd0dbcb884f2ebf22729f7db8d03e2dfad15d95b157f54ad3fb4",
+              "support": "direct",
+              "rationale": "States excess iron accumulates in the liver with no excretion mechanism, infections like malaria are higher in people receiving iron supplements, and iron damages antibodies' capacity to destroy germs."
+            },
+            {
+              "source_path": "nutrients/iron.md",
+              "chunk_index": 6,
+              "content_hash": "28574d01c54af33cb3a3122bdc2fc8dd327774990ebbb1d6b28a7446fd06a2a2",
+              "support": "direct",
+              "rationale": "States that iron supplementation in someone with adequate or elevated iron stores causes direct harm."
+            },
+            {
+              "source_path": "nutrients/iron.md",
+              "chunk_index": 8,
+              "content_hash": "c3e19a550f264217b83693a1c56813f1e98e150289b497c8781e1a5551f205a2",
+              "support": "direct",
+              "rationale": "States chronic overconsumption leads to tissue iron deposition, oxidative stress, and immune function impairment as pathogens thrive on available iron."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "iron deficiency anemia during pregnancy",
+        "prenatal iron supplementation recommendations",
+        "dietary iron absorption pregnancy enhancers inhibitors",
+        "heme nonheme iron food sources pregnancy",
+        "folate iron pregnancy maternal nutrition",
+        "iron requirements first second third trimester"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T15:59:54.417515+00:00"
+    },
+    {
+      "case_id": "tsh_thyroid_misconceptions",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "TSH 'normal ranges' have been set arbitrarily and shifted over time, and an 8- to 10-fold variation in TSH has been defined as 'normal,' which is inconsistent with how other biological measurements are treated.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 6,
+              "content_hash": "59ef1a891ccbfdbd20a224f0621848514cf353041d75525e2c7615197d44f2a0",
+              "support": "direct",
+              "rationale": "Explains that an 8- or 10-fold variation in TSH was defined as 'normal' to fit existing medical doctrine, unlike other biological measurements where 10-20% variation is considered meaningful."
+            },
+            {
+              "source_path": "peat_thyroiditis_some_confusions_and_causes_of_autoimmune_diseases.md",
+              "chunk_index": 18,
+              "content_hash": "2d925efce88b426f1e241b547e37f998fedfae13783a02aa603adfe52363418d",
+              "support": "direct",
+              "rationale": "Documents historical shifting of TSH cutoff values from 7.0 down to 4.2, illustrating the arbitrary and evolving nature of the 'normal range.'"
+            },
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 7,
+              "content_hash": "8eee81929e93904accec30c4c70bd01ff5457454a0a01d2e67ec7ba61cae43cc",
+              "support": "direct",
+              "rationale": "States that even in 2003 the AACE lowered the normal range to 0.3\u20133.0, but this still isn't based on physiological understanding; author never saw a person with TSH over 2 who was comfortably healthy."
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "Pathologically high TSH has been accepted as 'normal,' leading to the dismissal of TSH's role in major diseases such as breast cancer, MS, fibrotic diseases, and epilepsy.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 8,
+              "content_hash": "3a9defa94c3f7083d8d324d52d95aee0c0e9bad1e4d607982957bd6448185ca2",
+              "support": "direct",
+              "rationale": "Explicitly states that defining a pathologically high TSH as normal causes its role in breast cancer, mastalgia, MS, fibrotic diseases, and epilepsy to be ignored."
+            },
+            {
+              "source_path": "peat_thyroid2.md",
+              "chunk_index": 7,
+              "content_hash": "b5b9eacee0d9297746384f1398888e95442e2c507f3dd9e77181c9a2b6812440",
+              "support": "direct",
+              "rationale": "Explains how the culture of misunderstanding led to acceptance of dangerously high TSH as 'normal,' and notes that excessive TSH stimulation produces disorganization in the thyroid gland analogous to FSH's role in ovarian cancer."
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "TSH has direct pro-inflammatory actions on many cell types beyond the thyroid and should be considered a stress-related pro-inflammatory hormone, not merely a simple indicator of thyroid function.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_thyroiditis_some_confusions_and_causes_of_autoimmune_diseases.md",
+              "chunk_index": 13,
+              "content_hash": "b3d3ad26203f3bb06a81378e0e7438e99523f311ae64ecc2c5510eecce13b519",
+              "support": "direct",
+              "rationale": "States TSH should be considered one of the stress-related pro-inflammatory anti-respiratory hormones, along with serotonin, histamine, estrogen, parathyroid hormone, and prolactin."
+            },
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 10,
+              "content_hash": "cbc6286f04d1fdceb9d28d060d6c95df2ed0952d06e573201ee1e494cf803ed0",
+              "support": "direct",
+              "rationale": "Describes TSH's direct actions on fibroblasts, fat cells, mast cells, bone marrow cells, contributing to edema, fibrosis, and mastocytosis, and notes pituitary-deficient animals with no TSH live longer."
+            },
+            {
+              "source_path": "peat_thyroiditis_some_confusions_and_causes_of_autoimmune_diseases.md",
+              "chunk_index": 12,
+              "content_hash": "82664c2b8cc7daa61f2b3bd38425bbdd1c0d1b1d3501f18701a6268ef3bade99",
+              "support": "direct",
+              "rationale": "States that keeping TSH low contributes to reduction of the generalized inflammatory state characterizing hypothyroidism and autoimmunity."
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "Medical culture has produced pervasive thyroid misconceptions, including the myth that thyroid supplementation suppresses the gland permanently and the false danger narrative surrounding natural desiccated thyroid.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_thyroid_misconceptions.md",
+              "chunk_index": 0,
+              "content_hash": "c776eca7d21ee5de1155680caa37964657f08889cf33ee2efd9cdac78742bc79",
+              "support": "direct",
+              "rationale": "Introduces the article 'Thyroid Misconceptions,' describing how 50 years of manufactured culture and misinformation from drug companies and medical journals have covered thyroid physiology with thick misinformation."
+            },
+            {
+              "source_path": "peat_thyroid_misconceptions.md",
+              "chunk_index": 1,
+              "content_hash": "dfd7783cfb1f90ddc0bc8220af61d490df9adbcd010781723e994f1ddad4d166",
+              "support": "direct",
+              "rationale": "Addresses the misconception that thyroid supplementation permanently suppresses the gland, showing the gland resumes normal function within 2\u20133 days after overdose stops."
+            },
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 3,
+              "content_hash": "3f7cba4adc8257618735f33771900ca7d76f0fb214889c5a9e3757de5717667a",
+              "support": "direct",
+              "rationale": "Explains how a myth of thyroid danger was created in prestigious journals to promote synthetic thyroxine over natural Armour thyroid, which was falsely said to be imprecisely standardized."
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "The PBI test introduced in the late 1940s was biologically irrelevant to thyroid function but caused the estimated prevalence of hypothyroidism to drop from ~40% to ~5%, and this false doctrine then shaped all subsequent TSH 'normal' range definitions.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_thyroid2.md",
+              "chunk_index": 4,
+              "content_hash": "86219be90af54c26ac4644b8dacf422846038bc21813e5a225f6feaecb7f8b76",
+              "support": "direct",
+              "rationale": "Explains how PBI test promotion led to the 5% hypothyroidism doctrine, replacing older symptom-based diagnosis that identified ~40% of the population as hypothyroid."
+            },
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 4,
+              "content_hash": "4ef377bb759bb2cfe569f388b7b13a2a01ec9886541b05477e7a20fd7def8945",
+              "support": "direct",
+              "rationale": "States that between 1940 and 1950, estimated hypothyroid Americans dropped from 30\u201340% to 5% on the basis of the PBI test, and physicians were taught to dismiss traditional symptoms."
+            },
+            {
+              "source_path": "peat_thyroid2.md",
+              "chunk_index": 6,
+              "content_hash": "d77d04eb9d5b061fc136b61af955cb762a246908accedb239aa18017dce5fb6b",
+              "support": "direct",
+              "rationale": "Confirms that by the 1960s the PBI test was proven irrelevant, but the 5% doctrine had become the basis for establishing norms for subsequent biologically meaningful tests."
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "TSH alone is an unreliable indicator of thyroid function because many factors (aging, cortisol, dopamine, adrenaline, fever, certain drugs) can lower TSH independently of thyroid hormone levels, and physiological indicators like temperature, pulse rate, and metabolic rate are better diagnostic tools.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 0,
+              "content_hash": "594299d70844e8a986ac62839f7459ed6735cac867c2384200bda21c35540632",
+              "support": "direct",
+              "rationale": "States that TSH can be brought into or below normal range by substances other than thyroid hormones, and recommends basal temperature, resting heart rate, and metabolic rate as complementary indicators."
+            },
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 13,
+              "content_hash": "c0435a65d2aadfa0ffb9396a13314fb15ba9eb87b715ed4e8e10701bd57b860d",
+              "support": "direct",
+              "rationale": "Lists multiple factors (aging, infection, trauma, cortisol, dopamine, adrenaline, amphetamine, caffeine, fever) that can lower TSH independently of true thyroid status, creating apparent normal TSH with real hypothyroidism."
+            },
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 17,
+              "content_hash": "0ffa2cf663ff38fec49001e4252069c8a3f1f2ea0751884806b4e0f5ab78349a",
+              "support": "direct",
+              "rationale": "Notes that TSH peaks at night when adrenaline and fatty acids are highest, and that high TSH can sometimes contribute to functional hypothyroidism through unsaturated fatty acid effects; concludes TSH tests should receive only moderate weight."
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "claim": "Patients are being misdiagnosed as hyperthyroid based solely on laboratory tests and then subjected to thyroid gland destruction, despite all traditional physiological indicators showing hypothyroidism.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 21,
+              "content_hash": "3f90178afce263f25efaf0e44dad16fd0c9a298ecfddb70fb86b218343e6a300",
+              "support": "direct",
+              "rationale": "Describes patients told they are hyperthyroid and facing surgery or radiation, whose symptoms (fatigue, weakness, poor memory, low pulse, low temperature) by all traditional measures indicate hypothyroidism."
+            },
+            {
+              "source_path": "peat_tsh.md",
+              "chunk_index": 2,
+              "content_hash": "5b71a32c8e21898466e59241eca9fce231fc1f25562b0aa485aa1e8b7515ec6f",
+              "support": "direct",
+              "rationale": "Points out the illogical situation of doctors diagnosing patients as simultaneously hypothyroid and hyperthyroid, showing test interpretation has lost touch with biological reality."
+            },
+            {
+              "source_path": "peat_thyroid2.md",
+              "chunk_index": 36,
+              "content_hash": "4d55e0163ae13ae72061b04ff6cd6773de0b67e7fc073d70f42d94ab79dedc9c",
+              "support": "direct",
+              "rationale": "States that destroying patients' healthy thyroid glands because of a single blood test, or failing to treat sick people because a test says 'normal,' is not acceptable even as a professional standard."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "TSH normal range misunderstanding thyroid function",
+        "thyroid stimulating hormone myths debunked",
+        "hypothyroidism TSH interpretation errors",
+        "TSH suppression thyroid cancer misconceptions",
+        "subclinical hypothyroidism TSH treatment controversy",
+        "TSH reference range debate thyroid diagnosis"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T16:01:28.408032+00:00"
+    },
+    {
+      "case_id": "grimhood_glyphosate_detox",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Grimhood recommends supplements that support liver detox of glyphosate: Calcium-D-Glucarate, sulfur donors (MSM, NAC, taurine), manganese, molybdenum, fulvic and humic acids, riboflavin, active B6, and glycine.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 1,
+              "content_hash": "a640dc9652bcce109c04c561c3f5b45aad79a06e9a04856804a6bf5cf123b4e6",
+              "support": "direct",
+              "rationale": "Directly states Calcium-D-Glucarate recommendation for 3 months, and lists grapefruit, apples, and kombucha as food sources."
+            },
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 9,
+              "content_hash": "10ac1fe44f5084d517cd12cd042fa9cde7943081f28e5d769ca2c949417ccc39",
+              "support": "direct",
+              "rationale": "Lists these exact minerals under the Complete Detox Protocol minerals section."
+            },
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 2,
+              "content_hash": "1f217d3f855f4a1e62957834ac0eaefcb08a4025832e8fdf8bc0c3ce0e49bf21",
+              "support": "direct",
+              "rationale": "Explains the role of sulfates (MSM) and Molybdenum in sulfation detox pathway for clearing glyphosate."
+            },
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 10,
+              "content_hash": "365486bc150c7fa2d7528027937da2739cb4016eb303fbe030da2ba564823ae7",
+              "support": "direct",
+              "rationale": "Lists exactly these three under Complete Detox Protocol Vitamins and Amino Acids."
+            },
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 3,
+              "content_hash": "75591c64e2c0d10cbdfb0970dfc5e5382d6b39a90c5da2c833d372ae242ef0ac",
+              "support": "direct",
+              "rationale": "Reiterates that Riboflavin, B6, Manganese, and Glycine are essential to clearing Glyphosate."
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "Grimhood recommends an herbal liver formula (dandelion, milk thistle, burdock root, berberine, black cumin seed, and others) together with binders such as activated charcoal and bentonite clay.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 5,
+              "content_hash": "9ef6d0619d341678d46d04a4e266d7d1555081f80df7f7c2ba8e6b4f024e1a50",
+              "support": "direct",
+              "rationale": "Lists these exact herbs as the most effective herbal formula under the Most Effective Herbal Formula section."
+            },
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 12,
+              "content_hash": "1dd73e656fcbfea4cde3e10882ecff551ad94be74b304fcb17e97d63339541b3",
+              "support": "direct",
+              "rationale": "Lists the same herbs under the Complete Detox Protocol Herbs section."
+            },
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 11,
+              "content_hash": "45f4c47f0c7ffdc4322962dcbf8eb22ab3ab0f43c7dd6e20bc3f7501d3bc8185",
+              "support": "direct",
+              "rationale": "Lists activated charcoal and bentonite clay (with lemon/lime juice rehydration) under the Charcoal and Clay section of the Complete Detox Protocol."
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "Grimhood's protocol includes fermented foods (sauerkraut, kimchi, kombucha) and lifestyle measures: sun exposure, grounding, red light, sauna, exercise to sweating, DHA-rich seafood, and avoiding glyphosate-laden foods.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 8,
+              "content_hash": "2822280844c51c8f5a4c78c5a11a820a0adb0ba8219286e90cdcb4d41a25c598",
+              "support": "direct",
+              "rationale": "Lists sauerkraut, sauerkraut juice, kimchi, and kombucha under the Fermented Foods section of the Complete Detox Protocol."
+            },
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 2,
+              "content_hash": "1f217d3f855f4a1e62957834ac0eaefcb08a4025832e8fdf8bc0c3ce0e49bf21",
+              "support": "direct",
+              "rationale": "Mentions sauerkraut and kimchi as food sources for sulfates relevant to the sulfation detox pathway."
+            },
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 13,
+              "content_hash": "e5d8d1518d1657c7a3acd9f89a113956a5c0d9f890da995c70378bb4faf5d1f6",
+              "support": "direct",
+              "rationale": "Lists all these lifestyle recommendations under the Complete Detox Protocol Lifestyle section."
+            },
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 3,
+              "content_hash": "75591c64e2c0d10cbdfb0970dfc5e5382d6b39a90c5da2c833d372ae242ef0ac",
+              "support": "direct",
+              "rationale": "Notes the importance of red, infrared, and UVA light spectrum for enabling detox pathways and enzyme function."
+            }
+          ]
+        },
+        {
+          "id": "c8",
+          "claim": "Grimhood notes that the glyphosate detox protocol is also effective for mercury and heavy metals in general.",
+          "required": false,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "grimhood_glyphosate_detox.md",
+              "chunk_index": 0,
+              "content_hash": "ed1f752db188da7273ec7362746d81c34e7886475e38338721b85825fdd7d1e7",
+              "support": "direct",
+              "rationale": "Opening statement of the protocol explicitly states the ingredient list is also effective for mercury and heavy metals in general."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "Grimhood detox protocol recommendations",
+        "Grimhood glyphosate mineral chelation",
+        "glyphosate detoxification supplements herbs",
+        "Grimhood health recommendations pesticide removal",
+        "glyphosate glycine supplementation detox",
+        "Grimhood gut health restoration glyphosate"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T16:02:38.772915+00:00"
+    },
+    {
+      "case_id": "calcium_skin_osteoporosis",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Osteoporosis and skin aging share common protective and damaging factors; protective factors include hormones (thyroid, DHEA, progesterone, pregnenolone), vitamins A and E, and minerals including magnesium, calcium, and sodium.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_osteoporosis_and_the_skin.md",
+              "chunk_index": 27,
+              "content_hash": "60eccb2f4958a210d53e2529ede36d1510a85734a0bbefbac884567fc778a833",
+              "support": "direct",
+              "rationale": "Explicitly states that things which damage skin and bones also damage other tissues, and lists the protective factors including hormones, vitamins, and minerals including calcium."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 428,
+              "content_hash": "28cc7a4755635cbc166f10675b1c01e8e93811ba5614effd3e80d4f4a0407415",
+              "support": "direct",
+              "rationale": "Identical content from a different source (PMS to Menopause book), confirming the same claim about shared protective factors for skin and bones."
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "Prolactin (promoted by estrogen, inhibited by progesterone) contributes to osteoporosis by mobilizing calcium from bones, and estrogen's promotion of prolactin makes postmenopausal estrogen use dubious for osteoporosis prevention.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_osteoporosis_and_the_skin.md",
+              "chunk_index": 19,
+              "content_hash": "d91309ddf719199d8a8f6245153bd0c26c17e7d42fe7206defe964734730de37",
+              "support": "direct",
+              "rationale": "States that prolactin is promoted by estrogen, inhibited by progesterone, and contributes to osteoporosis by mobilizing calcium from bones."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 420,
+              "content_hash": "aaefe239b052f069a07c3d908647c3ef94d1ebe11643c21c0963825f4dfe2527",
+              "support": "direct",
+              "rationale": "Same content from a different source, confirming prolactin's role in osteoporosis and questioning estrogen use for osteoporosis prevention."
+            },
+            {
+              "source_path": "peat_osteoporosis_and_the_skin.md",
+              "chunk_index": 20,
+              "content_hash": "61bd8d874e097b28ca994064f4dab3fc8e8e0bd1b41a834c68e588f6439b949b",
+              "support": "direct",
+              "rationale": "States that prolactin increases with aging, contributes to osteoporosis, and that postmenopausal estrogen use is worse than dubious."
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "Estrogen causes retention of calcium in soft tissues rather than bones, and estrogen-caused calcium retention in soft tissues is harmful and occurs normally in aging and stress.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_estrogen4.md",
+              "chunk_index": 6,
+              "content_hash": "83d9d816407e430319a6163027808d99ed64a39ad1090ec655e92cab12d77185",
+              "support": "direct",
+              "rationale": "Explicitly states that estrogen causes a positive calcium balance but by retaining calcium in soft tissues, not bones, which is harmful."
+            },
+            {
+              "source_path": "peat_mortality_again.md",
+              "chunk_index": 3,
+              "content_hash": "5f7fb60c209ff5695f22739b084d9f84d414ec96574c8f8569f5ed86d0d6e85f",
+              "support": "direct",
+              "rationale": "States that estrogen causes an exaggerated absorption of calcium, that estrogen and a variety of poisons cause soft tissues to retain calcium, and that scleroderma (hardening of the skin) involves the interaction of calcium, iron, lipid peroxidation, and hormones."
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "Calcium deficiency leads to increased parathyroid hormone, which causes calcium to shift from bones to soft tissues and into cells, contributing to osteoporosis as well as other diseases of aging such as hypertension, arteriosclerosis, and neurodegenerative diseases.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_progesterone_thyroid_cancer.md",
+              "chunk_index": 49,
+              "content_hash": "d6ced2938b84bba3aec9ce0fabed514f8e8f4fb8445e65a85f59b01cd242fd6a",
+              "support": "direct",
+              "rationale": "Describes the calcium paradox: nutritional calcium deficiency causes parathyroid hormone release, calcium outflow from bone, and paradoxical intracellular calcium overload leading to hypertension, arteriosclerosis, diabetes, neurodegenerative diseases, and malignancy."
+            },
+            {
+              "source_path": "peat_calcium.md",
+              "chunk_index": 41,
+              "content_hash": "08c090ca18b48a69660a43c92520c79623e13ddc51526d48a9ce8d052ac570e1",
+              "support": "direct",
+              "rationale": "Describes how calcium deficiency leads to secondary hyperparathyroidism, bone loss, and calcium shift from bone to soft tissue and from extracellular to intracellular compartment, causing osteoporosis, arteriosclerosis, and hypertension."
+            },
+            {
+              "source_path": "nutrients/calcium.md",
+              "chunk_index": 0,
+              "content_hash": "401e97abdf3752f37143cb51e804c83e98d87c47ebebb68befa380bf43c45554",
+              "support": "direct",
+              "rationale": "States that inadequate calcium causes PTH to rise chronically, pulling calcium out of bones and depositing it in soft tissues, arteries, and organs, associated with bone loss and cardiovascular risk."
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "Vitamin A offers protection against osteoporosis and aging of the skin, but excessive vitamin A inhibits the thyroid, and vitamin E reduces this toxicity risk.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_osteoporosis_and_the_skin.md",
+              "chunk_index": 25,
+              "content_hash": "f83ac518ee859300361dab924db7591c5b6e5f63b3daece3691d687535e1285d",
+              "support": "direct",
+              "rationale": "States that vitamin A supplement will offer considerable protection against osteoporosis and aging of the skin, but excessive vitamin A inhibits the thyroid, with less risk of toxicity when vitamin E is supplemented."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 426,
+              "content_hash": "bcebba0368f052514f19f9abd381f282efe518edc49dda314063a646a73ff74a",
+              "support": "direct",
+              "rationale": "Same content from a different source (PMS to Menopause book), confirming vitamin A's protective role against osteoporosis and skin aging with caveats about excess."
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "claim": "Rational therapy for osteoporosis would include thyroid, Vitamin A, bright light, pregnenolone or a mixture of progesterone and DHEA, and a diet rich in protein and minerals: calcium, magnesium, sodium, and potassium.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_darkness_water_osteoporosis.md",
+              "chunk_index": 8,
+              "content_hash": "e395ad763d52c736b930dd11aed8caef332e8bd34071029c6360791b5d741938",
+              "support": "direct",
+              "rationale": "Directly states the proposed rational therapy for osteoporosis including thyroid, Vitamin A, bright light, pregnenolone or progesterone/DHEA, and a diet rich in protein and salts including calcium."
+            }
+          ]
+        },
+        {
+          "id": "c8",
+          "claim": "Cortisone and estrogen cause skin to become thinner and atrophied, while progesterone, testosterone, and pregnenolone have the opposite effect, making aged and atrophied skin thicker and more regular.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_osteoporosis_and_the_skin.md",
+              "chunk_index": 14,
+              "content_hash": "9d55c2c780fe7def782180582c7f358d4a71511afa8c5568acc6579368384543",
+              "support": "direct",
+              "rationale": "Describes how cortisone and estrogen cause skin atrophy and thinning, while progesterone, testosterone, and pregnenolone make aged skin thicker and more regular."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "calcium absorption skin vitamin D synthesis",
+        "bone density skin aging calcium loss",
+        "osteoporosis prevention calcium sunlight exposure",
+        "skin calcium deposits bone disease",
+        "calcium metabolism dermatology osteoporosis link",
+        "vitamin D skin production calcium osteoporosis risk"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T16:03:52.072611+00:00"
+    },
+    {
+      "case_id": "thyroid_cholesterol_steroid_hormones",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Thyroid hormone (with vitamin A) drives the conversion of cholesterol into steroid hormones and bile salts, so hypothyroidism raises serum cholesterol, and thyroid therapy lowers it while stimulating steroid synthesis.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_steroids_thyroid_by_ray_peat.md",
+              "chunk_index": 1,
+              "content_hash": "50e6dd2b0c13484503b8e8d21ad8e7bef95ae7e307d67b5871b0f371e1462f57",
+              "support": "direct",
+              "rationale": "States cholesterol is the basic sterol massively converted into steroid hormones, requiring thyroid hormone and vitamin A."
+            },
+            {
+              "source_path": "peat_generative_energy_restoring_the_wholeness_of_life_by_ray_peat.md",
+              "chunk_index": 174,
+              "content_hash": "337464130aa90b5c782928d4b15cfcb7d2d707a96e713f7d88bc926144d41f04",
+              "support": "direct",
+              "rationale": "Identical statement that cholesterol is converted into steroid hormones requiring thyroid hormone and vitamin A."
+            },
+            {
+              "source_path": "peat_progesterone_in_orthomolecular_medicine_ray_peat.md",
+              "chunk_index": 41,
+              "content_hash": "65a30bf2ab597b90f15d35676cd7dd3beff22f18d013f72ef872d1a10de75f2d",
+              "support": "direct",
+              "rationale": "States cholesterol is the basic sterol converted into steroid hormones, with thyroid hormone and vitamin A required."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 264,
+              "content_hash": "936889ab0ec7ea982f50535e9c2a82e83baf08e307b71b5c492cbff33029e687",
+              "support": "direct",
+              "rationale": "States cholesterol is massively converted into steroid hormones requiring thyroid hormone and vitamin A."
+            },
+            {
+              "source_path": "peat_cholesterol.md",
+              "chunk_index": 17,
+              "content_hash": "b31b48a665ff8b5cce2a832f49cd11e62a6cebddf4c2779cbb4640effdb53b1f",
+              "support": "direct",
+              "rationale": "States thyroid hormone and vitamin A are used to convert cholesterol into pregnenolone, the precursor of steroid hormones."
+            },
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 20,
+              "content_hash": "3d44101c40b57488cdd77d1e966f09a212881391d26c1da9f16bffb40b26f2a9",
+              "support": "direct",
+              "rationale": "States that since the 1930s it is established that thyroid suppression raises serum cholesterol, while thyroid hormone promotes cholesterol use to form hormones and bile salts."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 491,
+              "content_hash": "677858f77bd945a5726c0446fe95278e5877604dc7da77575f26947ff2ed4fa0",
+              "support": "direct",
+              "rationale": "States that elevated cholesterol clearly indicates failure to convert it to steroids and is a reliable diagnostic indicator of hypothyroidism."
+            },
+            {
+              "source_path": "peat_thyroid2.md",
+              "chunk_index": 2,
+              "content_hash": "24c9c97d2193a523bcbe9f7aa5ef36b159ff6ddd5cebf4c50bf06211f07964ab",
+              "support": "direct",
+              "rationale": "States that by the mid-1930s it was known that hypothyroidism causes cholesterol to increase, and thyroid supplementation normalizes it."
+            },
+            {
+              "source_path": "peat_resistance_of_the_heart.md",
+              "chunk_index": 18,
+              "content_hash": "28a95018047ed29d8718e5601fd324d9adfb6ab07961298c23b1a168a4ab0462",
+              "support": "direct",
+              "rationale": "States thyroid deficiency limits consumption of circulating cholesterol for steroid hormone synthesis, and both stress and hypothyroidism are associated with elevated blood cholesterol."
+            },
+            {
+              "source_path": "peat_unsaturated2.md",
+              "chunk_index": 10,
+              "content_hash": "94d3a3c788757cd93ccc677d39364997899780c613511512462d62b563a17932",
+              "support": "direct",
+              "rationale": "States thyroid hormone is required for using and eliminating cholesterol, so cholesterol rises when thyroid function is blocked."
+            },
+            {
+              "source_path": "peat_cholesterol.md",
+              "chunk_index": 18,
+              "content_hash": "f67dcc6c2dfaa38138036a71b64d3aeab5335e8471f95e6c35063119eac160d4",
+              "support": "direct",
+              "rationale": "Reiterates that supply of cholesterol, thyroid, and vitamin A must always be adequate for steroid hormones and bile salts."
+            },
+            {
+              "source_path": "peat_mary_shomon_interview.md",
+              "chunk_index": 6,
+              "content_hash": "21c545b9f6638e25f6d862f6771a4defa291258114b36cb2dc0137f4ce67b846",
+              "support": "direct",
+              "rationale": "States cholesterol is converted to pregnenolone and progesterone if there is enough thyroid hormone and vitamin A and no interfering factors."
+            },
+            {
+              "source_path": "peat_alzheimers2.md",
+              "chunk_index": 25,
+              "content_hash": "e1b9f722d478d98268fec2837c2afec6d8d594636ece926efdfb10b8b437899e",
+              "support": "direct",
+              "rationale": "States thyroid, vitamin A, and cholesterol must be delivered to mitochondria in right proportion; lipid peroxidation damages mitochondria's ability to produce pregnenolone."
+            },
+            {
+              "source_path": "peat_mary_shomon_interview.md",
+              "chunk_index": 3,
+              "content_hash": "cd1efdd991703cb67f45ce3eecc23ee572383b8e40c3ffabd6499e4dd03e5d0c",
+              "support": "direct",
+              "rationale": "States increased T3 immediately increases conversion of cholesterol to progesterone and bile acids, and high cholesterol is closely connected to hypothyroidism."
+            },
+            {
+              "source_path": "peat_progesterone_in_orthomolecular_medicine_ray_peat.md",
+              "chunk_index": 15,
+              "content_hash": "fdcb2c38f40076b807d65a7af49133f939446e38ac42850656737fe1ddc8d8c7",
+              "support": "direct",
+              "rationale": "States thyroid therapy stimulates synthesis of steroids and thyroid hormone is one of the essential factors for conversion of cholesterol to progesterone."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 191,
+              "content_hash": "40f9e88de76ca70db886cbe608ae29550f260b614e712bfb31aa269f293ee0af",
+              "support": "direct",
+              "rationale": "States high cholesterol usually indicates low thyroid function; when thyroid is low, cholesterol is not efficiently converted into progesterone."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 306,
+              "content_hash": "0d812709dff585b820b0acc81fad53ab4d7f61425ba3ab8066a9fc44bb53e7a7",
+              "support": "direct",
+              "rationale": "States that if cholesterol is normal, progesterone deficiency can be corrected by normalizing thyroid function, since thyroid, vitamin A, and cholesterol are main factors in progesterone synthesis."
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "The first step in converting cholesterol to steroid hormones occurs in the mitochondria, where cholesterol loses its side-chain to produce pregnenolone, the universal precursor for all steroid hormones.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_steroids_thyroid_by_ray_peat.md",
+              "chunk_index": 1,
+              "content_hash": "50e6dd2b0c13484503b8e8d21ad8e7bef95ae7e307d67b5871b0f371e1462f57",
+              "support": "direct",
+              "rationale": "Describes the mitochondrial conversion of cholesterol to pregnenolone by side-chain removal."
+            },
+            {
+              "source_path": "peat_sclerosis.md",
+              "chunk_index": 20,
+              "content_hash": "26e95a1a05db5f504f54718e6e5ece913fa453694e3a1b41e2782dd83d444a9a",
+              "support": "direct",
+              "rationale": "Describes the rate-regulating step involving P-450scc enzyme removing the side-chain of cholesterol in mitochondria to produce pregnenolone."
+            },
+            {
+              "source_path": "peat_nutrition_for_women_by_ray_peat.md",
+              "chunk_index": 490,
+              "content_hash": "cf6789060f99a4c6ea1022c96ff585527dadf2abc353ff5f3f502e94f92b70bb",
+              "support": "direct",
+              "rationale": "States cholesterol is converted to pregnenolone in mitochondria requiring vitamin A, thyroid, and mitochondrial integrity."
+            },
+            {
+              "source_path": "peat_progesterone_in_orthomolecular_medicine_ray_peat.md",
+              "chunk_index": 50,
+              "content_hash": "eb96266962a2630011edcb0635ba8f58a8b1101032f954fcbf2c5d1cf4468969",
+              "support": "direct",
+              "rationale": "States T3 (active thyroid hormone) is essential for conversion of cholesterol to pregnenolone, occurring in mitochondria."
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "When the thyroid is functioning properly, the amount of cholesterol in the blood governs the amount of progesterone produced by steroid-forming tissues such as the ovaries, adrenal glands, and brain.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_coconutoil.md",
+              "chunk_index": 20,
+              "content_hash": "3d44101c40b57488cdd77d1e966f09a212881391d26c1da9f16bffb40b26f2a9",
+              "support": "direct",
+              "rationale": "States that when thyroid functions properly, the amount of cholesterol in blood entering the ovary governs the amount of progesterone produced, and the same applies to adrenal glands and brain."
+            },
+            {
+              "source_path": "peat_cholesterol.md",
+              "chunk_index": 17,
+              "content_hash": "b31b48a665ff8b5cce2a832f49cd11e62a6cebddf4c2779cbb4640effdb53b1f",
+              "support": "direct",
+              "rationale": "Describes experiment where increasing cholesterol perfused into an ovary increased progesterone output proportionately."
+            },
+            {
+              "source_path": "peat_newsletter_2018_september.md",
+              "chunk_index": 2,
+              "content_hash": "0bdf5d5481ace714a55c7d1ea6377a5572fa6f781b178e1322c317d3d52fd7f8",
+              "support": "direct",
+              "rationale": "States that when cholesterol flowing into ovarian artery increased, progesterone flowing out of ovarian vein increased proportionally."
+            },
+            {
+              "source_path": "peat_newsletter_2018_november.md",
+              "chunk_index": 27,
+              "content_hash": "582e109de1a6f74574b4e13f34567b84595f4a883319c88f3b610fb7143d51ef",
+              "support": "direct",
+              "rationale": "States that in blood-perfused ovary experiments, progesterone secreted varied with the amount of LDL cholesterol in the blood."
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "Thyroid hormone and progesterone have a mutually reinforcing relationship: thyroid is needed to produce progesterone, and progesterone allows the thyroid gland to secrete its hormones.",
+          "required": false,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_steroids_thyroid_by_ray_peat.md",
+              "chunk_index": 2,
+              "content_hash": "a701c78b176dbb9e7ad076f5ca8f4be2fc2030a45a51a3acb5115f4a91b130f5",
+              "support": "direct",
+              "rationale": "States progesterone allows the thyroid gland to secrete its hormones, and since thyroid is needed to produce progesterone, a supplement of either normalizes both."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 265,
+              "content_hash": "f6736c44f091d1cc9995070278d097483e3357b6a17f73cd30f4f8e2994cd792",
+              "support": "direct",
+              "rationale": "States progesterone allows the thyroid gland to secrete hormones when inhibited by estrogen, and thyroid is needed to produce progesterone."
+            },
+            {
+              "source_path": "peat_thyroid_misconceptions.md",
+              "chunk_index": 6,
+              "content_hash": "b2f9fc01e9f85a726e1046a6a0e4e3113216fb712d983274a99d8b739c403f10",
+              "support": "direct",
+              "rationale": "States thyroid promotes formation of progesterone, which in turn promotes secretion of thyroid hormones."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 321,
+              "content_hash": "dcc0ddfe2d9e645ee4b7a2a56be3cfab1fba1d6a418dc62eff25f451eb0b8991",
+              "support": "direct",
+              "rationale": "States thyroid hormone is one of the essential factors for conversion of cholesterol to progesterone, and progesterone promotes its own synthesis."
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "Elevated serum cholesterol in hypothyroidism represents a protective adaptive response, as the body increases circulating cholesterol to compensate for reduced steroid hormone synthesis.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_cholesterol.md",
+              "chunk_index": 2,
+              "content_hash": "bdb090b545c4d03017f45a301d4e0fb75d0bfe2910ffd31f7b6fe977a2ae191b",
+              "support": "direct",
+              "rationale": "States that by 1936 it was clear that there was more reason to think increased cholesterol was a protective adaptation than that it was maladaptive."
+            },
+            {
+              "source_path": "peat_cholesterol.md",
+              "chunk_index": 18,
+              "content_hash": "f67dcc6c2dfaa38138036a71b64d3aeab5335e8471f95e6c35063119eac160d4",
+              "support": "direct",
+              "rationale": "States that when stress suppresses thyroid, increased cholesterol probably compensates by permitting more progesterone synthesis."
+            },
+            {
+              "source_path": "peat_oils.md",
+              "chunk_index": 5,
+              "content_hash": "d195244f5bc71842757b0637a5b98dc1cc4c88c3f01d2cfbcb4db40a0e05e166",
+              "support": "direct",
+              "rationale": "States high serum cholesterol is practically diagnostic of hypothyroidism and can be seen as an adaptive attempt to maintain adequate production of protective steroids."
+            },
+            {
+              "source_path": "peat_cholesterol.md",
+              "chunk_index": 19,
+              "content_hash": "4e1b119c22c71bca497131516eccdec4852efb0f73a09420d7529bd3ef22e442",
+              "support": "direct",
+              "rationale": "States that the increase of cholesterol with aging is probably a spontaneous regulatory process supporting synthesis of protective steroids."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "thyroid function lipid metabolism cholesterol levels",
+        "hypothyroidism high cholesterol cardiovascular risk",
+        "cholesterol precursor steroid hormone biosynthesis pathway",
+        "thyroid hormone regulate cholesterol synthesis degradation",
+        "pregnenolone progesterone cortisol biosynthesis cholesterol",
+        "thyroid deficiency steroid hormone production impairment"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T16:05:18.754528+00:00"
+    },
+    {
+      "case_id": "aspirin_vitamin_k_bleeding",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Aspirin reduces clotting by inhibiting TXA2 production via irreversible COX-1 inhibition",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "ferman_gut_2.md",
+              "chunk_index": 80,
+              "content_hash": "14bc7dde7c98ede8e17ccdb703a382faccc3564931cefa700774fa7673f8c352",
+              "support": "direct",
+              "rationale": "Explains aspirin irreversibly acetylates COX-1, reducing TXA2 and preventing blood clotting"
+            },
+            {
+              "source_path": "ferman_system_7.md",
+              "chunk_index": 85,
+              "content_hash": "486c64876cf7fd1f985a12286e64c03d6109b0f84fcd089b124d6a037c73a1b8",
+              "support": "direct",
+              "rationale": "States aspirin downregulates COX-1, reducing TXA2 and preventing blood clotting"
+            },
+            {
+              "source_path": "ferman_gut_2.md",
+              "chunk_index": 69,
+              "content_hash": "8cb0fcfcec7038094704659cbacbf8b8b41ce8c8e6b3fd37bda43fac299fef99",
+              "support": "direct",
+              "rationale": "Describes COX-1 converting arachidonic acid into TXA2 which promotes clotting, and aspirin inhibiting COX-1"
+            },
+            {
+              "source_path": "peat_aspirin.md",
+              "chunk_index": 9,
+              "content_hash": "466bfd75b34a6c98e771787bde2e2e92dd6b4ee6010101148e0cb80666e53096",
+              "support": "direct",
+              "rationale": "Notes aspirin reduces clotting but can decrease excessive menstrual bleeding, highlighting its complex effects on clotting"
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "Vitamin K is essential for blood clotting by activating clotting factors such as prothrombin, and warfarin works by antagonizing vitamin K",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "nutrients/vitamin-k.md",
+              "chunk_index": 1,
+              "content_hash": "a365986e5f416c75b005213b6acae1533b1f722cdcb7690c2dc9255bfa3dec9f",
+              "support": "direct",
+              "rationale": "States vitamin K activates prothrombin and other clotting factors, and warfarin works by blocking vitamin K activity"
+            },
+            {
+              "source_path": "ferman_system_5.md",
+              "chunk_index": 93,
+              "content_hash": "ea3b78753bb3983b40b1e5ac68063228d6e7b2c4aea0cafc0a5538b8927642ff",
+              "support": "direct",
+              "rationale": "States vitamin K helps make proteins needed for blood clotting, including prothrombin"
+            },
+            {
+              "source_path": "ferman_gut_3.md",
+              "chunk_index": 92,
+              "content_hash": "b6d64f510674652b5ab50918b0b7853ecde02e40f2562600c3acbaf6991c5035",
+              "support": "direct",
+              "rationale": "States vitamin K helps make proteins needed for blood clotting, including prothrombin directly involved in clotting"
+            },
+            {
+              "source_path": "nutrients/vitamin-k.md",
+              "chunk_index": 7,
+              "content_hash": "5b6b99fc248d404edaad67b5f849b8969e9638edb4c5bd3b6d2101b912620d3b",
+              "support": "direct",
+              "rationale": "Explains warfarin antagonizes vitamin K and any change in vitamin K intake can destabilize INR and anticoagulation"
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "Vitamin K deficiency is a concern with aspirin use, and replenishing vitamin K is recommended before using aspirin",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "ferman_system_10.md",
+              "chunk_index": 90,
+              "content_hash": "516553e06644ece0bb2e581a4528ee5932569b0161c95c74f25bb1389f1974ed",
+              "support": "direct",
+              "rationale": "Explicitly states most people are deficient in vitamin K and recommends replenishing vitamin K before using aspirin"
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "Vitamin E combined with aspirin or antiplatelet drugs increases bleeding risk by inhibiting platelet aggregation",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "nutrients/vitamin-e.md",
+              "chunk_index": 8,
+              "content_hash": "c88c01ec3eb532b28676971b08a08cbd6990184469dcc5fd6a72e267549d9c05",
+              "support": "direct",
+              "rationale": "States vitamin E inhibits platelet aggregation and combining with aspirin or antiplatelet drugs increases bleeding risk meaningfully"
+            },
+            {
+              "source_path": "nutrients/red-palm-oil.md",
+              "chunk_index": 6,
+              "content_hash": "930cd5ad9c1125967f456a87d3552bfbd365112ab1daaedbd2c09bf88ad8ab2f",
+              "support": "direct",
+              "rationale": "States at doses of 100mg or higher vitamin E interacts with antiplatelet drugs and aspirin, potentiating bleeding risk"
+            },
+            {
+              "source_path": "peat_vitamine.md",
+              "chunk_index": 34,
+              "content_hash": "f47163864302f45d6fd2a4ebd7a98b7bf7d132b1104f4a815d4bf00e04824ebf",
+              "support": "direct",
+              "rationale": "Alpha-tocopherol shows dose-dependent inhibition of platelet cyclooxygenase and platelet aggregation"
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "The archive describes vitamin E and salicylic acid (aspirin) as having similar anti-inflammatory, anti-clotting protective effects on the circulatory system.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_bleeding.md",
+              "chunk_index": 31,
+              "content_hash": "241251c3b6623e314667ae64ed82c4b804bd48f520515551b554dcea4894d5c7",
+              "support": "direct",
+              "rationale": "Lists vitamin E and salicylic acid together as major nutrients protecting the circulatory system against clotting, bleeding, edema"
+            },
+            {
+              "source_path": "peat_bleeding.md",
+              "chunk_index": 11,
+              "content_hash": "68f832b4d87e6bd8b76c1cee4a185d1ac255c943498ee7aa4a2252193b2dd767",
+              "support": "direct",
+              "rationale": "States vitamin E like aspirin reduces the risk of pregnancy-related hemorrhaging"
+            },
+            {
+              "source_path": "peat_aspirin.md",
+              "chunk_index": 5,
+              "content_hash": "d4c43ce5deb4a8a8520834bfa7c01af825e7031f31411e4a1d4ffb7ad9446e95",
+              "support": "direct",
+              "rationale": "States vitamin E is now known to suppress COX-2, synergizing with aspirin"
+            },
+            {
+              "source_path": "peat_bleeding.md",
+              "chunk_index": 10,
+              "content_hash": "bfeafe265690d0efc3b67022eee888a31baa26c65886b3d3a99da9f827f48c3a",
+              "support": "direct",
+              "rationale": "Notes the spectrum of vitamin E's protective effects like those of aspirin has been misrepresented in medical literature"
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "Vitamin K's reputation as a 'clot-forming vitamin' has led doctors to warn against its use, though research suggests it may be effective for treating hypertension and the value of warfarin (a vitamin K antagonist) has been questioned",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_heart.md",
+              "chunk_index": 28,
+              "content_hash": "2091b55ab183efc2ebc118680ba9d016872b0845267912529b12eedd91bb8e76",
+              "support": "direct",
+              "rationale": "States vitamin K is effective for treating hypertension but doctors warn against it due to its reputation as a clot-forming vitamin, and warfarin's value has been questioned for heart failure"
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "claim": "Aspirin and vitamin K share some overlapping biological actions, including supporting cell respiration, inhibiting lactic acid formation, and favoring bone calcification",
+          "required": false,
+          "reviewed": false,
+          "min_partial_supports": 1,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_osteoporosis.md",
+              "chunk_index": 12,
+              "content_hash": "0956ccabb408538be13e947deceece1b579410d30951d91d35ad5534dc3d57f5",
+              "support": "direct",
+              "rationale": "States aspirin, like vitamin K, supports cell respiration and inhibits lactic acid formation, and both favor bone calcification"
+            }
+          ]
+        },
+        {
+          "id": "c8",
+          "claim": "Antibiotics and some dietary practices can reduce vitamin K levels by destroying gut bacteria, making supplementation important when these are used",
+          "required": false,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_rosacea.md",
+              "chunk_index": 33,
+              "content_hash": "fdfe06e0d8fa9516fe81d3119e1e3ea6bf833a02571a9943ba8ae6da07ae98c1",
+              "support": "direct",
+              "rationale": "States antibiotics kill intestinal bacteria that produce vitamin K, so it is important to include it in the diet when antibiotics are used"
+            },
+            {
+              "source_path": "nutrients/vitamin-k.md",
+              "chunk_index": 7,
+              "content_hash": "5b6b99fc248d404edaad67b5f849b8969e9638edb4c5bd3b6d2101b912620d3b",
+              "support": "direct",
+              "rationale": "States long-term antibiotic use destroys gut bacteria that produce some K2, potentially leading to functional deficiency"
+            },
+            {
+              "source_path": "nutrients/vitamin-k.md",
+              "chunk_index": 8,
+              "content_hash": "46c5ac464d5d6ef149ba3fe7fa5d6cded003d2fad76a5377c522f8d025d92054",
+              "support": "direct",
+              "rationale": "Confirms long-term antibiotic use destroys gut bacteria that produce K2"
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "aspirin anticoagulant interaction vitamin K clotting factors",
+        "vitamin K deficiency bleeding complications",
+        "aspirin platelet inhibition hemorrhage risk",
+        "vitamin K antagonist aspirin coadministration",
+        "aspirin warfarin vitamin K bleeding",
+        "NSAID vitamin K coagulation pathway"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T16:06:31.985556+00:00"
+    },
+    {
+      "case_id": "endotoxin_liver_estrogen",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "The liver normally destroys (inactivates) estrogen by making it water-soluble via glucuronic acid or sulfate attachment so it can be excreted, but when liver function is impaired\u2014by malnutrition, hypothyroidism, stress, or toxins\u2014estrogen accumulates systemically.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 15,
+              "content_hash": "2e3cbe767280c7b3443f27e3780a9b146691424cb4350c88122ff1e8aa9ce953",
+              "support": "direct",
+              "rationale": "Explicitly states the liver 'destroys' estrogen by making it water-soluble and that malnutrition, hypothyroidism, or stress allows estrogen to pass through without inactivation."
+            },
+            {
+              "source_path": "peat_tissue.md",
+              "chunk_index": 18,
+              "content_hash": "9394156b4b77820c26854aa4c8c6916f1960028b0ba95cab26f59c3a2268e497",
+              "support": "direct",
+              "rationale": "Describes the liver inactivating estrogen by combining it with glucuronic acid, making it water-soluble for urinary elimination, and notes impairment reduces this capacity."
+            },
+            {
+              "source_path": "peat_tissue.md",
+              "chunk_index": 19,
+              "content_hash": "89ac3e1ab06d351419d6dfb80a4c3c78062bf95940d91896e64614e56796eb72",
+              "support": "direct",
+              "rationale": "States many kinds of liver impairment decrease estrogen excretion, and that hypothyroidism or protein deficiency prevents the liver from attaching glucuronic acid to estrogen."
+            },
+            {
+              "source_path": "peat_tissue.md",
+              "chunk_index": 2,
+              "content_hash": "298410c8dfd109efa961d3f3130ba631ebabe5f52aa286834351544ae6bd4b4d",
+              "support": "direct",
+              "rationale": "States estrogen is inactivated mainly in the liver by attachment of glucuronic acid and/or sulfuric acid, making it water-soluble."
+            },
+            {
+              "source_path": "peat_hotflash.md",
+              "chunk_index": 28,
+              "content_hash": "9b2b77b07e5612a424734f9c9428dc55b9e62d7ea87447566d611b95705f648e",
+              "support": "direct",
+              "rationale": "Explains that even at early stages of liver injury, reduced liver activity causes estrogen to accumulate, and that estrogen's continued activity further deteriorates liver function."
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "Endotoxin impairs the liver's inactivation of estrogen, while estrogen increases endotoxin toxicity and further damages the liver, forming a self-reinforcing cycle.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 15,
+              "content_hash": "2e3cbe767280c7b3443f27e3780a9b146691424cb4350c88122ff1e8aa9ce953",
+              "support": "direct",
+              "rationale": "Explicitly states endotoxin's inhibition of the liver's detoxifying system (Banhegyi, et al., 1995) is one way it increases estrogen systemically."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 470,
+              "content_hash": "23fc7538f9174ad81b173823b70a713dd588820e69961241aaceca38c2fe5ae9",
+              "support": "direct",
+              "rationale": "States that endotoxin absorbed from the intestine can be a serious burden to the liver, and it is known to cause a large increase in blood estrogen levels."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 469,
+              "content_hash": "1f3ee7c3877606e2228ca701c435d8912db55540875e53e29e2b3ebc065a5f4e",
+              "support": "direct",
+              "rationale": "States endotoxin absorbed from the intestine is a burden to the liver and causes a large increase in blood estrogen."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 158,
+              "content_hash": "a85048cbe4d14f85b1e255e193cbef9e351184551aa243f416d2b29293663271",
+              "support": "direct",
+              "rationale": "States endotoxin causes the estrogen concentration of the blood to rise."
+            },
+            {
+              "source_path": "peat_lactate.md",
+              "chunk_index": 30,
+              "content_hash": "565355ed7db6f6060be42d4415b60b1860c168e57842bdbca9db9ae9b1e98c83",
+              "support": "direct",
+              "rationale": "When endotoxin stress was decreased (via antibiotics), the liver's increased ability to inactivate estrogen caused blood estrogen levels to fall."
+            },
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 17,
+              "content_hash": "840936ccfbcf7c542bfe26fe6e7f19a006f00772d4936ce22aaab55f0c3242f5",
+              "support": "direct",
+              "rationale": "Details multiple shared alarm pathways activated by both estrogen and endotoxin, and notes estrogen makes Kupffer cells 15 times more sensitive to LPS."
+            },
+            {
+              "source_path": "peat_newsletter_2021_november.md",
+              "chunk_index": 11,
+              "content_hash": "2a3f10f6e5170a29987fda2bc20a2f0267ab3b12e78578953a3e659cc30d442f",
+              "support": "direct",
+              "rationale": "States that estrogen and endotoxin tend to increase each other's concentration in a vicious circle."
+            },
+            {
+              "source_path": "peat_estrogen4.md",
+              "chunk_index": 35,
+              "content_hash": "7b40056a9e3c7c86fb270d97e03adef3d424b84808f6392e4e358c3718ef7ea0",
+              "support": "direct",
+              "rationale": "Research shows estrogen increases blood endotoxin and CD14 expression in liver, leading to increased TNF-alpha production, directly linking estrogen to enhanced endotoxin effects."
+            },
+            {
+              "source_path": "peat_estrogen4.md",
+              "chunk_index": 15,
+              "content_hash": "5a475f114b9395fbc4a8f21a92949b8a626ef83d68591637622f7bf8f4bb690b",
+              "support": "direct",
+              "rationale": "States TNF is produced by endotoxin and estrogen increases the amount of endotoxin in the blood, and that even without endotoxin estrogen can stimulate TNF production."
+            },
+            {
+              "source_path": "peat_newsletter_2016_november.md",
+              "chunk_index": 21,
+              "content_hash": "9fb5e18f91ead25b0106f72a972fec26711a84194241cc9a3322260afda24425",
+              "support": "direct",
+              "rationale": "States endotoxin absorbed during stress activates aromatase, increasing estrogen production, demonstrating the bidirectional amplification."
+            },
+            {
+              "source_path": "peat_hotflash.md",
+              "chunk_index": 28,
+              "content_hash": "9b2b77b07e5612a424734f9c9428dc55b9e62d7ea87447566d611b95705f648e",
+              "support": "direct",
+              "rationale": "Describes how reduced liver activity causes estrogen to accumulate, and elevated estrogen causes further deterioration of liver function."
+            },
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 16,
+              "content_hash": "23abc32cdf80bbdd78fff79c27928aa99d4424e2b1d8afcc1503bf1e0c72b7be",
+              "support": "direct",
+              "rationale": "Notes estrogen causes many toxic changes in the liver, including demonstrable lipid peroxidation as an early reaction to estrogen."
+            },
+            {
+              "source_path": "peat_immunodeficiency.md",
+              "chunk_index": 27,
+              "content_hash": "38ed0b0d2c3f08301814989ecaf64d09e0cfcc1619ef2ef99ea7a2a926044442",
+              "support": "direct",
+              "rationale": "States almost any kind of toxin causes the liver to be less efficient at excreting hormones, and estrogen itself is a burden on the liver."
+            },
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 12,
+              "content_hash": "80df9a6f7aba72502d6934622636127823dd34c39ce10a8d0bdf1a65228e7c00",
+              "support": "direct",
+              "rationale": "States the liver decreases its detoxification of estrogen in the presence of polyunsaturated fatty acids, showing another mechanism linking liver function and estrogen."
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "The liver and intestine normally prevent endotoxin from reaching the circulation; estrogen impairs this barrier by inhibiting bile flow and increasing intestinal permeability, allowing more endotoxin to enter the bloodstream.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 9,
+              "content_hash": "ba6afa48ecd169523570f126f2380e884ebe24fc296d207e9e762698ab371d0e",
+              "support": "direct",
+              "rationale": "Explains that bile acids keep endotoxin in solution away from absorptive surfaces; obstruction of bile flow allows endotoxin to enter the system, and estrogen can inhibit bile flow."
+            },
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 10,
+              "content_hash": "464e92b8b234822f272b041e2ed81baf007f2e4d250f02fa8e8502a331dfbb14",
+              "support": "direct",
+              "rationale": "States estrogen can inhibit the flow of bile, allowing endotoxin to enter the system."
+            },
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 17,
+              "content_hash": "840936ccfbcf7c542bfe26fe6e7f19a006f00772d4936ce22aaab55f0c3242f5",
+              "support": "direct",
+              "rationale": "States one way estrogen increases endotoxin toxicity is by making the intestine more permeable."
+            },
+            {
+              "source_path": "peat_newsletter_2021_november.md",
+              "chunk_index": 9,
+              "content_hash": "052fc7f5dd4a8ebb9b698a0ea01240a86ef212535b4e4cb83e722289e9968893",
+              "support": "direct",
+              "rationale": "States that unopposed estrogen and reduced progesterone cause increased permeability of blood vessels and reduced barrier function of the intestine, leading to chronic absorption of bacterial endotoxin."
+            },
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 11,
+              "content_hash": "246fb768ce051bc11ca699e6d7360b204170b7ba31402932700a60b3cfd2fe07",
+              "support": "direct",
+              "rationale": "Notes estrogens such as oral contraceptives can cause colitis by shutting off blood supply, weakening the intestinal barrier."
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "Estrogen and endotoxin share common inflammatory pathways, both activating phospholipases, nitric oxide synthase, TNF, interleukins, prostaglandins, and nuclear factor kappa-B.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 17,
+              "content_hash": "840936ccfbcf7c542bfe26fe6e7f19a006f00772d4936ce22aaab55f0c3242f5",
+              "support": "direct",
+              "rationale": "Explicitly lists shared alarm systems activated by both: phospholipases, nitric oxide synthase, TNF, interleukins including IL-6, prostaglandin-forming enzymes, and NF-kB."
+            },
+            {
+              "source_path": "peat_inflammation_endotoxin_estrogen_and_other_problems.md",
+              "chunk_index": 18,
+              "content_hash": "d69dea1ea8ea230b675c1bad8f55990c1d62e472c58df1092baf50b624b93842",
+              "support": "direct",
+              "rationale": "States estrogen like endotoxin activates nuclear factor kappa-B, which activates cells to produce TNF, nitric oxide, prostaglandins, and interleukins."
+            },
+            {
+              "source_path": "peat_estrogen4.md",
+              "chunk_index": 15,
+              "content_hash": "5a475f114b9395fbc4a8f21a92949b8a626ef83d68591637622f7bf8f4bb690b",
+              "support": "direct",
+              "rationale": "Notes both endotoxin and estrogen stimulate TNF production and that estrogen increases production of nitric oxide systemically."
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "claim": "Endotoxin absorbed from the intestine is a major source of systemic endotoxemia that raises estrogen levels; factors that reduce endotoxin absorption (e.g., antibiotics, dietary adjustments) correspondingly lower estrogen and reduce inflammatory burden.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_lactate.md",
+              "chunk_index": 30,
+              "content_hash": "565355ed7db6f6060be42d4415b60b1860c168e57842bdbca9db9ae9b1e98c83",
+              "support": "direct",
+              "rationale": "States antibiotics reducing endotoxin stress caused blood estrogen and cortisol to decrease while progesterone increased, demonstrating the link between gut endotoxin and systemic estrogen."
+            },
+            {
+              "source_path": "peat_menopause.md",
+              "chunk_index": 17,
+              "content_hash": "30a135d1776fa56062c012838c881611f419c1c7e2ea53450081720792d3433b",
+              "support": "direct",
+              "rationale": "States penicillin treatment, probably by lowering endotoxin production, decreases estrogen and cortisone while increasing progesterone; raw carrots can similarly reduce bacterial toxins absorbed and help excretion of estrogen."
+            },
+            {
+              "source_path": "peat_from_pms_to_menopause_females_hormones_in_context.md",
+              "chunk_index": 158,
+              "content_hash": "a85048cbe4d14f85b1e255e193cbef9e351184551aa243f416d2b29293663271",
+              "support": "direct",
+              "rationale": "Identical content: penicillin lowers endotoxin and thereby decreases estrogen; dietary approaches can reduce endotoxin absorption."
+            },
+            {
+              "source_path": "peat_foodjunk.md",
+              "chunk_index": 25,
+              "content_hash": "b03d453cc022f92a4835b41970d29eb1387d95db3f0e7e33c0b86ba55f403bc1",
+              "support": "direct",
+              "rationale": "States estrogen is closely associated with endotoxinemia, and anything that irritates the bowel and increases endotoxin absorption contributes to the cluster of metabolic consequences including elevated estrogen."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "endotoxin impairs hepatic estrogen metabolism clearance",
+        "lipopolysaccharide liver estrogen conjugation detoxification",
+        "endotoxin liver damage elevated estrogen levels",
+        "gut permeability endotoxin estrogen dominance",
+        "endotoxin inhibits cytochrome P450 estrogen",
+        "liver dysfunction endotoxemia sex hormone imbalance"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T16:08:00.512704+00:00"
+    },
+    {
+      "case_id": "sunlight_vitamin_d_calcium",
+      "claims": [
+        {
+          "id": "c1",
+          "claim": "Vitamin D is made in the skin when sunlight's UVB converts 7-dehydrocholesterol, then is activated by hydroxylation in the liver and kidneys.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "ferman_gut_3.md",
+              "chunk_index": 89,
+              "content_hash": "12edfc12c5ffd709d1a630b2bf56888dd8d59aa7b1ee3ed5736efd1b89efacdf",
+              "support": "direct",
+              "rationale": "States vitamin D is produced endogenously when UV rays from sunlight strike the skin and trigger vitamin D synthesis."
+            },
+            {
+              "source_path": "ferman_system_1.md",
+              "chunk_index": 66,
+              "content_hash": "e84f4b91ea37d2df3165ae08e12fdfd1d6543086bb8b4dde8e9167e4455d39b0",
+              "support": "direct",
+              "rationale": "Describes UVB photolysis of 7-dehydrocholesterol to previtamin D3, thermal conversion to cholecalciferol, then liver and kidney hydroxylations to form calcidiol and calcitriol."
+            },
+            {
+              "source_path": "nutrients/vitamin-d.md",
+              "chunk_index": 3,
+              "content_hash": "c631ce1fe576dda30907d14f8ac8001763319d55f33cbd194ce843b3c468ab7c",
+              "support": "direct",
+              "rationale": "States vitamin D is synthesized in the skin when UVB rays convert 7-dehydrocholesterol to previtamin D3, and describes self-limiting synthesis from sunlight."
+            },
+            {
+              "source_path": "ferman_system_1.md",
+              "chunk_index": 67,
+              "content_hash": "8c2f863548807cb79462c7dc706db219031d51b0ebbc54b3f8ac926ab5392789",
+              "support": "direct",
+              "rationale": "Details the two hydroxylation steps (liver CYP2R1 to calcidiol, kidney CYP27B1 to calcitriol) and the role of vitamin D-binding protein in transporting it through the blood."
+            },
+            {
+              "source_path": "ferman_system_3.md",
+              "chunk_index": 139,
+              "content_hash": "f93169016f652cb7d03c43fef175d314c38bccf0b1ee7213767235491fc6e2ed",
+              "support": "direct",
+              "rationale": "Describes the same two-step hydroxylation pathway from cholecalciferol to calcidiol and then calcitriol."
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "claim": "Vitamin D promotes calcium and phosphate absorption in the gut, maintains adequate serum calcium and phosphate concentrations, and is essential for normal bone mineralization, bone growth, and bone remodeling by osteoblasts and osteoclasts; it works synergistically with vitamin K2 for bone health.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "ferman_gut_3.md",
+              "chunk_index": 89,
+              "content_hash": "12edfc12c5ffd709d1a630b2bf56888dd8d59aa7b1ee3ed5736efd1b89efacdf",
+              "support": "direct",
+              "rationale": "States vitamin D promotes calcium absorption in the gut, maintains serum calcium and phosphate for bone mineralization, prevents hypocalcemic tetany, and works with vitamin K2 as keys for bone health."
+            },
+            {
+              "source_path": "nutrients/vitamin-d.md",
+              "chunk_index": 1,
+              "content_hash": "cd72343d268e1ec5ff650be0e9f60ee8dcebe61aa582c1b630915c688fe5a8ec",
+              "support": "direct",
+              "rationale": "States vitamin D promotes calcium and phosphate absorption in the gut, supports bone growth and remodeling, prevents hypocalcemic tetany, and works synergistically with vitamin K2."
+            },
+            {
+              "source_path": "ferman_system_1.md",
+              "chunk_index": 64,
+              "content_hash": "bfe7a291fdda69ffaaa1ac11e4fabed6b20386261865bc6a3cd27de0884ca2aa",
+              "support": "direct",
+              "rationale": "States that without enough vitamin D, only 10\u201315% of dietary calcium is absorbed, and describes vitamin D's role in calcium absorption."
+            },
+            {
+              "source_path": "nutrients/calcium.md",
+              "chunk_index": 3,
+              "content_hash": "ce786482ba1026bb50830525f5ee7c5b10a9dc1abfc0799271a37a6132e08b6a",
+              "support": "direct",
+              "rationale": "States vitamin D dramatically increases intestinal calcium absorption and that without it dietary calcium is poorly absorbed regardless of intake."
+            },
+            {
+              "source_path": "ferman_system_5.md",
+              "chunk_index": 90,
+              "content_hash": "406217d07a5fddb4f485567b0fd735ccbd6982b135cb5f073b563ac8e0a697dd",
+              "support": "direct",
+              "rationale": "States vitamin D promotes calcium absorption in the gut, maintains serum calcium and phosphate concentrations for bone mineralization, and is needed for bone growth and remodeling."
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "claim": "Vitamin D deficiency (or calcium deficiency) raises parathyroid hormone (PTH), which causes bone calcium loss, soft-tissue and arterial calcification, and contributes to inflammatory and degenerative conditions; keeping vitamin D and calcium adequate suppresses PTH.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_newsletter_2017_september.md",
+              "chunk_index": 26,
+              "content_hash": "0562d0141b3fa644a689bbfb1b83dba838dc6545640effc7db86563920b3aa96",
+              "support": "direct",
+              "rationale": "States that vitamin D or calcium deficiency or excess phosphate raises PTH, leading to bone softening, hardening of soft tissues, and arterial calcification; notes PTH rises during the night causing bone calcium loss."
+            },
+            {
+              "source_path": "peat_glucose.md",
+              "chunk_index": 27,
+              "content_hash": "6b138d6b7d7e7c7b472d2997bbe01bff7ca22a3aa80bf068dd6b31c1086a4f14",
+              "support": "direct",
+              "rationale": "States that in vitamin D deficiency or calcium deficiency, PTH increases and contributes to inflammatory and degenerative processes; consuming enough calcium and vitamin D to suppress PTH is important."
+            },
+            {
+              "source_path": "peat_peptides_coherent_adaption_and_some_terminal_diseases.md",
+              "chunk_index": 41,
+              "content_hash": "37e9b7a417c00f9f297682c6fe878383efedbef30c212f390c08e6bd2366fa66",
+              "support": "direct",
+              "rationale": "States that vitamin D or calcium deficiency increases PTH, which contributes to inflammatory and degenerative processes including heart failure; consuming enough vitamin D and calcium to suppress PTH is important."
+            },
+            {
+              "source_path": "peat_calcium.md",
+              "chunk_index": 41,
+              "content_hash": "08c090ca18b48a69660a43c92520c79623e13ddc51526d48a9ce8d052ac570e1",
+              "support": "direct",
+              "rationale": "States that low calcium and vitamin D intake, short solar exposure, and reduced vitamin D biosynthesis all contribute to calcium deficiency, secondary hyperparathyroidism, bone loss, and possible calcification of soft tissues."
+            },
+            {
+              "source_path": "peat_bone.md",
+              "chunk_index": 19,
+              "content_hash": "3b00e995eda1b65d5f32fe9e47b61676c2313fd4c5817dc9dcac858321ed87a2",
+              "support": "direct",
+              "rationale": "States that in calcium deficiency PTH is increased and causes shift of calcium from hard to soft tissues, typical of aging changes."
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "claim": "Sunlight (specifically UVB) is considered the primary and preferred source of vitamin D; food alone rarely achieves optimal levels, and supplementation is a secondary option. At least 30\u2013120 minutes of direct skin exposure daily is recommended, with midday being optimal.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "nutrients/vitamin-d.md",
+              "chunk_index": 3,
+              "content_hash": "c631ce1fe576dda30907d14f8ac8001763319d55f33cbd194ce843b3c468ab7c",
+              "support": "direct",
+              "rationale": "States sunlight is the primary and preferred source; recommends 30\u2013120 minutes of direct skin exposure daily, preferably midday; notes food alone rarely achieves optimal levels."
+            },
+            {
+              "source_path": "ferman_system_10.md",
+              "chunk_index": 118,
+              "content_hash": "e530395ec7f218cda59b4a2a309ce58171b076dd71a3200cc0bc674952bc1c1f",
+              "support": "direct",
+              "rationale": "States sunlight is the best source of vitamin D and recommends a minimum of one hour of direct sunlight exposure daily."
+            },
+            {
+              "source_path": "ferman_system_1.md",
+              "chunk_index": 72,
+              "content_hash": "12a81e07a44efda423a159f8096e6e4fc4863ce8521d6ed0cde74d017c03179c",
+              "support": "direct",
+              "rationale": "States 30\u2013120 minutes of sunlight exposure is enough to get sufficient vitamin D depending on where one lives."
+            },
+            {
+              "source_path": "grimhood_teeth.md",
+              "chunk_index": 0,
+              "content_hash": "cf8e8ec39b3b6b13f03aa56343b03c807e9ef510c64b0b789e534aa5b07786aa",
+              "support": "direct",
+              "rationale": "States vitamin D from sunlight ties into proper calcium metabolism and that supplementation does not truly replace the sun or foods."
+            },
+            {
+              "source_path": "ferman_system_1.md",
+              "chunk_index": 21,
+              "content_hash": "e108d80169fdd72708cdaf8f95cf4f5142a947d76d924fa110c87b5eb4a4addd",
+              "support": "direct",
+              "rationale": "States that without UVB, sulfated vitamin D synthesis cannot be stimulated and only about half of vitamin D needs can be covered from food at best."
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "claim": "Vitamin D has broad roles beyond calcium: it modulates immune function (including T-cell activation and suppression of autoimmune overreaction), reduces inflammation, supports glucose and thyroid metabolism, and regulates approximately 1,000 genes as a hormone-like vitamin.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "ferman_system_1.md",
+              "chunk_index": 63,
+              "content_hash": "cbc3de6a67ebc3dcede96384f7bfcee380990e89812c4637f0f2c8b0c4011cf4",
+              "support": "direct",
+              "rationale": "States vitamin D controls about 3% of the genome (~1,000 genes) and affects insulin, leptin, testosterone, progesterone, gut health, bone health, immunity, brain health, and blood pressure."
+            },
+            {
+              "source_path": "nutrients/vitamin-d.md",
+              "chunk_index": 1,
+              "content_hash": "cd72343d268e1ec5ff650be0e9f60ee8dcebe61aa582c1b630915c688fe5a8ec",
+              "support": "direct",
+              "rationale": "States vitamin D functions like a steroid hormone regulating 1,000+ genes, including roles in sex hormone production, insulin and glucose metabolism, leptin, and thyroid function."
+            },
+            {
+              "source_path": "ferman_gut_3.md",
+              "chunk_index": 89,
+              "content_hash": "12edfc12c5ffd709d1a630b2bf56888dd8d59aa7b1ee3ed5736efd1b89efacdf",
+              "support": "direct",
+              "rationale": "States vitamin D has roles in reduction of inflammation, cell growth, neuromuscular and immune function, and glucose metabolism, in addition to calcium absorption."
+            },
+            {
+              "source_path": "grimhood_covid.md",
+              "chunk_index": 11,
+              "content_hash": "209312e02fb178dc50662c35b0a17b8baf52894b0c3528f249ac0f60f5ff418c",
+              "support": "direct",
+              "rationale": "Explains that T cells require vitamin D receptor signaling to activate and transition from naive to killer or helper cells, and that the vitamin D receptor step prevents cytokine storms."
+            },
+            {
+              "source_path": "ferman_system_10.md",
+              "chunk_index": 118,
+              "content_hash": "e530395ec7f218cda59b4a2a309ce58171b076dd71a3200cc0bc674952bc1c1f",
+              "support": "direct",
+              "rationale": "States vitamin D deficiency downregulates thyroid function and that optimal thyroid health requires adequate vitamin D/sun exposure affecting the hypothalamus-pituitary-thyroid axis."
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "claim": "Hypovitaminosis D is a widespread public health problem; deficiency causes secondary hyperparathyroidism, increased fracture risk, and soft-tissue calcification; aging is associated with declining active vitamin D metabolite levels, rising PTH, and increased soft-tissue calcification.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "peat_calcium.md",
+              "chunk_index": 47,
+              "content_hash": "49abd511b9432297f3b8b25e545051d2e9fd47472f9a9dd498ab8efc85f9853f",
+              "support": "direct",
+              "rationale": "Cites research showing mild-to-moderate hypovitaminosis D causes secondary hyperparathyroidism and increased fracture risk; notes 40% of young Europeans have some degree of hypovitaminosis D; mentions beneficial effect of moderate sun exposure on vitamin D synthesis."
+            },
+            {
+              "source_path": "peat_calcium.md",
+              "chunk_index": 73,
+              "content_hash": "306d1e47aef5c9eebe561fb37d2a85a05609943bbb577052b993a856ed814661",
+              "support": "direct",
+              "rationale": "States that with aging, PTH increases while calcitonin and active vitamin D metabolite levels decrease, and soft-tissue calcification increases."
+            },
+            {
+              "source_path": "peat_calcium.md",
+              "chunk_index": 41,
+              "content_hash": "08c090ca18b48a69660a43c92520c79623e13ddc51526d48a9ce8d052ac570e1",
+              "support": "direct",
+              "rationale": "States low calcium and vitamin D intake, short solar exposure, decreased intestinal absorption, and falling renal function all contribute to calcium deficiency, secondary hyperparathyroidism, bone loss, and possible soft-tissue calcification."
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "claim": "Vitamin K2 works with vitamin D to direct calcium into bones rather than arteries.",
+          "required": true,
+          "reviewed": false,
+          "min_partial_supports": 2,
+          "supporting_chunks": [
+            {
+              "source_path": "nutrients/vitamin-d.md",
+              "chunk_index": 5,
+              "content_hash": "9357905f4450e3965b55bf4dc09ab1890ba98fbb0f2281cc1a390090bd049808",
+              "support": "direct",
+              "rationale": "States vitamin D should always be paired with vitamin K2 (MK-7) to direct calcium to bones rather than arteries, approximately 100\u2013150 mcg MK-7 per 1,000 IU D3."
+            },
+            {
+              "source_path": "grimhood_teeth.md",
+              "chunk_index": 0,
+              "content_hash": "cf8e8ec39b3b6b13f03aa56343b03c807e9ef510c64b0b789e534aa5b07786aa",
+              "support": "direct",
+              "rationale": "States vitamin D from sunlight ties into proper calcium metabolism and lists vitamin K2 MK4/MK7 as a necessary micronutrient for remineralization and bone growth."
+            }
+          ]
+        }
+      ],
+      "generated_queries": [
+        "UV radiation skin vitamin D synthesis",
+        "vitamin D deficiency calcium absorption",
+        "cholecalciferol calcitriol bone mineral metabolism",
+        "sun exposure rickets osteoporosis prevention",
+        "vitamin D hydroxylation kidney calcium regulation",
+        "parathyroid hormone calcium homeostasis sunlight"
+      ],
+      "candidate_count": 80,
+      "generated_at": "2026-10-25T16:09:30.894317+00:00"
+    }
+  ]
 }

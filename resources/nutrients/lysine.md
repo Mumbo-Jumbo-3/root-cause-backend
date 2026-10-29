@@ -1,0 +1,5 @@
+# Lysine
+
+Aliases: L-lysine
+
+

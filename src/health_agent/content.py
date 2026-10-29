@@ -71,3 +71,36 @@ def list_nutrients() -> list[dict[str, Any]]:
 def get_nutrient(slug: str) -> dict[str, Any] | None:
     full = _load_full(_NUTRIENTS_ROOT, slug)
     return _with_nutrient_prompt(full) if full is not None else None
+
+
+def render_nutrient_resource(meta: dict[str, Any], response_markdown: str) -> str:
+    """Render a nutrient page as the markdown document the RAG index ingests."""
+    header = f"# {meta['name']}\n\n"
+    aliases = meta.get("aliases") or []
+    if aliases:
+        header += f"Aliases: {', '.join(aliases)}\n\n"
+    return header + response_markdown.strip() + "\n"
+
+
+def nutrient_resources(root: Path = _NUTRIENTS_ROOT) -> dict[str, str]:
+    """Map `{slug}.md` filenames to rendered RAG documents for every nutrient page."""
+    resources: dict[str, str] = {}
+    for meta in _list_metas(root):
+        full = _load_full(root, meta["slug"])
+        if full is not None:
+            resources[f"{meta['slug']}.md"] = render_nutrient_resource(
+                full, full["response_markdown"]
+            )
+    return resources
+
+
+def sync_nutrient_resources(dest: Path, root: Path = _NUTRIENTS_ROOT) -> int:
+    """Write rendered nutrient documents to `dest`, removing ones with no source page."""
+    resources = nutrient_resources(root)
+    dest.mkdir(parents=True, exist_ok=True)
+    for stale in dest.glob("*.md"):
+        if stale.name not in resources:
+            stale.unlink()
+    for name, text in resources.items():
+        (dest / name).write_text(text, encoding="utf-8")
+    return len(resources)
