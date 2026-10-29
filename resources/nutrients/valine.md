@@ -1,0 +1,5 @@
+# Valine
+
+Aliases: L-valine
+
+

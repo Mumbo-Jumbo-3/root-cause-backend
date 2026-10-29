@@ -34,6 +34,16 @@ def ingest(
     )
 
 
+@app.command("sync-nutrient-resources")
+def sync_nutrient_resources_command():
+    """Render nutrient pages into resources/nutrients/ so ingest indexes them."""
+    from health_agent.content import sync_nutrient_resources
+
+    dest = get_settings().resources_dir / "nutrients"
+    count = sync_nutrient_resources(dest)
+    print(f"Wrote {count} nutrient resources to {dest}.")
+
+
 @app.command("eval-rag")
 def eval_rag(
     strategy: str = typer.Option(
