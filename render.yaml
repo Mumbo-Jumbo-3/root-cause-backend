@@ -1,0 +1,39 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: root-cause-backend
+    runtime: docker
+    repo: https://github.com/Mumbo-Jumbo-3/root-cause-backend
+    branch: main
+    # Keep the service next to the Neon region (AWS us-east-2): RAG makes several queries per question.
+    region: ohio
+    plan: starter
+    healthCheckPath: /ok
+    # Runs once per deploy, before the new instance takes traffic.
+    preDeployCommand: alembic upgrade head
+    envVars:
+      - key: LANGSMITH_TRACING
+        value: "true"
+      - key: LANGSMITH_PROJECT
+        value: health-agent
+      - key: LANGSMITH_ENDPOINT
+        value: https://api.smith.langchain.com
+      # Secrets: entered in the dashboard when the Blueprint is first applied.
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: XAI_API_KEY
+        sync: false
+      - key: VOYAGE_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_URL_UNPOOLED
+        sync: false
+      - key: CLERK_SECRET_KEY
+        sync: false
+      - key: CLERK_PUBLISHABLE_KEY
+        sync: false
+      - key: BACKEND_WEBHOOK_SECRET
+        sync: false
+      - key: LANGSMITH_API_KEY
+        sync: false
