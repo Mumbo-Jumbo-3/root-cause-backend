@@ -132,6 +132,10 @@ uv run health-agent ingest
 
 Ingest makes the index match the checkout's `resources/` exactly: files that aren't on disk are removed from the index. So run it from a checkout whose `resources/` is what production should search.
 
+### Migration from Cloudflare
+
+Moved on October 29, 2026. The Neon database stayed where it was; only the app moved. The Render service was created from the Blueprint, the frontend's `LANGGRAPH_API_URL` was switched to `https://root-cause-backend.onrender.com`, and once a chat had run cleanly the Cloudflare Worker, its container application and its images were deleted. The Worker code is in the history at `4802e16` if it is ever needed again.
+
 ### Migration from Railway
 
 Moved on October 23, 2026. The Railway database was copied into the Neon project `root-cause` with [`scripts/copy_database.sh`](scripts/copy_database.sh), and every table's row count matched. It was then migrated to `20261023_01`, which drops the retired Catamine tables. Finally, the frontend's `LANGGRAPH_API_URL` was switched to the Cloudflare Worker that served production until the move to Render. Railway's `CATAMINE_*`, `CORS_ORIGINS` and `OPENAI_API_KEY` were not carried over, because nothing reads them.

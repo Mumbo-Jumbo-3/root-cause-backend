@@ -1,5 +1,6 @@
 import copy
 import math
+from functools import lru_cache
 
 import voyageai
 from langchain_core.documents import Document
@@ -9,10 +10,21 @@ from sqlalchemy.exc import SQLAlchemyError
 from health_agent.config import Settings
 from health_agent.db import AgentResource, AgentResourceChunk, get_session_factory
 from health_agent.db.models import EMBEDDING_DIMENSIONS
-from health_agent.models import get_embeddings_model
 from health_agent.rag.resources import filesystem_resource_manifest
 
-_voyage_client_cache: voyageai.Client | None = None
+
+@lru_cache(maxsize=1)
+def _voyage_client(api_key: str) -> voyageai.Client:
+    # One client per process. Each client caches its own tokenizer, so building one per query leaks memory.
+    return voyageai.Client(api_key=api_key)
+
+
+def _embed_query(query: str, settings: Settings) -> list[float]:
+    # Same request VoyageAIEmbeddings.embed_query makes, minus its token counting, which loads a tokenizer.
+    result = _voyage_client(settings.voyage_api_key).embed(
+        [query], model=settings.embedding_model, input_type="query"
+    )
+    return result.embeddings[0]
 
 
 def _database_resource_manifest(settings: Settings) -> dict[str, str]:
@@ -214,7 +226,7 @@ def _query_vector_rows(query: str, settings: Settings, limit: int):
             f"Expected {EMBEDDING_DIMENSIONS}."
         )
 
-    query_embedding = get_embeddings_model(settings).embed_query(query)
+    query_embedding = _embed_query(query, settings)
     distance = AgentResourceChunk.embedding.cosine_distance(query_embedding).label("distance")
     session_factory = get_session_factory(settings)
     with session_factory() as session:
@@ -399,11 +411,7 @@ def rerank_documents(
     if not docs:
         return docs
 
-    global _voyage_client_cache
-    if _voyage_client_cache is None:
-        _voyage_client_cache = voyageai.Client(api_key=settings.voyage_api_key)
-
-    result = _voyage_client_cache.rerank(
+    result = _voyage_client(settings.voyage_api_key).rerank(
         query=query,
         documents=[doc.page_content for doc in docs],
         model=settings.reranker_model,
