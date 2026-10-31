@@ -116,7 +116,7 @@ def test_queries_and_rerank_share_one_voyage_client_without_tokenizing():
             retriever._embed_query("magnesium and stress", settings)
             retriever.rerank_documents("magnesium", [_doc("text", "a.md")], settings)
 
-        client_cls.assert_called_once_with(api_key="test-key")
+        client_cls.assert_called_once_with(api_key="test-key", max_retries=3)
         client.embed.assert_called_with(
             ["magnesium and stress"],
             model="voyage-4-large",

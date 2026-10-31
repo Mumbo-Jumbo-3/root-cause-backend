@@ -49,4 +49,5 @@ def get_claude_classifier_model(settings: Settings) -> ChatAnthropic:
 @lru_cache(maxsize=1)
 def voyage_client(api_key: str) -> voyageai.Client:
     # One client per process. Each client caches its own tokenizer, so building one per call leaks memory.
-    return voyageai.Client(api_key=api_key)
+    # Retries ride out a transient 429 or 5xx, which would otherwise fail a whole deploy's ingest.
+    return voyageai.Client(api_key=api_key, max_retries=3)

@@ -31,6 +31,8 @@ _AUTHOR_PREFIXES = {
 # Held for the write transaction, so a deploy and a manual run never write at once.
 _INGEST_LOCK_KEY = 7_270_301
 _EMBED_BATCH_SIZE = 128
+# Each vector becomes ~20 KB of text on its way to pgvector; inserting in slices keeps that bounded.
+_INSERT_BATCH_SIZE = 500
 
 
 @dataclass
@@ -234,8 +236,10 @@ def ingest_resources(settings: Settings, force: bool = False) -> IngestStats:
             )
         if resource_rows:
             session.execute(insert(AgentResource), resource_rows)
-        if chunk_rows:
-            session.execute(insert(AgentResourceChunk), chunk_rows)
+        for start in range(0, len(chunk_rows), _INSERT_BATCH_SIZE):
+            session.execute(
+                insert(AgentResourceChunk), chunk_rows[start : start + _INSERT_BATCH_SIZE]
+            )
 
     return IngestStats(
         added_resources=sum(record.source_path not in stored for record in changed),
