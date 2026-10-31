@@ -52,9 +52,9 @@ ANTHROPIC_API_KEY=x XAI_API_KEY=x uv run python -c "from health_agent.config imp
 - **Enrichment.** Besides its findings, trusted X search returns rewritten queries. Those queries run a second RAG pass, which pulls in archive material the user's wording would have missed.
 - **Merge.** The base and enriched results are combined with reciprocal rank fusion, then reranked against the original question.
 - **Gate.** A Claude judge reads the evidence and decides whether it is enough. If not, unrestricted X search runs before synthesis.
-- **Synthesis.** Claude Sonnet writes one integrated answer, ranking evidence by source and noting any channel that came back empty or failed.
+- **Synthesis.** Claude Sonnet writes one integrated answer, ranking evidence by source and noting any channel that came back empty or failed. Each archive chunk and X finding goes in as a citable document, so the answer carries native Claude citations back to the exact passage.
 
-Each node reports `started` / `completed` phase events, so the UI can show progress while the answer is being prepared.
+Each node reports `started` / `completed` phase events, so the UI can show progress while the answer is being prepared. Completed events carry a `detail` payload (findings, posts read, refined queries, ranked documents, the judge's reason) that the UI shows inside each step. The same events, plus the answer's citations, are saved on the answer message, so reloaded threads and share links show the full research trace.
 
 ## Design decisions
 

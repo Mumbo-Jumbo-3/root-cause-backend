@@ -1,6 +1,7 @@
 import json
 import logging
 import re
+import time
 
 from langchain_core.documents import Document
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
@@ -22,6 +23,23 @@ from health_agent.rag.retriever import (
     retrieve_documents,
 )
 from health_agent.state import AgentState
+from health_agent.trace import (
+    TRACE_RESET,
+    TRACE_VERSION,
+    archive_document,
+    cited_text_and_citations,
+    doc_id,
+    doc_info,
+    docs_detail,
+    filter_uncited_urls,
+    finding_document,
+    finding_items,
+    findings_detail,
+    grok_cited_urls,
+    phase_event,
+    post_urls,
+)
+from health_agent.x_posts import attach_matched_posts
 
 
 logger = logging.getLogger(__name__)
@@ -39,7 +57,9 @@ SYNTHESIS_FALLBACK_TEXT = (
 )
 
 
-def _emit_phase(phase: str, status: str, meta: dict | None = None) -> None:
+def _emit_phase(
+    phase: str, status: str, meta: dict | None = None, detail: dict | None = None
+) -> None:
     """Emit a phase lifecycle event to the LangGraph custom stream writer.
 
     Consumed by server._stream_events and forwarded as SSE `event: phase` to the
@@ -53,9 +73,15 @@ def _emit_phase(phase: str, status: str, meta: dict | None = None) -> None:
     if writer is None:
         return
     try:
-        writer({"kind": "phase", "phase": phase, "status": status, "meta": meta or {}})
+        writer({"kind": "phase", **phase_event(phase, status, meta, detail)})
     except Exception:
         logger.debug("stream writer dropped phase event", exc_info=True)
+
+
+def _complete_phase(phase: str, meta: dict, detail: dict | None = None) -> dict:
+    """Emit a phase's completed event and return it as an `AgentState.trace` update."""
+    _emit_phase(phase, "completed", meta, detail)
+    return {"trace": [phase_event(phase, "completed", meta, detail)]}
 
 
 class SearchFinding(BaseModel):
@@ -292,15 +318,17 @@ Return ONLY a JSON object: {"is_womens_health": true} or {"is_womens_health": fa
 Do not include any text outside the JSON object."""
 
     synthesis_system = """You are a knowledgeable health and wellness assistant.
-You will receive evidence from up to four channels:
-1. A RAG system over a curated research archive
+Evidence is attached as documents from up to four channels:
+1. A curated research archive (titles name the source work and author)
 2. Trusted X accounts
 3. Trusted women's-health X accounts (only present for women's-health questions)
-4. Unrestricted X Search (may be absent)
+4. Broader X search (may be absent)
 
-Search-channel evidence is formatted as JSON findings with claim, source_urls,
-and relevance. Use those findings as evidence, not as prose to repeat verbatim.
+Each X document holds one finding distilled from posts; its context explains why it
+matters. Use findings as evidence, not as prose to repeat verbatim.
 Write a comprehensive, practical response that prioritizes those sources in that order.
+Ground specific claims in the attached documents so they carry citations. Do not write
+your own reference numbers, footnotes, or sources list; citations are attached automatically.
 If evidence conflicts, prefer the higher-priority source and briefly explain the conflict.
 If a channel is empty or failed, briefly note that its evidence was limited or unavailable.
 If a channel was not consulted (women's-health or unrestricted), do not mention it at all.
@@ -321,12 +349,15 @@ Return ONLY a JSON object with:
 - "sufficient": boolean — true if the evidence is specific, on-topic, and comprehensive
   enough to form a practical answer; false if key aspects of the question are uncovered,
   evidence is thin, or sources conflict in ways that need external corroboration.
-- "reason": a short sentence (for logs only; not shown to users).
+- "reason": one short sentence shown to the user explaining the verdict: what the
+  evidence covers well, or which aspect of the question it leaves thin. Plain language;
+  don't name internal channels or systems.
 
 Do not include any text outside the JSON object."""
 
     def classify_womens_health(state: AgentState):
         _emit_phase("classify_womens_health", "started")
+        turn_start = {"trace": TRACE_RESET, "run_started_at": time.time()}
         last_message = state["messages"][-1]
         try:
             raw = classifier.invoke(
@@ -342,7 +373,7 @@ Do not include any text outside the JSON object."""
                 "completed",
                 {"status": STATUS_SUCCESS, "is_womens_health": result.is_womens_health},
             )
-            return {"is_womens_health": result.is_womens_health}
+            return {**turn_start, "is_womens_health": result.is_womens_health}
         except Exception:
             logger.exception("Women's-health classifier failed; defaulting to false")
             _emit_phase(
@@ -350,14 +381,12 @@ Do not include any text outside the JSON object."""
                 "completed",
                 {"status": STATUS_ERROR, "is_womens_health": False},
             )
-            return {"is_womens_health": False}
+            return {**turn_start, "is_womens_health": False}
 
     def womens_health_grok_search(state: AgentState):
         if not state.get("is_womens_health"):
-            _emit_phase(
-                "womens_health_search", "completed", {"status": STATUS_SKIPPED}
-            )
             return {
+                **_complete_phase("womens_health_search", {"status": STATUS_SKIPPED}),
                 "womens_health_search_findings": [],
                 "womens_health_search_response": "",
                 "womens_health_search_status": STATUS_SKIPPED,
@@ -398,24 +427,26 @@ Do not include any text outside the JSON object."""
             )
             result = WomensHealthSearchAnalysis(**parsed)
             findings = _normalize_findings(result.findings)
+            cited_urls = grok_cited_urls(raw)
+            findings = filter_uncited_urls(findings, cited_urls)
+            posts = post_urls(cited_urls)
+            findings = attach_matched_posts(findings, posts, settings)
             cleaned_response = _format_findings(findings)
             status = _findings_status(findings)
-            _emit_phase(
-                "womens_health_search",
-                "completed",
-                {"status": status, "findings": len(findings)},
-            )
             return {
+                **_complete_phase(
+                    "womens_health_search",
+                    {"status": status, "findings": len(findings), "posts": len(posts)},
+                    findings_detail(findings, "x-womens", posts=posts),
+                ),
                 "womens_health_search_findings": findings,
                 "womens_health_search_response": cleaned_response,
                 "womens_health_search_status": status,
             }
         except Exception:
             logger.exception("Women's-health Grok search failed")
-            _emit_phase(
-                "womens_health_search", "completed", {"status": STATUS_ERROR}
-            )
             return {
+                **_complete_phase("womens_health_search", {"status": STATUS_ERROR}),
                 "womens_health_search_findings": [],
                 "womens_health_search_response": "[]",
                 "womens_health_search_status": STATUS_ERROR,
@@ -456,19 +487,24 @@ Do not include any text outside the JSON object."""
             )
             result = TrustedSearchAnalysis(**parsed)
             findings = _normalize_findings(result.findings)
+            cited_urls = grok_cited_urls(raw)
+            findings = filter_uncited_urls(findings, cited_urls)
+            posts = post_urls(cited_urls)
+            findings = attach_matched_posts(findings, posts, settings)
             cleaned_response = _format_findings(findings)
             refined_queries = _normalize_queries(result.refined_queries, str(last_message.content))
             status = _findings_status(findings)
-            _emit_phase(
-                "trusted_search",
-                "completed",
-                {
-                    "status": status,
-                    "findings": len(findings),
-                    "refined_queries": len(refined_queries),
-                },
-            )
             return {
+                **_complete_phase(
+                    "trusted_search",
+                    {
+                        "status": status,
+                        "findings": len(findings),
+                        "posts": len(posts),
+                        "refined_queries": len(refined_queries),
+                    },
+                    findings_detail(findings, "x-trusted", refined_queries, posts),
+                ),
                 "trusted_search_findings": findings,
                 "trusted_search_response": cleaned_response,
                 "trusted_refined_queries": refined_queries,
@@ -476,8 +512,8 @@ Do not include any text outside the JSON object."""
             }
         except Exception:
             logger.exception("Trusted Grok search failed")
-            _emit_phase("trusted_search", "completed", {"status": STATUS_ERROR})
             return {
+                **_complete_phase("trusted_search", {"status": STATUS_ERROR}),
                 "trusted_search_findings": [],
                 "trusted_search_response": "[]",
                 "trusted_refined_queries": [str(last_message.content)],
@@ -513,22 +549,26 @@ Do not include any text outside the JSON object."""
             )
             result = UnrestrictedSearchAnalysis(**parsed)
             findings = _normalize_findings(result.findings)
+            cited_urls = grok_cited_urls(raw)
+            findings = filter_uncited_urls(findings, cited_urls)
+            posts = post_urls(cited_urls)
+            findings = attach_matched_posts(findings, posts, settings)
             cleaned_response = _format_findings(findings)
             status = _findings_status(findings)
-            _emit_phase(
-                "unrestricted_search",
-                "completed",
-                {"status": status, "findings": len(findings)},
-            )
             return {
+                **_complete_phase(
+                    "unrestricted_search",
+                    {"status": status, "findings": len(findings), "posts": len(posts)},
+                    findings_detail(findings, "x-broad", posts=posts),
+                ),
                 "unrestricted_search_findings": findings,
                 "unrestricted_search_response": cleaned_response,
                 "unrestricted_search_status": status,
             }
         except Exception:
             logger.exception("Unrestricted Grok search failed")
-            _emit_phase("unrestricted_search", "completed", {"status": STATUS_ERROR})
             return {
+                **_complete_phase("unrestricted_search", {"status": STATUS_ERROR}),
                 "unrestricted_search_findings": [],
                 "unrestricted_search_response": "[]",
                 "unrestricted_search_status": STATUS_ERROR,
@@ -540,15 +580,17 @@ Do not include any text outside the JSON object."""
         try:
             docs = _run_search_retrieval([original_query], settings)
             status = _docs_status(docs)
-            _emit_phase("rag_base", "completed", {"status": status, "docs": len(docs)})
             return {
+                **_complete_phase(
+                    "rag_base", {"status": status, "docs": len(docs)}, docs_detail(docs)
+                ),
                 "base_rag_docs": docs,
                 "base_rag_status": status,
             }
         except Exception:
             logger.exception("Base RAG retrieval failed")
-            _emit_phase("rag_base", "completed", {"status": STATUS_ERROR, "docs": 0})
             return {
+                **_complete_phase("rag_base", {"status": STATUS_ERROR, "docs": 0}),
                 "base_rag_docs": [],
                 "base_rag_status": STATUS_ERROR,
             }
@@ -563,10 +605,8 @@ Do not include any text outside the JSON object."""
         ]
 
         if not candidate_queries:
-            _emit_phase(
-                "rag_enrich", "completed", {"status": STATUS_SKIPPED, "docs": 0}
-            )
             return {
+                **_complete_phase("rag_enrich", {"status": STATUS_SKIPPED, "docs": 0}),
                 "enrich_rag_docs": [],
                 "enrich_rag_status": STATUS_EMPTY,
             }
@@ -574,19 +614,24 @@ Do not include any text outside the JSON object."""
         try:
             docs = _run_search_retrieval(candidate_queries, settings)
             status = _docs_status(docs)
-            _emit_phase(
-                "rag_enrich",
-                "completed",
-                {"status": status, "docs": len(docs), "queries": len(candidate_queries)},
-            )
             return {
+                **_complete_phase(
+                    "rag_enrich",
+                    {"status": status, "docs": len(docs), "queries": len(candidate_queries)},
+                    docs_detail(
+                        docs,
+                        queries=candidate_queries,
+                        # rag_base ran a superstep earlier, so its event already carries these.
+                        sent_ids={doc_id(doc) for doc in state.get("base_rag_docs") or []},
+                    ),
+                ),
                 "enrich_rag_docs": docs,
                 "enrich_rag_status": status,
             }
         except Exception:
             logger.exception("Enriched RAG retrieval failed")
-            _emit_phase("rag_enrich", "completed", {"status": STATUS_ERROR, "docs": 0})
             return {
+                **_complete_phase("rag_enrich", {"status": STATUS_ERROR, "docs": 0}),
                 "enrich_rag_docs": [],
                 "enrich_rag_status": STATUS_ERROR,
             }
@@ -602,26 +647,34 @@ Do not include any text outside the JSON object."""
             )
             reranked_docs = rerank_documents(original_query, merged_docs, settings)
             rag_status = _docs_status(reranked_docs)
+            base_ids = {doc_id(doc) for doc in state["base_rag_docs"]}
+            enrich_ids = {doc_id(doc) for doc in state["enrich_rag_docs"]}
             if rag_status == STATUS_EMPTY and (
                 state["base_rag_status"] == STATUS_ERROR
                 and state["enrich_rag_status"] == STATUS_ERROR
             ):
                 rag_status = STATUS_ERROR
 
-            _emit_phase(
-                "rag_merge",
-                "completed",
-                {"status": rag_status, "docs": len(reranked_docs)},
-            )
             return {
+                **_complete_phase(
+                    "rag_merge",
+                    {"status": rag_status, "docs": len(reranked_docs)},
+                    docs_detail(
+                        reranked_docs,
+                        base_ids=base_ids,
+                        enrich_ids=enrich_ids,
+                        # Every merged doc came from base or enrich, whose events carry its text.
+                        sent_ids=base_ids | enrich_ids,
+                    ),
+                ),
                 "merged_rag_docs": reranked_docs,
                 "rag_status": rag_status,
                 "rag_context": _format_rag_context(reranked_docs),
             }
         except Exception:
             logger.exception("RAG merge failed")
-            _emit_phase("rag_merge", "completed", {"status": STATUS_ERROR, "docs": 0})
             return {
+                **_complete_phase("rag_merge", {"status": STATUS_ERROR, "docs": 0}),
                 "merged_rag_docs": [],
                 "rag_status": STATUS_ERROR,
                 "rag_context": NO_RAG_RESULTS,
@@ -635,10 +688,14 @@ Do not include any text outside the JSON object."""
         )
         if state["trusted_search_status"] == STATUS_ERROR or rag_errored:
             logger.info("Sufficiency gate: upstream ERROR, routing to unrestricted Grok")
-            _emit_phase(
-                "gate", "completed", {"sufficient": False, "reason": "upstream_error"}
-            )
-            return {"sufficient": False}
+            reason = "A search step failed, so the search was broadened to cover the gap."
+            return {
+                **_complete_phase(
+                    "gate", {"sufficient": False}, {"sufficient": False, "reason": reason}
+                ),
+                "sufficient": False,
+                "gate_reason": reason,
+            }
 
         user_question = str(state["messages"][-1].content)
         judge_sections = [
@@ -657,6 +714,7 @@ Do not include any text outside the JSON object."""
             )
             parsed = _parse_json_content(_extract_raw_content(raw))
             sufficient = bool(parsed.get("sufficient", False))
+            reason = str(parsed.get("reason", "")).strip()
             logger.info(
                 "Sufficiency judge decided sufficient=%s reason=%s",
                 sufficient,
@@ -665,31 +723,71 @@ Do not include any text outside the JSON object."""
         except Exception:
             logger.exception("Sufficiency judge failed; defaulting to insufficient")
             sufficient = False
+            reason = ""
 
-        _emit_phase("gate", "completed", {"sufficient": sufficient})
+        gate_update = {
+            **_complete_phase(
+                "gate", {"sufficient": sufficient}, {"sufficient": sufficient, "reason": reason}
+            ),
+            "gate_reason": reason,
+        }
 
         if sufficient:
             return {
+                **gate_update,
                 "sufficient": True,
                 "unrestricted_search_findings": [],
                 "unrestricted_search_response": "",
                 "unrestricted_search_status": STATUS_SKIPPED,
             }
-        return {"sufficient": False}
+        return {**gate_update, "sufficient": False}
 
     def route_from_gate(state: AgentState) -> str:
         return "unrestricted_grok_search" if not state["sufficient"] else "claude_synthesize"
 
     def claude_synthesize(state: AgentState):
-        _emit_phase("synthesize", "started")
+        research_elapsed_ms = int(
+            (time.time() - state.get("run_started_at", time.time())) * 1000
+        )
         original_question = str(state["messages"][-1].content)
         unrestricted_status = state["unrestricted_search_status"]
         unrestricted_skipped = unrestricted_status == STATUS_SKIPPED
         womens_health_status = state.get("womens_health_search_status", STATUS_SKIPPED)
         womens_health_present = womens_health_status != STATUS_SKIPPED
 
+        # Evidence goes to Claude as citable documents; evidence_ids[i] names
+        # document i so citations resolve back to items in the research trace.
+        documents: list[dict] = []
+        evidence_ids: list[str] = []
+        for doc in state["merged_rag_docs"]:
+            info = doc_info(doc)
+            documents.append(archive_document(info))
+            evidence_ids.append(str(info["id"]))
+        archive_count = len(documents)
+        x_channels = [
+            ("Trusted X accounts", "x-trusted", state.get("trusted_search_findings", []))
+        ]
+        if womens_health_present:
+            x_channels.append(
+                (
+                    "Trusted women's-health X accounts",
+                    "x-womens",
+                    state.get("womens_health_search_findings", []),
+                )
+            )
+        if not unrestricted_skipped:
+            x_channels.append(
+                ("Broader X search", "x-broad", state.get("unrestricted_search_findings", []))
+            )
+        for channel, prefix, findings in x_channels:
+            for item in finding_items(findings, prefix):
+                documents.append(finding_document(item, channel))
+                evidence_ids.append(str(item["id"]))
+
+        _emit_phase("synthesize", "started", detail={"evidence": evidence_ids})
+
         priority_lines = [
-            "1. RAG system over a curated research archive",
+            "1. Curated research archive",
             "2. Trusted X accounts",
         ]
         next_idx = 3
@@ -697,7 +795,7 @@ Do not include any text outside the JSON object."""
             priority_lines.append(f"{next_idx}. Trusted women's-health X accounts")
             next_idx += 1
         if not unrestricted_skipped:
-            priority_lines.append(f"{next_idx}. Unrestricted X Search")
+            priority_lines.append(f"{next_idx}. Broader X search")
 
         sections = [
             f"## User Question\n{original_question}",
@@ -718,59 +816,76 @@ Do not include any text outside the JSON object."""
             status_lines.insert(1, f"- Unrestricted X Search: {unrestricted_status}")
         sections.append("## Branch Status\n" + "\n".join(status_lines))
 
-        sections.append(f"## Trusted X Findings\n{state['trusted_search_response']}")
-        if womens_health_present:
+        if documents:
             sections.append(
-                f"## Women's-Health X Findings\n{state['womens_health_search_response']}"
+                f"## Evidence\n{archive_count} curated research archive excerpts and "
+                f"{len(documents) - archive_count} X findings are attached as documents."
             )
-        if not unrestricted_skipped:
-            sections.append(
-                f"## Unrestricted X Findings\n{state['unrestricted_search_response']}"
-            )
-        sections.append(f"## Retrieved Documents\n{state['rag_context']}")
+        else:
+            sections.append("## Evidence\nNo evidence documents were retrieved.")
 
         user_content = "\n\n".join(sections)
+        human_content = (
+            [*documents, {"type": "text", "text": user_content}] if documents else user_content
+        )
 
         messages = [
             SystemMessage(content=synthesis_system),
             *state["messages"][:-1],
-            HumanMessage(content=user_content),
+            HumanMessage(content=human_content),
         ]
 
         logger.info(
-            "claude_synthesize invoke: trusted=%s womens_health=%s base_rag=%s enrich_rag=%s rag=%s unrestricted=%s user_chars=%d",
+            "claude_synthesize invoke: trusted=%s womens_health=%s base_rag=%s enrich_rag=%s rag=%s unrestricted=%s documents=%d user_chars=%d",
             state["trusted_search_status"],
             womens_health_status,
             state["base_rag_status"],
             state["enrich_rag_status"],
             state["rag_status"],
             unrestricted_status,
+            len(documents),
             len(user_content),
         )
 
         response = claude.invoke(messages)
-        extracted = _extract_raw_content(response)
+        text, citations = cited_text_and_citations(response.content, evidence_ids)
         content_blocks = (
             len(response.content) if isinstance(response.content, list) else None
         )
         logger.info(
-            "claude_synthesize response: type=%s content_type=%s blocks=%s extracted_chars=%d raw_preview=%s",
+            "claude_synthesize response: type=%s content_type=%s blocks=%s chars=%d citations=%d raw_preview=%s",
             type(response).__name__,
             type(response.content).__name__,
             content_blocks,
-            len(extracted),
+            len(text),
+            len(citations),
             repr(response.content)[:500],
         )
 
-        if not extracted.strip():
+        if not text.strip():
             logger.warning(
                 "claude_synthesize returned empty content; emitting fallback. raw=%s",
                 repr(response.content)[:2000],
             )
-            response = AIMessage(content=SYNTHESIS_FALLBACK_TEXT)
+            text, citations = SYNTHESIS_FALLBACK_TEXT, []
 
-        _emit_phase("synthesize", "completed", {"status": STATUS_SUCCESS})
-        return {"messages": [response]}
+        completed = _complete_phase(
+            "synthesize", {"status": STATUS_SUCCESS}, {"evidence": evidence_ids}
+        )
+        research_trace = {
+            "version": TRACE_VERSION,
+            "elapsed_ms": research_elapsed_ms,
+            "events": [*state.get("trace", []), *completed["trace"]],
+        }
+        # Keep the streamed message's id so LangGraph doesn't re-emit it as new.
+        answer = AIMessage(
+            content=text,
+            id=response.id,
+            additional_kwargs={"research_trace": research_trace, "citations": citations},
+            response_metadata=response.response_metadata,
+            usage_metadata=response.usage_metadata,
+        )
+        return {"messages": [answer], **completed}
 
     graph = StateGraph(AgentState)
     graph.add_node("classify_womens_health", classify_womens_health)
