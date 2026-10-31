@@ -4,6 +4,8 @@ from typing import Annotated
 from langgraph.graph.message import add_messages
 from typing_extensions import TypedDict
 
+from health_agent.trace import merge_trace
+
 
 class AgentState(TypedDict):
     messages: Annotated[list, add_messages]
@@ -26,3 +28,6 @@ class AgentState(TypedDict):
     rag_status: str
     rag_context: str
     sufficient: bool
+    gate_reason: str
+    run_started_at: float
+    trace: Annotated[list[dict], merge_trace]

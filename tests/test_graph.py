@@ -3,6 +3,7 @@ from unittest.mock import MagicMock, patch
 
 from langchain_core.documents import Document
 from langchain_core.messages import AIMessage, HumanMessage
+from langgraph.checkpoint.memory import InMemorySaver
 
 from health_agent.config import Settings
 from health_agent.graph import (
@@ -86,7 +87,9 @@ def _finding(
     }
 
 
-def _build_graph(*, trusted=None, unrestricted=None, claude=None, judge=None, classifier=None):
+def _build_graph(
+    *, trusted=None, unrestricted=None, claude=None, judge=None, classifier=None, checkpointer=None
+):
     settings = Settings(
         voyage_api_key="test-voyage-key",
         anthropic_api_key="test-anthropic-key",
@@ -108,7 +111,7 @@ def _build_graph(*, trusted=None, unrestricted=None, claude=None, judge=None, cl
             return_value=classifier or _make_json_model({"is_womens_health": False}),
         ),
     ):
-        graph = build_graph(settings)
+        graph = build_graph(settings, checkpointer=checkpointer)
     return graph
 
 
@@ -403,6 +406,30 @@ def test_rag_merge_dedupes_and_reranks():
     assert result["rag_context"] == "same doc"
 
 
+def test_rag_merge_event_references_docs_without_repeating_their_text():
+    """Base and enrich events already carry each doc's text; merge sends hits only."""
+    fn = _get_node_func("rag_merge")
+    doc = Document(page_content="same doc", metadata={"source": "a"})
+
+    with patch(
+        "health_agent.graph.rerank_documents",
+        side_effect=lambda query, docs, settings: docs,
+    ):
+        result = fn(
+            {
+                "messages": [HumanMessage(content="benefits of magnesium")],
+                "base_rag_docs": [doc],
+                "enrich_rag_docs": [],
+                "base_rag_status": STATUS_SUCCESS,
+                "enrich_rag_status": STATUS_EMPTY,
+            }
+        )
+
+    detail = result["trace"][0]["detail"]
+    assert [hit["origin"] for hit in detail["hits"]] == ["base"]
+    assert detail["docs"] == {}
+
+
 def test_claude_synthesize_includes_question_and_statuses():
     captured = {}
     claude_model = _make_claude_model(captured)
@@ -430,11 +457,156 @@ def test_claude_synthesize_includes_question_and_statuses():
     content = human_messages[-1].content
 
     assert "What are the benefits of magnesium?" in content
-    assert "RAG system over a curated research archive" in content
+    assert "Curated research archive" in content
     assert "Trusted X Search: success" in content
     assert "Unrestricted X Search: empty" in content
-    assert "## Trusted X Findings" in content
-    assert "## Retrieved Documents" in content
+    assert "No evidence documents were retrieved." in content
+
+
+def _synth_state(**overrides):
+    state = {
+        "messages": [HumanMessage(content="Does zinc help fertility?")],
+        "trusted_search_findings": [
+            _finding(
+                claim="Zinc supports sperm motility.",
+                source_urls=["https://x.com/hubermanlab/status/111"],
+                relevance="Directly about male fertility.",
+            )
+        ],
+        "trusted_search_response": "[]",
+        "trusted_refined_queries": ["zinc sperm"],
+        "trusted_search_status": STATUS_SUCCESS,
+        "unrestricted_search_response": "",
+        "unrestricted_search_status": STATUS_SKIPPED,
+        "base_rag_docs": [],
+        "base_rag_status": STATUS_SUCCESS,
+        "enrich_rag_docs": [],
+        "enrich_rag_status": STATUS_EMPTY,
+        "merged_rag_docs": [
+            Document(
+                page_content="Zinc > Fertility\n\nZinc deficiency lowers testosterone.",
+                metadata={
+                    "title": "Thyroid and Fertility",
+                    "author": "Ray Peat",
+                    "header_path": "Zinc > Fertility",
+                    "source_path": "peat/thyroid.md",
+                    "chunk_index": 3,
+                    "relevance_score": 0.91,
+                },
+            )
+        ],
+        "rag_status": STATUS_SUCCESS,
+        "rag_context": "ctx",
+        "trace": [{"phase": "gate", "status": "completed", "meta": {"sufficient": True}}],
+    }
+    state.update(overrides)
+    return state
+
+
+def test_claude_synthesize_attaches_evidence_as_citable_documents():
+    captured = {}
+    fn = _get_node_func("claude_synthesize", claude=_make_claude_model(captured))
+
+    fn(_synth_state())
+
+    content = captured["messages"][-1].content
+    documents = [block for block in content if block.get("type") == "document"]
+    assert [d["title"] for d in documents] == [
+        "Thyroid and Fertility — Ray Peat",
+        "Trusted X accounts — @hubermanlab",
+    ]
+    assert all(d["citations"] == {"enabled": True} for d in documents)
+    # The header prefix is stripped so quotes match the excerpt shown in the trace.
+    assert documents[0]["source"]["data"] == "Zinc deficiency lowers testosterone."
+    assert documents[0]["context"] == "Section: Zinc > Fertility"
+    assert documents[1]["context"] == "Why it matters: Directly about male fertility."
+    assert content[-1]["type"] == "text"
+    assert "1 curated research archive excerpts and 1 X findings" in content[-1]["text"]
+
+
+def test_claude_synthesize_flattens_citations_and_persists_trace():
+    claude_model = MagicMock()
+    claude_model.invoke = lambda messages, **kwargs: AIMessage(
+        id="run-1",
+        content=[
+            {"type": "text", "text": "Zinc matters. "},
+            {
+                "type": "text",
+                "text": "Low zinc lowers testosterone",
+                "citations": [
+                    {"type": "char_location", "document_index": 0, "cited_text": "Zinc deficiency lowers testosterone."},
+                    {"type": "char_location", "document_index": 9, "cited_text": "out of range"},
+                ],
+            },
+            {"type": "text", "text": ".", "citations": None},
+            {
+                "type": "text",
+                "text": " Motility improves.",
+                "citations": [
+                    {"type": "char_location", "document_index": 1, "cited_text": "Zinc supports sperm motility."}
+                ],
+            },
+        ],
+    )
+    fn = _get_node_func("claude_synthesize", claude=claude_model)
+
+    result = fn(_synth_state(run_started_at=0.0))
+    answer = result["messages"][-1]
+
+    assert answer.id == "run-1"
+    assert answer.content == "Zinc matters. Low zinc lowers testosterone. Motility improves."
+    citations = answer.additional_kwargs["citations"]
+    assert [(c["offset"], c["quote"]) for c in citations] == [
+        (len("Zinc matters. Low zinc lowers testosterone"), "Zinc deficiency lowers testosterone."),
+        (len(answer.content), "Zinc supports sperm motility."),
+    ]
+    assert citations[0]["evidence_id"].startswith("doc-")
+    assert citations[1]["evidence_id"] == "x-trusted-1"
+
+    trace = answer.additional_kwargs["research_trace"]
+    assert trace["version"] == 1
+    assert trace["elapsed_ms"] > 0
+    assert [e["phase"] for e in trace["events"]] == ["gate", "synthesize"]
+    assert trace["events"][-1]["detail"]["evidence"] == [
+        citations[0]["evidence_id"],
+        "x-trusted-1",
+    ]
+    assert result["trace"] == [trace["events"][-1]]
+
+
+def test_trusted_grok_search_drops_urls_grok_never_cited():
+    payload = json.dumps(
+        {
+            "findings": [
+                _finding(
+                    source_urls=[
+                        "https://x.com/hubermanlab/status/111",
+                        "https://x.com/hubermanlab/status/999",
+                    ]
+                )
+            ],
+            "refined_queries": ["magnesium sleep"],
+        }
+    )
+    model = _make_search_model(payload)
+    bound = model.with_config({}).bind()
+    bound.invoke = lambda messages, **kwargs: AIMessage(
+        content=payload,
+        additional_kwargs={"citations": ["https://x.com/i/status/111"]},
+    )
+    fn = _get_node_func("trusted_grok_search", trusted=model)
+
+    result = fn({"messages": [HumanMessage(content="magnesium sleep")]})
+
+    assert result["trusted_search_findings"][0]["source_urls"] == [
+        "https://x.com/hubermanlab/status/111"
+    ]
+    detail = result["trace"][0]["detail"]
+    assert detail["posts"] == ["https://x.com/i/status/111"]
+    assert result["trace"][0]["meta"]["posts"] == 1
+    assert detail["queries"] == ["magnesium sleep"]
+    assert detail["findings"][0]["id"] == "x-trusted-1"
+    assert detail["findings"][0]["handles"] == ["hubermanlab"]
 
 
 def test_claude_synthesize_falls_back_on_empty_string(caplog):
@@ -663,7 +835,9 @@ def test_sufficiency_gate_short_circuits_when_trusted_search_errored():
         )
     )
 
-    assert result == {"sufficient": False}
+    assert result["sufficient"] is False
+    assert result["gate_reason"]
+    assert result["trace"][0]["detail"]["reason"] == result["gate_reason"]
     assert tracked_judge.invoke.call_count == 0
 
 
@@ -679,7 +853,9 @@ def test_sufficiency_gate_short_circuits_when_both_rag_branches_errored():
         )
     )
 
-    assert result == {"sufficient": False}
+    assert result["sufficient"] is False
+    assert result["gate_reason"]
+    assert result["trace"][0]["detail"]["reason"] == result["gate_reason"]
     assert tracked_judge.invoke.call_count == 0
 
 
@@ -730,7 +906,17 @@ def test_sufficiency_gate_insufficient_does_not_pre_set_skip_fields():
         )
     )
 
-    assert result == {"sufficient": False}
+    assert result["sufficient"] is False
+    assert "unrestricted_search_status" not in result
+    assert result["gate_reason"] == "thin evidence"
+    assert result["trace"] == [
+        {
+            "phase": "gate",
+            "status": "completed",
+            "meta": {"sufficient": False},
+            "detail": {"sufficient": False, "reason": "thin evidence"},
+        }
+    ]
 
 
 def test_rag_retrieve_enrich_skips_when_only_original_query():
@@ -875,3 +1061,24 @@ def test_graph_skips_unrestricted_when_judge_says_sufficient():
     assert result["unrestricted_search_status"] == STATUS_SKIPPED
     assert result["unrestricted_search_findings"] == []
     assert result["messages"][-1].content == "final answer"
+
+
+def test_graph_trace_resets_each_turn():
+    graph = _build_graph(
+        trusted=_make_search_model(_VALID_FINDINGS_PAYLOAD),
+        judge=_make_json_model({"sufficient": True, "reason": "covered"}),
+        claude=_make_claude_model(),
+        checkpointer=InMemorySaver(),
+    )
+    config = {"configurable": {"thread_id": "t1"}}
+
+    patches = _patched_rag()
+    with patches[0], patches[1]:
+        graph.invoke({"messages": [HumanMessage(content="benefits of magnesium")]}, config)
+        second = graph.invoke({"messages": [HumanMessage(content="and zinc?")]}, config)
+
+    phases = [e["phase"] for e in second["trace"]]
+    assert phases.count("synthesize") == 1
+    assert {"trusted_search", "rag_base", "rag_merge", "gate"} <= set(phases)
+    trace = second["messages"][-1].additional_kwargs["research_trace"]
+    assert trace["events"] == second["trace"]

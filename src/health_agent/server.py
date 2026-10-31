@@ -71,6 +71,9 @@ def _serialize_messages(messages: list[Any]) -> list[dict[str, Any]]:
                 tool_calls = getattr(msg, "tool_calls", None)
                 if tool_calls:
                     base["tool_calls"] = tool_calls
+                for key in ("research_trace", "citations"):
+                    if msg.additional_kwargs.get(key):
+                        base[key] = msg.additional_kwargs[key]
             elif msg.type == "tool":
                 base["tool_call_id"] = getattr(msg, "tool_call_id", None)
                 base["name"] = getattr(msg, "name", None)
@@ -291,6 +294,34 @@ def _first_text_from_input(inp: Any) -> str | None:
     return None
 
 
+def _token_payloads(content: Any) -> list[dict[str, Any]]:
+    """Split a streamed message chunk into token events.
+
+    With cited documents Claude streams indexed text blocks; `block` lets the
+    client anchor each block's `citations` at the end of that block's text.
+    """
+    if not isinstance(content, list):
+        text = str(content or "")
+        return [{"content": text}] if text else []
+    payloads: list[dict[str, Any]] = []
+    for block in content:
+        if not isinstance(block, dict) or block.get("type") != "text":
+            continue
+        payload: dict[str, Any] = {"content": block.get("text") or ""}
+        if isinstance(block.get("index"), int):
+            payload["block"] = block["index"]
+        citations = [
+            {"document_index": c.get("document_index"), "cited_text": c.get("cited_text", "")}
+            for c in block.get("citations") or []
+            if isinstance(c, dict) and isinstance(c.get("document_index"), int)
+        ]
+        if citations:
+            payload["citations"] = citations
+        if payload["content"] or citations:
+            payloads.append(payload)
+    return payloads
+
+
 async def _stream_events(
     graph: Any,
     input_payload: Any,
@@ -309,26 +340,9 @@ async def _stream_events(
                 tags = (metadata or {}).get("tags") or []
                 if "nostream" in tags:
                     continue
-                content = message_chunk.content
-                if isinstance(content, list):
-                    text_parts = [
-                        block.get("text", "")
-                        for block in content
-                        if isinstance(block, dict) and block.get("type") == "text"
-                    ]
-                    text = "".join(text_parts)
-                else:
-                    text = str(content or "")
-                if text:
-                    yield {
-                        "event": "token",
-                        "data": json.dumps(
-                            {
-                                "content": text,
-                                "node": (metadata or {}).get("langgraph_node"),
-                            }
-                        ),
-                    }
+                node = (metadata or {}).get("langgraph_node")
+                for token in _token_payloads(message_chunk.content):
+                    yield {"event": "token", "data": json.dumps({**token, "node": node})}
             elif mode == "updates":
                 yield {
                     "event": "update",
@@ -347,12 +361,10 @@ async def _stream_events(
                 logger.debug(
                     "phase event: phase=%s status=%s meta=%s", phase, status, meta
                 )
-                yield {
-                    "event": "phase",
-                    "data": json.dumps(
-                        {"phase": phase, "status": status, "meta": meta}
-                    ),
-                }
+                event = {"phase": phase, "status": status, "meta": meta}
+                if chunk.get("detail") is not None:
+                    event["detail"] = chunk["detail"]
+                yield {"event": "phase", "data": json.dumps(event)}
     except asyncio.CancelledError:
         raise
     except Exception as exc:
