@@ -11,9 +11,10 @@ services:
     healthCheckPath: /ok
     # A chat streams for 60-90 s; give in-flight runs time to finish when a deploy replaces the instance (default 30 s).
     maxShutdownDelaySeconds: 120
-    # Runs once per deploy, before the new instance takes traffic. Ingest embeds only
-    # resources that changed, so the index always matches the deployed resources/.
-    preDeployCommand: sh -c "alembic upgrade head && health-agent ingest"
+    # Runs once per deploy, before the new instance takes traffic: migrations, then an
+    # ingest that embeds only changed resources, so the index matches the deployed
+    # resources/. One command, because Render runs this without a reliable shell.
+    preDeployCommand: health-agent predeploy
     envVars:
       - key: LANGSMITH_TRACING
         value: "true"
