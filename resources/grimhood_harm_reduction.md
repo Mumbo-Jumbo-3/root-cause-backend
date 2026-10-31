@@ -1,3 +1,5 @@
+# Harm Reduction
+
 This advice applies to those who even just use drugs or alcohol recreationally. 
 
 This will be separated into the different drug classes... First and foremost, TESTING is crucial in the modern street scene nowadays. Fentanyl and its analogs are being found in not only heroin and oxycodone, but also Xanax and Klonopin, cocaine, ketamine, and MDMA/ecstasy. It's really not a game, do not play with your life. Drug and specifically fentanyl overdoses became the highest death rate for people my age especially, people in their 20s. This is quite literally an epidemic. Had they taken the brief time to test their substances, many overdoses may have been prevented altogether. You should be testing ANY substances you buy off the street even if you are best friends with the person you purchased them from, again do not play with your life.

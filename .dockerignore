@@ -6,6 +6,5 @@
 .pytest_cache
 **/__pycache__
 evals
-resources
 scripts
 tests

@@ -1,3 +1,5 @@
+# Lyme Disease
+
 It has been noted that a very large percentage of herbal formulations requested are to deal with LYME Disease cases. As such, it is a significant increasing sales development in Natural Health in North America and worldwide.
 
 What I have here is a review on the top herbs effective at complete destruction of Lyme in all forms and stages of life.

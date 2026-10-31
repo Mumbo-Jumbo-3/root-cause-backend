@@ -1,12 +1,4 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-# This program was created by George @Helios_movement. 
-
-**The system lesson 9: Learning how to properly use supplements** 
+# The System, Lesson 9: Learning How to Properly Use Supplements
 
 Now first and foremost, optimizing your supplement regime and diving past basic supplements, should concern you only if your: ● Nutrition ● Bodyweight ● Sleep ● Training routine ● Light environment ● Stress management and overall recovery are on point. 
 
@@ -28,10 +20,7 @@ long time.
 
 Then, another big problem regarding this is that supplements lack transport proteins and all 
 
-nutrients work synergistically. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+nutrients work synergistically.
 
 For example: 
 
@@ -73,10 +62,7 @@ our body works.
 
 Calcium, zinc and iron for example compete for absorption in the small intestine through 
 
-DMT1. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+DMT1.
 
 Then vitamin E can interfere with some of the effects that vitamin K has such as its role in 
 
@@ -114,10 +100,7 @@ magnesium oxide, zinc oxide, pyridoxine etc).
 
 that there are plenty of “loopholes” that can be used such as measuring the nitrogen content 
 
-of your protein powder which has led to amino spiking for example. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+of your protein powder which has led to amino spiking for example.
 
 8. Most people are totally unaware that the subspecies in probiotics play a HUGE role for 
 
@@ -159,12 +142,7 @@ first which doesn’t really have our best interests in mind.
 
 12. Plenty of foods have more benefits that not only compared to the supplements at a 
 
-low/medium price point but a very high as well. If a supplement, had the history and 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
-
-benefits of kefir for example, it would sell a lot. It’s just that you can only make so much 
+low/medium price point but a very high as well. If a supplement, had the history and benefits of kefir for example, it would sell a lot. It’s just that you can only make so much 
 
 profit from foods. I can’t sell you for example a $30 bottle of kefir yet i can very easily sell 
 
@@ -210,10 +188,7 @@ Yet many people react badly to zinc supplements, ascorbic acid supplements, cert
 
 of magnesium such as magnesium citrate and even get heart issues from calcium 
 
-supplements. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+supplements.
 
 The reasons why behind this are not very hard to understand if we know the fundamentals 
 
@@ -257,10 +232,7 @@ acetone and in general, they do not follow the same oxidation process that happe
 
 bodies. 
 
-Argument 2: "The rest of the compounds aren't that important". 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Argument 2: "The rest of the compounds aren't that important".
 
 Whole: A.A + rutin, bioflavonoids, K-factor, J-factor, P-factor, tyrosinase and 
 
@@ -298,10 +270,7 @@ Then i promise you, if you work in front of screens all day, a pair of blue ligh
 
 glasses will have a greater impact on your overall health than the vast majority of 
 
-supplements. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+supplements.
 
 Then if you as a man go from 20% body fat (or more) down to a 12%, this will have a 
 
@@ -329,10 +298,7 @@ That’s just one example.
 
 So here are some habits and supplements that i highly advise you to stay away from. 
 
-**-(Kind of) any supplement with the following additives:** ● Silicon dioxide ● Titanium dioxide 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**-(Kind of) any supplement with the following additives:** ● Silicon dioxide ● Titanium dioxide
 
 ● Gums ● Artificial colourings such as red 40, blue 2, yellow 5 ● Polyethylene ● Carrageenan ● Magnesium silicate ● Hydrogenated oils 
 
@@ -356,10 +322,7 @@ https://suppversity.blogspot.com/2015/04/titanium-dioxide-nanoparticles-are.html
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6277880/ 
 
-**-”Large” amounts of anything.** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**-”Large” amounts of anything.**
 
 Obviously this isn’t something mindblowing since consuming too much of anything will have a negative outcome. We can even die from drinking too much water for example. 
 
@@ -377,10 +340,7 @@ Now the bioavailability depends on the nutrient, the form (we suggest bioavailab
 
 Retinyl esters for example have a 70-90%, cholecalciferol has a 60-90%, d-alpha-tocopherol (natural), dl-alpha-tocopherol (synthetic) has a 60-80% typical in oil-based supplements), K1 has a 50-80% and K2 has a 70 up to a whooping 95% in the case of MK7. 
 
-2. Water soluble vitamins. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+2. Water soluble vitamins.
 
 The only “trick” with water soluble vitamins is that their bioavailability decreases at higher doses up to even 40% due to the saturation of absorption mechanisms and in the case of vitamin C we experience up to an even 70% decrease. 
 
@@ -398,12 +358,9 @@ Step 1 (converting IU to mcg): given the fact that 1 IU gives us 0.025 mcg of ch
 
 Step 2: Determining bioavailability based on the from and conditions. Let’s say that we will take the supplement with a fatty meal, this will increase its absorption. 
 
-So, we will assume a bioavailability of 90% (0.9) and thus we will have 5 mcg × 0.9 = 4.5 mcg of bioavailable vitamin D3. 
+So, we will assume a bioavailability of 90% (0.9) and thus we will have 5 mcg × 0.9 = 4.5 mcg of bioavailable vitamin D3.
 
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
-
- Number 2: Let’s say that you consume a large amount of ascorbic acid and make the amount 1000mg. 
+Number 2: Let’s say that you consume a large amount of ascorbic acid and make the amount 1000mg. 
 
  Remember: At 200mg, we have an up to 90% bioavailability but then, it drops a lot due to saturation, so at 1000mg we will have 50%. 
 
@@ -423,10 +380,7 @@ But if we don’t cycle, we will sooner or later experience digestive discomfort
 
  Once again remember that supplements are tools to be used under specific circumstances and will caused issues if they are used for too long. 
 
- Other examples include: 
-
- The system V2.0 (lesson 9) written by George @Helios_Movement Sold to 
-
+ Other examples include:
 
 -L glutamine that can be great but let's not forget its relationship with cancer (why all of the great gut health clinics strictly advise against using it for more than 2-3 months). -BPC-157 that can also be extremely valuable but can also negatively affect certain tumors. -P5P can benefit your libido and mood in some cases but let’s not forget that too much B6 can cause peripheral neuropathy. -Boron could help your free testosterone levels and mitigate some of the damage that sodium fluoride has caused on tissues but past a certain point will obviously raise estrogen. -Nattokinase can be great for our cardiovascular health but use it for too long and your libido will go bye bye (i hope that you are enjoying my professional commentary by the way). -Binders can be valuable tools when it comes to excreting toxins but if we use them for too long side effects such as low stomach acid or mineral depletion depending on the binder will be experienced. -Just because certain antimicrobial compounds are natural it does not mean that their prolonged used will negatively impact certain bacterial strains in our guts that are beneficial. 
 
@@ -434,10 +388,7 @@ And let’s put the final nail on the coffin in this by talking about ashwagandh
 
 People didn’t cycle it and consumed it for weeks on end which is insane for a supplement this potent. 
 
-Ashwagandha as you can see in the studies down below can have benefits: https://pubmed.ncbi.nlm.nih.gov/26609282/ https://pubmed.ncbi.nlm.nih.gov/30854916/ https://pmc.ncbi.nlm.nih.gov/articles/PMC3252722/ https://pubmed.ncbi.nlm.nih.gov/30463324/ https://pubmed.ncbi.nlm.nih.gov/28829155/ https://pmc.ncbi.nlm.nih.gov/articles/PMC6750292/ https://pmc.ncbi.nlm.nih.gov/articles/PMC3573577/ https://pubmed.ncbi.nlm.nih.gov/28471731 https://pmc.ncbi.nlm.nih.gov/articles/PMC6827862/ https://pmc.ncbi.nlm.nih.gov/articles/PMC4609357/ 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Ashwagandha as you can see in the studies down below can have benefits: https://pubmed.ncbi.nlm.nih.gov/26609282/ https://pubmed.ncbi.nlm.nih.gov/30854916/ https://pmc.ncbi.nlm.nih.gov/articles/PMC3252722/ https://pubmed.ncbi.nlm.nih.gov/30463324/ https://pubmed.ncbi.nlm.nih.gov/28829155/ https://pmc.ncbi.nlm.nih.gov/articles/PMC6750292/ https://pmc.ncbi.nlm.nih.gov/articles/PMC3573577/ https://pubmed.ncbi.nlm.nih.gov/28471731 https://pmc.ncbi.nlm.nih.gov/articles/PMC6827862/ https://pmc.ncbi.nlm.nih.gov/articles/PMC4609357/
 
 And then of course you can add more studies about the benefits it has when used topically. 
 
@@ -459,10 +410,7 @@ Most of these products need way too many toxic fillers in order to be made by de
 
 Besides this, they rarely include co-factors. What they do is targeting the false assumption that more = better but as we saw if you make a mineral supplement for example with calcium, zinc and iron, it’s stupid because they all compete for absorption in the small intestine through DMT1. 
 
-So in general, if something has more than 4 compounds in it, you should probably not buy it. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+So in general, if something has more than 4 compounds in it, you should probably not buy it.
 
 **-Supplements labeled as solely testosterone boosters.** 
 
@@ -488,10 +436,7 @@ Most of them contain a lot of allergens and even heavy metals and in general sta
 
 - **Melatonin supplements unless you’re fighting a virus.** 
 
-Synthetic melatonin can even trigger autoimmune diseases and will decrease a-MSH. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Synthetic melatonin can even trigger autoimmune diseases and will decrease a-MSH.
 
 **-Fish oils.** 
 
@@ -515,10 +460,7 @@ But remember: The point of using supplements is to restore balance within our bo
 
 Learn to recognise the point of diminishing returns through your personal experience and the material within this file in order to have the most linear progress possible. 
 
-**Thiamine (vitamin B1)** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Thiamine (vitamin B1)**
 
 Overall, it is an essential for our metabolic health by assisting the enzymatic reactions in the breakdown of glucose for example (TPP coverts pyruvate into acetyl-CoA for example, affects the generation of NADPH and ribose-5-phospate etc), it aids in the synethsis of neurotransmitter such as acetylcholine, plays a role in muscle contraction, the conduction of nerve signals, is essential for GABA, boosts CO2, is involved in the flow of electrolytes into and out of muscle and nerve cells, lowers lactic acid, supports our digestive health, liver, heart and every single organ overall. 
 
@@ -536,10 +478,7 @@ These forms are water soluble and they are basically a salt that is absorbed in 
 
 Now we are talking about fat soluble forms (the later been found naturally in garlic) with high availabilty since they penetrate the cell membranes better (we are talking up to 7 times more compared to the water soluble forms). 
 
-**Best time to consume:** You can use this one whenever you want, but first thing in the morning with breakfast, before a workout and with a high carb meal will have the biggest ROIs (do not consume thiamine 4 hours before your bed time (it could help with sleep in people that go through a lot of stress, but for most, it will have a stimulatory effect that will negatively impact sleep)). 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** You can use this one whenever you want, but first thing in the morning with breakfast, before a workout and with a high carb meal will have the biggest ROIs (do not consume thiamine 4 hours before your bed time (it could help with sleep in people that go through a lot of stress, but for most, it will have a stimulatory effect that will negatively impact sleep)).
 
 **Interactions:** They should not be combined with vitamin C, H2 medication and large amounts of caffeine at the same meal since their absorption will suffer a lot. 
 
@@ -561,10 +500,7 @@ Riboflavin 5’-Phosphate is the ideal form since it’s the active coenzyme for
 
 **Cycling period:** If you are dealing with an SNP in MTFR you can use low doses such as 5-10mg for a lifetime. 
 
-Otherwise unless we are also talking about something serious, i do not suggest using it for more than 3 weeks at a time. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Otherwise unless we are also talking about something serious, i do not suggest using it for more than 3 weeks at a time.
 
 **But, most people can get enough riboflavin from foods alone so supplementation usually will not be necessary and is highly contextual.** 
 
@@ -588,10 +524,7 @@ So which one should you use? Nicotinic acid if your goal is to improve your lipi
 
 **Best time to consume:** Before a workout. 
 
-**Interactions:** It also should not be combined with H2 medications and large amounts of caffeine. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Interactions:** It also should not be combined with H2 medications and large amounts of caffeine.
 
 **Cycling period:** Do not use it for more than 2 weeks at a time in my opinion unless your doctor advises otherwise. 
 
@@ -613,10 +546,7 @@ Two other benefits of NAD+ compared to basic niacin supplements are the fact tha
 
 **And on a final note: most people can get enough niacin from foods alone so supplementation usually is highly contextual.** 
 
-**Calcium pantothenate (vitamin B5 (the calcium is cleaved off in the gut))** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Calcium pantothenate (vitamin B5 (the calcium is cleaved off in the gut))**
 
 Here we have one more of the water-soluble B vitamins that is essential for energy metabolism, hormone synthesis, the production of coenzyme A (CoA) which has many functions such as the fact that it aids in acetylating toxins in the liver. 
 
@@ -638,10 +568,7 @@ Who could benefit from its usage: People who suffer from high prolactin, epileps
 
 **Form 1:** Pyridoxine Hydrochloride (Pyridoxine HCl) 
 
-This basically is B6 (pyridoxine) salt and thus a water soluble form that is absorbed in the small intestine and converted to active pyridoxal 5’-phosphate (PLP) in the liver (a process that requires B2) but you stay way from this form since it will cause peripheral neuropathy sooner or later (you should also stay away from pyridoxamine (which is quite rare but cheap and thus used in supplements some times)). 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+This basically is B6 (pyridoxine) salt and thus a water soluble form that is absorbed in the small intestine and converted to active pyridoxal 5’-phosphate (PLP) in the liver (a process that requires B2) but you stay way from this form since it will cause peripheral neuropathy sooner or later (you should also stay away from pyridoxamine (which is quite rare but cheap and thus used in supplements some times)).
 
 **Form 2:** Pyridoxal 5’-Phosphate (PLP) 
 
@@ -667,10 +594,7 @@ Disclaimer: Its supplementation will negatively affect lab results so take a wee
 
 **Cycling period:** Do not use it for more than 4 weeks at a time in my opinion unless your doctor advises otherwise. 
 
-**Inositol (vitamin B8)** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Inositol (vitamin B8)**
 
 Now even though we can synthesize up to 4 grams of this one (our gut bacteria can synthesize small amounts of other B vitamins such as B7, B9 and B12) its supplementation can have a variety of benefits for people’s mental health, metabolic function and reproductive health since it is a structural component of cell membranes, influences neurotransmitters like serotonin and dopamine, enhances insulin sensitivity/glucose uptake, lipid metabolism, supports ovarian function and egg quality improving glucose uptake and lipid metabolism. 
 
@@ -694,10 +618,7 @@ So unless someone wants to chelate free iron, reduce oxalate crystals or battles
 
 **Best time to consume:** You can use them whenever you want but you should take all forms with a meal ideally. 
 
-**Interactions:** Once again, large amounts of caffeine will harm their absorption. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Interactions:** Once again, large amounts of caffeine will harm their absorption.
 
 **Cycling period:** Do not use the first 2 forms for more than 4 weeks and IP6 for more than 10 days at a time in my opinion unless your doctor advises otherwise. 
 
@@ -721,10 +642,7 @@ BUT, the fact that it doesn’t need conversion and it has a very high bioavaila
 
 **Interactions:** Once again, large amounts of caffeine will harm it absorption. 
 
-**Cycling period:** If you have an SNP in MTFR, you can (or even should) use a low dose for a lifetime. Other than that, do not use it for more that 2-3 weeks at a time. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Cycling period:** If you have an SNP in MTFR, you can (or even should) use a low dose for a lifetime. Other than that, do not use it for more that 2-3 weeks at a time.
 
 **Cobalamin (vitamin B12)** 
 
@@ -750,10 +668,7 @@ This is the active form of B12 with a methyl group attached. it still requires p
 
 **Cycling period:** Do not use it for more that 2 weeks at a time unless you are severely deficient. 
 
-**Trimethylglycine (TMG)** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Trimethylglycine (TMG)**
 
 This is a water soluble glycine analog with three methyl groups attached to its nitrogen atom. Our liver and kidneys synthesize TMG from oxidizing choline into betaine aldehyde and then into TMG with the help of enzymes like choline oxidase and betaine aldehyde dehydrogenase but it’s also a naturally occurring compound found in foods like beets. 
 
@@ -773,10 +688,7 @@ Note: If you have a compromised mucosal layer, fix that first before using suppl
 
 **Astragalus (this guide also discusses herbs)** 
 
-This root that’s maintly used in traditional Chinese medicine is an adaptogen whose main active compounds are polysaccharides, saponins (astragalosides) and flavonoids. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+This root that’s maintly used in traditional Chinese medicine is an adaptogen whose main active compounds are polysaccharides, saponins (astragalosides) and flavonoids.
 
 It has immune-boosting properties (it can stimulate the production and activity of white blood cells, increase antibody production and activate T-cells), it can reduce proteinuria (excess protein in urine), it has a mild supportive effect on the adrenals, it can improve insulin sensitivity, lower blood sugar levels, lower blood pressues and it has antiviral properties. 
 
@@ -796,10 +708,7 @@ If you don’t, you can have it when you feel sick or on high protein and high c
 
 **Usage length:** Even up to 2 months, after this timeline, some studies start to slowly show some negative effects but the possibility is that this happens due to insufficient amounts of dietary copper in the participants diet. 
 
-**Priority supplement for:** Smokers, people who spend a lot of time under the sun, people who face heart problems or have lined up markers for heart disease, people who have taken chemo medications, alcoholics/ recent ex alcoholics. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Priority supplement for:** Smokers, people who spend a lot of time under the sun, people who face heart problems or have lined up markers for heart disease, people who have taken chemo medications, alcoholics/ recent ex alcoholics.
 
 **Whole food vitamin E** 
 
@@ -819,10 +728,7 @@ So, if you actually stick to the recommended dose of 20mg, an interaction is qui
 
 **Some benefits:** Helps our bodies metabolize vitamins and minerals, has a key role in bone health and brain health, lowers excessive estrogen and SHBG, boosts free and total testosterone levels, extends the half life of vitamin D, removes sodium fluoride. 
 
-**Best time to consume:** First of all boron requires an insulin spike, without it, the effects are insignificant a lot of the time. The best time to consume boron is in the A.M with a proper meal. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** First of all boron requires an insulin spike, without it, the effects are insignificant a lot of the time. The best time to consume boron is in the A.M with a proper meal.
 
 **Interactions:** Any estrogen medication. 
 
@@ -846,10 +752,7 @@ This is a form where magnesium is paired with malic acid (a compound that’s fo
 
 It’s perfect for people who either battle aluminum toxicity or just focus on overall detoxing. 
 
-All forms of magnesium can help by lowering aluminum retention in bones and tissues overall but malic acid can also bind certain heavy metals such as aluminum. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+All forms of magnesium can help by lowering aluminum retention in bones and tissues overall but malic acid can also bind certain heavy metals such as aluminum.
 
 The effects are mild and you can not rely just on this for aluminum toxicity, but it’s something good to know in my opinion. 
 
@@ -877,10 +780,7 @@ This from where magnesium is paired with sulfate is also great for muscle recove
 
 **Best time to consume:** This depends on the type. Typically, either first thing in the morning or last thing at night, since taking magnesium mid day can negatively influence the absorption of vitamin D. 
 
-**Interactions:** Magnesium unfortunately, even though it’s recommended by every bro, can negatively interact with many medications and especially antibiotics (there is a time and place for almost anything antibiotics included). 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Interactions:** Magnesium unfortunately, even though it’s recommended by every bro, can negatively interact with many medications and especially antibiotics (there is a time and place for almost anything antibiotics included).
 
 So if you are on any medications, consult your doctor. 
 
@@ -902,10 +802,7 @@ So if you are on any medications, consult your doctor.
 
 **Best time to consume:** Small doses (1 gram) throughout the day since doses of 5 plus grams will disrupt REM sleep in a lot of people if taken at night. 
 
-**Interactions:** A lot of antipsychotic drugs and some SSRIs. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Interactions:** A lot of antipsychotic drugs and some SSRIs.
 
 **Usage length:** Glycine is one of the few supplements that i recommend for most people to take at a low dose and almost every day. 
 
@@ -933,10 +830,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 **Some benefits:** Lowers the risk for heart disease, skyrockets libido, protects your bones, crucial for metabolic health, reduces premature skin aging and is crucial for mitochondrial health. 
 
-**Best time to consume:** You can take vitamin K (i recommend MK7) as long as you consume it with a fatty meal. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** You can take vitamin K (i recommend MK7) as long as you consume it with a fatty meal.
 
 **Interactions:** A lot but fortunately they create an absorption problem and not some counter action unless we are talking about some seizure medications. 
 
@@ -966,10 +860,7 @@ A lot of stress? Take it at night.
 
 Not a lot of stress? Take it in the morning. 
 
-**Interactions:** Any type of steroid. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Interactions:** Any type of steroid.
 
 **Usage length:** Depends on the age and dose. Unfortunately the only standard is that you should never take it for more than 4 weeks and this might even be too much for some people. 
 
@@ -999,12 +890,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 **DAO** 
 
-**Some benefits:** DAO is an enzyme responsible for breaking down histamine in your body. Our bodies decrease histamine levels through 2 enzymes, N-methyltransferase (HNMT) and DAO. If these enzymes are not available (for example certain medications, drinking too much coffee or alcohol and a possible vitamin C, copper, zinc and B6 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
-
-deficiency all can lead to a DAO deficiency) then we will face a histamine build up) (for more on this re-read lesson 1). 
+**Some benefits:** DAO is an enzyme responsible for breaking down histamine in your body. Our bodies decrease histamine levels through 2 enzymes, N-methyltransferase (HNMT) and DAO. If these enzymes are not available (for example certain medications, drinking too much coffee or alcohol and a possible vitamin C, copper, zinc and B6 deficiency all can lead to a DAO deficiency) then we will face a histamine build up) (for more on this re-read lesson 1). 
 
 So DAO will basically help anyone who has problems with histamine intolerance (rashes, migraines, allergies and so on), SIBO and some people with IBS. 
 
@@ -1030,10 +916,7 @@ So DAO will basically help anyone who has problems with histamine intolerance (r
 
 **Methylene blue** 
 
-**Some benefits:** Methylene blue increases NAD/NADH ratio (one of the reasons why it was used to treat schizophrenia), increases the number of mitochondria, is a great antioxidant, it stimulates glucose metabolism and increases oxygen in brain cells. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Some benefits:** Methylene blue increases NAD/NADH ratio (one of the reasons why it was used to treat schizophrenia), increases the number of mitochondria, is a great antioxidant, it stimulates glucose metabolism and increases oxygen in brain cells.
 
 It is a great short term tool in order to restore OXPHOS if one has the common sense to use a low dose, cycle it, use pharmacological grade and replenish B vitamins first. 
 
@@ -1059,10 +942,7 @@ So for most people i’d say that using it 1-3 times per week will be enough.
 
 **Best time to consume:** For most people in the morning and after meals. 
 
-**Interactions:** The only problem with quercetin is that it interacts awfully with a lot of blood thinners (aspirin, any form of B3, ginkgo and even cinnamon), antibiotics and in general a lot of medications. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Interactions:** The only problem with quercetin is that it interacts awfully with a lot of blood thinners (aspirin, any form of B3, ginkgo and even cinnamon), antibiotics and in general a lot of medications.
 
 **Usage length:** No more than a month or two in order to keep the kidneys fully safe. 
 
@@ -1090,10 +970,7 @@ Now obviously different mushrooms have different benefits (*) so the one that yo
 
 (*)Some of them for example will affect your cognition, others your immune system, others will help you balance your blood sugar, others will help you to detox from certain substances and others will have anti-microbial ones. So let’s see the main ones and the areas that can benefit from their consumption. 
 
-**Number 1: Chaga** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Number 1: Chaga**
 
 Inonotus obliquus (chaga) is a fungus with a bitter sweet taste that is typically found in places such as Siberia (the best place to source it), Alaska, Nothern Canada and even Korea, that’s mainly been used in order to: 
 
@@ -1135,12 +1012,7 @@ https://ieeexplore.ieee.org/document/5305591
 
 https://pubmed.ncbi.nlm.nih.gov/19367670/ 
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4946216/ 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
-
-https://www.sciencedirect.com/science/article/abs/pii/S0308814613000526 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4946216/ https://www.sciencedirect.com/science/article/abs/pii/S0308814613000526 
 
 Sounds good? 
 
@@ -1178,10 +1050,7 @@ Ganoderma lucidum (reishi) is a (very) bitter mushroom that has been used in Eas
 
 8. Hashimoto's disease 
 
-9. Adrenal fatigue 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+9. Adrenal fatigue
 
 But it has many many more benefits (all of these obviously have more benefits than the ones mentioned). 
 
@@ -1223,10 +1092,7 @@ Trametes versicolor (turkey tail) is a mushroom with quite the probiotic nature 
 
 5. Improve the function of the immune system 
 
-6. Protect the heart 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+6. Protect the heart
 
 7. Improve gut health post-antibiotic use 
 
@@ -1266,12 +1132,7 @@ Lion's mane can help you with:
 
 Proof of the claims: 
 
-https://pubmed.ncbi.nlm.nih.gov/27350344/ 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5133811/ 
+https://pubmed.ncbi.nlm.nih.gov/27350344/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5133811/ 
 
 https://pubmed.ncbi.nlm.nih.gov/24302966/ 
 
@@ -1311,10 +1172,7 @@ Side effects:
 
 -Gut issues 
 
--Sleep issues 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+-Sleep issues
 
 -Decreased blood clotting 
 
@@ -1344,12 +1202,7 @@ You should also not combine it with other aphrodisiac herbs.
 
 **Cistanche** 
 
-**Some benefits:** Improved fertility (especially for men), increased testosterone, progesterone, anti-aging venefits, liver supportive, neuroprotective, Aphrodisiac, mild heart protective and blood sugar lowering properties, mild immune system supportive benefits, improved eye health, improve insulin resistance, can support a healthy gut microbiome, 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
-
-protects the tesicles against xenoestrogen toxicity, great cognitive enhancer, immune system support, can help people with Alzheimer's disease and is pro dopamine. 
+**Some benefits:** Improved fertility (especially for men), increased testosterone, progesterone, anti-aging venefits, liver supportive, neuroprotective, Aphrodisiac, mild heart protective and blood sugar lowering properties, mild immune system supportive benefits, improved eye health, improve insulin resistance, can support a healthy gut microbiome, protects the tesicles against xenoestrogen toxicity, great cognitive enhancer, immune system support, can help people with Alzheimer's disease and is pro dopamine. 
 
 **Best time to consume:** In the morning. 
 
@@ -1377,10 +1230,7 @@ The only problems with cistanche are that most brands are not of good quality an
 
 **Interactions:** It may interact with certain probiotics and things such as royal jelly. 
 
-None of these were proven with studies, but this will be likely to be the case (if for example you take an antibiotic, this will obviously interact with a probiotic and if you increase DHEA pretty fast this will affect the conversion (what royal jelly does)). 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+None of these were proven with studies, but this will be likely to be the case (if for example you take an antibiotic, this will obviously interact with a probiotic and if you increase DHEA pretty fast this will affect the conversion (what royal jelly does)).
 
 You should also not combine it with other aphrodisiac herbs. 
 
@@ -1414,10 +1264,7 @@ Then i suggest a 2-5 week break.
 
 I would simply only use it if i needed a boost in libido. 
 
-**Priority supplement for:** Men who struggle with low libido. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Priority supplement for:** Men who struggle with low libido.
 
 **Note:** Unfortunately lots of brands of maca are polluted with mycotoxins so you should not use maca unless you trust the source. 
 
@@ -1447,10 +1294,7 @@ So as you can guess its main benefits are the nutritional value and testosterone
 
 **Usage length:** Theoretically you can use butyrate for months on end. 
 
-Practically do not use for more than a month at a time. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Practically do not use for more than a month at a time.
 
 **Priority supplement for:** Men with IBS-C. 
 
@@ -1480,10 +1324,7 @@ But i do not recommend horny goat weed at all. It can mess up your blood pressur
 
 Its main compounds are crocin, picrocrocin and safranal which have been shown to have anti-inflammatory, anti-atherosclerotic, antigenotoxic and cytotoxic activities. 
 
-**Best time to consume:** First thing in the morning. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** First thing in the morning.
 
 **Interactions:** Blood pressre medication, caffeine, sedatives, diabetes meds. 
 
@@ -1509,12 +1350,7 @@ Note: using it long term can negatively affect DHT.
 
 **Chamomile** 
 
-**Some benefits:** Chamomile is the jack of all trades when it comes to herbs. It literally helps with a ton of issues some of which include: insomnia, stomach ulcers, eczema, anxiety, fevers, cardiovascular conditions, PMS, diabetes, gut issues, osteoporosis, 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
-
-candida, inhibiting the release of LPS-induced prostaglandin E(2) and COX-2, is a GABA agonist, phytoprogestogen and aromatase inhibitor. 
+**Some benefits:** Chamomile is the jack of all trades when it comes to herbs. It literally helps with a ton of issues some of which include: insomnia, stomach ulcers, eczema, anxiety, fevers, cardiovascular conditions, PMS, diabetes, gut issues, osteoporosis, candida, inhibiting the release of LPS-induced prostaglandin E(2) and COX-2, is a GABA agonist, phytoprogestogen and aromatase inhibitor. 
 
 **Best time to consume:** When you feel like you need it. 
 
@@ -1540,10 +1376,7 @@ Hibiscus when used in moderation is awesome, it can help reduce the growth of ba
 
 **Priority supplement for:** People who want to protect their heart. 
 
-**Dandelion** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Dandelion**
 
 **Some benefits:** Great for bioavailable magnesium, helping you balance your blood sugar, fighting inflammation, lowering triglycerides, protecting your liver, protecting your gut, helping your immune system. 
 
@@ -1573,10 +1406,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 **Usage length:** I do not suggest using it daily since it can mess up the gut in a lot of people due to its anti-microbial properties and tank DHT. 
 
-**Carnosine** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Carnosine**
 
 **Some benefits:** Carnosine can prevent the glycosylation of protein (the addition of sugar groups to proteins) and some of the damage that free radicals cause (especially in the brain (which makes sense considering the brain’s needs for the anti-glycosylation effects and also why carnosine is crucial for the prevention of Alzheimer’s besides reducing the effects of the beta-amyloid protein)), reduce the activity of the sympathetic nervous system, is ion-chelating agent (reason why it’s paired with zinc a lot of the time), inhibits lipid oxidation if this was not obvious and in general is crucial amino acid for our well being. 
 
@@ -1600,10 +1430,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 Activated charcoal is made by heating carbon rich material such as wood, peat or coconut shells to a very high temperature and the AC then becomes a fine black powder which when consumed will bind to tons of endotoxins (from heavy metals, to xenoestrogens, to parasites) because it carries slight negative electrical charge which acts like a magnet for the positively charged toxins. 
 
-AC is so effective for being a binder that emergency rooms use it to treat overdoses. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+AC is so effective for being a binder that emergency rooms use it to treat overdoses.
 
 BUT, if taken for over a few weeks it will bind into important minerals and antioxidants so it should be treated very carefully and when someone chooses to consume it he should also supplement with magnesium, drink raw milk, eat sea salt and not skip on oysters or organ meats. 
 
@@ -1625,10 +1452,7 @@ They are my personal favorite because unlike things such as activated charcoal d
 
 **Some benefits:** Now even though i am not an advocate of the long term usage of Agmatine, it can have some pretty surprising benefits in the short term such as improving depression, mental fatigue, boost athletic performance, improve ADHD, help with withdrawils and with the removal of nitrogen waste products among other things. 
 
-**Best time to consume:** In the morning or pre workout. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** In the morning or pre workout.
 
 **Interactions:** It is a very gray line meaning that it can potentially interact with many things, so it’s best to be avoided if you are using serious medications and take it 2 hours apart from any other supplement. 
 
@@ -1656,10 +1480,7 @@ But just to be safe, to not combine it with any medications and obviously, ask y
 
 **Semax or Selank** 
 
-**Some benefits:** These peptides are mainly used for improving ones cognitive ability. They can help you with memory, better focus, reducing anxiety quite a lot, improve brain fog, migraines in some cases but also help people go through withdrawals easier. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Some benefits:** These peptides are mainly used for improving ones cognitive ability. They can help you with memory, better focus, reducing anxiety quite a lot, improve brain fog, migraines in some cases but also help people go through withdrawals easier.
 
 **Interactions:** Even though sometimes they can be combined with things such as anxiety meds, it’s better to not combine them with any medications that affect your cognition unless your doctor tells you otherwise. 
 
@@ -1683,10 +1504,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 **Usage length:** Given it is an insulin sensitising agent, i wouldn’t recommend consuming it for more than a few weeks. 
 
-**Magnolia** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Magnolia**
 
 **Some benefits:** It can reduce inflammation in the brain, improve anxiety issues and sleep quality, it could help women with menopause-related problems, it’s a potent anti-inflammatory and antimicrobial. 
 
@@ -1716,10 +1534,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 **Best time to consume:** For most people will be first thing in the morning. 
 
-**Interactions:** All MAO inhibitors. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Interactions:** All MAO inhibitors.
 
 **Usage length:** Given that its elimination happens through the adrenals, i wouldn’t use it for months on end. 
 
@@ -1749,10 +1564,7 @@ mainly enhances physical performance and decreases fatigue but it also has been 
 
 **Interactions:** There weren’t found any. 
 
-**Usage length:** 1-2 times per week since you don’t want to risk hyper-beta-alanemia and thus messing up organs such as your heart. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Usage length:** 1-2 times per week since you don’t want to risk hyper-beta-alanemia and thus messing up organs such as your heart.
 
 **Choline (CDP)** 
 
@@ -1782,10 +1594,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 **Best time to consume:** Theoretically, there’s no “best time” to consume it. Anecdotally, most people respond to it better if they take it later in the day (evening/night). 
 
-**Usage length:** Given the fact that it can increase the number of red blood cells, i would not consume it for more than 3-4 weeks at a time. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Usage length:** Given the fact that it can increase the number of red blood cells, i would not consume it for more than 3-4 weeks at a time.
 
 ## TUDCA 
 
@@ -1801,10 +1610,7 @@ Supplements that could help people who JUST got into health optimization. ● Ma
 
 Supplements that could help with anxiety. ● Magnesium glycinate ● Chamomile ● Lemon balm ● NAC ● Inositol ● Magnolia ● Thiamine ● Ginkgo biloba ● Pine pollen 
 
-Supplements that could help with an unhealthy androgen profile. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Supplements that could help with an unhealthy androgen profile.
 
 ● Magnesium taurate ● Boron ● L carnitine ● Cistanche ● Butea superba ● Tongkat ● MK7 
 
@@ -1814,10 +1620,7 @@ Supplements that could boost your performance in the gym. ● Cordyceps ● Beta
 
 Supplements that could help someone with addiction. ● Whole food vitamin E ● Whole food vitamin C or NAC (using both could deplete copper pretty fast) ● NAC ● Butyrate ● Magnesium taurate ● Ginkgo ● Agmatine 
 
-Supplements that could help with fertility. ● Whole food vitamin E ● Whole food vitamin C 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Supplements that could help with fertility. ● Whole food vitamin E ● Whole food vitamin C
 
 ## ● MK7 
 
@@ -1827,10 +1630,7 @@ Supplements that could help someone with depression. ● Ginkgo ● Agmatine ●
 
 Supplements that could help someone with OCD. ● Thiamine ● Riboflavin ● NAC ● Lemon balm ● Agmatine ● Magnesium glycinate ● Chamomile ● Inositol ● Choline ● Magnolia 
 
-Supplements that could help someone with ADD/ADHD. ● Glycine ● Thiamine ● Biotin ● Agmatine 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Supplements that could help someone with ADD/ADHD. ● Glycine ● Thiamine ● Biotin ● Agmatine
 
 ## ● NAC 
 
@@ -1842,10 +1642,7 @@ Supplements that could help someone with skin, nail and hair health. ● Grass f
 
 Supplements that could help someone with heart health. ● Hibiscus/whole food vitamin C ● Whole food vitamin E ● CoQ10 ● MK7 ● Magnesium taurate ● L carnitine 
 
-Supplements that could help someone with eye health. ● Ginkgo ● Niacinamide (do not pair with ginkgo) ● Rosemary ● Pregnenolone 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Supplements that could help someone with eye health. ● Ginkgo ● Niacinamide (do not pair with ginkgo) ● Rosemary ● Pregnenolone
 
 Supplements that could help someone with libido. ● Shilajit ● Pine pollen ● Ginkgo ● Choline ● Agmatine ● MK7 ● DHEA ● Pregnenolone 
 
@@ -1855,10 +1652,7 @@ Supplements that could help someone with bone health. ● Boron ● Grass fed co
 
 Supplements that could help someone with arthritis. ● TB-500 ● Grass fed collagen ● Magnesium ● Glucosamine ● BPC-157 ● Merica curcumin 
 
-Supplements that could help someone with gut health. 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Supplements that could help someone with gut health.
 
 ● Ginger ● Magnesium glycinate ● BPC-157 ● Lactoferrin ● Grass fed beef gelatine ● Glutamine ● Sodium butyrate ● Zinc carnosine 
 
@@ -1868,10 +1662,7 @@ Supplements that could help someone with mental fatigue. ● B vitamins ● M. B
 
 Supplements that could help someone with allergies. ● B vitamins ● DAO ● Whole food vitamin C ● Glutamine ● Quercetin 
 
-Supplements that could help your liver. ● Lactoferrin ● TUDCA 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+Supplements that could help your liver. ● Lactoferrin ● TUDCA
 
 ● Milk thistle ● Ginger ● Turmeric ● Astragalus 
 
@@ -1905,10 +1696,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 2. https://pubmed.ncbi.nlm.nih.gov/20874437/ 
 
-3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3669033/ 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3669033/
 
 4. https://pubmed.ncbi.nlm.nih.gov/21671978/ 
 
@@ -1942,10 +1730,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 4. https://www.tci-thaijo.org/index.php/TJP/article/view/84831 
 
-5. https://www.ncbi.nlm.nih.gov/pubmed/19148883 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+5. https://www.ncbi.nlm.nih.gov/pubmed/19148883
 
 **Sodium butyrate** 
 
@@ -1979,10 +1764,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 4. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987435/ 
 
-**Nettle** 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+**Nettle**
 
 1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9253158/ 
 
@@ -2018,10 +1800,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 1. https://pubmed.ncbi.nlm.nih.gov/24969522/ 
 
-2. https://pubmed.ncbi.nlm.nih.gov/24969522/ 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+2. https://pubmed.ncbi.nlm.nih.gov/24969522/
 
 3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4581564/ 
 
@@ -2055,10 +1834,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3762282/ 
 
-2. https://pubmed.ncbi.nlm.nih.gov/7580761/ 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+2. https://pubmed.ncbi.nlm.nih.gov/7580761/
 
 **Digestive enzymes** 
 
@@ -2094,10 +1870,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7037471/ 
 
-4. https://pubmed.ncbi.nlm.nih.gov/22982063/ 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+4. https://pubmed.ncbi.nlm.nih.gov/22982063/
 
 5. https://pubmed.ncbi.nlm.nih.gov/35276844/ **M. Blue** 
 
@@ -2133,10 +1906,7 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 2. https://pubmed.ncbi.nlm.nih.gov/34785587/ 
 
-3. https://pubmed.ncbi.nlm.nih.gov/11684396/ 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
+3. https://pubmed.ncbi.nlm.nih.gov/11684396/
 
 4. https://pubmed.ncbi.nlm.nih.gov/24342502/ **Glycine** 
 
@@ -2168,11 +1938,4 @@ The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to**
 
 2. https://pubmed.ncbi.nlm.nih.gov/27234407/ 
 
-3. https://pubmed.ncbi.nlm.nih.gov/35481594/ 
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
-
-The system V2.0 (lesson 9) written by George @Helios_Movement **Sold to** 
-
-
+3. https://pubmed.ncbi.nlm.nih.gov/35481594/

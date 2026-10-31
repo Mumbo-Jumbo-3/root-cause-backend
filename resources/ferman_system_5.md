@@ -1,12 +1,4 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-# This program was created by George @Helios_movement. 
-
-**The system lesson 5: Understanding nutrition** 
+# The System, Lesson 5: Understanding Nutrition
 
 What we eat matters, a lot. 
 
@@ -30,10 +22,7 @@ It’s not rocket science.
 
 Tens of thousands (if not more) of DNA-related processes are based on nutrients. 
 
-So, when we deprive ourselves of nutrients, TENS OF THOUSANDS of DNA-related processes become dysfunctional. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+So, when we deprive ourselves of nutrients, TENS OF THOUSANDS of DNA-related processes become dysfunctional.
 
 Believe it or not, food greatly affects our own genes and the ones that we will pass on to our kids. 
 
@@ -65,10 +54,7 @@ But this is what happens nowadays.
 
 We take people with descent genes and we not only don’t provide them with quality nutrition, but we add on top a million toxins. 
 
-So as you can tell, a lot of chronic health problems spring from nothing else but this fact. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+So as you can tell, a lot of chronic health problems spring from nothing else but this fact.
 
 But the problem with nutrition, is that everyone pretends that he has the perfect answer so let me be very clear when i say that i do not. 
 
@@ -94,10 +80,7 @@ But nutrition, is one of the fields that people are so dogmatic about all the wa
 
 Now let’s get into it. 
 
-**Principle number 1: Food quality matters, a lot.** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Principle number 1: Food quality matters, a lot.**
 
 Things such as herbicides and pesticides when it comes to plants but also things such as antibiotics and hormones when it comes to animals severely alter not only the nutritional profile of the food but the effects that it has on our biology as well. 
 
@@ -123,10 +106,7 @@ Improving the quality of your food should be your first priority when it comes t
 
 You have no idea how many health issues spring from us consuming toxins that are in our foods until you cut them out for a few months. 
 
-It truly is insane. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+It truly is insane.
 
 Please do not neglect the importance of this, some of these toxins can even be stored for years in our bodies and so harm us even when we no longer consume them. 
 
@@ -160,10 +140,7 @@ So here’s an aexample how you can budget your food in order to cover some of y
 
 -Grass finished red meat 
 
--Non hybridized white potatoes if possible 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+-Non hybridized white potatoes if possible
 
 **Principle number 2: Prioritize fresh herbs over spices in your cooking and properly source your salt.** 
 
@@ -197,10 +174,7 @@ We’ve briefly talked about this twice already, but it needs to get hammered in
 
 **So avoid the following:** 
 
-**1. nnEMFs** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**1. nnEMFs**
 
 You can protect yourself against them through grounding, lowering unbound iron (CRUCIAL), avoiding the use of wireless devices, turning off devices such as your WiFi router when you are not using them, lowering intracellular calcium through sunlight, nutrition (magnesium, vitamin K2, thiamine (which helps indirectly (CO2 prevents the accumulation of intracellular calcium and obviously works synergistically with K2)), vitamin A, E , boron and zinc )) and taking care of your thyroid. 
 
@@ -222,10 +196,7 @@ Heavy metal-free shilajit and the occasional use of curcumin could also help.
 
 **9. Cadmium** , which messes (for the most part) iron, zinc and can be mainly found in normie tobacco and cacao products, most inorganic vegetables due to the fertilizers that are being used and tap water. 
 
-**10. Inferior fat sources** such as canola oil, sunflower oil, fish oils, cottonseed oil, corn oil and soybean oil which deplete you of vitamin E and minerals. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**10. Inferior fat sources** such as canola oil, sunflower oil, fish oils, cottonseed oil, corn oil and soybean oil which deplete you of vitamin E and minerals.
 
 **11. Herbicides and pesticides** which deplete you of all minerals, amino acids such as glycine, B vitamins (indirectly by harming the bacteria that are crucial fro the absorption, utilization and productions of B vitamins) and vitamin K. 
 
@@ -261,10 +232,7 @@ So, when you consume food that literally has ZERO nutrition, inside of it, your 
 
 **24. Chlorine** which depletes you of vitamin C and antioxidants in general. 
 
-These are the main 24 things that you should avoid. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+These are the main 24 things that you should avoid.
 
 Now since there are certain medications in that list, i am not saying that you should quit your meds. 
 
@@ -292,10 +260,7 @@ Then we have the vitamin and mineral content.
 
 The steak has way more nutrients than the bread has and no matter how much bread you eat, you will literally never be able to match the nutrient profile of the steak. 
 
-So calories do not show you the full picture and using a calorie meter to determine the response that your body will have to a food is wrong because it ignores the enzymatic breakdown of the food. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+So calories do not show you the full picture and using a calorie meter to determine the response that your body will have to a food is wrong because it ignores the enzymatic breakdown of the food.
 
 There is no equality when it comes to food. None. Carbs are not equal to protein or fats and vice versa obviously. 
 
@@ -327,10 +292,7 @@ There are three macronutrients:
 
 2)Protein 
 
-3)Fat 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+3)Fat
 
 Each macronutrient is measured in grams, but the calories per gram of each macronutrient isn't the same. 
 
@@ -364,10 +326,7 @@ Each of the fat soluble vitamins has an estrogen lowering and thus testosterone 
 
 Saturated fats are a critical substance for optimal testosterone production, as we need them in order to begin producing testosterone in the first place. 
 
-“But aren’t saturated fats to blame for things such as heart disease?” 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+“But aren’t saturated fats to blame for things such as heart disease?”
 
 Of course not. 
 
@@ -393,10 +352,7 @@ Also, eating fat, will NOT make you fat.
 
 Gaining fat is something very, very hard. 
 
-You may believe that this is not the case right now but trust me. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+You may believe that this is not the case right now but trust me.
 
 If you are metabolically healthy, you literally have to torture yourself with food in order to gain too much fat. 
 
@@ -416,10 +372,7 @@ Do not be afraid of fat. If you drive your fat consumption too low, you will exp
 
 Moving on to carbohydrates. 
 
-Carbohydrates are organic compounds that consist of carbon, oxygen and hydrogen as you can see in the following graph. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Carbohydrates are organic compounds that consist of carbon, oxygen and hydrogen as you can see in the following graph.
 
 There are three main types of carbohydrates: 1)Starches 2)Fiber 3)Sugars 
 
@@ -439,10 +392,7 @@ Some cells in the body can only run on carbs. So carbs are the preferred fuel of
 
 Last but not least, fructose, which will be mentioned in the micronutrient dense foods, has been proven to lower SHBG levels and allow for more free testosterone in the bloodstream. 
 
-**Quality carb sources are** : 1)Raw honey 2)Raw dairy 3)Any seasonal and organic fruit 4)Berries 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Quality carb sources are** : 1)Raw honey 2)Raw dairy 3)Any seasonal and organic fruit 4)Berries
 
 5)Kiwis 6)Orange and grapefruit juice with no pulp 7)Sprouted rice cooked in bone broth 8)Extremely ripe bananas and mangos 9)Some sweet potatoes 10)Pumpkin 11)Squash 12)Some sprouted spelt bread once in a while 13)Some maple syrup 
 
@@ -464,10 +414,7 @@ A chronic protein deficient diet is very dangerous and will lead to the breakdow
 
 Having experimented with myself and clients over the years besides reading papers, the ideal amount of protein someone could consume every day, is 2-2.5 grams per kg of body weight. 
 
-If you go over this sooner or later you will face problems with ammonia most likely, and if you go lower than this stress hormones will rise. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+If you go over this sooner or later you will face problems with ammonia most likely, and if you go lower than this stress hormones will rise.
 
 This range is also shown to reduce serum glutamate so a sufficient protein intake will help you optimize GABA as well. 
 
@@ -485,10 +432,7 @@ In order for this to happen stick to **protein sources such as** :
 
 **Principle number 6: Avoid GMOs** A Genetically Modified Organism (GMO) is something whose genetic material (DNA) has been interfered with in a way that does not occur naturally by mating or natural breeding. 
 
-Well, DNA is a complex structure and altering it in any way can create new consequences and structures in the cell’s composition, as well as its relationship with other cells. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Well, DNA is a complex structure and altering it in any way can create new consequences and structures in the cell’s composition, as well as its relationship with other cells.
 
 For example, when potatoes were genetically engineered not to show bruising (*). A side effect of this engineering was an increase in the potato's aminoadipic acid content. An acid that has been shown to increase the risk of diabetes. 
 
@@ -508,12 +452,7 @@ Since GMOs were introduced into the food supply the rate of chronic health condi
 
 The majority of GM crops are also “glyphosate ready” (herbicide resistant) which damages the ecosystems and encourages the development of “super weeds” (weeds that are extremely resistant to glyphosate). 
 
-GMOs are one of the reasons allergies are so common nowadays. GE (genetic engineering) can transfer allergens from one food to another. For example, when a gene from brazil nuts 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
-
-were engineered into soybeans, people allergic to brazil nuts had the same allergy reactions when eating this batch of soy products as they would when eating brazil nuts. So GE can “transfer” the allergy you have on a specific food to another food that you consider safe. 
+GMOs are one of the reasons allergies are so common nowadays. GE (genetic engineering) can transfer allergens from one food to another. For example, when a gene from brazil nuts were engineered into soybeans, people allergic to brazil nuts had the same allergy reactions when eating this batch of soy products as they would when eating brazil nuts. So GE can “transfer” the allergy you have on a specific food to another food that you consider safe. 
 
 GE can also cause new allergic responses since well, you’re consuming something that has **never** existed and your body does not know what to do with it. GM soy for example can develop 27% higher levels of trypsin-inhibitor (an allergen). 
 
@@ -537,10 +476,7 @@ Here’s a principle that you can keep in mind: nature does not create bad foods
 
 And this is the exact case with grains even though it was not an “evil” attempt but a noble one. 
 
-In 1960, Borlaug started making wheat hybrids in order to feed more people (why this attemp was noble). 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+In 1960, Borlaug started making wheat hybrids in order to feed more people (why this attemp was noble).
 
 But in order to do that, the plant would need to be able to survive some pretty harsh climates. 
 
@@ -564,10 +500,7 @@ Or let me put it another way. If you have any health issue, get off gluten for a
 
 Also, keep in mind in case that you think that you consuming grains is not that big of a deal, that in modern agriculture, grains are probably the number 2 (soy is probably the number 1) thing that is sprayed with enormous amounts of herbicides such as glyphosate which we’ve talked about already. 
 
-Grains are also high in mycotoxins such as ochratoxin and deoxynivalenol. The effects of mycotoxins on human health can be both acute and chronic, provoking problems such as liver cancer and respiratory problems. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Grains are also high in mycotoxins such as ochratoxin and deoxynivalenol. The effects of mycotoxins on human health can be both acute and chronic, provoking problems such as liver cancer and respiratory problems.
 
 Mycotoxins cause perturbation in the gut, particularly in the intestinal epithelial. Most of the reported effects of mycotoxins on human health are negative both short term and long term. 
 
@@ -591,10 +524,7 @@ Also no matter what you do you should avoid canned legumes since they usually co
 
 Nut milks are made by blending up the nuts with water letting them sit for a while and then straining the mixture to remove the solids and add things like the seed oils we mentioned, artificial colorings and sweeteners. 
 
-Well the problem with this is that you are basically drinking poison. You are megadosing on antinutrients, herbicides and pesticides. This is the only thing that you are getting out of these nuts by blending them with water and straining the mixture. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Well the problem with this is that you are basically drinking poison. You are megadosing on antinutrients, herbicides and pesticides. This is the only thing that you are getting out of these nuts by blending them with water and straining the mixture.
 
 Almonds for example are extremely high in oxalates and a lot of poor kids developed kidney and bladder problems from drinking almond milk. Even babies are fed this stuff nowadays. 
 
@@ -622,10 +552,7 @@ Also, aluminum can leak in a lot of canned food and further increase the damage 
 
 Eating only cooked foods will deplete our body mainly of enzymes (enzymes are catalysts for every metabolic process) and then some vitamins and minerals. 
 
-Including raw foods in a person’s diet ensures better digestion and more nutrient absorption since many vitamins such as the B vitamins are heat-sensitive. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Including raw foods in a person’s diet ensures better digestion and more nutrient absorption since many vitamins such as the B vitamins are heat-sensitive.
 
 Of course, only eating raw foods has many downsides as well (one of them which is not talked about enough being the reduction of stomach acid) and this is why we need to find a proper balance between the two (your meal plan covers this). 
 
@@ -655,10 +582,7 @@ Fruit for example affects the body's ability to retain nutrients such as magnesi
 
 They decrease cortisol and SHBG. They increase free testosterone, DHT and CO2. Also keeping an optimal level of carbon dioxide causes calcium to be controlled resulting in lowered parathyroid hormone. 
 
-When carbon dioxide is inadequate, calcium is allowed to enter cells causing inappropriate excitation which many sometimes is followed by calcification. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+When carbon dioxide is inadequate, calcium is allowed to enter cells causing inappropriate excitation which many sometimes is followed by calcification.
 
 Also both vitamin D and vitamin K require carbon dioxide in order to dispose of calcium properly. 
 
@@ -692,10 +616,7 @@ When we consume calcium rich foods, we just need to make sure that we have enoug
 
 Number 1: Healing your gut and especially addressing pathogen related issues. 
 
-Number 2: Healing your thyroid. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Number 2: Healing your thyroid.
 
 Number 3: Adding some lemon juice or even ACV to the raw dairy since they need a lot of stomach acid in order to be properly digested. 
 
@@ -725,10 +646,7 @@ It can absorb certain nutrients but it will hijack certain mechanisms.
 
 Your heritage matters. Especially from your mother’s side. 
 
-So you should also prioritize the foods that are more compatible to your heritage. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+So you should also prioritize the foods that are more compatible to your heritage.
 
 **Principle number 18: Do not eat stressed and do not drink any type of liquid close to your meals.** 
 
@@ -756,10 +674,7 @@ As we said most plastic products can release chemicals that act like estrogen ev
 
 Then get rid of your Teflon and nonstick pans. 
 
-These are coated with PTFE and PFAS (PFOA as well in certain countries), which when heated release perfluorooctanoic acid which is linked to thyroid disease, liver disease, infertility, and a lot of reproductive problems. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+These are coated with PTFE and PFAS (PFOA as well in certain countries), which when heated release perfluorooctanoic acid which is linked to thyroid disease, liver disease, infertility, and a lot of reproductive problems.
 
 An alternative to these and the one i recommend is anything made out of glass. 
 
@@ -787,10 +702,7 @@ Now let’s see these vitamins and minerals one by one.
 
 **1)Vitamin A (Retinol)** 
 
-Vitamin A is an essential micronutrient meaning that our bodies cannot manufacture it and therefore it has to be included in our diet. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Vitamin A is an essential micronutrient meaning that our bodies cannot manufacture it and therefore it has to be included in our diet.
 
 Vitamin A from food is stored in the liver until required by the body and is essential for many physiological processes, including maintaining the integrity and function of all surface tissues such as the skin, the lining of the respiratory tract, the gut, the bladder, the inner ear and the eye. 
 
@@ -806,10 +718,7 @@ Vitamin A should not be supplemented due to its toxicity and the classic symptom
 
 **Thiamine:** 
 
-● Helps the body's cells change carbohydrates into energy. ● Plays a role in muscle contraction. ● Plays a role in the conduction of nerve signals. ● Is essential for the metabolism of pyruvate. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+● Helps the body's cells change carbohydrates into energy. ● Plays a role in muscle contraction. ● Plays a role in the conduction of nerve signals. ● Is essential for the metabolism of pyruvate.
 
 ● Is essential for GABA. ● Boosts CO2. ● Lowers lactic acid. ● Prevents complications in the nervous system, brain, muscles, heart, stomach, intestines. ● Is involved in the flow of electrolytes into and out of muscle and nerve cells. 
 
@@ -827,10 +736,7 @@ The typical signs of not only a thiamine but a B vitamin deficiency in general a
 
 **Riboflavin:** 
 
-● Is crucial for the kyanine pathway and citric acid cycle. ● Is important for growth. ● Helps in red blood cell production. ● Aids in the release of energy from proteins. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+● Is crucial for the kyanine pathway and citric acid cycle. ● Is important for growth. ● Helps in red blood cell production. ● Aids in the release of energy from proteins.
 
 ● Helps extra iron and heavy metals (if one has enough B1 in his system) get extracted safely through the urine. ● Is crucial for converting tryptophan to niacin. ● Helps the adrenals produce hormones. ● Helps maintain the mucous membranes in the digestive system. 
 
@@ -852,10 +758,7 @@ There are two main chemical forms of niacin:
 
 The key role of niacin in our body is to synthesize the coenzymes nicotinamide adenine dinucleotide (NAD) and nicotinamide adenine dinucleotide phosphate (NADP), which are involved in over 400 biochemical reactions in your body mainly related to obtaining energy from the food we eat (we discussed B3 in detail in lesson 1). 
 
-**The best food sources of vitamin B3 are:** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**The best food sources of vitamin B3 are:**
 
 1)Organic pork cooked in some coconut oil 2)Chicken soup 3)Turkey with a side of bone broth 4)Skirt steak 5)Mushrooms 
 
@@ -877,10 +780,7 @@ Supplementing B5 can be tricky and it's best to be avoided.
 
 Vitamin B6 or pyridoxine, is a water-soluble vitamin found naturally in many foods, as well as added to foods and supplements. 
 
-Pyridoxal 5’ phosphate (PLP) is the active coenzyme form and most common measure of B6 blood levels in the body. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Pyridoxal 5’ phosphate (PLP) is the active coenzyme form and most common measure of B6 blood levels in the body.
 
 PLP is a coenzyme that assists more than 100 enzymes to perform various functions, including the breakdown of proteins, carbohydrates, and fats; maintaining normal levels of homocysteine (since high levels can cause heart problems), supporting immune function and brain health. 
 
@@ -908,10 +808,7 @@ As with all B vitamins, biotin is a coenzyme for carboxylase enzymes that are in
 
 ● synthesizing, or creating, fatty acids ● synthesizing the amino acids isoleucine and valine ● gluconeogenesis, or generating glucose 
 
-**The best sources of vitamin B7 are:** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**The best sources of vitamin B7 are:**
 
 -Beef liver -Egg yolks -Pork (if organic) -Salmon roe every once in a while 
 
@@ -935,12 +832,7 @@ Note since we are talking about supplements: Do NOT start taking one trillion su
 
 **9) Vitamin B9 (folic acid)** 
 
-Vitamin B9 or folic acid is crucial for proper brain function, plays an important role in mental and emotional health, aids in the production of DNA and RNA, the body's genetic 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
-
-material, it helps to control blood levels of the amino acid homocysteine along with B6 and B12, can prevent and even reverse age related hearing loss and macular degeneration, can protect the development of many forms of cancer and the list keeps going and ends with the fact that a B9 deficiency can cause birth defects and even miscarriages. 
+Vitamin B9 or folic acid is crucial for proper brain function, plays an important role in mental and emotional health, aids in the production of DNA and RNA, the body's genetic material, it helps to control blood levels of the amino acid homocysteine along with B6 and B12, can prevent and even reverse age related hearing loss and macular degeneration, can protect the development of many forms of cancer and the list keeps going and ends with the fact that a B9 deficiency can cause birth defects and even miscarriages. 
 
 **The best sources of vitamin B9 are:** 
 
@@ -968,10 +860,7 @@ Methionine is required for the formation of S-adenosylmethionine, a methyl donor
 
 -Beef 
 
--Clams 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+-Clams
 
 -Sardines 
 
@@ -991,10 +880,7 @@ Also, the most neglected nutrient for thyroid health is probably beta carotene.
 
 **11) Boron Boron is a trace mineral that:** ● Helps our bodies metabolize vitamins and minerals. ● Has a key role in bone health and brain health. ● Lowers excessive estrogen and SHBG. ● Boosts fee and total testosterone levels. ● Can also extend the half life of vitamin D. ● Support the adrenals. ● Improve muscle coordination and muscle glycogen. ● Improve sleep. ● Remove sodium fluoride. 
 
-**The best dietary sources of boron are:** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**The best dietary sources of boron are:**
 
 -Prunes -Raisins -Avocados 
 
@@ -1008,10 +894,7 @@ Boron is also a trace mineral crucial for androgen health since it lowers SHBG, 
 
 **The best dietary sources of vitamin C:** 1)Acerola cherry juice (no pulp) 2)Blackberries 3)Pomegranate juice (no pulp) 4)Kiwis 5)Oranges juice (no pulp) 6)Grapefruit juice (no pulp) 7)Strawberries 8)Raspberries 9)Pineapple 
 
-You can supplement vitamin C but as we said make sure to consume it with a meal that has sodium in it and wash it down with an acidic beverage preferable some of the mentioned juices. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+You can supplement vitamin C but as we said make sure to consume it with a meal that has sodium in it and wash it down with an acidic beverage preferable some of the mentioned juices.
 
 If you are going to supplement with vitamin C supplement with a dose as low as 250 mg and do not increase it if there’s no need for it but always favor pomegranate and acerola cherry juice (no pulp) over synthetic vitamin C. 
 
@@ -1041,10 +924,7 @@ Calcium also stimulates LH and is thus a crucial mineral for androgen health.
 
 -Eggshells 
 
-**14) Choline (Vitamin J or B4)** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**14) Choline (Vitamin J or B4)**
 
 Choline plays an important part in many processes in your body, including cell structure (make fats that support the structural integrity of cell membranes), brain development, cell messaging, fat metabolism (without enough choline cholesterol will buildup in the liver instead of being used), DNA synthesis, a healthy nervous system (choline is required in order for the neurotransmitter acetylcholine to be made which is involved in muscle movement and regulating heartbeat among other things) and healthy leptin levels. 
 
@@ -1064,10 +944,7 @@ Copper is an essential trace mineral found in higher concentrations in organs su
 
 The mitochondria depend on copper for energy metabolism and copper plays a key role in functions within the body such as: red blood cell production, iron absorption, the regulation of heart rate and blood pressure, the development and maintenance of connective tissue, bones (when a person has enough enough boron and copper in his system (besides calcium and its regulators obviously) there is a significant increase in bone density) and organs, hormone production, immune system maintenance and activation, brain development, a healthy supply of white blood cells and takes part in oxygen metabolism. 
 
-Copper is absorbed partially in the stomach where the highly acidic environment frees the bound copper ions from partially digested foods. However, the largest portion of ingested copper passes into the duodenum and ileum, which are the major sites of absorption so a high fraction of copper is soluble in the intestinal tract and in order for copper to be properly absorbed and utilized one must focus on healing his gut as well. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Copper is absorbed partially in the stomach where the highly acidic environment frees the bound copper ions from partially digested foods. However, the largest portion of ingested copper passes into the duodenum and ileum, which are the major sites of absorption so a high fraction of copper is soluble in the intestinal tract and in order for copper to be properly absorbed and utilized one must focus on healing his gut as well.
 
 Due to factors such as the chronic consumption of inorganic iron or even mindless vitamin C and zinc supplementation, a lot of people experience a copper deficiency nowadays. 
 
@@ -1091,10 +968,7 @@ Vitamin D along vitamin K2 are the hidden keys for bone health.
 
 Vitamin D promotes calcium absorption in the gut and maintains adequate serum calcium and phosphate concentrations to enable normal bone mineralization and to prevent hypocalcemic tetany besides being needed for bone growth and bone remodeling by osteoblasts and osteoclasts. 
 
-Vitamin D has other roles in the body, including reduction of inflammation as well as modulation of such processes as cell growth, neuromuscular and immune function and glucose metabolism as we saw. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Vitamin D has other roles in the body, including reduction of inflammation as well as modulation of such processes as cell growth, neuromuscular and immune function and glucose metabolism as we saw.
 
 Vitamin D plays a key role in preventing autoimmune diseases, muscle waste, reverse steroid driven hair loss, glucose metabolism, steroidogenesis, calcium absorption. 
 
@@ -1116,10 +990,7 @@ Most, if not all, vitamin E supplements are toxic and should be avoided.
 
 **18) Vitamin K** Vitamin K refers to a **group (K1 and K2)** of fat soluble vitamins which are found throughout the body including the liver, brain, heart, pancreas and bones and thus protecting each one of these. 
 
-The first (K1) is called phylloquinone and found in green leafy vegetables like collard greens, kale, and spinach. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+The first (K1) is called phylloquinone and found in green leafy vegetables like collard greens, kale, and spinach.
 
 The second (K2), menaquinones, are found in some animal and fermented foods such as natto. 
 
@@ -1143,10 +1014,7 @@ Manganese is also necessary for GnRH which makes it a crucial mineral for fertil
 
 On a last note manganese supplements usually are not recommended due to the fact that most brands use toxic fillers. 
 
-**20) Magnesium** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**20) Magnesium**
 
 Magnesium is the fourth most abundant mineral in the human body and it’s something most people are deficient in. 
 
@@ -1166,10 +1034,7 @@ Magnesium also plays a role in the active transport of calcium and potassium ion
 
 **The best sources of magnesium are:** -Mineral water -Cacao -Swimming in the clean ocean -Some magnesium supplements that are not filled with artificial sweeteners and toxic food additives. 
 
-Just make sure to use different forms since every form of magnesium tends to go to a specific tissue (for example glycinate has a preference for muscle tissue) so it is in fact better to use different chelates as well. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Just make sure to use different forms since every form of magnesium tends to go to a specific tissue (for example glycinate has a preference for muscle tissue) so it is in fact better to use different chelates as well.
 
 Start with magnesium glycinate and perhaps citrate if you are going to use a supplemental form. 
 
@@ -1197,10 +1062,7 @@ Sodium, its counterpart that we will see in a second, maintains normal fluid lev
 
 Potassium is the third most abundant mineral in the body. 
 
-(*)Potassium is the main electrolyte in the ICF, and it determines the amount of water inside the cells. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+(*)Potassium is the main electrolyte in the ICF, and it determines the amount of water inside the cells.
 
 (**)Sodium is the main electrolyte in the ECF, and it determines the amount of water outside the cells. 
 
@@ -1220,10 +1082,7 @@ The best sources of selenium are: -Shellfish -Fin fish -Organic brazil nuts -Bee
 
 Just make sure to have just one of the above foods in a small portion every day and your selenium needs will be covered. 
 
-Most selenium supplements are toxic. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Most selenium supplements are toxic.
 
 **24) Sodium** Sodium is one of the body's electrolytes (minerals that the body needs in relatively large amounts and carry an electric charge when dissolved in body fluids such as blood). 
 
@@ -1249,10 +1108,7 @@ Because it helps cells to grow and multiply, adequate zinc is required during ti
 
 Zinc is also absolutely necessary for a healthy gut, is the primary factor in our ability to recycle vitamin C and is a great mineral in order to lower prolactin and increase testosterone. 
 
-**The best sources of zinc are:** -Shellfish -Beef 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**The best sources of zinc are:** -Shellfish -Beef
 
 Zinc supplements are best to be avoided since they will always lead to some kind of zinc:copper imbalance and do not take a zinc supplement that has copper in it since copper in its artificial forms is toxic. 
 
@@ -1286,10 +1142,7 @@ Here are 3 steps that you can take.
 
 **Number 1: PUFAs** 
 
-**Nutrients they mainly deplete:** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Nutrients they mainly deplete:**
 
 ● Vitamin E ● Minerals 
 
@@ -1323,10 +1176,7 @@ The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to**
 
 ● Retinol ● Vitamin C ● Taurine 
 
-**Number 7: Phytic acid** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Number 7: Phytic acid**
 
 **Nutrients it mainly depletes:** 
 
@@ -1352,10 +1202,7 @@ The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to**
 
 **Number 11: Statins** 
 
-**Nutrients it mainly depletes:** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Nutrients it mainly depletes:**
 
 ● CoQ10 ● Vitamin D ● Vitamin A, K and E depending on the dosage 
 
@@ -1391,10 +1238,7 @@ The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to**
 
 **Number 17: Antibiotics** 
 
-**Nutrients they mainly deplete:** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Nutrients they mainly deplete:**
 
 ● B vitamins ● Vitamin K ● Vitamin D ● B12 ● B1 
 
@@ -1430,10 +1274,7 @@ In the first scenario, both you and your parents were raised on some quality nut
 
 If that’s the case, then (this is not medical advice and nothing in this email is) you can simply take out all of the things that you saw that are depleting you of nutrients and stick to the RDA or go a bit higher. 
 
-In the second scenario, your parents were raised on some quality nutrition but you weren’t. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+In the second scenario, your parents were raised on some quality nutrition but you weren’t.
 
 If that’s the case then i suggest you once again take our all of the things that deplete you of nutrients and actually aim for getting 2X the RDA (which is not hard to do and some of the meal plans already do this) for a while. 
 
@@ -1459,10 +1300,7 @@ So always prioritize food if you’re interested in actually covering your micro
 
 Amino acids are a very important topic yet often a very neglected one from a holistic perspective. 
 
-For example, you often hear about the benefits of X amino acid, but you rarely hear about what amino acids actually are, why they matter, where to get each one, and how to properly balance them. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+For example, you often hear about the benefits of X amino acid, but you rarely hear about what amino acids actually are, why they matter, where to get each one, and how to properly balance them.
 
 This is what we are going to do here. 
 
@@ -1502,10 +1340,7 @@ This category includes:
 
 •Tryptophan 
 
-•Histidine 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+•Histidine
 
 •Proline 
 
@@ -1551,12 +1386,7 @@ This category includes:
 
 •Asparagine 
 
-•Glutamine 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
-
-in which one of carboxyl group has been transformed into an amide group. 
+•Glutamine in which one of carboxyl group has been transformed into an amide group. 
 
 **Number 7: Branched-chain amino acids** 
 
@@ -1598,10 +1428,7 @@ Aliphatic ones include: alanine, valine, leucine, Isoleucine and proline.
 
 Aromatic ones include: phenylalanine, tryptophan and methionine. 
 
-**Number 11: Amino acids with polar but uncharged R group** which include: glycine, threonine, serine, tyrosine, cysteine, glutamine and asparagine. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Number 11: Amino acids with polar but uncharged R group** which include: glycine, threonine, serine, tyrosine, cysteine, glutamine and asparagine.
 
 **Number 12: Negatively charged amino acids** which include: aspartic acid and glutamic acid. 
 
@@ -1629,10 +1456,7 @@ But now let’s analyze each amino acid.
 
 **1. Glycine** 
 
-Glycine is a precursor from things such as glutathione and purines, all the way to creatine. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Glycine is a precursor from things such as glutathione and purines, all the way to creatine.
 
 Glycine reduces stress hormones, is a GABA agonist, is cryoprotective, a great antioxidant, prevents a lot of types of hepatic damage, protects the liver and heart, reduces muscle wasting, increases insulin response, can prevent and treat prostatic hyperplasia, helps heal gastric ulcers, protect the heart, regulates the synthesis of cytokines, decreases lung inflammation, inhibits lipolysis, can lower TSH even in very small doses (1 gram), helps detox the body of glyphosate and has many many benefits. 
 
@@ -1658,10 +1482,7 @@ Sources: Skirt steak is a good source of valine.
 
 Leucine still is the typical "bro" amino acid since it aids the growth and repair of muscle but it helps our body with so many different things such as regulating blood sugar levels, bone and wound healing and the production of hormones. 
 
-Leucine has been used by a lot of people in the alternative health space as an attempt to lower excessive serotonin but i do not like it since leucine has this effect only in high-ish doses and thus there are way more effective and safe ways to lower excessive serotonin (glycine, ginger, ginkgo, thiamine and even aspirin. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Leucine has been used by a lot of people in the alternative health space as an attempt to lower excessive serotonin but i do not like it since leucine has this effect only in high-ish doses and thus there are way more effective and safe ways to lower excessive serotonin (glycine, ginger, ginkgo, thiamine and even aspirin.
 
 Sources: G.f beef, ricotta cheese and pasture raised eggs. 
 
@@ -1695,10 +1516,7 @@ Sources: Steak and raw milk have plenty of tyrosine
 
 **9. Carnosine** 
 
-Carnosine is formed from the binding together of the amino acids alanine and histidine. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Carnosine is formed from the binding together of the amino acids alanine and histidine.
 
 Carnosine can prevent the glycosylation of protein (the addition of sugar groups to proteins) and some of the damage that free radicals cause (especially in the brain (which makes sense considering the brain’s needs for the anti-glycosylation effects and also why carnosine is crucial for the prevention of Alzheimer’s besides reducing the effects of the beta-amyloid protein)), reduce the activity of the sympathetic nervous system, is ion-chelating agent (reason why it’s paired with zinc a lot of the time), inhibits lipid oxidation if this was not obvious and in general is crucial amino acid for our well being. 
 
@@ -1722,10 +1540,7 @@ Now that being said, are supplements pointless?
 
 Yes, some of them are not only pointless but harmful as well in my opinion. 
 
-**Here is what you should avoid.** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Here is what you should avoid.**
 
 **1. Synthetic Vitamin A, Beta carotene and B6.** 
 
@@ -1753,10 +1568,7 @@ Most of them contain a lot of allergens and even heavy metals and in general sta
 
 They raise nitric oxide way too much which inevitably leads to severe metabolic damage. 
 
-**8. BCAAs.** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**8. BCAAs.**
 
 A) They throw the amino acid imbalance that most people face way more out of balance and B) most have heavy metals in them and some very shady forms of silicone. 
 
@@ -1790,10 +1602,7 @@ If you are depressed you generally want to optimize dopamine and GABA, not serot
 
 You can use this one, but very very short term (once every 10 days). 
 
-It simply is too powerful of an adaptogen (with the negative meaning of this term). 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+It simply is too powerful of an adaptogen (with the negative meaning of this term).
 
 Moving on to which supplements can be beneficial, for which issues, when you should take them, with what you should not combine them with, for how long you should use them and who should seriously consider using them. 
 
@@ -1815,12 +1624,7 @@ Last note: The only form of non isolated B vitamins that it’s usage is accepte
 
 **2.Whole food vitamin C** 
 
-**Some benefits:** Immune system support, heart health support, adrenal support, lower oxidative stress, fertility boost, androgen health support, helps sleep apnea, iron 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
-
-homeostasis support, tendon recovery and faster recovery from medication such as accutane. 
+**Some benefits:** Immune system support, heart health support, adrenal support, lower oxidative stress, fertility boost, androgen health support, helps sleep apnea, iron homeostasis support, tendon recovery and faster recovery from medication such as accutane. 
 
 **Best time to consume:** You can consume whole food vitamin C any time you want, but the best time to use vitamin C is first thing in the morning or 1-2 hours after consuming caffeine. 
 
@@ -1836,10 +1640,7 @@ homeostasis support, tendon recovery and faster recovery from medication such as
 
 **Best time to consume:** A lot of people say that you should take vitamin E at night. But this, depending on your androgen status, might be a problem and you might want to use this one in the morning if your testosterone, DHT, LH, FSH are too low and things such as prolactin and SHBG too high since it can lead to a very short but intense energy boost in that case. 
 
-**Interactions:** A LOT of things interact with vitamin E if consumed together (from aspirin, statins, tons of peptides, antiplatelet medications and so on) but this usually happens at doses from 100mg of vitamin E and up. So, if you actually stick to the recommended dose of 20mg, an interaction is quite unlikely, but still, separate vitamin E from other supplements and medications for up to 2 hours. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Interactions:** A LOT of things interact with vitamin E if consumed together (from aspirin, statins, tons of peptides, antiplatelet medications and so on) but this usually happens at doses from 100mg of vitamin E and up. So, if you actually stick to the recommended dose of 20mg, an interaction is quite unlikely, but still, separate vitamin E from other supplements and medications for up to 2 hours.
 
 **Usage length:** When it comes to long term usage of vitamin E from whole foods (a vitamin E supplement from red palm oil for example), there aren’t many negative reactions if any at all if the person keeps the fat soluble vitamin consumption high. If he or she does not, there will be many though. 
 
@@ -1859,10 +1660,7 @@ The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to**
 
 **Some benefits:** Magnesium is involved in over **3700** enzymatic reactions in the body, lowers SHBG, increases free testosterone, optimizes GABA, improves sleep, protects the heart, helps us utilize vitamin D better, it is a crucial calcium regulator and protects our nervous system. 
 
-**Best time to consume:** This depends on the type. Typically, either first thing in the morning or last thing at night, since taking magnesium mid day can negatively influence the absorption of vitamin D. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** This depends on the type. Typically, either first thing in the morning or last thing at night, since taking magnesium mid day can negatively influence the absorption of vitamin D.
 
 **Interactions:** Magnesium unfortunately, even though it’s recommended by every bro, can negatively interact with many medications and especially antibiotics (there is a time and place for almost anything antibiotics included). 
 
@@ -1884,10 +1682,7 @@ So if you are on any medications, consult your doctor.
 
 **Some benefits:** Great antioxidant, crucial for gut health and our nervous system, protects the liver, supports energy metabolism, protects against muscle loss, prevents hair loss, lowers stress hormones, protects the adrenals and lowers excessive serotonin. 
 
-**Best time to consume:** Small doses (1 gram) throughout the day since doses of 5 plus grams will disrupt REM sleep in a lot of people if taken at night. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** Small doses (1 gram) throughout the day since doses of 5 plus grams will disrupt REM sleep in a lot of people if taken at night.
 
 **Interactions:** A lot of antipsychotic drugs and some SSRIs. 
 
@@ -1917,10 +1712,7 @@ The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to**
 
 **Some benefits:** Lowers the risk for heart disease, skyrockets libido, protects your bones, crucial for metabolic health, reduces premature skin aging and is crucial for mitochondrial health. 
 
-**Best time to consume:** You can take vitamin K (i recommend MK7) as long as you consume it with a fatty meal. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** You can take vitamin K (i recommend MK7) as long as you consume it with a fatty meal.
 
 **Interactions:** A lot but fortunately they create an absorption problem and not some counter action unless we are talking about some seizure medications. 
 
@@ -1950,10 +1742,7 @@ Vitamin D plays a key role in preventing autoimmune diseases, muscle waste, reve
 
 **Usage length:** No more than 4 weeks at a time. 
 
-**Priority supplement for:** Men with fertility problems 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Priority supplement for:** Men with fertility problems
 
 **13. Milk thistle** 
 
@@ -1987,10 +1776,7 @@ Not a lot of stress? Take it in the morning.
 
 **Some benefits:** Mainly libido, mental performance, premature aging and fertility. 
 
-**Best time to consume:** In the morning. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** In the morning.
 
 **Interactions:** A LOT of things. Too many to name so ask your doctor in case that you are consuming any medication. 
 
@@ -2018,10 +1804,7 @@ So DAO will basically help anyone who has problems with histamine intolerance (r
 
 **Interactions:** A lot of prescription drugs interfere with DAO (and enzymes like HNMT in general), so consult your doctor before using them. 
 
-**Usage length:** Depends on the other medications and supplements you are in that affect mast cells (consult your doctor). 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Usage length:** Depends on the other medications and supplements you are in that affect mast cells (consult your doctor).
 
 **Priority supplement for:** People with severe histamine intolerance and gut issues. 
 
@@ -2051,12 +1834,7 @@ It is a great short term tool in order to restore OXPHOS if one has the common s
 
 **20. Iodine** 
 
-**Some benefits:** Iodine is a vital mineral for the thyroid gland, it is crucial for our immune system, it has crucial antiviral and antibacterial properties, it is necessary for the safe removal of heavy metals for our system and things such as fluoride and even chlorine, low 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
-
-iodine levels have been correlated with significant decreases in IQ and it’s one of the most crucial minerals for our health. 
+**Some benefits:** Iodine is a vital mineral for the thyroid gland, it is crucial for our immune system, it has crucial antiviral and antibacterial properties, it is necessary for the safe removal of heavy metals for our system and things such as fluoride and even chlorine, low iodine levels have been correlated with significant decreases in IQ and it’s one of the most crucial minerals for our health. 
 
 **Best time to consume:** First of all, even though i recommend iodine as a supplement, i do it just because even though my warnings against it, some people might get tricked into doing it. 
 
@@ -2078,10 +1856,7 @@ If you are going to do it, at least do it safely, which means that you should fi
 
 **22. Digestive enzymes Some benefits:** Digestive enzymes can be things such as papain, bromelain, pectinase, invertase and even lactase. Digestive enzymes can help people who face problems with low stomach acid and used to eat a lot of starches and gluten for a long time. 
 
-**Best time to consume:** After a meal. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Best time to consume:** After a meal.
 
 **Interactions:** Some anticoagulant medications. 
 
@@ -2113,10 +1888,7 @@ The reason why it lowers significantly elevated levels LDL so effectively
 
 2. Support the immune system 
 
-3. Battle pathogen-related gut issues 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+3. Battle pathogen-related gut issues
 
 4. Support adrenal health 
 
@@ -2162,10 +1934,7 @@ Some of the risks of chaga include:
 
 -Bone problems 
 
--Poor circulation 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+-Poor circulation
 
 -Hypoglycemia 
 
@@ -2207,10 +1976,7 @@ https://pubmed.ncbi.nlm.nih.gov/15857210/
 
 https://pubmed.ncbi.nlm.nih.gov/14756912/ 
 
-When overused (daily consumption), the downsides of reishi are the following: 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+When overused (daily consumption), the downsides of reishi are the following:
 
 -Tanked androgens 
 
@@ -2252,10 +2018,7 @@ https://pubmed.ncbi.nlm.nih.gov/25006989/
 
 Side effects: 
 
-In theory, the side effects of Turkey tail are very minimum but in practice, the long-term usage of it has shown symptoms of mineral depletion in a lot of the people that i've met so i wouldn't use it for months on end no matter what the claims are. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+In theory, the side effects of Turkey tail are very minimum but in practice, the long-term usage of it has shown symptoms of mineral depletion in a lot of the people that i've met so i wouldn't use it for months on end no matter what the claims are.
 
 **Number 4: Lion's mane** 
 
@@ -2299,10 +2062,7 @@ Side effects from long-term use (some of them can even occur within a month):
 
 -Hypoglycemia 
 
-**Number 5: Cordyceps (sinensis and militaris)** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**Number 5: Cordyceps (sinensis and militaris)**
 
 If you're only going to experiment with two of these mushrooms, you should hands down choose lion's mane and cordyceps. 
 
@@ -2338,10 +2098,7 @@ Now before we move on, you don’t have to fear plants like some people advocate
 
 Plants can be extremely useful tools under the right circumstances and we should underestimate their power. 
 
-That being said, if we do not prepare them right (peel their skin off, soak them, cook them in animal fats for example), they can have a negative impact on things such as our nervous system and our mineral stores. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+That being said, if we do not prepare them right (peel their skin off, soak them, cook them in animal fats for example), they can have a negative impact on things such as our nervous system and our mineral stores.
 
 Some exceptions to this are seaweed, spirulina and kelp. 
 
@@ -2367,12 +2124,7 @@ Organic potatoes for example are a great source of minerals, but they need to be
 
 Since every cell in your body needs “fat” (every cell membrane is made out of fat/cholesterol), the type of fats we are consuming affects our health on a fundamental level. 
 
-Now in a nutshell, when we are using the term “bad fats” we are referring to high inflammatory fats that are unstable when exposed to heat such as canola oil, corn oil, 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
-
-cottonseed oil, rapeseed oil and in general highly unsaturated fats with an unsaturated SN-2 position. 
+Now in a nutshell, when we are using the term “bad fats” we are referring to high inflammatory fats that are unstable when exposed to heat such as canola oil, corn oil, cottonseed oil, rapeseed oil and in general highly unsaturated fats with an unsaturated SN-2 position. 
 
 These fats, are everywhere nowadays (even in things such as milk) and you must avoid them if you want to be healthy. 
 
@@ -2394,12 +2146,7 @@ Not only that, but it made them severely sick for their entire lifespan. Their q
 
 Highly unsaturated fats break down into toxic byproducts like HNE, acrolein and MDA when oxidized resulting in heart attacks , cancer, Alzheimer's , diabetes and damaging metabolic function in general in order to learn from experience that they harm you. 
 
-They also remodel the cardiolipin structure of mitochondria causing cellular death and leakage of potassium, cause oxidative damage to fat-containing LDL particles, increase estrogen, destroy our digestion (the ways that bad fats mess up with our digestion truly are insane, for example, they drive LOTS of bacterial infections and make people resistant to already very strong antibiotics), weaken the immune system, cause skin cancer (and cancer in general, cause diabetes, harm the liver and the pancreas, can trigger autoimmune diseases through leukotrienes, they increase the expression of nuclear factor NF-kB, greatly decrease your body’s ability to produce thyroid hormones, damage the Leydig cells (Leydig cells are 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
-
-the primary source of testosterone or androgens in males) and in general cause a gigantic mess. 
+They also remodel the cardiolipin structure of mitochondria causing cellular death and leakage of potassium, cause oxidative damage to fat-containing LDL particles, increase estrogen, destroy our digestion (the ways that bad fats mess up with our digestion truly are insane, for example, they drive LOTS of bacterial infections and make people resistant to already very strong antibiotics), weaken the immune system, cause skin cancer (and cancer in general, cause diabetes, harm the liver and the pancreas, can trigger autoimmune diseases through leukotrienes, they increase the expression of nuclear factor NF-kB, greatly decrease your body’s ability to produce thyroid hormones, damage the Leydig cells (Leydig cells are the primary source of testosterone or androgens in males) and in general cause a gigantic mess. 
 
 Now if we reverse the above, we could say that following a diet which is low in highly unsaturated fats will have benefits such as: 
 
@@ -2407,10 +2154,7 @@ Now if we reverse the above, we could say that following a diet which is low in 
 
 **Plan of Action** 
 
-● Avoid PUFA oils to the best of your ability, especially for cooking. ● Always use heat stable fats for cooking (i.e. coconut oil, ghee, butter, tallow). ● Limit the amount of times per week you eat out. ● If you consume animal products ensure that the animals are not fed any PUFA. This means consuming grass-fed beef and pasture raised eggs and poultry. ● Vitamin E will help offset the damage caused by PUFAs so make sure to have some red palm oil in your house. ● Do not neglect saturated fats since they can offset the damage caused by PUFAs. ● Do not neglect vitamin C. ● Visit the sauna 2-3 times per week. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+● Avoid PUFA oils to the best of your ability, especially for cooking. ● Always use heat stable fats for cooking (i.e. coconut oil, ghee, butter, tallow). ● Limit the amount of times per week you eat out. ● If you consume animal products ensure that the animals are not fed any PUFA. This means consuming grass-fed beef and pasture raised eggs and poultry. ● Vitamin E will help offset the damage caused by PUFAs so make sure to have some red palm oil in your house. ● Do not neglect saturated fats since they can offset the damage caused by PUFAs. ● Do not neglect vitamin C. ● Visit the sauna 2-3 times per week.
 
 ● Increase your metabolic activity and CO2 production as will be presented later in the program. ● Slowly lose some fat if you are above 15% bf for men and 18-20% for women. 
 
@@ -2434,10 +2178,7 @@ So it is the ability to metabolize carbs, not carbs themselves which is responsi
 
 If you ever went zero carb, you know the horrific withdrawals that carb restriction can lead to. Why is that? Well our body can not run efficiently without carbohydrates. 
 
-Many people when they go zero carb find themselves experiencing panic attacks and even being unable to breathe for example as a result of chronic low carb dieting. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Many people when they go zero carb find themselves experiencing panic attacks and even being unable to breathe for example as a result of chronic low carb dieting.
 
 This. Is. Not. Normal. And there’s no reason to be in ketosis for more than 4 weeks per year for 99.9999% of people and this even might be too much for some people. 
 
@@ -2467,10 +2208,7 @@ Now glycogen comes from your body digesting these carbohydrates and turning them
 
 The glycogen stores in the liver also help with exercise. At the start of exercise, your liver begins breaking down glycogen to maintain blood glucose levels as your working muscles use it for energy. 
 
-However, your muscles primarily use their own glycogen stores to function. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+However, your muscles primarily use their own glycogen stores to function.
 
 (**)Muscle glycogen serves mainly as a source of metabolic fuel for your muscles and if your muscles relied on glucose from your bloodstream for this energy, your body would quickly run out of glucose so the body stores 3/4 of your total glycogen in all of your skeletal muscles. 
 
@@ -2494,10 +2232,7 @@ So without further ado, let’s see how you can optimize your glucose metabolism
 
 As we said, an unhealthy light environment promotes the abundance of stress hormones which first of all harm the organs that help us process carbohydrates in the first place such as the pancreas and second of all prevent certain protective hormones from being released. 
 
-On the other hand, a healthy light environment promotes the production of hormones that support or health and help us properly metabolize carbs. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+On the other hand, a healthy light environment promotes the production of hormones that support or health and help us properly metabolize carbs.
 
 So, implementing the things that you read on the first chapter will be crucial for optimizing your glucose metabolism. 
 
@@ -2519,10 +2254,7 @@ The third priority for optimizing glucose metabolism is replenishing B vitamins 
 
 These two are crucial for the citric acid cycle that we mentioned prior in this program and a deficiency in these 2 (which is not uncommon) is enough to cause severe metabolic problems. 
 
-Carbs have been demonized for way too long and a low carb diet does nothing for addressing the above serious deficiencies most of the time. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Carbs have been demonized for way too long and a low carb diet does nothing for addressing the above serious deficiencies most of the time.
 
 B vitamins are involved in the enzymatic processes which run cellular respiration, and a deficiency of the important ones can interrupt the process. 
 
@@ -2546,10 +2278,7 @@ Second of all, it might be useful to supplement with:
 
 In general, do not supplement B vitamins for more than 4 weeks streaight, especially niacin, never supplement a B complex and never consume synthetic B6 (most of the time is just a cheap additive (reason why it is in so many soft drinks) that will damage your liver. 
 
-B vitamins should be supplemented in the morning with a good meal and with post sunlight exposure. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+B vitamins should be supplemented in the morning with a good meal and with post sunlight exposure.
 
 An important note also is that since B vitamins which must be consumed with carbs will increase the metabolic rate, you need to make sure you have enough vitamin A in your system so the biweekly 100 grams of beef liver should not be neglected. 
 
@@ -2573,12 +2302,7 @@ The best criteria in order to figure this out is if you’re getting stronger in
 
 This is probably the most underrated nutrient when it comes to optimizing glucose metabolism since the pancreas has high levels of K2 and when K2 is deficient insulin resistance peaks. 
 
-So a short term supplementation with even MK7 (it has a very very long half life so you should be using it once every 2 or 3 days) could be beneficial for optimizing glucose metabolism unless you have issues with your mast cells (this will be addressed in the gut 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
-
-healing part) and in that case you should stick to vitamin K2 sources such as beef liver, chicken liver and free range egg yolks. 
+So a short term supplementation with even MK7 (it has a very very long half life so you should be using it once every 2 or 3 days) could be beneficial for optimizing glucose metabolism unless you have issues with your mast cells (this will be addressed in the gut healing part) and in that case you should stick to vitamin K2 sources such as beef liver, chicken liver and free range egg yolks. 
 
 Vitamin K2 is also an electron carrier so it results in more efficient ATP production and mitochondrial health. 
 
@@ -2606,10 +2330,7 @@ Take free radicals for example.
 
 An atom or group of atoms with an unpaired electron is called a free radical. 
 
-It can steal electrons from a stable molecule, creating a new free radical and initiating a chain reaction. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+It can steal electrons from a stable molecule, creating a new free radical and initiating a chain reaction.
 
 This electron-grabbing is called oxidation and can set up a chain reaction, creating new free radicals and damaging important molecules along the way. 
 
@@ -2629,10 +2350,7 @@ Electrolytes dissolve in water and give it the ability to conduct electricity.
 
 The most important electrolytes are: 1)Sodium 2)Chloride 3)Potassium 4)Magnesium 5)Calcium We want to make sure we have enough electrolytes in our system so our cells can communicate electrically with each other. 
 
-Good sources of the above mentioned electrolytes that you can start with are: -Coconut water -Sea salt -Magnesium both orally (not oxide) and topically -Eggshell powder -Raw milk 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Good sources of the above mentioned electrolytes that you can start with are: -Coconut water -Sea salt -Magnesium both orally (not oxide) and topically -Eggshell powder -Raw milk
 
 Now you've probably heard that 90% of people are deficient in magnesium, but have you heard that 97% of people are deficient in potassium? Yes, 97% so please start adding the above foods into your diet. 
 
@@ -2654,10 +2372,7 @@ It’s a mineral bomb especially for things that are harder to get such as silic
 
 It can help you with allergies,PMS, the health of the aretial wallks and blood vessels as well. 
 
-But since bee pollen even quality one, is vert hard to digest and a lot of stomach acid in needed in order to extract the minerals, the people who struggle with gut issues can mix bee pollen with honey (1:1 ratio) in order for the honey to break the cell wall. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+But since bee pollen even quality one, is vert hard to digest and a lot of stomach acid in needed in order to extract the minerals, the people who struggle with gut issues can mix bee pollen with honey (1:1 ratio) in order for the honey to break the cell wall.
 
 **1) Organic apples** If you can not get organic apples, ignore this since non-organic apples are one of the foods that are sprayed with the largest amounts of pesticides and herbicides 
 
@@ -2681,10 +2396,7 @@ Avocados are meant to be consumed raw and not heated. They also contain some fat
 
 Using caffeine the right way 
 
-A) The right type of coffee (organic coffee) B) Having the right meal prior of consuming coffee (bioavailable protein, quality carbs and some saturated fats) (caffeine increases metabolic activity so you need nutrients) C) Adding glycine to coffee in order to mitigate the cortisol response from the caffeine. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+A) The right type of coffee (organic coffee) B) Having the right meal prior of consuming coffee (bioavailable protein, quality carbs and some saturated fats) (caffeine increases metabolic activity so you need nutrients) C) Adding glycine to coffee in order to mitigate the cortisol response from the caffeine.
 
 Coffee if used right can increase testosterone even by 10%, stimulate more 5 alpha reductase activity and reduce myostatin. Coffee should not be consumed 12 hours prior of going to bed and you should always cycle caffeine in order to not rely on it. 
 
@@ -2704,10 +2416,7 @@ Note: EVOO’s color must be green-ish. Otherwise it’s tainted with inferior f
 
 **7) Occasional beet juice** Beetroots contain betaine which is a methyl donor that can help with estrogen methylation and detoxification. It has also been shown to reduce liver fat accumulation preventing fatty liver disease. 
 
-**8) Fruits rich in vitamin C** The human body cannot make vitamin C and relies on food in order to get enough. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**8) Fruits rich in vitamin C** The human body cannot make vitamin C and relies on food in order to get enough.
 
 Vitamin C is a great antioxidant as you read on lesson 1, promotes fertility, protects the adrenal glands, boosts pregnenolone, progesterone and testosterone, helps us to regulate iron homeostasis, recycles vitamin E, boosts LH and FSH and is one of the most important and pro metabolic vitamins. 
 
@@ -2725,10 +2434,7 @@ Last but not least things such as berries contain myricetin, peonidin and ursoli
 
 It’s rich in polyphenols, it has great androgen boosting effects, it’s great for the lungs, breast tissue, prostate can help you battle candida, viruses and more. 
 
-It can also be used topically for wounds and burns. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+It can also be used topically for wounds and burns.
 
 You can also make your own propolis infused unheated honey. 
 
@@ -2750,10 +2456,7 @@ It’s full of enzymes, it really doesn’t require that much insulin to get int
 
 **19) Dandelion** A great magnesium source that can protect your gut, help your immune system, balance your blood sugar levels, lower triglycerides and protect your liver. 
 
-**20) Calendula** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**20) Calendula**
 
 You can use this to beat fatigue, support your skin, your thyroid, fight pathogens, PMS and to support your oral health. 
 
@@ -2777,10 +2480,7 @@ Kidneys, are a great source of zinc, selenium, B12, B9, choline, carnosine and D
 
 Brains are a great source of phospatidulserine which is crucial for dopamine production and even BDNF. 
 
-**26) Quality seafood** 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+**26) Quality seafood**
 
 All of them are great mineral sources which can help things such as your fertility, mood and athletic performance. 
 
@@ -2804,10 +2504,7 @@ A handful of berries full of vitamins and minerals can be possibly considered th
 
 Not to even mention that you can replace anything that requires sugar with raw honey. 
 
-“How is raw honey different?”. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+“How is raw honey different?”.
 
 Well, here are five reason. Number 1: It’s an animal food and not a plant one. Number 2: It has minerals that sugar does not have. Number 3: It contains enzymes that sugar does not. Number 4: It requires way way less insulin to get into the cell. Number 5: It’s way better for the environment. 
 
@@ -2823,10 +2520,7 @@ Here are a few rules: Number 1: Beef should be medium rare. Number 2: Egg yolks 
 
 The liquids of the broth will release MORE of the nutrients that are in things such as the connective tissues, skin, ligaments and the bones on the meat piece. 
 
-That’s how you’ll actually be able to get things such as glucosamine, hyaluronic acid and chondroitin 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+That’s how you’ll actually be able to get things such as glucosamine, hyaluronic acid and chondroitin
 
 Also, this will allow you to get more minerals in since they are release from things such as the cartilage and bones. 
 
@@ -2854,10 +2548,7 @@ In general, pasteurization is a byproduct of industrial agriculture.
 
 All it is, is a way to extend the shelf life of products and sell more units since raw milk is very difficult to be sold on a mass scale without some badge going bad. 
 
-Pasteurised milk is more resilient in harsh conditions which makes it great for the economy but not for our health. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Pasteurised milk is more resilient in harsh conditions which makes it great for the economy but not for our health.
 
 We basically did to milk the same thing we did to the grains and just as hybridised grains destroy our guts and create inflammation, the same thing happens with pasturised milk which causes certain proteins to bypass digestion (and thus feed bacteria) and be absorbed into the bloodstream. 
 
@@ -2881,10 +2572,7 @@ First of all, lactose intolerance can be a sign of hypothyroidism and i’m not 
 
 Now, have you ever noticed that milk is way sweeter than cheese or butter? Well that’s because of the lactose content. 
 
-Lactose which is composed of glucose and galactose is what makes milk sweet. Milk has way more lactose than butter or cheeses (and especially real mozzarela) and this is why people who can often be lactose intolerant can have cheese without a problem. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Lactose which is composed of glucose and galactose is what makes milk sweet. Milk has way more lactose than butter or cheeses (and especially real mozzarela) and this is why people who can often be lactose intolerant can have cheese without a problem.
 
 The pasturization of milk, destroys the lactase enzyme which is responsible for the break down of lactose and this is why people who take thyroid can have pasurised milk just fine on a regular basis. 
 
@@ -2906,17 +2594,10 @@ So in a nutsheel, A2 dairy are far superior to A1.
 
 **Princple number 30: Do not practice veganism** 
 
-Now plants can be great supplement foods, but you can not thrive on plants by default. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
+Now plants can be great supplement foods, but you can not thrive on plants by default.
 
 You can not get things such as biovailable calcium, iron, vitamin B12, creatine, taurine, carnosine and retinol. 
 
 “What if i supplement them?”. Nope. Every vitamin and mineral needs to have certain cofactors in order to be properly absorbed and utilized and isolated supplements lack that. 
 
-This is also why tons of vegans are deficient in iodine even when they consume things such as sea weed, it’s because iodine needs retinol in order to be properly absorbed and utilized. 
-
-The system V2.0 (lesson 5) written by George @Helios_Movement **Sold to** 
-
-
+This is also why tons of vegans are deficient in iodine even when they consume things such as sea weed, it’s because iodine needs retinol in order to be properly absorbed and utilized.

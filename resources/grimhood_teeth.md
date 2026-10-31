@@ -1,3 +1,5 @@
+# Teeth Remineralization
+
 To begin, you will want to ensure you are doing the [Gut Repair](https://www.patreon.com/posts/55337407) and [Solar Protection](https://www.patreon.com/posts/50018221) protocols to ensure you are actually absorbing the micronutrients you consume in your food, and for sufficient vitamin D levels, which ties into proper calcium metabolism.
 
 **The necessary micronutrients required for remineralization and improved bone growth, aside from calcium, are...**

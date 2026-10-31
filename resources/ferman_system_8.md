@@ -1,12 +1,4 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-# This program was created by George @Helios_movement. 
-
-**The system lesson 8: Understanding neurotransmitters** 
+# The System, Lesson 8: Understanding Neurotransmitters
 
 Firstly, if you think that this subject might not be important, think again. 
 
@@ -24,10 +16,7 @@ So remember, an action potential is a prerequisite in order for a neurotransmitt
 
 Let’s say now for example that we have two neurons, neuron A and neuron B. 
 
-The junction between these two neurons (a 20–40nm gap between the presynaptic axon terminal and the postsynaptic dendrite) converts an electrical signal into a chemical signal in the form of neurotransmitter release when it reaches the presynaptic terminal and basically causes neuron A to release a chemical neurotransmitter which then will excite or inhibit neuron B from firing its own action potential. 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+The junction between these two neurons (a 20–40nm gap between the presynaptic axon terminal and the postsynaptic dendrite) converts an electrical signal into a chemical signal in the form of neurotransmitter release when it reaches the presynaptic terminal and basically causes neuron A to release a chemical neurotransmitter which then will excite or inhibit neuron B from firing its own action potential.
 
 Neurotransmitters fall into different groups or types based on the actions they have. There are: 
 
@@ -47,10 +36,7 @@ Now without further ado, the main neurotransmitters that we will discuss here ar
 
 Glutamate basically is the “gas” of our central nervous system (90% of synapses have it) and thus the primary excitatory transmitter. 
 
-It also greatly affects neuroplasticity which is partly why an excess can prevent neurogenesis. 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+It also greatly affects neuroplasticity which is partly why an excess can prevent neurogenesis.
 
 Some of its other functions include facilitating protein synthesis, gut motility (which is why one reason for a serotonin excess can be a glutamate excess), stimulating the vagus nerve, regulating glutathione, bone formation, the repair of muscle tissue and of course supporting cognitive function in general. 
 
@@ -68,10 +54,7 @@ Bound glutamate, basically is the natural form of glutamate found in foods which
 
 On the other hand, free glutamate isn’t bound to anything and can freely circulate around our systems. 
 
-This is a problem since an excess can cause: ● High blood pressure ● Anxiety ● Overthinking / ADD like symptoms ● Neurodegeneration (by preventing neurogenesis) ● Epilepsy / Seizures ● Insomnia ● Messed endocannabinoid signaling ● Liver issues ● Tinnitus ● Migraines ● Excitotoxicity 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+This is a problem since an excess can cause: ● High blood pressure ● Anxiety ● Overthinking / ADD like symptoms ● Neurodegeneration (by preventing neurogenesis) ● Epilepsy / Seizures ● Insomnia ● Messed endocannabinoid signaling ● Liver issues ● Tinnitus ● Migraines ● Excitotoxicity
 
 Number 1: Optimize GABA as it will be demonstrated soon. 
 
@@ -81,10 +64,7 @@ Number 3: In the short run in case you’ve been struggling with an excess, it m
 
 ● Foods that have been fermented, aged, cured, preserved or pressure cooked. These include aged cheeses and cured meats ● Bone broths ● Slow-cooked meats and poultry ● Eggs ● Soy sauce ● Soy protein ● Fish sauce ● Certain vegetables, like mushrooms, ripe tomatoes, broccoli and peas ● Walnuts ● Malted barley 
 
-Number 4: Avoid the daily usage of stimulants. 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+Number 4: Avoid the daily usage of stimulants.
 
 Number 5: Get enough magnesium and vitamin B6. 
 
@@ -112,10 +92,7 @@ So without healthy levels of GABA, we will experience issues such as insomnia, m
 
 What can you do in order to have healthy levels of GABA? 
 
-Number 1: Get enough magnesium and vitamin B6 (there are other crucial nutrients that will be mentioned). 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+Number 1: Get enough magnesium and vitamin B6 (there are other crucial nutrients that will be mentioned).
 
 Remember the glutamine glutamate -GABA cycle. 
 
@@ -143,10 +120,7 @@ Preferred sources of these vitamins, aminos and minerals are: sunlight, kiwis, h
 
 This one is mainly produced by the chromaffin cells in the adrenal glands and rises as a response to stress (physical, emotional etc) through the HPA axis, mainly but also under conditions such as hypoglycemia as well. 
 
-It is derived from tyrosine through the following pathway: 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+It is derived from tyrosine through the following pathway:
 
 First, tyrosine hydroxylase converts tyrosine to L-DOPA, then DOPA decarboxylase converts L-DOPA to dopamine, with dopamine b-hydroxylase converting dopamine to norepinephrine and finally, phenylethanolamine N-methyltransferase converts norepinephrine to epinephrine, requiring cortisol for activity. 
 
@@ -168,10 +142,7 @@ It also inhibits insulin secretion (α2-receptors) and stimulates glucagon (β2-
 
 Here are some steps that you can take in order to prevent an adrenaline excess. 
 
-Number 1: Keep your blood sugar stable. Number 2: Do not skip dinner. At night when we are asleep, adrenaline is expressed in order to release glycogen from tissue storage to keep our organs and metabolism running. So, no stored glycogen when going to bed = a lot of stress. Number 3: Get enough zinc and magnesium. Two common promoters of adrenaline excess are a zinc and magnesium 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+Number 1: Keep your blood sugar stable. Number 2: Do not skip dinner. At night when we are asleep, adrenaline is expressed in order to release glycogen from tissue storage to keep our organs and metabolism running. So, no stored glycogen when going to bed = a lot of stress. Number 3: Get enough zinc and magnesium. Two common promoters of adrenaline excess are a zinc and magnesium
 
 Number 4: Stop over-working or over-exercising (and especially working out in a fasted state). Now i get that some of you might be interested in becoming athletes, achieve big goals and stuff like that. But if you struggle with things such as anxiety or bipolar disorders you must learn to take breaks and tweak the amount of work or workout load to the one you can actually handle when that’s possible. Number 5: Stop fasting every day and especially “fasting” with black coffee. This is context-dependent. 
 
@@ -189,10 +160,7 @@ One of the main differences between adrenaline is that noradrenaline is continuo
 
 It’s also stimulated by acetylcholine (sympathetic neurons) or CRH-ACTH (adrenal medulla). 
 
-It also increases heart rate (β1-receptors), contractility, and vasoconstriction (α1-receptors), maintaining blood pressure and organ perfusion during stress or activity, it stimulates glycogenolysis and lipolysis in the liver and adipose tissue (less potently than epinephrine), supporting glucose and energy mobilization and it also inhibits insulin (α2-receptors) and stimulates glucagon (β2-receptors), promoting hyperglycemia which is why chronic elevation contributes to insulin resistance via FFAs and cortisol. 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+It also increases heart rate (β1-receptors), contractility, and vasoconstriction (α1-receptors), maintaining blood pressure and organ perfusion during stress or activity, it stimulates glycogenolysis and lipolysis in the liver and adipose tissue (less potently than epinephrine), supporting glucose and energy mobilization and it also inhibits insulin (α2-receptors) and stimulates glucagon (β2-receptors), promoting hyperglycemia which is why chronic elevation contributes to insulin resistance via FFAs and cortisol.
 
 Now thankfully the things that prevent an adrenaline excess in most cases also prevent a norepinephrine excess. 
 
@@ -220,10 +188,7 @@ Number 3: Ginger tea is a great tool that can help both balance a possible serot
 
 Number 4: Identify certain tools that can help you prevent the break down of acetylcholine such as: ginkgo biloba, bacopa, polygala, gotu kola and hyperzine A. 
 
-**Number 6: Histamine.** 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+**Number 6: Histamine.**
 
 This monoamine (some people do not consider this as a neurotransmitter since the histamine-produced neurons are insignificant compared to other types of cells that produce histamine for example) is very fascinating and more and more research comes up when it comes to how it can lead to certain types of addiction. 
 
@@ -243,10 +208,7 @@ So what can we do if we are struggling with an excess?
 
 Suggestion number 1: If you’ve been consuming these foods on a regular basis and struggling with symptoms of a histamine excess, it might be a good idea to take a 4 week break from them. 
 
-These are: ● Kefir ● Cheeses (especially parmesan and aged cheeses) ● Canned foods ● Chocolate ● Soy ● Nuts 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+These are: ● Kefir ● Cheeses (especially parmesan and aged cheeses) ● Canned foods ● Chocolate ● Soy ● Nuts
 
 ● Mustard ● Tomatoes ● Cured meats ● Dried fruit ● Preservatives ● Bananas ● Yogurt ● Kimchi ● Kombucha ● Coffee ● Vinegar ● Yeast ● Nicotine ● Sourdough ● Alcohol ● Too much olive oil 
 
@@ -260,10 +222,7 @@ Suggestion number 3: Get enough DAO and HNMT cofactors such as zinc, C, B6, B12,
 
 Suggestion number 4: Be very careful with medications such as morphine since they can displace histamine in granules (this causes histamine release). 
 
-Suggestion number 5: Be very careful when you use antibiotics like polymyxin since they stimulate a lot of histamine. 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+Suggestion number 5: Be very careful when you use antibiotics like polymyxin since they stimulate a lot of histamine.
 
 Suggestion number 6: Pay attention to your gut health since a lot of histamine is stored in the ECL cell of the stomach. 
 
@@ -287,19 +246,13 @@ The receptors are the 5-HT1, 5-HT2, 5-HT3, 5-HT4, 5-HT5, 5-HT6, 5-HT7 and the am
 
 The 5-HT1 for example has four and are named: 5-HT1A, 5-HT1B, 5-HT1C and 5-HT1D. 
 
-The are involved in things such as cortisol release and activation of the adrenal axis, prolactin release, lipolysis, adipogenesis, ACTH release, increasing the density of estrogen receptors and more. 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+The are involved in things such as cortisol release and activation of the adrenal axis, prolactin release, lipolysis, adipogenesis, ACTH release, increasing the density of estrogen receptors and more.
 
 There are other signs that indicate that you might be struggling with a serotonin excess such as: -Getting migraines very often (on a weekly basis) -Hair thinning (not hair loss, but thinning) -IBS -Overthinking/Inability to concentrate/bad memory/confusion -High estrogen -High cortisol -High histamine /prostaglandins and thus also things such as allergies, asthma -High prolactin -Being nauseous quite often -Immunosuppression -Inability to regulate your appetite -Low bone density -Chronic fatigue -Being nauseous very often -Excessive sweating 
 
 Of course, all of these can have their root causes in other things than excessive serotonin, but these symptoms, might indicate better a serotonin excess compared to a blood result especially if the individual understands the things that lead to its excess because he will be able to tell then if these were part of his lifestyle which thus makes an excess quite likely. 
 
-So how can serotonin become elevated? The main reasons for most people seem to be: 1) Poor liver function 2)Lack of sunlight 3) Poor function of the kynurenine pathway 4) An increase in its synthesis via tryptophan hydroxylase 2 (TPH2) 5) Reduced monoamine oxidase A function (MAO-A breaks down serotonin) 6) A decrease in SERT (serotonin transporter) function. 7) Estrogen/alcohol 8) Certain deficiencies (in fat soluble vitamins for example and B2, B6 (kynurenine pathway) 9) Improper supplementation (5 HTP etc) 10) Excessive darkness 11) An unbalance amino acid profile in a person’s diet 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+So how can serotonin become elevated? The main reasons for most people seem to be: 1) Poor liver function 2)Lack of sunlight 3) Poor function of the kynurenine pathway 4) An increase in its synthesis via tryptophan hydroxylase 2 (TPH2) 5) Reduced monoamine oxidase A function (MAO-A breaks down serotonin) 6) A decrease in SERT (serotonin transporter) function. 7) Estrogen/alcohol 8) Certain deficiencies (in fat soluble vitamins for example and B2, B6 (kynurenine pathway) 9) Improper supplementation (5 HTP etc) 10) Excessive darkness 11) An unbalance amino acid profile in a person’s diet
 
 **Number 8: Dopamine** 
 
@@ -315,12 +268,7 @@ Here are some of the most common causes:
 
 Number 1: High prolactin First of all, take care of your androgen health and thyroid since both low testosterone and high PTH will increase prolactin. Then make sure you have enough prolactin antagonists such as: ● Sea salt ● Vitamin D (sunlight) ● Vitamin B6 ● Zinc ● Vitamin E ● Taurine Foods such as (obviously) sea salt, red palm oil, oysters, red meat, EVOO, quality low fat seafood and sunlight contain all of these nutrients. 
 
-You can also use certain aromatase inhibitors such as: ● Nettle root ● Orange juice with no pulp ● Mushrooms ● Dried celery (unless your iron levels are too low) ● Chamomile tea Then, watching pron and orgasming too frequently will also obviously increase prolactin a 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
-
-lot. 
+You can also use certain aromatase inhibitors such as: ● Nettle root ● Orange juice with no pulp ● Mushrooms ● Dried celery (unless your iron levels are too low) ● Chamomile tea Then, watching pron and orgasming too frequently will also obviously increase prolactin a lot. 
 
 And last but not least, avoid exposure to xenoestrogens, liver and gut health since elevated prolactin can also be a sign of poor estrogen metabolism 
 
@@ -336,10 +284,7 @@ Some practical ways that you can use in order to address this are: ● Sunlight 
 
 Which you can get from spring water, magnesium supplements, oysters, raw dairy, bone-in meats, short-term usage of b. yeast or a thiamine supplement, grass-fed beef and sun dried raisins or appricots. 
 
-Number 6: Dysregulated circadian rhythm, lack of sunlight and lack of sleep. 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
+Number 6: Dysregulated circadian rhythm, lack of sunlight and lack of sleep.
 
 We can not have healthy levels of dopamine if we do not get deep sleep on a regular basis, don’t get full spectrum sunlight and our circadian rhythm is dysregulated. 
 
@@ -353,8 +298,4 @@ Number 9: Insulin resistance.
 
 Insulin can actually increase dopamine. The problem happens when someone become insulin resistant which leads to increase levels of MAO-A and MAO-B and the same can be true for leptin where it can increase D2 receptor density if it’s operating properly. 
 
-That's pretty much it. 
-
-The system V2.0 (lesson 8) written by George @Helios_Movement **Sold to** 
-
-
+That's pretty much it.

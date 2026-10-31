@@ -105,7 +105,7 @@ uv sync
 cp .env.example .env   # fill in API keys and DATABASE_URL
 set -a; source .env; set +a   # settings come from the environment, not from .env directly
 uv run alembic upgrade head
-uv run health-agent ingest              # embeds resources/ and skips if unchanged
+uv run health-agent ingest              # embeds the resources/ files that changed
 uv run uvicorn health_agent.server:app --port 2024
 ```
 
@@ -117,20 +117,15 @@ uv run pytest
 
 ## Deploying
 
-Production runs on [Render](https://render.com) with Postgres on [Neon](https://neon.com). [`render.yaml`](render.yaml) is a Blueprint for one Docker web service built from the [`Dockerfile`](Dockerfile), in Render's Ohio region next to Neon's `us-east-2`. Every push to `main` deploys. Before the new instance takes traffic, Render runs `alembic upgrade head` as the pre-deploy step, so a migration lands before the code that needs it and never runs twice at once. Render health-checks `/ok`. On a deploy, the old instance gets up to 120 seconds to finish in-flight chats before it is stopped.
+Production runs on [Render](https://render.com) with Postgres on [Neon](https://neon.com). [`render.yaml`](render.yaml) is a Blueprint for one Docker web service built from the [`Dockerfile`](Dockerfile), in Render's Ohio region next to Neon's `us-east-2`. Every push to `main` deploys. Before the new instance takes traffic, Render runs `alembic upgrade head && health-agent ingest` as the pre-deploy step, so a migration lands before the code that needs it and never runs twice at once, and the RAG index matches the deployed `resources/`. Render health-checks `/ok`. On a deploy, the old instance gets up to 120 seconds to finish in-flight chats before it is stopped.
 
 Neon supplies two connection strings. `DATABASE_URL` is the pooled one (host contains `-pooler`) and is what the app uses. `DATABASE_URL_UNPOOLED` is the direct one, which Alembic and `pg_dump` need. Both are set on the Render service.
 
 Secrets are marked `sync: false` in the Blueprint, so Render asks for them when the Blueprint is first applied and never reads them from the repo. Change them later in the service's Environment tab.
 
-Ingest is not part of the deploy. Run it from your machine when `resources/` changes:
+Ingest makes the index match `resources/` exactly: new and edited files are embedded, and files that aren't on disk are removed from the index. It embeds only what changed, so most deploys make no Voyage calls. A resource counts as changed when its text changes, or when anything that shapes its chunks changes: `EMBEDDING_MODEL`, `CHUNK_SIZE`, `CHUNK_OVERLAP`, or `INGEST_VERSION` in [`rag/resources.py`](src/health_agent/rag/resources.py). Bump `INGEST_VERSION` whenever you change how documents are chunked or titled, and the next deploy re-embeds everything (about 16k chunks in 126 Voyage requests).
 
-```bash
-set -a; source .env; set +a   # local .env points at Neon
-uv run health-agent ingest
-```
-
-Ingest makes the index match the checkout's `resources/` exactly: files that aren't on disk are removed from the index. So run it from a checkout whose `resources/` is what production should search.
+All embedding happens before the write transaction opens, so a failed ingest fails the deploy and leaves the index as it was. Ingest refuses to run when `resources/` is missing or empty rather than empty the index, and it takes a Postgres advisory lock, so a manual run can't collide with a deploy. `resources/nutrients/` is generated: after editing a nutrient page, run `health-agent sync-nutrient-resources` and commit the result (a test fails until you do).
 
 ### Migration from Cloudflare
 

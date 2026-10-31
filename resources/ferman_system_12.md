@@ -1,12 +1,4 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-# This program was created by George @Helios_movement. 
-
-**The system lesson 12: A discussion about genes** 
+# The System, Lesson 12: A Discussion About Genes
 
 You’ve tried “everything” to resolve your chronic health issues with minimum improvements. 
 
@@ -26,10 +18,7 @@ But don’t worry.
 
 **The good news is that your genes do not determine your destiny and simple tricks can go a long way AND this is the main reason why this lesson was reserved for this stage of the program.** 
 
-If you are skeptical and think that genes determine everything, let’s look at two studies. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+If you are skeptical and think that genes determine everything, let’s look at two studies.
 
 Dr. Parviz did an experiment where he studied 738 women who had mutations in the BRCA1 and BRCA2 genes. 
 
@@ -61,10 +50,7 @@ But before we get further into this, we need to step back a little in order to u
 
 Now inside every cell of your body, there is something called a nucleus, which is the cell's brain. 
 
-The DNA is found inside of it and is packed into structures called chromosomes. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+The DNA is found inside of it and is packed into structures called chromosomes.
 
 Each one of us has 46 of them, 23 from our father and 23 from our mother. 
 
@@ -92,10 +78,7 @@ So genes greatly control your hair color, height, eye shape, how well you handle
 
 **Now, even though we can’t change our DNA sequence (the genes we’re born with), we can influence gene expression, which means: how much, when and where your genes are turned “on” or “off.”** 
 
-This is the realm of epigenetics, where overall lifestyle changes affect the activity of genes without altering their code. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+This is the realm of epigenetics, where overall lifestyle changes affect the activity of genes without altering their code.
 
 If you think that this is too far fetched, polyphenols for example have been found to modify histone acetylation and influencing genes tied to inflammation or stress response. 
 
@@ -129,10 +112,7 @@ See, our cells have their ways to fix damaged DNA, but sometimes these repair pr
 
 It’s as if trying to fix something broken but not getting it completely right. 
 
-**Replication errors** can also happen during cell division when DNA needs to be accurately copied. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+**Replication errors** can also happen during cell division when DNA needs to be accurately copied.
 
 If these copies aren't made correctly and the errors aren't fixed, mutations stick around. It’s like copying a sentence but getting a few words wrong. 
 
@@ -162,10 +142,7 @@ If you don’t consume enough antioxidants like Vitamins C and E or produce ones
 
 And the simplemst mechanism behind how this happens is that these nutrients help protect your DNA by neutralizing free radicals. 
 
-Let’s also not forget about habits like smoking and drinking because, well, cigarette smoke for example has compounds that bind directly to DNA, and can lead to cancer or other serious health problems. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+Let’s also not forget about habits like smoking and drinking because, well, cigarette smoke for example has compounds that bind directly to DNA, and can lead to cancer or other serious health problems.
 
 Alcohol isn’t innocent either, as it breaks down into toxic compounds that damage DNA and prevent its repair. 
 
@@ -193,10 +170,7 @@ Finally, **genetic recombination** during reproduction creates new combinations 
 
 While this process itself doesn't cause mutations, it can create new traits when combined with existing mutations. 
 
-Now many genes have the important job of producing enzymes (protein molecules making countless biological processes in our bodies way easier). 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+Now many genes have the important job of producing enzymes (protein molecules making countless biological processes in our bodies way easier).
 
 Enzymes need substrates, the raw materials they will work on which could be various molecules like methionine, homocysteine, testosterone, estrogen, or many other compounds depending on the specific enzyme. 
 
@@ -226,10 +200,7 @@ And they can greatly influence enzyme function.
 
 For example there are specific SNPs that slow down the enzyme MTR, or Methionine Synthase (not to be mistaken with MTHFR (Methylenetetrahydrofolate Reductase)). 
 
-This enzyme needs homocysteine as a substrate to produce methionine. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+This enzyme needs homocysteine as a substrate to produce methionine.
 
 If someone has low homocysteine levels or an SNP affecting MTR, they might not produce enough methionine, which can lead to several problems like liver damage, weakened immune system, mood and cognitive issues, hair and skin problems, among others. 
 
@@ -253,10 +224,7 @@ So first and foremost, how do you figure out if you happen to have certain SNPs 
 
 **Well, we'll use some basic testing and self-awareness.** 
 
-For starters, take a look at your family history. If your mother, father, grandparents, or siblings have conditions like heart disease, that's a hint that you might have SNPs in genes like APOE. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+For starters, take a look at your family history. If your mother, father, grandparents, or siblings have conditions like heart disease, that's a hint that you might have SNPs in genes like APOE.
 
 Then, take some time to notice if you have any negative reactions to minor lifestyle changes 
 
@@ -276,12 +244,7 @@ Another hint is you might experience unrelated health issues like damaged joints
 
 The catechol-O-methyltransferase enzyme is encoded by the COMT gene and its job is to break down catechols and turn them into forms that can be easily eliminated or recycled in the cells. 
 
-Catechols include: -Dopamine -Epinephrine -Norepinephrine -Certain estrogen metabolites like 2-hydroxyestradiol (catechol estrogens) -Substances with a catechol structure by default, which also means certain drugs and natural 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
-
-compounds like quercetin. 
+Catechols include: -Dopamine -Epinephrine -Norepinephrine -Certain estrogen metabolites like 2-hydroxyestradiol (catechol estrogens) -Substances with a catechol structure by default, which also means certain drugs and natural compounds like quercetin. 
 
 Now, how does COMT break these down? Well, as its name states, it’s a methyltransferase. 
 
@@ -313,10 +276,7 @@ The first one is found throughout the body and helps with general catecholamine 
 
 So as you might be able to tell, the COMT enzyme plays an essential role in maintaining neurotransmitter levels at the right amounts and thus impacts our attention spans, mood, working memory and reaction to stress. 
 
-This is why mutations in the COMT gene have been associated with several mental health conditions like anxiety, depression, panic disorder, bipolar disorder and even autism. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+This is why mutations in the COMT gene have been associated with several mental health conditions like anxiety, depression, panic disorder, bipolar disorder and even autism.
 
 Note 1: Alleles are the possible versions of a gene at a specific spot (locus) on a chromosome. 
 
@@ -344,12 +304,7 @@ Note 2: Other COMT SNPs are rs6269, rs4633 or rs4818 (*) that tweak how much COM
 
 (*) rs6269: G (higher expression) vs. A (lower expression), rs4633: C (higher expression) vs. T (lower expression), rs4818: C (higher expression) vs. G (lower expression). 
 
-(**)High COMT expression for example (G-C-C haplotype) means more enzyme = faster 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
-
-catecholamine clearance. 
+(**)High COMT expression for example (G-C-C haplotype) means more enzyme = faster catecholamine clearance. 
 
 Low COMT expression (A-C-G haplotype) means less enzyme = slower clearance. 
 
@@ -377,10 +332,7 @@ In extreme cases, it may even play its part in conditions like Parkinson's disea
 
 On the contrary, other COMT mutations can cause the enzyme to do the opposite and work less efficiently, resulting in slower catechol breakdown. 
 
-In our bucket analogy, this would be like having smaller or fewer holes, causing the water to become excessive and eventually overflow. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+In our bucket analogy, this would be like having smaller or fewer holes, causing the water to become excessive and eventually overflow.
 
 This slower breakdown causes dopamine and other stress-related chemicals like norepinephrine and adrenaline to build up in the brain, resulting in chronically high stress levels, anxiety disorders, insomnia and sleep disturbances, panic attacks, agitation and so on. 
 
@@ -396,10 +348,7 @@ Now here are specific tips for fast and slow COMT.
 
 **Number 1: Fast** -Do not go vegan or vegetarian -If you can tolerate dairy products such as cheese, it would be a good idea to incorporate one portion/day -HIIT -Low dose TMG -Glycine -Mucuna -P5P (cofactor for tyrosine hydroxylase (dopamine synthesis)). -Magnesium taurate -Rhodiola -Low dose P5P, methylfolate and methylcobalamin (we are talking about 10mg of P5P, 100mcg of methylfolate and 200mcg of methylcobalamin) might also help but anything higher than that can actually increase irritability or anxiety in a lot of people. 
 
-**Number 2: Slow** -Avoid low carb or ketogenic diets -Choline, even though it’s a VERY important nutrient, should never be overconsumed and rarely be supplemented in this case. -NAC 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+**Number 2: Slow** -Avoid low carb or ketogenic diets -Choline, even though it’s a VERY important nutrient, should never be overconsumed and rarely be supplemented in this case. -NAC
 
 -Lithium orotate -DIM -Magnesium glycinate -Whole food vitamin E -Experiment to see if supporting methylation through low dose (100-200mg) SAMe supplementation or methylated B vitamins (mainly B12 and B9) work for you -Avoid supplements that can deplete methyl donors, such as high doses of niacin -Avoid dopaminergic supplements such as mucuna -Avoid caffeine and stimulants -Manage your body weight very carefully. -White button mushrooms -Whole food vitamin E -Avoid COMT inhibitors such as quercetin or luteolin 
 
@@ -419,10 +368,7 @@ Unlike natural folate, folic acid has no direct biological activity in your body
 
 And what is the problem with that? 
 
-Well, not everyone can efficiently break it down into a usable form, especially individuals with genetic mutations like MTHFR. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+Well, not everyone can efficiently break it down into a usable form, especially individuals with genetic mutations like MTHFR.
 
 As a result, unmetabolized folic acid can build up in the bloodstream, potentially getting in the way of natural folate pathways, masking B12 deficiencies, and even leading to neurological or immune issues over time. 
 
@@ -450,10 +396,7 @@ Now methylation is a form of alkylation where a methyl group is replacing a hydr
 
 Or as it is often referred to “the addition of a methyl group” (one carbon metabolism supplies methyl groups). 
 
-**Now impaired methylation can lead to any health issue under the sun such as:** -Miscarriages (some fertility experts claim that MTHFR SNPs are one of the main five causes of miscarriages). -Hair loss -Histamine intolerance 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+**Now impaired methylation can lead to any health issue under the sun such as:** -Miscarriages (some fertility experts claim that MTHFR SNPs are one of the main five causes of miscarriages). -Hair loss -Histamine intolerance
 
 -Estrogen dominance -Miscarriages -Heart disease -Arthritis -Excessive inflammation -Skin issues such as acne and eczema -Anxiety -Depression -Migraines -Poor cognitive function -Autoimmune issues -Gut issues -Liver issues 
 
@@ -475,10 +418,7 @@ Note: The entire conversion follows: Dietary folate -> (SLC19A1 enzyme) dihydrof
 
 Then we have medications such as metformin, antacids and methotrexate can negatively harm methylation. 
 
-Then we have toxic burdens that include anything from alcohol, birth control pills and smoking all the way to heavy metals. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+Then we have toxic burdens that include anything from alcohol, birth control pills and smoking all the way to heavy metals.
 
 Poor nutritional habits will obviously harm methylation since things such as B2, B9, B12 and B6 all affect one carbon metabolism. 
 
@@ -508,12 +448,7 @@ If you get too much methionine and not enough glycine or proline for example you
 
 But please, don't skip on glycine. Glycine is in fact a non essential amino acid but in 2024 things change for everyone a bit since: 
 
-1. Most people have been exposed to glyphosate for decades and thus have negatively 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
-
-affected the shikimate pathway quite a lot. 
+1. Most people have been exposed to glyphosate for decades and thus have negatively affected the shikimate pathway quite a lot. 
 
 2. MTHFR SNPs (glycine can buffer one carbon donors). 
 
@@ -545,10 +480,7 @@ And over time, this leads to iron overload.
 
 Now, let’s not forget that Iron is absolutely necessary for optimal human health. 
 
-It's necessary for hemoglobin production, allowing red blood cells to carry oxygen. It's essential for energy production in cells. It supports immune function. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+It's necessary for hemoglobin production, allowing red blood cells to carry oxygen. It's essential for energy production in cells. It supports immune function.
 
 And it enables numerous enzymatic reactions throughout the body. 
 
@@ -574,10 +506,7 @@ As stated, they are absorbed in the upper parts of the intestine such as the duo
 
 Enterocytes and epithelial cells also come into play and with the help of ferroportin (a protein that can cross membranes) it gets into the bloodstream. 
 
-We also have the enzyme DcytB that helps us reduce Fe(III) to Fe (II)in order for the DMT1 transporter to absorb the non-heme iron. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+We also have the enzyme DcytB that helps us reduce Fe(III) to Fe (II)in order for the DMT1 transporter to absorb the non-heme iron.
 
 But we also have some forms that are found in supplements/used to fortify foods. 
 
@@ -601,10 +530,7 @@ This is important since (sero)transferrin can only carry iron in its ferric stat
 
 You can somewhat think of this peptide hormone that has lots of cysteine and is produced by the liver as a thermostat that tweaks how much iron we absorb (it basically binds it to ferroportin). 
 
-Meaning that when we have a lot of iron, its levels increase in order for the absorption to decrease and when we have little its levels decrease in order for the absorption to increase. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+Meaning that when we have a lot of iron, its levels increase in order for the absorption to decrease and when we have little its levels decrease in order for the absorption to increase.
 
 Hepcidin is one of the reasons why anemia is linked to excess inflammation (IL-6 increases hepcidin). 
 
@@ -636,10 +562,7 @@ Why do mutations in these genes create issues?
 
 Because they are responsible for producing proteins that help us absorb, store, transport and overall regulate iron. 
 
--Ferritin 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+-Ferritin
 
 -Tsat 
 
@@ -679,10 +602,7 @@ Then:
 
 -After you've implemented these, get some copper from sources such as bee pollen. 
 
--Get enough K2. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+-Get enough K2.
 
 -Go to sleep before 11 if/when it's possible. 
 
@@ -716,10 +636,7 @@ But don't add/do all these at once.
 
 If you go and donate blood while also adding whole food vitamin E, quercetin and milk thistle all at once for example, your ferritin will drop way too fast most likely. 
 
-**Now let’s talk about APOE4 mutations.** 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+**Now let’s talk about APOE4 mutations.**
 
 The apolipoprotein E protein plays a critical role in transporting cholesterol and other lipids in the brain but also the blood and is crucial for lipid metabolism overall. 
 
@@ -753,10 +670,7 @@ Why is this important? Well, this gene basically controls how your body handles 
 
 Specifically, the AGXT gene gives instructions for making the enzyme alanine-glyoxylate aminotransferase, which is found mainly in the liver. 
 
-This enzyme's job is to turn glyoxylate into glycine, preventing it from being turned into oxalate. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+This enzyme's job is to turn glyoxylate into glycine, preventing it from being turned into oxalate.
 
 Mutations here can cause primary hyperoxaluria Type 1, leading to kidney stones or even kidney failure because of oxalate buildup. 
 
@@ -796,10 +710,7 @@ Note: If your diet is very high in oxalates right now, gradually reduce the inta
 
 -Get some calcium and magnesium with each meal 
 
--Manage the proline amount in your diet 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+-Manage the proline amount in your diet
 
 -If you don't have candida or a pathogen overgrowth, starting to use probiotics (or colostrum) could help, A LOT since certain gastrointestinal bacteria are great oxalate degraders. Even lactobacillus (and some) Bifidobacterium strains seem to help 
 
@@ -829,10 +740,7 @@ But Lp(a) acts like sticky patches that can attach to your vessel walls and attr
 
 What should normally happen, is that your Lp(a) levels are low enough that they’re not involved in shrinking your vessels or forming bloot clots. 
 
-When levels stay minimal, blood flows freely throughout your cardiovascular system, your heart doesn't have to work as hard, and oxygen reaches all your tissues efficiently. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+When levels stay minimal, blood flows freely throughout your cardiovascular system, your heart doesn't have to work as hard, and oxygen reaches all your tissues efficiently.
 
 But some of us inherit genetic mutations that cause our bodies to produce too much Lp(a), which is like constantly introducing more of these sticky patches into the system, which build up over time and attract those problematic compounds. 
 
@@ -868,10 +776,7 @@ Supplements to consider besides lifestyle changes:
 
 -Pomegranate ellagitannins 
 
-**Heading over to BChE, or Butyrylcholinesterase.** 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+**Heading over to BChE, or Butyrylcholinesterase.**
 
 Butyrylcholinesterase is a vital enzyme that lives in your bloodstream, quietly doing an essential job: breaking down certain chemicals, medications, and neurotransmitters in your body. 
 
@@ -897,10 +802,7 @@ Your body could react badly to medications that others handle just fine. You cou
 
 This kind of risk becomes especially dangerous during surgery. A standard dose of anesthetic or muscle relaxant might cause breathing problems or paralysis if you have a BChE mutation. 
 
-And the scary part is, the doctors might have no idea what’s going wrong—they’re giving what seems like the right amount, but your body just doesn’t process it the same way. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+And the scary part is, the doctors might have no idea what’s going wrong—they’re giving what seems like the right amount, but your body just doesn’t process it the same way.
 
 On the flip side, some BChE mutations do the opposite. They create overactive enzymes—cleanup crews that move too fast. So instead of leaving harmful stuff in your system, they actually start breaking things down too quickly. 
 
@@ -930,10 +832,7 @@ Diamine Oxidase is an enzyme your body uses to break down histamine, especially 
 
 It’s made thanks to the AOC1 gene and helps your body handle histamine coming in from external things like food. 
 
-Mutations in the DAO can cause many sorts of issues. From negative reactions to food and migraines to gut problems and skin rashes. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+Mutations in the DAO can cause many sorts of issues. From negative reactions to food and migraines to gut problems and skin rashes.
 
 Here’s why this gene is such a big deal: as food moves through your system, it contains many different compounds, including histamine. 
 
@@ -955,19 +854,13 @@ Someone who's been struggling with chronic digestive issues, unexplained headach
 
 If any of the symptoms we mentioned earlier ring a bell, it’d be good to consider learning about your genetic status, if you haven’t already. 
 
-Tips: 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+Tips:
 
 -Avoid supplemental iron, too much zinc, molybdenum doses than exceed 100mcg, NAC and high dose niacin can all lead to issues with histamine by depleting copper or harming methylation for example. 
 
 -Do not consume on a weekly basis the following: 
 
-● Kefir ● Aged cheeses ● Canned foods ● Chocolate ● Soy ● Nuts ● Mustard ● Tomatoes ● Cured meats ● Dried fruit ● Preservatives ● Bananas ● Yogurt ● Kimchi ● Kombucha ● Coffee ● Vinegar ● Yeast ● Sourdough ● Alcohol ● Too much olive oil ● Cacao ● Spinach ● Kale ● Most berries ● Certain tubers -Quercetin -Magnesium (all forms except for citrate,oxide and in general very cheap ones) -B1 -B5 -P5P -Chamomile -Whole food vitamin E 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+● Kefir ● Aged cheeses ● Canned foods ● Chocolate ● Soy ● Nuts ● Mustard ● Tomatoes ● Cured meats ● Dried fruit ● Preservatives ● Bananas ● Yogurt ● Kimchi ● Kombucha ● Coffee ● Vinegar ● Yeast ● Sourdough ● Alcohol ● Too much olive oil ● Cacao ● Spinach ● Kale ● Most berries ● Certain tubers -Quercetin -Magnesium (all forms except for citrate,oxide and in general very cheap ones) -B1 -B5 -P5P -Chamomile -Whole food vitamin E
 
 -Astragalus -Apigenin -Theanine -Ginger -Holy basil -Rutin -Ceylon cinnamon -Bromelain -Blackseed oil -Nettle root -DAO 
 
@@ -989,10 +882,7 @@ They form appropriately at places of injury and dissolve once they've served the
 
 The problem with having a mutation here, is it creates a version of Factor V that resists being shut down by your body's natural blood thinner, which is protein C. 
 
-This is like having a communication officer who doesn't stop once the emergency is over, still calling for backup long after it’s needed. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+This is like having a communication officer who doesn't stop once the emergency is over, still calling for backup long after it’s needed.
 
 This resistance to being deactivated and stop working can lead to several serious problems. 
 
@@ -1018,10 +908,7 @@ All of this can literally be lifesaving information, as the dangerous situations
 
 And let’s not forget about **F5** , or Factor V Leiden, and **F2** , the Prothrombin Gene. 
 
-We’re mentioning these two genes together because the problems they can cause are similar, although, how they work is different. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+We’re mentioning these two genes together because the problems they can cause are similar, although, how they work is different.
 
 They’re both involved in blood clotting, strokes and heart attacks. This information is especially important if you're taking estrogen, are pregnant, fly frequently, or have a history of clotting. 
 
@@ -1041,10 +928,7 @@ But the ones who carry the Prothrombin G20210A mutation, produce approximately 3
 
 Just like with Factor V, this results in a higher risk of creating blood clots when they’re not needed. Deep vein thrombosis is again a major concern, especially in the legs. If a clot breaks free, it can travel to the lungs and cause a pulmonary embolism, which can be life-threatening. Women with this mutation also face a higher risk of pregnancy risks, like miscarriage, due to increased clotting. 
 
-And in rare cases, clots may develop in unusual places like the brain, liver, or kidneys, leading to even more severe issues. So while the mutation works differently than Factor V, the dangers it brings are strikingly similar, and just as important to catch early. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+And in rare cases, clots may develop in unusual places like the brain, liver, or kidneys, leading to even more severe issues. So while the mutation works differently than Factor V, the dangers it brings are strikingly similar, and just as important to catch early.
 
 And once again, a dangerous event might happen without any previous warning, and clots can form even without usual triggering factors like surgery, immobility, or trauma. 
 
@@ -1068,10 +952,7 @@ After dropping it off, these trucks would normally return to the bloodstream to 
 
 Ideally, there should be enough of these collection trucks working, making sure that extra cholesterol is efficiently removed from circulation. This way, your LDL cholesterol levels stay within a healthy range, reducing the risk of plaque building up in your artery walls. 
 
-Now, the thing is that some people have what we call gain-of-function mutations in their PCSK9 gene, making the protein work too efficiently. As if having an eager traffic controller who prematurely pulls too many collection trucks out of service, leaving fewer trucks to remove cholesterol from the bloodstream. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+Now, the thing is that some people have what we call gain-of-function mutations in their PCSK9 gene, making the protein work too efficiently. As if having an eager traffic controller who prematurely pulls too many collection trucks out of service, leaving fewer trucks to remove cholesterol from the bloodstream.
 
 This overactive PCSK9 function can lead to several serious problems. Your LDL cholesterol levels become significantly high. You develop premature atherosclerosis, which hardens and narrows your arteries. 
 
@@ -1091,12 +972,7 @@ Blocking PCSK9 has become a powerful strategy for managing cholesterol in high-r
 
 All of this shows us we should all be aware of our genetic profiles. A tailored approach in our health issues might save us years of guessing, no beneficial results, serious medical side effects and health problems. 
 
-Now, we know that all of this information might seem a bit overwhelming, and even frustrating. We had to mention all of this, so we fully understand what’s going on inside our bodies and why we might experience certain problems and symptoms. But the good news is 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
-
-we’re done talking about how they work and the problems they cause. And as we mentioned earlier, these mutations don’t determine our destiny. It’s about time we talk about practical steps you can take today, to address these genetic mutations, and potentially prevent, solve, or reduce, years of pain and unidentified root causes. First we’ll say what individuals having some of these mutations should ideally do, if they can become discipline beasts, and in the end we’ll cover a more friendly, human, approach. 
+Now, we know that all of this information might seem a bit overwhelming, and even frustrating. We had to mention all of this, so we fully understand what’s going on inside our bodies and why we might experience certain problems and symptoms. But the good news is we’re done talking about how they work and the problems they cause. And as we mentioned earlier, these mutations don’t determine our destiny. It’s about time we talk about practical steps you can take today, to address these genetic mutations, and potentially prevent, solve, or reduce, years of pain and unidentified root causes. First we’ll say what individuals having some of these mutations should ideally do, if they can become discipline beasts, and in the end we’ll cover a more friendly, human, approach. 
 
 **Now let’s talk about MAO** 
 
@@ -1118,10 +994,7 @@ In the case of chronic stress, it significantly upregulates MAO-A activity by ac
 
 When it comes to MAO polymorphisms, for MAO-A we have: 
 
-● High-activity alleles (3.5R, 4R, 5R) that lead to higher MAO-A gene transcription and thus increased MAO-A enzyme which can predispose these people to mood disorders like depression. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
+● High-activity alleles (3.5R, 4R, 5R) that lead to higher MAO-A gene transcription and thus increased MAO-A enzyme which can predispose these people to mood disorders like depression.
 
 ● Low-activity alleles (2R, 3R) that lead to lower MAOA transcription and thus reduced MAO-A activity which can predispose certain people to more impulsive and aggressive behaviors. The 3R allele is often referred to as the “warrior gene” as well (not something to be proud of though just because of the name since in most cases this gene is associated with wildly antisocial behaviors). ● rs6323 (T941G) that is associated with higher MAO-A activity. ● rs1137070 that also affects MAO-A expression and is implicated in anxiety disorders and stress response. 
 
@@ -1141,13 +1014,6 @@ In contrast, MAOIs boost multiple monoamines, offering a more comprehensive appr
 
 ● Non selective (these inhibit both MAO-A and MAO-B) such as phenelzine, fenugreek, coffee, tranylcypromine and isocarboxazid, passion flower, chamomile and rhodiola. We also have ginkgo biloba but the main studies were done in rats and human ones it didn’t really do much. ● Selective MAO-A inhibitors such as methylene blue, pirlindole, St. John’s Wort, quercetin and mocobemide. ● Selective MAO-B inhibitors such as safinamide, resveratrol, EGCG and rasagiline. 
 
-So pick one that suits your goals best. 
+So pick one that suits your goals best.
 
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
-
-That was it. 
-
-The system V2.0 (lesson 12) written by George @Helios_Movement **Sold to** 
-
-
+That was it.

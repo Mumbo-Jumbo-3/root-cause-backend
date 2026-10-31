@@ -1,7 +1,6 @@
-# This program was created by George @Helios_movement.
+# Gut Health Handbook, Lesson 2: Understanding Mast Cells
 
-**Lesson 2: Understanding mast cells (MCAS is quite common in people with chronic
-gut issues so i thought that i might as well add this file in the program)**
+(MCAS is quite common in people with chronic gut issues so i thought that i might as well add this file in the program)
 
 **When you see topics such as:**
 
@@ -31,10 +30,6 @@ long Covid, Celiac disease, multiple sclerosis, type 1 diabetes
 
 **being mentioned, mast cells should immediately come to your mind (a list of studies is
 provided at the end of the lesson).**
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 Heck in order to understand how true this is, you should probably even think about mast
 cells every time you see the major organs and tissues of the body being mentioned.
@@ -79,10 +74,6 @@ food allergies).
 These besides histamine also produce tryptase, chymase and carboxypeptidases such as
 carboxypeptidase A.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 They are located in the skin, submucosa of the gastrointestinal tract, and around blood
 vessels and nerves (when activated by IgE-mediated responses, they contribute to skin
 disorders, CVD and fibrosis).
@@ -121,13 +112,7 @@ detect signals, respond rapidly, and release mediators that are found in the cyt
 turning the membrane into a detection hub. It facilitates rapid signal transduction. When a
 receptor binds its ligand (e.g., an allergen-IgE complex), the membrane’s embedded
 proteins trigger intracellular cascades within seconds, leading to degranulation or mediator
-synthesis. It supports mediator release. During degranulation, the membrane fuses with
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
-granule membranes, releasing histamine and other contents outside the cell—a process
+synthesis. It supports mediator release. During degranulation, the membrane fuses with granule membranes, releasing histamine and other contents outside the cell—a process
 reliant on its fluidity and protein machinery.
 
 **3. The cytoplasm** that is the space between the nucleus and the plasma membrane. It
@@ -165,13 +150,7 @@ When it comes to wound healing for example, they partly do so through the releas
 histamine that dilates blood vessels and increases permeability, growth factors such as
 VEGF (Vascular Endothelial Growth Factor) that that signal endothelial cells to form new
 capillaries for delivering oxygen and nutrients to the healing tissue, FGF-2 (Fibroblast
-Growth Factor 2) that stimulates fibroblast proliferation, encouraging collagen synthesis and
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
-granulation tissue formation, but even cytokines such as TNF-α and IL-4 support the
+Growth Factor 2) that stimulates fibroblast proliferation, encouraging collagen synthesis and granulation tissue formation, but even cytokines such as TNF-α and IL-4 support the
 formation of new blood vessels and tissue remodeling.
 
 Or when it comes to regulating inflammatory responses, they do so partly by releasing
@@ -210,13 +189,7 @@ by releasing antimicrobial substances from their granules such as defensins (β-
 example) that are small peptides with antimicrobial activity against bacteria, fungi, and
 some viruses (they basically “punch holes” in the membranes of bacteria, fungi and some
 viruses membranes and kill them as a result of this) (note: β-defensins are produced more
-by epithelial cells and neutrophils compared to mast cells), cathelicidins such as LL-37 that
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
-also are antimicrobial peptides that disrupt microbial membranes Proteases: Like tryptase
+by epithelial cells and neutrophils compared to mast cells), cathelicidins such as LL-37 that also are antimicrobial peptides that disrupt microbial membranes Proteases: Like tryptase
 and chymase, which can directly lyse bacteria or degrade virulence factors or by enhancing
 the recruitment of other immune cells like neutrophils and macrophages. Tryptase also
 activates nearby cells via PAR-2 receptors, amplifying the response.
@@ -260,10 +233,6 @@ release of growth factors such as VEGF.
 
 Heck, let's even talk about the unfortunate event of cancer once again.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 It's also not black and white in a case this extreme once again.
 
 Mast cells are a source of angiogenic, lymphangiogenic factors, TNF-α, IL-9 and in general
@@ -306,13 +275,7 @@ smaller and contain fewer proteases compared to the granules of MCTC (Mast Cells
 containing both Tryptase and Chymase).
 
 Now, sometimes upon activation, mast cells undergo something that is called degranulation
-which is a pre-synthesized mediator release process where the granule membrane fuses with
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
-the plasma membrane, releasing the contents into the extracellular space primarily triggered
+which is a pre-synthesized mediator release process where the granule membrane fuses with the plasma membrane, releasing the contents into the extracellular space primarily triggered
 by calcium-dependent pathways.
 
 Even though there are two distinct types of degranulation (listed right below this) both of
@@ -351,10 +314,6 @@ Non-IgE mediated activation, it really depends.
 
 Some receptors may induce cytokine production or other responses without triggering the
 release of granule contents.
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 GPCRs for example can cause degranulation but might also activate pathways leading to
 cytokine production without degranulation.
@@ -399,10 +358,6 @@ stimuli, from pathogens and allergens to local tissue signals.**
 ● Cytokine receptors
 ● FcγRIII (CD16)**
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 **● Leukotriene receptors
 ● Neurotransmitter receptors
 ● Dectin-1 (CLEC7A)
@@ -442,13 +397,7 @@ antibodies as its ligands (it binds to the Fc region of IgE antibodies), TLRS ha
 their ligands, GPCRs have hemokines, lipid, mediators, neurotransmitters, complement
 componets (C3a, C5a) as their ligands, MRGPRX2 (Mas-Related G Protein-Coupled
 Receptor Member X2) have compounds such as 48/80, certain drugs such as,
-fluoroquinolones and host-derived peptides like cathelicidin LL-37 as their ligands, CD
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
-has aphosphatidylserine as its ligand and the adenosine receptors obviously have adenosine
+fluoroquinolones and host-derived peptides like cathelicidin LL-37 as their ligands, CD has aphosphatidylserine as its ligand and the adenosine receptors obviously have adenosine
 as its ligand.
 
 Now if you are wondering if all ligands have a high affinity (aka how tightly they bind to
@@ -491,10 +440,6 @@ These receptors require higher ligand concentrations to activate mast cells, ref
 binding strength.
 
 1. FcγRIII (Low-Affinity IgG Receptor, CD16)
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 2. TLR2 (Toll-Like Receptor 2)
 3. C3aR (Complement Receptor for C3a)
@@ -539,10 +484,6 @@ tissue-resident sentinels and mast cells rely on these for their hallmark functi
 
 Now let’s understand these receptors better within our discussion.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 1. When it comes to TLRs, there are 10 known toll-like receptors (TLRs) (TLR
 -TLR10).
 
@@ -582,10 +523,6 @@ So in general, the extracellular domains of TLRs detect PAMPs, their transmembra
 domains anchor them in the bilayer of either the plasma membrane or intracellular organelle
 membranes and their intracellular domains trigger signaling through the MyD88 or TRIF
 pathway.
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 ```
 Let’s say for example that TLRs on mast cells encounter something such as LPS, then what
@@ -641,8 +578,7 @@ TLR-2 and TLR-4.
 studied method of mast cell activation is through the adaptive immune response mediated
 
 ```
-Gut health handbook (lesson 2) written by George @Helios_Movement
-Sold to
+
 ```
 
 by it (the FcεRI), which is responsible for Type I allergic reactions (Type I allergic reactions
@@ -686,10 +622,6 @@ Immunoreceptor tyrosine-based activation motifs (ITAMs) on the γ-chains are
 phosphorylated by Src family kinases (a group of non-receptor tyrosine kinases such as
 such as Src, Fyn, Yes, Lck, Lyn, Hck, Fgr, Blk, and Yrk) such as Lyn (Lyn phosphorylates
 the ITAMs on the γ-chains of the receptor), this phosphorylation then activates Syk kinase,
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 ```
 which then triggers the activation of phospholipase Cγ (PLCγ), protein kinase C (PKC), and
@@ -738,8 +670,7 @@ and activates PLC which hydrolyzes PIP2 into IP3 and DAG. IP3 then binds to rece
 the endoplasmic reticulum, releasing stored calcium into the cytoplasm, amplifying the
 ```
 ```
-Gut health handbook (lesson 2) written by George @Helios_Movement
-Sold to
+
 ```
 
 signal. MAPK and PI3K (phosphoinositide 3-kinase) pathways also contribute to the overall
@@ -783,13 +714,7 @@ channels.
 Number 2: Quercetin, a flavonoid found in onions and apples, has shown promise in lab
 studies. It inhibits calcium influx through store-operated channels (like CRAC channels)
 and can blunt calcium release from internal stores, such as the endoplasmic reticulum.
-Experiments with mast cells—where calcium spikes drive degranulation—indicate
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
-quercetin reduces those peaks, which is why it’s sometimes linked to allergy relief. It’s not a
+Experiments with mast cells—where calcium spikes drive degranulation—indicate quercetin reduces those peaks, which is why it’s sometimes linked to allergy relief. It’s not a
 mainstream supplement for this purpose, but the mechanism fits.
 
 Number 3: Taurine is not a direct calcium channel blocker like magnesium, but it acts as a
@@ -829,10 +754,6 @@ in the gut (it was originally identified in the gut for its vasodilatory effects
 potent vasodilator in the respiratory systems, regulating blood flow and airway tone) and
 some sensory neurons (some immune cells such as lymphocytes can also produce it but
 neurons are the primary source).
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 It also affects electrolyte balance, immune cells besides mast cells like T cells, B cells and
 macrophages, and mast cells, with both pro- and anti-inflammatory(*) effects depending on
@@ -875,10 +796,6 @@ movement. They are classified into four families: CC, CXC, CX3C and XC.
 Mast cells primarily respond to chemokines from the CC and CXC families (primarily from
 the CC though).
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 1. CXC Chemokines or α-chemokines are primarily involved in the recruitment of
 neutrophils and lymphocytes while some of them promoting angiogenesis and others
 inhibiting it.
@@ -918,10 +835,6 @@ The list of CC Chemokines (β-Chemokines) includes:
 9. CCL
 10. CCL
 11. CCL
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 ## 12. CCL16
 
@@ -976,10 +889,6 @@ This helps with retaining mast cells in the bone marrow and/or inflamed sites ov
 
 **-Histamine Receptors (H1, H2, H3, H4)**.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 Whose function vary from....... While histamine can be released by mast cells, it can also
 act back on mast cells through these receptors, modulating their function. H1 and H4
 generally promote activation, whereas H2 might have inhibitory effects.
@@ -1020,10 +929,6 @@ bronchoconstriction and more) but not leukotrienes (arachidonic acid is metaboli
 leukotrienes by the 5-lipoxygenase (5-LOX) enzyme).
 
 **How does this process happen?**
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 **The entire process can be broken down into 3 “phases” so to speak.**
 The release of arachidonic acid, its conversion to PGH2 and the formation of specific
@@ -1066,10 +971,6 @@ In general, PGE synthase produces PGE2, PGF synthase produces PGF2α, PGD syntha
 produces PGD2, thromboxane synthase produces TXA2, prostacyclin synthase produces
 PGI2 and so on.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 Note: Short-term/acute prostaglandin spikes aren’t something to be concerned about (unless
 a person is at a profoundly compromised state) since prostaglandins like PGE2 for example
 lead to immune activation to fight pathogens and stop once the trigger subsides. Not only
@@ -1109,10 +1010,6 @@ On the other hand, COX-2 is upregulated by cytokines such as IL-1 and TNF-α and
 factors during inflammation, it sensitizes nociceptors (pain receptors) in the nervous system,
 induces fever, affects wound healing and cell proliferation.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 **So as you can tell, prostaglandins (and thus COX enzymes) been chronically elevated
 in a person can have a range of negative effects (depending on the specific
 prostaglandins involved, their levels, and the tissues they’re acting on) such as:**
@@ -1151,10 +1048,6 @@ interleukin-6 (IL-6) might correlate with them and are worth measuring.
 And on a final note, if your symptoms massively improve when using COX inhibitors this
 could also be a sign of elevated prostaglandin levels.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 Now let’s say that prostaglandins are high. What can you even do?
 
 Well, you should:
@@ -1192,10 +1085,6 @@ EVOO and coconut oil.
 the pancreas.
 -Going to bed before 11 P.M.
 -Grounding as much as i could throughout the day.
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 -Not smoking.
 -Getting enough vitamin K.
@@ -1237,10 +1126,6 @@ without antioxidants we can't neutralize reactive oxygen species (ROS).
 Alcohol has been linked to increased arachidonic acid levels in cell membranes and also
 alters fatty acid metabolism.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 7. MCAS (mast cell activation syndrome)
 8. P.S: Methyl donor depletion can also increase prostaglandin levels so undiagnosed SNPs
 in MTHFR for example or hamrful supplement trends such as niacin megadoses can also
@@ -1280,13 +1165,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6537504/)
 
 When it comes to COX inhibitors overall and how the work, they bind to the active site of
 thes cyclooxygenase enzymes by fitting into the hydrophobic channel of them which is
-where arachidonic acid would normally bind (so most COX inhibitors are competitive
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
-inhibitors), preventing this conversion which results in less prostaglandin and thromboxane
+where arachidonic acid would normally bind (so most COX inhibitors are competitive inhibitors), preventing this conversion which results in less prostaglandin and thromboxane
 activity, which dials down the symptoms they cause.
 
 There are both reversible and irreversible inhibitors.
@@ -1329,10 +1208,6 @@ Does this mean that aspirin is a wonder drug? Not really since as you’re able 
 downregulating COX-1 for example you can mess up your stomach not to even mention that
 plenty of people have issues with salicylicates or H. Pylori and thus can’t use aspirin.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 So natural supplements (besides things such as whole food vitamin E that were mentioned
 prior) that can lower prostaglandins by inhibiting COX-2 (most of these also inhibit PLA2
 blocking upstream signaling (e.g., NF-κB, MAPK) and reducing COX/LOX activity
@@ -1373,10 +1248,6 @@ polysaccharide content.
 
 Curcumin and quercetin are both great for anyone except for the people who struggle with
 low libido which is driven by androgen issues.
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 Same goes for EGCG plus that it’s not great for people with slow COMT.
 
@@ -1421,10 +1292,6 @@ release).
 **EP4,** is anti-inflammatory not only by increasing cAMP but also by increase the production
 of IL-10.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 For example, when prostaglandin E2 (PGE2) binds to EP2 (coupled to Gs), it increases
 cyclic AMP (cAMP) levels, which can inhibit mast cell degranulation and reduce the
 release of histamine and other mediators, thus dampening inflammation.
@@ -1463,10 +1330,6 @@ mediators (e.g., prostaglandins, leukotrienes), and produce cytokines.
 
 **Now a question that someone might have is “can COX-2 inhibitors stabilize mast
 cells?”.**
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 First, some of the compounds that are used to stabilize mast cells also happen to be COX-2
 inhibitors. So we can not attribute their effects solely to COX-2 inhibition.
@@ -1510,10 +1373,6 @@ which is then quickly converted to leukotriene A4 (LTA4).
 
 Then, when it comes to subsequent conversions:
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 ○ **LTA4 hydrolase** converts LTA4 to leukotriene B4 (LTB4) in neutrophils and
 macrophages.
 ○ **LTC4 synthase** adds glutathione to LTA4, forming leukotriene C4 (LTC4)
@@ -1554,10 +1413,6 @@ TNF-α and chemokines like CCL2 and CXCL8.
 different.**
 
 **CysLT2 (Cysteinyl Leukotriene Receptor 2)**
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 Compared to CysLT1, CysLT2 has a high affinity for LTC4 as well as LTD4 ( but its affinity
 is lower than CysLT1’s for LTD4) and is less dominant in mast cells (its role is more
@@ -1601,10 +1456,6 @@ Now if they are in fact elevated, here are some things to consider.
 
 **1) Supporting** Short-Chain Fatty Acids (SCFAs) or using compounds like tributyrate
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 **Leukotrienes are degraded by enzymes like 15-PGDH or excreted (LTE4 in urine).**
 
 15-Hydroxyprostaglandin dehydrogenase (15-PGDH) is an enzyme that plays a key role in
@@ -1647,10 +1498,6 @@ curcumin and b** oswellia.
 
 **9) Get enough magnesium modulates calcium signaling. Low levels could enhance
 PLA2 activation by failing to balance calcium influx.**
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 **10) Get sun since a vitamin D deficiency could promote calcium-dependent PLA2
 activity.**
@@ -1696,10 +1543,6 @@ cancer).
 1. Berberine
 2. Curcumin
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 3. Black seed oil
 4. Resveratrol
 5. Quercetin
@@ -1739,10 +1582,6 @@ tracking and amplifies mast cell degranulation.
 ceramidases cleave ceramide’s fatty acid, yielding sphingosine and then sphingosine
 kinases (SphK1 and SphK2) add a phosphate group to sphingosine’s 1-hydroxyl position,
 forming S1P.
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 Now when it comes to s **phingosine-1-phosphate receptors we have five of them (** mast
 cells mainly express S1PR1-4)**.**
@@ -1787,10 +1626,6 @@ inhibiting adenylate cyclase and lowering cAMP).
 
 **-Adenosine eeceptors (A2A, A2B, A3)**
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 Adenosine is a purine nucleoside that’s generated s from the breakdown of adenine
 nucleotides, primarily ATP both intracellularly (ATP → ADP → AMP and the cytosolic
 5’-nucleotidase converts AMP to adenosine) and extracellularly (ATP and ADP that are
@@ -1834,10 +1669,6 @@ sources, caffeine can even be beneficial.
 
 **-Opioid Receptors (e.g., MOR, KOR)**
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 When it comes to opioids, we will only care about endogenous opioids over here which is a
 group that includes β-endorphin, enkephalins and dynorphins.
 
@@ -1879,10 +1710,6 @@ Also calcium and the activated kinases (like PKC) can also lead to the activatio
 transcription factors such as NF-κB, AP-1, and NFAT which lead to the synthesis of
 cytokines (e.g., TNF-α, IL-4, IL-5, IL-6) and chemokines. Thus the newly synthesized
 mediators are secreted, contributing to a sustained immune response.
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 DAG is also important and activates protein kinase C (PKC) which phosphorylates various
 proteins.
@@ -1926,10 +1753,6 @@ please re-visit it since we discuss melatonin in depth over there.
 
 Now in regards to mast cells, melatonin regulates/supresses signaling pathways like NF-κB
 and can reduce mast cell degranulation by downregulating COX-2 expression for example.
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 **2) Avoid the following toxins** (once again remember, this is life, you can’t perfectly avoid
 everything and the attempt to do so will backfire, so always apply the 90/10 rule).
@@ -1977,10 +1800,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/9746959
 
 -PFOAs and PFOS found in things such as Teflon pans.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 https://www.ncbi.nlm.nih.gov/pubmed/27682001
 
 https://www.sciencedirect.com/science/article/pii/S016041201932759X
@@ -2026,10 +1845,6 @@ Besides the insulin resistance, leptin resistance and the increase of pro-inflam
 markers that can negatively affect mast cells, the increased aromatase activity could
 indirectly contribute to mast cell degranulation by raising estrogen levels as well.
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2603032/
 
 https://www.ncbi.nlm.nih.gov/pubmed/19241089
@@ -2074,10 +1889,6 @@ https://pubmed.ncbi.nlm.nih.gov/35905313/
 **5) Prioritize freshly cooked meals and if you have MCAS or histamine intolerance
 avoid frying and grilling as well.**
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 https://www.ncbi.nlm.nih.gov/pubmed/29200758
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9175030/
@@ -2120,10 +1931,6 @@ a DAO deficiency will occur.
 
 O3s compete with O6s fatty acids for the desaturase and elongase enzymes
 (delta-6-desaturase, delta-5-desaturase).
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
 
 Note: Seafood isn't the only source of O3s like DHA and lamb has plenty.
 
@@ -2169,10 +1976,6 @@ factors that contribute to your dysbiosis.
 **-Avoid high histamine foods and histamine liberators for the next 60 days (there’s list
 in the neurotransmitter part of the program).**
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 **-Chill with the sauna and always use an IR one.**
 
 Sauna is a great tool, but if you have MCAS, do not use it more than once a week until it
@@ -2217,10 +2020,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3764846/
 
 **● Cordyceps and DAO (this is a quite powerful combo).**
 
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
 **https://www.ncbi.nlm.nih.gov/pubmed/21277968**
 
 ● **Naringenin.**
@@ -2256,9 +2055,3 @@ https://www.ncbi.nlm.nih.gov/pubmed/26593037
 **● Lactobacillus plantarum (DR7)**
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC8150869/
-
-Gut health handbook (lesson 2) written by George @Helios_Movement
-**Sold to**
-
-
-

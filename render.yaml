@@ -11,8 +11,9 @@ services:
     healthCheckPath: /ok
     # A chat streams for 60-90 s; give in-flight runs time to finish when a deploy replaces the instance (default 30 s).
     maxShutdownDelaySeconds: 120
-    # Runs once per deploy, before the new instance takes traffic.
-    preDeployCommand: alembic upgrade head
+    # Runs once per deploy, before the new instance takes traffic. Ingest embeds only
+    # resources that changed, so the index always matches the deployed resources/.
+    preDeployCommand: alembic upgrade head && health-agent ingest
     envVars:
       - key: LANGSMITH_TRACING
         value: "true"

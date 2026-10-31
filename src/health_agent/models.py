@@ -1,5 +1,7 @@
+from functools import lru_cache
+
+import voyageai
 from langchain_anthropic import ChatAnthropic
-from langchain_voyageai import VoyageAIEmbeddings
 from langchain_xai import ChatXAI
 
 from health_agent.config import Settings
@@ -44,8 +46,7 @@ def get_claude_classifier_model(settings: Settings) -> ChatAnthropic:
     )
 
 
-def get_embeddings_model(settings: Settings) -> VoyageAIEmbeddings:
-    return VoyageAIEmbeddings(
-        model=settings.embedding_model,
-        voyage_api_key=settings.voyage_api_key,
-    )
+@lru_cache(maxsize=1)
+def voyage_client(api_key: str) -> voyageai.Client:
+    # One client per process. Each client caches its own tokenizer, so building one per call leaks memory.
+    return voyageai.Client(api_key=api_key)

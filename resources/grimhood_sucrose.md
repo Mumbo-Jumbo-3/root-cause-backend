@@ -1,3 +1,5 @@
+# Sucrose
+
 The SUCROSE molecule is an addictive poison stimulant, seriously depleting the immune system and creating widespread imbalance and degeneration in the brain and nervous system. It produces the worst cellular waste in the biology, called Nicotinamide Adenine Dinucleotide Hydride, or NADH, which pushes you out of ketosis, therein crashing gene expression and leaving one debilitated. Foggy and fatigued.
 
 NADH is the greatest inflammatory marker in the body, and if for any reason inflammation is an issue, Sucrose is always the worst contributing factor. It will never resolve until sucrose is eliminated from the diet entirely. Remove it from your vocabulary.

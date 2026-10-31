@@ -1,12 +1,4 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-# This program was created by George @Helios_movement. 
-
-**The system lesson 11: Understanding and improving the function of key hormone receptors.** 
+# The System, Lesson 11: Understanding and Improving the Function of Key Hormone Receptors
 
 First and foremost, let’s do a brief recap on hormones. 
 
@@ -30,10 +22,7 @@ It produces growth hormone (GH), thyroid-stimulating hormone (TSH), adrenocortic
 
 It releases oxytocin and antidiuretic hormone (ADH, also called vasopressin). 
 
-**Number 2: The hypothalamus.** 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+**Number 2: The hypothalamus.**
 
 Located below the thalamus and above the pituitary, it acts as a bridge between the nervous and endocrine systems, translating neural signals into endocrine responses via multiple nuclei such as paraventricular, supraoptic, arcuate and preoptic, each with specialized neurons. 
 
@@ -65,10 +54,7 @@ They produce parathyroid hormone (PTH).
 
 These two small, triangle-shaped glands sit atop the kidneys. 
 
-They consist of: 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+They consist of:
 
 1. Adrenal Cortex: The outer region, divided into the zona glomerulosa, zona fasciculata, and zona reticularis. 
 
@@ -102,10 +88,7 @@ These are paired organs:
 
 1. Ovaries (in females): Located in the pelvic cavity, suspended by mesovarian ligaments near the fallopian tubes, containing cortical follicles (oocytes surrounded by granulosa and theca cells) and a vascular medulla. 
 
-They produce estrogen, progesterone, and inhibin. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+They produce estrogen, progesterone, and inhibin.
 
 2. Testes (in males): Located in the scrotum, encased in the tunica albuginea, with seminiferous tubules and interstitial tissue. 
 
@@ -137,10 +120,7 @@ Now hormones are classified by chemical structure, which influences their solubi
 
 This includes the following categories/types of steroid hormones: 
 
-● Glucocorticoids (cortisol, cortisone, corticosterone) ● Mineralocorticoids (aldosterone, 11-deoxycorticosterone) ● Androgens (testosterone, DHT, DHEA, DHEA-S, androstenedione, androsterone) 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+● Glucocorticoids (cortisol, cortisone, corticosterone) ● Mineralocorticoids (aldosterone, 11-deoxycorticosterone) ● Androgens (testosterone, DHT, DHEA, DHEA-S, androstenedione, androsterone)
 
 ● Estrogens (estradiol, estrone, estriol) ● Progestogens (progesterone, 17α-hydroxyprogesterone) 
 
@@ -168,12 +148,7 @@ Progesterone is then hydroxylated to 17α-hydroxyprogesterone by CYP17 17α-hydr
 
 Finally, 11-Deoxycortisol is hydroxylated to cortisol by CYP11B1 11β-hydroxylase. 
 
-When it comes to some of the effects that cortisol has on our bodies, some of these include: gluconeogenesis (making glucose from proteins/fats), glycogenolysis, raising blood sugar, reducing glucose uptake in muscles, simulating lipolysis, releasing free fatty acids for energy, suppresses inflammation (in the short run) by inhibiting NF-κB and cytokines such as IL-6 and TNF-α, reducing immune cell activity, inhibiting osteoblast activity and collagen 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
-
-synthesis, reducing bone mineral density (BMD), enhancing vasoconstriction and sodium retention (via MR cross-talk). 
+When it comes to some of the effects that cortisol has on our bodies, some of these include: gluconeogenesis (making glucose from proteins/fats), glycogenolysis, raising blood sugar, reducing glucose uptake in muscles, simulating lipolysis, releasing free fatty acids for energy, suppresses inflammation (in the short run) by inhibiting NF-κB and cytokines such as IL-6 and TNF-α, reducing immune cell activity, inhibiting osteoblast activity and collagen synthesis, reducing bone mineral density (BMD), enhancing vasoconstriction and sodium retention (via MR cross-talk). 
 
 Note: Adrenocorticotropic hormone (ACTH) from the pituitary stimulates StAR and CYP enzymes, driven by the hypothalamic-pituitary-adrenal (HPA) axis. 
 
@@ -195,10 +170,7 @@ Some of its effects include increasing sodium reabsorption and potassium excreti
 
 For 11-Deoxycorticosterone (DOC), pregnenolone is also converted to progesterone by 3 β-HSD and then to 11-deoxycorticosterone by CYP21 21-hydroxylase. 
 
-This one is a weak mineralocorticoid so its main effects include promoting sodium retention and blood pressure elevation. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+This one is a weak mineralocorticoid so its main effects include promoting sodium retention and blood pressure elevation.
 
 **Androgens** 
 
@@ -220,10 +192,7 @@ For DHEA, pregnenolone is converted to DHEA by CYP17 17α-hydroxylase/17,20-lyas
 
 It serves as a precursor to testosterone/estrogens, supports puberty initiation and libido, inhibits GABA-A receptors and potentiates NMDA receptors, reduces IL-6 and TNF-α, improves insulin sensitivity via PPAR-α and GLUT4 upregulation and it also agonizes the sigma-1 receptor. 
 
-For DHEA-S, DHEA is sulfated to DHEA-S by sulfotransferase in the adrenals and its most interesting effect is probably promoting neurogenesis in the hippocampus. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+For DHEA-S, DHEA is sulfated to DHEA-S by sulfotransferase in the adrenals and its most interesting effect is probably promoting neurogenesis in the hippocampus.
 
 Now when it comes to androstenedione, DHEA is converted to androstenedione by 3β-HSD in the adrenals and gonads. 
 
@@ -245,10 +214,7 @@ When it comes to progesterone, in the ovarian corpus luteum (but also placenta a
 
 Note: LH (corpus luteum) or human chorionic gonadotropin (hCG, placenta) sustains production, especially in pregnancy. 
 
-Some of its effects include preparing the endometrium for implantation by promoting the secretory phase, preventing uterine contractions during pregnancy and also inhibiting lactation during pregnancy, modulating GABA-A receptors, supporting myelination and glial cell function, inhibiting certain immune responses and more. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Some of its effects include preparing the endometrium for implantation by promoting the secretory phase, preventing uterine contractions during pregnancy and also inhibiting lactation during pregnancy, modulating GABA-A receptors, supporting myelination and glial cell function, inhibiting certain immune responses and more.
 
 For 17α-Hydroxyprogesterone, progesterone is converted to 17α-hydroxyprogesterone by CYP17 17α-hydroxylase in the adrenals and ovaries. 
 
@@ -270,10 +236,7 @@ When it comes to insulin, as stated, it is produced in pancreatic β-cells in th
 
 How is it produced? 
 
-It all started with the INS gene (chromosome 11p15) that is transcribed into mRNA in β-cell nuclei. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+It all started with the INS gene (chromosome 11p15) that is transcribed into mRNA in β-cell nuclei.
 
 Then, it is translated in the rough endoplasmic reticulum (RER) into preproinsulin, a 110-amino-acid inactive precursor with a signal peptide that directs preproinsulin to the RER, where it’s cleaved to yield proinsulin. 
 
@@ -293,10 +256,7 @@ When it comes to oxytocin, the OXT gene encodes it.
 
 In a nutshell, in the nucleus of hypothalamic neurons, OXT is transcribed into mRNA which is translated in the RER into prepro-oxytocin with the signal peptide directing prepro-oxytocin to the RER, where it’s cleaved to yield pro-oxytocin. 
 
-Then this is transported to the Golgi apparatus, where it’s folded and stabilized by disulfide bonds and cleaved by proprotein convertases and other enzymes to separate the 9-amino-acid oxytocin peptide from neurophysin I, which acts as a carrier protein to stabilize oxytocin during transport. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Then this is transported to the Golgi apparatus, where it’s folded and stabilized by disulfide bonds and cleaved by proprotein convertases and other enzymes to separate the 9-amino-acid oxytocin peptide from neurophysin I, which acts as a carrier protein to stabilize oxytocin during transport.
 
 Note: Eicosanoids such as prostaglandins and leukotrienes (discussed previously) are often referred to as local hormones as well. 
 
@@ -322,10 +282,7 @@ Calcitonin is encoded by the CALC1 gene. Prepro-calcitonin is cleaved in thyroid
 
 It’s stimulated by high serum calcium and gastrin with effects including inhibiting osteoclast activity, lowering serum calcium and phosphate by enhancing renal excretion and even modulating pain perception in bone via CNS receptors. 
 
-Gastrin is encoded by the GAST gene. Preprogastrin is cleaved in gastric G-cells to yield gastrin-17 or -34. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Gastrin is encoded by the GAST gene. Preprogastrin is cleaved in gastric G-cells to yield gastrin-17 or -34.
 
 It’s stimulated by amino acids or vagal tone and inhibited by somatostatin or low pH with its key effects including stimulating gastric acid and pepsin secretion by parietal cells, enhancing gastric motility and mucosal growth and supporting the digestion of proteins. 
 
@@ -355,10 +312,7 @@ The main thing to understand at this stage is that they accomplish this by bindi
 
 These can be endogenous (think hormones or cytokines) but also exogenous ( think toxins). 
 
-Usually, when you see the topic of receptors being discussed in most health discussions, it refers to ones that bind ligands such as: 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Usually, when you see the topic of receptors being discussed in most health discussions, it refers to ones that bind ligands such as:
 
 ● Hormones ● Neurotransmitters ● Growth factors 
 
@@ -380,10 +334,7 @@ Because the places where hormones for example are produced and the places that a
 
 So nuclear receptors bridge the gap between hormone production (in the testes or thyroid) and their action in distant tissues (muscle or liver), ensuring coordinated physiological responses. 
 
-Receptor tyrosine kinases (RTKs) are cell surface receptors/transmembrane glycoproteins that bind peptide ligands like insulin or growth factors that have an extracellular ligand-binding domain a single transmembrane helix and an intracellular tyrosine kinase domain. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Receptor tyrosine kinases (RTKs) are cell surface receptors/transmembrane glycoproteins that bind peptide ligands like insulin or growth factors that have an extracellular ligand-binding domain a single transmembrane helix and an intracellular tyrosine kinase domain.
 
 Once they bind to the ligand, they induce receptor dimerization and autophosphorylation of tyrosine residues. 
 
@@ -409,10 +360,7 @@ Now receptor function is regulated by ligand levels, receptor expression, phosph
 
 Now chromosomes are structures in the nucleus of cells that carry genetic information in the form of DNA. 
 
-Each chromosome contains many genes, and we typically have 46 chromosomes (23 pairs), including 22 pairs of autosomes (non-sex chromosomes) and one pair of sex chromosomes (XX for females and XY for males). 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Each chromosome contains many genes, and we typically have 46 chromosomes (23 pairs), including 22 pairs of autosomes (non-sex chromosomes) and one pair of sex chromosomes (XX for females and XY for males).
 
 Males (XY) inherit their single X chromosome (and X-linked genes) from their mother and the Y chromosome from their father. 
 
@@ -452,10 +400,7 @@ We inherit one PGR allele from each parent and both alleles contribute to PR-A/P
 
 The NR3C1 gene is located on chromosome 5q31-32. 
 
-We inherit one NR3C1 allele from each parent, contributing equally to GRα/GRβ expression. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+We inherit one NR3C1 allele from each parent, contributing equally to GRα/GRβ expression.
 
 **5. Thyroid Hormone Receptor (TR)** 
 
@@ -491,10 +436,7 @@ They are also classified based on their location and mechanism of action, so we 
 
 Once again, these receptors are located in the cytoplasm or nucleus and primarily bind lipophilic hormones that can diffuse across the cell membrane. 
 
-**2. Cell surface/Membrane receptors** 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+**2. Cell surface/Membrane receptors**
 
 These receptors are embedded in the plasma membrane and bind hydrophilic hormones that cannot cross the cell membrane. 
 
@@ -522,10 +464,7 @@ ARs exists in an inactive state in the cytoplasm, bound to heat shock proteins (
 
 As stated, they are encoded by the AR gene, which is located on the X chromosome (Xq11-12). 
 
-When it comes to its domains: 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+When it comes to its domains:
 
 The N-terminal domain (NTD) contains activation function 1 (AF1), which is involved in transcriptional activation. 
 
@@ -553,10 +492,7 @@ In order to modulate gene expression, the receptor needs help from other protein
 
 They also connect the receptor to the cell’s machinery that reads DNA. 
 
-Then all these instruct the cell to make specific proteins by turning on or off certain genes, which then carry out the androgen’s effects. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Then all these instruct the cell to make specific proteins by turning on or off certain genes, which then carry out the androgen’s effects.
 
 **In order to understand how we can have healthy ARs and improve their function, we must remember that the activity of ARs is regulated by:** 
 
@@ -588,10 +524,7 @@ NCoR and SMRT repress AR activity by deacetylating histones and blocking transcr
 
 -More CAG repeats means lower AR sensitivity, reducing the impact of androgens. 
 
-This can lead to diminished muscle gains or libido despite normal testosterone levels. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+This can lead to diminished muscle gains or libido despite normal testosterone levels.
 
 **Now let’s see the most effective strategies we can implement in order to have healthy androgen receptors and improve their function.** 
 
@@ -629,10 +562,7 @@ Adaptogens such as rhodiola or holy basil might also help to reduce cortisol in 
 
 Vitamin D not only enhances testosterone production but also boosts AR function. 
 
-**Number 5: Avoid endocrine-disrupting chemicals** 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+**Number 5: Avoid endocrine-disrupting chemicals**
 
 Things such as bisphenol A (BPA), phthalates and pesticides not only bind to AR as antagonists, preventing androgen binding, disrupting testosterone synthesis by inhibiting steroidogenic enzymes in Leydig cells but they also alter AR expression. 
 
@@ -662,10 +592,7 @@ Gut bacteria also modulate estrogen metabolism, and dysbiosis may increase estro
 
 **Number 11: Support your thyroid.** 
 
-https://www.ncbi.nlm.nih.gov/pubmed/8568470 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+https://www.ncbi.nlm.nih.gov/pubmed/8568470
 
 **Number 12: Fix your mitochondria.** 
 
@@ -701,10 +628,7 @@ There are other supplements that can help such as forskolin, tribulus and maybe 
 
 But if you are just starting out stick with ALCAR since it’s a better bang for your buck and forskolin needs regular blood work, tribulus will make more people hypomanic compared to ALCAR and lithium orotate interacts with a lot of medications and will blunt emotions for some people. 
 
-I am not saying that these are useless, but i am saying that ALCAR is a better starting point. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+I am not saying that these are useless, but i am saying that ALCAR is a better starting point.
 
 https://www.ncbi.nlm.nih.gov/pubmed/19995796 
 
@@ -732,10 +656,7 @@ Then, the ER-ligand complex translocates to the nucleus (if not already there) a
 
 Then co-activators or co-repressors are once again recruited, which modify chromatin structure via histone acetylation or deacetylation. 
 
-This regulates transcription of genes involved in cell proliferation, differentiation, and other functions. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+This regulates transcription of genes involved in cell proliferation, differentiation, and other functions.
 
 Their activity is regulated by ligand availability, receptor expression, co-activators such as SRC-3 and co-repressors such as NCoR, phosphorylation, acetylation, or ubiquitination and feedback mechanism. 
 
@@ -755,10 +676,7 @@ Thyroid receptors are encoded by two genes, THRA (on chromosome 17q11) and THRB 
 
 ● TRα1: Widely expressed, particularly in the heart, brain, and skeletal muscle; critical for cardiac and neurological functions. ● TRα2: Abundant in the brain but does not bind T3 (lacks a functional ligand-binding domain); may act as a dominant-negative inhibitor. ● TRβ1: Predominant in the liver, kidney, and pituitary; key for regulating metabolism and cholesterol. ● TRβ2: Restricted to the pituitary, hypothalamus, and retina; regulates the hypothalamic-pituitary-thyroid (HPT) axis and vision. 
 
-When it comes to their effects, they oof course increase basal metabolic rate, oxygen consumption, and thermogenesis by mechanisms such as upregulating genes like UCP1 (uncoupling protein 1) in brown fat, enhancing heart rate, contractility, and cardiac output by regulating ion channels and contractile proteins, managing cholesterol by inducing CYP7A1 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+When it comes to their effects, they oof course increase basal metabolic rate, oxygen consumption, and thermogenesis by mechanisms such as upregulating genes like UCP1 (uncoupling protein 1) in brown fat, enhancing heart rate, contractility, and cardiac output by regulating ion channels and contractile proteins, managing cholesterol by inducing CYP7A1
 
 (bile acid synthesis) and LDLR, influencing muscle function, red blood cell production, gut motility and much more. 
 
@@ -788,10 +706,7 @@ https://pubmed.ncbi.nlm.nih.gov/1396324/
 
 **Number 2: Mainly avoiding halogens that deplete/interfere with iodine but also consuming some iodine from seafood since it is a critical component of T3 and T4.** 
 
-But you really don’t need much and for hyperthyroid and euthyroid individuals or those with Hashimoto’s, should definitely avoid large amounts or supplementing with it. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+But you really don’t need much and for hyperthyroid and euthyroid individuals or those with Hashimoto’s, should definitely avoid large amounts or supplementing with it.
 
 https://pubmed.ncbi.nlm.nih.gov/12204829/ 
 
@@ -831,10 +746,7 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC6166548/
 
 https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1528707/full 
 
-**Number 6: Relaxing/managing cortisol since it can inhibit TR signaling.** 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+**Number 6: Relaxing/managing cortisol since it can inhibit TR signaling.**
 
 https://pubmed.ncbi.nlm.nih.gov/7895654/ 
 
@@ -872,10 +784,7 @@ Moderate exercise (150 min/week) increases T3 levels and TR activity, while exce
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC10455109/ 
 
-**Number 4: Insulin receptors (IRs).** 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+**Number 4: Insulin receptors (IRs).**
 
 Insulin receptors (IRs) are cell surface receptors classified as receptor tyrosine kinases (RTKs) that bind insulin and insulin-like growth factors (IGFs) with physiological roles such as enhancing glucose uptake in muscle and fat via GLUT4, inhibiting gluconeogenesis in the liver, promoting lipogenesis and inhibiting lipolysis in adipocytes, stimulating mTOR signaling for muscle growth, supporting cell proliferation and tissue development, enhancing synaptic plasticity, cognition, and neuronal survival in the brain, regulating endothelial function, vascular tone and much more. 
 
@@ -897,10 +806,7 @@ When it comes to the mechanism of action, insulin for example, binds to the α-s
 
 The β-subunits’ tyrosine kinase domains autophosphorylate tyrosine residues. 
 
-Phosphorylated tyrosines recruit adaptor proteins like IRS (insulin receptor substrate), activating the: 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Phosphorylated tyrosines recruit adaptor proteins like IRS (insulin receptor substrate), activating the:
 
 -PI3K-Akt pathway that promotes GLUT4 translocation to the cell membrane for glucose uptake, glycogen synthesis, and protein synthesis. 
 
@@ -934,12 +840,7 @@ Resistance and aerobic training enhance IR sensitivity by upregulating GLUT4 and
 
 Start by aiming for 250 min/week of moderate exercise or 60 min/week of high-intensity exercise. 
 
-https://pubmed.ncbi.nlm.nih.gov/14747278/ 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
-
-https://www.researchgate.net/publication/236067517_Slow-Twitch_Fiber_Proportion_in_Ske letal_Muscle_Correlates_With_Insulin_Responsiveness 
+https://pubmed.ncbi.nlm.nih.gov/14747278/ https://www.researchgate.net/publication/236067517_Slow-Twitch_Fiber_Proportion_in_Ske letal_Muscle_Correlates_With_Insulin_Responsiveness 
 
 https://www.sciencedirect.com/science/article/pii/S2212877820301848 
 
@@ -977,10 +878,7 @@ https://pubmed.ncbi.nlm.nih.gov/7683695/
 
 https://pubmed.ncbi.nlm.nih.gov/15199052/ 
 
-https://pubmed.ncbi.nlm.nih.gov/15302844/ 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+https://pubmed.ncbi.nlm.nih.gov/15302844/
 
 **Number 6: Get enough sunlight for vitamin D.** 
 
@@ -1020,10 +918,7 @@ https://www.mdpi.com/2072-6643/17/3/562
 
 **Number 9: Limit alcohol.** 
 
-Excessive alcohol impairs IR signaling by increasing oxidative stress and disrupting glucose metabolism. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Excessive alcohol impairs IR signaling by increasing oxidative stress and disrupting glucose metabolism.
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC4623941/ 
 
@@ -1059,10 +954,7 @@ https://pubmed.ncbi.nlm.nih.gov/20513336/
 
 **Number 11: Consider one of the following when it comes to additional supplements: Berberine, ALA, chromium, CoQ10, ALCAR, myo-inositol.** 
 
-Berberine enhances IR sensitivity via AMPK activation, similar to metformin. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+Berberine enhances IR sensitivity via AMPK activation, similar to metformin.
 
 CoQ10 and ALCAR support mitochondria that are critical for insulin-mediated glucose oxidation. 
 
@@ -1096,10 +988,7 @@ Progesterone receptors (PRs) are intracellular/nuclear receptors that function a
 
 PRs are expressed in the: 
 
-● Uterus where they promote endometrial growth and prevent uterine contractions during pregnancy. ● Ovaries where they regulate ovulation and corpus luteum function. ● Breast where they drive mammary gland development and inhibit lactation prepartum. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+● Uterus where they promote endometrial growth and prevent uterine contractions during pregnancy. ● Ovaries where they regulate ovulation and corpus luteum function. ● Breast where they drive mammary gland development and inhibit lactation prepartum.
 
 ● Brain (in the hypothalamus, hippocampus) where they influence mood (they modulate GABA receptors for example), cognition and neuroprotection ● Bone where they support osteoblast activity and bone formation. ● Cardiovascular system, liver and adipose tissue where they modulate lipid metabolism and vascular function. 
 
@@ -1123,10 +1012,7 @@ The function of PRs is modulated by ligand availability (controlled by the corpu
 
 **Number 1: Manage estrogen with everything that was discussed so far.** 
 
-https://pmc.ncbi.nlm.nih.gov/articles/PMC9705998/ 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9705998/
 
 **Number 2: Provide enough nutrients such as cholesterol, vitamin E, zinc, magnesium, vitamin C and B vitamins (especially B6).** 
 
@@ -1166,12 +1052,7 @@ Poor sleep disrupts the hypothalamic-pituitary-ovarian axis, reducing progestero
 
 https://rbej.biomedcentral.com/articles/10.1186/s12958-022-00889-3 
 
-https://pmc.ncbi.nlm.nih.gov/articles/PMC10117379/ 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
-
-https://pmc.ncbi.nlm.nih.gov/articles/PMC2704917/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10117379/ https://pmc.ncbi.nlm.nih.gov/articles/PMC2704917/ 
 
 **Number 6: Avoid endocrine disruptors.** 
 
@@ -1207,12 +1088,7 @@ https://www.ijogr.org/html-article/10701
 
 Glucocorticoid receptors (GRs) are intracellular/nuclear receptors that function as ligand-activated transcription factors and bind glucocorticoids (primarily cortisol). 
 
-GRs are expressed with varying levels across tissues such as the brain, liver, immune cells, skeletal muscle, adipose tissues, bones, heart, lung and kineys where they regulate stress, mood, overall cognition, vascular tone, gluconeogenesis, lipid metabolism, detoxification, 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
-
-lipolysis, protein catabolism, insulin sensitivity, osteoblast and osteclast activity, inflammation, immune responses and much more. 
+GRs are expressed with varying levels across tissues such as the brain, liver, immune cells, skeletal muscle, adipose tissues, bones, heart, lung and kineys where they regulate stress, mood, overall cognition, vascular tone, gluconeogenesis, lipid metabolism, detoxification, lipolysis, protein catabolism, insulin sensitivity, osteoblast and osteclast activity, inflammation, immune responses and much more. 
 
 GRs are encoded by the NR3C1 gene on chromosome 5q31-32 (autosomal). They exist as multiple isoforms via alternative splicing, with the two main forms being: 
 
@@ -1240,8 +1116,4 @@ Number 4: Stabilizing blood glucose levels since.
 
 Number 5: Blocking the artificial blue light, especially after sunset. 
 
-Number 6: Consider adaptogens during very high stress periods. 
-
-The system V2.0 (lesson 11) written by George @Helios_Movement **Sold to** 
-
-
+Number 6: Consider adaptogens during very high stress periods.
