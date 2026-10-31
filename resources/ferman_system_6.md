@@ -1,12 +1,4 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-# This program was created by George @Helios_movement. 
-
-**The system lesson 6: Resetting the digestive system.** 
+# The System, Lesson 6: Resetting the Digestive System
 
 Digesting food is a much more complicated task than we tend to believe. 
 
@@ -26,10 +18,7 @@ The submandibular glands are located below the jaw and produce mixed serous-muco
 
 The sublingual glands are located under the tongue that produce mucous saliva (about5%). 
 
-Its blood supply comes from the facial artery, the maxillary artery and the superior alveolar arteries. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Its blood supply comes from the facial artery, the maxillary artery and the superior alveolar arteries.
 
 Its digestive activities are regulated by things ranging from seeing or smeliing food that activate the salivary nucleus in the brain (cranial nerves VII for example affects submandibular/sublingual and IX affects parotid), chewing where it forces the enteric nervous system (ENS) and parasympathetic nerves to amplify saliva secretion, all the way to hormones such as gastrin that enhances salivary flow through vagal stimulation during protein digestion, aldosterone that regulates salivary electrolyte content and stress hormones such as cortisol that reduce saliva through sympathetic activation. 
 
@@ -63,10 +52,7 @@ Its blood supply comes from the inferior thyroid, esophageal, and left gastric a
 
 venous drainage via the azygos and gastric veins. 
 
-When it comes to the sphincters, we have: 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+When it comes to the sphincters, we have:
 
 1. The upper esophageal sphincter (UES) which is primarily composed of the 
 
@@ -118,12 +104,7 @@ downward and the ENS autonomously initiates contractions to clear the esophagus.
 
 Hormones affecting its functions include gastrin that increases LES tone (gastrin basically 
 
-enhances anti-reflux protection during gastric digestion), cholecystokinin (CCK) that one 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
-
-hand, helps gastric emptying but it can increase reflux risk in people who already have it, 
+enhances anti-reflux protection during gastric digestion), cholecystokinin (CCK) that one hand, helps gastric emptying but it can increase reflux risk in people who already have it, 
 
 motilin that enhances GI motility and somatostatin that inhibits motility and LES relaxation. 
 
@@ -149,10 +130,7 @@ The stomach also produces gastrin and somatostatin, regulating gastric and downs
 
 **It also has 4 layers:** 
 
--The mucosa that is the inner layer of columnar epithelium with gastric glands that allow it to secrete gastric juices such as HCL. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+-The mucosa that is the inner layer of columnar epithelium with gastric glands that allow it to secrete gastric juices such as HCL.
 
 -The submucosa that is a collection of connective tissue with blood vessels, lymphatics and nerves. 
 
@@ -188,10 +166,7 @@ Number 2: The gastric phase.
 
 The stimulus for this phase is food and micro/macronutrients arriving in the stomach and activating mechanoreceptors and chemoreceptors. 
 
-Then the vagus nerve and ENS stimulate parietal/chief cells and motility with gastrin and somatostatin also being parts of the process. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Then the vagus nerve and ENS stimulate parietal/chief cells and motility with gastrin and somatostatin also being parts of the process.
 
 Number 3: The intestinal phase. 
 
@@ -203,12 +178,9 @@ The stimuli for this is chyme reaching the duodenum where then the ENS (*) trigg
 
 How does the small intestine accomplish these? 
 
-Well, it propels chyme toward the ileocecal valve and uses circular muscle contractions mix chyme with pancreatic juices (amylase for starches, trypsin/chymotrypsin for proteins, lipase for fats and nucleases for DNA/RNA), bile that emulsifies fats for lipase action and succus entericus enzymes such as maltase, lactase, sucrase, peptidases and nucleases that finalize digestion into absorbable units like glucose, amino acids, fatty acids and nucleotides or also, activate pancreatic zymogens (turning trypsinogen into trypsin for example) and nutrients are absorbed through villi and microvilli and then sent into the blood stream 
+Well, it propels chyme toward the ileocecal valve and uses circular muscle contractions mix chyme with pancreatic juices (amylase for starches, trypsin/chymotrypsin for proteins, lipase for fats and nucleases for DNA/RNA), bile that emulsifies fats for lipase action and succus entericus enzymes such as maltase, lactase, sucrase, peptidases and nucleases that finalize digestion into absorbable units like glucose, amino acids, fatty acids and nucleotides or also, activate pancreatic zymogens (turning trypsinogen into trypsin for example) and nutrients are absorbed through villi and microvilli and then sent into the blood stream
 
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
-
- (mainly sugars, amino acids, water-soluble vitamins and minerals go here) and lymph (mainly fatty acids, monoglycerides and fat-soluble vitamins go here). 
+(mainly sugars, amino acids, water-soluble vitamins and minerals go here) and lymph (mainly fatty acids, monoglycerides and fat-soluble vitamins go here). 
 
  But in order to better understand this, we need to look into its 3 segments. 
 
@@ -240,10 +212,7 @@ This is the smaller part that receives chyme from the stomach and mixes it with 
 
 1. Enterocytes that absorb nutrients and produce brush border enzymes such as maltase and lactase. 
 
-2. Goblet cells that secrete mucus for lubrication and protection. 
-
- The system V2.0 (lesson 6) written by George @Helios_Movement Sold to 
-
+2. Goblet cells that secrete mucus for lubrication and protection.
 
 3. Enteroendocrine cells that release hormones such as secretin and CCK. 
 
@@ -283,10 +252,7 @@ Whose function is to transport neutral amino acids such as leucine and valine wi
 
 Whose function is to exchange cationic amino acids across the basolateral membrane. 
 
-Lipid and fatty acid transporters such as: 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Lipid and fatty acid transporters such as:
 
 ## ● CD36 
 
@@ -318,10 +284,7 @@ For example, seeing or smelling food activates the vagus nerve and primes pancre
 
 Chyme in the duodenum upregulates CCK and enterokinase. 
 
-The ENS coordinates peristalsis and local secretion with secretin simulating pancreatic bicarbonate, cholecystokinin stimulating pancreatic zymogens and motilin (which is triggered by fasting) stimulates the migrating motor complexes (MMCs) to clear residual chyme. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+The ENS coordinates peristalsis and local secretion with secretin simulating pancreatic bicarbonate, cholecystokinin stimulating pancreatic zymogens and motilin (which is triggered by fasting) stimulates the migrating motor complexes (MMCs) to clear residual chyme.
 
 **-And finally we have the large intestine that is a muscular tube that surrounds the small intestine in the abdominal cavity whose length is about 1.5 meters that processes undigested food residue, absorbs water, forms and eliminates feces while also housing beneficial bacteria that ferment undigested carbohydrates and produce vitamins like vitamin K.** 
 
@@ -343,10 +306,7 @@ The well know liver’s role in digestion for example includes bile production t
 
 But it also helps with nutrient processing where once nutrients are absorbed in the small intestine, they travel to the liver via the hepatic portal vein and the liver converts sugars into glycogen for storage or energy, processes amino acids from proteins for use in tissues or energy and also stores vitamins and minerals such as iron and vitamin B12. 
 
-Now the gallbladder that’s a small (3-4 inches), pear-shaped sac sitting eneath the liver, acts as a storage unit for bile produced by the liver. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Now the gallbladder that’s a small (3-4 inches), pear-shaped sac sitting eneath the liver, acts as a storage unit for bile produced by the liver.
 
 It basically stores and concentrates bile (up to 50 mL at a time) by removing water, making it more potent and the hormone cholecystokinin (CCK) signals the gallbladder to contract, releasing bile through the common bile duct into the duodenum (first part of the small intestine) once fatty foods are eaten. 
 
@@ -368,10 +328,7 @@ They also assist the gut-associated lymphoid tissue (GALT), limit translocation 
 
 **1. Transmembrane proteins such as:** 
 
--Claudins which is a family of 27 proteins that determine TJ permeability (claudin-1 and -3 for example form tight seals, while claudin-2 increases pore size). 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+-Claudins which is a family of 27 proteins that determine TJ permeability (claudin-1 and -3 for example form tight seals, while claudin-2 increases pore size).
 
 -Occludin that enhances TJ stability and regulates paracellular transport by organising TJ strands and linking them to the actin cytoskeleton via ZO protein for example or by regulating paracellular transport of ions and small molecules. 
 
@@ -397,10 +354,7 @@ For example, it forms a barrier to prevent paracellular flux of macromolecules a
 
 Phosphorylation is a primary mechanism controlling TJ dynamics, mediated by kinases like myosin light chain kinase (MLCK) that phosphorylates myosin, loosening TJs/the paracellular space and increasing permeability to ions, water and macromolecules and protein kinase C (PKC) that stabilizes them (PKC-mediated phosphorylation enhances ZO-1 recruitment to TJs and strengthens claudin interactions, reducing paracellular leakiness for example). 
 
-**Number 2: Cytokines.** 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+**Number 2: Cytokines.**
 
 Pro-inflammatory cytokines such as TNF-α and IL-6 disrupt TJs by downregulating claudin-1 or upregulating claudin-2 through the activation of pathways such as the JAK/STAT pathway or NF-κB and MAPK for example. 
 
@@ -426,10 +380,7 @@ They are important for functions such as energy production, especially for tissu
 
 They (fatty acids) are usually classified either based on the length of their carbon chain or based on saturation/whether they have double bonds or not. 
 
-The latter categorization leaves us with the two categories you’re probably aware of: saturated and unsaturated. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+The latter categorization leaves us with the two categories you’re probably aware of: saturated and unsaturated.
 
 The first one, creates the following main types: 
 
@@ -455,10 +406,7 @@ They are primarily produced by the fermentation of dietary fiber and resistant s
 
 95% of SCFAs are in the primary SCFA category which includes: 
 
-● Acetate (C2) which is the most abundant SCFA produced by a wide range of bacteria such as Bifidobacterium and Bacteroides. ● Propionate (C3) which comprises almost 20% of SCFAs, is mainly produced by Bacteroidetes and Firmicutes and it's redominantly metabolized in the liver. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● Acetate (C2) which is the most abundant SCFA produced by a wide range of bacteria such as Bifidobacterium and Bacteroides. ● Propionate (C3) which comprises almost 20% of SCFAs, is mainly produced by Bacteroidetes and Firmicutes and it's redominantly metabolized in the liver.
 
 ● Butyrate (C4) which accounts for almost 15% of SCFAs, produced by Firmicutes and is primarily utilized by colonocytes as an energy source. 
 
@@ -480,10 +428,7 @@ Now the typical diagnostic marker is fecal SCFA levels.
 
 **Now if all these were too complicated, a healthy “gut” springs from eight key factors:** 
 
-● Avoiding the wrong dietary and supplement habits. ● A healthy mucosal layer (all of the following bullet points contribute to it) ● The proper production of stomach acid (HCl) and digestive enzymes ● A healthy CR plus deep and restful sleep ● Daily sunlight exposure and optimal vitamin D levels 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● Avoiding the wrong dietary and supplement habits. ● A healthy mucosal layer (all of the following bullet points contribute to it) ● The proper production of stomach acid (HCl) and digestive enzymes ● A healthy CR plus deep and restful sleep ● Daily sunlight exposure and optimal vitamin D levels
 
 ● Providing essential nutrients ● Supporting liver function ● Proper hydration ● Regular movement ● Healthy neurotransmitter production 
 
@@ -511,10 +456,7 @@ Even though it is in fact true that in order for these to show a direct and imme
 
 Trans and easily oxidized fats produce pr inflammatory cytokines, damaging the gut lining and are also shown to reduce beneficial bacteria. 
 
-5. Excessive alcohol intake (if you have any gut issue, take a 2 month break from all alcoholic beverages, and if you have any pathogen overgrowth avoid all beers, ciders and wines for 4 months). 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+5. Excessive alcohol intake (if you have any gut issue, take a 2 month break from all alcoholic beverages, and if you have any pathogen overgrowth avoid all beers, ciders and wines for 4 months).
 
 Alcohol is known to disrupt tight junctions, reduce microbial diversity and in the case of detoxing, it will of course over burden the liver. 
 
@@ -542,12 +484,7 @@ A2 dairy have proline in the 67 position of the beta casein chain while A1 dairy
 
 This can make a night and day difference when consuming dairy and makes A1 dairy a no go for people struggling with mast cell issues and and will inevitably lead to inflammation compared to A2. 
 
-8. The over consumption of high-FODMAP (fermentable oligosaccharides, disaccharides, monosaccharides, and polyols) foods such as onions, garlic, beans, lentils, wheat, apples, 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
-
-pears, stone fruits, honey, high-fructose fruits etc that lead to fast fermentation by gut bacteria. 
+8. The over consumption of high-FODMAP (fermentable oligosaccharides, disaccharides, monosaccharides, and polyols) foods such as onions, garlic, beans, lentils, wheat, apples, pears, stone fruits, honey, high-fructose fruits etc that lead to fast fermentation by gut bacteria. 
 
 10. Foods rich in phytates and oxalates that will bind to minerals such as zinc, iron, and calcium, reducing their absorption and potentially impairing gut cell function. 
 
@@ -575,10 +512,7 @@ Note: Fiber is a type of carbohydrate that comes from the cell wall of plants an
 
 Number 1: Soluble fiber 
 
-Number 2: Insoluble fiber 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Number 2: Insoluble fiber
 
 ● Soluble fiber is the one we sometimes refer to as "fermentable fiber" which is why for example if you notice that you react very badly to foods that have soluble fiber for example, this could indicate a pathogen overgrowth (good but also bad bacteria can use it). ● On the other hand, insoluble fiber isn't digestible by these bacteria. 
 
@@ -602,10 +536,7 @@ So it's once again, about balance.
 
 18. Frequent snacking. 
 
-Eating something every 1-2 hours, does not allow the migrating motor complex (MMC (a cyclical pattern of peristaltic activity that occurs during fasting state)) to clear bacteria from the small intestine for example. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Eating something every 1-2 hours, does not allow the migrating motor complex (MMC (a cyclical pattern of peristaltic activity that occurs during fasting state)) to clear bacteria from the small intestine for example.
 
 **Now let’s talk about supplements that can negatively impact gut health:** 
 
@@ -639,12 +570,7 @@ Now prebiotics are non-digestible fibers or compounds that serve as food for ben
 
 Common prebiotics include inulin(*), fructooligosaccharides (FOS)(**), galactooligosaccharides (GOS)(***), resistant starch (****)and partially hydrolyzed guar gum (PHGG) (*****). 
 
-(*) Inulin is a soluble fiber found in chicory root, onions, and asparagus that can increase Bifidobacteria and Lactobacillus, help with constipation and could even reduce blood sugar, 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
-
-cholesterol, but supplements/large amounts are not ideal in the case that a person is struggling with pathogen overgrowths (especially SIBO) since it can feed overgrown bacteria in the small intestine and high doses may even exacerbate IBS or IBD symptoms in sensitive individuals. 
+(*) Inulin is a soluble fiber found in chicory root, onions, and asparagus that can increase Bifidobacteria and Lactobacillus, help with constipation and could even reduce blood sugar, cholesterol, but supplements/large amounts are not ideal in the case that a person is struggling with pathogen overgrowths (especially SIBO) since it can feed overgrown bacteria in the small intestine and high doses may even exacerbate IBS or IBD symptoms in sensitive individuals. 
 
 (**) Fructooligosaccharides (FOS) are a carbohydrate found in bananas, onions, and garlic that can promotes Bifidobacteria growth and help with calcium absorption. 
 
@@ -664,10 +590,7 @@ Lactobacillus strains such as L. reuteri, L. acidophilus, L. casei, L. rhamnosus
 
 Bifidobacterium strains such as B. bifidum, B. lactis, B. longum on the other hand can enhance barrier function and are better tolerated for SIBO but are still not ideal. 
 
-Saccharomyces boulardii is a non-pathogenic yeast probiotic that can be helpful for a variety of issues ranging from general bloating and diarhea all the way to SIBO and candida overgrowths. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Saccharomyces boulardii is a non-pathogenic yeast probiotic that can be helpful for a variety of issues ranging from general bloating and diarhea all the way to SIBO and candida overgrowths.
 
 Bacillus coagulans is a spore-forming probiotic that can be quite helpful for SIBO (both hydrogen and methane-dominant) when it’s combines with antibiotics but also in regards to constipation driven by IBS. 
 
@@ -679,10 +602,7 @@ Now when it comes to the mucosal layer, this is one of four layers in the gut wa
 
 ● DGL ● Ginger ● Aloe vera ● Lactobacillus reuteri ● Saccharomyces boulardii ● Zinc carnosine in case you don't struggle with low copper ● Glutamine paired with magnesium and P5P ● Okra ● Sprouted chia seeds ● BPC-157 (oral) ● Quercetin ● Slippery elm 
 
-Now in case you are interested in more information about the gut-associated lymphoid tissue (GALT), it is a specialized component of the mucosal immune system that is distributed throughout the GI tract, particularly in the small intestine and colon. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Now in case you are interested in more information about the gut-associated lymphoid tissue (GALT), it is a specialized component of the mucosal immune system that is distributed throughout the GI tract, particularly in the small intestine and colon.
 
 Its components include: 
 
@@ -708,10 +628,7 @@ Hydrochloric acid (HCl), produced by parietal cells in the stomach and the typic
 
 •Bloating •Fatigue •Brain fog •Gas after a meal •Leaky gut •Low B12 levels •Undigested food in stool •Heartburn 
 
-And it’s no wonder why. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+And it’s no wonder why.
 
 **Hydrochloric acid (HCl) performs certain critical functions such as:** 
 
@@ -725,12 +642,7 @@ Now, regarding testing, the Heidelberg test is a precise but quite costly lab te
 
 **When it comes to circadian health and sleep:** 
 
-● The gut microbiota dynamics follow a 24-hour cycle (the entire G.I tract follows a circadian pattern, bacterial populations, gastric emptying, peristalsis, and enzyme secretion 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
-
-peak at specific times to aid digestion and shift work for example has been shown to alter microbial composition, reducing beneficial bacteria and promoting harmful species). 
+● The gut microbiota dynamics follow a 24-hour cycle (the entire G.I tract follows a circadian pattern, bacterial populations, gastric emptying, peristalsis, and enzyme secretion peak at specific times to aid digestion and shift work for example has been shown to alter microbial composition, reducing beneficial bacteria and promoting harmful species). 
 
 Note: This is why, believe it or not, the simple act of eating at consistent times has improved the gut health of so many people. 
 
@@ -738,10 +650,7 @@ Note: This is why, believe it or not, the simple act of eating at consistent tim
 
 **When it comes to why sunlight exposure and Vitamin D are crucial for gut health, vitamin D:** 
 
-● Regulates the expression of tight junction proteins such as claudins, occludins, and zonula occludens-1 (ZO-1). ● Promotes the growth of beneficial bacteria, such as Lactobacillus and Bifidobacterium, which produce short-chain fatty acids (SCFAs) like butyrate. ● Suppresses pathogenic bacteria, such as Clostridium difficile, by enhancing antimicrobial peptide production. ● Acts as an immune modulator by binding to VDRs in immune cells, such as T-cells, B-cells, and macrophages, within the gut-associated lymphoid tissue (GALT). ● Promotes the differentiation of T-regulatory cells. ● Stimulates the production of antimicrobial peptides, such as cathelicidins and β-defensins, enhances epithelial cell proliferation and wound healing by upregulating growth factors like transforming growth factor-beta (TGF-β). 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● Regulates the expression of tight junction proteins such as claudins, occludins, and zonula occludens-1 (ZO-1). ● Promotes the growth of beneficial bacteria, such as Lactobacillus and Bifidobacterium, which produce short-chain fatty acids (SCFAs) like butyrate. ● Suppresses pathogenic bacteria, such as Clostridium difficile, by enhancing antimicrobial peptide production. ● Acts as an immune modulator by binding to VDRs in immune cells, such as T-cells, B-cells, and macrophages, within the gut-associated lymphoid tissue (GALT). ● Promotes the differentiation of T-regulatory cells. ● Stimulates the production of antimicrobial peptides, such as cathelicidins and β-defensins, enhances epithelial cell proliferation and wound healing by upregulating growth factors like transforming growth factor-beta (TGF-β).
 
 ● Downregulates oncogenic pathways. ● Stimulates alpha-MSH, a peptide with antimicrobial and anti-inflammatory properties, effective against Candida, E. coli, and Staphylococcus aureus. 
 
@@ -761,10 +670,7 @@ Zinc is a cofactor for enzymes involved in gastric acid secretion in the stomach
 
 Excess copper, can of course be problematic, butt copper one of the key nutrients that are is essential for ceruloplasmin which prevents iron overload in the gut while also supporting superoxide dismutase that mitigates oxidative stress in the gut. 
 
-● B Vitamins. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● B Vitamins.
 
 B1, B5 and B6 for example, are cofactors for enzymes involved in gastric acid secretion and digestive enzyme production while B12 and folate are vital for maintaining mucosal integrity. 
 
@@ -794,10 +700,7 @@ Supports gut motility, enzyme function, and reduces gut inflammation. It’s als
 
 Glutamine serves as tthe primary fuel source for enterocytes (gut epithelial cells), enhances tight junction formation, mucin production and supports immune cells in the GALT enhancing IgA production. 
 
-**Note: When it comes to digestive enzymes, they are critical for breaking down carbohydrates, proteins, fats, and other nutrients into absorbable molecules and can be produced by salivary glands, stomach, pancreas and small intestine.** 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+**Note: When it comes to digestive enzymes, they are critical for breaking down carbohydrates, proteins, fats, and other nutrients into absorbable molecules and can be produced by salivary glands, stomach, pancreas and small intestine.**
 
 1. Salivary enzymes (secreted by the salivary glands and lingual glands (in the tongue)) include: 
 
@@ -815,10 +718,7 @@ We also have nucleic acid-digesting enzymes that break down RNA into smaller nuc
 
 4. Brush border enzymes (in the small intestine) include: 
 
-● Maltase that hydrolyzes maltose into two glucose molecules. ● Sucrase that hydrolyzes sucrose into glucose and fructose. ● Lactase that hydrolyzes lactose into glucose and galactose. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● Maltase that hydrolyzes maltose into two glucose molecules. ● Sucrase that hydrolyzes sucrose into glucose and fructose. ● Lactase that hydrolyzes lactose into glucose and galactose.
 
 ● Isomaltase (α-Dextrinase) that breaks down branched starch digestion products into glucose. ● Aminopeptidase that removes amino acids from the amino (N-terminal) end of peptides, producing free amino acids. ● Dipeptidase that hydrolyzes dipeptides into individual amino acids. ● Nucleosidases that break down nucleosides into nitrogenous bases and sugars. ● Phosphatases that remove phosphate groups from nucleotides or other molecules, aiding in their absorption. 
 
@@ -840,10 +740,7 @@ The lifestyle changes that are presented in this program, will support serotonin
 
 Excess serotonin on the other hand could be driving more problems than the ones it canhelp resolve. 
 
-There are other signs that indicate that you might be struggling with a serotonin excess such as: -Getting migraines very often (on a weekly basis) -Hair thinning (not hair loss, but thinning) -IBS -Overthinking/Inability to concentrate/bad memory/confusion -High estrogen -High cortisol 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+There are other signs that indicate that you might be struggling with a serotonin excess such as: -Getting migraines very often (on a weekly basis) -Hair thinning (not hair loss, but thinning) -IBS -Overthinking/Inability to concentrate/bad memory/confusion -High estrogen -High cortisol
 
 -High histamine /prostaglandins and thus also things such as allergies, asthma -High prolactin -Being nauseous quite often -Immunosuppression -Inability to regulate your appetite -Low bone density -Chronic fatigue -Being nauseous very often -Excessive sweating 
 
@@ -855,10 +752,7 @@ So how can serotonin become elevated? The main reasons for most people seem to b
 
 In the gut, dopamine is produced by enteric neurons and immune cells and acts on D1 and D2 receptors to modulate GI functions such as inhibiting acetylcholine release and thus slowing peristalsis and gastric emptying or reducing mucus and enzyme secretion. 
 
-So, too much dopamine = constipation, too little = diarhea, just enough = can protect against IBS-D. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+So, too much dopamine = constipation, too little = diarhea, just enough = can protect against IBS-D.
 
 Now how can a state of low dopamine happen? 
 
@@ -872,10 +766,7 @@ And last but not least, avoid exposure to xenoestrogens, liver and gut health si
 
 Number 2: High glutamate and NDMA receptor agonists in general. We discussed glutamate earlier but one quick tip that can immediately help you if the cause of your high prolactin is NDMA is magnesium which will block the NMDA receptors especially during stressful periods. 
 
-Number 3: Not providing enough of the following nutrients: ● Bioavailable protein ● Zinc ● Vitamin C ● Vitamin K 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Number 3: Not providing enough of the following nutrients: ● Bioavailable protein ● Zinc ● Vitamin C ● Vitamin K
 
 ● Vitamin D ● Vitamin E ● Quality fats such as coconut oil, EVOO and quality animal fats. 
 
@@ -899,10 +790,7 @@ We are meant to move thought the day which is why even 10 minutes of exercise ca
 
 Number 9: Insulin resistance. 
 
-Insulin can actually increase dopamine. The problem happens when someone become insulin resistant which leads to increase levels of 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Insulin can actually increase dopamine. The problem happens when someone become insulin resistant which leads to increase levels of
 
 MAO-A and MAO-B and the same can be true for leptin where it can increase D2 receptor density if it’s operating properly. 
 
@@ -922,10 +810,7 @@ And elevated epinephrine is also common in IBS-C.
 
 Here are some steps that you can take in order to prevent an adrenaline excess. 
 
-Number 1: Keep your blood sugar stable. Number 2: Do not skip dinner. At night when we are asleep adrenaline is expressed in order to release glycogen from tissue storage to keep our organs and metabolism running. So, no stored glycogen when going to bed = a lot of stress. Number 3: Get enough zinc and magnesium. Two common promoters of adrenaline excess are a zinc and magnesium Number 4: Stop over-working or over-exercising (and especially working out in a fasted state). Now i get that some of you might be interested in becoming athletes, achieve big goals and stuff like that. But if you struggle with things such as anxiety or bipolar disorders you must learn to take breaks and tweak the amount of work or workout load to the one you can actually handle when that’s possible. Number 5: Stop fasting every day and especially “fasting” with black coffee. This is context-dependent. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Number 1: Keep your blood sugar stable. Number 2: Do not skip dinner. At night when we are asleep adrenaline is expressed in order to release glycogen from tissue storage to keep our organs and metabolism running. So, no stored glycogen when going to bed = a lot of stress. Number 3: Get enough zinc and magnesium. Two common promoters of adrenaline excess are a zinc and magnesium Number 4: Stop over-working or over-exercising (and especially working out in a fasted state). Now i get that some of you might be interested in becoming athletes, achieve big goals and stuff like that. But if you struggle with things such as anxiety or bipolar disorders you must learn to take breaks and tweak the amount of work or workout load to the one you can actually handle when that’s possible. Number 5: Stop fasting every day and especially “fasting” with black coffee. This is context-dependent.
 
 By this, we mean that if you struggle with issues such as anxiety, fasting exacerbates some of its possible causes such as blood sugar regulation issues, a dysregulated CR, low dopamine, downregulation of GABA’s receptor system, excess cortisol, adrenal fatigue and so on. 
 
@@ -953,10 +838,7 @@ Number 2: Ring methylation by histamine-N-methyltransferase (HNMT) when it comes
 
 Given the nature of these two: -An SNP in DAO is often one of the potential root causes behind gut issues(*) such as even Chron's and ulcerative colitis, headaches or even migraines after meals and break outs. 
 
--An SNP in the HNMT one of the potential root causes behind issues such as anxiety (since HNMT breaks down histamine in the nerve system), asthma bronchiale and sleep apnea. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+-An SNP in the HNMT one of the potential root causes behind issues such as anxiety (since HNMT breaks down histamine in the nerve system), asthma bronchiale and sleep apnea.
 
 (*)In fact, lower DAO activity is often used as an indicator of intestinal mucosa damage. 
 
@@ -982,10 +864,7 @@ This becomes a bigger and bigger issue and it's no wonder why.
 
 Pause and think for example to how many "allergens" most people are exposed to every day. 
 
-A lot live in houses infested with mold, use skincare, hygiene and cleaning products that are full of allergens, ingest heavy metals though polluted air, vaping, smoking and even low quality fish and eat mycotoxins multiple times per day (think commercial cereal, cheap coffee and so on). 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+A lot live in houses infested with mold, use skincare, hygiene and cleaning products that are full of allergens, ingest heavy metals though polluted air, vaping, smoking and even low quality fish and eat mycotoxins multiple times per day (think commercial cereal, cheap coffee and so on).
 
 Mycotoxins such as aflatoxins and ochratoxins for example trigger inflammation, cytokine release and ochratoxin A even inhibits DAO activity. 
 
@@ -1013,10 +892,7 @@ H. Pylori for example will inhibit the absorption of vitamin C and then vitamin 
 
 Then, a lot of histamine is stored in the ECL cell of the stomach for example. 
 
-Now there are detailed meal plans in this program as you saw, so feel free to use them and a detailed part about gut health later. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Now there are detailed meal plans in this program as you saw, so feel free to use them and a detailed part about gut health later.
 
 Number 4: Genetic SNPs. 
 
@@ -1030,10 +906,7 @@ In general we have, HNMT C314T, AOC1, rs2052129, rs10156191,rs2268999, rs104974
 
 Can MTHFR also come into play? Yes. 
 
-In general, in this case you might want to: -Avoid all fortified foods first and foremost. -Actually prioritize lowering the toxic burden that you're exposing your body to and doing some work on the lymphatic system, sweat etc. Everyone wants to hop on supplements before doing this. It won't really work in the long run. -Pay attention to how much choline, B2, B6 (if your main source of B6 are plant products you will need more B2), magnesium, molybdenum, retinol and glycine you're consuming. -After you're getting enough of the above mentioned nutrients, pay attention to how certain foods that are rich in B9, foods that are rich in B3 and foods that are rich in B12 make you feel. If B9 rich foods make you feel great, then consider methylfolate. Don't start with it. If they make you feel awful, consider supplementing with low doses of B2 and glycine. If B3 rich foods make you feel awful, consider adding TMG if your gut can handle the boost in HCL. A similar approach can be added to B12. -If you still have elevated homocysteine levels and don't react well do creatine supplementation, consider low dose (150-300mg) of quercetin. -Get a ceruloplasmin and total copper test done since a lot of "under" methylators (if that's your issue) are also struggling with free copper (you might want to supplement molybdenum if that's the case instead of only getting it from whole foods). -Alpha-gpc could also be used and even needed. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+In general, in this case you might want to: -Avoid all fortified foods first and foremost. -Actually prioritize lowering the toxic burden that you're exposing your body to and doing some work on the lymphatic system, sweat etc. Everyone wants to hop on supplements before doing this. It won't really work in the long run. -Pay attention to how much choline, B2, B6 (if your main source of B6 are plant products you will need more B2), magnesium, molybdenum, retinol and glycine you're consuming. -After you're getting enough of the above mentioned nutrients, pay attention to how certain foods that are rich in B9, foods that are rich in B3 and foods that are rich in B12 make you feel. If B9 rich foods make you feel great, then consider methylfolate. Don't start with it. If they make you feel awful, consider supplementing with low doses of B2 and glycine. If B3 rich foods make you feel awful, consider adding TMG if your gut can handle the boost in HCL. A similar approach can be added to B12. -If you still have elevated homocysteine levels and don't react well do creatine supplementation, consider low dose (150-300mg) of quercetin. -Get a ceruloplasmin and total copper test done since a lot of "under" methylators (if that's your issue) are also struggling with free copper (you might want to supplement molybdenum if that's the case instead of only getting it from whole foods). -Alpha-gpc could also be used and even needed.
 
 Number 5: Estrogen excess. 
 
@@ -1049,10 +922,7 @@ Supplemental iron, too much zinc, molybdenum, NAC and high dose niacin can all l
 
 Number 7: Consuming A LOT, of histamine, oxalate and salicylate rich foods, histamine liberators and things that harm DAO such as alcohol. 
 
-A basic list includes: ● Kefir ● Aged cheeses ● Canned foods ● Chocolate ● Soy ● Nuts ● Mustard ● Tomatoes ● Cured meats ● Dried fruit ● Preservatives ● Bananas ● Yogurt 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+A basic list includes: ● Kefir ● Aged cheeses ● Canned foods ● Chocolate ● Soy ● Nuts ● Mustard ● Tomatoes ● Cured meats ● Dried fruit ● Preservatives ● Bananas ● Yogurt
 
 ● Kimchi ● Kombucha ● Coffee ● Vinegar ● Yeast ● Sourdough ● Alcohol ● Too much olive oil ● Cacao ● Spinach ● Kale ● Most berries ● Certain tubers 
 
@@ -1062,10 +932,7 @@ Second of all, if you already have issues these foods are VERY high in histamine
 
 Finally, certain amines in things such as cereal, walnuts and bananas are degraded by the same pathway as histamine and if thus if you are struggling with an excess, the competition” between these two pathways and the third one is that things such as nicotine and alcohol block DAO. 
 
-Number 10: In the case of a flair up keep an eye on: -Quercetin -Magnesium (all forms except for citrate,oxide and in general very cheap ones) -B1 -B5 -P5P -Chamomile -Whole food vitamin E believe it or not -Glutamine (unless the urea cycle is a mess and it could thus harm the liver) -Astragalus -Apigenin -Theanine -Ginger 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Number 10: In the case of a flair up keep an eye on: -Quercetin -Magnesium (all forms except for citrate,oxide and in general very cheap ones) -B1 -B5 -P5P -Chamomile -Whole food vitamin E believe it or not -Glutamine (unless the urea cycle is a mess and it could thus harm the liver) -Astragalus -Apigenin -Theanine -Ginger
 
 -Holy basil -Rutin -Ceylon cinnamon -Bromelain -Blackseed oil -Nettle root 
 
@@ -1087,10 +954,7 @@ We are bombarded nonstop with these pathogens (which is normal), but a healthy b
 
 Now if you think that there’s no way that you are experiencing a pathogenic overgrowth think again since even things such as minor bloating or constipation, signal the (minor) presence of these pathogens. 
 
-Now obviously i am not saying that you’re experiencing a pathogenic overgrowth, all i’m saying is that if you suffer with issues such as: 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Now obviously i am not saying that you’re experiencing a pathogenic overgrowth, all i’m saying is that if you suffer with issues such as:
 
 ● Bloating ● Vitamin deficiencies (especially B vitamins and issues such as anemia) ● Mineral deficiencies ● Allergy symptoms/Food intolerances that started to occur later in life (given that you do not live in an extremely polluted city or are exposed to mold) ● IBS ● Fatigue ● Brain fog ● White coating on your tongue ● Extremely pale skin ● Inability to digest fats ● Dandruff ● Low transit time ● Bad breath ● T2D (a big cause of T2D is obviously pathogen-related gut issues since they will deplete a person of what he or she needs in order to metabolise carbohydrates to begin with) ● Low serum pre-albumin and transferrin ● Skin issues such as rosacea ● Non-stop food cravings (especially for carbs and dairy (given that you are providing some carbohydrates and calcium to your body and thus these cravings are not a sign of you malnurishing yourself)) ● Extremely elevated serum folate levels (given that you do not use a supplement) ● Mast cell related problems 
 
@@ -1104,10 +968,7 @@ So a pathogen overgrowth is one of the very common causes of digestive distress 
 
 The most common causes nowadays are: 
 
-● Low HCL ● Low transit time 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● Low HCL ● Low transit time
 
 ● A compromised immune system ● Lack of antimicrobial peptides ● Hormonal issues such as low thyroid hormones ● Certain medications ● Unbound iron ● Malnutrition ● Environmental toxins such as heavy metals and xenoestrogens ● Unhealthy mast cells/histamine intolerance 
 
@@ -1133,10 +994,7 @@ They are primarily cleared from the body through the following mechanisms:
 
 Kupffer cells engulf and degrade LPS through phagocytosis and hepatocytes incorporate LPS into bile. 
 
-2. The intestines. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+2. The intestines.
 
 After what was just mentioned, LPS in the bile is eliminated through feces. This is also where a healthy intestinal barrier is of vital importance since it helps prevent reabsorption. 
 
@@ -1170,10 +1028,7 @@ The gut eliminates LPS and other toxins via stool, with bile as a carrier.
 
 So poor bile flow and nothing to bind them = nothing much. 
 
-5. Not supporting our overall immune system (besides the gut). 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+5. Not supporting our overall immune system (besides the gut).
 
 As it was stated immune cells, such as macrophages and monocytes, detect LPS and circulating proteins like lipopolysaccharide-binding protein (LBP) and high-density lipoproteins (HDL) also neutralize LPS, facilitating its clearance. 
 
@@ -1207,10 +1062,7 @@ We also have pharmaceutical prokinetics such as (only consider them if your doct
 
 ● Erythromycin. ● Metoclopramide. ● Domperidone. ● Prucalopride ● Tegaserod. 
 
-When it comes to herbal prokinetics i only like and suggest considering: 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+When it comes to herbal prokinetics i only like and suggest considering:
 
 ● Ginger. ● Dandelion root. ● Artichoke leaf. ● Peppermint. ● Licorice root. 
 
@@ -1234,10 +1086,7 @@ Manuka honey contains methylglyoxal and other compounds that disrupt bacterial c
 
 It’s ideal for pathogens such as: Staphylococcus aureus, streptococcus mutans, E. cloi, candida albicans and pseudomonas aeruginosa. 
 
-**● Essential oils such as tea tree oil or clove oil (for topical or oral use)** 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+**● Essential oils such as tea tree oil or clove oil (for topical or oral use)**
 
 Disrupt bacterial membranes, inhibit quorum sensing, and degrade EPS components. 
 
@@ -1273,10 +1122,7 @@ It can also of course help with staphylococcus aureus, E. coli, candida albicans
 
 Oregano oil is VERY potent and needs to be used with extreme caution, but it can disrupt bacterial and fungal cell membranes, inhibit quorum sensing and reduce EPS production, preventing biofilm formation. 
 
-It’s extremely effective for candida albicans but also , SIBO, P. aeruginosa, S. aureus and E. coli biofilms. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+It’s extremely effective for candida albicans but also , SIBO, P. aeruginosa, S. aureus and E. coli biofilms.
 
 **● Garlic extract (interacts with blood thinners and blood pressure medication)** 
 
@@ -1316,10 +1162,7 @@ This also produces lactic acid and bacteriocins and can also inhibit quorum sens
 
 It’s mainly used for dental and Candida biofilms. 
 
-6. Saccharomyces boulardii 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+6. Saccharomyces boulardii
 
 This poduces proteases and other enzymes that degrade EPS components, competes for binding sites and it’s mainly used for C. difficile and Candida. 
 
@@ -1353,10 +1196,7 @@ Lactoferrin comes in two forms:
 
 Both can be quite valuable but the first one is iron bound and the second one is not which allows it to deprive pathogens of iron and thus helping us actually starve iron-dependent pathogens like candida albicans. 
 
-It also prevents pathogens from adhering to surfaces by interfering with adhesins and inhibits quorum sensing. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+It also prevents pathogens from adhering to surfaces by interfering with adhesins and inhibits quorum sensing.
 
 It also seems to be better tolerated from people who experience discomfort from things such as NAC and bromelain. 
 
@@ -1384,10 +1224,7 @@ There are 3 main "types" of dietary iron (all are absorbed in the upper intestin
 
 Regarding non heme iron is not absorbed as easily as heme iron but foods that are rich in vitamin C increase its absorption a lot and foods that are rich in tannins prevent its absorption (calcium has a similar effect regarding heme iron so if you want to prevent the absorption of non heme iron use coffee and if you want to prevent the absorption of heme iron use dairy (tannins can work too but not as effective)). 
 
-As stated, they are absorbed in the upper parts of the intestine such as the duodenum for example which is why a lot of people experience discomfort at that part after eating a lot of foods that are fortified with iron. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+As stated, they are absorbed in the upper parts of the intestine such as the duodenum for example which is why a lot of people experience discomfort at that part after eating a lot of foods that are fortified with iron.
 
 Enterocytes and epithelial cells also come into play and with the help of ferroportin (a protein that can cross membranes) it gets into the bloodstream. 
 
@@ -1409,10 +1246,7 @@ All of which make the scenario of an iron overload way more likely and amplify i
 
 The real trouble makes is unbound (or free) iron. 
 
-This is iron that is not bound by proteins such as ferritin and transferrin so it becomes a catalyst for the formation of hydroxyl radicals from reduced forms of O2 (it can catalyze the conversion of hydrogen peroxide into free radicals (remember that iron can donate (Fe(II)) or accept electrons (Fe(III)) or just remember that (Fe(II) and hydrogen peroxide will produce hydroxyl radicals). 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+This is iron that is not bound by proteins such as ferritin and transferrin so it becomes a catalyst for the formation of hydroxyl radicals from reduced forms of O2 (it can catalyze the conversion of hydrogen peroxide into free radicals (remember that iron can donate (Fe(II)) or accept electrons (Fe(III)) or just remember that (Fe(II) and hydrogen peroxide will produce hydroxyl radicals).
 
 So it participates into Fenton / Haber Weiss reactions and increases malondialdehyde which is the main product of lipid peroxidation. 
 
@@ -1438,19 +1272,13 @@ Anyway.
 
 The point now is what can you do in order to prevent an iron overload or wtf can you do in case you are battling one? 
 
-First and foremost, go and test: -The HFE, HJV, HAMP, TFR2, SLC40A1 genes What are these? 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+First and foremost, go and test: -The HFE, HJV, HAMP, TFR2, SLC40A1 genes What are these?
 
 We inherit one HFE gene from each one of our parents. In this gene we can have two common mutations, the C282Y and H63D which will lead to a person being able to experience an iron overload way easier. That's called type 1 hemochromatosis. Now if the mutations are in the HAMP or HJV gene, we have type 2 hemochromatosis. In the case where the mutation is in the TFR 2 gene we have type 3 and type 4 in the case of SLC40A1. Why do mutations in these genes create issues? Because they are responsible for producing proteins that help us absorb, store, transport and overall regulate iron. -Ferritin -Tsat -TBC -Hemoglobin -NTBI -Serum iron, zinc, copper, retinol, vitamin D -A liver panel 
 
 If something is tremendously wrong, these will most likely show it. 
 
-Then: -Cut out supplemental iron and foods that are fortified with iron. -Get enough magnesium. -You do not need 6 pounds of red meat a day. -Get enough B vitamins. -Do not pair foods that are high in iron with foods that are high in vitamin C. -Take it easy with alcohol (crucial). -Do not cook in cast irons -Get enough retinol. -Get enough vitamin D. -Workout. -After you've implemented these, get some copper from sources such as bee pollen. -Get enough K2. -Go to sleep before 11 if/when it's possible. -Get enough CoQ10 and supplement if you're on statins. -Avoid foods rich in O6 fats -Get a quality EVOO (EVOO is not high in O6. A quality EVOO can even have a ration of 10:2:1 regarding MUFA:saturated fats and PUFA) 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Then: -Cut out supplemental iron and foods that are fortified with iron. -Get enough magnesium. -You do not need 6 pounds of red meat a day. -Get enough B vitamins. -Do not pair foods that are high in iron with foods that are high in vitamin C. -Take it easy with alcohol (crucial). -Do not cook in cast irons -Get enough retinol. -Get enough vitamin D. -Workout. -After you've implemented these, get some copper from sources such as bee pollen. -Get enough K2. -Go to sleep before 11 if/when it's possible. -Get enough CoQ10 and supplement if you're on statins. -Avoid foods rich in O6 fats -Get a quality EVOO (EVOO is not high in O6. A quality EVOO can even have a ration of 10:2:1 regarding MUFA:saturated fats and PUFA)
 
 Now if you do suffer from an iron overload, some extra measures you can take include: -Donate blood if your markers allow it. -Whole food vitamin E (no more than 200IUs unless your doctor suggests otherwise) -Quercetin -Milk thistle -Naringin -Chrysin rich foods -Taurine -Apolactoferrin 
 
@@ -1466,10 +1294,7 @@ Number 2: Relax. As stated, cortisol disrupts TJs by dysregulating the HPA axis 
 
 Number 3: Go to sleep and get sun. Poor sleep and CR disrupt TJ protein expression while sunlight and vitamin D upregulates it. 
 
-Number 4: Provide enough zinc (stabilizes TJs), L glutamine (enhances TJ protein expression), retinol (upregulates claudin-1 and ZO-1) and polyphenols. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+Number 4: Provide enough zinc (stabilizes TJs), L glutamine (enhances TJ protein expression), retinol (upregulates claudin-1 and ZO-1) and polyphenols.
 
 Number 6: Pick the following probiotic that works best for you: -Lactobacillus rhamnosus GG. -Bifidobacterium longum. -Saccharomyces boulardii. 
 
@@ -1491,10 +1316,7 @@ This creates a protective micro-environment, allowing survival in the stomach’
 
 ● Supporting the gut with everything that was discussed so far. ● Biofilm disruption (ideally berberine paired with S. boulardii) + implementing a low FODMAP diet. ● Antibiotics such as mastic paired with prokientics such as ginger and a binder such as activated charcoal. ● Repairing the gastric mucosa (glutamine, zinc carnosine) and repopulating the gut with things such as colostrum. 
 
-**Note 7: SIBO** 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+**Note 7: SIBO**
 
 SIBO or small intestinal bacterial overgrowth is a condition that marks an abundance of bad bacteriasuch as the ones belonging to the firmicutes, bacteroidetes or proteobacteria phyla families overgrow in the small intestine. 
 
@@ -1516,10 +1338,7 @@ Treatment:
 
 ● Supporting the gut with everything that was discussed so far. ● Biofilm disruption (ideally NAC or serrapeptase paired with S. boulardii) + implementing a low FODMAP + low oxalate diet. ● Antibiotics such as alicin, neem, blackseed oil paired with prokinetics such as ginger and binder such as activated charcoal. ● Repairing the gastric mucosa (glutamine, zinc carnosine) and repopulating the gut with things such as colostrum. 
 
-**Note 8: Candida** 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+**Note 8: Candida**
 
 Candida is a genus of yeast that includes close to 200 species, not all of which are pathogenic. 
 
@@ -1541,10 +1360,7 @@ The fungal cell wall of candida is composed of chitin, β-glucans and mannoprote
 
 The main factors that lead to candida overgrowth include: 
 
-● Antibiotic use ● Immunosuppression ● Diets that are high in acellular carbs and low in pre and probiotics. ● Oral contraceptives ● Stress ● Low HCL 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● Antibiotic use ● Immunosuppression ● Diets that are high in acellular carbs and low in pre and probiotics. ● Oral contraceptives ● Stress ● Low HCL
 
 ● Being exposed to toxins such as mercury ● Mold exposure ● Deficiencies in vitamins such as B1, B3, B5, biotin and minerals such as zinc and selenium 
 
@@ -1564,12 +1380,7 @@ When it comes to parasites, the main ones that you might come in contact include
 
 -Roundworms that are these quite large, white/pale, spaghetti-like worms (15–35 cm long), sometimes visible in stool that you can test for with tool microscopy for eggs (note: since egg shedding can be intermittent collecting 3 samples over 3 days is common) and also use pyrantel pamoate with the help of your doctor or in more minor cases pumpkin seeds, black walnut and wormwood. 
 
--Tapeworms that are these flat, ribbon-like segments (proglottids), white/yellowish, 1–2 cm long that you can test for with a sool microscopy for proglottids or eggs and most likely, 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
-
-you will have to use praziquantel or niclosamide with your doctor’s supervision. Things sich as wormwood, black walnut, clove oil and diatomaceous earth might also help. 
+-Tapeworms that are these flat, ribbon-like segments (proglottids), white/yellowish, 1–2 cm long that you can test for with a sool microscopy for proglottids or eggs and most likely, you will have to use praziquantel or niclosamide with your doctor’s supervision. Things sich as wormwood, black walnut, clove oil and diatomaceous earth might also help. 
 
 -Hookworms that are microscopic and typically not visible in stool without lab testing (you will get a stool microscopy for eggs once again). 
 
@@ -1599,10 +1410,7 @@ But an overload can have very negative consequences for our health, such as:
 
 -Increased lipid peroxidation. 
 
--Neurotoxicity (acetaldehyde crosses the blood-brain barrier and can reduce BDNF expression for example). 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+-Neurotoxicity (acetaldehyde crosses the blood-brain barrier and can reduce BDNF expression for example).
 
 -Inhibiting COMT (why people with unaddressed SNPs in COMT (see lesson 12) often have a very hard time with die offs and experience a lot of anxiety for example) 
 
@@ -1632,10 +1440,7 @@ Then acetate is further metabolized into acetyl-CoA, entering the Krebs cycle fo
 
 Aldehyde oxidase (AOX) is also quite important since it also oxidizes acetaldehyde to acetate in the liver and other tissues. 
 
-And the final one is glutathione conjugation (GSH) where acetaldehyde reacts with it in order to form non-toxic conjugates. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+And the final one is glutathione conjugation (GSH) where acetaldehyde reacts with it in order to form non-toxic conjugates.
 
 After all these, the liver incorporates acetaldehyde and its metabolites such as acetate and GSH conjugates into the bile, which is secreted into the duodenum and eliminated in feces. 
 
@@ -1665,10 +1470,7 @@ These are released during microbial lysis, these act as damage-associated molecu
 
 Now the intensity of die-off is influences by the: 
 
-● Microbial loads (severe SIBO with >10^5 CFU/mL will release more toxins than a minor case for example) 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● Microbial loads (severe SIBO with >10^5 CFU/mL will release more toxins than a minor case for example)
 
 ● The person’s detoxification capacity. 
 
@@ -1706,10 +1508,7 @@ This one upregulates Nrf2.
 
 This one inhibits mast cell degranulation and downregulates NF-κB. 
 
-● Pantethine. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● Pantethine.
 
 This serves a s precursor to coenzyme A, supporting acetyl-CoA formation from acetate (it basically enhances phase II detoxification). 
 
@@ -1737,10 +1536,7 @@ Then, primary bile acids are modified by gut bacteria into secondary bile acids 
 
 **● Gut-brain axis** 
 
-This one describes the bidirectional communication network between the gut microbiota and the central nervous system. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+This one describes the bidirectional communication network between the gut microbiota and the central nervous system.
 
 This is possible through things/mechanisms such as the vagus nerve, microbial metabolites such as SCFAs and neurotransmitters that are produced by gut bacteria, the HPA axis and gut-derived cytokines that can cross the blood-brain barrier (which is why dysbiosis is shown to impair blood-brain barrier integrity and BDNF expression. Not to even mention the neurotoxic effects of things such as acetaldehyde that are common in dysbiosis). 
 
@@ -1762,10 +1558,7 @@ This is why dysbiosis impairs sIgA production and Treg/Th17 balance and contribu
 
 Gut bacteria for example, show to immune cells such as T-regulatory cells and Th17 cells how to distinguish between pathogens and commensals, while SCFAs also influence T-regulatory cell function. 
 
-This is why some times the gut-lung axis is not mentioned since the gut modulates lung immunity primarily through GALT. 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+This is why some times the gut-lung axis is not mentioned since the gut modulates lung immunity primarily through GALT.
 
 This is why dysbiosis exacerbates asthma or COPD so much (it increases Th2/Th17 responses but also SCFAs like butyrate reduce airway inflammation by enhancing Treg cells). 
 
@@ -1799,10 +1592,7 @@ How the gut influences it: SCFAs improve insulin sensitivity by activating GPR41
 
 How the gut influences them: The “estrobolome” that’s made out of gut bacteria with β-glucuronidase activity, deconjugates estrogen in the gut. 
 
-● Hormone: Testosterone (affects muscle mass, libido and reproductive health). 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+● Hormone: Testosterone (affects muscle mass, libido and reproductive health).
 
 How the gut influences it: Dysbiosis increases inflammation, which suppresses the HPG axis and reduces testosterone production. 
 
@@ -1832,10 +1622,7 @@ We can also go into how dysbiosis and activating TLR4 and NF-κB will upregulate
 
 6. You have crescents and they are not very small (this takes a while in order to show up even when your gut has healed) 
 
-7. No acid reflux 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
+7. No acid reflux
 
 8. No brain fog 
 
@@ -1873,12 +1660,7 @@ https://pubmed.ncbi.nlm.nih.gov/38885924/
 
 https://pubmed.ncbi.nlm.nih.gov/28274108/ 
 
-https://pubmed.ncbi.nlm.nih.gov/26044318/ 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
-
-https://pubmed.ncbi.nlm.nih.gov/36389782/ 
+https://pubmed.ncbi.nlm.nih.gov/26044318/ https://pubmed.ncbi.nlm.nih.gov/36389782/ 
 
 https://pubmed.ncbi.nlm.nih.gov/36986052/ 
 
@@ -1916,12 +1698,7 @@ https://pubmed.ncbi.nlm.nih.gov/32358041/
 
 https://pubmed.ncbi.nlm.nih.gov/33754024/ 
 
-https://pubmed.ncbi.nlm.nih.gov/28362216/ 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
-
-https://pubmed.ncbi.nlm.nih.gov/34564912/ 
+https://pubmed.ncbi.nlm.nih.gov/28362216/ https://pubmed.ncbi.nlm.nih.gov/34564912/ 
 
 https://pubmed.ncbi.nlm.nih.gov/18545974/ 
 
@@ -1957,8 +1734,4 @@ https://pubmed.ncbi.nlm.nih.gov/36499643/
 
 https://pubmed.ncbi.nlm.nih.gov/36283008/ 
 
-https://pubmed.ncbi.nlm.nih.gov/17679369/ 
-
-The system V2.0 (lesson 6) written by George @Helios_Movement **Sold to** 
-
-
+https://pubmed.ncbi.nlm.nih.gov/17679369/

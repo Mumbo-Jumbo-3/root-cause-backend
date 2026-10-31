@@ -1,16 +1,6 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
+# The System, Lesson 4: Stress and Its Effects
 
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-# This program was created by George @Helios_movement. 
-
-## The system lesson 4: Stress and its effects 
-
-## The world we live in will always be filled with personal setbacks, professional obstacles, 
-
-unexpected crises and in general, challenges. 
+The world we live in will always be filled with personal setbacks, professional obstacles, unexpected crises and in general, challenges.
 
  But thankfully, supporting our bodies and minds will help us not only deal with pressure but also use it in order to excel when we encounter it. 
 
@@ -24,10 +14,7 @@ unexpected crises and in general, challenges.
 
  Number 2: Be a pessimist when you are winning, not when you encounter obstacles. A common yet fatal mistake all of us make is thinking that both the wins and the failures of the present will continue in the future. 
 
- This is of course a lie and in the first case, it will result in risky behaviours that result in our downfall and the latter in freezing and being unable to enter a more positive hopeful state that’s the one of the non negotiables when it comes to our minds thinking of productive actions we can take. 
-
- The system V2.0 (lesson 4) written by George @Helios_Movement Sold to 
-
+ This is of course a lie and in the first case, it will result in risky behaviours that result in our downfall and the latter in freezing and being unable to enter a more positive hopeful state that’s the one of the non negotiables when it comes to our minds thinking of productive actions we can take.
 
 Number 3: Life will suck for everyone at times no matter who you are, but something we have forgotten is daily tools that we’ve been using for quite some time for emotional health and emotional processing. 
 
@@ -55,10 +42,7 @@ Number 5: Self-belief. Thoughts of grandiosity are common in the modern day and 
 
 But the narcissistic turn that the 21st century took, will also obviously result in the opposite, which is low self-worth and self-belief. 
 
-Which is great, believe it or not and here’s why. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+Which is great, believe it or not and here’s why.
 
 No one can really help people with delusions of grandeur since they’ve had a psychotic break with reality and they are in such deep pain that the simple idea of being “normal” is too painful to even accept. 
 
@@ -82,10 +66,7 @@ Nothing happens until everything happens. That’s how all worthwhile pursuits w
 
 Number 6: Accountability. Most people (and it’s partly healthy), would be profoundly lazy if they did not have responsibilities. 
 
-We are creatures of necessity and we only act to our maximum capacity when something is at stake. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+We are creatures of necessity and we only act to our maximum capacity when something is at stake.
 
 Self-motivation can only take us so far. 
 
@@ -125,10 +106,7 @@ And it’s not rocket science since stress leads to:
 
 -Mast cell related issues 
 
--The dysfunction of the immune system 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+-The dysfunction of the immune system
 
 -The decrease of progesterone, DHEA and pregnenolone 
 
@@ -162,10 +140,7 @@ As we said, artificial blue light:
 
 -Raises cortisol 
 
--Reduce the youth-associated hormones 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+-Reduce the youth-associated hormones
 
 -Leads to GnRH deficiency (GnRH signals to the pituitary gland to make and secrete things such as LH and FSH which are crucial for testosterone and progesterone) 
 
@@ -191,10 +166,7 @@ We NEED for example sunlight In order for dietary tryptophan to boost NAD+ inste
 
 For now just keep in mind that you can not reduce norepinephrine and adrenaline production under an unhealthy light environment. 
 
-**Suggestion number 2: Do not consume any stimulants for the first 90 minutes of the day and eat breakfast.** 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+**Suggestion number 2: Do not consume any stimulants for the first 90 minutes of the day and eat breakfast.**
 
 I am not saying that not eating breakfast once in a while will destroy your health, but you need to understand that cortisol levels climax early in the morning and if you don’t eat, you basically enter a vicious stress cycle (especially if you “fast” by drinking black coffee). 
 
@@ -228,10 +200,7 @@ So here’s how you should approach calorie deficits if you want to improve your
 
 If you are a man that’s over 17% body fat, then slowly start losing weight and stop at 10-12%, and if you are a woman that’s 20% and over do the same as well, but stop at 15%. 
 
-Even though this will be a small stressful state by default, it is a **net positive** in these cases. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+Even though this will be a small stressful state by default, it is a **net positive** in these cases.
 
 So never forget that **all** calorie deficits are extremely stressful states (the bigger the deficit the bigger the stress response obviously) by default and they have actual benefits only if you’re past a certain body fat level and that you can not have a healthy set of hair (or be healthy) long term if you want to walk at 6% body fat year round. 
 
@@ -259,10 +228,7 @@ Last but not least also pay attention to aromatase since aromatase can also incr
 
 In order to keep aromatase in check, you will have to ditch bad fats such as canola oil, cottonseed oil, sunflower, soybean oil and replace them with good fats such as grass fed tallow/ghee and butter, coconut oil, red palm oil (not for cooking but as a vitamin E source) and EVOO. 
 
-Quit alcohol once again, prioritize sleep, avoid xenoestrogens, quit grains, make sure that you’re getting enough fat soluble vitamins, zinc and that you’re not over 15% bf as a man and 20% bf as a woman. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+Quit alcohol once again, prioritize sleep, avoid xenoestrogens, quit grains, make sure that you’re getting enough fat soluble vitamins, zinc and that you’re not over 15% bf as a man and 20% bf as a woman.
 
 Nettle root tea, chamomile tea are probably the 2 safest options that you can use which has mild aromatase inhibitor effects. 
 
@@ -300,10 +266,7 @@ Today we have genetically modified soybeans that are designed to be what is call
 
 That's problem number 1. 
 
-The problem number 2 is that it's not fermented in order to neutralize toxins. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+The problem number 2 is that it's not fermented in order to neutralize toxins.
 
 So, we are consuming a cheap hybrid of soy that's not even prepared properly. 
 
@@ -337,10 +300,7 @@ Cold pressed blackseed oil mainly and some organic sprouted nuts that will be de
 
 **Suggestion number 7: Avoid sea salt, vitamin C and carbohydrate restriction** 
 
-A diet which is very low in sea salt, whole food vitamin C and carbohydrates will inevitably lead to adrenal (*) hyperactivity. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+A diet which is very low in sea salt, whole food vitamin C and carbohydrates will inevitably lead to adrenal (*) hyperactivity.
 
 (*) Adrenals are glands which produce a variety of hormones such as cortisol, aldosterone and adrenaline which help regulate several bodily functions including metabolism, blood pressure, our body's response to stress and sleep. 
 
@@ -360,10 +320,7 @@ So if you want to lower stress (and thus be healthy and have healthy hair), you 
 
 Now when it comes to vitamin C, it’s also crucial for first of all, the protection of adrenals from oxidative stress, but also the adrenals dumb vitamin C at a very high rate in a state of stress (this depletion of vitamin C is one of the reasons why people get sick when stressed (obviously there are many more reasons why this happens)). 
 
-A diet which is low in vitamin C, is actually one of the common causes of anxiety and stress. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+A diet which is low in vitamin C, is actually one of the common causes of anxiety and stress.
 
 Vitamin C is also necessary in order to battle stress effectively due to its natural progesterone enhancing effects. 
 
@@ -397,10 +354,7 @@ BDNF (brain-derived neurotrophic factor) helps/stimulates the growth (and differ
 
 You can naturally increase BDNF through: 
 
-● Sprints (1/week is enough) 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+● Sprints (1/week is enough)
 
 ● Low volume high frequency resistance training ● The occasional use of grape seed **proanthocyanidin** extract ● The occasional use of niacinamide PAIRED with brewer's yeast or small doses of B1+B2 ● Sunlight/Red light ● Getting enough bioavailable protein ● Ginger ● Saffron ● Lowering your exposure to xenoestrogens (crucial) ● Magnesium ● High orac fruits ● Ubiquinol 
 
@@ -430,10 +384,7 @@ The main ones are:
 
 - Artificial sweeteners. 
 
-- Grains (and anything with gluten if this is not clear) 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+- Grains (and anything with gluten if this is not clear)
 
 - High fructose corn syrup. 
 
@@ -473,10 +424,7 @@ Some tools with GABA promoting effects are:
 
 3)Chamomile tea 
 
-4)Taurine 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+4)Taurine
 
 5)Glycine 
 
@@ -506,10 +454,7 @@ At night when we are asleep adrenaline is expressed in order to release glycogen
 
 So, no stored glycogen when going to bed = a lot of stress. 
 
-Note: B2 is crucial for our ability to store glycogen so make sure that you’re providing enough on a daily basis. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+Note: B2 is crucial for our ability to store glycogen so make sure that you’re providing enough on a daily basis.
 
 Obviously do not supplement with it at night since it will have a stimulatory effect. 
 
@@ -527,10 +472,7 @@ Some effective ways to increase CO2 are: -Thiamine -Sunlight -Not neglecting car
 
 - **Naturally** carbonated water -Lowering excessive serotonin (serotonin increases carbonic anhydrase which degrades CO2) -Lowering excessive lactic acid (lactic acid reduces inhibits pyruvate dehydrogenase and is involved in the degradation of mitochondria, in order to lower excessive lactic acid, you can use thiamine short term and especially pre workout, fruit, no fermented foods, no alcohol, consider short term biotin supplementation (do not take a thyroid panel when you are taking biotin since it can lead to false results (ideally, you don’t want to be taking any supplements for a couple of weeks before doing blood work)) and avoid being overworked. 
 
-Now when it comes to serotonin, it is obviously not useless but when in excess (something which can happen very easily) it is a stress hormone and its increase in the very short term has unfortunately made people believe that it can be an antidepressant since cortisol has great anti-inflammatory effects in the short term. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+Now when it comes to serotonin, it is obviously not useless but when in excess (something which can happen very easily) it is a stress hormone and its increase in the very short term has unfortunately made people believe that it can be an antidepressant since cortisol has great anti-inflammatory effects in the short term.
 
 This is why things such as 5-HTP can seem to have positive effects the first few days, but then lead to more depression, insomnia and anxiety in a lot of people. 
 
@@ -554,10 +496,7 @@ Just make sure to not pair it with foods high in calcium.
 
 Unfortunately, most people are in fact thiamine deficient (both due to the lack of dietary thiamine but also a compromised gut) and a deficiency in thiamine increases serotonin production. 
 
-**5. Lower or at least balance the tryptophan content of your diet** (this is also crucial for people who struggle with premature gray hair (more about this in the gray hair reversing part)). 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+**5. Lower or at least balance the tryptophan content of your diet** (this is also crucial for people who struggle with premature gray hair (more about this in the gray hair reversing part)).
 
 Tryptophan is the precursor to serotonin so by default a tryptophan excess (something that is present in most diets) will cause a serotonin excess. 
 
@@ -581,10 +520,7 @@ You can change this by consuming some quality organ meats, shellfish, bone marro
 
 **Suggestion number 11: Get enough calcium** 
 
-One of the very common reasons why people are stressed nowadays is a lack of dietary calcium. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+One of the very common reasons why people are stressed nowadays is a lack of dietary calcium.
 
 In the absence of dietary calcium, PTH rises, a lot, and shifts calcium from the bones into the soft tissue. 
 
@@ -614,10 +550,7 @@ If you have a red light device, this would be a good time to use it as well.
 
 2. Eat breakfast (you can not expect to fast and sleep great in the long run) and include some bioavailable protein and whole food vitamin C in it. 
 
-3. Do not over-stimulate yourself with electronic devices the first and last 2 hours of the day. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+3. Do not over-stimulate yourself with electronic devices the first and last 2 hours of the day.
 
 4. Do not lift and exercise too close to your bedtime (ideally you want to lift around 2-4 hours after you've woken up). 
 
@@ -659,10 +592,7 @@ These are: Thiamine, vitamin C, vitamin D, vitamin A, copper, zinc, magnesium, t
 
 22. Have some epsom salt baths each week. 
 
-**Suggestion number 13: Heal your gut and consume high quality foods on a daily basis.** 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+**Suggestion number 13: Heal your gut and consume high quality foods on a daily basis.**
 
 You will have to heal your gut (it is demonstrated later in the program) since without a healthy gut we can not absorb and utilize the nutrients from our diet. 
 
@@ -690,10 +620,7 @@ Magnesium is the most important mineral when it comes to the function of the ner
 
 Not to mention that when you are stressed, you lose magnesium (and minerals) pretty fast since stress hormones shift magnesium from the intracellular space to the extracellular leading to its excretion through the urine, which will then raise brain noradrenaline and a vicious cycle begins. 
 
-Magnesium can also decrease the release of ACTH, suppress the activity of HPA-axis and has antagonistic effects upon NMDA receptors. 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+Magnesium can also decrease the release of ACTH, suppress the activity of HPA-axis and has antagonistic effects upon NMDA receptors.
 
 **Suggestion number 16: Take care of your adrenal glands.** 
 
@@ -727,10 +654,7 @@ These are:
 
 -Low mineral diets 
 
--Lack of certain other nutrients such as magnesium, vitamin B5 and vitamin C 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+-Lack of certain other nutrients such as magnesium, vitamin B5 and vitamin C
 
 -Lack of sunlight 
 
@@ -766,10 +690,7 @@ So what can you do in order to take care of your adrenals?
 
 Well in my opinion a good adrenal health 101 includes: 
 
--Not using stimulants on a daily basis 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+-Not using stimulants on a daily basis
 
 -Sunlight > Artificial blue light 
 
@@ -811,10 +732,7 @@ The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to**
 
 9) Bag breathing 
 
-10) Myo-inositol 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
+10) Myo-inositol
 
 11) P5P for some people 
 
@@ -824,39 +742,32 @@ The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to**
 
 ## List of selected references 
 
-## https://pubmed.ncbi.nlm.nih.gov/24798553/ 
+https://pubmed.ncbi.nlm.nih.gov/24798553/
 
-## https://pubmed.ncbi.nlm.nih.gov/19571591/ 
+https://pubmed.ncbi.nlm.nih.gov/19571591/
 
-## https://pubmed.ncbi.nlm.nih.gov/34124582/ 
+https://pubmed.ncbi.nlm.nih.gov/34124582/
 
-## https://pubmed.ncbi.nlm.nih.gov/32302008/ 
+https://pubmed.ncbi.nlm.nih.gov/32302008/
 
-## https://pubmed.ncbi.nlm.nih.gov/28254927/ 
+https://pubmed.ncbi.nlm.nih.gov/28254927/
 
-## https://pubmed.ncbi.nlm.nih.gov/23490070/ 
+https://pubmed.ncbi.nlm.nih.gov/23490070/
 
-## https://pubmed.ncbi.nlm.nih.gov/17689499/ 
+https://pubmed.ncbi.nlm.nih.gov/17689499/
 
-## https://pubmed.ncbi.nlm.nih.gov/15666839/ 
+https://pubmed.ncbi.nlm.nih.gov/15666839/
 
-## https://pubmed.ncbi.nlm.nih.gov/22474371/ 
+https://pubmed.ncbi.nlm.nih.gov/22474371/
 
-## https://pubmed.ncbi.nlm.nih.gov/15250815/ 
+https://pubmed.ncbi.nlm.nih.gov/15250815/
 
-## https://pubmed.ncbi.nlm.nih.gov/36670169/ 
+https://pubmed.ncbi.nlm.nih.gov/36670169/
 
-## https://pubmed.ncbi.nlm.nih.gov/22001159/ 
+https://pubmed.ncbi.nlm.nih.gov/22001159/
 
-## https://pubmed.ncbi.nlm.nih.gov/37053050/ 
+https://pubmed.ncbi.nlm.nih.gov/37053050/
 
-## https://pubmed.ncbi.nlm.nih.gov/37737915/ 
+https://pubmed.ncbi.nlm.nih.gov/37737915/
 
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
-
-## https://pubmed.ncbi.nlm.nih.gov/9100580/ 
-
-The system V2.0 (lesson 4) written by George @Helios_Movement **Sold to** 
-
-
+https://pubmed.ncbi.nlm.nih.gov/9100580/

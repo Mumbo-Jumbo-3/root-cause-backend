@@ -1,6 +1,4 @@
-# This program was created by George @Helios_movement.
-
-**Lesson 4: Learning how to properly use supplements**
+# Gut Health Handbook, Lesson 4: Learning How to Properly Use Supplements
 
 Now first and foremost, optimizing your supplement regime and diving past basic
 supplements, should concern you only if your:
@@ -35,10 +33,6 @@ long time.
 Then, another big problem regarding this is that supplements lack transport proteins and all
 
 nutrients work synergistically.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 For example:
 
@@ -82,10 +76,6 @@ Calcium, zinc and iron for example compete for absorption in the small intestine
 
 DMT1.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 Then vitamin E can interfere with some of the effects that vitamin K has such as its role in
 
 blood clotting, high doses of zinc can reduce folate absorption, high doses of vitamin C can
@@ -121,10 +111,6 @@ magnesium oxide, zinc oxide, pyridoxine etc).
 that there are plenty of “loopholes” that can be used such as measuring the nitrogen content
 
 of your protein powder which has led to amino spiking for example.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 8. Most people are totally unaware that the subspecies in probiotics play a HUGE role for
 
@@ -166,13 +152,7 @@ first which doesn’t really have our best interests in mind.
 
 12. Plenty of foods have more benefits that not only compared to the supplements at a
 
-low/medium price point but a very high as well. If a supplement, had the history and
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
-benefits of kefir for example, it would sell a lot. It’s just that you can only make so much
+low/medium price point but a very high as well. If a supplement, had the history and benefits of kefir for example, it would sell a lot. It’s just that you can only make so much
 
 profit from foods. I can’t sell you for example a $30 bottle of kefir yet i can very easily sell
 
@@ -220,10 +200,6 @@ of magnesium such as magnesium citrate and even get heart issues from calcium
 
 supplements.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 The reasons why behind this are not very hard to understand if we know the fundamentals
 
 about nutrition.
@@ -268,10 +244,6 @@ bodies.
 
 Argument 2: "The rest of the compounds aren't that important".
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 Whole: A.A + rutin, bioflavonoids, K-factor, J-factor, P-factor, tyrosinase and
 
 ascorbinogen.
@@ -309,10 +281,6 @@ Then i promise you, if you work in front of screens all day, a pair of blue ligh
 glasses will have a greater impact on your overall health than the vast majority of
 
 supplements.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 Then if you as a man go from 20% body fat (or more) down to a 12%, this will have a
 
@@ -353,10 +321,6 @@ So here are some habits and supplements that i highly advise you to stay away fr
 
 ● Titanium dioxide
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 ● Gums
 ● Artificial colourings such as red 40, blue 2, yellow 5
 
@@ -395,10 +359,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6277880/
 
 **-”Large” amounts of anything.**
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 Obviously this isn’t something mindblowing since consuming too much of anything will
 have a negative outcome. We can even die from drinking too much water for example.
 
@@ -434,10 +394,6 @@ oil-based supplements), K1 has a 50-80% and K2 has a 70 up to a whooping 95% in 
 case of MK7.
 
 2. Water soluble vitamins.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 The only “trick” with water soluble vitamins is that their bioavailability decreases at
 higher doses up to even 40% due to the saturation of absorption mechanisms and in the
@@ -476,10 +432,6 @@ absorption.
 
 So, we will assume a bioavailability of 90% (0.9) and thus we will have 5 mcg × 0.9 =
 4.5 mcg of bioavailable vitamin D3.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 ```
 Number 2: Let’s say that you consume a large amount of ascorbic acid and make the
@@ -528,8 +480,7 @@ and will caused issues if they are used for too long.
 Other examples include:
 ```
 ```
-Gut health handbook (lesson 4) written by George @Helios_Movement
-Sold to
+
 ```
 
 -L glutamine that can be great but let's not forget its relationship with cancer (why all of
@@ -569,10 +520,6 @@ https://pubmed.ncbi.nlm.nih.gov/
 https://pmc.ncbi.nlm.nih.gov/articles/PMC6827862/
 https://pmc.ncbi.nlm.nih.gov/articles/PMC4609357/
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 And then of course you can add more studies about the benefits it has when used
 topically.
 
@@ -611,10 +558,6 @@ in the small intestine through DMT1.
 So in general, if something has more than 4 compounds in it, you should probably not
 buy it.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **-Supplements labeled as solely testosterone boosters.**
 
 Most of them might increase total testosterone a tiny bit, but they will do so in the cost
@@ -652,10 +595,6 @@ tryptophan.
 
 Synthetic melatonin can even trigger autoimmune diseases and will decrease a-MSH.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **-Fish oils.**
 
 Fatty acids in fish oil supplements are oxidized while even the taurine content in fish,
@@ -692,10 +631,6 @@ Learn to recognise the point of diminishing returns through your personal experi
 and the material within this file in order to have the most linear progress possible.
 
 **Thiamine (vitamin B1)**
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 Overall, it is an essential for our metabolic health by assisting the enzymatic reactions in
 the breakdown of glucose for example (TPP coverts pyruvate into acetyl-CoA for
@@ -735,10 +670,6 @@ morning with breakfast, before a workout and with a high carb meal will have the
 biggest ROIs (do not consume thiamine 4 hours before your bed time (it could help with
 sleep in people that go through a lot of stress, but for most, it will have a stimulatory
 effect that will negatively impact sleep)).
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Interactions:** They should not be combined with vitamin C, H2 medication and large
 amounts of caffeine at the same meal since their absorption will suffer a lot.
@@ -780,10 +711,6 @@ as 5-10mg for a lifetime.
 Otherwise unless we are also talking about something serious, i do not suggest using it
 for more than 3 weeks at a time.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **But, most people can get enough riboflavin from foods alone so supplementation
 usually will not be necessary and is highly contextual.**
 
@@ -822,10 +749,6 @@ health.
 **Interactions:** It also should not be combined with H2 medications and large amounts of
 caffeine.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Cycling period:** Do not use it for more than 2 weeks at a time in my opinion unless
 your doctor advises otherwise.
 
@@ -863,10 +786,6 @@ depression.
 supplementation usually is highly contextual.**
 
 **Calcium pantothenate (vitamin B5 (the calcium is cleaved off in the gut))**
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 Here we have one more of the water-soluble B vitamins that is essential for energy
 metabolism, hormone synthesis, the production of coenzyme A (CoA) which has many
@@ -908,10 +827,6 @@ process that requires B2) but you stay way from this form since it will cause pe
 neuropathy sooner or later (you should also stay away from pyridoxamine (which is
 quite rare but cheap and thus used in supplements some times)).
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Form 2:** Pyridoxal 5’-Phosphate (PLP)
 
 This is the active form of B6 (it bypasses the need for liver conversion from pyridoxine),
@@ -952,10 +867,6 @@ your doctor advises otherwise.
 
 **Inositol (vitamin B8)**
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 Now even though we can synthesize up to 4 grams of this one (our gut bacteria can
 synthesize small amounts of other B vitamins such as B7, B9 and B12) its
 supplementation can have a variety of benefits for people’s mental health, metabolic
@@ -994,10 +905,6 @@ forms with a meal ideally.
 
 **Interactions:** Once again, large amounts of caffeine will harm their absorption.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Cycling period:** Do not use the first 2 forms for more than 4 weeks and IP6 for more
 than 10 days at a time in my opinion unless your doctor advises otherwise.
 
@@ -1034,10 +941,6 @@ enough of the rest of the B vitamins or if you already have enough B9 in your sy
 
 **Cycling period:** If you have an SNP in MTFR, you can (or even should) use a low dose
 for a lifetime. Other than that, do not use it for more that 2-3 weeks at a time.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Cobalamin (vitamin B12)**
 
@@ -1078,10 +981,6 @@ deficient.
 
 **Trimethylglycine (TMG)**
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 This is a water soluble glycine analog with three methyl groups attached to its nitrogen
 atom. Our liver and kidneys synthesize TMG from oxidizing choline into betaine
 aldehyde and then into TMG with the help of enzymes like choline oxidase and betaine
@@ -1117,10 +1016,6 @@ time, for the rest of the issues, consider cycling it every 2-3 weeks.
 
 This root that’s maintly used in traditional Chinese medicine is an adaptogen whose
 main active compounds are polysaccharides, saponins (astragalosides) and flavonoids.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 It has immune-boosting properties (it can stimulate the production and activity of white
 blood cells, increase antibody production and activate T-cells), it can reduce proteinuria
@@ -1160,10 +1055,6 @@ amounts of dietary copper in the participants diet.
 **Priority supplement for:** Smokers, people who spend a lot of time under the sun,
 people who face heart problems or have lined up markers for heart disease, people who
 have taken chemo medications, alcoholics/ recent ex alcoholics.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Whole food vitamin E**
 
@@ -1205,10 +1096,6 @@ testosterone levels, extends the half life of vitamin D, removes sodium fluoride
 are insignificant a lot of the time. The best time to consume boron is in the A.M with a
 proper meal.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Interactions:** Any estrogen medication.
 
 **Usage length:** Theoretically, you can take boron for a lifetime. Practically, cycle it since
@@ -1246,10 +1133,6 @@ detoxing.
 
 All forms of magnesium can help by lowering aluminum retention in bones and tissues
 overall but malic acid can also bind certain heavy metals such as aluminum.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 The effects are mild and you can not rely just on this for aluminum toxicity, but it’s
 something good to know in my opinion.
@@ -1291,10 +1174,6 @@ the absorption of vitamin D.
 can negatively interact with many medications and especially antibiotics (there is a time
 and place for almost anything antibiotics included).
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 So if you are on any medications, consult your doctor.
 
 **Usage length:** You can take a small dose of magnesium forever if your supplement does
@@ -1332,10 +1211,6 @@ hair loss, lowers stress hormones, protects the adrenals and lowers excessive se
 grams will disrupt REM sleep in a lot of people if taken at night.
 
 **Interactions:** A lot of antipsychotic drugs and some SSRIs.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Usage length:** Glycine is one of the few supplements that i recommend for most people
 to take at a low dose and almost every day.
@@ -1376,10 +1251,6 @@ mitochondrial health.
 **Best time to consume:** You can take vitamin K (i recommend MK7) as long as you
 consume it with a fatty meal.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Interactions:** A lot but fortunately they create an absorption problem and not some
 counter action unless we are talking about some seizure medications.
 
@@ -1418,10 +1289,6 @@ A lot of stress? Take it at night.
 Not a lot of stress? Take it in the morning.
 
 **Interactions:** Any type of steroid.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Usage length:** Depends on the age and dose. Unfortunately the only standard is that you
 should never take it for more than 4 weeks and this might even be too much for some
@@ -1462,13 +1329,7 @@ enough calcium), women with fertility problems, depressed people.
 **Some benefits:** DAO is an enzyme responsible for breaking down histamine in your
 body. Our bodies decrease histamine levels through 2 enzymes, N-methyltransferase
 (HNMT) and DAO. If these enzymes are not available (for example certain medications,
-drinking too much coffee or alcohol and a possible vitamin C, copper, zinc and B6
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
-deficiency all can lead to a DAO deficiency) then we will face a histamine build up) (for
+drinking too much coffee or alcohol and a possible vitamin C, copper, zinc and B6 deficiency all can lead to a DAO deficiency) then we will face a histamine build up) (for
 more on this re-read lesson 1).
 
 So DAO will basically help anyone who has problems with histamine intolerance
@@ -1508,10 +1369,6 @@ month just to be safe.
 was used to treat schizophrenia), increases the number of mitochondria, is a great
 antioxidant, it stimulates glucose metabolism and increases oxygen in brain cells.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 It is a great short term tool in order to restore OXPHOS if one has the common sense to
 use a low dose, cycle it, use pharmacological grade and replenish B vitamins first.
 
@@ -1550,10 +1407,6 @@ jack of all trades supplements.
 **Interactions:** The only problem with quercetin is that it interacts awfully with a lot of
 blood thinners (aspirin, any form of B3, ginkgo and even cinnamon), antibiotics and in
 general a lot of medications.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Usage length:** No more than a month or two in order to keep the kidneys fully safe.
 
@@ -1596,10 +1449,6 @@ areas that can benefit from their consumption.
 
 **Number 1: Chaga**
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 Inonotus obliquus (chaga) is a fungus with a bitter sweet taste that is typically found in
 places such as Siberia (the best place to source it), Alaska, Nothern Canada and even
 Korea, that’s mainly been used in order to:
@@ -1633,13 +1482,7 @@ https://ieeexplore.ieee.org/document/5305591
 
 https://pubmed.ncbi.nlm.nih.gov/19367670/
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4946216/
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
-https://www.sciencedirect.com/science/article/abs/pii/S0308814613000526
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4946216/ https://www.sciencedirect.com/science/article/abs/pii/S0308814613000526
 
 Sounds good?
 
@@ -1673,10 +1516,6 @@ as:
 7. Alzheimer's disease
 8. Hashimoto's disease
 9. Adrenal fatigue
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 But it has many many more benefits (all of these obviously have more benefits than the
 ones mentioned).
@@ -1718,10 +1557,6 @@ include:
 5. Improve the function of the immune system
 6. Protect the heart
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 7. Improve gut health post-antibiotic use
 
 Proof of the claims:
@@ -1758,13 +1593,7 @@ Lion's mane can help you with:
 
 Proof of the claims:
 
-https://pubmed.ncbi.nlm.nih.gov/27350344/
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5133811/
+https://pubmed.ncbi.nlm.nih.gov/27350344/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5133811/
 
 https://pubmed.ncbi.nlm.nih.gov/24302966/
 
@@ -1809,10 +1638,6 @@ Side effects:
 
 -Sleep issues
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 -Decreased blood clotting
 
 **Tribulus Terrestris**
@@ -1852,13 +1677,7 @@ way toupregulate androgen receptors) and 4/10 for every other benefit.
 **Some benefits:** Improved fertility (especially for men), increased testosterone,
 progesterone, anti-aging venefits, liver supportive, neuroprotective, Aphrodisiac, mild heart
 protective and blood sugar lowering properties, mild immune system supportive benefits,
-improved eye health, improve insulin resistance, can support a healthy gut microbiome,
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
-protects the tesicles against xenoestrogen toxicity, great cognitive enhancer, immune
+improved eye health, improve insulin resistance, can support a healthy gut microbiome, protects the tesicles against xenoestrogen toxicity, great cognitive enhancer, immune
 system support, can help people with Alzheimer's disease and is pro dopamine.
 
 **Best time to consume:** In the morning.
@@ -1897,10 +1716,6 @@ improve fertility, can lower urea and is kidney protective.
 None of these were proven with studies, but this will be likely to be the case (if for
 example you take an antibiotic, this will obviously interact with a probiotic and if you
 increase DHEA pretty fast this will affect the conversion (what royal jelly does)).
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 You should also not combine it with other aphrodisiac herbs.
 
@@ -1942,10 +1757,6 @@ I would simply only use it if i needed a boost in libido.
 
 **Priority supplement for:** Men who struggle with low libido.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Note:** Unfortunately lots of brands of maca are polluted with mycotoxins so you should not
 use maca unless you trust the source.
 
@@ -1983,10 +1794,6 @@ people with IBS-C, it is pro dopamine, BDNF, GDNF and NGF.
 **Usage length:** Theoretically you can use butyrate for months on end.
 
 Practically do not use for more than a month at a time.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Priority supplement for:** Men with IBS-C.
 
@@ -2027,10 +1834,6 @@ anti-inflammatory, anti-atherosclerotic, antigenotoxic and cytotoxic activities.
 
 **Best time to consume:** First thing in the morning.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Interactions:** Blood pressre medication, caffeine, sedatives, diabetes meds.
 
 **Usage length:** A few days.
@@ -2065,13 +1868,7 @@ Note: using it long term can negatively affect DHT.
 
 **Some benefits:** Chamomile is the jack of all trades when it comes to herbs. It
 literally helps with a ton of issues some of which include: insomnia, stomach ulcers,
-eczema, anxiety, fevers, cardiovascular conditions, PMS, diabetes, gut issues, osteoporosis,
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
-candida, inhibiting the release of LPS-induced prostaglandin E(2) and COX-2, is a GABA
+eczema, anxiety, fevers, cardiovascular conditions, PMS, diabetes, gut issues, osteoporosis, candida, inhibiting the release of LPS-induced prostaglandin E(2) and COX-2, is a GABA
 agonist, phytoprogestogen and aromatase inhibitor.
 
 **Best time to consume:** When you feel like you need it.
@@ -2103,10 +1900,6 @@ prevent pneumonia, support the immune system, help with PMS.
 **Priority supplement for:** People who want to protect their heart.
 
 **Dandelion**
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Some benefits:** Great for bioavailable magnesium, helping you balance your blood sugar,
 fighting inflammation, lowering triglycerides, protecting your liver, protecting your gut,
@@ -2145,10 +1938,6 @@ people due to its anti-microbial properties and tank DHT.
 
 **Carnosine**
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Some benefits:** Carnosine can prevent the glycosylation of protein (the addition of sugar
 groups to proteins) and some of the damage that free radicals cause (especially in the brain
 (which makes sense considering the brain’s needs for the anti-glycosylation effects and also
@@ -2186,10 +1975,6 @@ acts like a magnet for the positively charged toxins.
 
 AC is so effective for being a binder that emergency rooms use it to treat overdoses.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 BUT, if taken for over a few weeks it will bind into important minerals and antioxidants
 so it should be treated very carefully and when someone chooses to consume it he
 should also supplement with magnesium, drink raw milk, eat sea salt and not skip on
@@ -2224,10 +2009,6 @@ mental fatigue, boost athletic performance, improve ADHD, help with withdrawils 
 with the removal of nitrogen waste products among other things.
 
 **Best time to consume:** In the morning or pre workout.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Interactions:** It is a very gray line meaning that it can potentially interact with many
 things, so it’s best to be avoided if you are using serious medications and take it 2 hours
@@ -2268,10 +2049,6 @@ liver or heart-related medications.
 They can help you with memory, better focus, reducing anxiety quite a lot, improve brain
 fog, migraines in some cases but also help people go through withdrawals easier.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Interactions:** Even though sometimes they can be combined with things such as
 anxiety meds, it’s better to not combine them with any medications that affect your
 cognition unless your doctor tells you otherwise.
@@ -2308,10 +2085,6 @@ and anxiety medications.
 it for more than a few weeks.
 
 **Magnolia**
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Some benefits:** It can reduce inflammation in the brain, improve anxiety issues and sleep
 quality, it could help women with menopause-related problems, it’s a potent
@@ -2352,10 +2125,6 @@ IL-4, IL-6 and IL-7, can improve mental fatigue.
 
 **Interactions:** All MAO inhibitors.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Usage length:** Given that its elimination happens through the adrenals, i wouldn’t use it
 for months on end.
 
@@ -2395,10 +2164,6 @@ have some anti-aging and immune system supportive benefits.
 **Usage length:** 1-2 times per week since you don’t want to risk hyper-beta-alanemia and
 thus messing up organs such as your heart.
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 **Choline (CDP)**
 
 **Some benefits:** Brain health, better cognitive function, better thyroid function, increased
@@ -2437,10 +2202,6 @@ Anecdotally, most people respond to it better if they take it later in the day (
 
 **Usage length:** Given the fact that it can increase the number of red blood cells, i would not
 consume it for more than 3-4 weeks at a time.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 ## TUDCA
 
@@ -2485,10 +2246,6 @@ Supplements that could help with anxiety.
 ● Pine pollen
 
 Supplements that could help with an unhealthy androgen profile.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 ● Magnesium taurate
 ● Boron
@@ -2538,10 +2295,6 @@ Supplements that could help with fertility.
 ● Whole food vitamin E
 
 ● Whole food vitamin C
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 ## ● MK7
 
@@ -2593,10 +2346,6 @@ Supplements that could help someone with ADD/ADHD.
 ● Biotin
 ● Agmatine
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 ## ● NAC
 
 ● Magnesium taurate
@@ -2647,10 +2396,6 @@ Supplements that could help someone with eye health.
 
 ● Pregnenolone
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 Supplements that could help someone with libido.
 ● Shilajit
 ● Pine pollen
@@ -2698,10 +2443,6 @@ Supplements that could help someone with arthritis.
 ● Merica curcumin
 
 Supplements that could help someone with gut health.
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 ● Ginger
 ● Magnesium glycinate
@@ -2754,10 +2495,6 @@ Supplements that could help your liver.
 
 ● TUDCA
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 ● Milk thistle
 ● Ginger
 
@@ -2788,10 +2525,6 @@ Selected studies
 2. https://pubmed.ncbi.nlm.nih.gov/20874437/
 3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3669033/
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 4. https://pubmed.ncbi.nlm.nih.gov/21671978/
 5. https://pubmed.ncbi.nlm.nih.gov/23261482/
 
@@ -2815,10 +2548,6 @@ Gut health handbook (lesson 4) written by George @Helios_Movement
 3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6017409/
 4. https://www.tci-thaijo.org/index.php/TJP/article/view/84831
 5. https://www.ncbi.nlm.nih.gov/pubmed/19148883
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Sodium butyrate**
 
@@ -2844,10 +2573,6 @@ hub
 4. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987435/
 
 **Nettle**
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9253158/
 2. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9253158/#bib76
@@ -2876,10 +2601,6 @@ Gut health handbook (lesson 4) written by George @Helios_Movement
 1. https://pubmed.ncbi.nlm.nih.gov/24969522/
 2. https://pubmed.ncbi.nlm.nih.gov/24969522/
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4581564/
 
 **Rosemary**
@@ -2905,10 +2626,6 @@ Gut health handbook (lesson 4) written by George @Helios_Movement
 
 1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3762282/
 2. https://pubmed.ncbi.nlm.nih.gov/7580761/
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
 
 **Digestive enzymes**
 
@@ -2936,10 +2653,6 @@ Gut health handbook (lesson 4) written by George @Helios_Movement
 3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7037471/
 4. https://pubmed.ncbi.nlm.nih.gov/22982063/
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 5. https://pubmed.ncbi.nlm.nih.gov/35276844/
 **M. Blue**
 1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8699482/
@@ -2966,10 +2679,6 @@ Gut health handbook (lesson 4) written by George @Helios_Movement
 2. https://pubmed.ncbi.nlm.nih.gov/34785587/
 3. https://pubmed.ncbi.nlm.nih.gov/11684396/
 
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
 4. https://pubmed.ncbi.nlm.nih.gov/24342502/
 **Glycine**
 1. https://pubmed.ncbi.nlm.nih.gov/12589194/
@@ -2992,13 +2701,3 @@ Gut health handbook (lesson 4) written by George @Helios_Movement
 1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2915836/
 2. https://pubmed.ncbi.nlm.nih.gov/27234407/
 3. https://pubmed.ncbi.nlm.nih.gov/35481594/
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
-Gut health handbook (lesson 4) written by George @Helios_Movement
-**Sold to**
-
-
-

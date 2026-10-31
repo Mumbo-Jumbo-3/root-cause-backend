@@ -1,20 +1,26 @@
 from dataclasses import dataclass
-from hashlib import sha256
 import re
+import uuid
 from pathlib import Path
 
+import numpy as np
 from langchain_core.documents import Document
 from langchain_text_splitters import (
     MarkdownHeaderTextSplitter,
     RecursiveCharacterTextSplitter,
 )
-from sqlalchemy import delete, select
+from sqlalchemy import delete, func, insert, select
 
 from health_agent.config import Settings
 from health_agent.db import AgentResource, AgentResourceChunk, get_session_factory
-from health_agent.db.models import EMBEDDING_DIMENSIONS, utc_now
-from health_agent.models import get_embeddings_model
-from health_agent.rag.resources import filesystem_resource_manifest, resource_files
+from health_agent.db.models import EMBEDDING_DIMENSIONS
+from health_agent.models import voyage_client
+from health_agent.rag.resources import (
+    database_resource_manifest,
+    hash_text,
+    resource_files,
+    resource_hash,
+)
 
 _AUTHOR_PREFIXES = {
     "peat_": "Dr. Ray Peat",
@@ -22,68 +28,70 @@ _AUTHOR_PREFIXES = {
     "ferman_": "George Ferman",
 }
 
+# Held for the write transaction, so a deploy and a manual run never write at once.
+_INGEST_LOCK_KEY = 7_270_301
+_EMBED_BATCH_SIZE = 128
+# Each vector becomes ~20 KB of text on its way to pgvector; inserting in slices keeps that bounded.
+_INSERT_BATCH_SIZE = 500
+
 
 @dataclass
 class IngestStats:
-    added_resources: int = 0
-    updated_resources: int = 0
-    deleted_resources: int = 0
-    chunk_rows_written: int = 0
+    added_resources: int
+    updated_resources: int
+    deleted_resources: int
+    chunk_rows_written: int
 
 
 @dataclass
 class ResourceFileRecord:
-    file_path: Path
     source_path: str
     source_name: str
     raw_content: str
-    title: str
-    author: str
     content_hash: str
 
 
-def _extract_title(text: str) -> str:
-    """Extract the first H1 heading, or fall back to the first non-empty line."""
-    for line in text.splitlines():
-        stripped = line.strip()
-        if stripped.startswith("# ") and not stripped.startswith("##"):
-            return stripped.removeprefix("# ").strip()
-        if stripped:
-            return stripped[:120]
-    return "Untitled"
+_H1_RE = re.compile(r"^# +(.+?)\s*$", re.MULTILINE)
+_AUTHOR_LINE_RE = re.compile(r"^[#*_\s]*author:\s*(.+?)[*_\s]*$", re.IGNORECASE | re.MULTILINE)
+
+
+def _extract_title(text: str, filename: str) -> str:
+    """Use the document's first H1, or a title built from the filename.
+
+    Titles are shown to users and to Claude, so they never come from a body
+    line: in PDF-extracted sources the first line is often a disclaimer or byline.
+    """
+    match = _H1_RE.search(text)
+    if match:
+        title = match.group(1).strip("*_ ")
+        if title:
+            return title
+
+    stem = Path(filename).stem
+    for prefix in _AUTHOR_PREFIXES:
+        stem = stem.removeprefix(prefix)
+    return re.sub(r"[_-]+", " ", stem).strip().title() or "Untitled"
 
 
 def _extract_author(text: str, filename: str) -> str:
-    """Extract author from content patterns or filename prefix."""
-    # Check for explicit author lines
-    for line in text.splitlines()[:20]:
-        stripped = line.strip().lower()
-        if "author:" in stripped:
-            return line.split(":", 1)[1].strip().strip("*#_ ")
-        if re.search(r"written by\s+", stripped):
-            match = re.search(r"written by\s+(.+)", line, re.IGNORECASE)
-            if match:
-                return match.group(1).strip().strip("*#_ ")
-
-    # Fall back to filename prefix
+    """Name the author from the collection's filename prefix or an `Author:` line."""
     for prefix, author in _AUTHOR_PREFIXES.items():
         if filename.startswith(prefix):
             return author
 
-    return ""
+    head = "\n".join(text.splitlines()[:20])
+    match = _AUTHOR_LINE_RE.search(head)
+    return match.group(1) if match else ""
 
 
-def chunk_document(file_path: Path, settings: Settings) -> list[Document]:
+def chunk_document(text: str, filename: str, settings: Settings) -> list[Document]:
     """Chunk a single file using markdown-aware splitting with contextual headers."""
-    text = file_path.read_text(encoding="utf-8")
-    filename = file_path.name
-
-    title = _extract_title(text)
+    title = _extract_title(text, filename)
     author = _extract_author(text, filename)
     base_metadata = {"source": filename, "title": title, "author": author}
 
     # Stage A: markdown header splitting for .md files
-    if file_path.suffix == ".md":
+    if Path(filename).suffix == ".md":
         md_splitter = MarkdownHeaderTextSplitter(
             headers_to_split_on=[("#", "h1"), ("##", "h2"), ("###", "h3")],
             strip_headers=True,
@@ -119,116 +127,123 @@ def chunk_document(file_path: Path, settings: Settings) -> list[Document]:
     return final_chunks
 
 
-def _hash_text(content: str) -> str:
-    return sha256(content.encode("utf-8")).hexdigest()
-
-
-def _resource_record(file_path: Path, resource_path: Path) -> ResourceFileRecord:
+def _resource_record(
+    file_path: Path, resource_path: Path, settings: Settings
+) -> ResourceFileRecord:
     raw_content = file_path.read_text(encoding="utf-8")
     return ResourceFileRecord(
-        file_path=file_path,
         source_path=str(file_path.relative_to(resource_path)),
         source_name=file_path.name,
         raw_content=raw_content,
-        title=_extract_title(raw_content),
-        author=_extract_author(raw_content, file_path.name),
-        content_hash=_hash_text(raw_content),
+        content_hash=resource_hash(raw_content, settings),
     )
 
 
-def _embed_texts(texts: list[str], settings: Settings, batch_size: int = 128) -> list[list[float]]:
-    if settings.embedding_dimensions != EMBEDDING_DIMENSIONS:
-        raise RuntimeError(
-            "EMBEDDING_DIMENSIONS does not match the current database schema. "
-            f"Expected {EMBEDDING_DIMENSIONS}."
+def _embed_texts(texts: list[str], settings: Settings) -> np.ndarray:
+    """Embed chunks as float32 rows, so a full rebuild fits in a small instance's memory."""
+    client = voyage_client(settings.voyage_api_key)
+    vectors = np.empty((len(texts), EMBEDDING_DIMENSIONS), dtype=np.float32)
+    for start in range(0, len(texts), _EMBED_BATCH_SIZE):
+        batch = texts[start : start + _EMBED_BATCH_SIZE]
+        result = client.embed(
+            batch,
+            model=settings.embedding_model,
+            input_type="document",
+            output_dimension=EMBEDDING_DIMENSIONS,
         )
-
-    embeddings_model = get_embeddings_model(settings)
-    vectors: list[list[float]] = []
-    for start in range(0, len(texts), batch_size):
-        vectors.extend(embeddings_model.embed_documents(texts[start : start + batch_size]))
+        vectors[start : start + len(batch)] = result.embeddings
     return vectors
 
 
 def ingest_resources(settings: Settings, force: bool = False) -> IngestStats:
+    """Make the index match `resources_dir`, embedding only the resources that changed.
+
+    All embedding happens before the write transaction opens, so a failed run leaves the
+    index as it was, and the write that replaces it takes seconds.
+    """
     resource_path = settings.resources_dir
     files = resource_files(resource_path)
-    records = [_resource_record(file_path, resource_path) for file_path in files]
-    desired_manifest = filesystem_resource_manifest(resource_path)
+    if not files:
+        raise RuntimeError(
+            f"No resources found in {resource_path.resolve()}; refusing to empty the index."
+        )
 
+    records = [_resource_record(file_path, resource_path, settings) for file_path in files]
     session_factory = get_session_factory(settings)
-    stats = IngestStats()
+    with session_factory() as session:
+        stored = database_resource_manifest(session)
+
+    changed = [
+        record
+        for record in records
+        if force or stored.get(record.source_path) != record.content_hash
+    ]
+    removed = sorted(stored.keys() - {record.source_path for record in records})
+
+    chunks_by_record = [
+        chunk_document(record.raw_content, record.source_name, settings) for record in changed
+    ]
+    vectors = iter(
+        _embed_texts(
+            [chunk.page_content for chunks in chunks_by_record for chunk in chunks], settings
+        )
+    )
+
+    resource_rows = []
+    chunk_rows = []
+    for record, chunks in zip(changed, chunks_by_record):
+        resource_id = uuid.uuid4()
+        resource_rows.append(
+            {
+                "id": resource_id,
+                "source_path": record.source_path,
+                "source_name": record.source_name,
+                "title": _extract_title(record.raw_content, record.source_name),
+                "author": _extract_author(record.raw_content, record.source_name),
+                "raw_content": record.raw_content,
+                "content_hash": record.content_hash,
+            }
+        )
+        for index, chunk in enumerate(chunks):
+            chunk_rows.append(
+                {
+                    "resource_id": resource_id,
+                    "chunk_index": index,
+                    "source_path": record.source_path,
+                    "source": record.source_name,
+                    "title": chunk.metadata["title"],
+                    "author": chunk.metadata["author"],
+                    "h1": chunk.metadata.get("h1"),
+                    "h2": chunk.metadata.get("h2"),
+                    "h3": chunk.metadata.get("h3"),
+                    "header_path": chunk.metadata.get("header_path"),
+                    "content": chunk.page_content,
+                    "content_hash": hash_text(chunk.page_content),
+                    "embedding": next(vectors),
+                }
+            )
 
     with session_factory() as session, session.begin():
-        existing_resources = {
-            resource.source_path: resource
-            for resource in session.execute(select(AgentResource)).scalars()
-        }
+        session.execute(select(func.pg_advisory_xact_lock(_INGEST_LOCK_KEY)))
+        if database_resource_manifest(session) != stored:
+            raise RuntimeError("The index changed while this ingest was embedding; run it again.")
 
-        missing_paths = sorted(set(existing_resources) - set(desired_manifest))
-        if missing_paths:
-            delete_result = session.execute(
-                delete(AgentResource).where(AgentResource.source_path.in_(missing_paths))
+        # Updated resources are replaced outright; their chunks go with them (ON DELETE CASCADE).
+        stale_paths = removed + [record.source_path for record in changed]
+        if stale_paths:
+            session.execute(
+                delete(AgentResource).where(AgentResource.source_path.in_(stale_paths))
             )
-            stats.deleted_resources = delete_result.rowcount or len(missing_paths)
+        if resource_rows:
+            session.execute(insert(AgentResource), resource_rows)
+        for start in range(0, len(chunk_rows), _INSERT_BATCH_SIZE):
+            session.execute(
+                insert(AgentResourceChunk), chunk_rows[start : start + _INSERT_BATCH_SIZE]
+            )
 
-        for record in records:
-            current = existing_resources.get(record.source_path)
-            if not force and current is not None and current.content_hash == record.content_hash:
-                continue
-
-            now = utc_now()
-            if current is None:
-                current = AgentResource(
-                    source_path=record.source_path,
-                    source_name=record.source_name,
-                    title=record.title,
-                    author=record.author,
-                    raw_content=record.raw_content,
-                    content_hash=record.content_hash,
-                    created_at=now,
-                    updated_at=now,
-                )
-                session.add(current)
-                session.flush()
-                stats.added_resources += 1
-            else:
-                current.source_name = record.source_name
-                current.title = record.title
-                current.author = record.author
-                current.raw_content = record.raw_content
-                current.content_hash = record.content_hash
-                current.updated_at = now
-                session.execute(
-                    delete(AgentResourceChunk).where(AgentResourceChunk.resource_id == current.id)
-                )
-                stats.updated_resources += 1
-
-            chunks = chunk_document(record.file_path, settings)
-            embeddings = _embed_texts([chunk.page_content for chunk in chunks], settings)
-            chunk_rows = []
-            for index, (chunk, embedding) in enumerate(zip(chunks, embeddings)):
-                chunk_rows.append(
-                    AgentResourceChunk(
-                        resource_id=current.id,
-                        chunk_index=index,
-                        source_path=record.source_path,
-                        source=record.source_name,
-                        title=chunk.metadata["title"],
-                        author=chunk.metadata["author"],
-                        h1=chunk.metadata.get("h1"),
-                        h2=chunk.metadata.get("h2"),
-                        h3=chunk.metadata.get("h3"),
-                        header_path=chunk.metadata.get("header_path"),
-                        content=chunk.page_content,
-                        content_hash=_hash_text(chunk.page_content),
-                        embedding=embedding,
-                        created_at=now,
-                        updated_at=now,
-                    )
-                )
-
-            session.add_all(chunk_rows)
-            stats.chunk_rows_written += len(chunk_rows)
-
-    return stats
+    return IngestStats(
+        added_resources=sum(record.source_path not in stored for record in changed),
+        updated_resources=sum(record.source_path in stored for record in changed),
+        deleted_resources=len(removed),
+        chunk_rows_written=len(chunk_rows),
+    )

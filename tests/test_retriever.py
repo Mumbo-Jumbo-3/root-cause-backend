@@ -2,6 +2,7 @@ from unittest.mock import patch
 
 from langchain_core.documents import Document
 
+from health_agent import models
 from health_agent.config import Settings
 from health_agent.rag import retriever
 from health_agent.rag.retriever import reciprocal_rank_fusion, retrieve_documents
@@ -104,9 +105,9 @@ def test_retrieve_documents_normalizes_duplicate_queries():
 
 def test_queries_and_rerank_share_one_voyage_client_without_tokenizing():
     settings = Settings(voyage_api_key="test-key", embedding_model="voyage-4-large")
-    retriever._voyage_client.cache_clear()
+    models.voyage_client.cache_clear()
     try:
-        with patch("health_agent.rag.retriever.voyageai.Client") as client_cls:
+        with patch("health_agent.models.voyageai.Client") as client_cls:
             client = client_cls.return_value
             client.embed.return_value.embeddings = [[0.1, 0.2]]
             client.rerank.return_value.results = []
@@ -115,10 +116,13 @@ def test_queries_and_rerank_share_one_voyage_client_without_tokenizing():
             retriever._embed_query("magnesium and stress", settings)
             retriever.rerank_documents("magnesium", [_doc("text", "a.md")], settings)
 
-        client_cls.assert_called_once_with(api_key="test-key")
+        client_cls.assert_called_once_with(api_key="test-key", max_retries=3)
         client.embed.assert_called_with(
-            ["magnesium and stress"], model="voyage-4-large", input_type="query"
+            ["magnesium and stress"],
+            model="voyage-4-large",
+            input_type="query",
+            output_dimension=1024,
         )
         client.tokenize.assert_not_called()
     finally:
-        retriever._voyage_client.cache_clear()
+        models.voyage_client.cache_clear()

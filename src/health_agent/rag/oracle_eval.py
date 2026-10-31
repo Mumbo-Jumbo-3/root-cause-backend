@@ -17,10 +17,9 @@ from sqlalchemy import or_, select
 from health_agent.config import Settings
 from health_agent.db import AgentResourceChunk, get_session_factory
 from health_agent.models import get_claude_judge_model
-from health_agent.rag.resources import filesystem_resource_manifest
+from health_agent.rag.resources import filesystem_resource_manifest, needs_reindex
 from health_agent.rag.retriever import (
     chunk_to_document,
-    needs_reindex,
     query_keyword_chunks,
     query_vector_candidate_chunks,
     reciprocal_rank_fusion,

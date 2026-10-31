@@ -23,7 +23,6 @@ class Settings(BaseSettings):
     anthropic_classifier_model: str = "claude-haiku-4-5-20251001"
 
     embedding_model: str = "voyage-4-large"
-    embedding_dimensions: int = 1024
 
     reranker_model: str = "rerank-2.5"
     reranker_top_k: int = 12

@@ -1,12 +1,4 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-## This program was created by George @Helios_movement. 
-
-## The system lesson 1: Light and the Circadian Rhythm 
+# The System, Lesson 1: Light and the Circadian Rhythm
 
 Welcome, in the first lesson, some people will experience the fact that there might not be something fundamentally wrong with their body but there can be a lot of things wrong in their current environment. 
 
@@ -16,19 +8,9 @@ This is why, we can not expect to fix health issues by consuming a pill.
 
 There isn’t a pill that can provide even 1% of the things we need in order to be healthy and a lifestyle change will need to happen to some extent if you care about improving your health, which i assume that you do. 
 
-## So we will begin this program by breaking down the importance of having a healthy 
+So we will begin this program by breaking down the importance of having a healthy circadian rhythm and the effects that light has on our health.
 
-## circadian rhythm and the effects that light has on our health. 
-
-## In this day and age where people get more informed about topics such as the 
-
-## importance of nutrition, toxins and exercising, one of the things that prevents a lot of 
-
-## them from solving their health issues and reaching truly peak levels of health, is 
-
-## underestimating the importance of our light environment and the one of having an 
-
-## optimal circadian rhythm. 
+In this day and age where people get more informed about topics such as the importance of nutrition, toxins and exercising, one of the things that prevents a lot of them from solving their health issues and reaching truly peak levels of health, is underestimating the importance of our light environment and the one of having an optimal circadian rhythm.
 
 We can eat the perfect diet, have the perfect workout plan, eat the best quality of foods, consume the most groundbreaking supplements and not be stressed, but if our light environment isn’t healthy and our circadian rhythm is dysregulated, we will still face a lot of health issues and can not expect to truly solve or prevent any health-related issue as well. 
 
@@ -1218,301 +1200,298 @@ Let’s proceed to lesson 2 now.
 
 ## List of selected references 
 
-## https://pubmed.ncbi.nlm.nih.gov/37018912/ 
+https://pubmed.ncbi.nlm.nih.gov/37018912/
 
-## https://www.nature.com/articles/s41598-017-16689-4 
+https://www.nature.com/articles/s41598-017-16689-4
 
-## https://academic.oup.com/bjd/article-abstract/178/2/492/6732233 
+https://academic.oup.com/bjd/article-abstract/178/2/492/6732233
 
-## https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4273372/ 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4273372/
 
-## https://pubmed.ncbi.nlm.nih.gov/32645331/ 
+https://pubmed.ncbi.nlm.nih.gov/32645331/
 
-## https://pubmed.ncbi.nlm.nih.gov/23187103/ 
+https://pubmed.ncbi.nlm.nih.gov/23187103/
 
-## https://www.annualreviews.org/doi/full/10.1146/annurev-vision-100820-094 
+https://www.annualreviews.org/doi/full/10.1146/annurev-vision-100820-094
 
 ## 018 
 
-## https://www.ncbi.nlm.nih.gov/pubmed/21138476 
+https://www.ncbi.nlm.nih.gov/pubmed/21138476
 
-## https://onlinelibrary.wiley.com/doi/full/10.1111/gtc.12751 
+https://onlinelibrary.wiley.com/doi/full/10.1111/gtc.12751
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC9842516/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9842516/
 
-## https://www.ncbi.nlm.nih.gov/pubmed/22804755 
+https://www.ncbi.nlm.nih.gov/pubmed/22804755
 
-## https://www.karger.com/Article/FullText/448122 
+https://www.karger.com/Article/FullText/448122
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC11554482/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11554482/
 
-## https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4624926/ 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4624926/
 
-## https://www.ncbi.nlm.nih.gov/pubmed/26088111 
+https://www.ncbi.nlm.nih.gov/pubmed/26088111
 
-## https://www.ncbi.nlm.nih.gov/pubmed/21673362 
+https://www.ncbi.nlm.nih.gov/pubmed/21673362
 
-## http://onlinelibrary.wiley.com/doi/10.1111/jpi.12399/abstract 
+http://onlinelibrary.wiley.com/doi/10.1111/jpi.12399/abstract
 
-## http://www.ncbi.nlm.nih.gov/pubmed/26528359 
+http://www.ncbi.nlm.nih.gov/pubmed/26528359
 
-## https://www.ncbi.nlm.nih.gov/pubmed/12890503 
+https://www.ncbi.nlm.nih.gov/pubmed/12890503
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC7563541/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7563541/
 
-## https://www.ncbi.nlm.nih.gov/pubmed/18020480 
+https://www.ncbi.nlm.nih.gov/pubmed/18020480
 
-## https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3649755/ 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3649755/
 
-## https://www.ncbi.nlm.nih.gov/pubmed/12395907 
+https://www.ncbi.nlm.nih.gov/pubmed/12395907
 
-## https://www.ncbi.nlm.nih.gov/pubmed/8609593 
+https://www.ncbi.nlm.nih.gov/pubmed/8609593
 
-## https://www.ncbi.nlm.nih.gov/pubmed/17014688 
+https://www.ncbi.nlm.nih.gov/pubmed/17014688
 
-## https://www.ncbi.nlm.nih.gov/pubmed/21673362 
+https://www.ncbi.nlm.nih.gov/pubmed/21673362
 
-## https://www.ncbi.nlm.nih.gov/pubmed/20044310 
+https://www.ncbi.nlm.nih.gov/pubmed/20044310
 
-## http://onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.2009.05352.x/full 
+http://onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.2009.05352.x/full
 
-## https://www.ncbi.nlm.nih.gov/pubmed/15206773 
+https://www.ncbi.nlm.nih.gov/pubmed/15206773
 
-## http://www.ncbi.nlm.nih.gov/pubmed/26882296 
+http://www.ncbi.nlm.nih.gov/pubmed/26882296
 
-## http://www.ncbi.nlm.nih.gov/pubmed/26528359 
+http://www.ncbi.nlm.nih.gov/pubmed/26528359
 
-## https://www.ncbi.nlm.nih.gov/pubmed/22167135 
+https://www.ncbi.nlm.nih.gov/pubmed/22167135
 
-## https://www.ncbi.nlm.nih.gov/pubmed/22204799 
+https://www.ncbi.nlm.nih.gov/pubmed/22204799
 
-## https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4206758/ 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4206758/
 
-## https://www.ncbi.nlm.nih.gov/pubmed/25612238 
+https://www.ncbi.nlm.nih.gov/pubmed/25612238
 
-## https://www.ncbi.nlm.nih.gov/pubmed/16185314 
+https://www.ncbi.nlm.nih.gov/pubmed/16185314
 
-## http://onlinelibrary.wiley.com/doi/10.1111/jpi.12399/abstract 
+http://onlinelibrary.wiley.com/doi/10.1111/jpi.12399/abstract
 
-## https://www.ncbi.nlm.nih.gov/pubmed/1586370/ 
+https://www.ncbi.nlm.nih.gov/pubmed/1586370/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC10399526/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10399526/
 
-## https://www.ncbi.nlm.nih.gov/pubmed/18485648 
+https://www.ncbi.nlm.nih.gov/pubmed/18485648
 
-## https://www.ncbi.nlm.nih.gov/pubmed/29637859 
+https://www.ncbi.nlm.nih.gov/pubmed/29637859
 
-## https://molecularneurodegeneration.biomedcentral.com/articles/10.1186/s1 
+https://molecularneurodegeneration.biomedcentral.com/articles/10.1186/s1
 
 ## 3024-015-0027-6 
 
-## https://www.ncbi.nlm.nih.gov/pubmed/26507336 
+https://www.ncbi.nlm.nih.gov/pubmed/26507336
 
-## https://www.ncbi.nlm.nih.gov/pubmed/31102663 
+https://www.ncbi.nlm.nih.gov/pubmed/31102663
 
-## https://www.ncbi.nlm.nih.gov/pubmed/28415572 
+https://www.ncbi.nlm.nih.gov/pubmed/28415572
 
-## https://www.ncbi.nlm.nih.gov/pubmed/12662350 
+https://www.ncbi.nlm.nih.gov/pubmed/12662350
 
-## https://www.ncbi.nlm.nih.gov/pubmed/27165014 
+https://www.ncbi.nlm.nih.gov/pubmed/27165014
 
-## https://www.ncbi.nlm.nih.gov/pubmed/28011485 
+https://www.ncbi.nlm.nih.gov/pubmed/28011485
 
-## https://pubmed.ncbi.nlm.nih.gov/24971004/ 
+https://pubmed.ncbi.nlm.nih.gov/24971004/
 
-## https://pubmed.ncbi.nlm.nih.gov/26569624/ 
+https://pubmed.ncbi.nlm.nih.gov/26569624/
 
-## https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3955064/ 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3955064/
 
-## https://pubmed.ncbi.nlm.nih.gov/24214660/ 
+https://pubmed.ncbi.nlm.nih.gov/24214660/
 
-## https://link.springer.com/article/10.1007/s00018-014-1579-2 
+https://link.springer.com/article/10.1007/s00018-014-1579-2
 
-## https://pubmed.ncbi.nlm.nih.gov/38293391/ 
+https://pubmed.ncbi.nlm.nih.gov/38293391/
 
-## https://pubmed.ncbi.nlm.nih.gov/31722088/ 
+https://pubmed.ncbi.nlm.nih.gov/31722088/
 
-## https://pubmed.ncbi.nlm.nih.gov/37110233/ 
+https://pubmed.ncbi.nlm.nih.gov/37110233/
 
-## https://pubmed.ncbi.nlm.nih.gov/37645444/ 
+https://pubmed.ncbi.nlm.nih.gov/37645444/
 
-## https://pubmed.ncbi.nlm.nih.gov/19876062/ 
+https://pubmed.ncbi.nlm.nih.gov/19876062/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC11018883/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11018883/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC11641357/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11641357/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC11265920/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11265920/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC10163584/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10163584/
 
-## https://www.nejm.org/doi/full/10.1056/NEJMra070553 
+https://www.nejm.org/doi/full/10.1056/NEJMra070553
 
-## https://us.sagepub.com/en-us/nam/journal-of-investigative-medicine/journa 
+https://us.sagepub.com/en-us/nam/journal-of-investigative-medicine/journa
 
 ## l203786 
 
-## https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/vitamin-d 
+https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/vitamin-d
 
 ## -fact-sheet 
 
-## https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.107.7061 
+https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.107.7061
 
 ## 27 
 
-## https://pubmed.ncbi.nlm.nih.gov/32431001/ 
+https://pubmed.ncbi.nlm.nih.gov/32431001/
 
-## https://www.mdpi.com/2218-273X/14/5/525/review_report 
+https://www.mdpi.com/2218-273X/14/5/525/review_report
 
-## https://pubmed.ncbi.nlm.nih.gov/32704098/ 
+https://pubmed.ncbi.nlm.nih.gov/32704098/
 
-## https://pubmed.ncbi.nlm.nih.gov/31982136/ 
+https://pubmed.ncbi.nlm.nih.gov/31982136/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC2781858/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2781858/
 
-## https://pubmed.ncbi.nlm.nih.gov/33765865/ 
+https://pubmed.ncbi.nlm.nih.gov/33765865/
 
-## https://pubmed.ncbi.nlm.nih.gov/38581820/ 
+https://pubmed.ncbi.nlm.nih.gov/38581820/
 
-## https://pubmed.ncbi.nlm.nih.gov/31226228/ 
+https://pubmed.ncbi.nlm.nih.gov/31226228/
 
-## https://pubmed.ncbi.nlm.nih.gov/25284384/ 
+https://pubmed.ncbi.nlm.nih.gov/25284384/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC10463388/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10463388/
 
-## https://pubmed.ncbi.nlm.nih.gov/30324342/ 
+https://pubmed.ncbi.nlm.nih.gov/30324342/
 
-## https://pubmed.ncbi.nlm.nih.gov/32038645/ 
+https://pubmed.ncbi.nlm.nih.gov/32038645/
 
-## https://pubmed.ncbi.nlm.nih.gov/36674452/ 
+https://pubmed.ncbi.nlm.nih.gov/36674452/
 
-## https://pubmed.ncbi.nlm.nih.gov/27065162/ 
+https://pubmed.ncbi.nlm.nih.gov/27065162/
 
-## https://pubmed.ncbi.nlm.nih.gov/35889955/ 
+https://pubmed.ncbi.nlm.nih.gov/35889955/
 
-## https://pubmed.ncbi.nlm.nih.gov/29713796/ 
+https://pubmed.ncbi.nlm.nih.gov/29713796/
 
-## https://pubmed.ncbi.nlm.nih.gov/29173203/ 
+https://pubmed.ncbi.nlm.nih.gov/29173203/
 
-## https://pubmed.ncbi.nlm.nih.gov/36901976/ 
+https://pubmed.ncbi.nlm.nih.gov/36901976/
 
-## https://pubmed.ncbi.nlm.nih.gov/37239112/ 
+https://pubmed.ncbi.nlm.nih.gov/37239112/
 
-## https://pubmed.ncbi.nlm.nih.gov/37915988/ 
+https://pubmed.ncbi.nlm.nih.gov/37915988/
 
-## https://pubmed.ncbi.nlm.nih.gov/20571973/ 
+https://pubmed.ncbi.nlm.nih.gov/20571973/
 
-## https://pubmed.ncbi.nlm.nih.gov/34684482/ 
+https://pubmed.ncbi.nlm.nih.gov/34684482/
 
-## https://pubmed.ncbi.nlm.nih.gov/31433569/ 
+https://pubmed.ncbi.nlm.nih.gov/31433569/
 
-## https://pubmed.ncbi.nlm.nih.gov/24560196/ 
+https://pubmed.ncbi.nlm.nih.gov/24560196/
 
-## https://pubmed.ncbi.nlm.nih.gov/36277693/ 
+https://pubmed.ncbi.nlm.nih.gov/36277693/
 
-## https://pubmed.ncbi.nlm.nih.gov/38892035/ 
+https://pubmed.ncbi.nlm.nih.gov/38892035/
 
-## https://pubmed.ncbi.nlm.nih.gov/32595651/ 
+https://pubmed.ncbi.nlm.nih.gov/32595651/
 
-## https://pubmed.ncbi.nlm.nih.gov/36865523/ 
+https://pubmed.ncbi.nlm.nih.gov/36865523/
 
-## https://pubmed.ncbi.nlm.nih.gov/32558972/ 
+https://pubmed.ncbi.nlm.nih.gov/32558972/
 
-## https://jme.bioscientifica.com/view/journals/jme/56/4/T157.xml 
+https://jme.bioscientifica.com/view/journals/jme/56/4/T157.xml
 
-## https://pubmed.ncbi.nlm.nih.gov/33594706/ 
+https://pubmed.ncbi.nlm.nih.gov/33594706/
 
-## https://pubmed.ncbi.nlm.nih.gov/37522497/ 
+https://pubmed.ncbi.nlm.nih.gov/37522497/
 
-## https://pubmed.ncbi.nlm.nih.gov/37692298/ 
+https://pubmed.ncbi.nlm.nih.gov/37692298/
 
-## https://pubmed.ncbi.nlm.nih.gov/28748217/ 
+https://pubmed.ncbi.nlm.nih.gov/28748217/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC3926176/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3926176/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC10311288/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10311288/
 
-## https://pubmed.ncbi.nlm.nih.gov/39108419/ 
+https://pubmed.ncbi.nlm.nih.gov/39108419/
 
-## https://pubmed.ncbi.nlm.nih.gov/20004299/ 
+https://pubmed.ncbi.nlm.nih.gov/20004299/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC5869732/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5869732/
 
-## https://pubmed.ncbi.nlm.nih.gov/38540564/ 
+https://pubmed.ncbi.nlm.nih.gov/38540564/
 
-## http://ncbi.nlm.nih.gov/pubmed/29495435 
+http://ncbi.nlm.nih.gov/pubmed/29495435
 
-## pubmed.ncbi.nlm.nih.gov/30160559/ 
+pubmed.ncbi.nlm.nih.gov/30160559/
 
-## pubmed.ncbi.nlm.nih.gov/29875029/ 
+pubmed.ncbi.nlm.nih.gov/29875029/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC6362935/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6362935/
 
-## pubmed.ncbi.nlm.nih.gov/29101797/ 
+pubmed.ncbi.nlm.nih.gov/29101797/
 
-## pubmed.ncbi.nlm.nih.gov/29875029/ 
+pubmed.ncbi.nlm.nih.gov/29875029/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC5263083/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5263083/
 
-## http://pubmed.ncbi.nlm.nih.gov/25988614/ 
+http://pubmed.ncbi.nlm.nih.gov/25988614/
 
-## pubmed.ncbi.nlm.nih.gov/27060353/ 
+pubmed.ncbi.nlm.nih.gov/27060353/
 
-## https://karger.com/nen/article/113/9/885/836595/Alpha-Melanocyte-Stimula 
+https://karger.com/nen/article/113/9/885/836595/Alpha-Melanocyte-Stimula
 
 ## ting-Hormone-Mediated 
 
-## pubmed.ncbi.nlm.nih.gov/12485453/ 
+pubmed.ncbi.nlm.nih.gov/12485453/
 
-## t.co/1GeZ7u95hu 
+t.co/1GeZ7u95hu
 
-## pubmed.ncbi.nlm.nih.gov/16512874 
+pubmed.ncbi.nlm.nih.gov/16512874
 
-## pubmed.ncbi.nlm.nih.gov/25803468/ 
+pubmed.ncbi.nlm.nih.gov/25803468/
 
-## t.co/mjnz126VP2 
+t.co/mjnz126VP2
 
-## pubmed.ncbi.nlm.nih.gov/26212084/ 
+pubmed.ncbi.nlm.nih.gov/26212084/
 
-## pubmed.ncbi.nlm.nih.gov/35406694/ 
+pubmed.ncbi.nlm.nih.gov/35406694/
 
-## pubmed.ncbi.nlm.nih.gov/35338345/ 
+pubmed.ncbi.nlm.nih.gov/35338345/
 
-## ncbi.nlm.nih.gov/pmc/articles/P%E2%80%A6intechopen.com/chapters/87 
+ncbi.nlm.nih.gov/pmc/articles/P%E2%80%A6intechopen.com/chapters/87
 
 ## 419%E2%80%A6 
 
-## pubmed.ncbi.nlm.nih.gov/20308557/ 
+pubmed.ncbi.nlm.nih.gov/20308557/
 
-## pubmed.ncbi.nlm.nih.gov/22854622/ 
+pubmed.ncbi.nlm.nih.gov/22854622/
 
-## pubmed.ncbi.nlm.nih.gov/34030374/ 
+pubmed.ncbi.nlm.nih.gov/34030374/
 
-## pubmed.ncbi.nlm.nih.gov/21155623/ 
+pubmed.ncbi.nlm.nih.gov/21155623/
 
-## pubmed.ncbi.nlm.nih.gov/7709998/ 
+pubmed.ncbi.nlm.nih.gov/7709998/
 
-## pubmed.ncbi.nlm.nih.gov/23696577/ 
+pubmed.ncbi.nlm.nih.gov/23696577/
 
-## pubmed.ncbi.nlm.nih.gov/26227889/ 
+pubmed.ncbi.nlm.nih.gov/26227889/
 
-## https://pubmed.ncbi.nlm.nih.gov/34684482/ 
+https://pubmed.ncbi.nlm.nih.gov/34684482/
 
-## https://pubmed.ncbi.nlm.nih.gov/26568118/ 
+https://pubmed.ncbi.nlm.nih.gov/26568118/
 
-## https://pubmed.ncbi.nlm.nih.gov/33445491/ 
+https://pubmed.ncbi.nlm.nih.gov/33445491/
 
-## https://pubmed.ncbi.nlm.nih.gov/39864535/ 
+https://pubmed.ncbi.nlm.nih.gov/39864535/
 
-## https://pubmed.ncbi.nlm.nih.gov/26568124/ 
+https://pubmed.ncbi.nlm.nih.gov/26568124/
 
-## https://pubmed.ncbi.nlm.nih.gov/29450896/ 
+https://pubmed.ncbi.nlm.nih.gov/29450896/
 
-## https://pubmed.ncbi.nlm.nih.gov/21633182/ 
+https://pubmed.ncbi.nlm.nih.gov/21633182/
 
-## https://pubmed.ncbi.nlm.nih.gov/21127246/ 
+https://pubmed.ncbi.nlm.nih.gov/21127246/
 
-## https://pubmed.ncbi.nlm.nih.gov/26564131/ 
-
-
-
+https://pubmed.ncbi.nlm.nih.gov/26564131/

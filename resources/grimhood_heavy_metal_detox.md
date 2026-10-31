@@ -1,3 +1,5 @@
+# Heavy Metal Detox Protocol
+
 I had to lay out the mitochondria/redox overview prior to this latest protocol because dysfunction in either is the root of heavy metal accumulation in the first place. Without functional mitochondria, reduction-oxidation potential (glutathione, superoxide dismutase, catalase, metallothionein - enzymes that neutralize oxidation from and bind heavy metals for elimination from the body) does not have the cellular energy to function properly either. This plays into the methionine or methylation cycle as well as both folate and B12 are diurnal (natural light/total darkness)-dependent in their respective functions. The methionine/methylation cycle funnels into glutathione production as well.
 
 So mitochondria and redox come before detox, and now hopefully you all understand why I say that. However, with the level of toxicity present today, additional detox support when necessary is ALWAYS helpful, while mitigating much of the inflammation and oxidative stress they produce, as well as aiding in elimination.

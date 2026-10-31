@@ -1,12 +1,4 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-## This program was created by George @Helios_movement. 
-
-# The system lesson 2: Enter non native electromagnetic fields (nnEMFs) 
+# The System, Lesson 2: Enter Non-Native Electromagnetic Fields (nnEMFs)
 
 If we care about helping someone improve their health or achieve a goal in general, we have to consider which fundamental steps towards this goal they might have already taken and which ones they haven’t. 
 
@@ -22,10 +14,7 @@ As electromagnetic beings, our biology is designed to operate at certain electro
 
 Our biology doesn’t have the slightest clue what to do with these since the native frequencies are obviously not nearly that range and it gets very “confused” for lack of a better term. 
 
-EMFs, in general, don’t have negative health implications and electromagnetic fields have always existed. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+EMFs, in general, don’t have negative health implications and electromagnetic fields have always existed.
 
 After all, we just talked about one in the previous chapter, light. 
 
@@ -49,10 +38,7 @@ nnEMFs, particularly RF fields, can increase reactive oxygen species (ROS) like 
 
 nnEMFs, increase intracellular calcium through voltage-gated calcium channels (VGCCs). 
 
-VGCCs are large protein complexes that “open” in response to electrical signals (they open when the membrane depolarizes (becomes less negative)), in order for calcium ions to enter cells (due to its concentration gradient (higher outside than inside cells)) and nnEMFs act as an external electrical stimulus. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+VGCCs are large protein complexes that “open” in response to electrical signals (they open when the membrane depolarizes (becomes less negative)), in order for calcium ions to enter cells (due to its concentration gradient (higher outside than inside cells)) and nnEMFs act as an external electrical stimulus.
 
 VGCCs trigger neurotransmitter release (particularly glutamate), initiate contraction in cardiac and skeletal muscle for example, eegulate hormone secretion, control gene expression, enzyme activity and apoptosis. 
 
@@ -82,10 +68,7 @@ Then of course there are other ones such as heat shock protein induction for exa
 
 **So the over-exposure to nnEMFs can hide behind things such as:** 
 
-- Altered transcription and translation of JUN, MYC and HSP 70 which affect cell cycles, apoptosis and even hematopoiesis. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+- Altered transcription and translation of JUN, MYC and HSP 70 which affect cell cycles, apoptosis and even hematopoiesis.
 
 -Cellular dehydration 
 
@@ -123,10 +106,7 @@ Cellular dehydration can also obviously lead to fatigue but it unfortunately is 
 
 -Heart problems 
 
-Now most scientists agree that the cumulative impact of chronic low-level exposure to nnEMFs remains understudied. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Now most scientists agree that the cumulative impact of chronic low-level exposure to nnEMFs remains understudied.
 
 So: 
 
@@ -148,19 +128,13 @@ I know that we all are used to the electronic conveniences of modern life, but v
 
 As we just said “every cell in our bodies is affected by electromagnetic fields”. 
 
-**Calcium channels are almost 6000 (or even 7000) times more sensitive to nnEMFs than they are to our own body’s signals so we end up with too much intracellular calcium under their influence which causes mitochondrial (the powerhouse of the cell) dysfunction.** 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+**Calcium channels are almost 6000 (or even 7000) times more sensitive to nnEMFs than they are to our own body’s signals so we end up with too much intracellular calcium under their influence which causes mitochondrial (the powerhouse of the cell) dysfunction.**
 
 So what can we do now to protect ourselves from the effects of nnEMFs while not turning into a hypochondriac health lunatic who is afraid of everything? 
 
 First of all let’s talk about the things that you have complete control over and let’s begin with your house. 
 
-● For starters, i’d like you to limit the usage of wireless technologies such as airpods, microwaves, Alexa, Bluetooth devices and Wi-Fi. ● One crucial point also is that you shouldn’t keep these devices open if you’re not using them and especially while you’re sleeping. ● Minimizing the time that you’re exposing yourself to them in your house will be crucial. ● Then i’d want you to remember the inverse square law and maximize your distance from these devices which means that you should also use your speaker in order to answer calls whenever possible. ● This is crucial. Do not have your smartphone stuck in your head. You’ll weaken the blood-brain barrier and allow toxins yo enter your brain. ● You also shouldn’t use electronic devices such as your laptop and smartphone while they’re charging but also switch your smartphone from 5G to 4G or even 3G if possible (most smartphones have this option). ● You can also use a protective case but do not rely on it. ● Use wires over Bluetooth in as many devices as possible. ● Turn down the transmission power of your WiFi (most have this option available), you can also get a router guard. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+● For starters, i’d like you to limit the usage of wireless technologies such as airpods, microwaves, Alexa, Bluetooth devices and Wi-Fi. ● One crucial point also is that you shouldn’t keep these devices open if you’re not using them and especially while you’re sleeping. ● Minimizing the time that you’re exposing yourself to them in your house will be crucial. ● Then i’d want you to remember the inverse square law and maximize your distance from these devices which means that you should also use your speaker in order to answer calls whenever possible. ● This is crucial. Do not have your smartphone stuck in your head. You’ll weaken the blood-brain barrier and allow toxins yo enter your brain. ● You also shouldn’t use electronic devices such as your laptop and smartphone while they’re charging but also switch your smartphone from 5G to 4G or even 3G if possible (most smartphones have this option). ● You can also use a protective case but do not rely on it. ● Use wires over Bluetooth in as many devices as possible. ● Turn down the transmission power of your WiFi (most have this option available), you can also get a router guard.
 
 ● Avoid placing your laptop on your lap and phone in your pocket 24/7 and move your bed away from the wall if possible. ● You can also purchase EMF meters (such as TriField TF2 or Cornet ED88T) in order to measure RF and ELF fields at your home or work environment in order to determine how big of an issue these will be for you specifically. ● Also, heavy metals severely amplify the effects of nnEMFs. These will be addressed in the next lesson but for now, a practical thing you can do is realizing some of the main sources of heavy metals such as: 
 
@@ -192,10 +166,7 @@ Now living under the influence of nnEMFs unfortunately heavily increase the dema
 
 The great Linus Pauling said "you can trace every sickness, every disease, and every ailment to a mineral deficiency” and there’s some serious truth to that. 
 
-**Minerals help us with:** -Energy production -Growth and development -The proper utilization of nutrients -Protein synthesis -The health of our nervous system and thyroid 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+**Minerals help us with:** -Energy production -Growth and development -The proper utilization of nutrients -Protein synthesis -The health of our nervous system and thyroid
 
 -Detoxification -The functions of various enzymes -Fighting viruses -Hormonal health 
 
@@ -217,10 +188,7 @@ Magnesium also plays a role in the active transport of calcium and potassium ion
 
 Now before starting to pop magnesium supplements, make sure that you've addressed the factors that lead to the depletion of Mg first. 
 
-The main ones are: -nnEMFs 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+The main ones are: -nnEMFs
 
 -Phytic acid -Stress -Heavy metals (mainly aluminum) -Alcohol -Diuretics 
 
@@ -232,10 +200,7 @@ Copper is an essential trace mineral found in higher concentrations in organs su
 
 Copper when in excess or presented in artificial formsis indeed toxic, but we need copper in the right amount since mitochondria depend on copper for energy metabolism but also copper plays a key role in functions within the body such as: -Red blood cell production. -Iron absorption. -The regulation of heart rate and blood pressure. -The development and maintenance of connective tissue. -The production of SOD and ceruloplasmin. -Bone health (when a person has enough boron and copper in his system (besides calcium and its regulators obviously) there is a significant increase in bone density). -Hormone production. -Immune system maintenance and activation. -Brain development. -Oxygen metabolism. -Formation of collagen. 
 
-In order to replenish copper, first make sure to avoid: -Inorganic iron (usually found products that contain common wheat, supplements and milk products) 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+In order to replenish copper, first make sure to avoid: -Inorganic iron (usually found products that contain common wheat, supplements and milk products)
 
 -Sodium fluoride -Heavy metals -Supplementing with large doses of zinc for a long period of time -Too much stress -Supplementing with large doses of vitamin C for a long period of time 
 
@@ -253,10 +218,7 @@ Because it helps cells to grow and multiply, adequate zinc is required during ti
 
 Zinc is also the primary factor in our ability to recycle vitamin C. 
 
-In order to replenish zinc, first make sure to avoid: -Xenoestrogens -Heavy metals -Phytic acid 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+In order to replenish zinc, first make sure to avoid: -Xenoestrogens -Heavy metals -Phytic acid
 
 -Consuming too much magnesium (the doses of 4.000+ mg of magnesium that are a lot of times unfortunately recommended) -Alcohol 
 
@@ -282,10 +244,7 @@ Phosphorus helps filter out waste in the kidneys and plays an essential role in 
 
 Phosphorus is needed for the growth, maintenance, and repair of all tissues and cells, and for the production of the genetic building blocks, DNA and RNA. 
 
-Phosphorus is also needed to help balance and use other vitamins and minerals, including vitamin D, iodine, magnesium, and zinc. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Phosphorus is also needed to help balance and use other vitamins and minerals, including vitamin D, iodine, magnesium, and zinc.
 
 The best source of phosphorus is raw milk. 
 
@@ -313,10 +272,7 @@ The best sources of calcium are: -Raw dairy -Bone broth/marrow -Eggshell powder 
 
 Moving on to boron. 
 
-Boron is a trace mineral that: -Helps our bodies metabolize vitamins and minerals. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Boron is a trace mineral that: -Helps our bodies metabolize vitamins and minerals.
 
 -Has a key role in bone health and brain health. -Lowers excessive estrogen and SHBG. -Boosts free and total testosterone levels. -Can also extend the half-life of vitamin D. -Supports the adrenals. -Helps the body retain and utilize other minerals such as magnesium and calcium. -Improves muscle coordination and muscle glycogen. -Improves sleep. -Removes sodium fluoride. 
 
@@ -334,10 +290,7 @@ In order to replenish selenium you must basically avoid heavy metals (especially
 
 The best sources of selenium are: -Shellfish -Fin fish -Eggs -Beef 
 
-Now let’s talk about iodine. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Now let’s talk about iodine.
 
 Iodine is crucial in order to make antimicrobial peptides, the health of our thyroid, Leydig cells and the function of the immune system. 
 
@@ -359,10 +312,7 @@ Moving on to chromium.
 
 Chromium is an essential mineral and low levels of chromium will increase blood sugar (so triglycerides as well) and increase the risk for a number of conditions from diabetes all the way to heart disease. 
 
-Dietary sources of chromium include: -Organic organ meats -Shellfish -Potatoes (partly how the potato diet became so popular) *Chromium supplements are best to be avoided since 99.9% of the times are way too overdosed and have toxic additives* 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Dietary sources of chromium include: -Organic organ meats -Shellfish -Potatoes (partly how the potato diet became so popular) *Chromium supplements are best to be avoided since 99.9% of the times are way too overdosed and have toxic additives*
 
 Now manganese is a trace mineral which is both essential and potentially toxic (as with any other mineral). 
 
@@ -386,10 +336,7 @@ Without enough sodium in your diet you will experience adrenal fatigue, gut prob
 
 Obviously do not go all the way to consuming 20 grams of sodium a day. 
 
-Just do not drink too much water and salt your foods since the best source of sodium is of course sea salt. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Just do not drink too much water and salt your foods since the best source of sodium is of course sea salt.
 
 Avoid Himalayan salt due to iron fortification. 
 
@@ -417,10 +364,7 @@ Now it’s also worth mentioning that most people are so depleted of thiamine du
 
 In general, vitamins B2 and B6 found in things such as organ meats will also prevent the accumulation of intracellular calcium. 
 
-Then we have vitamin K2 which is crucial for osteocalcin (a protein that requires vitamin K2 to produce healthy bone tissue since it binds calcium and stores it in the bones). 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Then we have vitamin K2 which is crucial for osteocalcin (a protein that requires vitamin K2 to produce healthy bone tissue since it binds calcium and stores it in the bones).
 
 Osteocalcin is crucial for our health in general and not just bone health, since it also promotes the synthesis of testosterone (this is one of the reasons why the administration of MK-4 has been shown to double testosterone levels in rats), improves the sensitivity of insulin receptors and the insulin-producing beta-cells function make vitamin K crucial for proper glucose metabolism. 
 
@@ -440,10 +384,7 @@ You do not have to use it, i’m just putting it out there for you to keep in mi
 
 It’s just how it goes, unfortunately. 
 
-What is also worth mentioning is that (especially if you are a man) you will have to take care of your androgens since they will also lower intracellular calcium which you can find a detailed protocol about in next parts. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+What is also worth mentioning is that (especially if you are a man) you will have to take care of your androgens since they will also lower intracellular calcium which you can find a detailed protocol about in next parts.
 
 And last but not least diet wise, we will have to address unbound iron since it literally makes you an anterna for nnEMFs. 
 
@@ -473,10 +414,7 @@ Number 5: Heavy metals work synergistically when it comes to certain tissues.
 
 So even tattoos or fillings can lead to issues with unbound iron. 
 
-Number 6: Iron accumulates, a LOT. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Number 6: Iron accumulates, a LOT.
 
 Number 7: We live in an estrogenic society (estrogen and iron work synergistically). 
 
@@ -500,10 +438,7 @@ Unbound iron puts a lot of oxidative burden on the body which in turn oxidizes a
 
 Step 3: Make sure to consume enough of nutrients that regulate iron. 
 
-These are: 1)Zinc 2)Copper 3)All of the fat soluble vitamins (A,K,E,D) 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+These are: 1)Zinc 2)Copper 3)All of the fat soluble vitamins (A,K,E,D)
 
 4)Vitamin C 5)Thiamine 6)Riboflavin 7)Biotin 8)Manganese 
 
@@ -519,10 +454,7 @@ Number 1: After you’ve read and addressed excessive serotonin as will be demon
 
 Number 2: If your job requires you to be constantly near nnEMF sources and you literally can not find a better alternative, on your work days, you might benefit from supplementing CoQ10 since beef heart can not give you enough if you have to spend 8+hours a day under the intense influence of nnEMFs. 
 
-Number 3: Try to get out of statins in case you’re using them since they harm your redox status way too much and multiply the negative effects of nnEMFs. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Number 3: Try to get out of statins in case you’re using them since they harm your redox status way too much and multiply the negative effects of nnEMFs.
 
 Number 4: Since we’ve briefly talked about certain supplements, if someone want to use them before reading the supplement part of the program, what you will have to mainly avoid (in the supplements that were mentioned so far) are: 
 
@@ -546,10 +478,7 @@ This is for example why addressing pathogenic overgrowths has many of the exact 
 
 It’s because these pathogens no longer produce substances that deplete us of B vitamins and we are able to utilize the ones we get from our diet. 
 
-Now let’s move on to a great and free tool that you can use in order to battle the effects of nnEMFs, **grounding**. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+Now let’s move on to a great and free tool that you can use in order to battle the effects of nnEMFs, **grounding**.
 
 As we said, we carry a constant flow of electrical charge which we week to discharge and the most effective way to do this is by grounding. 
 
@@ -587,10 +516,7 @@ Here are some proven examples:
 
 -Increases heart rate variability 
 
--CNS recovery 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+-CNS recovery
 
 Grounding is free and consistently practicing it will skyrocket all aspects of your health and well being. 
 
@@ -622,10 +548,7 @@ To be fair, the harm of Bluetooth devices such as an Apple watch for example, wi
 
 **Rule number 12:** Go for a walk without your phone if possible or put it on airplane mode. 
 
-**Rule number 13:** Walk instead of driving. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+**Rule number 13:** Walk instead of driving.
 
 **Rule number 14:** Start incorporating seafood such as oysters, scallops and shrimp in your diet (you do not eat much and do not over do it). 
 
@@ -651,60 +574,48 @@ The system (lesson 2) written by George @Helios_Movement **Sold to**
 
 **8. Take a cold shower.** 
 
-That’s it for now. This chapter might seem more complex than the first one, but to sum up the steps: ● Ground (you can use grounding mats as well (just make sure to also use an outlet tester). ● Address heavy metals (see next lesson). ● Balance minerals. ● Limit your exposure to sources of nnEMFs. So start with these four until you are comfortable with them and then review the lessons. 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
+That’s it for now. This chapter might seem more complex than the first one, but to sum up the steps: ● Ground (you can use grounding mats as well (just make sure to also use an outlet tester). ● Address heavy metals (see next lesson). ● Balance minerals. ● Limit your exposure to sources of nnEMFs. So start with these four until you are comfortable with them and then review the lessons.
 
 Let’s talk about toxins now. 
 
 ## List of selected references 
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC8038719/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8038719/
 
-## https://www.tandfonline.com/doi/abs/10.1080/09553002.2017.1237058?jo 
+https://www.tandfonline.com/doi/abs/10.1080/09553002.2017.1237058?jo
 
-## urnalCode=irab20 
+urnalCode=irab20
 
-## https://www.sciencedirect.com/science/article/abs/pii/S0022286023008372 
+https://www.sciencedirect.com/science/article/abs/pii/S0022286023008372
 
-## https://www.nature.com/articles/srep41129 
+https://www.nature.com/articles/srep41129
 
-## https://link.springer.com/article/10.1007/s11064-014-1509-6 
+https://link.springer.com/article/10.1007/s11064-014-1509-6
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC6513191/pdf/bt-27-265.pdf 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6513191/pdf/bt-27-265.pdf
 
-## https://www.tandfonline.com/doi/abs/10.1080/09553002.2017.1237058?jo 
+https://www.tandfonline.com/doi/abs/10.1080/09553002.2017.1237058?jo
 
-## urnalCode=irab20 
+urnalCode=irab20
 
-## https://jamanetwork.com/journals/jama/fullarticle/645813 
+https://jamanetwork.com/journals/jama/fullarticle/645813
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC4207748/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4207748/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC8038719/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8038719/
 
-## https://pubmed.ncbi.nlm.nih.gov/16272890/ 
+https://pubmed.ncbi.nlm.nih.gov/16272890/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC2362112/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2362112/
 
-## https://pubmed.ncbi.nlm.nih.gov/12464096/ 
+https://pubmed.ncbi.nlm.nih.gov/12464096/
 
-## https://pmc.ncbi.nlm.nih.gov/articles/PMC6025786/ 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6025786/
 
-## https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.20 
+https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.20
 
-## 21.691880/full 
+21.691880/full
 
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
+https://www.researchgate.net/publication/249321687_The_effect_of_pulse
 
-
-## https://www.researchgate.net/publication/249321687_The_effect_of_pulse 
-
-## d_electromagnetic_radiation_from_mobile_phone_on_the_levels_of_mon 
-
-## oamine_neurotransmitters_in_four_different_areas_of_rat_brain 
-
-The system (lesson 2) written by George @Helios_Movement **Sold to** 
-
-
+d_electromagnetic_radiation_from_mobile_phone_on_the_levels_of_mon oamine_neurotransmitters_in_four_different_areas_of_rat_brain

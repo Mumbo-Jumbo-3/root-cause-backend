@@ -1,7 +1,7 @@
-# This program was created by George @Helios_movement.
+# Gut Health Handbook, Lesson 6: A Discussion About Genes
 
-**Lesson 6: A discussion about genes (general discussion, do not worry about the
-content of this file for the first 2 months)**
+(general discussion, do not worry about the content of this file for the first 2 months)
+
 You’ve tried “everything” to resolve your chronic health issues with minimum
 improvements.
 So what if your chronic health struggles and failed attempts to improve your health
@@ -25,9 +25,6 @@ But don’t worry.
 **The good news is that your genes do not determine your destiny and simple tricks can
 go a long way AND this is the main reason why this lesson was reserved for this stage
 of the program.**
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 If you are skeptical and think that genes determine everything, let’s look at two studies.
 Dr. Parviz did an experiment where he studied 738 women who had mutations in the
@@ -57,9 +54,6 @@ SNPs are, how they function inside our bodies and discuss what genes even are.
 hereditary material in nearly all living organisms).**
 Now inside every cell of your body, there is something called a nucleus, which is the cell's
 brain.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 The DNA is found inside of it and is packed into structures called chromosomes.
 Each one of us has 46 of them, 23 from our father and 23 from our mother.
@@ -91,9 +85,6 @@ what diseases you're more likely to develop growing up.
 **Now, even though we can’t change our DNA sequence (the genes we’re born with), we
 can influence gene expression, which means: how much, when and where your genes
 are turned “on” or “off.”**
-Gut health handbook (lesson 6) written by George @Helios_Movement
-    **Sold to**
-
 
 This is the realm of epigenetics, where overall lifestyle changes affect the activity of genes
 without altering their code.
@@ -121,9 +112,6 @@ We also have **DNA repair failures**.
 See, our cells have their ways to fix damaged DNA, but sometimes these repair processes
 fail or get stressed by too much damage.
 It’s as if trying to fix something broken but not getting it completely right.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 **Replication errors** can also happen during cell division when DNA needs to be accurately
 copied.
@@ -152,9 +140,6 @@ If you don’t consume enough antioxidants like Vitamins C and E or produce ones
 glutathione at sufficient amounts, your body can’t fight mutagenic compounds easily.
 And the simplemst mechanism behind how this happens is that these nutrients help protect
 your DNA by neutralizing free radicals.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 Let’s also not forget about habits like smoking and drinking because, well, cigarette smoke
 for example has compounds that bind directly to DNA, and can lead to cancer or other
@@ -186,9 +171,6 @@ It's like having a stranger sneak into your house and rearrange your furniture.
 Finally, **genetic recombination** during reproduction creates new combinations of genes.
 While this process itself doesn't cause mutations, it can create new traits when combined
 with existing mutations.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 Now many genes have the important job of producing enzymes (protein molecules making
 countless biological processes in our bodies way easier).
@@ -218,9 +200,6 @@ And they can greatly influence enzyme function.
 For example there are specific SNPs that slow down the enzyme MTR, or Methionine
 Synthase (not to be mistaken with MTHFR (Methylenetetrahydrofolate Reductase)).
 This enzyme needs homocysteine as a substrate to produce methionine.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 If someone has low homocysteine levels or an SNP affecting MTR, they might not produce
 enough methionine, which can lead to several problems like liver damage, weakened
@@ -252,9 +231,6 @@ should worry about?
 For starters, take a look at your family history. If your mother, father, grandparents, or
 siblings have conditions like heart disease, that's a hint that you might have SNPs in genes
 like APOE.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 Then, take some time to notice if you have any negative reactions to minor lifestyle changes
 
@@ -288,12 +264,7 @@ Catechols include:
 -Epinephrine
 -Norepinephrine
 -Certain estrogen metabolites like 2-hydroxyestradiol (catechol estrogens)
--Substances with a catechol structure by default, which also means certain drugs and natural
-Gut health handbook (lesson 6) written by George @Helios_Movement
-    **Sold to**
-
-
-compounds like quercetin.
+-Substances with a catechol structure by default, which also means certain drugs and natural compounds like quercetin.
 Now, how does COMT break these down?
 Well, as its name states, it’s a methyltransferase.
 This means that it transfers a methyl group from a donor molecule to its substrates, with the
@@ -323,9 +294,6 @@ neurotransmitter levels at the right amounts and thus impacts our attention span
 working memory and reaction to stress.
 This is why mutations in the COMT gene have been associated with several mental health
 conditions like anxiety, depression, panic disorder, bipolar disorder and even autism.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-    **Sold to**
-
 
 Note 1: Alleles are the possible versions of a gene at a specific spot (locus) on a
 chromosome.
@@ -352,12 +320,7 @@ enzyme is produced(**) (the tips for these "overlap" with the ones for rs4680 bu
 fine-tuning based on expression levels).
 (*) rs6269: G (higher expression) vs. A (lower expression), rs4633: C (higher expression)
 vs. T (lower expression), rs4818: C (higher expression) vs. G (lower expression).
-(**)High COMT expression for example (G-C-C haplotype) means more enzyme = faster
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
-
-catecholamine clearance.
+(**)High COMT expression for example (G-C-C haplotype) means more enzyme = faster catecholamine clearance.
 Low COMT expression (A-C-G haplotype) means less enzyme = slower clearance.
 This is why a slow COMT is sometimes called the "worrier" variant since can lead to high
 stress sensitivity, anxiety, and mood swings while on the filp side, a fast COMT, or
@@ -385,9 +348,6 @@ On the contrary, other COMT mutations can cause the enzyme to do the opposite an
 less efficiently, resulting in slower catechol breakdown.
 In our bucket analogy, this would be like having smaller or fewer holes, causing the water to
 become excessive and eventually overflow.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 This slower breakdown causes dopamine and other stress-related chemicals like
 norepinephrine and adrenaline to build up in the brain, resulting in chronically high stress
@@ -422,9 +382,6 @@ higher than that can actually increase irritability or anxiety in a lot of peopl
 even though it’s a VERY important nutrient, should never be overconsumed and rarely be
 supplemented in this case.
 -NAC
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 -Lithium orotate
 -DIM
@@ -456,9 +413,6 @@ converted through several enzymatic steps.
 And what is the problem with that?
 Well, not everyone can efficiently break it down into a usable form, especially individuals
 with genetic mutations like MTHFR.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 As a result, unmetabolized folic acid can build up in the bloodstream, potentially getting in
 the way of natural folate pathways, masking B12 deficiencies, and even leading to
@@ -488,9 +442,6 @@ supplies methyl groups).
 causes of miscarriages).
 -Hair loss
 -Histamine intolerance
-Gut health handbook (lesson 6) written by George @Helios_Movement
-    **Sold to**
-
 
 -Estrogen dominance
 -Miscarriages
@@ -520,9 +471,6 @@ Then we have medications such as metformin, antacids and methotrexate can negati
 harm methylation.
 Then we have toxic burdens that include anything from alcohol, birth control pills and
 smoking all the way to heavy metals.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 Poor nutritional habits will obviously harm methylation since things such as B2, B9, B
 and B6 all affect one carbon metabolism.
@@ -549,12 +497,7 @@ mess methylation.
 But please, don't skip on glycine. Glycine is in fact a non essential amino acid but in 2024
 things change for everyone a bit since:
 
-1. Most people have been exposed to glyphosate for decades and thus have negatively
-Gut health handbook (lesson 6) written by George @Helios_Movement
-    **Sold to**
-
-
-affected the shikimate pathway quite a lot.
+1. Most people have been exposed to glyphosate for decades and thus have negatively affected the shikimate pathway quite a lot.
 
 2. MTHFR SNPs (glycine can buffer one carbon donors).
 3. We are exposed to tremendous amounts of toxins.
@@ -580,9 +523,6 @@ And over time, this leads to iron overload.
 Now, let’s not forget that Iron is absolutely necessary for optimal human health.
 It's necessary for hemoglobin production, allowing red blood cells to carry oxygen. It's
 essential for energy production in cells. It supports immune function.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-    **Sold to**
-
 
 And it enables numerous enzymatic reactions throughout the body.
 But the problem is that too much iron is not only needless, it also becomes toxic.
@@ -613,9 +553,6 @@ Enterocytes and epithelial cells also come into play and with the help of ferrop
 protein that can cross membranes) it gets into the bloodstream.
 We also have the enzyme DcytB that helps us reduce Fe(III) to Fe (II)in order for the DMT
 transporter to absorb the non-heme iron.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 But we also have some forms that are found in supplements/used to fortify foods.
 The two most common types of iron used for this are hydrogen-reduced elemental iron and
@@ -645,9 +582,6 @@ by the liver as a thermostat that tweaks how much iron we absorb (it basically b
 ferroportin).
 Meaning that when we have a lot of iron, its levels increase in order for the absorption to
 decrease and when we have little its levels decrease in order for the absorption to increase.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 Hepcidin is one of the reasons why anemia is linked to excess inflammation (IL-6 increases
 hepcidin).
@@ -671,9 +605,6 @@ Why do mutations in these genes create issues?
 Because they are responsible for producing proteins that help us absorb, store, transport and
 overall regulate iron.
 -Ferritin
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 -Tsat
 -TBC
@@ -695,9 +626,6 @@ Then:
 -Workout.
 -After you've implemented these, get some copper from sources such as bee pollen.
 -Get enough K2.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 -Go to sleep before 11 if/when it's possible.
 -Get enough CoQ10 and supplement if you're on statins.
@@ -718,9 +646,6 @@ But don't add/do all these at once.
 If you go and donate blood while also adding whole food vitamin E, quercetin and milk
 thistle all at once for example, your ferritin will drop way too fast most likely.
 **Now let’s talk about APOE4 mutations.**
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 The apolipoprotein E protein plays a critical role in transporting cholesterol and other lipids
 in the brain but also the blood and is crucial for lipid metabolism overall.
@@ -748,9 +673,6 @@ Specifically, the AGXT gene gives instructions for making the enzyme alanine-gly
 aminotransferase, which is found mainly in the liver.
 This enzyme's job is to turn glyoxylate into glycine, preventing it from being turned into
 oxalate.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 Mutations here can cause primary hyperoxaluria Type 1, leading to kidney stones or even
 kidney failure because of oxalate buildup.
@@ -777,9 +699,6 @@ Note: If your diet is very high in oxalates right now, gradually reduce the inta
 -Avoid ascirbic acid supplements and overconsuming vitamin C
 -Get some calcium and magnesium with each meal
 -Manage the proline amount in your diet
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 -If you don't have candida or a pathogen overgrowth, starting to use probiotics (or
 colostrum) could help, A LOT since certain gastrointestinal bacteria are great oxalate
@@ -807,9 +726,6 @@ What should normally happen, is that your Lp(a) levels are low enough that they�
 involved in shrinking your vessels or forming bloot clots.
 When levels stay minimal, blood flows freely throughout your cardiovascular system, your
 heart doesn't have to work as hard, and oxygen reaches all your tissues efficiently.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 But some of us inherit genetic mutations that cause our bodies to produce too much Lp(a),
 which is like constantly introducing more of these sticky patches into the system, which
@@ -838,9 +754,6 @@ Supplements to consider besides lifestyle changes:
 -NMN + TMG
 -Pomegranate ellagitannins
 **Heading over to BChE, or Butyrylcholinesterase.**
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 Butyrylcholinesterase is a vital enzyme that lives in your bloodstream, quietly doing an
 essential job: breaking down certain chemicals, medications, and neurotransmitters in your
@@ -872,9 +785,6 @@ anesthetic or muscle relaxant might cause breathing problems or paralysis if you
 BChE mutation.
 And the scary part is, the doctors might have no idea what’s going wrong—they’re giving
 what seems like the right amount, but your body just doesn’t process it the same way.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 On the flip side, some BChE mutations do the opposite. They create overactive
 enzymes—cleanup crews that move too fast. So instead of leaving harmful stuff in your
@@ -905,9 +815,6 @@ It’s made thanks to the AOC1 gene and helps your body handle histamine coming 
 external things like food.
 Mutations in the DAO can cause many sorts of issues. From negative reactions to food and
 migraines to gut problems and skin rashes.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 Here’s why this gene is such a big deal: as food moves through your system, it contains
 many different compounds, including histamine.
@@ -939,9 +846,6 @@ breakdown because of DAO dysfunction.
 If any of the symptoms we mentioned earlier ring a bell, it’d be good to consider learning
 about your genetic status, if you haven’t already.
 Tips:
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 -Avoid supplemental iron, too much zinc, molybdenum doses than exceed 100mcg, NAC
 and high dose niacin can all lead to issues with histamine by depleting copper or harming
@@ -980,9 +884,6 @@ methylation for example.
 -P5P
 -Chamomile
 -Whole food vitamin E
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 -Astragalus
 -Apigenin
@@ -1016,9 +917,6 @@ The problem with having a mutation here, is it creates a version of Factor V tha
 being shut down by your body's natural blood thinner, which is protein C.
 This is like having a communication officer who doesn't stop once the emergency is over,
 still calling for backup long after it’s needed.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 This resistance to being deactivated and stop working can lead to several serious problems.
 You develop a clotting disorder where you have an increased chance to form blood clots.
@@ -1051,9 +949,6 @@ about to have a surgery, a long distance travel, or are pregnant.
 And let’s not forget about **F5** , or Factor V Leiden, and **F2** , the Prothrombin Gene.
 We’re mentioning these two genes together because the problems they can cause are similar,
 although, how they work is different.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 They’re both involved in blood clotting, strokes and heart attacks. This information is
 especially important if you're taking estrogen, are pregnant, fly frequently, or have a history
@@ -1088,9 +983,6 @@ miscarriage, due to increased clotting.
 And in rare cases, clots may develop in unusual places like the brain, liver, or kidneys,
 leading to even more severe issues. So while the mutation works differently than Factor V,
 the dangers it brings are strikingly similar, and just as important to catch early.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 And once again, a dangerous event might happen without any previous warning, and clots
 can form even without usual triggering factors like surgery, immobility, or trauma.
@@ -1123,9 +1015,6 @@ Now, the thing is that some people have what we call gain-of-function mutations 
 PCSK9 gene, making the protein work too efficiently. As if having an eager traffic controller
 who prematurely pulls too many collection trucks out of service, leaving fewer trucks to
 remove cholesterol from the bloodstream.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 This overactive PCSK9 function can lead to several serious problems. Your LDL cholesterol
 levels become significantly high. You develop premature atherosclerosis, which hardens and
@@ -1159,12 +1048,7 @@ our health issues might save us years of guessing, no beneficial results, seriou
 effects and health problems.
 Now, we know that all of this information might seem a bit overwhelming, and even
 frustrating. We had to mention all of this, so we fully understand what’s going on inside our
-bodies and why we might experience certain problems and symptoms. But the good news is
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
-
-we’re done talking about how they work and the problems they cause. And as we mentioned
+bodies and why we might experience certain problems and symptoms. But the good news is we’re done talking about how they work and the problems they cause. And as we mentioned
 earlier, these mutations don’t determine our destiny. It’s about time we talk about practical
 steps you can take today, to address these genetic mutations, and potentially prevent, solve,
 or reduce, years of pain and unidentified root causes. First we’ll say what individuals having
@@ -1195,9 +1079,6 @@ When it comes to MAO polymorphisms, for MAO-A we have:
 ● High-activity alleles (3.5R, 4R, 5R) that lead to higher MAO-A gene transcription
 and thus increased MAO-A enzyme which can predispose these people to mood disorders
 like depression.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 ● Low-activity alleles (2R, 3R) that lead to lower MAOA transcription and thus
 reduced MAO-A activity which can predispose certain people to more impulsive and
@@ -1231,13 +1112,5 @@ ones it didn’t really do much.
 quercetin and mocobemide.
 ● Selective MAO-B inhibitors such as safinamide, resveratrol, EGCG and rasagiline.
 So pick one that suits your goals best.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
 
 That was it.
-Gut health handbook (lesson 6) written by George @Helios_Movement
-**Sold to**
-
-
-

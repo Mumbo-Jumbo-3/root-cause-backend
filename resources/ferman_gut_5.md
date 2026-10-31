@@ -1,7 +1,6 @@
-# This program was created by George @Helios_movement.
+# Gut Health Handbook, Lesson 5: Understanding the Effects of Toxins
 
-**Lesson 5: Understanding the effects of toxins (do not apply anything in this file for the
-first 2 months of you following the program)**
+(do not apply anything in this file for the first 2 months of you following the program)
 
 A lot of people still underestimate the amount of toxins that they are exposed to on a
 day-to-day basis and how this will affect their health.
@@ -33,8 +32,6 @@ to name a few.
 ```
 Now there is a 3 step detoxification formula that will be presented in this program.
 ```
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Step 1 is understanding and optimizing the natural detoxification pathways of the body.
 
@@ -78,9 +75,6 @@ Phase II detoxification processes.
 ● **The kidneys** that filter and excrete water soluble toxins and waste products such as
 urea.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● **The lungs** that are a rapid way to clear (through exhalation) gases volatile toxins
 such as alcohol vapor for example.
 ● **The digestive system** since not only do certain gut bacteria break down toxins but
@@ -120,9 +114,6 @@ Now a portal triad/area/canal/tract or field, is an arrangement within lobules t
 
 -The proper hepatic artery ( a branch of the hepatic artery) which supplies the left and right
 lobes of the liver (not only that but the gallbladder and a part of the stomach as well).
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 -The hepatic portal vein which carries blood from the pancreas, intestines, gallbladder and
 spleen to the liver. To the liver, not from the liver, the hepatic vein does this, not the hepatic
@@ -165,9 +156,6 @@ that most people will be able to get their hands on include:**
 6. Alanine aminotransferase (ALT)
 7. Aspartate aminotransferase (AST)
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 8. Triglycerides
 9. LDL
 10. TSAT
@@ -208,9 +196,6 @@ example)).
 **Note 3:** An inducer, increases the activity and/or expression. Glucocorticoids for example
 are inducers and upregulate MAO-A expression (which can thus lower certain
 neurotransmitters).
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 **Note 4:** We we also talk about polymorphisms, the key concept to keep in mind is that
 polymporphisms affect the baseline activity, of these enzymes making some individuals
@@ -255,9 +240,6 @@ stilbenes.
 ● CYP2C9 (it metabolizes warfarin, ibuprofen, phenytoin)
 ● CYP2C19 (it metabolizes omeprazole, clopidogrel, citalopram)
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● CYP2D6 (it metabolizes codeine, tamoxifen, antipsychotics)
 ● CYP2E1 (it metabolizes ethanol, acetaminophen, volatile anesthetics)
 ● CYP2F1 (it metabolizes certain toxins, mainly in lungs)
@@ -298,9 +280,6 @@ juice and ritonavir for CYP3A4 and CYP3A5.
 ● CYP4F8 (it metabolizes prostaglandins, mainly in seminal vesicles)
 ● CYP4F11 (it metabolizes drugs, fatty acids)
 ● CYP4F12 (it metabolizes antihistamines, eicosanoids)
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● CYP4F22 (it metabolizes substrates for skin barrier formation)
 ● CYP4V2 (it metabolizes fatty acids, linked to ocular disorders)
@@ -345,9 +324,6 @@ Abiraterone is a known inhibitor for this one.
 **CYP19 family**
 
 ● CYP19A1 (it metabolizes androgens to estrogens)
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 As you might be able to tell, aromatase inhibitors like anastrozole and letrozole are
 inhibitors for this one.
@@ -395,9 +371,6 @@ This is also inhibited by ketoconazole.
 
 This is Inhibited by azole antifungals.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 On to the next one now:
 
 **● Flavin monooxygenases (FMOs):**
@@ -442,9 +415,6 @@ Maybe high concentrations of amines or sulfur compounds act as competitive inhib
 ● FMO5 (it metabolizes fatty acid amides plus drugs like ketoconazole and
 nabumetone)
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 Competitive substrates like ketoconazole or nabumetone may inhibit this at high doses.
 
 **Amine oxidases (specifically MAO-A and MAO-B):**
@@ -484,9 +454,6 @@ lipoxins and resolvinsto be formed.
 
 ● 5-LOX (metabolizes arachidonic acid into 5-HPETE, leading to leukotrienes (e.g.,
 LTB4, LTC4).
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Inhibitors to be aware of include flavonoids such as quercetin and baicalein, curcumin,
 zileuton, omega 3s, boswellic acids and potentially iron chelators.
@@ -532,9 +499,6 @@ Alcohol + NAD⁺ → Aldehyde/Ketone + NADH + H⁺
 alcohols).
 ● Class II (ADH4) (metabolizes longer-chain alcohols and retinol).
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● Class III (ADH5) (metabolizes formaldehyde (as a glutathione conjugate) and
 long-chain alcohol).
 ● Class IV (ADH7) (metabolizes ethanol, retinol, and lipid peroxidation products such
@@ -576,9 +540,6 @@ These also are cytosolic molybdenum-containing enzymes but they help with purine
 metabolism (they catalyze the oxidation of purines such as hypoxanthine, xanthine to uric
 acid and also metabolize xenobiotics and drugs with purine-like structures such as
 6-mercaptopurine and allopurinol).
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Besides molybdopterin they use FAD and iron-sulfur clusters as electron transfer
 components and the electron acceptors are NAD⁺ or molecular oxygen.
@@ -624,9 +585,6 @@ Here, inhibitor-wise we have lperamide, some NSAIDs like ibuprofen, organophosph
 tannins, flavonoids such as apigenin and chrysin, green tea and citrus bioflavonoids such as
 naringenin.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● CES3 (metabolizes some lipids and xenobiotics at lower rates).
 ● CES5A (metabolizes pyrethroid insecticides and some lipids).
 
@@ -667,9 +625,6 @@ They use NADH or NADPH as electron donors, often requiring flavin cofactors (e.g
 FAD) to facilitate electron transfer.
 
 **The primary azoreductase forms include:**
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● NAD(P)H:quinone oxidoreductase 1 (NQO1) (metabolizes drugs such as
 sulfasalazine and food colorants)
@@ -714,9 +669,6 @@ rings)
 
 -Break ester, amide, or epoxide bonds.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 So as you might be able to tell, the diversity of phase I enzymes ensures the body can
 handle a vast array of toxins ranging from dietary compounds all the way to endogenous
 toxins and environmental pollutants.
@@ -760,9 +712,6 @@ accumulation of acetaldehyde after alcohol consumption.
 metabolism of substrates like trimethylamine. Can lead to trimethylaminuria (fish odor
 syndrome) and altered metabolism of drugs like ranitidine.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 **CES1*G143E (rs71647871):** This one decreases enzyme activity, reducing hydrolysis of
 drugs like methylphenidate and clopidogrel. It may result in decreased drug efficacy or
 altered pharmacokinetics.
@@ -804,9 +753,6 @@ highly reactive and can bind to DNA, increasing carcinogenicity.
 Another example is the ethanol (alcohol) oxidized to acetaldehyde in phase I which is way
 more dangerous than alcohol.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 So ideally, these modulates will be conjugated with other molecules in order for their
 reactivity to be neutrilized and become water soluble in order to be excreted.
 
@@ -847,9 +793,6 @@ environmental pollutants).
 
 When it comes to its inhibitors you mainly want to be aware of heavy metals (mainly
 cadmium and mercury), ethacrynic acid and quercetin.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● **GSTP** (GSTP1) (it detoxifies carcinogens (and thus why its overexpressed in many
 tumors) and reactive electrophiles. It also plays a role in regulating cellular signaling via
@@ -895,9 +838,6 @@ metabolism and increased risk of arsenic-related diseases.
 GSTZ1 deficiency or polymorphisms (such as Lys32Glu) reduce DCA metabolism, leading
 to accumulation and neurotoxicity.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 **Disclaimer:** Even if you have one of these, keep in mind that plenty of people have
 compensatory upregulation of other GSTs.
 
@@ -939,9 +879,6 @@ compounds.
 ● UGT2B7 that metabolizes opioids, androgens, estrogens and bile acids to a major
 extend and PAHs.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● UGT2B10 this mainly metabolizes nicotine and cotinine plus some antidepressants,
 antipsychotics, bile acids and androgens.
 ● UGT2B11, this plays a key role in glucuronidating androgens such as androsterone
@@ -981,9 +918,6 @@ conjugates.
 They metabolize a steroid hormones such as DHEA, estrogens, thyroid hormones and
 androgens, bile acids, neurotransmitters such as dopamine, PAHs, analgesics, phenols such
 as acetaminophen and 4-nitrophenol and dietary compounds such as flavonoids.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 **They (SULTs) are divided into two main families in humans: SULT1 and SULT2** , with
 some isoforms in the SULT4 family.
@@ -1027,9 +961,6 @@ as BPA.
 
 **Polymorphisms to be aware of:**
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 1. SULT1A1*2 (rs9282861, R213H): reduces enzyme activity by 50% and is linked to
 increased lung and breast cancer risk in smokers.
 2. SULT1A1*3 (rs1801030, M223V): increases enzyme activity for substrates such as
@@ -1069,9 +1000,6 @@ as iodoacetate.
 1. NAT1*10 (rs1057126, rs4986782): associated with increased risk of bladder, lung,
 and colorectal cancer due to enhanced activation of arylamine carcinogens.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 2. NAT1*14 (rs4987076, G560A, R187Q): reduces enzyme activity by 70-80% and
 leads to slow acetylation of p-aminosalicylic acid and sulfamethoxazole.
 3. NAT2*5 (rs1801280, T341C, I114T), 6 (rs1799930, G590A, R197Q), 7 (rs1799931,
@@ -1110,9 +1038,6 @@ N-methylhistamine to be produced and it also methylates certain heterocyclic ami
 
 When it comes ot inhibitors: tacrine, ROS, rifampicin, quinacrine and amodiaquine are the
 main ones.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● NNMT (Nicotinamide N-Methyltransferases) methylates nicotinamide in order for
 N-methylnicotinamide to be produced, pyridine-containing, plus heterocyclic amines and
@@ -1154,9 +1079,6 @@ clofibric acid and salicylates.
 
 The process involves two steps:
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● The activation of the substrate to an acyl-CoA intermediate by acyl-CoA synthetases
 ● The transfer of the acyl group to an amino acid by transferases like glycine
 N-acyltransferase (GLYAT) or glutamine N-acyltransferase.
@@ -1195,9 +1117,6 @@ and also to the impaired clearance of xenobiotic carboxylic acids.
 4. BAAT*rs3732880 (promoter SNP): reduces transcription by even up to 25% and
 leads to slower conjugation of bile acids to glycine or taurine, potentially contributing to
 cholestasis or gallstone risk.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 **Now let’s move to an even more neglected aspect of phse II which is: non-conjugation
 reactions/ phase II processes that don’t involve conjugation but still aid detoxification.**
@@ -1239,9 +1158,6 @@ to impaired quinone detoxification,.
 a modest increase in lung and colorectal cancer risk due to slower quinone detoxification.
 3. NQO2*rs2071002 (promoter SNP): reduces transcription by 20-30% leading to a
 slightly increased risk of breast and prostate cancer due to reduced quinone metabolism.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 4. EPHX1*Tyr113His (rs1051740): reduces enzyme activity by 30-40% due to
 decreased protein stability.
@@ -1285,9 +1201,6 @@ etc that can help us as well).**
 (*) We will do this by first ensuring the availability of cofactors such as glutathione, SAMe,
 Acetyl-CoA, PAPs and UDP-glucoronic acid.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 This will be done by providing adequate doses of precursors such as magnesium, B6, B3,
 B9 ,B12, TMG in some cases, NAC, glyciine, B5, glutamine, foods rich in sulfur, nutrients
 that are needed for sulfur metabolism, such as CoQ10, molybdenum and thiamine.
@@ -1330,9 +1243,6 @@ First and foremost, blood is composed of four main components:
 
 ● Red blood cells (RBCs): Carry oxygen to tissues and remove carbon dioxide.
 ● White blood cells (WBCs): Fight infections and coordinate immune responses.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● Platelets: Facilitate blood clotting to prevent bleeding.
 ● Plasma: The liquid portion (about 55% of blood volume) that transports clotting
@@ -1378,9 +1288,6 @@ bolstering immunity.
 Situated in the chest, the thymus matures T-lymphocytes, critical for adaptive immunity and
 toxin neutralization.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● The bone marrow.
 
 The spongy tissue inside bones produces RBCs, WBCs, and platelets, supporting both
@@ -1423,9 +1330,6 @@ toxins via feces.
 ● Lymphatic vessels also absorb and transport nutrients to the bloodstream, ensuring
 availability for phase I and II.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● Antigen-presenting cells identify and neutralize some toxic substances, reducing the
 toxic load before lymph re-enters the bloodstream.
 ● Lymphatic lacteals in the gut absorb lipids and bile components, supporting
@@ -1464,12 +1368,7 @@ and acts on the “surface” of lipids (triglycerides for examples) in order to
 order for pancreatic lipase to do its job properly.
 
 Bile is also stored in the gallbladder where it’s then transported to things such as the
-duodenum with the help of hormones such as cholecystokinin, gastrin, somatostatin and
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-secretin (these hormones signal to the gallbladder to release the stored bile among other
+duodenum with the help of hormones such as cholecystokinin, gastrin, somatostatin and secretin (these hormones signal to the gallbladder to release the stored bile among other
 things (they also promote things such as gut motility)).
 
 **The primary bile acids that are produced in hepatocytes from cholesterol in the liver
@@ -1508,9 +1407,6 @@ oxidation, epimerization and conjugation.
 
 UDCA for example is formed from chenodeoxycholic acid through bacterial
 7 β-epimerization.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Something key to keep in mind is the following: each type of bile acid has specific roles and
 the trouble begins (bile acid-induced cytotoxicity for example) when their balance is
@@ -1551,9 +1447,6 @@ into primary bile acids such as cholic acid and chenodeoxycholic acid.
 taurine in order for glycocholate and taurocholate to be formed.
 ● ACSL which activates bile acids to acyl-CoA intermediates, a prerequisite for
 conjugation by BAAT.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Note: In case it’s unclear, inhibitors like rifampicin and probenecid can impair bile acid
 conjugation.
@@ -1597,9 +1490,6 @@ These little organs are vital for our health and are "covered" by layers of fat 
 include (starting at the top of the kidneys) the renal capsule, the perirenal fat, the renal
 fascia and finally the pararenal fat.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 -The renal (or kidney) cortex (the outer layer), which creates EPO, surrounds the medulla
 and is the starting place for nephrons (each kidney contains millions of them that contain
 blood vessels called glomerulus that filter the blood)
@@ -1638,9 +1528,6 @@ nephron.
 The renal corpuscle and tubule are also often referred to as the major portions of the
 nephron so keep that in mind as well. In the beginning of the nephron we have the
 glomerulus which is a network of small blood vessels.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 When it comes to the Bowman's capsule, each nephron has a network of capillaries called
 glomerulus that Bowman's capsule covers.
@@ -1682,9 +1569,6 @@ functions.
 helping us excrete waste products that come from stuff such as the foods we eat and
 nitrogen from urea for example.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 -Controlling the PH balance of our blood.
 
 -Making hormones such as renin (a hormone that helps us regulate our blood pressure),
@@ -1722,9 +1606,6 @@ regulate our blood pressure has on our health for example.
 ● Glucose
 
 **And of course, the kidneys detoxify a wide range of substances, including:**
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● Urea (a byproduct of protein metabolism (if it’s not excreted, it can lead to ammonia
 toxicity)).
@@ -1769,9 +1650,6 @@ conjugates, into tubular cells for secretion.
 
 This effluxes hydrophobic and amphipathic compounds into the tubular lumen.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 **6. Organic Cation Transporters (OCTs)**
 
 This assists in the uptake of cationic metabolites and drugs from the blood into tubular cells
@@ -1814,9 +1692,6 @@ molecules by default) for excreting hydrophilic metabolites.
 In sweat, the following main compounds are excreted:
 
 ● Water
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● Electrolytes such as sodium, chloride, potassium and magnesium.
 ● Metabolites such as urea, ammonia and lactate.
@@ -1861,9 +1736,6 @@ production of secondary bile acids which can inhibit gut-expressed CYP enzymes.
 
 Not only that, but it can also lead to the reabsorption of unconjugated intermediates.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 **To assess gut function, tests you can use include:**
 
 1. Stool tests with markers such as calprotectin, elastase and short-chain fatty acids.
@@ -1902,9 +1774,6 @@ protects us against oxidative stress).
 6. Transferrin that transports iron in blood plasma.
 7. Hemerythrin, ferredoxins, Rieske proteins, nitrogenase and iron-sulfur proteins
 overall that are unrelated to our discussion.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 **Zinc-containing metalloproteins such as:**
 
@@ -1947,9 +1816,6 @@ discussion.
 1. Manganese superoxide dismutase (Mn-SOD) that converts superoxide to H₂O₂ in
 mitochondria.
 2. Arginase that converts arginine to ornithine and urea in the urea cycle.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 **Molybdenum-containing metalloproteins (molybdenum just like copper is essential for
 specific redox reactions) such as:**
@@ -1995,9 +1861,6 @@ cytokines such as IL-6 or TNF-a in order to mediate the inflammation which resul
 issues such as fatigue, brain fog, muscle/joint pain, headaches, fever, chills, nausea,
 bloating, diarrhea, skin rashes and even mood swings.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 That’s a Herxheimer reaction in a nutshell and trust me, you don’t want to experience one
 since it’s counterproductive and dangerous especially if the individual is already in a
 compromised state.
@@ -2039,9 +1902,6 @@ Key features that are relevant to detoxification include:
 ● ATP Production: Provides energy for detox enzymes, transporters, and cellular
 repair.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● Redox Balance: Recycles NAD⁺ from NADH, supporting detox reactions and
 antioxidant defenses.
 ● ROS Management: Generates ROS as a byproduct, which must be controlled to
@@ -2081,12 +1941,7 @@ linked with erectile dysfunction.
 But it’s not hard to understand why if you went through lesson 1, but in case you didn’t, for
 example, melatonin is an amphipathic free radical scavenger (it has hydrophilic and
 hydrophobic nature and this dual solubility gives it broader reach (it goes through
-membranes and blood alike for example)), neutralizes free radicals like superoxide,
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-hydrogen peroxide and the brutal hydroxyl radical.
+membranes and blood alike for example)), neutralizes free radicals like superoxide, hydrogen peroxide and the brutal hydroxyl radical.
 
 So it’s a multi-functional antioxidant. Not only that but melatonin is a sacrificial electron
 donor (it neutralizes radicals directly) so it has little to no pro-oxidant activity.
@@ -2127,9 +1982,6 @@ that give it UV absorption and emission properties.
 1. The enzyme tryptophan hydroxylase, with help from cofactors like iron, BH4, and
 oxygen, converts tryptophan into 5-hydroxytryptophan (5-HTP).
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 2. A decarboxylase enzyme, aided by vitamin B6 (PLP), turns 5-HTP into serotonin.
 3. Serotonin gets acetylated using acetyl-CoA, with an enzyme called serotonin
 N-acetyltransferase.
@@ -2164,9 +2016,6 @@ This one is found in the mitochondria and its production is driven by near-infra
 
 Mitochondrial production, is larger than pineal output but both have complementary roles in
 the body.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 I hope that everything was crystal clear so far.
 
@@ -2208,9 +2057,6 @@ Now there are three main types of melanin, each with distinct roles:
 1. Eumelanin: The most common type, responsible for brown and black pigmentation.
 It provides robust protection against ultraviolet (UV) radiation and oxidative stress.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 2. Pheomelanin: A lighter pigment that contributes to red and yellow hues, found in red
 hair and lighter skin tones. It offers less UV protection compared to eumelanin.
 3. Neuromelanin: Found in the brain, particularly in areas like the substantia nigra,
@@ -2249,9 +2095,6 @@ and lymphatic drainage.
 pathways.
 
 **Understanding why you can’t detox without adequate levels of vitamin D.**
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Our skin in the epidermis (the upper layer of the skin and specifically the stratum spinosum
 and stratum basale) has a cholesterol derivative that is called 7-dehydrocholesterol.
@@ -2294,12 +2137,7 @@ receptor (VDR) (once calcitriol is ready, it binds to VDR to do its job).
 
 The Vitamin D Receptor (VDR) is a nuclear receptor (a type of protein inside the cell
 (mostly in the nucleus)) that binds 1,25-dihydroxyvitamin D (1,25(OH)2D3), or calcitriol
-(the active form of vitamin D) and found in almost every cell type from osteoblasts, the
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-kidneys, neurons, skeletal muscle cells, glial cells, keranocitees, blood vessels, epithelial
+(the active form of vitamin D) and found in almost every cell type from osteoblasts, the kidneys, neurons, skeletal muscle cells, glial cells, keranocitees, blood vessels, epithelial
 cells and immune cells.
 
 Now as a side note, one reason why we must create the perfect balance between vitamin D
@@ -2341,9 +2179,6 @@ UDP-glucuronosyltransferases.
 
 **We will also have to talk about what circadian rhythms are.**
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 Now everything in this human body follows a circadian pattern.
 
 No, no. Everything. Even the expression and activity of CYP enzymes is controlled by
@@ -2384,9 +2219,6 @@ This clock is set at slightly over 24 hours. It controls sleep as well as most b
 processes, including hormone production, metabolism, core body temperature variations,
 
 and cell regeneration among others.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 One example, is the sleep-wake cycle, which is influenced and controlled by:
 
@@ -2430,12 +2262,7 @@ like prohormone convertases (PC1/3 and PC2).
 
 Its expression and upregulation is influenced by a variety of physiological, environmental
 
-and molecular factors one of them being: UV light exposure (especially UVB (280–320
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-nm)) that stimulates POMC expression in keratinocytes and melanocytes in the skin (up to
+and molecular factors one of them being: UV light exposure (especially UVB (280–320 nm)) that stimulates POMC expression in keratinocytes and melanocytes in the skin (up to
 
 30% increase).
 
@@ -2481,9 +2308,6 @@ This is produced in the pituitary gland that primarily acts on melanocortin rece
 
 aldosterone production in the adrenal glands and inflammation.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● CLIP (Corticotropin-Like Intermediate Peptide)
 
 This is also produced by the pituitary gland and modulates insulin secretion by affecting
@@ -2524,9 +2348,6 @@ bone formation.
 
 Now a free radical attack occurs directly at complexes in the mitochondrial respiratory
 chain.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Mitochondria are normally protected from oxidative damage by a multilayer network of
 mitochondrial antioxidant systems which consist of superoxide dismutase, catalase,
@@ -2571,9 +2392,6 @@ reactive themselves and have processes for quick stabilization.
 Free radicals are a natural byproduct of metabolic reactions and of exercise, and it’s normal
 to have low levels of free radicals in the body.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 With enough antioxidants present, free radicals can be kept in check so that they aren’t
 dangerous. However, too many free radicals and not enough protection from antioxidants
 creates a situation called oxidative stress.
@@ -2617,9 +2435,6 @@ thereby stabilizing it).
 
 There are many different antioxidants in food as well.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 -Antioxidant vitamins (Vitamin E, Vitamin C) donate their electrons to free radicals to
 stabilize them.
 
@@ -2659,9 +2474,6 @@ It's a fundamental process for life itself and when we interrupt it, problems wi
 happen.
 
 Even when our bodies break down glucose and fat redox reactions occur.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Now, ROS can in fact cause a lot of trouble but here's the deal, some of the them have
 beneficial roles and are necessary for processes such as apoptosis to run smoothly.
@@ -2704,12 +2516,7 @@ So from the get go, two things you can do in order to support redox is trying to
 statins, not over consuming food and getting enough B vitamins.
 
 Especially B2 since it's also essential to the formation of the coenzymes FMN and FAD and
-the synthesis of the niacin-containing coenzymes, NAD and NADP, from tryptophan
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-involves the FAD-dependent enzyme, kynurenine 3-monooxygenase so a dietary deficiency
+the synthesis of the niacin-containing coenzymes, NAD and NADP, from tryptophan involves the FAD-dependent enzyme, kynurenine 3-monooxygenase so a dietary deficiency
 of riboflavin can decrease the production of NAD as well.
 
 Now later in this lesson, when we break down how each one of the primary industrial toxins
@@ -2748,9 +2555,6 @@ where it transforms lipophilic compounds into hydrophilic forms for excretion.
 And of course, it's also essential for the synthesis of glutathione.
 
 Now our genetic profile affects methylation quite a lot.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Certain gene mutations for example can harm the conversion of B9.
 
@@ -2792,9 +2596,6 @@ boost in HCL.
 
 A similar approach can be added to B12.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 If you still have elevated homocysteine levels and don't react well do creatine
 supplementation, consider low dose (150-300mg) of quercetin.
 
@@ -2833,9 +2634,6 @@ Now, how does COMT break these down?
 
 Well, as its name states, it’s a methyltransferase. This means that it transfers a methyl group
 from a donor molecule to its substrates, with the donor being S-adenosylmethionine
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 (SAMe) (so COMT relies on methyl groups from SAMe) and the substrates being
 catechols.
@@ -2877,12 +2675,7 @@ chromosome.
 Example: At the rs4680 spot in the COMT gene, the alleles can be G (valine) or A
 (methionine).
 
-Note 2: A genotype is the specific combination of genetic material—of alleles you have at a
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-given gene locus (e.g., GG, GA, or AA for rs4680) or sometimes as the amino acid
+Note 2: A genotype is the specific combination of genetic material—of alleles you have at a given gene locus (e.g., GG, GA, or AA for rs4680) or sometimes as the amino acid
 outcome.
 
 Note 3: Homozygous = both alleles are the same (Val/Val (GG): Two G alleles at rs4680,
@@ -2920,9 +2713,6 @@ Low COMT expression (A-C-G haplotype) means less enzyme = slower clearance.
 eolin
 
 Now here are specific tips for fast and slow COMT.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Number 1: Fast
 -Do not go vegan or vegetarian
@@ -2964,9 +2754,6 @@ these were too complicated:**
 ● VOC breath test (skip if your finances don’t allow it)
 ● Bilirubin
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● Cystatin C
 ● Urea
 ● Ammonia
@@ -3003,9 +2790,6 @@ to the liver for reuse or excretion, aiding toxin removal.
 ● Carboxylesterases (CES): Enzymes that break down esters, amides, or carbamates
 (e.g., in drugs like aspirin or pesticides) into simpler molecules, making them easier to
 excrete.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● Catechol: A chemical structure with two hydroxyl groups on a benzene ring, found
 in compounds like dopamine, epinephrine, norepinephrine, and some estrogens. COMT
@@ -3045,9 +2829,6 @@ oxidative stress.
 during detox due to rapid toxin release, causing inflammation. The PDF suggests supporting
 Phase II/III to prevent this.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● Hepatocytes: Liver cells that perform detoxification, produce bile, and metabolize
 nutrients. They contain enzymes like CYP450 and UGTs for Phase I and II detox.
 ● Homozygous: Having two identical alleles for a gene (e.g., GG or AA for COMT
@@ -3085,9 +2866,6 @@ water-soluble toxins from blood into urine for excretion.
 ● Phase I Detoxification: The first step in liver detox, where enzymes (e.g., CYP450,
 FMOs) modify fat-soluble toxins by adding or removing chemical groups, making them
 more reactive or polar.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● Phase II Detoxification: The second step in liver detox, where enzymes (e.g., GSTs,
 UGTs, COMT) conjugate (attach) polar molecules (e.g., glutathione, methyl groups) to
@@ -3129,9 +2907,6 @@ mycotoxins, aka:**
 This one is a potent carcinogenic mycotoxin absorbed primarily through the gastrointestinal
 tract and its metabolism involves Phase I (functionalization), Phase II (conjugation), and
 Phase III (excretion).
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 **Phase I: Modification of AFB1**
 
@@ -3177,9 +2952,6 @@ toxicity if not conjugated.
 
 **Phase III: Excretion of AFB1**
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ATP-Binding Cassette (ABC) transporters such as MRP2 (ABCC2) and MRP3 (ABCC3)
 transport AFB1-GSH conjugates and glucuronides into bile or blood for renal excretion.
 
@@ -3221,9 +2993,6 @@ primarily through the gastrointestinal tract and its metabolism involves Phase I
 
 **Phase I: Modification of ZEA**
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ZEA is first reduced to α-zearalenol (α-ZOL) and β-zearalenol (β-ZOL) with the help of
 3 α-Hydroxysteroid Dehydrogenases (3α-HSD) and 3 β-HSD.
 
@@ -3264,9 +3033,6 @@ OATPs facilitate uptake of ZEA conjugates into hepatocytes or renal cells.
 
 Ochratoxin A (OTA) is a nephrotoxic and potentially carcinogenic mycotoxin produced by
 aspergillus species and penicillium species.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 It is absorbed primarily through the gastrointestinal tract and undergoes complex
 metabolism involving Phase I (functionalization), Phase II (conjugation), and Phase III
@@ -3312,9 +3078,6 @@ protecting against oxidative stress.
 
 Over here:
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 MRP2 (ABCC2) transports OTA-GSH conjugates, OTA-glucuronides, and OTα into bile for
 fecal excretion.
 
@@ -3354,9 +3117,6 @@ lumen.
 When it comes to tests, opt for: Urinary OTA and OTα.
 
 **Overview of Fumonisins (FB1 and FB2) metabolism**
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Fumonisins, primarily Fumonisin B1 (FB1) and Fumonisin B2 (FB2), are mycotoxins
 produced by Fusarium species with FB1 being the most abundant and toxic.
@@ -3401,9 +3161,6 @@ the help of sulfotransferases (SULTs), such as SULT1A1 and SULT2A1.
 
 **Phase III: Excretion of DON**
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 Multidrug Resistance-Associated Proteins such as MRP2/ABCC2 and MRP3/ABCC3
 transport DON-glucuronides and DON-sulfates into bile (for fecal excretion) or blood (for
 renal excretion).
@@ -3445,9 +3202,6 @@ nitroreductases and/or gut microbial enzymes or they may even undergo hydrolysis
 polar alcohols or acids with the help of esterases or hydrolases.
 
 **Phase II: Conjugation**
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Hydroxylated metabolites are conjugated with glucuronic acid, forming water-soluble
 glucuronides with the help of UGTs such as UGT1A1 and UGT2B7.
@@ -3493,9 +3247,6 @@ blood with OATPs facilitating the uptake into hepatocytes or renal cells.
 
 **Overview of Glyphosate Metabolism**
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 First, it needs to be cleavaged to AMPA (aminomethylphosphonic acid) which involves
 cleavage of the carbon-nitrogen bond and happens with the help of cytochrome P450
 (CYP450) for a small part and mainly through the help of gut bacteria such as Lactobacillus
@@ -3537,12 +3288,7 @@ excretion in urine.
 
 This one does not involve extensive biotransformation through Phase I and II detoxification
 pathways, since fuoride from NaF is rapidly absorbed in the stomach and small intestine,
-with near-complete bioavailability unless bound by divalent cations, the almost 50% is
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-stored in bones and teeth as fluorapatite; the rest remains in plasma or soft tissues and the
+with near-complete bioavailability unless bound by divalent cations, the almost 50% is stored in bones and teeth as fluorapatite; the rest remains in plasma or soft tissues and the
 rest is excreted through urine.
 
 **Overview of arsenic metabolism**
@@ -3584,9 +3330,6 @@ The main process in phase II for mercury is glutathione conjugation, where mercu
 paired with glutathione (GSH) to form mercury-glutathione complexes like Hg-GSH or
 CH₃Hg-GSH with the help of glutathione S-transferases (GSTs) such as GSTM1 and
 GSTP1.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Quinone reductase (NQO1) helps clean up harmful byproducts (like reactive oxygen
 species, or ROS) caused by mercury’s stress on the body.
@@ -3631,9 +3374,6 @@ Organic anion transporters auch as OAT1 and OAT3 in kidneys move lead-glutathion
 complexes into urine and organic anion-transporting polypeptides (OATPs) such as
 OATP1B1 and OATP1B3 help move lead complexes into liver cells for processing.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 **Overview of xenoestrogen metabolism (specifically BPA)**
 
 Unlike heavy metals like lead or mercury, BPA is an organic compound, so its detoxification
@@ -3677,9 +3417,6 @@ become water-soluble for excretion in Phase III.
 
 **Water-soluble (hydrophilic) toxins**
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● Sodium fluoride
 ● Ammonia
 ● Urea
@@ -3719,9 +3456,6 @@ higher than the one of the saliva, this can also damage your teeth.
 that you will find later in this lesson.
 ● Avoiding swimming in pools.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● Adding a reverse osmosis water filter (if you can not afford one, then get any water
 filter) and a shower filter.
 
@@ -3760,9 +3494,6 @@ Sodium fluoride was first added to the water in order to prevent cavities which 
 since it is a powerful calcium chelator.
 
 Sodium fluoride weakens the bones and makes them more prone to fractures.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 It can also trigger tumors as well as aiding their growth and spread.
 
@@ -3806,9 +3537,6 @@ and provide for example the nutrients that we need for this, and if the issue is
 after some months, then he could look into other factors such as heavy metal toxicity or
 even low testosterone and DHT.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 So lead is problematic.
 
 Now here’s what we can do in order to avoid exposing ourselves to it:
@@ -3847,9 +3575,6 @@ and raw milk in order to reduce endotoxins).
 
 **Number 6: Aluminum**
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 Aluminum is another neurotoxin which can pass the blood brain barrier very easily and has
 been linked with most of the neurological diseases.
 
@@ -3887,9 +3612,6 @@ Exposures to metallic mercury most often occur when metallic mercury is spilled,
 products that contain metallic mercury break, so that mercury is exposed to the air.
 
 If your dentist tells you that silver/mercury amalgams are safe, get a new dentist.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Now if you already have silver amalgams already, a dentist could replace them quite easily
 and safely.
@@ -3937,9 +3659,6 @@ the estrogen receptors.
 
 Estrogen, when in excess create a myriad of health problems such as:
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 1) Block the secretion of thyroxin.
 
 2) Promote the retention of iron.
@@ -3985,9 +3704,6 @@ for example, you will find ingredients such as the following:
 
 -Ethanolamine compounds (cocamide DEA, MEA, TEA and others)
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 -Parabens (e.g. butylparaben)
 
 -Formaldehyde-releasing preservatives (diazolidinyl urea, imidazolidinyl urea,
@@ -4025,9 +3741,6 @@ contamination)
 -Hydroquinone
 
 All of these are proven toxins.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 So, xenoestrogens are a hidden factor behind many health problems that are experienced
 nowadays.
@@ -4072,9 +3785,6 @@ disruptors , asthma triggers , neurotoxins , carcinogens and they also contain p
 which are a serious endocrine disruption. Fragrances frequently cause allergies, dermatitis,
 respiratory distress and reproductive problems.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 **-No triclosan**.
 
 Triclosan is also an endocrine disruptor which the FDA has banned from soaps but not
@@ -4115,9 +3825,6 @@ Now here’s some natural alternatives to the most commonly used toxic skin care
 products.
 
 Moisturizers: Aloe vera, grass fed tallow, honey balm, raw goat’s butter
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Topical acne treatments: Aspirin, zinc, sulfur soap followed by a moisturizer (do not over do
 this, 2 days a week are enough), red light (do not over do it if the device has lots of infrared
@@ -4160,9 +3867,6 @@ How to wash your hair with eggs:
 - Crack 1 free range egg in a small bowl.
 - Stir.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 - Apply the mix to dry hair.
 - Wait 3-5 minutes.
 - Rinse with cold water.
@@ -4202,9 +3906,6 @@ will greatly help for this.
 Shaving creams: Raw milk, vitamin E, cocoa butter, coconut oil.
 
 Post tattoo creams: Raw milk, raw cream, grass fed tallow, cocoa butter, shea butter, aloe vera.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 **Number 11: GMOs (not exactly toxins but worth mentioning at this part of the
 program).**
@@ -4248,9 +3949,6 @@ Also mice that were fed GM triticale (a grain hybrid) showed enlarged lymph node
 when goat’s were fed GM soy their milk contained very very small amounts of proteins
 instead of the typical numbers (from 3-5 gr per 100ml usually depending on the goat).
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 Since GMOs were introduced into the food supply the rate of chronic health conditions
 among children in the US increased from 12.8% (in 1994) to 26.6% (in 2006).
 (Especially for things like asthma, behavioral and learning problems).
@@ -4291,9 +3989,6 @@ not eating packaged food which will by default be full of food additives.
 ```
 This brings us to number 12.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 **Number 12: (Most) of the food additives.**
 
 Food additives are chemicals added to foods to keep them fresh or to enhance their color,
@@ -4331,12 +4026,7 @@ For example the artificial colorings “FD&C yellow no.5 and no.6” cause aller
 very often in children and are linked with hyperactivity.
 
 Also unfortunately, parents often feed their kids trash deli meats which have sodium nitrates
-in them most of the time which when heated and combined with one’s stomach acid
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-produces nitrosamines which are linked with an increase of pancreatic and colorectal
+in them most of the time which when heated and combined with one’s stomach acid produces nitrosamines which are linked with an increase of pancreatic and colorectal
 cancer.
 
 You must also avoid like the plague in case you have kids foods that include sulfur dioxide,
@@ -4374,9 +4064,6 @@ be addressed in detail in the nutrition part of the program and canned food.
 
 Canned foods will inevitably create a histamine reaction (the citric acid that’s in them is
 literally a byproduct of mold) which will lead to the production of inflammatory cytokines.
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 Also, aluminum can leak in a lot of canned food and further increase the damage that these
 foods can cause.
@@ -4421,9 +4108,6 @@ Some molds release mycotoxins such as:
 ● Ochratoxins such as ochratoxin A that is produced by Aspergillus and Penicillium
 sp.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 ● Trichothecenes that encompass about 100 subtypes of metabolites from Fusarium
 species.
 ● Zearalenone that is produced by Fusarium species.
@@ -4463,9 +4147,6 @@ Test wise, if you can afford it you can test:
 Now someone might ask “what should i do if any of these come back positive?”.
 
 **Step 1: First and foremost, identify the most common sources of mycotoxins which are:**
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 ● Pork (pigs are often fed grains contaminated with ochratoxin A)
 ● Nuts such as peanuts
@@ -4510,9 +4191,6 @@ bentonite clay.
 **When it comes to trichothecese what works is:** bentonite clay, activated charcoal and
 chlorella.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 **Also:**
 
 ● Optimize melatonin production. https://pubmed.ncbi.nlm.nih.gov/33081548/
@@ -4555,9 +4233,6 @@ no reason).
 
 We will then need to provide the right nutrients that will help our liver detoxify pollutants.
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 **This is a two part process that happens in the liver.**
 
 In order to support the first part, you will need to optimize glutathione, provide enough B
@@ -4598,9 +4273,6 @@ kimchi also help with BPA.
 
 1) Thiamine (B1) helps reduce re-uptake for most heavy metals
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 2) Magnesium malate has the ability to bind aluminum and remove it from the body.
 
 3) L. rhamnosus shows reductions in the bioaccumulation of mercury and arsenic
@@ -4640,9 +4312,6 @@ it can cause adverse reactions so do not start with it.
 25,433 were shown to absorb more than 80% of a phthalate metabolites.
 
 **Certain lifestyle tools for detoxification include:**
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 1) Sauna.
 
@@ -4685,9 +4354,6 @@ sulfur
 
 3) Thiamine
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 4)Vitamin B6 (try to stay away from synthetic vitamin B6 since it will harm your liver)
 
 5)Copper from beef liver in order to supplement NAC for a short period of time which will
@@ -4726,9 +4392,6 @@ Now since we already talked about minerals, here is a recap for their sources.
 
 3) Zinc
 -Shellfish
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
 
 -Beef
 
@@ -4770,9 +4433,6 @@ Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
 -Winter squash
 -Potatoes
 
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
 -Coconut water
 
 13) Molybdenum
@@ -4812,12 +4472,7 @@ https://pubmed.ncbi.nlm.nih.gov/38309422/
 
 https://pubmed.ncbi.nlm.nih.gov/39738773/
 
-https://pubmed.ncbi.nlm.nih.gov/12503398/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/29535978/
+https://pubmed.ncbi.nlm.nih.gov/12503398/ https://pubmed.ncbi.nlm.nih.gov/29535978/
 
 https://pubmed.ncbi.nlm.nih.gov/39023737/
 
@@ -4853,12 +4508,7 @@ https://pubmed.ncbi.nlm.nih.gov/17828806/
 
 https://pubmed.ncbi.nlm.nih.gov/17087969/
 
-https://pubmed.ncbi.nlm.nih.gov/28636450/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/33424329/
+https://pubmed.ncbi.nlm.nih.gov/28636450/ https://pubmed.ncbi.nlm.nih.gov/33424329/
 
 https://pubmed.ncbi.nlm.nih.gov/39477122/
 
@@ -4896,12 +4546,7 @@ https://pubmed.ncbi.nlm.nih.gov/37918192/
 
 https://pubmed.ncbi.nlm.nih.gov/37289093/
 
-https://pubmed.ncbi.nlm.nih.gov/39057925/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/39396599/
+https://pubmed.ncbi.nlm.nih.gov/39057925/ https://pubmed.ncbi.nlm.nih.gov/39396599/
 
 https://pubmed.ncbi.nlm.nih.gov/34678986/
 
@@ -4937,12 +4582,7 @@ https://pubmed.ncbi.nlm.nih.gov/39251180/
 
 https://www.sciencedirect.com/science/article/pii/S1018364721003153
 
-https://www.sciencedirect.com/science/article/pii/S1018364722000465
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/15702270/
+https://www.sciencedirect.com/science/article/pii/S1018364722000465 https://pubmed.ncbi.nlm.nih.gov/15702270/
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9571766/
 
@@ -4980,12 +4620,7 @@ https://pubmed.ncbi.nlm.nih.gov/20514360/
 
 https://pubmed.ncbi.nlm.nih.gov/27502899/
 
-https://pubmed.ncbi.nlm.nih.gov/22235210/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/22235210/
+https://pubmed.ncbi.nlm.nih.gov/22235210/ https://pubmed.ncbi.nlm.nih.gov/22235210/
 
 https://pubmed.ncbi.nlm.nih.gov/27473827/
 
@@ -5021,12 +4656,7 @@ https://pubmed.ncbi.nlm.nih.gov/34942334/
 
 https://pubmed.ncbi.nlm.nih.gov/24653796/
 
-https://pubmed.ncbi.nlm.nih.gov/39596429/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/10780318/
+https://pubmed.ncbi.nlm.nih.gov/39596429/ https://pubmed.ncbi.nlm.nih.gov/10780318/
 
 https://pubmed.ncbi.nlm.nih.gov/10446107/
 
@@ -5064,12 +4694,7 @@ https://pubmed.ncbi.nlm.nih.gov/26123785/
 https://pubmed.ncbi.nlm.nih.gov/29329865/
 
 https://aacrjournals.org/cancerpreventionresearch/article/16/1_Supplement/P033/711950/Abstr
-act-P033-Characterizing-the-relationship
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://ehp.niehs.nih.gov/doi/10.1289/EHP14410
+act-P033-Characterizing-the-relationship https://ehp.niehs.nih.gov/doi/10.1289/EHP14410
 
 https://pubmed.ncbi.nlm.nih.gov/27723467/
 
@@ -5104,12 +4729,7 @@ https://pubmed.ncbi.nlm.nih.gov/37018912/
 
 https://www.nature.com/articles/s41598-017-16689-4
 
-https://academic.oup.com/bjd/article-abstract/178/2/492/6732233
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4273372/
+https://academic.oup.com/bjd/article-abstract/178/2/492/6732233 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4273372/
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC6523211/
 
@@ -5143,12 +4763,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/21673362
 
 https://www.ncbi.nlm.nih.gov/pubmed/12890503
 
-https://pmc.ncbi.nlm.nih.gov/articles/PMC7563541/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/18020480
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7563541/ https://www.ncbi.nlm.nih.gov/pubmed/18020480
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3649755/
 
@@ -5182,12 +4797,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/22167135
 
 https://www.ncbi.nlm.nih.gov/pubmed/22204799
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4206758/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/25612238
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4206758/ https://www.ncbi.nlm.nih.gov/pubmed/25612238
 
 https://www.ncbi.nlm.nih.gov/pubmed/16185314
 
@@ -5220,12 +4830,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/27165014
 
 https://www.ncbi.nlm.nih.gov/pubmed/28011485
 
-https://pubmed.ncbi.nlm.nih.gov/24971004/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/34058235/
+https://pubmed.ncbi.nlm.nih.gov/24971004/ https://pubmed.ncbi.nlm.nih.gov/34058235/
 
 https://pubmed.ncbi.nlm.nih.gov/26569624/
 
@@ -5259,12 +4864,7 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC10163584/
 
 https://www.nejm.org/doi/full/10.1056/NEJMra070553
 
-https://us.sagepub.com/en-us/nam/journal-of-investigative-medicine/journal203786
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/vitamin-d-fact-sheet
+https://us.sagepub.com/en-us/nam/journal-of-investigative-medicine/journal203786 https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/vitamin-d-fact-sheet
 
 https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.107.706127
 
@@ -5298,12 +4898,7 @@ https://pubmed.ncbi.nlm.nih.gov/36674452/
 
 https://pubmed.ncbi.nlm.nih.gov/27065162/
 
-https://pmc.ncbi.nlm.nih.gov/articles/PMC7551956/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/35889955/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7551956/ https://pubmed.ncbi.nlm.nih.gov/35889955/
 
 https://pubmed.ncbi.nlm.nih.gov/29713796/
 
@@ -5337,12 +4932,7 @@ https://pubmed.ncbi.nlm.nih.gov/32595651/
 
 https://pubmed.ncbi.nlm.nih.gov/36865523/
 
-https://pubmed.ncbi.nlm.nih.gov/32558972/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://jme.bioscientifica.com/view/journals/jme/56/4/T157.xml
+https://pubmed.ncbi.nlm.nih.gov/32558972/ https://jme.bioscientifica.com/view/journals/jme/56/4/T157.xml
 
 https://pubmed.ncbi.nlm.nih.gov/33594706/
 
@@ -5376,12 +4966,7 @@ https://pubmed.ncbi.nlm.nih.gov/27677666/
 
 https://pubmed.ncbi.nlm.nih.gov/27552246/
 
-pubmed.ncbi.nlm.nih.gov/29875029/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pmc.ncbi.nlm.nih.gov/articles/PMC6362935/
+pubmed.ncbi.nlm.nih.gov/29875029/ https://pmc.ncbi.nlm.nih.gov/articles/PMC6362935/
 
 pubmed.ncbi.nlm.nih.gov/29101797/
 
@@ -5414,12 +4999,7 @@ pubmed.ncbi.nlm.nih.gov/35406694/
 
 https://pubmed.ncbi.nlm.nih.gov/28374158/
 
-pubmed.ncbi.nlm.nih.gov/35338345/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-ncbi.nlm.nih.gov/pmc/articles/P%E2%80%A6intechopen.com/chapters/87419%E2%80%A
+pubmed.ncbi.nlm.nih.gov/35338345/ ncbi.nlm.nih.gov/pmc/articles/P%E2%80%A6intechopen.com/chapters/87419%E2%80%A
 6
 
 pubmed.ncbi.nlm.nih.gov/20308557/
@@ -5452,12 +5032,7 @@ https://pubmed.ncbi.nlm.nih.gov/26568124/
 
 https://pubmed.ncbi.nlm.nih.gov/29450896/
 
-https://pubmed.ncbi.nlm.nih.gov/21633182/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/38201854/
+https://pubmed.ncbi.nlm.nih.gov/21633182/ https://pubmed.ncbi.nlm.nih.gov/38201854/
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC10048192/
 
@@ -5494,12 +5069,7 @@ https://pubmed.ncbi.nlm.nih.gov/40137889/
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9101768/
 
-https://pubmed.ncbi.nlm.nih.gov/35891766/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/29156344/
+https://pubmed.ncbi.nlm.nih.gov/35891766/ https://pubmed.ncbi.nlm.nih.gov/29156344/
 
 https://pubmed.ncbi.nlm.nih.gov/27677666/
 
@@ -5535,12 +5105,7 @@ https://pubmed.ncbi.nlm.nih.gov/35270035/
 
 https://pubmed.ncbi.nlm.nih.gov/6428386/
 
-https://pubmed.ncbi.nlm.nih.gov/27623126/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/35041872/
+https://pubmed.ncbi.nlm.nih.gov/27623126/ https://pubmed.ncbi.nlm.nih.gov/35041872/
 
 https://pubmed.ncbi.nlm.nih.gov/3864291/
 
@@ -5578,12 +5143,7 @@ https://pubmed.ncbi.nlm.nih.gov/29651636/
 
 https://pubmed.ncbi.nlm.nih.gov/32292004/
 
-https://pmc.ncbi.nlm.nih.gov/articles/PMC5105045/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pmc.ncbi.nlm.nih.gov/articles/PMC3730955/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5105045/ https://pmc.ncbi.nlm.nih.gov/articles/PMC3730955/
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655483/
 
@@ -5620,12 +5180,7 @@ https://pubmed.ncbi.nlm.nih.gov/36907347/
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9837533/
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7071457/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/21227907/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7071457/ https://pubmed.ncbi.nlm.nih.gov/21227907/
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6393086/
 
@@ -5661,12 +5216,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8949383/
 
 https://academic.oup.com/jes/advance-article/doi/10.1210/js.2018-00151/5094959
 
-https://www.ncbi.nlm.nih.gov/pubmed/29275183
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4013823/
+https://www.ncbi.nlm.nih.gov/pubmed/29275183 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4013823/
 
 https://pubmed.ncbi.nlm.nih.gov/26200355/
 
@@ -5703,12 +5253,7 @@ https://pubmed.ncbi.nlm.nih.gov/37500026/
 https://journals.lww.com/endi/fulltext/2024/09030/the_impact_of_microplastics_on_neurod
 egenerative.2.aspx?context=latestarticles
 
-https://www.mdpi.com/2305-6304/12/12/840
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pmc.ncbi.nlm.nih.gov/articles/PMC1930162/
+https://www.mdpi.com/2305-6304/12/12/840 https://pmc.ncbi.nlm.nih.gov/articles/PMC1930162/
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5295343/
 
@@ -5744,12 +5289,7 @@ https://pubmed.ncbi.nlm.nih.gov/34942334/
 
 https://pubmed.ncbi.nlm.nih.gov/24653796/
 
-https://pubmed.ncbi.nlm.nih.gov/39596429/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/10780318/
+https://pubmed.ncbi.nlm.nih.gov/39596429/ https://pubmed.ncbi.nlm.nih.gov/10780318/
 
 https://pubmed.ncbi.nlm.nih.gov/10446107/
 
@@ -5787,12 +5327,7 @@ act-P033-Characterizing-the-relationship
 
 https://ehp.niehs.nih.gov/doi/10.1289/EHP14410
 
-https://pubmed.ncbi.nlm.nih.gov/27723467/
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-https://pmc.ncbi.nlm.nih.gov/articles/PMC3340466/
+https://pubmed.ncbi.nlm.nih.gov/27723467/ https://pmc.ncbi.nlm.nih.gov/articles/PMC3340466/
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC4013823/
 
@@ -5814,8 +5349,3 @@ https://pubmed.ncbi.nlm.nih.gov/28153396/
 https://pmc.ncbi.nlm.nih.gov/articles/PMC5343323/
 
 https://www.nature.com/articles/s41389-017-0025-3
-
-Gut health hanbook (lesson 5) written by George @Helios_Movement **Sold to**
-
-
-

@@ -1,16 +1,3 @@
-cellular-toxicity, and organ-toxicity) using computer modeling with in vitro test systems based on biochemical methods using enzyme and tissue culture assays; and additional animal feeding studies using the radiation-induced chemical(s) (RP or URP) in question and not the irradiated whole food!
-
-In my opinion, whole foods, irradiated under controlled, laboratory conditions, should only be employed for nutritional-biochemical and molecular biological studies in animals fed balanced and special diets consisting of these irradiated foods and the components and sub-components of the irradiated foods that are of concern.
-
-Please introduce my Proposed Research Plan during your WHO Consultation: Update on Food Irradiation meeting. I believe this Proposed Research Plan will provide both a relevant context for analyses and discussions and a useful framework for identifying data gaps in the existing compilation of research performed to date; in addition, I trust this Proposed Research Plan will identify fruitful areas for future research. Also, please place my name on your mailing list to receive your publications and notices.
-
-Thank you for your time and consideration of my request. If you have either comments or questions, please feel free to telephone me at home at any time - 415-712-8008 for discussions, messages, or FAX transmissions.
-
-Jeffrey H. Reinhardt, M.Sc.
-Consultant in Nutritional-Biochemistry
-25 Mitchell Blvd., #8
-San Rafael, California 94903
-
 # Failures Of Immunity
 
 Editor:

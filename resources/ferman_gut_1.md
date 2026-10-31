@@ -1,4 +1,5 @@
-**Lesson 1: Resetting the digestive system.**
+# Gut Health Handbook, Lesson 1: Resetting the Digestive System
+
 Digesting food is a much more complicated task than we tend to believe.
 We might take it for granted and never really think about it but if we sit down and really
 think about the components that are in something as simple as a piece of apple for example,
@@ -22,8 +23,6 @@ saliva (about 60–65%).
 The sublingual glands are located under the tongue that produce mucous saliva (about 5%).
 Its blood supply comes from the facial artery, the maxillary artery and the superior alveolar
 arteries.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Its digestive activities are regulated by things ranging from seeing or smelling food that
 activate the salivary nucleus in the brain (cranial nerves VII for example affects
@@ -53,8 +52,6 @@ aiding in peristalsis.
 Its blood supply comes from the inferior thyroid, esophageal, and left gastric arteries;
 venous drainage via the azygos and gastric veins.
 When it comes to the sphincters, we have:
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 1. The upper esophageal sphincter (UES) which is primarily composed of the
 cricopharyngeus muscle at the top of the esophagus (the inferior pharyngeal constrictor and
@@ -81,11 +78,7 @@ And when it comes to involuntary peristalsis, the vagus nerve and ENS (myenteric
 coordinate sequential contractions of circular and longitudinal muscles, pushing the bolus
 downward and the ENS autonomously initiates contractions to clear the esophagus.
 Hormones affecting its functions include gastrin that increases LES tone (gastrin basically
-enhances anti-reflux protection during gastric digestion), cholecystokinin (CCK) that one
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
-
-hand, helps gastric emptying but it can increase reflux risk in people who already have it,
+enhances anti-reflux protection during gastric digestion), cholecystokinin (CCK) that one hand, helps gastric emptying but it can increase reflux risk in people who already have it,
 motilin that enhances GI motility and somatostatin that inhibits motility and LES relaxation.
 **-Stomach: This one is located in the upper left abdomen below the diaphragm,
 receives food from the esophagus and mixes it with acid and enzymes in order to break
@@ -116,8 +109,6 @@ pyloric sphincter.
 **It also has 4 layers:**
 -The mucosa that is the inner layer of columnar epithelium with gastric glands that allow it
 to secrete gastric juices such as HCL.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 -The submucosa that is a collection of connective tissue with blood vessels, lymphatics and
 nerves.
@@ -145,8 +136,6 @@ The stimulus for this phase is food and micro/macronutrients arriving in the sto
 activating mechanoreceptors and chemoreceptors.
 Then the vagus nerve and ENS stimulate parietal/chief cells and motility with gastrin and
 somatostatin also being parts of the process.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Number 3: The intestinal phase.
 The stimuli for this is chyme reaching the duodenum where then the ENS (*) triggers
@@ -165,8 +154,6 @@ succus entericus enzymes such as maltase, lactase, sucrase, peptidases and nucle
 finalize digestion into absorbable units like glucose, amino acids, fatty acids and nucleotides
 or also, activate pancreatic zymogens (turning trypsinogen into trypsin for example) and
 nutrients are absorbed through villi and microvilli and then sent into the blood stream
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 (mainly sugars, amino acids, water-soluble vitamins and minerals go here) and lymph
 (mainly fatty acids, monoglycerides and fat-soluble vitamins go here).
@@ -196,8 +183,6 @@ longitudinal) for peristalsis and segmentation.
 1. Enterocytes that absorb nutrients and produce brush border enzymes such as maltase and
 lactase.
 2. Goblet cells that secrete mucus for lubrication and protection.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 3. Enteroendocrine cells that release hormones such as secretin and CCK.
 4. Paneth cells that secrete antimicrobial peptides such as defensins.
@@ -224,8 +209,6 @@ of sodium.
 ● SLC7A
 Whose function is to exchange cationic amino acids across the basolateral membrane.
 Lipid and fatty acid transporters such as:
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ## ● CD
 
@@ -254,8 +237,6 @@ The ENS coordinates peristalsis and local secretion with secretin simulating pan
 bicarbonate, cholecystokinin stimulating pancreatic zymogens and motilin (which is
 triggered by fasting) stimulates the migrating motor complexes (MMCs) to clear residual
 chyme.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 **-And finally we have the large intestine that is a muscular tube that surrounds the
 small intestine in the abdominal cavity whose length is about 1.5 meters that processes
@@ -287,8 +268,6 @@ glycogen for storage or energy, processes amino acids from proteins for use in t
 energy and also stores vitamins and minerals such as iron and vitamin B12.
 Now the gallbladder that’s a small (3-4 inches), pear-shaped sac sitting eneath the liver, acts
 as a storage unit for bile produced by the liver.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 It basically stores and concentrates bile (up to 50 mL at a time) by removing water, making
 it more potent and the hormone cholecystokinin (CCK) signals the gallbladder to contract,
@@ -323,8 +302,6 @@ example even up to 80% of people with IBS have increased permeability.
 **1. Transmembrane proteins such as:**
 -Claudins which is a family of 27 proteins that determine TJ permeability (claudin-1 and -
 for example form tight seals, while claudin-2 increases pore size).
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 -Occludin that enhances TJ stability and regulates paracellular transport by organising TJ
 strands and linking them to the actin cytoskeleton via ZO protein for example or by
@@ -356,8 +333,6 @@ protein kinase C (PKC) that stabilizes them (PKC-mediated phosphorylation enhanc
 ZO-1 recruitment to TJs and strengthens claudin interactions, reducing paracellular
 leakiness for example).
 **Number 2: Cytokines.**
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Pro-inflammatory cytokines such as TNF-α and IL-6 disrupt TJs by downregulating
 claudin-1 or upregulating claudin-2 through the activation of pathways such as the
@@ -390,8 +365,6 @@ They (fatty acids) are usually classified either based on the length of their ca
 based on saturation/whether they have double bonds or not.
 The latter categorization leaves us with the two categories you’re probably aware of:
 saturated and unsaturated.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 The first one, creates the following main types:
 ● Short-chain fatty acids or SCFAs (they have 2–6 carbon atoms (acetic acid for
@@ -422,8 +395,6 @@ MCT1 and SMCT1.
 such as Bifidobacterium and Bacteroides.
 ● Propionate (C3) which comprises almost 20% of SCFAs, is mainly produced by
 Bacteroidetes and Firmicutes and it's redominantly metabolized in the liver.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Butyrate (C4) which accounts for almost 15% of SCFAs, produced by Firmicutes
 and is primarily utilized by colonocytes as an energy source.
@@ -456,8 +427,6 @@ Now the typical diagnostic marker is fecal SCFA levels.
 ● The proper production of stomach acid (HCl) and digestive enzymes
 ● A healthy CR plus deep and restful sleep
 ● Daily sunlight exposure and optimal vitamin D levels
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Providing essential nutrients
 ● Supporting liver function
@@ -488,8 +457,6 @@ and are also shown to reduce beneficial bacteria.
 5. Excessive alcohol intake (if you have any gut issue, take a 2 month break from all
 alcoholic beverages, and if you have any pathogen overgrowth avoid all beers, ciders and
 wines for 4 months).
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Alcohol is known to disrupt tight junctions, reduce microbial diversity and in the case of
 detoxing, it will of course over burden the liver.
@@ -520,11 +487,7 @@ This can make a night and day difference when consuming dairy and makes A1 dairy
 go for people struggling with mast cell issues and and will inevitably lead to inflammation
 compared to A2.
 8. The over consumption of high-FODMAP (fermentable oligosaccharides, disaccharides,
-monosaccharides, and polyols) foods such as onions, garlic, beans, lentils, wheat, apples,
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
-
-pears, stone fruits, honey, high-fructose fruits etc that lead to fast fermentation by gut
+monosaccharides, and polyols) foods such as onions, garlic, beans, lentils, wheat, apples, pears, stone fruits, honey, high-fructose fruits etc that lead to fast fermentation by gut
 bacteria.
 
 10. Foods rich in phytates and oxalates that will bind to minerals such as zinc, iron, and
@@ -554,8 +517,6 @@ Note: Fiber is a type of carbohydrate that comes from the cell wall of plants an
 two types.
 Number 1: Soluble fiber
 Number 2: Insoluble fiber
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Soluble fiber is the one we sometimes refer to as "fermentable fiber" which is why
 for example if you notice that you react very badly to foods that have soluble fiber for
@@ -589,8 +550,6 @@ while also slowing motility.
 Eating something every 1-2 hours, does not allow the migrating motor complex (MMC (a
 cyclical pattern of peristaltic activity that occurs during fasting state)) to clear bacteria from
 the small intestine for example.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 **Now let’s talk about supplements that can negatively impact gut health:**
 
@@ -620,11 +579,7 @@ Common prebiotics include inulin(*), fructooligosaccharides (FOS)(**),
 galactooligosaccharides (GOS)(***), resistant starch (****)and partially hydrolyzed guar
 gum (PHGG) (*****).
 (*) Inulin is a soluble fiber found in chicory root, onions, and asparagus that can increase
-Bifidobacteria and Lactobacillus, help with constipation and could even reduce blood sugar,
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
-
-cholesterol, but supplements/large amounts are not ideal in the case that a person is
+Bifidobacteria and Lactobacillus, help with constipation and could even reduce blood sugar, cholesterol, but supplements/large amounts are not ideal in the case that a person is
 struggling with pathogen overgrowths (especially SIBO) since it can feed overgrown
 bacteria in the small intestine and high doses may even exacerbate IBS or IBD symptoms in
 sensitive individuals.
@@ -653,8 +608,6 @@ enhance barrier function and are better tolerated for SIBO but are still not ide
 Saccharomyces boulardii is a non-pathogenic yeast probiotic that can be helpful for a
 variety of issues ranging from general bloating and diarhea all the way to SIBO and candida
 overgrowths.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Bacillus coagulans is a spore-forming probiotic that can be quite helpful for SIBO (both
 hydrogen and methane-dominant) when it’s combines with antibiotics but also in regards to
@@ -690,8 +643,6 @@ following supplements and foods:**
 Now in case you are interested in more information about the gut-associated lymphoid
 tissue (GALT), it is a specialized component of the mucosal immune system that is
 distributed throughout the GI tract, particularly in the small intestine and colon.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Its components include:
 -Peyer’s patches that are aggregated lymphoid follicles in the ileum rich in B and T cells,
@@ -723,8 +674,6 @@ low stomach acid production are:
 •Undigested food in stool
 •Heartburn
 And it’s no wonder why.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 **Hydrochloric acid (HCl) performs certain critical functions such as:**
 ● Killing ingested bacteria, fungi, and parasites by creating an acidic environment (pH
@@ -759,11 +708,7 @@ antacids, anticholinergic drugs and NSAIDs that suppress HCl secretion.
 deficiencies in fat-soluble vitamins (A, D, E, K), or calcium.
 **When it comes to circadian health and sleep:**
 ● The gut microbiota dynamics follow a 24-hour cycle (the entire G.I tract follows a
-circadian pattern, bacterial populations, gastric emptying, peristalsis, and enzyme secretion
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
-
-peak at specific times to aid digestion and shift work for example has been shown to alter
+circadian pattern, bacterial populations, gastric emptying, peristalsis, and enzyme secretion peak at specific times to aid digestion and shift work for example has been shown to alter
 microbial composition, reducing beneficial bacteria and promoting harmful species).
 Note: This is why, believe it or not, the simple act of eating at consistent times has improved
 the gut health of so many people.
@@ -798,8 +743,6 @@ B-cells, and macrophages, within the gut-associated lymphoid tissue (GALT).
 ● Stimulates the production of antimicrobial peptides, such as cathelicidins and
 β-defensins, enhances epithelial cell proliferation and wound healing by upregulating
 growth factors like transforming growth factor-beta (TGF-β).
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Downregulates oncogenic pathways.
 ● Stimulates alpha-MSH, a peptide with antimicrobial and anti-inflammatory
@@ -833,8 +776,6 @@ Excess copper, can of course be problematic, butt copper one of the key nutrient
 essential for ceruloplasmin which prevents iron overload in the gut while also supporting
 superoxide dismutase that mitigates oxidative stress in the gut.
 ● B Vitamins.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 B1, B5 and B6 for example, are cofactors for enzymes involved in gastric acid secretion and
 digestive enzyme production while B12 and folate are vital for maintaining mucosal
@@ -863,8 +804,6 @@ enhancing IgA production.
 **Note: When it comes to digestive enzymes, they are critical for breaking down
 carbohydrates, proteins, fats, and other nutrients into absorbable molecules and can
 be produced by salivary glands, stomach, pancreas and small intestine.**
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 1. Salivary enzymes (secreted by the salivary glands and lingual glands (in the tongue))
 include:
@@ -898,8 +837,6 @@ fragments and deoxyribonuclease that hydrolyzes DNA into smaller nucleotide frag
 ● Maltase that hydrolyzes maltose into two glucose molecules.
 ● Sucrase that hydrolyzes sucrose into glucose and fructose.
 ● Lactase that hydrolyzes lactose into glucose and galactose.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Isomaltase (α-Dextrinase) that breaks down branched starch digestion products into
 glucose.
@@ -934,8 +871,6 @@ as:
 -Overthinking/Inability to concentrate/bad memory/confusion
 -High estrogen
 -High cortisol
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 -High histamine /prostaglandins and thus also things such as allergies,
 asthma
@@ -973,8 +908,6 @@ D2 receptors to modulate GI functions such as inhibiting acetylcholine release a
 slowing peristalsis and gastric emptying or reducing mucus and enzyme secretion.
 So, too much dopamine = constipation, too little = diarhea, just enough = can protect
 against IBS-D.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Now how can a state of low dopamine happen?
 Here are some of the most common causes:
@@ -1009,8 +942,6 @@ Number 3: Not providing enough of the following nutrients:
 ● Zinc
 ● Vitamin C
 ● Vitamin K
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Vitamin D
 ● Vitamin E
@@ -1039,8 +970,6 @@ increase the density of the D2 and D3 receptors in some cases.
 Number 9: Insulin resistance.
 Insulin can actually increase dopamine. The
 problem happens when someone become insulin resistant which leads to increase levels of
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 MAO-A and MAO-B and the same can be true for leptin where it can increase D2 receptor
 density if it’s operating properly.
@@ -1075,8 +1004,6 @@ breaks and tweak the amount of work or workout load to the one you can actually 
 when that’s possible.
 Number 5: Stop fasting every day and especially “fasting” with black coffee.
 This is context-dependent.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 By this, we mean that if you struggle with issues such as anxiety, fasting exacerbates some
 of its possible causes such as blood sugar regulation issues, a dysregulated CR, low
@@ -1107,8 +1034,6 @@ Given the nature of these two:
 Chron's and ulcerative colitis, headaches or even migraines after meals and break outs.
 -An SNP in the HNMT one of the potential root causes behind issues such as anxiety (since
 HNMT breaks down histamine in the nerve system), asthma bronchiale and sleep apnea.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 (*)In fact, lower DAO activity is often used as an indicator of intestinal mucosa damage.
 Now histamine intolerance is basically what happens when the rate we consume or produce
@@ -1137,8 +1062,6 @@ A lot live in houses infested with mold, use skincare, hygiene and cleaning prod
 full of allergens, ingest heavy metals though polluted air, vaping, smoking and even low
 quality fish and eat mycotoxins multiple times per day (think commercial cereal, cheap
 coffee and so on).
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Mycotoxins such as aflatoxins and ochratoxins for example trigger inflammation, cytokine
 release and ochratoxin A even inhibits DAO activity.
@@ -1166,8 +1089,6 @@ degrading histamine way harder.
 Then, a lot of histamine is stored in the ECL cell of the stomach for example.
 Now there are detailed meal plans in this program as you saw, so feel free to use them and a
 detailed part about gut health later.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Number 4: Genetic SNPs.
 If you've been experiencing issues with histamine for years and haven't find the root cause
@@ -1201,8 +1122,6 @@ supplementation, consider low dose (150-300mg) of quercetin.
 your issue) are also struggling with free copper (you might want to supplement
 molybdenum if that's the case instead of only getting it from whole foods).
 -Alpha-gpc could also be used and even needed.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Number 5: Estrogen excess.
 We are mentioning this as number 5 because we just talked about methylation and poor
@@ -1236,8 +1155,6 @@ A basic list includes:
 ● Preservatives
 ● Bananas
 ● Yogurt
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Kimchi
 ● Kombucha
@@ -1274,8 +1191,6 @@ Number 10: In the case of a flair up keep an eye on:
 -Apigenin
 -Theanine
 -Ginger
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 -Holy basil
 -Rutin
@@ -1309,8 +1224,6 @@ think again since even things such as minor bloating or constipation, signal the
 presence of these pathogens.
 Now obviously i am not saying that you’re experiencing a pathogenic overgrowth, all i’m
 saying is that if you suffer with issues such as:
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Bloating
 ● Vitamin deficiencies (especially B vitamins and issues such as anemia)
@@ -1346,8 +1259,6 @@ something to be taken lightly.
 The most common causes nowadays are:
 ● Low HCL
 ● Low transit time
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● A compromised immune system
 ● Lack of antimicrobial peptides
@@ -1379,8 +1290,6 @@ They are primarily cleared from the body through the following mechanisms:
 Kupffer cells engulf and degrade LPS through phagocytosis and hepatocytes incorporate
 LPS into bile.
 2. The intestines.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 After what was just mentioned, LPS in the bile is eliminated through feces. This is also
 where a healthy intestinal barrier is of vital importance since it helps prevent reabsorption.
@@ -1411,8 +1320,6 @@ leakage into the blood stream.
 The gut eliminates LPS and other toxins via stool, with bile as a carrier.
 So poor bile flow and nothing to bind them = nothing much.
 5. Not supporting our overall immune system (besides the gut).
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 As it was stated immune cells, such as macrophages and monocytes, detect LPS and
 circulating proteins like lipopolysaccharide-binding protein (LBP) and high-density
@@ -1445,8 +1352,6 @@ suggests them):
 ● Prucalopride
 ● Tegaserod.
 When it comes to herbal prokinetics i only like and suggest considering:
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Ginger.
 ● Dandelion root.
@@ -1479,8 +1384,6 @@ sugar content also inhibits bacterial growth.
 It’s ideal for pathogens such as: Staphylococcus aureus, streptococcus mutans, E. cloi,
 candida albicans and pseudomonas aeruginosa.
 **● Essential oils such as tea tree oil or clove oil (for topical or oral use)**
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Disrupt bacterial membranes, inhibit quorum sensing, and degrade EPS components.
 Clove oil is ideal for oral tratment of candida albicans.
@@ -1508,8 +1411,6 @@ bacterial and fungal cell membranes, inhibit quorum sensing and reduce EPS produ
 preventing biofilm formation.
 It’s extremely effective for candida albicans but also , SIBO, P. aeruginosa, S. aureus and E.
 coli biofilms.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 **● Garlic extract (interacts with blood thinners and blood pressure medication)**
 Garlic extract contains allicin and ajoene that can degrade EPS, disrupt bacterial cell
@@ -1536,8 +1437,6 @@ It’s mainly used for H. pylori and E.coli.
 This also produces lactic acid and bacteriocins and can also inhibit quorum sensing.
 It’s mainly used for dental and Candida biofilms.
 6. Saccharomyces boulardii
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 This poduces proteases and other enzymes that degrade EPS components, competes for
 binding sites and it’s mainly used for C. difficile and Candida.
@@ -1565,8 +1464,6 @@ allows it to deprive pathogens of iron and thus helping us actually starve iron-
 pathogens like candida albicans.
 It also prevents pathogens from adhering to surfaces by interfering with adhesins and
 inhibits quorum sensing.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 It also seems to be better tolerated from people who experience discomfort from things such
 as NAC and bromelain.
@@ -1596,8 +1493,6 @@ iron use dairy (tannins can work too but not as effective)).
 As stated, they are absorbed in the upper parts of the intestine such as the duodenum for
 example which is why a lot of people experience discomfort at that part after eating a lot of
 foods that are fortified with iron.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Enterocytes and epithelial cells also come into play and with the help of ferroportin (a
 protein that can cross membranes) it gets into the bloodstream.
@@ -1626,8 +1521,6 @@ catalyst for the formation of hydroxyl radicals from reduced forms of O2 (it can
 the conversion of hydrogen peroxide into free radicals (remember that iron can donate
 (Fe(II)) or accept electrons (Fe(III)) or just remember that (Fe(II) and hydrogen peroxide
 will produce hydroxyl radicals).
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 So it participates into Fenton / Haber Weiss reactions and increases malondialdehyde which
 is the main product of lipid peroxidation.
@@ -1656,8 +1549,6 @@ case you are battling one?
 First and foremost, go and test:
 -The HFE, HJV, HAMP, TFR2, SLC40A1 genes
 What are these?
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 We inherit one HFE gene from each one of our parents. In this gene we can have two
 common mutations, the C282Y and H63D which will lead to a person being able to
@@ -1695,8 +1586,6 @@ Then:
 -Avoid foods rich in O6 fats
 -Get a quality EVOO (EVOO is not high in O6. A quality EVOO can even have a ration of
 10:2:1 regarding MUFA:saturated fats and PUFA)
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Now if you do suffer from an iron overload, some extra measures you can take include:
 -Donate blood if your markers allow it.
@@ -1730,8 +1619,6 @@ Poor sleep and CR disrupt TJ protein expression while sunlight and vitamin D upr
 it.
 Number 4: Provide enough zinc (stabilizes TJs), L glutamine (enhances TJ protein
 expression), retinol (upregulates claudin-1 and ZO-1) and polyphenols.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Number 6: Pick the following probiotic that works best for you:
 -Lactobacillus rhamnosus GG. -Bifidobacterium longum. -Saccharomyces boulardii.
@@ -1761,8 +1648,6 @@ as activated charcoal.
 ● Repairing the gastric mucosa (glutamine, zinc carnosine) and repopulating the gut
 with things such as colostrum.
 **Note 7: SIBO**
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 SIBO or small intestinal bacterial overgrowth is a condition that marks an abundance of bad
 bacteriasuch as the ones belonging to the firmicutes, bacteroidetes or proteobacteria phyla
@@ -1793,8 +1678,6 @@ and binder such as activated charcoal.
 ● Repairing the gastric mucosa (glutamine, zinc carnosine) and repopulating the gut
 with things such as colostrum.
 **Note 8: Candida**
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 Candida is a genus of yeast that includes close to 200 species, not all of which are
 pathogenic.
@@ -1827,8 +1710,6 @@ The main factors that lead to candida overgrowth include:
 ● Oral contraceptives
 ● Stress
 ● Low HCL
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● Being exposed to toxins such as mercury
 ● Mold exposure
@@ -1861,11 +1742,7 @@ egg shedding can be intermittent collecting 3 samples over 3 days is common) and
 pyrantel pamoate with the help of your doctor or in more minor cases pumpkin seeds, black
 walnut and wormwood.
 -Tapeworms that are these flat, ribbon-like segments (proglottids), white/yellowish, 1–2 cm
-long that you can test for with a sool microscopy for proglottids or eggs and most likely,
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
-
-you will have to use praziquantel or niclosamide with your doctor’s supervision. Things
+long that you can test for with a sool microscopy for proglottids or eggs and most likely, you will have to use praziquantel or niclosamide with your doctor’s supervision. Things
 sich as wormwood, black walnut, clove oil and diatomaceous earth might also help.
 -Hookworms that are microscopic and typically not visible in stool without lab testing (you
 will get a stool microscopy for eggs once again).
@@ -1893,8 +1770,6 @@ degrade tight junction proteins such as claudins and ZO-1.
 -Increased lipid peroxidation.
 -Neurotoxicity (acetaldehyde crosses the blood-brain barrier and can reduce BDNF
 expression for example).
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 -Inhibiting COMT (why people with unaddressed SNPs in COMT (see lesson 12) often
 have a very hard time with die offs and experience a lot of anxiety for example)
@@ -1928,8 +1803,6 @@ Aldehyde oxidase (AOX) is also quite important since it also oxidizes acetaldehy
 acetate in the liver and other tissues.
 And the final one is glutathione conjugation (GSH) where acetaldehyde reacts with it in
 order to form non-toxic conjugates.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 After all these, the liver incorporates acetaldehyde and its metabolites such as acetate and
 GSH conjugates into the bile, which is secreted into the duodenum and eliminated in feces.
@@ -1960,8 +1833,6 @@ These are released during microbial lysis, these act as damage-associated molecu
 Now the intensity of die-off is influences by the:
 ● Microbial loads (severe SIBO with >10^5 CFU/mL will release more toxins than a
 minor case for example)
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 ● The person’s detoxification capacity.
 Impaired phase I (cytochrome P450) and phase II (conjugation) liver detoxification
@@ -1988,8 +1859,6 @@ This one upregulates Nrf2.
 ● Quercetin.
 This one inhibits mast cell degranulation and downregulates NF-κB.
 ● Pantethine.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 This serves a s precursor to coenzyme A, supporting acetyl-CoA formation from acetate (it
 basically enhances phase II detoxification).
@@ -2019,8 +1888,6 @@ lipid metabolism and inflammation in the liver.
 **● Gut-brain axis**
 This one describes the bidirectional communication network between the gut microbiota
 and the central nervous system.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 This is possible through things/mechanisms such as the vagus nerve, microbial metabolites
 such as SCFAs and neurotransmitters that are produced by gut bacteria, the HPA axis and
@@ -2053,8 +1920,6 @@ how to distinguish between pathogens and commensals, while SCFAs also influence
 T-regulatory cell function.
 This is why some times the gut-lung axis is not mentioned since the gut modulates lung
 immunity primarily through GALT.
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 This is why dysbiosis exacerbates asthma or COPD so much (it increases Th2/Th17
 responses but also SCFAs like butyrate reduce airway inflammation by enhancing Treg
@@ -2083,8 +1948,6 @@ cardiovascular function).
 How the gut influences them: The “estrobolome” that’s made out of gut bacteria with
 β-glucuronidase activity, deconjugates estrogen in the gut.
 ● Hormone: Testosterone (affects muscle mass, libido and reproductive health).
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 How the gut influences it: Dysbiosis increases inflammation, which suppresses the HPG
 axis and reduces testosterone production.
@@ -2113,8 +1976,6 @@ hormones on lesson 11 and i think that these basics concepts were enough for thi
 6. You have crescents and they are not very small (this takes a while in order to show up
 even when your gut has healed)
 7. No acid reflux
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
 
 8. No brain fog
 9. Two bowel movements per day with the first one being in the morning
@@ -2134,11 +1995,7 @@ https://pubmed.ncbi.nlm.nih.gov/22955358/
 https://pubmed.ncbi.nlm.nih.gov/33607043/
 https://pubmed.ncbi.nlm.nih.gov/38885924/
 https://pubmed.ncbi.nlm.nih.gov/28274108/
-https://pubmed.ncbi.nlm.nih.gov/26044318/
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/36389782/
+https://pubmed.ncbi.nlm.nih.gov/26044318/ https://pubmed.ncbi.nlm.nih.gov/36389782/
 https://pubmed.ncbi.nlm.nih.gov/36986052/
 https://pubmed.ncbi.nlm.nih.gov/24095975/
 https://pubmed.ncbi.nlm.nih.gov/39502577/
@@ -2157,11 +2014,7 @@ https://pubmed.ncbi.nlm.nih.gov/27113407/
 https://pubmed.ncbi.nlm.nih.gov/32093510/
 https://pubmed.ncbi.nlm.nih.gov/32358041/
 https://pubmed.ncbi.nlm.nih.gov/33754024/
-https://pubmed.ncbi.nlm.nih.gov/28362216/
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
-
-https://pubmed.ncbi.nlm.nih.gov/34564912/
+https://pubmed.ncbi.nlm.nih.gov/28362216/ https://pubmed.ncbi.nlm.nih.gov/34564912/
 https://pubmed.ncbi.nlm.nih.gov/18545974/
 https://pubmed.ncbi.nlm.nih.gov/32194836/
 https://pubmed.ncbi.nlm.nih.gov/28890615/
@@ -2180,7 +2033,3 @@ https://pubmed.ncbi.nlm.nih.gov/24076059/
 https://pubmed.ncbi.nlm.nih.gov/36499643/
 https://pubmed.ncbi.nlm.nih.gov/36283008/
 https://pubmed.ncbi.nlm.nih.gov/17679369/
-Gut health handbook (lesson 1) written by George @Helios_Movement **Sold to**
-
-
-

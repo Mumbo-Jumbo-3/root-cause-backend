@@ -1,37 +1,24 @@
 import copy
 import math
-from functools import lru_cache
 
-import voyageai
 from langchain_core.documents import Document
 from sqlalchemy import func, select
-from sqlalchemy.exc import SQLAlchemyError
 
 from health_agent.config import Settings
-from health_agent.db import AgentResource, AgentResourceChunk, get_session_factory
+from health_agent.db import AgentResourceChunk, get_session_factory
 from health_agent.db.models import EMBEDDING_DIMENSIONS
-from health_agent.rag.resources import filesystem_resource_manifest
-
-
-@lru_cache(maxsize=1)
-def _voyage_client(api_key: str) -> voyageai.Client:
-    # One client per process. Each client caches its own tokenizer, so building one per query leaks memory.
-    return voyageai.Client(api_key=api_key)
+from health_agent.models import voyage_client
 
 
 def _embed_query(query: str, settings: Settings) -> list[float]:
     # Same request VoyageAIEmbeddings.embed_query makes, minus its token counting, which loads a tokenizer.
-    result = _voyage_client(settings.voyage_api_key).embed(
-        [query], model=settings.embedding_model, input_type="query"
+    result = voyage_client(settings.voyage_api_key).embed(
+        [query],
+        model=settings.embedding_model,
+        input_type="query",
+        output_dimension=EMBEDDING_DIMENSIONS,
     )
     return result.embeddings[0]
-
-
-def _database_resource_manifest(settings: Settings) -> dict[str, str]:
-    session_factory = get_session_factory(settings)
-    with session_factory() as session:
-        rows = session.execute(select(AgentResource.source_path, AgentResource.content_hash)).all()
-    return {source_path: content_hash for source_path, content_hash in rows}
 
 
 def _chunk_to_document(chunk: AgentResourceChunk) -> Document:
@@ -220,11 +207,6 @@ def _maximal_marginal_relevance(
 def _query_vector_rows(query: str, settings: Settings, limit: int):
     if not settings.database_url.strip():
         raise RuntimeError("DATABASE_URL must be set for vector retrieval.")
-    if settings.embedding_dimensions != EMBEDDING_DIMENSIONS:
-        raise RuntimeError(
-            "EMBEDDING_DIMENSIONS does not match the current database schema. "
-            f"Expected {EMBEDDING_DIMENSIONS}."
-        )
 
     query_embedding = _embed_query(query, settings)
     distance = AgentResourceChunk.embedding.cosine_distance(query_embedding).label("distance")
@@ -411,7 +393,7 @@ def rerank_documents(
     if not docs:
         return docs
 
-    result = _voyage_client(settings.voyage_api_key).rerank(
+    result = voyage_client(settings.voyage_api_key).rerank(
         query=query,
         documents=[doc.page_content for doc in docs],
         model=settings.reranker_model,
@@ -426,15 +408,3 @@ def rerank_documents(
             reranked.append(doc)
     return reranked
 
-
-def needs_reindex(settings: Settings) -> bool:
-    if not settings.database_url.strip():
-        return True
-
-    current_manifest = filesystem_resource_manifest(settings.resources_dir)
-    try:
-        stored_manifest = _database_resource_manifest(settings)
-    except SQLAlchemyError:
-        return True
-
-    return current_manifest != stored_manifest

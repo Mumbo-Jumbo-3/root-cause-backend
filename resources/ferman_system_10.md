@@ -1,21 +1,10 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-# This program was created by George @Helios_movement. 
-
-**The system lesson 10: Understanding your metabolism** 
+# The System, Lesson 10: Understanding Your Metabolism
 
 Every health issue from cancer all the way to even hair thinning, can be linked back to suboptimal metabolic health, so if we want to improve or prevent any health condition, we need to focus on optimizing it. 
 
 Metabolism is defined as the sum of all chemical reactions that happen in your body and it constitutes the two processes of catabolism (break down (big molecules like carbs, fats and proteins get turned into smaller units such as glucose, fatty acids and amino acids (when starch from bread gets turned into glucose, it’s a catabolic reaction))) and anabolism (build up (smaller units get turned into complex structures (think amino acids and muscle fibers as one example)). 
 
-Note: Both of these, depend on ATP. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Note: Both of these, depend on ATP.
 
 So, things such as: our digestive system, endocrine system and thus adrenals, hypothalamus and ovaries, immune system, methylation track and in general every biological process that happens in our bodies is a part of our metabolism. 
 
@@ -35,10 +24,7 @@ That being said untreated hypothyroidism can lead to a BMR that's even 40% below
 
 **Now metabolism basically is a network of the following pathways that happens in every cell:** 
 
-● Glycolysis: Breaks glucose into pyruvate, generating a bit of ATP in the cytoplasm. ● Citric Acid Cycle (Krebs Cycle): Takes pyruvate (or fatty acids) into the mitochondria, cranking out more energy carriers like NADH. ● Oxidative Phosphorylation: The mitochondria’s power plant—uses oxygen and those carriers to mass-produce ATP. ● Lipolysis: Splits fats into glycerol and fatty acids for energy. ● Protein Metabolism: Breaks down proteins into amino acids, which can be reused or converted to glucose or fat. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+● Glycolysis: Breaks glucose into pyruvate, generating a bit of ATP in the cytoplasm. ● Citric Acid Cycle (Krebs Cycle): Takes pyruvate (or fatty acids) into the mitochondria, cranking out more energy carriers like NADH. ● Oxidative Phosphorylation: The mitochondria’s power plant—uses oxygen and those carriers to mass-produce ATP. ● Lipolysis: Splits fats into glycerol and fatty acids for energy. ● Protein Metabolism: Breaks down proteins into amino acids, which can be reused or converted to glucose or fat.
 
 **It is affected by 3 main things:** 
 
@@ -60,10 +46,7 @@ So suboptimal mitochondrial health equals suboptimal everything.
 
 Mitochondria are often called the powerhouse of the cell, since they approximately produce 90% of the ATP. 
 
-**Its production happens primarily through three stages:** 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Its production happens primarily through three stages:**
 
 ● Glycolysis (happens in the cytoplasm) ● The citric acid cycle (or the Krebs cycle (happens in the mitochondrial matrix)) ● Oxidative phosphorylation (happens across the mitochondrial inner membrane) 
 
@@ -71,10 +54,7 @@ Most ATP is made in the inner membrane.
 
 **Think of it like this:** 
 
- ● Glycolysis is anaerobic (no oxygen needed) and takes one glucose molecule breaks it into two 3-carbon pyruvate molecules through a 10-step enzymatic process (glucose gets two phosphates added whcich uses 2 ATP and gives us fructose-1,6-bisphosphate which splits into dihydroxyacetone phosphate and glyceraldehyde-3-phosphate, then the former also converts to G3P, so we get two G3Ps and each one is then oxidized (loses electrons to NAD⁺ and forms 2 NADH (these basically “carry” energy)). ● Finally phosphates are transferred to ADP making 4 ATP total (only 2 were used). After some shuffling, you’re left with 2 pyruvate. ● Now, we take these 2 pyruvate molecules and each one is converted to acetyl-CoA by pyruvate dehydrogenase. This process releases CO₂ and generates 2 NADH. ● Now for each acetyl-CoA, the following happens: Acetyl-CoA and oxaloacetate get together to form citrate which reshuffles into isocitrate, then isocitrate loses CO₂ and electrons, forming α-ketoglutarate and 1 NADH. Now that the first oxidation is done, we move to the second one were α-Ketoglutarate drops another CO₂, yielding succinyl-CoA and 1 NADH. Now in this critical step, succinyl-CoA transfers a phosphate to GDP (making GTP, which converts to 1 ATP). The oxidations don’t stop here and succinate becomes fumarate (1 FADH₂), then malate, then oxaloacetate (1 NADH), completing the loop. ● And we can finally talk about oxidative phosphorylation and its two parts, the electron transport chain (ETC) and chemiosmosis. The first one is a series of protein complexes (I-IV) and carriers (ubiquinone, cytochrome c) embedded in the inner mitochondrial membrane. NADH is used in Complex I and FADH₂ in Complex II. Ubiquionone also plays a critical role (Complex I → Ubiquinone (Q) → Complex III → Cytochrome c → Complex IV and at Complex IV, electrons combine with O₂ and H⁺ to form deueterium depleted H₂O (oxygen is the final electron acceptor). 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+ ● Glycolysis is anaerobic (no oxygen needed) and takes one glucose molecule breaks it into two 3-carbon pyruvate molecules through a 10-step enzymatic process (glucose gets two phosphates added whcich uses 2 ATP and gives us fructose-1,6-bisphosphate which splits into dihydroxyacetone phosphate and glyceraldehyde-3-phosphate, then the former also converts to G3P, so we get two G3Ps and each one is then oxidized (loses electrons to NAD⁺ and forms 2 NADH (these basically “carry” energy)). ● Finally phosphates are transferred to ADP making 4 ATP total (only 2 were used). After some shuffling, you’re left with 2 pyruvate. ● Now, we take these 2 pyruvate molecules and each one is converted to acetyl-CoA by pyruvate dehydrogenase. This process releases CO₂ and generates 2 NADH. ● Now for each acetyl-CoA, the following happens: Acetyl-CoA and oxaloacetate get together to form citrate which reshuffles into isocitrate, then isocitrate loses CO₂ and electrons, forming α-ketoglutarate and 1 NADH. Now that the first oxidation is done, we move to the second one were α-Ketoglutarate drops another CO₂, yielding succinyl-CoA and 1 NADH. Now in this critical step, succinyl-CoA transfers a phosphate to GDP (making GTP, which converts to 1 ATP). The oxidations don’t stop here and succinate becomes fumarate (1 FADH₂), then malate, then oxaloacetate (1 NADH), completing the loop. ● And we can finally talk about oxidative phosphorylation and its two parts, the electron transport chain (ETC) and chemiosmosis. The first one is a series of protein complexes (I-IV) and carriers (ubiquinone, cytochrome c) embedded in the inner mitochondrial membrane. NADH is used in Complex I and FADH₂ in Complex II. Ubiquionone also plays a critical role (Complex I → Ubiquinone (Q) → Complex III → Cytochrome c → Complex IV and at Complex IV, electrons combine with O₂ and H⁺ to form deueterium depleted H₂O (oxygen is the final electron acceptor).
 
 **Or you can think of it like this: Production of ATP requires 2 major steps:** 
 
@@ -92,10 +72,7 @@ NADH or FADH2 are oxidized to NAD+ or FAD while protons are pumped to the interm
 
 **The synthesis of ATP is done through the citric acid cycle which uses glucose, pyruvate and NADH as the input molecules.** 
 
-Before we talk about the citric acid cycle, we need to talk about glycolysis and **pyruvate oxidation** which **is the step between glycolysis and the citric acid cycle.** 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Before we talk about the citric acid cycle, we need to talk about glycolysis and **pyruvate oxidation** which **is the step between glycolysis and the citric acid cycle.**
 
 **Glycolysis** occurs in the cytoplasm and is one method that cells use to produce energy in which glucose is partially broken down by cells in enzyme reactions that do not need oxygen and is the first step in the breakdown of glucose to extract energy for cellular metabolism. 
 
@@ -107,10 +84,7 @@ Glycolysis is a series of reactions that extract energy from glucose by splittin
 
 The free energy released in this process is used to form the high-energy molecules adenosine triphosphate (ATP) and reduced nicotinamide adenine dinucleotide (NADH). 
 
-In anaerobic conditions pyruvate is converted to lactic acid and this is why even though glycolysis provides some usable energy, it provides less than oxidation provides. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+In anaerobic conditions pyruvate is converted to lactic acid and this is why even though glycolysis provides some usable energy, it provides less than oxidation provides.
 
 The chemical process in which oxygen is used to make energy from carbohydrates on the other hand is called **oxidative metabolism** or aerobic metabolism. 
 
@@ -130,12 +104,7 @@ A Major function of OXPHOS is to consume NADH and recycle NAD+ to reduce “redu
 
 Thus OXPHOS defects will not only cause reduction in ATP production but also decrease the production of aspartate which is a limiting metabolite for cell proliferation. 
 
-Mitochondria and the OXPHOS are not only responsible for production of high-energy phosphates, such as ATP and phosphocreatine, but are also involved in a variety of cellular 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
-
-processes, including calcium homeostasis, cAMP/protein kinase A (PKA) signaling, inflammation, reactive oxygen species (ROS) production, and apoptosis. 
+Mitochondria and the OXPHOS are not only responsible for production of high-energy phosphates, such as ATP and phosphocreatine, but are also involved in a variety of cellular processes, including calcium homeostasis, cAMP/protein kinase A (PKA) signaling, inflammation, reactive oxygen species (ROS) production, and apoptosis. 
 
 Therefore, it is not surprising that multifaceted OXPHOS dysfunctions, originating from both genetic (maternal, or mendelian inheritance) and environmental influences, have been reported in many diseases and disorders, including neuropsychiatric disorders such as Alzheimer and Parkinson diseases, schizophrenia (SCZ), and bipolar disorder. (Pyruvic acid also has brain protective effects through its decarboxylation). 
 
@@ -163,10 +132,7 @@ NAD will take the electron that became available through the above process for u
 
 So NADH is the product and NAD the reactant. 
 
-Now acetyl’s destination is the mitochondria. In order for this to happen, CoA will bind to acetyl and is going to produce acetyl-CoA which can now be accepted by the membrane of the mitochondria and now we can start the next step which is the citric acid cycle. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Now acetyl’s destination is the mitochondria. In order for this to happen, CoA will bind to acetyl and is going to produce acetyl-CoA which can now be accepted by the membrane of the mitochondria and now we can start the next step which is the citric acid cycle.
 
 So, pyruvic acid supplies energy to cells through the citric acid cycle (Krebs cycle) when oxygen is present (aerobic respiration), and alternatively ferments to produce lactate when oxygen is lacking. 
 
@@ -178,10 +144,7 @@ Four molecules of ATP per glucose are actually produced, but two are consumed as
 
 The initial phosphorylation of glucose is required to increase the reactivity (decrease its stability) in order for the molecule to be cleaved into two pyruvate molecules by the enzyme aldolase. 
 
-During the pay-off phase of glycolysis, four phosphate groups are transferred to ADP by substrate-level phosphorylation to make four ATP, and two NADH are produced when the pyruvate is oxidized. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+During the pay-off phase of glycolysis, four phosphate groups are transferred to ADP by substrate-level phosphorylation to make four ATP, and two NADH are produced when the pyruvate is oxidized.
 
 **The overall reaction can be expressed this way:** 
 
@@ -193,10 +156,7 @@ Glycogen can be converted into glucose 6-phosphate as well with the help of glyc
 
 During energy metabolism, glucose 6-phosphate becomes fructose 6-phosphate. An additional ATP is used to phosphorylate fructose 6-phosphate into fructose 1,6-bisphosphate by the help of phosphofructokinase. 
 
-Fructose 1,6-bisphosphate then splits into two phosphorylated molecules with three carbon chains which later degrades into pyruvate. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Fructose 1,6-bisphosphate then splits into two phosphorylated molecules with three carbon chains which later degrades into pyruvate.
 
 Moving on to the citric acid cycle. 
 
@@ -210,10 +170,7 @@ The citric acid cycle harnesses the available chemical energy of acetyl coenzyme
 
 Here are some of the basic steps of the cycle. 
 
-● Step 1: The cycle begins with an enzymatic aldol addition reaction of acetyl CoA to oxaloacetate, forming citrate which is isomerized by a dehydration-hydration sequence to yield (2R,3S)-isocitrate. ● Step 2: Citrate is converted to isocitrate. ● Step 3: Isocitrate is oxidized to alpha-ketoglutarate which results in the release of carbon dioxide. One NADH molecule is then formed. ● Step 4: Alpha-ketoglutarate is oxidized to form a 4 carbon molecule in order to bind to coenzyme A, forming succinyl CoA. A second molecule of NADH and CO2 are then being produced. ● Step 5: Succinyl CoA is then converted to succinate and one GTP molecule is produced. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+● Step 1: The cycle begins with an enzymatic aldol addition reaction of acetyl CoA to oxaloacetate, forming citrate which is isomerized by a dehydration-hydration sequence to yield (2R,3S)-isocitrate. ● Step 2: Citrate is converted to isocitrate. ● Step 3: Isocitrate is oxidized to alpha-ketoglutarate which results in the release of carbon dioxide. One NADH molecule is then formed. ● Step 4: Alpha-ketoglutarate is oxidized to form a 4 carbon molecule in order to bind to coenzyme A, forming succinyl CoA. A second molecule of NADH and CO2 are then being produced. ● Step 5: Succinyl CoA is then converted to succinate and one GTP molecule is produced.
 
 ● Step 6: Succinate is converted into fumarate and a molecule of FADH is produced. ● Step 7: Fumarate is converted to malate. ● Step 8: Malate is then converted into oxaloacetate. ● The third molecule of NADH is also produced. 
 
@@ -233,10 +190,7 @@ By using our common sense, we very quickly arrive to the realization that we nee
 
 Oxidative stress and mitochondrial damage have been implicated in the pathogenesis of every metabolic disease (it does not matter if we are talking about premature aging, T2D or infertility). 
 
-Oxidative stress basically is the overproduction of reactive oxygen species (ROS), which can induce mitochondrial damage (DNA mutations, influence Ca2+ homeostasis, damage the respiratory chain, the defense system, alter membrane permeability in general and so on). 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Oxidative stress basically is the overproduction of reactive oxygen species (ROS), which can induce mitochondrial damage (DNA mutations, influence Ca2+ homeostasis, damage the respiratory chain, the defense system, alter membrane permeability in general and so on).
 
 Calcium homeostasis refers to the maintenance of a constant concentration of calcium ions in the extracellular fluid. 
 
@@ -256,10 +210,7 @@ These molecules are particularly effective in scavenging lipid peroxyl radicals 
 
 Cumulative oxidative injuries to mitochondria, triggered by endogenous metabolic processes and/or exogenous oxidative influences, cause mitochondria to progressively become less efficient. 
 
-As mitochondria progressively lose their functional integrity, ever-greater proportions of oxygen molecules reaching them are converted to ROS. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+As mitochondria progressively lose their functional integrity, ever-greater proportions of oxygen molecules reaching them are converted to ROS.
 
 So the numerous and disparate mitochondrial functions include the synthesis of most of the ATP present in the cell, apoptosis, ion homeostasis, cellular stress response, antioxidant control, redox regulation, mitophagy and the involvement in various biosynthetic pathways. 
 
@@ -281,10 +232,7 @@ Free radicals are a natural byproduct of metabolic reactions and of exercise, it
 
 However, **too many free radicals and not enough protection from antioxidants creates a situation called oxidative stress.** 
 
-Free radical development is unavoidable, but we have adapted to them by setting up and maintaining defense mechanisms that reduce their impact. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Free radical development is unavoidable, but we have adapted to them by setting up and maintaining defense mechanisms that reduce their impact.
 
 **The body’s two major defense systems are free radical detoxifying enzymes** which are responsible for protecting the insides of cells from free radical damage **and antioxidants** which act both inside and outside of cells and block free radicals from stealing electrons by donating one to them. 
 
@@ -312,10 +260,7 @@ The body can synthesize some antioxidants, but others must be obtained from the 
 
 **Antioxidant vitamins** (Vitamin E, Vitamin C) donate their electrons to free radicals to stabilize them. 
 
-**Antioxidant phytochemicals** (beta-carotene and other carotenoids) may inhibit the oxidation of lipids or donate electrons. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Antioxidant phytochemicals** (beta-carotene and other carotenoids) may inhibit the oxidation of lipids or donate electrons.
 
 **Antioxidant minerals** act as cofactors within complex antioxidant enzyme systems (superoxide dismutases, catalase, glutathione peroxidases described earlier) to convert free radicals to less damaging substances that can be excreted. 
 
@@ -345,10 +290,7 @@ It also enhances the dilation of blood vessels and inhibits blood clot formation
 
 These foods should not be paired with foods high in iron since this increases oxidative stress (more about unbound iron later). 
 
-**Function:** Protects DNA, RNA, proteins and lipids and aids in regenerating vitamin E. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Function:** Protects DNA, RNA, proteins and lipids and aids in regenerating vitamin E.
 
 Vitamin C, is a water-soluble vitamin essential in the diet for humans. Interestingly, most other mammals can readily synthesize vitamin C and don’t require it in their diets. 
 
@@ -374,10 +316,7 @@ Selenium is an essential trace mineral that is part of the structure of at least
 
 As part of antioxidant enzymes, selenium helps to regenerate other antioxidants, including vitamin C. 
 
-These enzymes also protect lipids from free radicals, and, in doing so, spare vitamin E. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+These enzymes also protect lipids from free radicals, and, in doing so, spare vitamin E.
 
 This also illustrates how antioxidants work together to protect the body against free radical-induced damage. 
 
@@ -407,10 +346,7 @@ First, immune cells engulf an invader, then they expose it to free radicals such
 
 Free radicals are necessary for many other bodily functions as well. 
 
-The body creates free radicals through the normal processes of metabolism (i.e., turning food into usable energy/ATP). 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+The body creates free radicals through the normal processes of metabolism (i.e., turning food into usable energy/ATP).
 
 When the amount of free radicals exceeds the body’s ability to eliminate or neutralize them, an oxidative imbalance results. 
 
@@ -440,10 +376,7 @@ Free radical formation occurs continuously in the cells as a consequence of both
 
 **1)Consume sulfur rich foods** such as fish, beef, onions, garlic, shallots and organic broccoli once in a while after you’ve healed your gut. 
 
-**2)Consume vitamin C and E rich foods.** Vitamin C maintains the body’s supply of antioxidants, including glutathione and helps reprocess glutathione by converting oxidized glutathione back to its active form. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**2)Consume vitamin C and E rich foods.** Vitamin C maintains the body’s supply of antioxidants, including glutathione and helps reprocess glutathione by converting oxidized glutathione back to its active form.
 
 **3)Consume selenium rich foods.** Selenium is a glutathione cofactor, meaning it’s a substance needed for glutathione activity and will lead to increased glutathione peroxidase levels. 
 
@@ -469,10 +402,7 @@ If you don’t have any kidney issues, mixing organic cacao with some grass fed 
 
 Also, factors like **stress** can put pressure on the antioxidant system by generating higher levels of free radicals so try to avoid stress as well if possible by not overworking yourself, overexercising or doing extreme diets. 
 
-So far, we briefly talked about mitochondria, how the dysregulation of the antioxidant response leads to mitochondrial dysfunction and what we can do about it. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+So far, we briefly talked about mitochondria, how the dysregulation of the antioxidant response leads to mitochondrial dysfunction and what we can do about it.
 
 When the rate of ROS production exceeds cellular antioxidant capacity, the ensuing oxidative stress damages vital components of the cell, resulting in oxidation of membranes, proteins, and nucleic acids. 
 
@@ -498,10 +428,7 @@ In order to properly detox from PUFAs make sure to read the PUFA detox guide at 
 
 **Number 3:** Heavy metals 
 
-Mitochondria are the first target sites for a variety of heavy metals. They alter mitochondrial membrane permeability and generate increased amounts of reactive oxygen species (ROS) 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Mitochondria are the first target sites for a variety of heavy metals. They alter mitochondrial membrane permeability and generate increased amounts of reactive oxygen species (ROS)
 
 which causes damage to the mitochondrial respiratory chain, oxidative phosphorylation decoupling, ATP synthesis disorders and mitochondrial apoptosis. 
 
@@ -531,10 +458,7 @@ C) Stop consuming nitric oxide products and pump enhancers.
 
 D) Make sure that you get enough sunlight. 
 
-E) Optimize CO2 as it will be demonstrated on the next module. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+E) Optimize CO2 as it will be demonstrated on the next module.
 
 F) Lower exposure to blue light (crucial) 
 
@@ -574,10 +498,7 @@ Besides this, estrogen create a mirriad of health problems.
 
 12) Lower the seizure threshold of nerve cells. 
 
-13) Can cause dementia. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+13) Can cause dementia.
 
 14) Were even identified as a carcinogen. 
 
@@ -611,10 +532,7 @@ Estriol makes up 80-90% of the circulating estrogen, it is way weaker than E1 an
 
 So, what’s the plan of action? 
 
-**Step 1:** Avoiding phytoestrogens and other things that increase estrogen exposure, such as protein deficiency. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Step 1:** Avoiding phytoestrogens and other things that increase estrogen exposure, such as protein deficiency.
 
 First of all, phytoestrogens are xenoestrogens. 
 
@@ -644,10 +562,7 @@ Some common problems that phytoestrogens produce include:
 
 11. Insomnia 
 
-12. Hot flashes 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+12. Hot flashes
 
 The 4 phenolic compounds classified as phytoestrogens are: 
 
@@ -669,10 +584,7 @@ And last but not least:
 
 Which can be found in flaxseeds, pumpkin seeds, sunflower seeds, sesame seeds, grains such as rye, oats and barley, bran, beans, tea, coffee and wine. 
 
-Phytoestrogens can also activate serotonergic receptors resulting in mental problems. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Phytoestrogens can also activate serotonergic receptors resulting in mental problems.
 
 Now of course, not all phytoestrogens affect us the same way. 
 
@@ -694,10 +606,7 @@ Then soybeans have a higher concentration of phytic acid than any other grain or
 
 So soy can also cause deficiencies in calcium, magnesium zinc and even vitamin D. 
 
-Things that most people today are deficient in to begin with. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Things that most people today are deficient in to begin with.
 
 Soy contains trypsin inhibitors that inhibit protein digestion, growth and affect pancreatic function. 
 
@@ -729,10 +638,7 @@ Cold pressed blackseed oil mainly and some organic sprouted nuts that will be de
 
 **Step 5:** Use some safe anti estrogenic compounds such as saturated fats from coconut oil, cocoa butter, grass fed tallow and so on, glycine, magnesium, taurine, B vitamins (start with ⅓ of the recommended dose when it comes to any supplement and do not use supplements with bad additives such as silicon, cornstarch, artificial sweeteners and so on). 
 
-**Step 6:** Optimize gut health. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Step 6:** Optimize gut health.
 
 **Step 7:** After making sure that you have enough vitamin A (retinol), magnesium, zinc and K2 in your system, short term pregnenolone, DHEA and progesterone (only natural progesterone and only diluted in vitamin E) can also be beneficial. 
 
@@ -756,10 +662,7 @@ Stress inevitably leads to a deficiency of all of the steroid protective hormone
 
 Stress and ROS are very connected so when you find yourself under situations of extreme stress it will be very useful to re-read that part. 
 
-Avoiding alcohol, getting plenty of sleep, not fasting extensively (daily fasting for more than 12-14 hours), plenty of grounding, optimizing GABA as it will be demonstrated on the next module, minimizing exposure to nnEMF, balancing the amino acid profile of one’s diet as will be demonstrated in lesson2, not following extreme diets and making sure that one does not over-exercise(*) in order to not trigger the production of too much lactic acid (if you live your workouts burn out, you overdid it), making sure that you get enough magnesium, bioavailable protein, zinc and glycine will all be crucial in order to restore metabolic health by lowering stress hormones. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Avoiding alcohol, getting plenty of sleep, not fasting extensively (daily fasting for more than 12-14 hours), plenty of grounding, optimizing GABA as it will be demonstrated on the next module, minimizing exposure to nnEMF, balancing the amino acid profile of one’s diet as will be demonstrated in lesson2, not following extreme diets and making sure that one does not over-exercise(*) in order to not trigger the production of too much lactic acid (if you live your workouts burn out, you overdid it), making sure that you get enough magnesium, bioavailable protein, zinc and glycine will all be crucial in order to restore metabolic health by lowering stress hormones.
 
 Glycine modulates the cytokines that are involved in many inflammatory diseases and will also help you manage NO production. 
 
@@ -787,10 +690,7 @@ Thiamine prevents lactic acid build up (*) and coconut oil contains palmitic aci
 
 Excess lactic acid can be “treated” by poisoning glycolysis by using dichloroacetic acid and increasing the oxidation of glucose. 
 
-Well, things such as thiamine, biotin and thyroid, increase the oxidation of glucose as well but way more safer and more effectively. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Well, things such as thiamine, biotin and thyroid, increase the oxidation of glucose as well but way more safer and more effectively.
 
 This is why a B vitamin deficiency is directly linked to lactic acidosis. 
 
@@ -816,12 +716,7 @@ We can not have optimal metabolic health without a healthy thyroid.
 
 **Number 2:** Sunlight Simply by paying attention to nature and seeing that everything starts to flourish in spring and die in autumn, should give us a hint of how sunlight supports life and its expansion. 
 
-But nowadays people are told to avoid the sun. They are told to avoid the thing that gives life to everything on this planet, the thing that regulates our circadian rhythm and so every metabolic process, the thing that can double their testosterone levels and significantly improve insulin resistance (in modern environments if one is not getting any sunlight, the overexposure to blue light is enough to cause problems with glucose metabolism), researchers completely ignore a lot of the time that there are light-sensitive protein on fat cells, that a lack of sunlight suppresses thyroid hormone productions (and thus harms our 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
-
-metabolic health like very few things) and progesterone, they ignore that most people are deficient in precious vitamin D which is also critical for our hormonal health and in general there is a lot of propaganda that is going on against the sun. 
+But nowadays people are told to avoid the sun. They are told to avoid the thing that gives life to everything on this planet, the thing that regulates our circadian rhythm and so every metabolic process, the thing that can double their testosterone levels and significantly improve insulin resistance (in modern environments if one is not getting any sunlight, the overexposure to blue light is enough to cause problems with glucose metabolism), researchers completely ignore a lot of the time that there are light-sensitive protein on fat cells, that a lack of sunlight suppresses thyroid hormone productions (and thus harms our metabolic health like very few things) and progesterone, they ignore that most people are deficient in precious vitamin D which is also critical for our hormonal health and in general there is a lot of propaganda that is going on against the sun. 
 
 It is in fact true that since our skin is made out of the things that we eat, if a person’s diet consists of pro-inflammatory fats like vegetable oils, it ignores the hormetic effect of the sun (one must gradually build up to the amount that he exposes his skin to sunlight) and is contributing to the excess creation of ROS by drinking alcohol on a regular basis, smoking and never grounding, he can of course encounter skin cancer. 
 
@@ -833,10 +728,7 @@ But the sun by itself does not cause cancer and without daily exposure to even n
 
 **Don’t forget that B vitamins are essential in the citric acid cycle.** 1) Thiamine (B1) is essential for TPP. 2) Riboflavin (B2) is essential for FAD. 3) Niacin (B3) is essential for NAD. 4) Pantothenic acid is essential for CoA. 
 
-The following graph demonstrates how each one of the B vitamins impacts energy production. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+The following graph demonstrates how each one of the B vitamins impacts energy production.
 
 In any metabolic disease, it does not matter if it’s cancer or T2D, the ability of mitochondria to oxidize sugar is lost to a degree. B vitamins are water soluble vitamins that most people are deficient in nowadays (both due to a lack of them in their diet, their depletion though means such as alcohol but also due to environmental factors such as stress) but they are necessary for glucose metabolism. B vitamins such as B3 also support glucose metabolism by lowering free fatty acid and further supporting sugar oxidation. 
 
@@ -846,10 +738,7 @@ How to properly restore B vitamins is properly addressed on the part of optimizi
 
 Progesterone is the actual female hormone and not estrogen. For example, estrogen can cause miscarriages while progesterone can greatly prevent them. 
 
-We all have progesterone receptors so this hormone is not only important for women, in fact, a great part of testosterone is derived from progesterone. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+We all have progesterone receptors so this hormone is not only important for women, in fact, a great part of testosterone is derived from progesterone.
 
 We have many progesterone receptors in our brain(*), lungs, liver, bones, skin, hair follicles, lungs and in case you are a woman, in the uterus. 
 
@@ -867,10 +756,7 @@ Then, vitamin A and saturated fats such as coconut oil are essential in order fo
 
 When it comes to supplementing progesterone, typically, it is safer to start with pregnenolone first especially if you are a man. 
 
-In order to safely supplement both there are 2 critical prerequisites. 1)Make sure that you have enough vitamin A (retinol) in your system. This means that in case organ meats were not a part of your diet, you need to focus on consuming them (do not over do it) for 3-5 weeks before supplementing any of these. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+In order to safely supplement both there are 2 critical prerequisites. 1)Make sure that you have enough vitamin A (retinol) in your system. This means that in case organ meats were not a part of your diet, you need to focus on consuming them (do not over do it) for 3-5 weeks before supplementing any of these.
 
 2) Make sure that you have enough calcium, its regulators (magnesium, vitamin D and vitamin K for the most part) and zinc in your system by following any diet plan that will be recommended in this program for 3-5 weeks. 
 
@@ -892,10 +778,7 @@ So carbohydrates are pro-metabolic, however, **when we increase metabolic activi
 
 You can’t increase the metabolic activity and not experience side effects in case you are nutrient depleted. Replenish the nutrients first as you will see in this program and reintroduce the right type of carbs as it will be demonstrated. 
 
-**Number 5:** Saturated fats 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Number 5:** Saturated fats
 
 Compounds such as stearic acid that can be found in saturated fats, promote mitochondrial fusion (mitochondrial fusion is necessary for cell survival and for the movement of mitochondria within neurons). 
 
@@ -919,10 +802,7 @@ Taurine has been used for years to treat cystic fibrosis, Alzheimer disease, car
 
 Taurine also greatly supports glucose metabolism and if one’s metabolism is not at the condition that he would like, along with B vitamins, taurine can greatly help with restoring sugar oxidation. Taurine regulates the expression of insulin receptor IRS1 and glucose transporter type 4 (GLUT4) which are involved in the insulin signaling pathway and glucose metabolism but it also regulates glucagon, and somatostatin. 
 
-From successfully reducing triglycerides and unbound iron all the way to preventing obesity, taurine is a great overall supplement. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+From successfully reducing triglycerides and unbound iron all the way to preventing obesity, taurine is a great overall supplement.
 
 In the case that someone breaks out (not in hives, small pimples) or he smells funny after taking thiamine or taurine, this is a sign of excess unbound iron (unbound iron is so dangerous that it is excreted through the skin in order to not damage the organs) and needs to be immediately addressed as demonstrated on the part of heavy metal detox. 
 
@@ -944,12 +824,7 @@ When it comes to vitamin K, it will greatly improve our gut health and our metab
 
 Stress, working out fasted and constipation cause increased endotoxin leakage from the gut and absorption to the blood. 
 
-When it comes to CoQ10 you might have heard about its heart protective effects but CoQ10 is an essential component of the mitochondrial electron transport chain as well (this is why 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
-
-it probably is one of the most undervalued lipid soluble antioxidants as well) but also plays a key role in mitochondrial oxidative phosphorylation. 
+When it comes to CoQ10 you might have heard about its heart protective effects but CoQ10 is an essential component of the mitochondrial electron transport chain as well (this is why it probably is one of the most undervalued lipid soluble antioxidants as well) but also plays a key role in mitochondrial oxidative phosphorylation. 
 
 CoQ10 is also involved in the regeneration of the antioxidants vitamin C and E besides being a mediator of inflammation in general and plays a role in cholesterol metabolism so a CoQ10 deficiency negatively affects steroidogenesis. 
 
@@ -971,10 +846,7 @@ Methylene blue is a great metabolic enhancer but it obviously needs to be cycled
 
 **Number 13:** Aspirin 
 
-Aspirin stimulates mitochondrial respiration, can promote normal cell division, activates glycolysis, increases CO2 and has anti-estrogenic effects. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Aspirin stimulates mitochondrial respiration, can promote normal cell division, activates glycolysis, increases CO2 and has anti-estrogenic effects.
 
 Disclaimer: Aspirin is a very tricky substance in the modern day and age because: a) a lot of people have taken medication such as accutane which overload the pancreas and if they consume aspirin a lot of negative side effects can be expected, b) the additives that aspirin contains have changed the last years and c)most people are deficient in vitamin K (both K1 and K2). 
 
@@ -996,10 +868,7 @@ Inadequate sleep, even moderate reductions for just one week, disrupts blood sug
 
 HRR analysis showed that sleep deprivation affected mitochondrial bioenergetics capacity, decreasing respiration at oxidative phosphorylation (OXPHOS) and electron transport system (ETS). 
 
-In addition, the expression of genes involved in the response to oxidative stress and apoptosis were increased. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+In addition, the expression of genes involved in the response to oxidative stress and apoptosis were increased.
 
 Sleep is intricately connected to various hormonal and metabolic processes in the body and is important in maintaining metabolic homeostasis. 
 
@@ -1053,10 +922,7 @@ Many research has shown that sleep deprivation and sleep disorders have profound
 
 If you encounter any of the above, ask yourselves if your sleep is in optimal condition. 
 
-If someone told you that he invented a pill that can help you prevent all of the above and makes you 3 times more productive, you would pay good money for it. Yet sleep is something completely free with the ability to transform your health and every aspect of your life. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+If someone told you that he invented a pill that can help you prevent all of the above and makes you 3 times more productive, you would pay good money for it. Yet sleep is something completely free with the ability to transform your health and every aspect of your life.
 
 It is more effective than any antidepressant, any diabetes medication, any nootropic, any anabolic steroid, any anti-aging cream or procedure, any fat loss people, any testosterone booster and any gut healing supplement since even short term insomnia by itself can cause a leaky gut. 
 
@@ -1072,10 +938,7 @@ If you think that you are sleeping fine ask yourselves the following 3 questions
 
 If the answer to any of this is no, then there’s room for improvement and these are good news because it means that you can massively improve your health completely for free. 
 
-Now sleep is controlled by two processes: circadian and homeostatic. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Now sleep is controlled by two processes: circadian and homeostatic.
 
 During waking hours, the sleep drive gradually increases until it reaches a critical threshold. This drive is referred to as homeostatic. 
 
@@ -1087,10 +950,7 @@ Disturbance of this well-regulated circadian rhythm and homeostatic drive (circa
 
 Shift work disorder is one of the circadian rhythm disorders which have been a focus of large epidemiological studies for its potential implications on health. 
 
-A Swedish study followed shift workers for 15 years and reported increased relative risk for ischemic heart disease (RR = 2.8) as compared to daytime workers independent of smoking and age with similar socioeconomic background. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+A Swedish study followed shift workers for 15 years and reported increased relative risk for ischemic heart disease (RR = 2.8) as compared to daytime workers independent of smoking and age with similar socioeconomic background.
 
 More recent studies have suggested that shift work is the most significant source of ischemic heart disease accounting for over 10% of mortality in men and over 5% in women. 
 
@@ -1102,10 +962,7 @@ Circadian misalignment suggests its role, albeit unclear, in metabolic dysregula
 
 So, a lot of people today experience sleep problems and the problem is usually a dysregulated CR (circadian rhythm). 
 
-This is one of the reasons why despite the fact that tips about sleep can help some people sleep, it usually does not help them get deep restful sleep because they don’t address the circadian rhythm. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+This is one of the reasons why despite the fact that tips about sleep can help some people sleep, it usually does not help them get deep restful sleep because they don’t address the circadian rhythm.
 
 So let’s see how to optimize it with the 12 steps i’ve shared with clients over the years. 
 
@@ -1119,10 +976,7 @@ I suggest you focus on truly optimizing your sleep for one week straight before 
 
 **Step 2:** Do not look at any artificial light as soon as you wake up, have a glass of filtered water, a pinch of sea salt and either go for a walk around the block, or do some breathing exercises from your balcony. 
 
-If you can, sun gaze for a few seconds as well. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+If you can, sun gaze for a few seconds as well.
 
 **Step 3:** Eat something that includes animal protein, salt, fruit and some saturated fats. You will see a lot of breakfast ideas soon. 
 
@@ -1132,19 +986,13 @@ A combination popularized by the fitness industry which has led to thousands of 
 
 People today “fast” with poor quality espresso to the point of developing IBS, not to mention the rise of cortisol and adrenaline which further damages their metabolic health. 
 
-Also short-term fasting reduces blood melatonin levels by even up to 30% in some cases so if you are experiencing insomnia or improper sleep, ask yourself if you are skipping breakfast. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Also short-term fasting reduces blood melatonin levels by even up to 30% in some cases so if you are experiencing insomnia or improper sleep, ask yourself if you are skipping breakfast.
 
 **Step 4:** Do not check any electronic devices if you don’t HAVE to (more about blue light in a second). 
 
 Yes, blue light exposure in the morning is important for a regulated circadian rhythm, BUT, a combination of red light and blue light (the way natural light exists) should be the first thing stimulating your photoreceptors and not man made blue light. 
 
-If you want to take this a step further, keep in mind that this is optional and not necessary, exposing yourself first thing in the morning to red light from a red light device will speed up the process of resetting your circadian rhythm even further. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+If you want to take this a step further, keep in mind that this is optional and not necessary, exposing yourself first thing in the morning to red light from a red light device will speed up the process of resetting your circadian rhythm even further.
 
 **Step 5:** Either eliminate or minimize your caffeine consumption to 1 cup before 11 A.M either consumed with a meal or with fats, some carbs and protein. 
 
@@ -1156,10 +1004,7 @@ It is a fact that since most people today have never taken anything close to a b
 
 **Step 6:** a) workout without burning yourself out and b) workout as early in the day as you can (you will see workout splits soon). 
 
-A common cause for sleep problems is over training which is surprisingly quite common to the people who are regular gym goers. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+A common cause for sleep problems is over training which is surprisingly quite common to the people who are regular gym goers.
 
 You do not need to train for 5 hours. You are raising your cortisol and adrenaline levels way too much in order not to face sleep problems. 
 
@@ -1173,10 +1018,7 @@ Even 30 minutes in total can massively help you.
 
 **Step 10:** Get done eating dinner 3 hours before bed and have a fruit + protein snack 45 minutes to 1 hour pre bed. Melatonin peaks around 12AM1AM so the ideal time to go to sleep would be 10-10:30. Melatonin optimization should never be neglected since it is an antioxidant even more powerful than glutathione and suboptimal melatonin regulation will result in severe catabolism of the nervous system. 
 
-One of the best things that you can do for your nervous system and your productivity, is to make sure that you are sleeping when 12A.M arrives. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+One of the best things that you can do for your nervous system and your productivity, is to make sure that you are sleeping when 12A.M arrives.
 
 **Step 11:** Turn the WiFi off (it is important to limit nnEMF exposure especially when sleeping) and unplug every unnecessary device. 
 
@@ -1196,10 +1038,7 @@ The thyroid is a 2-inch-long gland which weighs less than 1 ounce and is located
 
 It has two lobes, one on each side of the windpipe which leads to its “butterfly” shape. 
 
-he thyroid is one of the glands that make up the endocrine system. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+he thyroid is one of the glands that make up the endocrine system.
 
 The glands of the endocrine system produce and store hormones and release them into the bloodstream. 
 
@@ -1233,10 +1072,7 @@ Sign #4: Thinning hair ( which is very different than hair loss)
 
 Sign #5: Dry skin 
 
-Sign #6: High LDL 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Sign #6: High LDL
 
 Sign #7: Insomnia 
 
@@ -1268,10 +1104,7 @@ Now in most cases hypothyroidism can be completely controlled with the right lif
 
 I don’t recommend you start supplementing T3 since i find it ridiculous. These products are heavily overdosed and very few people actually need it. 
 
-Also synthetic thyroxine which is what is prescribed in most cases (T4 instead of T3) tends to harm the liver even more. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Also synthetic thyroxine which is what is prescribed in most cases (T4 instead of T3) tends to harm the liver even more.
 
 (I am not against it though if combined properly with T3 for the rare cases that need T3) 
 
@@ -1307,10 +1140,7 @@ The same thing again implies for our bodies.
 
 It does not matter what your nutrition looks like. 
 
-If you provide too much fuel, you will end up harming your metabolism and just as a fire will create a ton of smoke, so will our body (create a ton of toxic by products). 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+If you provide too much fuel, you will end up harming your metabolism and just as a fire will create a ton of smoke, so will our body (create a ton of toxic by products).
 
 So, in order to heal our metabolism we must first realize that as a fire needs the right fuel in the right amount, so does our metabolism. 
 
@@ -1340,10 +1170,7 @@ So, the conversion problem is what needs to be addressed first in order to optim
 
 **Which are the most common things that cause conversion problems and how can we address them?** 
 
-**Number 1: Not enough thyroid supportive nutrients in the diet** 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Number 1: Not enough thyroid supportive nutrients in the diet**
 
 These are: 
 
@@ -1373,10 +1200,7 @@ Best sources of vitamin C are berries, camu camu, acerola cherry (personal favor
 
 The thyroid hormone itself is an iodine containing protein. 
 
-We recycle a TON of iodine every day and you should NOT supplement iodine. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+We recycle a TON of iodine every day and you should NOT supplement iodine.
 
 The best sources for iodine are some seaweed every once in a while, cod and shrimp. 
 
@@ -1406,10 +1230,7 @@ The best sources of calcium (make sure you get enough sunlight) are raw dairy, b
 
 Carbohydrates are the most efficient source of energy we humans have access to and some cells in the body can only run on carbohydrates. 
 
-The liver can function optimally only when there are sufficient energy stores of glycogen. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+The liver can function optimally only when there are sufficient energy stores of glycogen.
 
 If you go low carb for years, your thyroid will get destroyed since your liver won’t have enough glucose to convert T4 into T3 and since 70% of this conversion happens only in the liver you will experience hypothyroidism and suboptimal metabolic health. 
 
@@ -1437,10 +1258,7 @@ Honeycomb has royal jelly (which will help men convert DHEA into testosterone fa
 
 From fighting infections to improving heart health, honeycomb is a true superfood that should be consumed once or twice a week (don’t over do it) preferably post workout. 
 
-**Number 3: Gut issues** 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Number 3: Gut issues**
 
 Part of deiodination happens in the small intestines, so an unhealthy gut will directly affect our thyroid performance and our metabolism. This happens because thyroid hormone in a healthy gut reacts with acetic acid which activates it and transforms T4 into T3. 
 
@@ -1458,10 +1276,7 @@ Imagine that NAD(P)+/NAD(P)H represents the switching hub that controls prooxida
 
 The redox status can be defined as the balance between oxidants (or pro-oxidants) and antioxidants. 
 
-Oxidants, including free radicals and other reactive species, are continuously produced in the cell. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Oxidants, including free radicals and other reactive species, are continuously produced in the cell.
 
 As it is impossible to completely prevent oxidant production, several antioxidant systems have evolved in the cell. 
 
@@ -1471,10 +1286,7 @@ In order to maintain a healthy status, oxidants and antioxidants should be in eq
 
 Oxidative stress is involved in the physiopathology of several diseases, including cardiovascular disease, cancer, diabetes, and many others. 
 
-Oxidative stress compounds conversion problems and hypothyroidism is in general a state of increased oxidative stress. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Oxidative stress compounds conversion problems and hypothyroidism is in general a state of increased oxidative stress.
 
 The way to address this is to optimize NAD+ homeostasis and support glutathione. 
 
@@ -1490,10 +1302,7 @@ Without these, NAD+ homeostasis is impossible and since NAD’s function in the 
 
 Without NAD+, the gap between eating food and using it as energy can not be covered. 
 
-BUT, healing the gut is a non negotiable if someone wants his body to be able to properly absorb niacin (and every other nutrient). 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+BUT, healing the gut is a non negotiable if someone wants his body to be able to properly absorb niacin (and every other nutrient).
 
 No matter the dietary niacin amounts that someone might consume, if his gut health is suboptimal, the niacin levels in his body will be insufficient and thus the NAD levels will be as well (again, niacin is needed to form NAD). 
 
@@ -1515,10 +1324,7 @@ Do not ignore these.
 
 **Rule 2:** Never supplement niacin on an empty stomach. 
 
-In order for niacin supplementation to improve our metabolic rate, we need to supply the nutrients required to run the kynurenine pathway and ignite the metabolism before consuming niacinamide in a supplemental form. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+In order for niacin supplementation to improve our metabolic rate, we need to supply the nutrients required to run the kynurenine pathway and ignite the metabolism before consuming niacinamide in a supplemental form.
 
 An example of a meal that could be eaten in order to optimize the utilization of supplemental niacin is free range eggs cooked in coconut oil, seasonal fruit, some beta carotene from pumpkin or squash, a small piece of honeycomb and some taurine (taurine directly increases conversion of tryptophan to niacinamide) or in case you want to drink coffee, a small cup of coffee. 
 
@@ -1544,10 +1350,7 @@ Lower glutathione levels appear to go hand-in-hand with poor thyroid function si
 
 Glutathione is an antioxidant dependent on selenium and produced in the cytosol of the cell. 
 
-**How to boost glutathione production 101** 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**How to boost glutathione production 101**
 
 **1)Consume sulfur rich foods** such as fish, beef, onions, garlic, shallots and broccoli once in a while after you’ve healed your gut. 
 
@@ -1573,10 +1376,7 @@ Nowadays toxins are everywhere and one of the organs that affect the most is the
 
 These toxic loads will be properly addressed in the xenoestrogen and heavy metal detox part. 
 
-**Number 6: Stressful states** 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Number 6: Stressful states**
 
 Stress will directly suppress thyroid production. Stress hormones such as cortisol tear down the thyroid, adrenals and other endocrine glands (adrenaline depletes glycogen stores) and stressful states should be avoided. 
 
@@ -1606,10 +1406,7 @@ The ideal number for protein seems to be 1.7gr per KG of body weight and for car
 
 **Number 4: Make sure to consume enough vitamin C and copper through foods such as organ meats and berries.** 
 
-But do **NOT** combine high iron foods such as organ meats and beef with foods high in vitamin C. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+But do **NOT** combine high iron foods such as organ meats and beef with foods high in vitamin C.
 
 You need vitamin C under this context (stressful states) since it prevents the excessive oxidation of adrenaline and the adrenal glands which are probably already in a fatigued state, concentrate more vitamin C than any other organ in the body (except the pituitary). 
 
@@ -1637,10 +1434,7 @@ The first distinction we must make when discussing testosterone, is to start thi
 
 Now here are the basic lab tests that you can get in order to better understand your current androgen health. 
 
-The best time to test androgens is 9-10A.M since they peak early on the day and can show a false positive result. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+The best time to test androgens is 9-10A.M since they peak early on the day and can show a false positive result.
 
 •First we have total testosterone 
 
@@ -1672,10 +1466,7 @@ In order to optimize SHBG first pay special attention to the xenoestrogen detox 
 
 Ideally you want a range of 3 10 mIU/L. 
 
-A few things that specifically trigger more LH **and** FSH production are: cistanche (will help both LH and FSH equally), ginger (will favor LH more) (ginger is extremely effective and in just 90-days it showed a 43% increase in LH and a 17% increase in FSH in hypogonadal men), taurine and mucuna. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+A few things that specifically trigger more LH **and** FSH production are: cistanche (will help both LH and FSH equally), ginger (will favor LH more) (ginger is extremely effective and in just 90-days it showed a 43% increase in LH and a 17% increase in FSH in hypogonadal men), taurine and mucuna.
 
 **Anti-androgenic compounds** 
 
@@ -1711,10 +1502,7 @@ Alcohol does not increase cortisol only for a few hours as some stimulants do, b
 
 So, you can not be a regular drinker and have proper functioning androgens. 
 
-Avoid it as often as you can and if you are a regular drinker eliminate it for at least 8 weeks. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Avoid it as often as you can and if you are a regular drinker eliminate it for at least 8 weeks.
 
 **Then we have overtraining.** 
 
@@ -1756,10 +1544,7 @@ If not, there’s no wonder why your testosterone is at 300.
 
 Focusing on optimizing your circadian rhythm as demonstrated in lesson 1 will greatly improve your entire hormonal health and thus testosterone. 
 
-**Then we have the fasting paranoia.** 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**Then we have the fasting paranoia.**
 
 Fasting is a strategic tool, not a lifestyle. 
 
@@ -1795,10 +1580,7 @@ What does your diet consist of?
 
 Does it consist of grains that tend to raise estrogen? 
 
-Does it consist of seed oils like canola oil that mess up everything? 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Does it consist of seed oils like canola oil that mess up everything?
 
 Try sticking to : meat (both organs and some muscle meat), raw dairy once in a while, quality fats such as coconut oil, some bone broth rice and fruit for a while. 
 
@@ -1826,10 +1608,7 @@ Grounding restores and maintains the body’s natural electrical state which in 
 
 Your body becomes suffused with negative charged free electrons that are present on the surface of the Earth and your body equalizes to the same electric energy level as the Earth. 
 
-Free electrons from grounding reduce oxidative stress produced by EMFs. Grounding reduces inflammation and improves blood flow which result in calming arrhythmias, lowering blood pressure and improving blood oxygenation. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Free electrons from grounding reduce oxidative stress produced by EMFs. Grounding reduces inflammation and improves blood flow which result in calming arrhythmias, lowering blood pressure and improving blood oxygenation.
 
 Get as many minutes as you can during the day and consider purchasing some grounding sandals. 
 
@@ -1865,10 +1644,7 @@ My personal recommendation are spending some time in relative silence everyday (
 
 **#6 250mg of vitamin C and 25-50mg of quality vitamin E or palm kernel oil 4 times a week.** 
 
-The adrenal glands dump vitamin C when cortisol is released and it is best to supplement with a low dose in case you’re having (or had) a pretty stressful lifestyle. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+The adrenal glands dump vitamin C when cortisol is released and it is best to supplement with a low dose in case you’re having (or had) a pretty stressful lifestyle.
 
 Also vitamin C is vital not only to produce healthy cholesterol but to utilize it as well. Note: Vitamin C requires sodium to be absorbed into the body so don’t skip sea salt. 
 
@@ -1896,10 +1672,7 @@ Then he can use some dietary aromatase inhibitors such as palm kernel oil, EVOO,
 
 **Number 3: SHBG** 
 
-Sex hormone binding globulin (SHBG) binds to sex hormones in the so SHBG binds to testosterone and an increase in SHBG can be detrimental to free testosterone levels. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Sex hormone binding globulin (SHBG) binds to sex hormones in the so SHBG binds to testosterone and an increase in SHBG can be detrimental to free testosterone levels.
 
 If someone wants to lower SHBG, first he needs to stop consuming alcohol and detox from xenoestrogens. 
 
@@ -1931,10 +1704,7 @@ What you should avoid most :
 
 - Tempeh 
 
-- Sesame seeds 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+- Sesame seeds
 
 - Beer 
 
@@ -1966,10 +1736,7 @@ After this, there are actually not many benefits (i’ve had many clients that t
 
 **2)Raw dairy** 
 
-Raw dairy are an excellent source of pro testosterone nutrients such as zinc, vitamin A, CLA and even iron binders such as lactoferrin. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Raw dairy are an excellent source of pro testosterone nutrients such as zinc, vitamin A, CLA and even iron binders such as lactoferrin.
 
 Raw dairy products are an excellent source of milk bioavailable calcium and vitamin K2 and as we saw, since most people consume way too much phosphorus and not enough calcium, raw dairy will greatly help their thyroid and thus metabolic health. 
 
@@ -2001,10 +1768,7 @@ The best time to consume oysters is 4-7 hours prior to bed time/sex aka at lunch
 
 **5)Coconut oil and EVOO** 
 
-In many experiments, rats who were fed coconut oil daily had lower stress levels in their testes and significantly higher testosterone levels. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+In many experiments, rats who were fed coconut oil daily had lower stress levels in their testes and significantly higher testosterone levels.
 
 The caprylic acid in coconut oil (a type of saturated fatty acid) also has antibacterial, antiviral, antifungal and anti-inflammatory properties and can speed up the T4 to T3 conversion. 
 
@@ -2036,10 +1800,7 @@ Only four tablespoons contain the daily requirements of many of them such as pot
 
 Local raw honey will also provide some immunity against pollen allergens. 
 
-**8)(Raw) Garlic and onions** 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**8)(Raw) Garlic and onions**
 
 Besides being a great antibacterial, garlic contains allicin which lowers cortisol levels and this can improve testosterone. 
 
@@ -2073,10 +1834,7 @@ Chinese researchers found that around 500mg (the amount in 5-10g) of red grape s
 
 **12)White button mushrooms** 
 
-White button mushrooms are great to decrease estrogen and remove endotoxins besides them being high in vitamin B6. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+White button mushrooms are great to decrease estrogen and remove endotoxins besides them being high in vitamin B6.
 
 The polysaccharides in them have been shown to block the effects of the aromatase enzyme. 
 
@@ -2104,10 +1862,7 @@ Another important methylator besides choline is vitamin B12) to estrogen molecul
 
 3 free range eggs a day and your weekly beef liver will cover your choline needs. 
 
-Vitamin A has been found in many studies to help suppress estrogen production in the male testes and rats with a greater concentration of Vitamin A in the testes were found to have increased base testosterone secretion. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+Vitamin A has been found in many studies to help suppress estrogen production in the male testes and rats with a greater concentration of Vitamin A in the testes were found to have increased base testosterone secretion.
 
 Not only that but when rats were given diets deficient in Vitamin A, their testosterone levels not only decreased but their testicles began to atrophy and the inner layer of the testicles was lost. 
 
@@ -2131,10 +1886,7 @@ Vitamin E affects testicular and hormonal health, but also as we said helps us c
 
 Vitamin E is also a “progesterone-sparing agent”, reduces histamine, inhibits the oxygen in the blood, is an estrogen antagonist, an aromatase inhibitor, increases free testosterone but it also protects the precious vitamin A from oxidation. 
 
-The best sources of vitamin E are EVOO and palm kernel oil. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+The best sources of vitamin E are EVOO and palm kernel oil.
 
 When it comes to vitamin K2, in a rat study, it was concluded that the MK-4 form of Vitamin K2 affected the testes ability to produce testosterone by up to 70% and an almost 90% increase in the testosterone levels in their testes. 
 
@@ -2162,12 +1914,9 @@ Vitamin C protects the Leydig cells in the testes from oxidative stressors, up-r
 
 The testosterone meal plan that will be presented to you pays special attention to these key nutrients you just saw. 
 
-I have used this nutrient combination in many clients in order to increase their testosterone levels from the mid 300s all the way to even 700s which makes it more effective than conventional TRT. 
+I have used this nutrient combination in many clients in order to increase their testosterone levels from the mid 300s all the way to even 700s which makes it more effective than conventional TRT.
 
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
-
- Two key nutrients for free testosterone 
+Two key nutrients for free testosterone 
 
 **1) Magnesium** 
 
@@ -2197,10 +1946,7 @@ It contains apigenin which helps deliver cholesterol to the mitochondria in the 
 
 But unfortunately regular chamomile tea is not enough in order to produce noticeable effects testosterone wise (obviously though, it is not useless). 
 
-If you are going to use chamomile in order to specifically optimize testosterone, you will either need to use big amounts or use a concentrated formula and make tea out of it. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+If you are going to use chamomile in order to specifically optimize testosterone, you will either need to use big amounts or use a concentrated formula and make tea out of it.
 
 The same thing applies for other herbs such as passion flower which also contain chrysin. 
 
@@ -2226,10 +1972,7 @@ Insulin is very, VERY, inflammatory and can lead to systemic inflammation.
 
 **1)Low PUFA diet** 
 
-**2)Resistance training** Muscles use glucose at a phenomenal level. Muscle tissue uses the vast majority of glucose. So before things start getting complicated, lift the way that will be presented to you. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
+**2)Resistance training** Muscles use glucose at a phenomenal level. Muscle tissue uses the vast majority of glucose. So before things start getting complicated, lift the way that will be presented to you.
 
 **3) Stick to low glycemic index carbs for 6-12 weeks and use higher index glycemic carbs only for your post workout meal.** Low glycemic index carbs (such as berries for example) are carbs that do not lead to massive insulin releases. Also timing your carb intake is important that’s why the best time to eat a higher glycemic index carb source is post lift. 
 
@@ -2241,8 +1984,4 @@ If you struggle with insulin resistance, a short term B vitamin supplementation 
 
 **5) Replenish B vitamins the way it was presented in lesson 1.** 
 
-**6) Sun and sleep** We already addressed both. 
-
-The system V2.0 (lesson 10) written by George @Helios_Movement **Sold to** 
-
-
+**6) Sun and sleep** We already addressed both.

@@ -1,21 +1,10 @@
-# DISCLAIMER: This PDF does not provide medical advice. 
-
-# No content on this PDF file is intended to substitute for professional 
-
-# medical advice, diagnosis, or treatment. 
-
-# This program was created by George @Helios_movement. 
-
-# The system lesson 7: Understanding mast cells 
+# The System, Lesson 7: Understanding Mast Cells
 
 **When you see topics such as:** 
 
 ● Type 1 allergic reactions ● ADHD ● Autoimmune diseases such as rheumatoid arthritis, systemic lupus erythematosus, long Covid, Celiac disease, multiple sclerosis, type 1 diabetes ● anything related to innate immunity ● Psoriasis ● Hair loss ● Inflammatory bowel diseases ● Asthma ● Wound healing ● Nerve function ● Hematopoiesis ● Insomnia ● Migraines ● Vasodilation ● Vascular homeostasis ● Detection and elimination of pathogens ● Seasonal allergies ● Atherosclerotic plaque ● Food allergies ● Bone remodeling ● Eczema ● Or unfortunately even cancer being discussed 
 
-**being mentioned, mast cells should immediately come to your mind (a list of studies is provided at the end of the lesson).** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**being mentioned, mast cells should immediately come to your mind (a list of studies is provided at the end of the lesson).**
 
 Heck in order to understand how true this is, you should probably even think about mast cells every time you see the major organs and tissues of the body being mentioned. 
 
@@ -43,10 +32,7 @@ They are mostly found in the mucosal surfaces like the respiratory and gastroint
 
 2. **Connective tissue mast cells (**)** 
 
-These besides histamine also produce tryptase, chymase and carboxypeptidases such as carboxypeptidase A. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+These besides histamine also produce tryptase, chymase and carboxypeptidases such as carboxypeptidase A.
 
 They are located in the skin, submucosa of the gastrointestinal tract, and around blood vessels and nerves (when activated by IgE-mediated responses, they contribute to skin disorders, CVD and fibrosis). 
 
@@ -66,12 +52,7 @@ More commonly located inconnective tissues like the skin.
 
 **2. The plasma membrane** that is a bilayer that contains phospholipids, proteins, cholesterol and glycoproteins(Integral proteins (e.g., receptors like FcεRI))) roughly 7-10 nanometers thick, serving as the interface between the cell and its environment (it seperates the cytoplasm from the external environment) that is crucial for signal transduction since it has receptors embedded within the phospholipid bilayer such as the high-Affinity IgE Receptors (FcεRI), Complement Receptors, Toll-Like Receptors (TLRs), Cytokine and Chemokine Receptor that we will talk about in detail in a few pages and allow mast cells to detect signals, respond rapidly, and release mediators that are found in the cytoplasm. 
 
-turning the membrane into a detection hub. It facilitates rapid signal transduction. When a receptor binds its ligand (e.g., an allergen-IgE complex), the membrane’s embedded proteins trigger intracellular cascades within seconds, leading to degranulation or mediator synthesis. It supports mediator release. During degranulation, the membrane fuses with 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
-granule membranes, releasing histamine and other contents outside the cell—a process reliant on its fluidity and protein machinery. 
+turning the membrane into a detection hub. It facilitates rapid signal transduction. When a receptor binds its ligand (e.g., an allergen-IgE complex), the membrane’s embedded proteins trigger intracellular cascades within seconds, leading to degranulation or mediator synthesis. It supports mediator release. During degranulation, the membrane fuses with granule membranes, releasing histamine and other contents outside the cell—a process reliant on its fluidity and protein machinery. 
 
 **3. The cytoplasm** that is the space between the nucleus and the plasma membrane. It contains numerous secretory granules (pre-formed stores of bioactive mediators such as histamine, tryptase, chymase, heparin and cytokines like TNF-a) that can make up to 70% of its/cytoplasmic volume but also organelles like mitochondria, endoplasmic reticulum and Golgi apparatus that power granule transport for example through generating ATP mainly through glycolysis (rather than than oxidative phosphorylation) for example in the case of mitochondria. or synthesize proteases and cytokines in the case of endoplasmic reticulum. 
 
@@ -85,12 +66,7 @@ Of course, these issues are caused and affected by other things as well besides 
 
 Now some of you might also want to dive a bit deeper and see some of the underlying mechanisms, so here are some examples. 
 
-When it comes to wound healing for example, they partly do so through the release of histamine that dilates blood vessels and increases permeability, growth factors such as VEGF (Vascular Endothelial Growth Factor) that that signal endothelial cells to form new capillaries for delivering oxygen and nutrients to the healing tissue, FGF-2 (Fibroblast Growth Factor 2) that stimulates fibroblast proliferation, encouraging collagen synthesis and 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
-granulation tissue formation, but even cytokines such as TNF-α and IL-4 support the formation of new blood vessels and tissue remodeling. 
+When it comes to wound healing for example, they partly do so through the release of histamine that dilates blood vessels and increases permeability, growth factors such as VEGF (Vascular Endothelial Growth Factor) that that signal endothelial cells to form new capillaries for delivering oxygen and nutrients to the healing tissue, FGF-2 (Fibroblast Growth Factor 2) that stimulates fibroblast proliferation, encouraging collagen synthesis and granulation tissue formation, but even cytokines such as TNF-α and IL-4 support the formation of new blood vessels and tissue remodeling. 
 
 Or when it comes to regulating inflammatory responses, they do so partly by releasing various chemokines and cytokines like histamine that causes blood vessels to dilate and makes them more permeable with the purposes of increasing blood flow and allows immune cells and plasma proteins for example to go to the area of inflammation, prostaglandins like PGE2, leukotrienes such as LTC4, LTD4 and LTE4 that can cause them contractions of smooth muscles, cytokines such as TNF-a that activates the endothelial cells, interleukins such as IL-1, IL-4, IL-6, IL-8 and IL-13 and chemokines such as CCL2 (MCP-1) and CXCL8 (IL-8) and thus interacting with immune cells like neutrophils, eosinophils and lymphocytes. 
 
@@ -98,12 +74,7 @@ When it comes to their role innate immunity (note, innate immunity is basically 
 
 When it comes to their interactions with nerve fibers and their influence in processes such as nerve regeneration or inflammation, besides the inflammatory mediators that we talked about (histamine, prostaglandins, leukotrienes etc), mast cells also for example interact with with glial cells (Schwann cells for example (they form the myelin sheath around peripheral nerve axons)) and can release neurotrophic factors such as BDNF and NGF but also growth factors such as FGF-2 that also enhances Schwann cell proliferation and migration and VEGF that drives angiogenesis. 
 
-Regarding their role in defending us against pathogens, they accomplish that by expressing PRRs (pattern recognition receptors) such as TLRs (toll-like receptors) that recognise the pathogen associated molecular patterns (think bacterial lipopolysacchardies (LPS) for example) and whose activation leads to the degranulation of mast cells, NLRs (nod-like receptors) (mainly NOD1 and NOD2) that detect intracellular microbial components such as peptidoglycan fragments that have penetrated the cell and CLRs (c-type lectin receptors) like Dectin-1 that recognize carbohydrate structures often found on pathogens and respond by releasing antimicrobial substances from their granules such as defensins (β-defensins for example) that are small peptides with antimicrobial activity against bacteria, fungi, and some viruses (they basically “punch holes” in the membranes of bacteria, fungi and some viruses membranes and kill them as a result of this) (note: β-defensins are produced more by epithelial cells and neutrophils compared to mast cells), cathelicidins such as LL-37 that 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
-also are antimicrobial peptides that disrupt microbial membranes Proteases: Like tryptase and chymase, which can directly lyse bacteria or degrade virulence factors or by enhancing the recruitment of other immune cells like neutrophils and macrophages. Tryptase also activates nearby cells via PAR-2 receptors, amplifying the response. 
+Regarding their role in defending us against pathogens, they accomplish that by expressing PRRs (pattern recognition receptors) such as TLRs (toll-like receptors) that recognise the pathogen associated molecular patterns (think bacterial lipopolysacchardies (LPS) for example) and whose activation leads to the degranulation of mast cells, NLRs (nod-like receptors) (mainly NOD1 and NOD2) that detect intracellular microbial components such as peptidoglycan fragments that have penetrated the cell and CLRs (c-type lectin receptors) like Dectin-1 that recognize carbohydrate structures often found on pathogens and respond by releasing antimicrobial substances from their granules such as defensins (β-defensins for example) that are small peptides with antimicrobial activity against bacteria, fungi, and some viruses (they basically “punch holes” in the membranes of bacteria, fungi and some viruses membranes and kill them as a result of this) (note: β-defensins are produced more by epithelial cells and neutrophils compared to mast cells), cathelicidins such as LL-37 that also are antimicrobial peptides that disrupt microbial membranes Proteases: Like tryptase and chymase, which can directly lyse bacteria or degrade virulence factors or by enhancing the recruitment of other immune cells like neutrophils and macrophages. Tryptase also activates nearby cells via PAR-2 receptors, amplifying the response. 
 
 They of course upon recognizing the pathogens they also release a variety of cytokines and chemokines such as TNF-α, IL-1, IL-6, IL-8, CCL3, CCL4 and CCL5 for example. 
 
@@ -127,10 +98,7 @@ The activation of mast cells is not a problem obviously and can even be life sav
 
 By default, they are very important components of the immune system and in case it wasn't clear in the previous paragraph, they have both pro-inflammatory examples of which being allergic reactions for example and anti-inflammatory roles examples of which being the release of growth factors such as VEGF. 
 
-Heck, let's even talk about the unfortunate event of cancer once again. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Heck, let's even talk about the unfortunate event of cancer once again.
 
 It's also not black and white in a case this extreme once again. 
 
@@ -158,12 +126,7 @@ This is possible partly because these organelles are enclosed by a membrane, whi
 
 Their composition can vary depending on the tissue location and subtype of the mast cell, the granules of MCT (Mast Cells containing only Tryptase) for example are generally smaller and contain fewer proteases compared to the granules of MCTC (Mast Cells containing both Tryptase and Chymase). 
 
-Now, sometimes upon activation, mast cells undergo something that is called degranulation which is a pre-synthesized mediator release process where the granule membrane fuses with 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
-the plasma membrane, releasing the contents into the extracellular space primarily triggered by calcium-dependent pathways. 
+Now, sometimes upon activation, mast cells undergo something that is called degranulation which is a pre-synthesized mediator release process where the granule membrane fuses with the plasma membrane, releasing the contents into the extracellular space primarily triggered by calcium-dependent pathways. 
 
 Even though there are two distinct types of degranulation (listed right below this) both of them follow the premise that was just mentioned: 
 
@@ -181,10 +144,7 @@ The answer is no.
 
 Ige-mediated activation for example will lead to degranulation but when it comes to Non-IgE mediated activation, it really depends. 
 
-Some receptors may induce cytokine production or other responses without triggering the release of granule contents. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Some receptors may induce cytokine production or other responses without triggering the release of granule contents.
 
 GPCRs for example can cause degranulation but might also activate pathways leading to cytokine production without degranulation. 
 
@@ -208,10 +168,7 @@ If on the other hand the effects are more subtle this is were it gets more compl
 
 **But also receptors such as:** 
 
-**● MRGPRX2 (Mas-Related G Protein-Coupled Receptor Member X2) ● CD300 family receptors (CD300a, D300c, CD300f) ● Adenosine receptors (A1, A2A, A2B, A3) ● Cytokine receptors ● FcγRIII (CD16)** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**● MRGPRX2 (Mas-Related G Protein-Coupled Receptor Member X2) ● CD300 family receptors (CD300a, D300c, CD300f) ● Adenosine receptors (A1, A2A, A2B, A3) ● Cytokine receptors ● FcγRIII (CD16)**
 
 **● Leukotriene receptors ● Neurotransmitter receptors ● Dectin-1 (CLEC7A) ● Lipid mediator receptors ● Prostaglandin receptors ● KIT (CD117) ● In case someone breaks down G protein-coupled receptors in their subcategories that include histamine receptors, prostaglandin receptors, cysteinyl leukotriene receptors, chemokine receptors and sphingosine-1-phosphate receptors ● SCF receptor (c-Kit) ● Complement receptors (C3aR, C5aR) ● Siglec-8** 
 
@@ -227,12 +184,7 @@ Three classic examples include hormones such as insulin, thyroid hormones and te
 
 For example, testosterone binds to the androgen receptor, morphine binds to opioid receptors, vitamin D to the vitamin D receptor, aspirin acts as a ligand for cyclooxygenase enzymes and histamine to the H1, H2, H3, H4 receptors. 
 
-When it comes to some of the receptors that we will talk about, the FceRI has IgE antibodies as its ligands (it binds to the Fc region of IgE antibodies), TLRS have PAMPS as their ligands, GPCRs have hemokines, lipid, mediators, neurotransmitters, complement componets (C3a, C5a) as their ligands, MRGPRX2 (Mas-Related G Protein-Coupled Receptor Member X2) have compounds such as 48/80, certain drugs such as, fluoroquinolones and host-derived peptides like cathelicidin LL-37 as their ligands, CD300 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
-has aphosphatidylserine as its ligand and the adenosine receptors obviously have adenosine as its ligand. 
+When it comes to some of the receptors that we will talk about, the FceRI has IgE antibodies as its ligands (it binds to the Fc region of IgE antibodies), TLRS have PAMPS as their ligands, GPCRs have hemokines, lipid, mediators, neurotransmitters, complement componets (C3a, C5a) as their ligands, MRGPRX2 (Mas-Related G Protein-Coupled Receptor Member X2) have compounds such as 48/80, certain drugs such as, fluoroquinolones and host-derived peptides like cathelicidin LL-37 as their ligands, CD300 has aphosphatidylserine as its ligand and the adenosine receptors obviously have adenosine as its ligand. 
 
 Now if you are wondering if all ligands have a high affinity (aka how tightly they bind to their receptors or how easily they are displaced by other molecules) for their receptors, the answer is that it depends. 
 
@@ -264,10 +216,7 @@ Some receptors with weak affinity on mast cells include:
 
 These receptors require higher ligand concentrations to activate mast cells, reflecting lower binding strength. 
 
-1. FcγRIII (Low-Affinity IgG Receptor, CD16) 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+1. FcγRIII (Low-Affinity IgG Receptor, CD16)
 
 2. TLR2 (Toll-Like Receptor 2) 
 
@@ -293,10 +242,7 @@ But then:
 
 So the plasma membrane’s phospholipid bilayer is the main hub for the receptors that are tissue-resident sentinels and mast cells rely on these for their hallmark functions. 
 
-Now let’s understand these receptors better within our discussion. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Now let’s understand these receptors better within our discussion.
 
 1. When it comes to TLRs, there are 10 known toll-like receptors (TLRs) (TLR1 -TLR10). 
 
@@ -314,12 +260,9 @@ and so on.
 
 **The** TLR3, TLR7, TLR8 and TLR9 mainly recognise nucleic acids like viral RNA or DNA (and are also referred to often as **Intracellular TLRs** ). 
 
-So in general, the extracellular domains of TLRs detect PAMPs, their transmembrane domains anchor them in the bilayer of either the plasma membrane or intracellular organelle membranes and their intracellular domains trigger signaling through the MyD88 or TRIF pathway. 
+So in general, the extracellular domains of TLRs detect PAMPs, their transmembrane domains anchor them in the bilayer of either the plasma membrane or intracellular organelle membranes and their intracellular domains trigger signaling through the MyD88 or TRIF pathway.
 
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
- Let’s say for example that TLRs on mast cells encounter something such as LPS, then what will happen exactly? 
+Let’s say for example that TLRs on mast cells encounter something such as LPS, then what will happen exactly? 
 
  Well, the main process is quite simple. After TLR4 recognises and binds LPS in complex with accessory proteins like MD-2 and CD14, that induces dimerization of TLR4 , (two TLR4 molecules form a complex with MD-2 and LPS) and can engage/use different adapter proteins such as TRIF or MyD88, both of which lead to the activation of things like NF-kB (through different routes) (but various kinases like MAPKs and transcriptions factors such as IRF3 in general) which leads to the activation of mast cells. 
 
@@ -341,12 +284,7 @@ The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to**
 
 And even though it’s probably unlikely, if you’ve experienced brucellosis, lots of your symptoms were caused by the fact that brucella abortus induces mast cell activation through TLR-2 and TLR-4. 
 
-2. Now let’s talk about the high-affinity IgE receptor (FcεRI), since to this day, the most studied method of mast cell activation is through the adaptive immune response mediated 
-
- The system V2.0 (lesson 7) written by George @Helios_Movement Sold to 
-
-
-by it (the FcεRI), which is responsible for Type I allergic reactions (Type I allergic reactions are mediated through FcϵRI). 
+2. Now let’s talk about the high-affinity IgE receptor (FcεRI), since to this day, the most studied method of mast cell activation is through the adaptive immune response mediated by it (the FcεRI), which is responsible for Type I allergic reactions (Type I allergic reactions are mediated through FcϵRI). 
 
 But first, let me ask you a quick question: Have you ever done an allergy test like RAST, a skin prick test or Immuno CAP? 
 
@@ -360,12 +298,7 @@ But let’s get back to the main topic.
 
 When it comes to the quite important high-affinity IgE receptor (FcεRI), it is a multimeric receptor primarily involved in the immediate hypersensitivity reactions (through IgE-mediated degranulation (when IgE binds to FcεRI and subsequent allergens cross-link these IgE molecules, it triggers degranulation of mast cells)), in mast cells (in dendric cells for example it is often different) is a tetrameric receptor (it's composed of one alpha-chain (FcεRIα) that consists of two extracellular immunoglobulin-like domains (D1 and D2) and binds IgE with high affinity, one beta-chain (FcεRIβ) that is involved in signal transduction and amplification (it enhances the expression of FcεRI on the cell surface and amplifies the signaling cascade upon IgE cross-linking) but is not present in all cell types expressing FcεRI (it's absent in basophils and Langerhans cells) and two gama-chains (FcεRIγ) essential for signal transduction) that binds immunoglobulin E (IgE) antibodies, which are produced in response to allergens, bind to FcεRI on the surface of mast cells and allows mast cells (but also basophils) to remain sensitized even at low IgE concentrations in the plasma. 
 
-When an allergen cross-links IgE molecules bound to FcεRI,the Immunoreceptor tyrosine-based activation motifs (ITAMs) on the γ-chains are phosphorylated by Src family kinases (a group of non-receptor tyrosine kinases such as such as Src, Fyn, Yes, Lck, Lyn, Hck, Fgr, Blk, and Yrk) such as Lyn (Lyn phosphorylates the ITAMs on the γ-chains of the receptor), this phosphorylation then activates Syk kinase, 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
- which then triggers the activation of phospholipase Cγ (PLCγ), protein kinase C (PKC), and the mobilization of calcium ions triggers lead to mast cell degranulation (the fusion of granules within the mast cell with the cell membrane, releasing pre-formed mediators like histamine, proteases, and heparin that). 
+When an allergen cross-links IgE molecules bound to FcεRI,the Immunoreceptor tyrosine-based activation motifs (ITAMs) on the γ-chains are phosphorylated by Src family kinases (a group of non-receptor tyrosine kinases such as such as Src, Fyn, Yes, Lck, Lyn, Hck, Fgr, Blk, and Yrk) such as Lyn (Lyn phosphorylates the ITAMs on the γ-chains of the receptor), this phosphorylation then activates Syk kinase, which then triggers the activation of phospholipase Cγ (PLCγ), protein kinase C (PKC), and the mobilization of calcium ions triggers lead to mast cell degranulation (the fusion of granules within the mast cell with the cell membrane, releasing pre-formed mediators like histamine, proteases, and heparin that). 
 
  Now in case you’re wondering about the creation of Immunoglobulin E (IgE) antibodies involves several steps such as antigen recognition, presentation, T cell activation, B cell activation, Class Switch Recombination, Differentiation into Plasma Cells, Antibody Secretion, allergic Reaction or Immune Defense, 
 
@@ -375,12 +308,7 @@ The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to**
 
  Note: One reason why TLR signaling is different from other immune pathways is that calcium signaling is not a central feature in these cascades meaning that calcium is not typically considered a key secondary messenger in TLR signaling pathways that involve NF-κB, MAPKs and IRF3 (these pathways primarily rely on protein-protein interactions, phosphorylation cascades, and ubiquitin-mediated processes to activate transcription factors that drive the expression of pro-inflammatory cytokines (e.g., TNF-α, IL-6) and type I interferon)s. 
 
- But calcium is an important secondary messenger in the FcεRI (high-affinity IgE receptor) signaling pathway in mast cells where calcium mobilization is critical for downstream effects like granule release (it promotes the fusion of granule membranes with the plasma membrane) and driven by PLC via IP3 production (ligand binding inhibits adenylate cyclase and activates PLC which hydrolyzes PIP2 into IP3 and DAG. IP3 then binds to receptors on the endoplasmic reticulum, releasing stored calcium into the cytoplasm, amplifying the 
-
- The system V2.0 (lesson 7) written by George @Helios_Movement Sold to 
-
-
-signal. MAPK and PI3K (phosphoinositide 3-kinase) pathways also contribute to the overall response, though their roles are broader and not exclusively tied to calcium mobilization) and it aalso activates calmodulin and other calcium-sensitive enzymes that can lead to the synthesis of lipid mediators and additional cytokines. 
+ But calcium is an important secondary messenger in the FcεRI (high-affinity IgE receptor) signaling pathway in mast cells where calcium mobilization is critical for downstream effects like granule release (it promotes the fusion of granule membranes with the plasma membrane) and driven by PLC via IP3 production (ligand binding inhibits adenylate cyclase and activates PLC which hydrolyzes PIP2 into IP3 and DAG. IP3 then binds to receptors on the endoplasmic reticulum, releasing stored calcium into the cytoplasm, amplifying the signal. MAPK and PI3K (phosphoinositide 3-kinase) pathways also contribute to the overall response, though their roles are broader and not exclusively tied to calcium mobilization) and it aalso activates calmodulin and other calcium-sensitive enzymes that can lead to the synthesis of lipid mediators and additional cytokines. 
 
 **Side note: Now some people might think: “George, all of these already seem too complicated. Why do i even have to understand them?”.** 
 
@@ -400,12 +328,7 @@ That’s fascinating because it could make someone think that there are 3 main s
 
 Number 1: Magnesium that acts as a natural calcium channel blocker, competing with calcium for entry into cells through voltage-gated channels or other pathways like TRP channels. 
 
-Number 2: Quercetin, a flavonoid found in onions and apples, has shown promise in lab studies. It inhibits calcium influx through store-operated channels (like CRAC channels) and can blunt calcium release from internal stores, such as the endoplasmic reticulum. Experiments with mast cells—where calcium spikes drive degranulation—indicate 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
-quercetin reduces those peaks, which is why it’s sometimes linked to allergy relief. It’s not a mainstream supplement for this purpose, but the mechanism fits. 
+Number 2: Quercetin, a flavonoid found in onions and apples, has shown promise in lab studies. It inhibits calcium influx through store-operated channels (like CRAC channels) and can blunt calcium release from internal stores, such as the endoplasmic reticulum. Experiments with mast cells—where calcium spikes drive degranulation—indicate quercetin reduces those peaks, which is why it’s sometimes linked to allergy relief. It’s not a mainstream supplement for this purpose, but the mechanism fits. 
 
 Number 3: Taurine is not a direct calcium channel blocker like magnesium, but it acts as a stabilizer of cell membranes and can influence how calcium moves in and out, it’s been shown to inhibit excessive calcium influx through voltage-gated calcium channels, it boosts calcium handling inside the cell. 
 
@@ -425,10 +348,7 @@ Now NK-1 stimulates PLC, hydrolyzes PIP2 into IP3 which triggers calcium release
 
 ● **Vasoactive Intestinal Peptide (VIP) Receptors (VPAC1 and VPAC2)** 
 
-The vasoactive intestinal peptide is a 28-amino-acid neuropeptide amidated at the C-terminus that belongs to the secretin-glucagon family (glucagon and secretin also belong in it) that’s released from parasympathetic nerves such as the vagus nerve, enteric neurons in the gut (it was originally identified in the gut for its vasodilatory effects but it’s also a potent vasodilator in the respiratory systems, regulating blood flow and airway tone) and some sensory neurons (some immune cells such as lymphocytes can also produce it but neurons are the primary source). 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+The vasoactive intestinal peptide is a 28-amino-acid neuropeptide amidated at the C-terminus that belongs to the secretin-glucagon family (glucagon and secretin also belong in it) that’s released from parasympathetic nerves such as the vagus nerve, enteric neurons in the gut (it was originally identified in the gut for its vasodilatory effects but it’s also a potent vasodilator in the respiratory systems, regulating blood flow and airway tone) and some sensory neurons (some immune cells such as lymphocytes can also produce it but neurons are the primary source).
 
 It also affects electrolyte balance, immune cells besides mast cells like T cells, B cells and macrophages, and mast cells, with both proand anti-inflammatory(*) effects depending on the situation and modulates synaptic activity and neuronal excitability in the nervous system. 
 
@@ -454,10 +374,7 @@ Now when it comes to the receptors there are five known subtypes of NPY receptor
 
 Chemokines are small signaling proteins that play key role in overall immune cell movement. They are classified into four families: CC, CXC, CX3C and XC. 
 
-Mast cells primarily respond to chemokines from the CC and CXC families (primarily from the CC though). 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Mast cells primarily respond to chemokines from the CC and CXC families (primarily from the CC though).
 
 1. CXC Chemokines or α-chemokines are primarily involved in the recruitment of neutrophils and lymphocytes while some of them promoting angiogenesis and others inhibiting it. 
 
@@ -519,10 +436,7 @@ The list of CC Chemokines (β-Chemokines) includes:
 
 10. CCL14 
 
-11. CCL15 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+11. CCL15
 
 ## 12. CCL16 
 
@@ -572,10 +486,7 @@ This one assists the release of antimicrobial factors and supports early innate 
 
 This helps with retaining mast cells in the bone marrow and/or inflamed sites overall. 
 
-**-Histamine Receptors (H1, H2, H3, H4)**. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**-Histamine Receptors (H1, H2, H3, H4)**.
 
 Whose function vary from……. While histamine can be released by mast cells, it can also act back on mast cells through these receptors, modulating their function. H1 and H4 generally promote activation, whereas H2 might have inhibitory effects. 
 
@@ -595,10 +506,7 @@ Now these prostaglandins are derived from arachidonic acid (which is an omega 6 
 
 PGH2 is also the precursor to thromboxanes such as TXA2 (has critical roles in platelet aggregation/blood clot formation, vasoconstriction, the function of the kidneys, bronchoconstriction and more) but not leukotrienes (arachidonic acid is metabolized into leukotrienes by the 5-lipoxygenase (5-LOX) enzyme). 
 
-**How does this process happen?** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**How does this process happen?**
 
 **The entire process can be broken down into 3 “phases” so to speak.** The release of arachidonic acid, its conversion to PGH2 and the formation of specific prostaglandins. 
 
@@ -618,10 +526,7 @@ The type of prostaglandin produced depends on the cell and context—mast cells,
 
 Mast cells for instance "prefer" so to speak, PGD2 during type I allergic responses (mast cells are a major source of PGD2). 
 
-In general, PGE synthase produces PGE2, PGF synthase produces PGF2α, PGD synthase produces PGD2, thromboxane synthase produces TXA2, prostacyclin synthase produces PGI2 and so on. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+In general, PGE synthase produces PGE2, PGF synthase produces PGF2α, PGD synthase produces PGD2, thromboxane synthase produces TXA2, prostacyclin synthase produces PGI2 and so on.
 
 Note: Short-term/acute prostaglandin spikes aren’t something to be concerned about (unless a person is at a profoundly compromised state) since prostaglandins like PGE2 for example lead to immune activation to fight pathogens and stop once the trigger subsides. Not only that but underproduction for extended time periods can even cause gastric damage. Chronic elevation (aka when the inflammatory process doesn’t turn off) is where harm emerges with results such as neurodegeneration and cancer for example. 
 
@@ -635,10 +540,7 @@ For example, COX-1 is constitutively expressed in many tissues while COX-2 is by
 
 Then, COX-1 protects the stomach lining (when prostaglandins such as PGE2 or PGI2 are produced by it, they stimulate mucus and bicarbonate secretion in the stomach which protects it from hydrochloric acid and pepsin, this is one of the main reasons why why aspirin can lead to ulcers (it inhibits COX-1)), regulates blood flow in the kidneys (one main reason why aspirin once again for example is not recommended to people with kidney disease), and in platelets it converts arachidonic acid into thromboxane A2 (TXA2), which promotes clotting and blood vessel constriction. 
 
-On the other hand, COX-2 is upregulated by cytokines such as IL-1 and TNF-α and growth factors during inflammation, it sensitizes nociceptors (pain receptors) in the nervous system, induces fever, affects wound healing and cell proliferation. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+On the other hand, COX-2 is upregulated by cytokines such as IL-1 and TNF-α and growth factors during inflammation, it sensitizes nociceptors (pain receptors) in the nervous system, induces fever, affects wound healing and cell proliferation.
 
 **So as you can tell, prostaglandins (and thus COX enzymes) been chronically elevated in a person can have a range of negative effects (depending on the specific prostaglandins involved, their levels, and the tissues they’re acting on) such as:** 
 
@@ -668,10 +570,7 @@ Well since direct measurement through blood, urine or even tissue analysis can b
 
 Then, since COX-2 is induced by inflammation, markers like C-reactive protein (CRP) or interleukin-6 (IL-6) might correlate with them and are worth measuring. 
 
-And on a final note, if your symptoms massively improve when using COX inhibitors this could also be a sign of elevated prostaglandin levels. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+And on a final note, if your symptoms massively improve when using COX inhibitors this could also be a sign of elevated prostaglandin levels.
 
 Now let’s say that prostaglandins are high. What can you even do? 
 
@@ -693,10 +592,7 @@ Note: Seafood isn't the only source of O3s like DHA and lamb has plenty.
 
 2. Insulin resistance This also upregulates PLA2. 
 
-Some things that could help someone avoid insulin resistance include: -Eating your meals under natural light. -Focusing on gut health and especially address possible pathogen-related issues. -Not consuming bad fats and replace them with things such as grass fed tallow, ghee, EVOO and coconut oil. -Quitting alcohol. -Avoiding artificial blue light and getting more sunlight. -Replenishing B vitamins and minerals. -Resistance training for 60 minutes every 48 hours and walk daily. -Maintaining a healthy bw obviously. -Not eating huge meals at night since melatonin, upon its release decreases the function of the pancreas. -Going to bed before 11 P.M. -Grounding as much as i could throughout the day. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Some things that could help someone avoid insulin resistance include: -Eating your meals under natural light. -Focusing on gut health and especially address possible pathogen-related issues. -Not consuming bad fats and replace them with things such as grass fed tallow, ghee, EVOO and coconut oil. -Quitting alcohol. -Avoiding artificial blue light and getting more sunlight. -Replenishing B vitamins and minerals. -Resistance training for 60 minutes every 48 hours and walk daily. -Maintaining a healthy bw obviously. -Not eating huge meals at night since melatonin, upon its release decreases the function of the pancreas. -Going to bed before 11 P.M. -Grounding as much as i could throughout the day.
 
 -Not smoking. -Getting enough vitamin K. -Considering the usage of tools such as Ceylon cinnamon and berberine 
 
@@ -722,10 +618,7 @@ In general, not consuming other dietary antioxidants whether they are vitamin C 
 
 6. Consuming too much alcohol (weekly). 
 
-Alcohol has been linked to increased arachidonic acid levels in cell membranes and also alters fatty acid metabolism. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Alcohol has been linked to increased arachidonic acid levels in cell membranes and also alters fatty acid metabolism.
 
 7. MCAS (mast cell activation syndrome) 
 
@@ -749,12 +642,7 @@ It forms N1-methylnicotinamide, which uses up SAMe so large doses will deplete m
 
 **Now after these basics are covered we can add COX-2 inhibitors.** 
 
-When it comes to COX inhibitors overall and how the work, they bind to the active site of thes cyclooxygenase enzymes by fitting into the hydrophobic channel of them which is where arachidonic acid would normally bind (so most COX inhibitors are competitive 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
-inhibitors), preventing this conversion which results in less prostaglandin and thromboxane activity, which dials down the symptoms they cause. 
+When it comes to COX inhibitors overall and how the work, they bind to the active site of thes cyclooxygenase enzymes by fitting into the hydrophobic channel of them which is where arachidonic acid would normally bind (so most COX inhibitors are competitive inhibitors), preventing this conversion which results in less prostaglandin and thromboxane activity, which dials down the symptoms they cause. 
 
 There are both reversible and irreversible inhibitors. 
 
@@ -780,10 +668,7 @@ But not all of them are the same.
 
 Aspirin for example acetylates a serine residue in COX-1 and COX-2 while ibuprofen for example just blocks the active site temporarily. 
 
-Does this mean that aspirin is a wonder drug? Not really since as you’re able to tell, by downregulating COX-1 for example you can mess up your stomach not to even mention that plenty of people have issues with salicylicates or H. Pylori and thus can’t use aspirin. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Does this mean that aspirin is a wonder drug? Not really since as you’re able to tell, by downregulating COX-1 for example you can mess up your stomach not to even mention that plenty of people have issues with salicylicates or H. Pylori and thus can’t use aspirin.
 
 So natural supplements (besides things such as whole food vitamin E that were mentioned prior) that can lower prostaglandins by inhibiting COX-2 (most of these also inhibit PLA2 blocking upstream signaling (e.g., NF-κB, MAPK) and reducing COX/LOX activity downstream) include: 
 
@@ -821,10 +706,7 @@ Well, the safest first choices would be chamomile and magnesium so you can use t
 
 Then, cistanche is not suitable for people who struggle with issues such as SIBO due to the polysaccharide content. 
 
-Curcumin and quercetin are both great for anyone except for the people who struggle with low libido which is driven by androgen issues. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Curcumin and quercetin are both great for anyone except for the people who struggle with low libido which is driven by androgen issues.
 
 Same goes for EGCG plus that it’s not great for people with slow COMT. 
 
@@ -850,10 +732,7 @@ Prostaglandins like PGE2 and PGD2 act via G-protein-coupled receptors (GPCRs), n
 
 **EP3,** is pro-inflammatory most of the time since it reduces cAMP. 
 
-**EP4,** is anti-inflammatory not only by increasing cAMP but also by increase the production of IL-10. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**EP4,** is anti-inflammatory not only by increasing cAMP but also by increase the production of IL-10.
 
 For example, when prostaglandin E2 (PGE2) binds to EP2 (coupled to Gs), it increases cyclic AMP (cAMP) levels, which can inhibit mast cell degranulation and reduce the release of histamine and other mediators, thus dampening inflammation. 
 
@@ -879,10 +758,7 @@ Now mast cells are not exactly activated by prostglandins what usually happens i
 
 So prostaglandins act as secondary mediators or modulators that influence mast cell behavior after initial activation and are a part of the lipid mediator cascade that happens upon activation of mast cells release preformed mediators (e.g., histamine), synthesize lipid mediators (e.g., prostaglandins, leukotrienes), and produce cytokines. 
 
-**Now a question that someone might have is “can COX-2 inhibitors stabilize mast cells?”.** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**Now a question that someone might have is “can COX-2 inhibitors stabilize mast cells?”.**
 
 First, some of the compounds that are used to stabilize mast cells also happen to be COX-2 inhibitors. So we can not attribute their effects solely to COX-2 inhibition. 
 
@@ -904,10 +780,7 @@ When it comes to their synthesis, in the beginning of the process, phospholipase
 
 Then, with help from 5-LOX-activating protein (FLAP), oxygenates arachidonic acid at carbon 5, forming 5-hydroperoxyeicosatetraenoic acid (5-HPETE), an unstable intermediate which is then quickly converted to leukotriene A4 (LTA4). 
 
-Then, when it comes to subsequent conversions: 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Then, when it comes to subsequent conversions:
 
 ○ **LTA4 hydrolase** converts LTA4 to leukotriene B4 (LTB4) in neutrophils and macrophages. ○ **LTC4 synthase** adds glutathione to LTA4, forming leukotriene C4 (LTC4) ○ **Gamma-Glutamyltransferase** ( **γ-GT)** removes glutamic acid from LTC4 creating leukotriene D4 (LTD4) ○ **Dipeptidase** cleaves glycine from LTD4 producing leukotriene E4 (LTE4) 
 
@@ -929,10 +802,7 @@ So when it’s activated it boosts the release of preformed mediators like hista
 
 **So the things that trigger degranulation and the things that sustain it, are often different.** 
 
-**CysLT2 (Cysteinyl Leukotriene Receptor 2)** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**CysLT2 (Cysteinyl Leukotriene Receptor 2)**
 
 Compared to CysLT1, CysLT2 has a high affinity for LTC4 as well as LTD4 ( but its affinity is lower than CysLT1’s for LTD4) and is less dominant in mast cells (its role is more prominent in other cell types such as endothelial and smooth muscle cells). 
 
@@ -954,10 +824,7 @@ Well, besides the obvious such as being in leukotriene inhibitors to manage asth
 
 Now if they are in fact elevated, here are some things to consider. 
 
-**1) Supporting** Short-Chain Fatty Acids (SCFAs) or using compounds like tributyrate 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**1) Supporting** Short-Chain Fatty Acids (SCFAs) or using compounds like tributyrate
 
 **Leukotrienes are degraded by enzymes like 15-PGDH or excreted (LTE4 in urine).** 
 
@@ -979,10 +846,7 @@ The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to**
 
 **8) Consider natural 5-LOX inhibitors such as quercetin, ginger, stinging nettle, curcumin and b** oswellia. 
 
-**9) Get enough magnesium modulates calcium signaling. Low levels could enhance PLA2 activation by failing to balance calcium influx.** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**9) Get enough magnesium modulates calcium signaling. Low levels could enhance PLA2 activation by failing to balance calcium influx.**
 
 **10) Get sun since a vitamin D deficiency could promote calcium-dependent PLA2 activity.** 
 
@@ -1026,10 +890,7 @@ CCR3 is just more involved in allergic inflammation and upregulated in it, while
 
 1. Berberine 
 
-2. Curcumin 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+2. Curcumin
 
 3. Black seed oil 
 
@@ -1067,10 +928,7 @@ Now the complement receptors C3aR and C5aR on mast cells link the innate immune 
 
 Sphingosine-1-phosphate (S1P) is a pleiotropic mediator that stems from sphingomyelin (a component of cell membrane(*)) and acts as both an autocrine and paracrine signal affecting inflammation, vascular function, supports myelination, lymphocytes/immune cell tracking and amplifies mast cell degranulation. 
 
-(*)Sphingomyelin is hydrolyzed into ceramide by sphingomyelinases (SMases), then ceramidases cleave ceramide’s fatty acid, yielding sphingosine and then sphingosine kinases (SphK1 and SphK2) add a phosphate group to sphingosine’s 1-hydroxyl position, forming S1P. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+(*)Sphingomyelin is hydrolyzed into ceramide by sphingomyelinases (SMases), then ceramidases cleave ceramide’s fatty acid, yielding sphingosine and then sphingosine kinases (SphK1 and SphK2) add a phosphate group to sphingosine’s 1-hydroxyl position, forming S1P.
 
 Now when it comes to s **phingosine-1-phosphate receptors we have five of them (** mast cells mainly express S1PR1-4)**.** 
 
@@ -1096,10 +954,7 @@ Now, PAF exerts its effects by binding to PAFR and whose activation leads to str
 
 PAF-R also increases intracellular calcium through phospholipase C and inositol trisphosphate and activates pathways like PI3K, MAPK, and protein kinase C (PKC) by inhibiting adenylate cyclase and lowering cAMP). 
 
-**-Adenosine eeceptors (A2A, A2B, A3)** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**-Adenosine eeceptors (A2A, A2B, A3)**
 
 Adenosine is a purine nucleoside that’s generated s from the breakdown of adenine nucleotides, primarily ATP both intracellularly (ATP → ADP → AMP and the cytosolic 5’-nucleotidase converts AMP to adenosine) and extracellularly (ATP and ADP that are released during cell damage or even by mast cells) are hydrolyzed by CD39 to AMP and by CD73 to adenosine) and is a potent signaling molecule modulating physiological processes varying from influence inflammation, cardiovascular function, neurotransmission, and immune responses. 
 
@@ -1125,10 +980,7 @@ If we are talking about something such as an afternoon tea after lunch, then you
 
 Caffeine primarily binds to adenosine receptors A1 and A2A, but as you saw the A2A receptors can have an anti-inflammatory effect which is why in low doses and from clean sources, caffeine can even be beneficial. 
 
-**-Opioid Receptors (e.g., MOR, KOR)** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**-Opioid Receptors (e.g., MOR, KOR)**
 
 When it comes to opioids, we will only care about endogenous opioids over here which is a group that includes β-endorphin, enkephalins and dynorphins. 
 
@@ -1156,10 +1008,7 @@ Now let’s assume that the ligand binds to Gaq, then IP3 diffuses through the c
 
 But this increase in intracellular calcium is crucial for mast cell activation since calcium ions promote the fusion of granules with the plasma membrane and thus aid in the release of preformed mediators. 
 
-Also calcium and the activated kinases (like PKC) can also lead to the activation of transcription factors such as NF-κB, AP-1, and NFAT which lead to the synthesis of cytokines (e.g., TNF-α, IL-4, IL-5, IL-6) and chemokines. Thus the newly synthesized mediators are secreted, contributing to a sustained immune response. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Also calcium and the activated kinases (like PKC) can also lead to the activation of transcription factors such as NF-κB, AP-1, and NFAT which lead to the synthesis of cytokines (e.g., TNF-α, IL-4, IL-5, IL-6) and chemokines. Thus the newly synthesized mediators are secreted, contributing to a sustained immune response.
 
 DAG is also important and activates protein kinase C (PKC) which phosphorylates various proteins. 
 
@@ -1185,10 +1034,7 @@ Mast cells can also be activated through mechanisms that don’t involve IgE or 
 
 As you are probably able to tell, this is related to melatonin. In case you skipped lesson 1, please re-visit it since we discuss melatonin in depth over there. 
 
-Now in regards to mast cells, melatonin regulates/supresses signaling pathways like NF-κB and can reduce mast cell degranulation by downregulating COX-2 expression for example. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Now in regards to mast cells, melatonin regulates/supresses signaling pathways like NF-κB and can reduce mast cell degranulation by downregulating COX-2 expression for example.
 
 **2) Avoid the following toxins** (once again remember, this is life, you can’t perfectly avoid everything and the attempt to do so will backfire, so always apply the 90/10 rule). 
 
@@ -1230,10 +1076,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6737078/
 
 https://www.ncbi.nlm.nih.gov/pubmed/9746959 
 
--PFOAs and PFOS found in things such as Teflon pans. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+-PFOAs and PFOS found in things such as Teflon pans.
 
 https://www.ncbi.nlm.nih.gov/pubmed/27682001 
 
@@ -1271,10 +1114,7 @@ https://pubmed.ncbi.nlm.nih.gov/6191542/
 
 **3) Try to maintain a healthy bodyweight.** 
 
-Besides the insulin resistance, leptin resistance and the increase of pro-inflammatory markers that can negatively affect mast cells, the increased aromatase activity could indirectly contribute to mast cell degranulation by raising estrogen levels as well. 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+Besides the insulin resistance, leptin resistance and the increase of pro-inflammatory markers that can negatively affect mast cells, the increased aromatase activity could indirectly contribute to mast cell degranulation by raising estrogen levels as well.
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2603032/ 
 
@@ -1304,10 +1144,7 @@ https://pubmed.ncbi.nlm.nih.gov/33921522/
 
 https://pubmed.ncbi.nlm.nih.gov/35905313/ 
 
-**5) Prioritize freshly cooked meals and if you have MCAS or histamine intolerance avoid frying and grilling as well.** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**5) Prioritize freshly cooked meals and if you have MCAS or histamine intolerance avoid frying and grilling as well.**
 
 https://www.ncbi.nlm.nih.gov/pubmed/29200758 
 
@@ -1345,10 +1182,7 @@ For example, vitamin C is a cofactor of dioxygenase and monooxygenase enzymes, m
 
 **11) Avoid a high O6 and low O3 intake.** 
 
-O3s compete with O6s fatty acids for the desaturase and elongase enzymes (delta-6-desaturase, delta-5-desaturase). 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+O3s compete with O6s fatty acids for the desaturase and elongase enzymes (delta-6-desaturase, delta-5-desaturase).
 
 Note: Seafood isn't the only source of O3s like DHA and lamb has plenty. 
 
@@ -1380,10 +1214,7 @@ Overall, damaging the gut lining or altering its microbiome leads to decreased D
 
 So use the gut related material that’s presented in this program in order to determine the factors that contribute to your dysbiosis. 
 
-**-Avoid high histamine foods and histamine liberators for the next 60 days (there’s list in the neurotransmitter part of the program).** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**-Avoid high histamine foods and histamine liberators for the next 60 days (there’s list in the neurotransmitter part of the program).**
 
 **-Chill with the sauna and always use an IR one.** 
 
@@ -1419,10 +1250,7 @@ https://pubmed.ncbi.nlm.nih.gov/24088520/
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3764846/ 
 
-**● Cordyceps and DAO (this is a quite powerful combo).** 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
+**● Cordyceps and DAO (this is a quite powerful combo).**
 
 **https://www.ncbi.nlm.nih.gov/pubmed/21277968** 
 
@@ -1458,8 +1286,4 @@ https://www.ncbi.nlm.nih.gov/pubmed/26593037
 
 **● Lactobacillus plantarum (DR7)** 
 
-https://pmc.ncbi.nlm.nih.gov/articles/PMC8150869/ 
-
-The system V2.0 (lesson 7) written by George @Helios_Movement **Sold to** 
-
-
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8150869/

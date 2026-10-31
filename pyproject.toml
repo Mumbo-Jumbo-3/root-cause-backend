@@ -17,7 +17,6 @@ dependencies = [
     "alembic>=1.16.4",
     "psycopg[binary]>=3.2.9",
     "pgvector>=0.4.1",
-    "langchain-voyageai>=0.3.3",
     "voyageai>=0.3.7",
     "clerk-backend-api>=5.0.6",
     "svix>=1.91.1",
@@ -25,6 +24,7 @@ dependencies = [
     "uvicorn[standard]>=0.45.0",
     "sse-starlette>=3.3.4",
     "langgraph-checkpoint-postgres>=3.0.5",
+    "numpy>=2",
 ]
 
 [project.scripts]

@@ -1,3 +1,5 @@
+# Sun Tolerance
+
 I only started to notice a difference in my sun tolerance when I began eating an omnivorous diet again and began to remove inflammatory triggers from my intake. All the common triggers I mention frequently, consisting of refined sucrose, industrialized vegetable/seed oils, corn, soy, wheat/gluten, legumes/beans, smoke, alcohol, and caffeine all play a role in your body’s defenses against inflammation and oxidative stress.
 
 This is what sun damage or sun burn is, in essence. Inflammation and oxidative stress produced by the UV light spectrum and poor redox status (ability to deal with oxidative stress).

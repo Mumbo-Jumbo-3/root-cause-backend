@@ -14,15 +14,10 @@ def ingest(
 ):
     """Ingest wellness resources from the resources directory."""
     from health_agent.rag.ingest import ingest_resources
-    from health_agent.rag.retriever import needs_reindex
 
     settings = get_settings()
     if not settings.database_url.strip():
         raise typer.BadParameter("DATABASE_URL must be set before running ingest.")
-
-    if not force and not needs_reindex(settings):
-        print("Index is up to date — skipping ingestion. Use --force to rebuild.")
-        return
 
     result = ingest_resources(settings, force=force)
     print(
@@ -242,7 +237,7 @@ def chat():
     from langchain_core.messages import HumanMessage
 
     from health_agent.graph import build_graph
-    from health_agent.rag.retriever import needs_reindex
+    from health_agent.rag.resources import needs_reindex
 
     settings = get_settings()
 

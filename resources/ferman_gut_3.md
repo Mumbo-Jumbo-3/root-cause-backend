@@ -1,6 +1,5 @@
-# This program was created by George @Helios_movement.
+# Gut Health Handbook, Lesson 3: A More In-Depth Discussion About Nutrition
 
-**Lesson 3: A more in depth discussion about nutrition**
 What we eat matters, a lot.
 Our nutrition is one of the most powerful tools that we have in our arsenal in order to
 improve your health.
@@ -23,8 +22,6 @@ It’s not rocket science.
 Tens of thousands (if not more) of DNA-related processes are based on nutrients.
 So, when we deprive ourselves of nutrients, TENS OF THOUSANDS of DNA-related
 processes become dysfunctional.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Believe it or not, food greatly affects our own genes and the ones that we will pass on to our
 kids.
@@ -53,8 +50,6 @@ But this is what happens nowadays.
 We take people with descent genes and we not only don’t provide them with quality
 nutrition, but we add on top a million toxins.
 So as you can tell, a lot of chronic health problems spring from nothing else but this fact.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 But the problem with nutrition, is that everyone pretends that he has the perfect answer so
 let me be very clear when i say that i do not.
@@ -84,8 +79,6 @@ But nutrition, is one of the fields that people are so dogmatic about all the wa
 themselves.
 Now let’s get into it.
 **Principle number 1: Food quality matters, a lot.**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Things such as herbicides and pesticides when it comes to plants but also things such as
 antibiotics and hormones when it comes to animals severely alter not only the nutritional
@@ -118,8 +111,6 @@ Improving the quality of your food should be your first priority when it comes t
 You have no idea how many health issues spring from us consuming toxins that are in our
 foods until you cut them out for a few months.
 It truly is insane.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Please do not neglect the importance of this, some of these toxins can even be stored for
 years in our bodies and so harm us even when we no longer consume them.
@@ -147,8 +138,6 @@ micronutrient needs and you can live off them pretty well):
 -Pineapple
 -Grass finished red meat
 -Non hybridized white potatoes if possible
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Principle number 2: Prioritize fresh herbs over spices in your cooking and properly
 source your salt.**
@@ -177,8 +166,6 @@ that it does not matter what you are still going to keep the poisons in.
 **So avoid the following:**
 
 **1. nnEMFs**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 You can protect yourself against them through grounding, lowering unbound iron
 (CRUCIAL), avoiding the use of wireless devices, turning off devices such as your WiFi
@@ -210,8 +197,6 @@ normie tobacco and cacao products, most inorganic vegetables due to the fertiliz
 being used and tap water.
 **10. Inferior fat sources** such as canola oil, sunflower oil, fish oils, cottonseed oil, corn oil
 and soybean oil which deplete you of vitamin E and minerals.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **11. Herbicides and pesticides** which deplete you of all minerals, amino acids such as
 glycine, B vitamins (indirectly by harming the bacteria that are crucial fro the absorption,
@@ -238,8 +223,6 @@ So, when you consume food that literally has ZERO nutrition, inside of it, your 
 FORCED to use its nutrient reserves in order to process it.
 **24. Chlorine** which depletes you of vitamin C and antioxidants in general.
 These are the main 24 things that you should avoid.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Now since there are certain medications in that list, i am not saying that you should quit
 your meds.
@@ -269,8 +252,6 @@ eat, you will literally never be able to match the nutrient profile of the steak
 So calories do not show you the full picture and using a calorie meter to determine the
 response that your body will have to a food is wrong because it ignores the enzymatic
 breakdown of the food.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 There is no equality when it comes to food. None. Carbs
 are not equal to protein or fats and vice versa obviously.
@@ -300,8 +281,6 @@ There are three macronutrients:
 1)Carbohydrates
 2)Protein
 3)Fat
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Each macronutrient is measured in grams, but the calories per gram of each macronutrient
 isn't the same.
@@ -329,8 +308,6 @@ effect.
 Saturated fats are a critical substance for optimal testosterone production, as we need them
 in order to begin producing testosterone in the first place.
 “But aren’t saturated fats to blame for things such as heart disease?”
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Of course not.
 First of all, saturated fats that come from sources such as coconut oil, lower Lp(a) (a marker
@@ -361,8 +338,6 @@ rebuild properly.
 Also, eating fat, will NOT make you fat.
 Gaining fat is something very, very hard.
 You may believe that this is not the case right now but trust me.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 If you are metabolically healthy, you literally have to torture yourself with food in order to
 gain too much fat.
@@ -395,8 +370,6 @@ cook your meals in are:
 Moving on to carbohydrates.
 Carbohydrates are organic compounds that consist of carbon, oxygen and hydrogen as you
 can see in the following graph.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 There are three main types of carbohydrates:
 1)Starches
@@ -427,8 +400,6 @@ been proven to lower SHBG levels and allow for more free testosterone in the blo
 2)Raw dairy
 3)Any seasonal and organic fruit
 4)Berries
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 5)Kiwis
 6)Orange and grapefruit juice with no pulp
@@ -460,8 +431,6 @@ ideal amount of protein someone could consume every day, is 2-2.5 grams per kg o
 weight.
 If you go over this sooner or later you will face problems with ammonia most likely, and if
 you go lower than this stress hormones will rise.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 This range is also shown to reduce serum glutamate so a sufficient protein intake will help
 you optimize GABA as well.
@@ -493,8 +462,6 @@ A Genetically Modified Organism (GMO) is something whose genetic material (DNA) 
 been interfered with in a way that does not occur naturally by mating or natural breeding.
 Well, DNA is a complex structure and altering it in any way can create new consequences
 and structures in the cell’s composition, as well as its relationship with other cells.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 For example, when potatoes were genetically engineered not to show bruising (*). A side
 effect of this engineering was an increase in the potato's aminoadipic acid content. An acid
@@ -526,11 +493,7 @@ The majority of GM crops are also “glyphosate ready” (herbicide resistant) w
 the ecosystems and encourages the development of “super weeds” (weeds that are
 extremely resistant to glyphosate).
 GMOs are one of the reasons allergies are so common nowadays. GE (genetic engineering)
-can transfer allergens from one food to another. For example, when a gene from brazil nuts
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
-
-were engineered into soybeans, people allergic to brazil nuts had the same allergy reactions
+can transfer allergens from one food to another. For example, when a gene from brazil nuts were engineered into soybeans, people allergic to brazil nuts had the same allergy reactions
 when eating this batch of soy products as they would when eating brazil nuts. So GE can
 “transfer” the allergy you have on a specific food to another food that you consider safe.
 GE can also cause new allergic responses since well, you’re consuming something that has
@@ -556,8 +519,6 @@ And this is the exact case with grains even though it was not an “evil” atte
 one.
 In 1960, Borlaug started making wheat hybrids in order to feed more people (why this
 attemp was noble).
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 But in order to do that, the plant would need to be able to survive some pretty harsh
 climates.
@@ -586,8 +547,6 @@ talked about already.
 Grains are also high in mycotoxins such as ochratoxin and deoxynivalenol.
 The effects of mycotoxins on human health can be both acute and chronic, provoking
 problems such as liver cancer and respiratory problems.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Mycotoxins cause perturbation in the gut, particularly in the intestinal epithelial.
 Most of the reported effects of mycotoxins on human health are negative both short term
@@ -617,8 +576,6 @@ Well the problem with this is that you are basically drinking poison.
 You are megadosing on antinutrients, herbicides and pesticides.
 This is the only thing that you are getting out of these nuts by blending them with water and
 straining the mixture.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Almonds for example are extremely high in oxalates and a lot of poor kids developed
 kidney and bladder problems from drinking almond milk. Even babies are fed this stuff
@@ -648,8 +605,6 @@ Eating only cooked foods will deplete our body mainly of enzymes (enzymes are ca
 for every metabolic process) and then some vitamins and minerals.
 Including raw foods in a person’s diet ensures better digestion and more nutrient absorption
 since many vitamins such as the B vitamins are heat-sensitive.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Of course, only eating raw foods has many downsides as well (one of them which is not
 talked about enough being the reduction of stomach acid) and this is why we need to find a
@@ -682,8 +637,6 @@ keeping an optimal level of carbon dioxide causes calcium to be controlled resul
 lowered parathyroid hormone.
 When carbon dioxide is inadequate, calcium is allowed to enter cells causing inappropriate
 excitation which many sometimes is followed by calcification.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Also both vitamin D and vitamin K require carbon dioxide in order to dispose of calcium
 properly.
@@ -716,8 +669,6 @@ pregnenolone and progesterone as well.
 **Note:** If you can’t digest raw dairy, the focus on 4 things
 Number 1: Healing your gut and especially addressing pathogen related issues.
 Number 2: Healing your thyroid.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Number 3: Adding some lemon juice or even ACV to the raw dairy since they need a lot of
 stomach acid in order to be properly digested.
@@ -748,8 +699,6 @@ Iceland during the winter for example and you’re from Australia.
 It can absorb certain nutrients but it will hijack certain mechanisms.
 Your heritage matters. Especially from your mother’s side.
 So you should also prioritize the foods that are more compatible to your heritage.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Principle number 18: Do not eat stressed and do not drink any type of liquid close to
 your meals.**
@@ -779,8 +728,6 @@ Then get rid of your Teflon and nonstick pans.
 These are coated with PTFE and PFAS (PFOA as well in certain countries), which when
 heated release perfluorooctanoic acid which is linked to thyroid disease, liver disease,
 infertility, and a lot of reproductive problems.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 An alternative to these and the one i recommend is anything made out of glass.
 Cast iron could work too if its use is not constant and you’re not using anything acidic.
@@ -807,8 +754,6 @@ Now let’s see these vitamins and minerals one by one.
 **1)Vitamin A (Retinol)**
 Vitamin A is an essential micronutrient meaning that our bodies cannot manufacture it and
 therefore it has to be included in our diet.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Vitamin A from food is stored in the liver until required by the body and is essential for
 many physiological processes, including maintaining the integrity and function of all
@@ -841,8 +786,6 @@ Thiamine:**
 ● Plays a role in muscle contraction.
 ● Plays a role in the conduction of nerve signals.
 ● Is essential for the metabolism of pyruvate.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 ● Is essential for GABA.
 ● Boosts CO2.
@@ -873,8 +816,6 @@ Riboflavin:**
 ● Is important for growth.
 ● Helps in red blood cell production.
 ● Aids in the release of energy from proteins.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 ● Helps extra iron and heavy metals (if one has enough B1 in his system) get extracted
 safely through the urine.
@@ -903,8 +844,6 @@ dinucleotide (NAD) and nicotinamide adenine dinucleotide phosphate (NADP), which
 involved in over 400 biochemical reactions in your body mainly related to obtaining energy
 from the food we eat (we discussed B3 in detail in lesson 1).
 **The best food sources of vitamin B3 are:**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 1)Organic pork cooked in some coconut oil
 2)Chicken soup
@@ -934,8 +873,6 @@ Vitamin B6 or pyridoxine, is a water-soluble vitamin found naturally in many foo
 as added to foods and supplements.
 Pyridoxal 5’ phosphate (PLP) is the active coenzyme form and most common measure of
 B6 blood levels in the body.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 PLP is a coenzyme that assists more than 100 enzymes to perform various functions,
 including the breakdown of proteins, carbohydrates, and fats; maintaining normal levels of
@@ -961,8 +898,6 @@ As with all B vitamins, biotin is a coenzyme for carboxylase enzymes that are in
 ● synthesizing the amino acids isoleucine and valine
 ● gluconeogenesis, or generating glucose
 **The best sources of vitamin B7 are:**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 -Beef liver
 -Egg yolks
@@ -991,11 +926,7 @@ to improve your health and check the supplement guide in order to understand bet
 use supplements.
 **9) Vitamin B9 (folic acid)**
 Vitamin B9 or folic acid is crucial for proper brain function, plays an important role in
-mental and emotional health, aids in the production of DNA and RNA, the body's genetic
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
-
-material, it helps to control blood levels of the amino acid homocysteine along with B6 and
+mental and emotional health, aids in the production of DNA and RNA, the body's genetic material, it helps to control blood levels of the amino acid homocysteine along with B6 and
 B12, can prevent and even reverse age related hearing loss and macular degeneration, can
 protect the development of many forms of cancer and the list keeps going and ends with the
 fact that a B9 deficiency can cause birth defects and even miscarriages.
@@ -1021,8 +952,6 @@ proteins, and lipids.
 -Beef liver
 -Beef
 -Clams
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 -Sardines
 -Raw dairy
@@ -1055,8 +984,6 @@ Boron is a trace mineral that:**
 ● Improve sleep.
 ● Remove sodium fluoride.
 **The best dietary sources of boron are:**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 -Prunes
 -Raisins
@@ -1088,8 +1015,6 @@ vitamin C is an extremely important nutrient.
 You can supplement vitamin C but as we said make sure to consume it with a meal that has
 sodium in it and wash it down with an acidic beverage preferable some of the mentioned
 juices.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 If you are going to supplement with vitamin C supplement with a dose as low as 250 mg
 and do not increase it if there’s no need for it but always favor pomegranate and acerola
@@ -1113,8 +1038,6 @@ Calcium also stimulates LH and is thus a crucial mineral for androgen health.
 -Bone broth/marrow
 -Eggshells
 **14) Choline (Vitamin J or B4)**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Choline plays an important part in many processes in your body, including cell structure
 (make fats that support the structural integrity of cell membranes), brain development, cell
@@ -1143,8 +1066,6 @@ bound copper ions from partially digested foods. However, the largest portion of
 copper passes into the duodenum and ileum, which are the major sites of absorption so a
 high fraction of copper is soluble in the intestinal tract and in order for copper to be
 properly absorbed and utilized one must focus on healing his gut as well.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Due to factors such as the chronic consumption of inorganic iron or even mindless vitamin
 C and zinc supplementation, a lot of people experience a copper deficiency nowadays.
@@ -1172,8 +1093,6 @@ osteoblasts and osteoclasts.
 Vitamin D has other roles in the body, including reduction of inflammation as well as
 modulation of such processes as cell growth, neuromuscular and immune function and
 glucose metabolism as we saw.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Vitamin D plays a key role in preventing autoimmune diseases, muscle waste, reverse
 steroid driven hair loss, glucose metabolism, steroidogenesis, calcium absorption.
@@ -1202,8 +1121,6 @@ throughout the body including the liver, brain, heart, pancreas and bones and th
 each one of these.
 The first (K1) is called phylloquinone and found in green leafy vegetables like collard
 greens, kale, and spinach.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 The second
 (K2), menaquinones, are found in some animal and fermented foods such as natto.
@@ -1231,8 +1148,6 @@ Manganese is also necessary for GnRH which makes it a crucial mineral for fertil
 On a last note manganese supplements usually are not recommended due to the fact that
 most brands use toxic fillers.
 **20) Magnesium**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Magnesium is the fourth most abundant mineral in the human body and it’s something most
 people are deficient in.
@@ -1260,8 +1175,6 @@ additives.
 Just make sure to use different forms since every form of magnesium tends to go to a
 specific tissue (for example glycinate has a preference for muscle tissue) so it is in fact
 better to use different chelates as well.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Start with magnesium glycinate and perhaps citrate if you are going to use a supplemental
 form.
@@ -1287,8 +1200,6 @@ Potassium also helps muscles to contract and supports normal blood pressure.
 Potassium is the third most abundant mineral in the body.
 (*)Potassium is the main electrolyte in the ICF, and it determines the amount of water inside
 the cells.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 (**)Sodium is the main electrolyte in the ECF, and it determines the amount of water
 outside the cells.
@@ -1319,8 +1230,6 @@ The best sources of selenium are:
 Just make sure to have just one of the above foods in a small portion every day and your
 selenium needs will be covered.
 Most selenium supplements are toxic.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **24) Sodium**
 Sodium is one of the body's electrolytes (minerals that the body needs in relatively large
@@ -1348,8 +1257,6 @@ testosterone.
 **The best sources of zinc are:**
 -Shellfish
 -Beef
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Zinc supplements are best to be avoided since they will always lead to some kind of
 zinc:copper imbalance and do not take a zinc supplement that has copper in it since copper
@@ -1377,8 +1284,6 @@ Here are 3 steps that you can take.
 we’ve already talked about in detail but here’s the cheat sheet:
 Number 1: PUFAs
 Nutrients they mainly deplete:**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 ● Vitamin E
 ● Minerals
@@ -1407,8 +1312,6 @@ Nutrients it mainly depletes:**
 ● Vitamin C
 ● Taurine
 **Number 7: Phytic acid**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Nutrients it mainly depletes:**
 ● Minerals and especially zinc
@@ -1439,8 +1342,6 @@ Nutrients they mainly deplete:**
 ● B5
 **Number 11: Statins
 Nutrients it mainly depletes:**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 ● CoQ10
 ● Vitamin D
@@ -1468,8 +1369,6 @@ Nutrients they mainly deplete:**
 ● Electrolytes
 **Number 17: Antibiotics
 Nutrients they mainly deplete:**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 ● B vitamins
 ● Vitamin K
@@ -1497,8 +1396,6 @@ If that’s the case, then (this is not medical advice and nothing in this email
 simply take out all of the things that you saw that are depleting you of nutrients and stick to
 the RDA or go a bit higher.
 In the second scenario, your parents were raised on some quality nutrition but you weren’t.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 If that’s the case then i suggest you once again take our all of the things that deplete you of
 nutrients and actually aim for getting 2X the RDA (which is not hard to do and some of the
@@ -1530,8 +1427,6 @@ perspective.
 For example, you often hear about the benefits of X amino acid, but you rarely hear about
 what amino acids actually are, why they matter, where to get each one, and how to properly
 balance them.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 This is what we are going to do here.
 First of all, what are amino acids?
@@ -1559,8 +1454,6 @@ which have no functional group in their side chain.
 This category includes:
 •Tryptophan
 •Histidine
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 •Proline
 which have a side chain ring that possesses at least one atom other than carbon.
@@ -1584,11 +1477,7 @@ which have sulfur in their side chain.
 **Number 6: Amine group-containing amino acids**
 This category includes:
 •Asparagine
-•Glutamine
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
-
-in which one of carboxyl group has been transformed into an amide group.
+•Glutamine in which one of carboxyl group has been transformed into an amide group.
 **Number 7: Branched-chain amino acids**
 This category includes:
 •Leucine
@@ -1611,8 +1500,6 @@ Aliphatic ones include: alanine, valine, leucine, Isoleucine and proline.
 Aromatic ones include: phenylalanine, tryptophan and methionine.
 **Number 11: Amino acids with polar but uncharged R group** which include: glycine,
 threonine, serine, tyrosine, cysteine, glutamine and asparagine.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Number 12: Negatively charged amino acids** which include: aspartic acid and glutamic
 acid.
@@ -1644,8 +1531,6 @@ But now let’s analyze each amino acid.
 
 **1. Glycine**
 Glycine is a precursor from things such as glutathione and purines, all the way to creatine.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Glycine reduces stress hormones, is a GABA agonist, is cryoprotective, a great antioxidant,
 prevents a lot of types of hepatic damage, protects the liver and heart, reduces muscle
@@ -1677,8 +1562,6 @@ Leucine has been used by a lot of people in the alternative health space as an a
 lower excessive serotonin but i do not like it since leucine has this effect only in high-ish
 doses and thus there are way more effective and safe ways to lower excessive serotonin
 (glycine, ginger, ginkgo, thiamine and even aspirin.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Sources: G.f beef, ricotta cheese and pasture raised eggs.
 
@@ -1707,8 +1590,6 @@ skin color.
 Sources: Steak and raw milk have plenty of tyrosine
 **9. Carnosine**
 Carnosine is formed from the binding together of the amino acids alanine and histidine.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Carnosine can prevent the glycosylation of protein (the addition of sugar groups to proteins)
 and some of the damage that free radicals cause (especially in the brain (which makes sense
@@ -1742,8 +1623,6 @@ you should remember that even cortisol can seem like a miracle molecule in the s
 Now that being said, are supplements pointless?
 Yes, some of them are not only pointless but harmful as well in my opinion.
 **Here is what you should avoid.**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **1. Synthetic Vitamin A, Beta carotene and B6.**
 Every single one of these vitamins will cause severe liver damage and synthetic B6 is
@@ -1769,8 +1648,6 @@ phyto-androgens).
 **7. Pre workouts and ED “supplements”.**
 They raise nitric oxide way too much which inevitably leads to severe metabolic damage.
 **8. BCAAs.**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 A) They throw the amino acid imbalance that most people face way more out of balance
 and B) most have heavy metals in them and some very shady forms of silicone.
@@ -1795,8 +1672,6 @@ If you are depressed you generally want to optimize dopamine and GABA, not serot
 **14. Ashwagandha**
 You can use this one, but very very short term (once every 10 days).
 It simply is too powerful of an adaptogen (with the negative meaning of this term).
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Moving on to which supplements can be beneficial, for which issues, when you should take
 them, with what you should not combine them with, for how long you should use them and
@@ -1827,11 +1702,7 @@ Last note: The only form of non isolated B vitamins that it’s usage is accepte
 possible estrogenic effects.
 **2.Whole food vitamin C
 Some benefits:** Immune system support, heart health support, adrenal support, lower
-oxidative stress, fertility boost, androgen health support, helps sleep apnea, iron
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
-
-homeostasis support, tendon recovery and faster recovery from medication such as
+oxidative stress, fertility boost, androgen health support, helps sleep apnea, iron homeostasis support, tendon recovery and faster recovery from medication such as
 accutane.
 **Best time to consume:** You can consume whole food vitamin C any time you want, but the
 best time to use vitamin C is first thing in the morning or 1-2 hours after consuming
@@ -1862,8 +1733,6 @@ statins, tons of peptides, antiplatelet medications and so on) but this usually 
 doses from 100mg of vitamin E and up. So, if you actually stick to the recommended dose
 of 20mg, an interaction is quite unlikely, but still, separate vitamin E from other
 supplements and medications for up to 2 hours.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Usage length:** When it comes to long term usage of vitamin E from whole foods (a vitamin
 E supplement from red palm oil for example), there aren’t many negative reactions if any at
@@ -1891,8 +1760,6 @@ nervous system.
 **Best time to consume:** This depends on the type. Typically, either first thing in the morning
 or last thing at night, since taking magnesium mid day can negatively influence the
 absorption of vitamin D.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Interactions:** Magnesium unfortunately, even though it’s recommended by every bro, can
 negatively interact with many medications and especially antibiotics (there is a time and
@@ -1923,8 +1790,6 @@ the liver, supports energy metabolism, protects against muscle loss, prevents ha
 lowers stress hormones, protects the adrenals and lowers excessive serotonin.
 **Best time to consume:** Small doses (1 gram) throughout the day since doses of 5 plus
 grams will disrupt REM sleep in a lot of people if taken at night.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Interactions:** A lot of antipsychotic drugs and some SSRIs.
 **Usage length:** Glycine is one of the few supplements that i recommend for most people to
@@ -1953,8 +1818,6 @@ crucial for metabolic health, reduces premature skin aging and is crucial for mi
 health.
 **Best time to consume:** You can take vitamin K (i recommend MK7) as long as you
 consume it with a fatty meal.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Interactions:** A lot but fortunately they create an absorption problem and not some counter
 action unless we are talking about some seizure medications.
@@ -1983,8 +1846,6 @@ testosterone way more than shilajit and a very effective treatment for Alzheimer
 it will be better to be consumed by itself.
 **Usage length:** No more than 4 weeks at a time.
 **Priority supplement for:** Men with fertility problems
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **13. Milk thistle
 Some benefits:** Liver protection, great for people with T2D, improves digestion (better than
@@ -2011,8 +1872,6 @@ people.
 **15. DHEA
 Some benefits:** Mainly libido, mental performance, premature aging and fertility.
 **Best time to consume:** In the morning.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Interactions:** A LOT of things. Too many to name so ask your doctor in case that you are
 consuming any medication.
@@ -2043,8 +1902,6 @@ migraines, allergies and so on), SIBO and some people with IBS.
 general), so consult your doctor before using them.
 **Usage length:** Depends on the other medications and supplements you are in that affect
 mast cells (consult your doctor).
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Priority supplement for:** People with severe histamine intolerance and gut issues.
 
@@ -2073,11 +1930,7 @@ acetylcholine too much after a certain point and cause severe anxiety.
 **20. Iodine
 Some benefits:** Iodine is a vital mineral for the thyroid gland, it is crucial for our immune
 system, it has crucial antiviral and antibacterial properties, it is necessary for the safe
-removal of heavy metals for our system and things such as fluoride and even chlorine, low
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
-
-iodine levels have been correlated with significant decreases in IQ and it’s one of the most
+removal of heavy metals for our system and things such as fluoride and even chlorine, low iodine levels have been correlated with significant decreases in IQ and it’s one of the most
 crucial minerals for our health.
 **Best time to consume:** First of all, even though i recommend iodine as a supplement, i do it
 just because even though my warnings against it, some people might get tricked into doing
@@ -2106,8 +1959,6 @@ Some benefits:** Digestive enzymes can be things such as papain, bromelain, pect
 invertase and even lactase. Digestive enzymes can help people who face problems with low
 stomach acid and used to eat a lot of starches and gluten for a long time.
 **Best time to consume:** After a meal.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Interactions:** Some anticoagulant medications.
 **Usage length:** 2-3 months if you only use them a few times per week.
@@ -2137,8 +1988,6 @@ that’s mainly been used in order to:
 The reason why it lowers significantly elevated levels LDL so effectively
 2. Support the immune system
 3. Battle pathogen-related gut issues
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 4. Support adrenal health
 5. Balance blood sugar
@@ -2164,8 +2013,6 @@ Some of the risks of chaga include:
 -Kidney problems
 -Bone problems
 -Poor circulation
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 -Hypoglycemia
 And you WILL face them if you use chaga as a staple in your diet instead of treating it as a
@@ -2192,8 +2039,6 @@ https://pubmed.ncbi.nlm.nih.gov/16233144/
 https://pubmed.ncbi.nlm.nih.gov/15857210/
 https://pubmed.ncbi.nlm.nih.gov/14756912/
 When overused (daily consumption), the downsides of reishi are the following:
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 -Tanked androgens
 -Kidney issues
@@ -2221,8 +2066,6 @@ Side effects:
 In theory, the side effects of Turkey tail are very minimum but in practice, the long-term
 usage of it has shown symptoms of mineral depletion in a lot of the people that i've met so i
 wouldn't use it for months on end no matter what the claims are.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **Number 4: Lion's mane**
 Hou tou gu (lion's mane) is probably the most underrated dietary source of potassium,
@@ -2249,8 +2092,6 @@ Side effects from long-term use (some of them can even occur within a month):
 -Nausea
 -Hypoglycemia
 **Number 5: Cordyceps (sinensis and militaris)**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 If you're only going to experiment with two of these mushrooms, you should hands down
 choose lion's mane and cordyceps.
@@ -2278,8 +2119,6 @@ underestimate their power.
 That being said, if we do not prepare them right (peel their skin off, soak them, cook them
 in animal fats for example), they can have a negative impact on things such as our nervous
 system and our mineral stores.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Some exceptions to this are seaweed, spirulina and kelp.
 Two examples of plant toxins are phytic acid and solanine.
@@ -2309,11 +2148,7 @@ vinegar before cooking) in order to avoid their side effects.
 Since every cell in your body needs “fat” (every cell membrane is made out of
 fat/cholesterol), the type of fats we are consuming affects our health on a fundamental level.
 Now in a nutshell, when we are using the term “bad fats” we are referring to high
-inflammatory fats that are unstable when exposed to heat such as canola oil, corn oil,
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
-
-cottonseed oil, rapeseed oil and in general highly unsaturated fats with an unsaturated SN-2
+inflammatory fats that are unstable when exposed to heat such as canola oil, corn oil, cottonseed oil, rapeseed oil and in general highly unsaturated fats with an unsaturated SN-2
 position.
 These fats, are everywhere nowadays (even in things such as milk) and you must avoid
 them if you want to be healthy.
@@ -2340,11 +2175,7 @@ insane, for example, they drive LOTS of bacterial infections and make people res
 already very strong antibiotics), weaken the immune system, cause skin cancer (and cancer
 in general, cause diabetes, harm the liver and the pancreas, can trigger autoimmune diseases
 through leukotrienes, they increase the expression of nuclear factor NF-kB, greatly decrease
-your body’s ability to produce thyroid hormones, damage the Leydig cells (Leydig cells are
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
-
-the primary source of testosterone or androgens in males) and in general cause a gigantic
+your body’s ability to produce thyroid hormones, damage the Leydig cells (Leydig cells are the primary source of testosterone or androgens in males) and in general cause a gigantic
 mess.
 Now if we reverse the above, we could say that following a diet which is low in highly
 unsaturated fats will have benefits such as:
@@ -2378,8 +2209,6 @@ red palm oil in your house.
 ● Do not neglect saturated fats since they can offset the damage caused by PUFAs.
 ● Do not neglect vitamin C.
 ● Visit the sauna 2-3 times per week.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 ● Increase your metabolic activity and CO2 production as will be presented later in the
 program.
@@ -2409,8 +2238,6 @@ If you ever went zero carb, you know the horrific withdrawals that carb restrict
 to. Why is that? Well our body can not run efficiently without carbohydrates.
 Many people when they go zero carb find themselves experiencing panic attacks and even
 being unable to breathe for example as a result of chronic low carb dieting.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 This. Is. Not. Normal. And there’s no reason to be in ketosis for more than 4 weeks per year
 for 99.9999% of people and this even might be too much for some people.
@@ -2438,8 +2265,6 @@ The glycogen stores in the liver also help with exercise. At the start
 of exercise, your liver begins breaking down glycogen to maintain blood glucose levels as
 your working muscles use it for energy.
 However, your muscles primarily use their own glycogen stores to function.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 (**)Muscle glycogen serves mainly as a source of metabolic fuel for your muscles and if
 your muscles relied on glucose from your bloodstream for this energy, your body would
@@ -2472,8 +2297,6 @@ which first of all harm the organs that help us process carbohydrates in the fir
 as the pancreas and second of all prevent certain protective hormones from being released.
 On the other hand, a healthy light environment promotes the production of hormones that
 support or health and help us properly metabolize carbs.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 So, implementing the things that you read on the first chapter will be crucial for optimizing
 your glucose metabolism.
@@ -2504,8 +2327,6 @@ deficiency in these 2 (which is not uncommon) is enough to cause severe metaboli
 problems.
 Carbs have been demonized for way too long and a low carb diet does nothing for
 addressing the above serious deficiencies most of the time.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 B vitamins are involved in the enzymatic processes which run cellular respiration, and a
 deficiency of the important ones can interrupt the process.
@@ -2529,8 +2350,6 @@ never supplement a B complex and never consume synthetic B6 (most of the time is
 cheap additive (reason why it is in so many soft drinks) that will damage your liver.
 B vitamins should be supplemented in the morning with a good meal and with post sunlight
 exposure.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 An important note also is that since B vitamins which must be consumed with carbs will
 increase the metabolic rate, you need to make sure you have enough vitamin A in your
@@ -2556,11 +2375,7 @@ metabolism since the pancreas has high levels of K2 and when K2 is deficient ins
 resistance peaks.
 So a short term supplementation with even MK7 (it has a very very long half life so you
 should be using it once every 2 or 3 days) could be beneficial for optimizing glucose
-metabolism unless you have issues with your mast cells (this will be addressed in the gut
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
-
-healing part) and in that case you should stick to vitamin K2 sources such as beef liver,
+metabolism unless you have issues with your mast cells (this will be addressed in the gut healing part) and in that case you should stick to vitamin K2 sources such as beef liver,
 chicken liver and free range egg yolks.
 Vitamin K2 is also an electron carrier so it results in more efficient ATP production and
 mitochondrial health.
@@ -2582,8 +2397,6 @@ Take free radicals for example.
 An atom or group of atoms with an unpaired electron is called a free radical.
 It can steal electrons from a stable molecule, creating a new free radical and initiating a
 chain reaction.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 This electron-grabbing is called oxidation and can set up a chain reaction, creating new free
 radicals and damaging important molecules along the way.
@@ -2614,8 +2427,6 @@ Good sources of the above mentioned electrolytes that you can start with are:
 -Magnesium both orally (not oxide) and topically
 -Eggshell powder
 -Raw milk
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Now you've probably heard that 90% of people are deficient in magnesium, but have you
 heard that 97% of people are deficient in potassium?
@@ -2645,8 +2456,6 @@ well.
 But since bee pollen even quality one, is vert hard to digest and a lot of stomach acid in
 needed in order to extract the minerals, the people who struggle with gut issues can mix bee
 pollen with honey (1:1 ratio) in order for the honey to break the cell wall.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 **1) Organic apples**
 If you can not get organic apples, ignore this since non-organic apples are one of the foods
@@ -2676,8 +2485,6 @@ A) The right type of coffee (organic coffee)
 B) Having the right meal prior of consuming coffee (bioavailable protein, quality carbs
 and some saturated fats) (caffeine increases metabolic activity so you need nutrients)
 C) Adding glycine to coffee in order to mitigate the cortisol response from the caffeine.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Coffee if used right can increase testosterone even by 10%, stimulate more 5 alpha
 reductase activity and reduce myostatin.
@@ -2708,8 +2515,6 @@ and detoxification. It has also been shown to reduce liver fat accumulation prev
 liver disease.
 **8) Fruits rich in vitamin C**
 The human body cannot make vitamin C and relies on food in order to get enough.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Vitamin C is a great antioxidant as you read on lesson 1, promotes fertility, protects the
 adrenal glands, boosts pregnenolone, progesterone and testosterone, helps us to regulate
@@ -2742,8 +2547,6 @@ when you realise that’s the protective substance of the beehive.
 It’s rich in polyphenols, it has great androgen boosting effects, it’s great for the lungs, breast
 tissue, prostate can help you battle candida, viruses and more.
 It can also be used topically for wounds and burns.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 You can also make your own propolis infused unheated honey.
 **13) Schisandra**
@@ -2773,8 +2576,6 @@ triglycerides and help with PMS.
 A great magnesium source that can protect your gut, help your immune system, balance
 your blood sugar levels, lower triglycerides and protect your liver.
 **20) Calendula**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 You can use this to beat fatigue, support your skin, your thyroid, fight pathogens, PMS and
 to support your oral health.
@@ -2803,8 +2604,6 @@ Kidneys, are a great source of zinc, selenium, B12, B9, choline, carnosine and D
 Brains are a great source of phospatidulserine which is crucial for dopamine production and
 even BDNF.
 **26) Quality seafood**
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 All of them are great mineral sources which can help things such as your fertility, mood and
 athletic performance.
@@ -2834,8 +2633,6 @@ A handful of berries full of vitamins and minerals can be possibly considered th
 GMO sugar filled with mold.
 Not to even mention that you can replace anything that requires sugar with raw honey.
 “How is raw honey different?”.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Well, here are five reason.
 Number 1: It’s an animal food and not a plant one.
@@ -2867,8 +2664,6 @@ The liquids of the broth will release MORE of the nutrients that are in things s
 connective tissues, skin, ligaments and the bones on the meat piece.
 That’s how you’ll actually be able to get things such as glucosamine, hyaluronic acid and
 chondroitin
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 Also, this will allow you to get more minerals in since they are release from things such as
 the cartilage and bones.
@@ -2896,8 +2691,6 @@ All it is, is a way to extend the shelf life of products and sell more units sin
 very difficult to be sold on a mass scale without some badge going bad.
 Pasteurised milk is more resilient in harsh conditions which makes it great for the economy
 but not for our health.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 We basically did to milk the same thing we did to the grains and just as hybridised grains
 destroy our guts and create inflammation, the same thing happens with pasturised milk
@@ -2925,8 +2718,6 @@ Well that’s because of the lactose content.
 Lactose which is composed of glucose and galactose is what makes milk sweet.
 Milk has way more lactose than butter or cheeses (and especially real mozzarela) and this is
 why people who can often be lactose intolerant can have cheese without a problem.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 The pasturization of milk, destroys the lactase enzyme which is responsible for the break
 down of lactose and this is why people who take thyroid can have pasurised milk just fine
@@ -2955,8 +2746,6 @@ disease and many other diseases.
 So in a nutsheel, A2 dairy are far superior to A1.
 **Princple number 30: Do not practice veganism**
 Now plants can be great supplement foods, but you can not thrive on plants by default.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
 
 You can not get things such as biovailable calcium, iron, vitamin B12, creatine, taurine,
 carnosine and retinol.
@@ -2965,7 +2754,3 @@ Nope. Every vitamin and mineral needs to have certain cofactors in order to be p
 absorbed and utilized and isolated supplements lack that.
 This is also why tons of vegans are deficient in iodine even when they consume things such
 as sea weed, it’s because iodine needs retinol in order to be properly absorbed and utilized.
-Gut health handbook (lesson 3) written by George @Helios_Movement **Sold to**
-
-
-
