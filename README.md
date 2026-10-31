@@ -117,7 +117,7 @@ uv run pytest
 
 ## Deploying
 
-Production runs on [Render](https://render.com) with Postgres on [Neon](https://neon.com). [`render.yaml`](render.yaml) is a Blueprint for one Docker web service built from the [`Dockerfile`](Dockerfile), in Render's Ohio region next to Neon's `us-east-2`. Every push to `main` deploys. Before the new instance takes traffic, Render runs `alembic upgrade head && health-agent ingest` as the pre-deploy step, so a migration lands before the code that needs it and never runs twice at once, and the RAG index matches the deployed `resources/`. Render health-checks `/ok`. On a deploy, the old instance gets up to 120 seconds to finish in-flight chats before it is stopped.
+Production runs on [Render](https://render.com) with Postgres on [Neon](https://neon.com). [`render.yaml`](render.yaml) is a Blueprint for one Docker web service built from the [`Dockerfile`](Dockerfile), in Render's Ohio region next to Neon's `us-east-2`. Every push to `main` deploys. Before the new instance takes traffic, Render runs `health-agent predeploy` (`alembic upgrade head`, then `health-agent ingest`) as the pre-deploy step, so a migration lands before the code that needs it and never runs twice at once, and the RAG index matches the deployed `resources/`. Render health-checks `/ok`. On a deploy, the old instance gets up to 120 seconds to finish in-flight chats before it is stopped.
 
 Neon supplies two connection strings. `DATABASE_URL` is the pooled one (host contains `-pooler`) and is what the app uses. `DATABASE_URL_UNPOOLED` is the direct one, which Alembic and `pg_dump` need. Both are set on the Render service.
 

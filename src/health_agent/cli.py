@@ -29,6 +29,20 @@ def ingest(
     )
 
 
+@app.command()
+def predeploy():
+    """Migrate the database, then ingest resources. Render's pre-deploy step runs this.
+
+    One command rather than `alembic upgrade head && health-agent ingest`, which needs a
+    shell that Render's pre-deploy step doesn't reliably provide.
+    """
+    from alembic import command
+    from alembic.config import Config
+
+    command.upgrade(Config("alembic.ini"), "head")
+    ingest(force=False)
+
+
 @app.command("sync-nutrient-resources")
 def sync_nutrient_resources_command():
     """Render nutrient pages into resources/nutrients/ so ingest indexes them."""
