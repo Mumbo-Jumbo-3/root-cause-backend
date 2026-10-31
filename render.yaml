@@ -9,6 +9,8 @@ services:
     region: ohio
     plan: starter
     healthCheckPath: /ok
+    # A chat streams for 60-90 s; give in-flight runs time to finish when a deploy replaces the instance (default 30 s).
+    maxShutdownDelaySeconds: 120
     # Runs once per deploy, before the new instance takes traffic.
     preDeployCommand: alembic upgrade head
     envVars:
