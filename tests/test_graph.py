@@ -7,6 +7,8 @@ from langgraph.checkpoint.memory import InMemorySaver
 
 from health_agent.config import Settings
 from health_agent.graph import (
+    HISTORY_MESSAGE_CHARS,
+    HISTORY_MESSAGES,
     STATUS_EMPTY,
     STATUS_ERROR,
     STATUS_SKIPPED,
@@ -14,13 +16,16 @@ from health_agent.graph import (
     SYNTHESIS_FALLBACK_TEXT,
     SearchFinding,
     _coerce_findings_payload,
+    _conversation_transcript,
     _normalize_findings,
     _normalize_queries,
     build_graph,
 )
 
 
-def _make_search_model(content=None, *, error: Exception | None = None, capture_bind=None):
+def _make_search_model(
+    content=None, *, error: Exception | None = None, capture_bind=None, captured_calls=None
+):
     model = MagicMock()
     configured = MagicMock()
     bound = MagicMock()
@@ -34,6 +39,8 @@ def _make_search_model(content=None, *, error: Exception | None = None, capture_
         return bound
 
     def fake_invoke(messages, **kwargs):
+        if captured_calls is not None:
+            captured_calls.append(messages)
         if error is not None:
             raise error
         return AIMessage(content=content)
@@ -131,7 +138,15 @@ def _get_node_func(
         judge=judge,
         classifier=classifier,
     )
-    return graph.get_graph().nodes[node_name].data.func
+    func = graph.get_graph().nodes[node_name].data.func
+
+    def call(state):
+        # Downstream nodes research `question`, which the classifier derives from the
+        # latest message; a single-turn question stands alone, so it is that message.
+        state.setdefault("question", state["messages"][-1].content)
+        return func(state)
+
+    return call
 
 
 def test_graph_compiles():
@@ -1082,3 +1097,88 @@ def test_graph_trace_resets_each_turn():
     assert {"trusted_search", "rag_base", "rag_merge", "gate"} <= set(phases)
     trace = second["messages"][-1].additional_kwargs["research_trace"]
     assert trace["events"] == second["trace"]
+
+
+def _two_turn_run(classifier, *, follow_up="what dose?"):
+    """Ask about magnesium, then a follow-up; return what research saw on each turn."""
+    trusted_calls: list = []
+    judge = _make_tracked_json_model({"sufficient": True, "reason": "covered"})
+    synthesis: dict = {}
+    graph = _build_graph(
+        trusted=_make_search_model(_VALID_FINDINGS_PAYLOAD, captured_calls=trusted_calls),
+        judge=judge,
+        claude=_make_claude_model(synthesis),
+        classifier=classifier,
+        checkpointer=InMemorySaver(),
+    )
+    config = {"configurable": {"thread_id": "follow-up"}}
+
+    with (
+        patch("health_agent.graph._run_search_retrieval", return_value=[]) as retrieve,
+        patch(
+            "health_agent.graph.rerank_documents",
+            side_effect=lambda query, docs, settings: docs,
+        ) as rerank,
+    ):
+        first = graph.invoke({"messages": [HumanMessage(content="magnesium for sleep?")]}, config)
+        second = graph.invoke({"messages": [HumanMessage(content=follow_up)]}, config)
+
+    return {
+        "first": first,
+        "second": second,
+        "retrieval_queries": [call.args[0] for call in retrieve.call_args_list],
+        "rerank_queries": [call.args[0] for call in rerank.call_args_list],
+        "trusted_questions": [messages[-1].content for messages in trusted_calls],
+        "judge_input": judge.invoke.call_args.args[0][-1].content,
+        "synthesis_input": synthesis["messages"][-1].content[-1]["text"],
+    }
+
+
+def test_follow_up_is_researched_as_a_standalone_question():
+    standalone = "What is a safe daily dose of magnesium for sleep?"
+    classifier = _make_tracked_json_model(
+        {"is_womens_health": False, "standalone_question": standalone}
+    )
+
+    run = _two_turn_run(classifier)
+
+    # The first message has no conversation to resolve, so it is researched verbatim.
+    assert run["first"]["question"] == "magnesium for sleep?"
+    assert run["retrieval_queries"][0] == ["magnesium for sleep?"]
+
+    classifier_input = classifier.invoke.call_args.args[0][-1].content
+    assert "User: magnesium for sleep?" in classifier_input
+    assert "Assistant: final answer" in classifier_input
+    assert classifier_input.endswith("## Latest question\nwhat dose?")
+
+    assert run["second"]["question"] == standalone
+    assert [standalone] in run["retrieval_queries"]
+    assert run["rerank_queries"][-1] == standalone
+    assert run["trusted_questions"][-1] == standalone
+    assert f"## User Question\n{standalone}" in run["judge_input"]
+    # The answer still responds to the user's own words, with the conversation as context.
+    assert "## User Question\nwhat dose?" in run["synthesis_input"]
+
+
+def test_follow_up_is_researched_as_written_when_the_classifier_fails():
+    classifier = MagicMock()
+    classifier.invoke = MagicMock(side_effect=RuntimeError("classifier down"))
+
+    run = _two_turn_run(classifier)
+
+    assert run["second"]["question"] == "what dose?"
+    assert run["second"]["is_womens_health"] is False
+    assert ["what dose?"] in run["retrieval_queries"]
+    assert run["trusted_questions"][-1] == "what dose?"
+
+
+def test_conversation_transcript_keeps_recent_turns_and_trims_long_answers():
+    messages = [HumanMessage(content=f"question {i}") for i in range(10)]
+    messages.append(AIMessage(content="x" * 5000))
+
+    transcript = _conversation_transcript(messages)
+
+    turns = transcript.split("\n\n")
+    assert len(turns) == HISTORY_MESSAGES
+    assert turns[0] == "User: question 5"
+    assert turns[-1] == "Assistant: " + "x" * HISTORY_MESSAGE_CHARS + " …"
