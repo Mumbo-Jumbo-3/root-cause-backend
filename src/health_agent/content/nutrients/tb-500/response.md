@@ -1,0 +1,57 @@
+## What it's for
+
+TB-500 is a synthetic peptide mimicking the active seven-amino-acid fragment (Ac-LKKTETQ) of Thymosin Beta-4, a protein found in nearly all human cells. Its primary appeal is tissue repair: it regulates actin polymerization to accelerate cell migration across injury sites, stimulates new blood vessel formation (angiogenesis) via VEGF, reduces inflammation by suppressing IL-1β, TNF-α, and NF-κB, and promotes collagen deposition while reducing scar formation. Athletes and researchers have explored it for muscle, tendon, and connective-tissue recovery, cardiac protection, and hair follicle reactivation via Wnt/β-catenin signaling. It is often compared to BPC-157 but is considered particularly suited for scarring, heart protection, and high-load athletic recovery.
+
+## How to get it
+
+There are no dietary food sources of TB-500. It exists endogenously as the full 43-amino-acid Thymosin Beta-4, but the supplemental form is a fully synthetic, water-soluble peptide unavailable from food or drink.
+
+**Administration routes:**
+
+- **Subcutaneous or intramuscular injection** — the primary and most bioavailable route; effects are systemic regardless of injection site
+- **Nasal spray** — lower bioavailability; used in some research contexts without established human pharmacokinetic data
+- **Topical preparations** — lowest bioavailability; similarly limited evidence in humans
+
+Oral consumption is not viable because digestive enzymes degrade peptides before systemic absorption can occur. TB-500 is frequently combined with BPC-157 in recovery protocols, with both delivered by injection for synergistic muscle and tendon repair.
+
+## Dosing
+
+No official RDI, RDA, or tolerable upper intake level exists for TB-500. All figures are drawn from anecdotal and research-community reports only.
+
+Reported protocols vary considerably:
+
+- **Maintenance/baseline:** 250–500 mcg twice weekly
+- **Injury/high-demand repair:** 2–5 mg twice weekly, with some reports citing up to 3 mg twice per week or 7–14 mg weekly in combined peptide regimens
+- **Daily low-dose blends:** ~1 mg/day alongside other peptides
+
+Because TB-500 is injected, timing relative to meals is irrelevant; scheduling around training sessions or injury events is the typical approach. Anecdotal practitioner guidance consistently recommends limiting continuous use to no more than one month at a time before cycling off, applicable to both TB-500 and BPC-157 protocols. No dose has been validated in controlled human trials.
+
+## Risks
+
+**Regulatory status:** TB-500 has no FDA approval for human use, and the FDA has flagged it specifically due to the complete absence of controlled human safety data. No systematic human efficacy or safety trials exist.
+
+**Oncological concern:** TB-500's pro-angiogenic mechanism — a primary reason it's sought for recovery — may inadvertently accelerate growth of undiagnosed tumors. This is a serious theoretical risk that cannot be quantified without human trial data.
+
+**Autoimmune conditions:** Its tissue-growth modulation effects pose theoretical risk in autoimmune disorders.
+
+**Sports ban:** WADA prohibits TB-500 in competitive sports specifically because angiogenesis and soft-tissue repair enable higher training loads, conferring performance advantages.
+
+**Upper limit:** No formal UL has been established by any regulatory body. Long-term safety is entirely uncharacterized.
+
+**Drug and nutrient interactions:** No formally identified drug interactions exist, but combination with medications affecting the liver or cardiovascular system is strongly discouraged. TB-500 should not be used alongside any medication without direct physician supervision. Given zero human pharmacokinetic data, all interaction risks remain unknown.
+
+## Products
+
+TB-500 is sold commercially as a lyophilized (freeze-dried) powder in sterile vials for research use only — not for human consumption or therapeutic use. Quality is evaluated by batch-specific Certificates of Analysis (COAs) from independent labs, covering HPLC purity (ideally ≥99%), LC-MS identity confirmation, net peptide content, endotoxin levels, sterility, and heavy metals screening.
+
+### 1. Peerless Peptides (10 mg TB-500 lyophilized vials)
+
+**Why:** Mixed, bottled, and tested entirely in the USA by an American-owned company, with every batch independently verified by ILS Laboratories (ISO/IEC 17025 and PJLA-accredited). Their five-point full-panel testing covers HPLC purity (>99%), identity, endotoxin (USP <85>), sterility via PCR screen, and heavy metals via ICP-MS (USP <233>). Batch-specific COAs ship with every vial. Pure lyophilized white powder with no added fillers.
+
+### 2. Ascension Peptides (5 mg or 10 mg TB-500 lyophilized vials)
+
+**Why:** Consistently ranked a consensus top pick for transparency and multi-lab verification. Ascension publishes a searchable public COA library by lot and product, with recent TB-500 results showing ~99.67% HPLC purity, confirmed LC-MS identity, net content meeting or exceeding label claims, endotoxin pass, sterility pass, and negative heavy metals screening. US-based (Colorado) with cold-chain handling practices noted.
+
+### 3. Verified Peptides (10 mg TB-500 lyophilized vials)
+
+**Why:** Uses Janoshik Analytical — a widely respected reference lab in the peptide research space — with authentication codes allowing direct public verification of each report on Janoshik's own site. Batch-specific COAs document HPLC purity in the 99.1–99.8% range, net peptide content, TFA-not-detected status, endotoxin pass, and sterility pass. Historical COA data is openly published, and the vendor offers competitive pricing with bulk tiers.
