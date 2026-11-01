@@ -48,7 +48,8 @@ The diagram comes from the compiled graph (only the edge labels were added by ha
 ANTHROPIC_API_KEY=x XAI_API_KEY=x uv run python -c "from health_agent.config import Settings; from health_agent.graph import build_graph; print(build_graph(Settings()).get_graph().draw_mermaid())"
 ```
 
-- **Fan-out.** A Haiku classifier flags women's-health questions. Base RAG, trusted X search and women's-health X search then run in parallel. The women's-health search is skipped for other questions.
+- **Follow-ups.** Research only sees one question, so a Haiku call first rewrites a follow-up to stand alone, using the last few turns: "what dose?" after a question about magnesium for sleep becomes a question about magnesium dosing for sleep. Every search, the reranker and the judge use that question. The answer still responds to the user's own words, with the whole conversation in view. A first message is researched as written, and if the call fails the follow-up is too.
+- **Fan-out.** The same Haiku call flags women's-health questions. Base RAG, trusted X search and women's-health X search then run in parallel. The women's-health search is skipped for other questions.
 - **Enrichment.** Besides its findings, trusted X search returns rewritten queries. Those queries run a second RAG pass, which pulls in archive material the user's wording would have missed.
 - **Merge.** The base and enriched results are combined with reciprocal rank fusion, then reranked against the original question.
 - **Gate.** A Claude judge reads the evidence and decides whether it is enough. If not, unrestricted X search runs before synthesis.

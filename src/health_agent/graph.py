@@ -51,6 +51,10 @@ STATUS_SKIPPED = "skipped"
 
 NO_RAG_RESULTS = "No relevant documents found."
 
+# How much of the conversation the classifier sees when rewriting a follow-up.
+HISTORY_MESSAGES = 6
+HISTORY_MESSAGE_CHARS = 1500
+
 SYNTHESIS_FALLBACK_TEXT = (
     "I wasn't able to assemble a complete answer from the evidence I gathered. "
     "Try rephrasing your question or adding specifics."
@@ -114,8 +118,33 @@ class WomensHealthSearchAnalysis(BaseModel):
     findings: list[SearchFinding] = Field(default_factory=list)
 
 
-class WomensHealthClassification(BaseModel):
+class QuestionAnalysis(BaseModel):
     is_womens_health: bool
+    standalone_question: str = ""
+
+
+def _message_text(message) -> str:
+    content = message.content
+    if isinstance(content, list):
+        content = "\n".join(
+            block.get("text", "") if isinstance(block, dict) else str(block)
+            for block in content
+        )
+    return str(content).strip()
+
+
+def _conversation_transcript(messages: list) -> str:
+    """The last few turns as plain text, with long answers cut to their opening."""
+    turns: list[str] = []
+    for message in messages[-HISTORY_MESSAGES:]:
+        text = _message_text(message)
+        if not text:
+            continue
+        if len(text) > HISTORY_MESSAGE_CHARS:
+            text = text[:HISTORY_MESSAGE_CHARS].rstrip() + " …"
+        role = "User" if message.type == "human" else "Assistant"
+        turns.append(f"{role}: {text}")
+    return "\n\n".join(turns)
 
 
 def _strip_grok_render_tags(content: str) -> str:
@@ -309,12 +338,20 @@ reconstruct, or fabricate URLs. Include at most 3 URLs per finding.
 
 Do not include any text outside the JSON object."""
 
-    classifier_system = """Classify whether the user's question is specifically related to
-female physiology, pregnancy, postpartum, breastfeeding, fertility, menstrual or
-hormonal cycles, menopause, or motherhood. General health questions that apply to
-both sexes are NOT women's-health-specific.
+    classifier_system = """You prepare the user's latest question for research. The
+conversation so far may come before it.
 
-Return ONLY a JSON object: {"is_womens_health": true} or {"is_womens_health": false}.
+1. "standalone_question": rewrite the latest question so it can be researched with no
+   access to the conversation. Resolve references ("it", "that dose", "what about for
+   kids?") to what they point to, and keep the user's intent, scope and specifics. If it
+   already stands alone, or is not a question at all (thanks, small talk), return it
+   unchanged. Do not answer it.
+2. "is_womens_health": whether the standalone question is specifically related to
+   female physiology, pregnancy, postpartum, breastfeeding, fertility, menstrual or
+   hormonal cycles, menopause, or motherhood. General health questions that apply to
+   both sexes are NOT women's-health-specific.
+
+Return ONLY a JSON object: {"standalone_question": "...", "is_womens_health": false}.
 Do not include any text outside the JSON object."""
 
     synthesis_system = """You are a knowledgeable health and wellness assistant.
@@ -358,30 +395,45 @@ Do not include any text outside the JSON object."""
     def classify_womens_health(state: AgentState):
         _emit_phase("classify_womens_health", "started")
         turn_start = {"trace": TRACE_RESET, "run_started_at": time.time()}
-        last_message = state["messages"][-1]
+        *history, last_message = state["messages"]
+        latest = _message_text(last_message)
+        transcript = _conversation_transcript(history)
+        classifier_user = (
+            f"## Conversation so far\n{transcript}\n\n## Latest question\n{latest}"
+            if transcript
+            else latest
+        )
         try:
             raw = classifier.invoke(
                 [
                     SystemMessage(content=classifier_system),
-                    HumanMessage(content=str(last_message.content)),
+                    HumanMessage(content=classifier_user),
                 ]
             )
             parsed = _parse_json_content(_extract_raw_content(raw))
-            result = WomensHealthClassification(**parsed)
+            result = QuestionAnalysis(**parsed)
+            # A first message is researched verbatim; only follow-ups are rewritten.
+            question = (transcript and result.standalone_question.strip()) or latest
+            if question != latest:
+                logger.info("Researching follow-up %r as %r", latest, question)
             _emit_phase(
                 "classify_womens_health",
                 "completed",
                 {"status": STATUS_SUCCESS, "is_womens_health": result.is_womens_health},
             )
-            return {**turn_start, "is_womens_health": result.is_womens_health}
+            return {
+                **turn_start,
+                "is_womens_health": result.is_womens_health,
+                "question": question,
+            }
         except Exception:
-            logger.exception("Women's-health classifier failed; defaulting to false")
+            logger.exception("Question classifier failed; researching the message as written")
             _emit_phase(
                 "classify_womens_health",
                 "completed",
                 {"status": STATUS_ERROR, "is_womens_health": False},
             )
-            return {**turn_start, "is_womens_health": False}
+            return {**turn_start, "is_womens_health": False, "question": latest}
 
     def womens_health_grok_search(state: AgentState):
         if not state.get("is_womens_health"):
@@ -393,7 +445,7 @@ Do not include any text outside the JSON object."""
             }
 
         _emit_phase("womens_health_search", "started")
-        last_message = state["messages"][-1]
+        question = state["question"]
         search_llm = trusted_grok.with_config({"tags": ["nostream"]}).bind(
             tools=[
                 {
@@ -405,7 +457,10 @@ Do not include any text outside the JSON object."""
 
         try:
             raw = search_llm.invoke(
-                [SystemMessage(content=womens_health_search_system), last_message]
+                [
+                    SystemMessage(content=womens_health_search_system),
+                    HumanMessage(content=question),
+                ]
             )
             content = _extract_raw_content(raw)
             try:
@@ -454,7 +509,7 @@ Do not include any text outside the JSON object."""
 
     def trusted_grok_search(state: AgentState):
         _emit_phase("trusted_search", "started")
-        last_message = state["messages"][-1]
+        question = state["question"]
         search_llm = trusted_grok.with_config({"tags": ["nostream"]}).bind(
             tools=[
                 {
@@ -466,7 +521,10 @@ Do not include any text outside the JSON object."""
 
         try:
             raw = search_llm.invoke(
-                [SystemMessage(content=trusted_search_system), last_message]
+                [
+                    SystemMessage(content=trusted_search_system),
+                    HumanMessage(content=question),
+                ]
             )
             content = _extract_raw_content(raw)
             try:
@@ -478,7 +536,7 @@ Do not include any text outside the JSON object."""
                         content,
                         "Malformed JSON fallback from trusted-account X Search.",
                     ),
-                    "refined_queries": [str(last_message.content)],
+                    "refined_queries": [question],
                 }
 
             parsed = _coerce_findings_payload(
@@ -492,7 +550,7 @@ Do not include any text outside the JSON object."""
             posts = post_urls(cited_urls)
             findings = attach_matched_posts(findings, posts, settings)
             cleaned_response = _format_findings(findings)
-            refined_queries = _normalize_queries(result.refined_queries, str(last_message.content))
+            refined_queries = _normalize_queries(result.refined_queries, question)
             status = _findings_status(findings)
             return {
                 **_complete_phase(
@@ -516,20 +574,23 @@ Do not include any text outside the JSON object."""
                 **_complete_phase("trusted_search", {"status": STATUS_ERROR}),
                 "trusted_search_findings": [],
                 "trusted_search_response": "[]",
-                "trusted_refined_queries": [str(last_message.content)],
+                "trusted_refined_queries": [question],
                 "trusted_search_status": STATUS_ERROR,
             }
 
     def unrestricted_grok_search(state: AgentState):
         _emit_phase("unrestricted_search", "started")
-        last_message = state["messages"][-1]
+        question = state["question"]
         search_llm = unrestricted_grok.with_config({"tags": ["nostream"]}).bind(
             tools=[{"type": "x_search"}]
         )
 
         try:
             raw = search_llm.invoke(
-                [SystemMessage(content=unrestricted_search_system), last_message]
+                [
+                    SystemMessage(content=unrestricted_search_system),
+                    HumanMessage(content=question),
+                ]
             )
             content = _extract_raw_content(raw)
             try:
@@ -576,9 +637,9 @@ Do not include any text outside the JSON object."""
 
     def rag_retrieve_base(state: AgentState):
         _emit_phase("rag_base", "started")
-        original_query = str(state["messages"][-1].content)
+        question = state["question"]
         try:
-            docs = _run_search_retrieval([original_query], settings)
+            docs = _run_search_retrieval([question], settings)
             status = _docs_status(docs)
             return {
                 **_complete_phase(
@@ -597,11 +658,11 @@ Do not include any text outside the JSON object."""
 
     def rag_retrieve_enrich(state: AgentState):
         _emit_phase("rag_enrich", "started")
-        original_query = str(state["messages"][-1].content)
+        question = state["question"]
         candidate_queries = [
             query
             for query in state["trusted_refined_queries"]
-            if query.strip().lower() != original_query.strip().lower()
+            if query.strip().lower() != question.strip().lower()
         ]
 
         if not candidate_queries:
@@ -638,14 +699,14 @@ Do not include any text outside the JSON object."""
 
     def rag_merge(state: AgentState):
         _emit_phase("rag_merge", "started")
-        original_query = str(state["messages"][-1].content)
+        question = state["question"]
         try:
             merged_docs = reciprocal_rank_fusion(
                 [state["base_rag_docs"], state["enrich_rag_docs"]],
                 [1.0, 1.0],
                 k=settings.rrf_k,
             )
-            reranked_docs = rerank_documents(original_query, merged_docs, settings)
+            reranked_docs = rerank_documents(question, merged_docs, settings)
             rag_status = _docs_status(reranked_docs)
             base_ids = {doc_id(doc) for doc in state["base_rag_docs"]}
             enrich_ids = {doc_id(doc) for doc in state["enrich_rag_docs"]}
@@ -697,7 +758,7 @@ Do not include any text outside the JSON object."""
                 "gate_reason": reason,
             }
 
-        user_question = str(state["messages"][-1].content)
+        user_question = state["question"]
         judge_sections = [
             f"## User Question\n{user_question}",
             f"## Trusted X Findings\n{state['trusted_search_response']}",

@@ -9,6 +9,8 @@ from health_agent.trace import merge_trace
 
 class AgentState(TypedDict):
     messages: Annotated[list, add_messages]
+    # The latest message, rewritten to stand alone when it is a follow-up; what research uses.
+    question: str
     is_womens_health: bool
     trusted_search_findings: list[dict[str, object]]
     trusted_search_response: str
