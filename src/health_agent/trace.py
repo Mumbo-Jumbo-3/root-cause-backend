@@ -243,15 +243,27 @@ def phase_event(
     return event
 
 
-def finding_document(item: dict[str, object], channel: str) -> dict[str, object]:
-    """A citable Claude document for one X finding (only the claim is citable)."""
+def finding_document(
+    item: dict[str, object], channel: str, posts: list[dict[str, str]]
+) -> dict[str, object]:
+    """A citable Claude document for one X finding.
+
+    The source posts' own text is what gets cited, with Grok's claim as context. A
+    finding whose posts couldn't be fetched falls back to citing the claim.
+    """
     handles = item.get("handles") or []
     title = channel + (f" — {', '.join('@' + h for h in handles)}" if handles else "")  # type: ignore[union-attr]
+    why = f"Why it matters: {item['relevance']}"
+    if posts:
+        data = "\n\n".join(f"@{post['handle']}: {post['text']}" for post in posts)
+        context = f"Summary: {item['claim']}\n{why}"
+    else:
+        data, context = str(item["claim"]), why
     return {
         "type": "document",
-        "source": {"type": "text", "media_type": "text/plain", "data": item["claim"]},
+        "source": {"type": "text", "media_type": "text/plain", "data": data},
         "title": title,
-        "context": f"Why it matters: {item['relevance']}",
+        "context": context,
         "citations": {"enabled": True},
     }
 
