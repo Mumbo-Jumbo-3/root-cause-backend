@@ -1,6 +1,7 @@
 import json
 from unittest.mock import MagicMock, patch
 
+import pytest
 from langchain_core.documents import Document
 from langchain_core.messages import AIMessage, HumanMessage
 from langgraph.checkpoint.memory import InMemorySaver
@@ -76,6 +77,13 @@ def _make_tracked_json_model(payload):
     model = MagicMock()
     model.invoke = MagicMock(return_value=AIMessage(content=json.dumps(payload)))
     return model
+
+
+@pytest.fixture(autouse=True)
+def _no_x_fetches():
+    """Search nodes fetch the posts behind findings; keep tests off the network."""
+    with patch("health_agent.x_posts.fetch_posts", return_value=[]):
+        yield
 
 
 def _finding(
@@ -537,6 +545,28 @@ def test_claude_synthesize_attaches_evidence_as_citable_documents():
     assert documents[1]["context"] == "Why it matters: Directly about male fertility."
     assert content[-1]["type"] == "text"
     assert "1 curated research archive excerpts and 1 X findings" in content[-1]["text"]
+
+
+def test_claude_synthesize_cites_the_posts_behind_a_finding():
+    captured = {}
+    fn = _get_node_func("claude_synthesize", claude=_make_claude_model(captured))
+    finding = {
+        **_finding(
+            claim="Zinc supports sperm motility.",
+            source_urls=["https://x.com/hubermanlab/status/111"],
+            relevance="Directly about male fertility.",
+        ),
+        "posts": [{"handle": "hubermanlab", "text": "Zinc is key for sperm motility."}],
+    }
+
+    fn(_synth_state(trusted_search_findings=[finding]))
+
+    content = captured["messages"][-1].content
+    document = [block for block in content if block.get("type") == "document"][-1]
+    assert document["source"]["data"] == "@hubermanlab: Zinc is key for sperm motility."
+    assert document["context"] == (
+        "Summary: Zinc supports sperm motility.\nWhy it matters: Directly about male fertility."
+    )
 
 
 def test_claude_synthesize_flattens_citations_and_persists_trace():

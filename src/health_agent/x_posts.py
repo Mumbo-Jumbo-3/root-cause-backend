@@ -1,10 +1,11 @@
-"""Attribute X posts to Grok findings by matching post text.
+"""Attach the X posts behind each Grok finding, with their text.
 
-Grok's x_search reports which posts it read, but almost never which post supports
-which finding. We fetch each post's text from X's public syndication API (the same
-one the frontend's tweet embeds use) and rerank the posts against each finding's
-claim. Close, high-scoring matches become that finding's sources, flagged as
-`matched` so the UI doesn't present them as Grok's own citations.
+Grok's findings paraphrase posts, so later steps judge and cite the posts' own text
+instead. We fetch each post the search read from X's public syndication API (the
+same one the frontend's tweet embeds use). Grok rarely says which post supports
+which finding, so findings without source URLs are matched by reranking the posts
+against their claim. Close, high-scoring matches become that finding's sources,
+flagged as `matched` so the UI doesn't present them as Grok's own citations.
 """
 
 import logging
@@ -26,9 +27,11 @@ FETCH_TIMEOUT_S = 4.0
 MAX_WORKERS = 8
 # Reranks share Voyage's rate limit with RAG; up to three search steps match at once.
 RERANK_WORKERS = 3
-# Matching sits on the chat's critical path (enriched RAG waits for trusted search),
-# so it gets one fixed budget; past it, findings go out unlinked.
-MATCH_BUDGET_S = 5.0
+# Fetching and matching sit on the chat's critical path (enriched RAG waits for
+# trusted search), so they get one fixed budget; past it, findings go out without posts.
+POSTS_BUDGET_S = 5.0
+# Long-form posts run to 25k characters; the opening carries the point.
+MAX_POST_CHARS = 2000
 
 # Any post scoring at least this well counts as one of a finding's sources. Set
 # liberally: true sources scored 0.71-0.97 on real runs, and posts on the same
@@ -107,11 +110,30 @@ def fetch_post(client: httpx.Client, url: str) -> Post | None:
         return None
     if not isinstance(data, dict) or data.get("__typename") == "TweetTombstone":
         return None
-    text = (data.get("note_tweet") or {}).get("text") or data.get("text") or ""
-    handle = (data.get("user") or {}).get("screen_name") or ""
+    text = _tweet_text(data)
+    handle = _tweet_handle(data)
     if not text.strip() or not handle:
         return None
-    return Post(url=f"https://x.com/{handle}/status/{status_id}", handle=handle, text=text)
+    # A reply or quote often says little without the post it answers or quotes.
+    parent = data.get("parent") or {}
+    quoted = data.get("quoted_tweet") or {}
+    if _tweet_text(parent):
+        text = f"Replying to @{_tweet_handle(parent)}: {_tweet_text(parent)}\n\n{text}"
+    if _tweet_text(quoted):
+        text = f"{text}\n\nQuoting @{_tweet_handle(quoted)}: {_tweet_text(quoted)}"
+    return Post(
+        url=f"https://x.com/{handle}/status/{status_id}",
+        handle=handle,
+        text=text[:MAX_POST_CHARS],
+    )
+
+
+def _tweet_text(tweet: dict) -> str:
+    return (tweet.get("note_tweet") or {}).get("text") or tweet.get("text") or ""
+
+
+def _tweet_handle(tweet: dict) -> str:
+    return (tweet.get("user") or {}).get("screen_name") or ""
 
 
 def fetch_posts(urls: list[str]) -> list[Post]:
@@ -146,45 +168,76 @@ def _rank_posts(claim: str, posts: list[Post], settings: Settings) -> list[tuple
     return [(doc.metadata["post_index"], doc.metadata["relevance_score"]) for doc in ranked]
 
 
-def attach_matched_posts(
+def attach_posts(
     findings: list[dict[str, object]], post_urls: list[str], settings: Settings
 ) -> list[dict[str, object]]:
-    """Give findings without source URLs the posts whose text supports them.
+    """Give each finding `posts`: the handle and text of the posts it rests on.
 
-    Never raises and never takes longer than MATCH_BUDGET_S: if posts can't be fetched
-    or ranked in time, findings come back unchanged.
+    Findings without source URLs first get the read posts whose text supports them.
+    Never raises and never takes longer than POSTS_BUDGET_S: if posts can't be fetched
+    in time, findings come back unchanged.
     """
-    pending = [i for i, finding in enumerate(findings) if not finding.get("source_urls")]
-    if not pending or not post_urls:
+    urls: dict[str, str] = {}
+    for url in [*post_urls, *(u for f in findings for u in f.get("source_urls", []))]:  # type: ignore[union-attr]
+        if status_id := tweet_status_id(url):
+            urls.setdefault(status_id, url)
+    if not findings or not urls:
         return findings
     executor = ThreadPoolExecutor(max_workers=1, thread_name_prefix="x-posts")
-    future = executor.submit(_match_posts, findings, pending, post_urls, settings)
+    future = executor.submit(_attach_posts, findings, list(urls.values()), settings)
     # Don't wait on exit: work past the budget finishes in the background and is dropped.
     executor.shutdown(wait=False)
     try:
-        return future.result(timeout=MATCH_BUDGET_S)
+        return future.result(timeout=POSTS_BUDGET_S)
     except TimeoutError:
         logger.warning(
-            "Matching X posts took over %.0fs; leaving findings unlinked", MATCH_BUDGET_S
+            "Fetching X posts took over %.0fs; findings go out without posts", POSTS_BUDGET_S
         )
     except Exception:
-        logger.exception("Matching X posts to findings failed; leaving findings unlinked")
+        logger.exception("Attaching X posts to findings failed; findings go out without posts")
     return findings
 
 
-def _match_posts(
-    findings: list[dict[str, object]],
-    pending: list[int],
-    post_urls: list[str],
-    settings: Settings,
+def _attach_posts(
+    findings: list[dict[str, object]], urls: list[str], settings: Settings
 ) -> list[dict[str, object]]:
-    posts = fetch_posts(post_urls)
+    posts = fetch_posts(urls)
     if not posts:
         return findings
-    with ThreadPoolExecutor(min(len(pending), RERANK_WORKERS)) as pool:
-        rankings = list(
-            pool.map(lambda i: _rank_posts(str(findings[i]["claim"]), posts, settings), pending)
-        )
+    by_id = {tweet_status_id(post.url): post for post in posts}
+    attached: list[dict[str, object]] = []
+    for finding in _match_posts(findings, posts, settings):
+        sources = [
+            by_id[status_id]
+            for url in finding.get("source_urls", [])  # type: ignore[union-attr]
+            if (status_id := tweet_status_id(url)) in by_id
+        ]
+        if sources:
+            finding = {
+                **finding,
+                "posts": [{"handle": post.handle, "text": post.text} for post in sources],
+            }
+        attached.append(finding)
+    return attached
+
+
+def _match_posts(
+    findings: list[dict[str, object]], posts: list[Post], settings: Settings
+) -> list[dict[str, object]]:
+    """Give findings without source URLs the posts whose text supports them."""
+    pending = [i for i, finding in enumerate(findings) if not finding.get("source_urls")]
+    if not pending:
+        return findings
+    try:
+        with ThreadPoolExecutor(min(len(pending), RERANK_WORKERS)) as pool:
+            rankings = list(
+                pool.map(
+                    lambda i: _rank_posts(str(findings[i]["claim"]), posts, settings), pending
+                )
+            )
+    except Exception:
+        logger.exception("Matching X posts to findings failed; leaving them unlinked")
+        return findings
 
     matched = list(findings)
     for i, scores in zip(pending, rankings):

@@ -39,7 +39,7 @@ from health_agent.trace import (
     phase_event,
     post_urls,
 )
-from health_agent.x_posts import attach_matched_posts
+from health_agent.x_posts import attach_posts
 
 
 logger = logging.getLogger(__name__)
@@ -361,8 +361,10 @@ Evidence is attached as documents from up to four channels:
 3. Trusted women's-health X accounts (only present for women's-health questions)
 4. Broader X search (may be absent)
 
-Each X document holds one finding distilled from posts; its context explains why it
-matters. Use findings as evidence, not as prose to repeat verbatim.
+Each X document holds the posts behind one finding; its context summarizes the finding
+and why it matters. Ground claims in what the posts say, not in the summary, and use
+posts as evidence, not as prose to repeat verbatim. A document with no posts holds only
+the summary, because its posts were unavailable.
 Write a comprehensive, practical response that prioritizes those sources in that order.
 Ground specific claims in the attached documents so they carry citations. Do not write
 your own reference numbers, footnotes, or sources list; citations are attached automatically.
@@ -380,7 +382,8 @@ the user's health question.
 Given:
 - The user's question
 - Retrieved RAG documents from the curated research archive
-- Structured findings from trusted X accounts
+- Structured findings from trusted X accounts, each with the text of the posts it
+  rests on where available ("posts"); weigh what the posts say over the claim
 
 Return ONLY a JSON object with:
 - "sufficient": boolean — true if the evidence is specific, on-topic, and comprehensive
@@ -485,7 +488,7 @@ Do not include any text outside the JSON object."""
             cited_urls = grok_cited_urls(raw)
             findings = filter_uncited_urls(findings, cited_urls)
             posts = post_urls(cited_urls)
-            findings = attach_matched_posts(findings, posts, settings)
+            findings = attach_posts(findings, posts, settings)
             cleaned_response = _format_findings(findings)
             status = _findings_status(findings)
             return {
@@ -548,7 +551,7 @@ Do not include any text outside the JSON object."""
             cited_urls = grok_cited_urls(raw)
             findings = filter_uncited_urls(findings, cited_urls)
             posts = post_urls(cited_urls)
-            findings = attach_matched_posts(findings, posts, settings)
+            findings = attach_posts(findings, posts, settings)
             cleaned_response = _format_findings(findings)
             refined_queries = _normalize_queries(result.refined_queries, question)
             status = _findings_status(findings)
@@ -613,7 +616,7 @@ Do not include any text outside the JSON object."""
             cited_urls = grok_cited_urls(raw)
             findings = filter_uncited_urls(findings, cited_urls)
             posts = post_urls(cited_urls)
-            findings = attach_matched_posts(findings, posts, settings)
+            findings = attach_posts(findings, posts, settings)
             cleaned_response = _format_findings(findings)
             status = _findings_status(findings)
             return {
@@ -841,8 +844,8 @@ Do not include any text outside the JSON object."""
                 ("Broader X search", "x-broad", state.get("unrestricted_search_findings", []))
             )
         for channel, prefix, findings in x_channels:
-            for item in finding_items(findings, prefix):
-                documents.append(finding_document(item, channel))
+            for finding, item in zip(findings, finding_items(findings, prefix)):
+                documents.append(finding_document(item, channel, finding.get("posts", [])))  # type: ignore[arg-type]
                 evidence_ids.append(str(item["id"]))
 
         _emit_phase("synthesize", "started", detail={"evidence": evidence_ids})
